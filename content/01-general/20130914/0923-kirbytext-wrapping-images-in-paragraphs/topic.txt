@@ -1,0 +1,27 @@
+Title: Kirbytext wrapping images in paragraphs
+----
+Date: 2013-09-14 09:23:26
+----
+Solved: 0
+----
+User: jrantaka
+----
+Text: Hey,
+
+I was wondering if there is a way to prevent kirbytext not outputting images in text inside paragraphs? I have a situation that when I have for example two paragraphs like this:
+
+```
+<p>This is paragraph number 1</p>
+<p><img src="#"></p>
+<p>This is paragraph number 2</p>
+```
+
+The image gets it's own set of paragraphs (because of the line breaks in the text file I think). The way I would like it would be:
+
+```
+<p>This is paragraph number 1</p>
+<img src="#">
+<p>This is paragraph number 2</p>
+```
+
+Because I would like to set the images widths wider than the paragraphs and can't really work it out properly if they're inside a paragraph.

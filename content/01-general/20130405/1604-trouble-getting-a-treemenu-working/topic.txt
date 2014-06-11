@@ -1,0 +1,39 @@
+Title: Trouble getting a treemenu working.
+----
+Date: 2013-04-05 16:04:39
+----
+Solved: 0
+----
+User: arlamentis
+----
+Text: Need a little bit of help here for a simple gallery section with a submenu and a subsubmenu for each category of the submenu.
+
+to look like that 
+
+*Mainmenu:*
+home/ about/ gallery/ contact/
+***
+*in the gallery section:*
+                gallery
+***
+*a submenu:*
+			paintings			
+
+				*a subsubmenu:*				
+					2009
+			photo
+			drawing
+***
+the  objective is to get something like in the knowledge-base template or the styleguide.
+
+painting: is a subfolder of the gallery folder
+2009: is a subfolder of the painting folder
+
+I have a specifique template for the painting folder to laod the treemenu snippet and show the 2009 folder.
+But i cant get it to work properly, i get as output all the element of the menu.
+
+well is a little bit of a mess, i hope someone will be able to understand, i'm still looking into the fun with menu tutorial but my understanding of php is quit limited
+
+Thanks in advance.
+
+theo

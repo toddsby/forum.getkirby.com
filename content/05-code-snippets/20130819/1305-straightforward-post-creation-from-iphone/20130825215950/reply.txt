@@ -1,0 +1,7 @@
+User: Pgruneich
+----
+Date: 2013-08-25 21:59:50
+----
+Text: [Here](http://cl.ly/R0OR) is a similar snippet you can pull from 1Writer or Drafts to create a blogarticle.txt. It's a slightly variant of the aforementioned code.
+
+[Here](http://philgr.com/blog/Safari-bookmarklet-to-create-Kirby-posts) you can find the guide to use Safari bookmarklets instead of Ashes to built quote posts.

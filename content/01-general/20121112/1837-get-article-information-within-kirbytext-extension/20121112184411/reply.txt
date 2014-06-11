@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2012-11-12 18:44:11
+----
+Text: Looking at the kirbytext parser, would $this->title do it?

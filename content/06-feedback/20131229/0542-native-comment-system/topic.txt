@@ -1,0 +1,24 @@
+Title: Native Comment System
+----
+Date: 2013-12-29 05:42:04
+----
+Solved: 0
+----
+User: chrisburton
+----
+Text: I'd really really like to see a native comment system for Kirby.
+
+Features of what I'd like to have:
+
+  - Social Integration (login with Twitter **or** Facebook).
+  - Comment like (+1) count feature (already developed, just have to implement).
+  - Moderation (hide and delete comments).
+  - Spam protection.
+  - Allow us the option to control the html (for styling the comments).
+  - AJAX (new comments post live on the site).
+  - Database (a file system may not be ideal to store comments).
+<br>
+#### Most importantly it needs to be incredibly easy to install/setup.
+
+<br>
+_And yes, I'd be willing to pay for this._

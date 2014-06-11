@@ -1,0 +1,9 @@
+User: bastianallgeier
+----
+Date: 2012-08-24 17:03:19
+----
+Text: Yep, it's resolved. Make sure to get the latest Kirby and Panel dev versions: 
+
+<http://github.com/bastianallgeier/kirbycms/tree/dev>
+
+<https://github.com/bastianallgeier/kirbycms-panel/tree/dev>

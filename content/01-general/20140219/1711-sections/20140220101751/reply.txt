@@ -1,0 +1,7 @@
+User: hamishtaplin
+----
+Date: 2014-02-20 10:17:51
+----
+Text: Thanks for your reply. In my case — I want to sidebar content unique to each page, just wondering how best to structure the content in the markdown. I think 'namespacing' them with an underscore is probably my best bet.
+
+Thanks again!

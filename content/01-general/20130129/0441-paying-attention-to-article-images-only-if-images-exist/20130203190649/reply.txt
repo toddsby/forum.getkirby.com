@@ -1,0 +1,7 @@
+User: adrianthomas
+----
+Date: 2013-02-03 19:06:49
+----
+Text: This is actually something I'd like to see Kirby handle better ootb: it's quite annoying to have to add if statements all over your templates just in case you forgot to put a date/image/header/whatever in a folder.
+
+Anyone familiar enough with the code base fancy having a crack at it and asking Bastian to add it via Github? :)

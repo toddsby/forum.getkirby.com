@@ -1,0 +1,5 @@
+User: theoriginalivor
+----
+Date: 2013-02-02 23:16:07
+----
+Text: Thanks but that's not what I was asking. What I'm asking is for a URL rewrite, what you are referring to is changing the default to blog.

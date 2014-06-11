@@ -1,0 +1,16 @@
+Title: Changing ‘Content File Extension’ renders ‘site.md’ not writable in Panel
+----
+Date: 2012-10-18 13:41:23
+----
+Solved: 1
+----
+User: russbaldwin
+----
+Text: If you change the file extension in site *config.php* file, say to 'md':
+		
+	c::set('content.file.extension', 'md');
+	
+You can longer edit the 'site.md' in Panel (Edit Info), as it seems to be looking for the file with a '.txt' extension. I cannot immediately see where this is to suggest a fix, but the error is:
+
+	content/site.txt is not writable.
+	Please change its permissions and try again

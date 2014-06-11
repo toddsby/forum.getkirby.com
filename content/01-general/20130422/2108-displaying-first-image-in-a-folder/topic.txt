@@ -1,0 +1,21 @@
+Title: Displaying First Image in a Folder
+----
+Date: 2013-04-22 21:08:25
+----
+Solved: 0
+----
+User: malcolmmcatee
+----
+Text: My existing code..I would like to show an text excerpt (working) + grab the first image in the directory, Thanks, Malcolm
+
+    <a href="<?php echo $item->url() ?>">
+       <?php echo html($item->title()) ?></a>
+    <?php if($item->hasImages()): ?> 
+	  <?php foreach ($item->images() as $image ) : ?>
+            <a href="<?php echo $item->url() ?>">
+              <img src="<?php echo $image->url() ?>" alt="<?php echo $image->name() ?>" /><
+       /a>
+          <?php endforeach; ?>
+         <?php endif; ?>
+         <p><?php echo excerpt($item->text(), 200) ?>
+     <a href="<?php echo $item->url() ?>">Read More</a></p>

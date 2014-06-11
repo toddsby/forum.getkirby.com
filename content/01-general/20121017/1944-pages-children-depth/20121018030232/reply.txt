@@ -1,0 +1,12 @@
+User: prayasabhinav
+----
+Date: 2012-10-18 03:02:32
+----
+Text: "You have to fetch the children of the children.. of the children.."
+
+Can you please give me an example? Or point me to a snippet? I understand the logic, but trying to get the php loop right, 
+
+thanks,
+
+best wishes, 
+prayas

@@ -1,0 +1,5 @@
+User: roman_oroco
+----
+Date: 2013-02-06 18:24:14
+----
+Text: @russbaldwin Yes, I have 5 images named `01.jpg`, `02.jpg`, […]. I have this issue maybe because I'm using multi-language, I'll test and let you know.

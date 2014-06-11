@@ -1,0 +1,15 @@
+User: screencuts
+----
+Date: 2014-02-14 10:01:23
+----
+Text: Yes, well, of course after writing that post I realized I should just try that url and see what happens.  It loads the default (i.e. default.php) template and seems to automatically pull the home page content. 
+
+So I think my instinct was correct about this functionality needing to be built in. But how to go about it? 
+
+My thinking at first is to do something along the lines of the search plugin. Instantiate a category object for example, within the default template, that retrieves the right content. But it would be nice to rig it up so that the content is loaded up in $page already. That seems to be the more perfect solution. Ideas?
+
+Also, it would be nice if the categories could actually be retrieved using what in Wordpress would be called a pretty permalink, e.g.:
+
+    http://mysite.org/categories/ours
+
+Any input or hints would be much appreciated. Am I thinking in the "Kirby" way?

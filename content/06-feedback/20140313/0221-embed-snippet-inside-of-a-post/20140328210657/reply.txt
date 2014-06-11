@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2014-03-28 21:06:57
+----
+Text: OK, well I have one that works, but I need to expand it a little bit to be more flexible with what it pulls in. A little busy right now, but hopefully I can get it ready next week.

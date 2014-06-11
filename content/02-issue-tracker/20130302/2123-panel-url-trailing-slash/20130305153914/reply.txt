@@ -1,0 +1,11 @@
+User: iamirm
+----
+Date: 2013-03-05 15:39:14
+----
+Text: Thanks, 
+
+changing this solved the slash problem, however all urls are now changed to
+
+    http://www.mysite.com/mysite.com/test/site
+
+hmmm...

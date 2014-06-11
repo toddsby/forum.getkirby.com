@@ -1,0 +1,11 @@
+User: bastianallgeier
+----
+Date: 2013-06-24 14:01:23
+----
+Text: Sorry for my delayed reply and I'm glad you already found the answer. 
+
+My philosophy is that I really want you to be happy with Kirby before you buy it. It will lead to less support requests, more happy customers and various other positive side effects. Because of this you are free to test Kirby on your local machine or test server as long as you want and purchase a license once you found out it's the CMS you were looking for. 
+
+As you already pointed out the license code is not mandatory for your config. Kirby does not send back any information to any server or check the license key it all. It's more for your own purpose to track which license you use for which site. This also means that you can always reuse unused license codes for other projects as long as you make sure that you have a valid license for each site. 
+
+Cheers, Bastian

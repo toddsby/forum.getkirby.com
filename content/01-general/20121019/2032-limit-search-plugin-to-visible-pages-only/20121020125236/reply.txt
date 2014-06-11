@@ -1,0 +1,15 @@
+User: russbaldwin
+----
+Date: 2012-10-20 12:52:36
+----
+Text: Thanks for your advice #fitzage, I could not seem to get this to work. 
+ 
+I did think it would be best to filter the invisible pages out before searching? I initially tried to  create another 'isVisible' option for the search plugin, but in testing, just adding it manually to the plugin, I still cannot get it to work (I've added the '->visible' around line 87:
+
+	$pages = ($this->in) ? $site->pages()->visible->find($this->in)->children()->index() : $site->pages()->visible->index(); 
+ 	
+ I also tried using the snippet from [https://gist.github.com/3047130 (https://gist.github.com/3047130), but that gave me the error:
+ 		
+ 	Call to a member function children() on a non-object 
+ 		
+ Anyone have any other ideas?

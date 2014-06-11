@@ -1,0 +1,14 @@
+User: MartinHamant
+----
+Date: 2013-07-23 09:34:33
+----
+Text: Hi !  Thank you for the answer.
+With Jplayer I would need something like http://www.jplayer.org/latest/demo-02/
+
+Or dewplayer but I would not be able to change colors.
+
+Can you give me an example of what you did with JPlayer ? (and how you call it etc).
+
+Thank you !!
+
+PS: would be great to have a section like http://getkirby.com/blog/html5-videos but for audio :)

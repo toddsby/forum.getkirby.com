@@ -1,0 +1,7 @@
+User: plartz
+----
+Date: 2013-03-08 17:00:44
+----
+Text: Thanks guys. The actual problem was using two-space-intendation – kirby (or markdown, as I said I'm not sure) does not make a difference between two or four-space-intendation. So when you're using two spaces for each level, on the third one there are four spaces, which are detected as the same level as two spaces are. I just had to add two more spaces...
+
+My explanation sounds a bit confusing, but just try and get it :D

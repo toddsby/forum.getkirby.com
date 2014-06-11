@@ -1,0 +1,23 @@
+Title: Adding a loop to one folder within a template for a different folder
+----
+Date: 2013-12-23 17:56:15
+----
+Solved: 0
+----
+User: eugenebicyclist
+----
+Text: I'm building a one-page site. I have content from three folders being called onto the homepage: main-content; events; and food-menu. (This is a site for a cafe.)
+
+I'm doing this using the method you describe (link: http://getkirby.com/blog/one-pager text: here), and it is working great.
+
+The main-content and the food-menu are simple -- each folder contains just one text file. The events folder is like the "projects" folder in your tutorial, with multiple subfolders that each contain a text file with info for one event, making it simple to add new events. So in function, essentially it's like a little blog.
+
+Here's the trick: I want the events "blog" to appear not between main-content and food-menu, but inside an element within the main-content section (it will function basically as a little slider, so users can click through events).
+
+So I need to run the loop on the events subfolders inside the snippet for main-content. I'm just not sure how to set up a variable to access that content when I'm operating on the main-content data at the time.
+
+Of course, then I need to exclude the events folder from the first loop, which calls the three primary folders.
+
+Since I've only got three pieces to the homepage (not counting header and footer) I don't feel compelled to use the primary loop at all. But I still need to run a blog-style loop from within a different page folder.
+
+Does this question make sense? Ideas?

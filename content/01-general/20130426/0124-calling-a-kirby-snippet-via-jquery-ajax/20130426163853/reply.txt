@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-04-26 16:38:53
+----
+Text: You can use the PHP function `$_SERVER['DOCUMENT_ROOT']` to avoid hard-coding the root. That will get you to the base level of the Kirby install, and then you should be able to add that to the rest of your path. You may end up with some unholy combination of PHP and javascript. :-)

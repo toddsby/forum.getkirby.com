@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-02-11 11:22:37
+----
+Text: Maybe better off with gzip compression, pre-make thumbs using the method I mentioned earlier and HTML cache? 
+
+I don't have any experience of XCache/eAccelerator, but as it generating the thumbs which is causing your problem I'm not sure they would help? Using Kirby caching will do a lot of what these do anyway (I think?).

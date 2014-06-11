@@ -1,0 +1,27 @@
+Title: Kirby setup to complete
+----
+Date: 2014-02-07 19:31:05
+----
+Solved: 0
+----
+User: bemobilefirst
+----
+Text: I create a website with Kirby with an iMac in MAMP.
+I use GitHub to sync my dev and prod machines.
+
+For both machines, my setups in config.php are:
+URL Setup
+c::set('url', false);
+Subfolder Setup
+c::set('subfolder', false);
+
+On the dev iMac with MAMP, everything is working perfectly.
+
+When I publish my website to my prod host, an OS X Server machine, with exactly the same setups, the links are broken.
+
+For instance, when I click to the blog link, this message appears:
+"Not Found
+The requested URL /website/blog was not found on this server.
+Apache/2.2.24 (Unix) DAV/2 PHP/5.4.17 mod_ssl/2.2.24 OpenSSL/0.9.8y Server at website.com Port 80"
+
+I would appreciate a lot some help to solve this problem! ;-)

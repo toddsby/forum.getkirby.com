@@ -1,0 +1,12 @@
+Title: Sort paged images/files and be able to hide them in panel (tickbox)
+----
+Date: 2012-12-06 17:37:47
+----
+Solved: 0
+----
+User: russbaldwin
+----
+Text: Working on finishing up the website for our photographer client, we though it would be great if in Panel images/files could be:
+1. Paged - For images at least, otherwise a long weight if you have a few of them.
+2. For images at least, be able to be sorted with drag and drop in Panel - I know others have requested this.
+3. For images at least, add a further option to Edit/Replace/Delete - a 'Show' tick box to be able to set its visible status for the front end site - this would be cool for many things. (I know you can do this is code, but it is easier this way for clients.)

@@ -1,0 +1,11 @@
+User: russbaldwin
+----
+Date: 2013-01-04 12:35:46
+----
+Text: It looks like you either do not have the friendly URL's enabled either in your sites' config.php
+
+        c::set('rewrite', true);
+
+Or in your [.htaccess (as per the documentation)](https://github.com/bastianallgeier/kirbycms/blob/master/.htaccess) is not configured correctly.
+
+I maybe you do not have the rights to use or alter your .htaccess file because your host does not allow it, in which you maybe stuck with what you have.

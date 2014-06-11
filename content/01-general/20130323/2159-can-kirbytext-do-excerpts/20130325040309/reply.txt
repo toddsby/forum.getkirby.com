@@ -1,0 +1,9 @@
+User: richardhellyer
+----
+Date: 2013-03-25 04:03:09
+----
+Text: I'd not come across that because my summaries don't contain images, but I can see that would be an issue. 
+
+you'd need some kind of way to tell kirbytext to do its thing in the context of a different page.
+
+Maybe Bastian or another Kirby afficionado could help ...

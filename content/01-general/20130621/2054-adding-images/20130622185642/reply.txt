@@ -1,0 +1,7 @@
+User: roman_oroco
+----
+Date: 2013-06-22 18:56:42
+----
+Text: @_PMurphy Hi, the best way is to read docs (link: /docs/media).
+
+Images/files can also be inserted directly in to text (link: /blog/1-0-2).

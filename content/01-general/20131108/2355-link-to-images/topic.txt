@@ -1,0 +1,15 @@
+Title: Link to images
+----
+Date: 2013-11-08 23:55:33
+----
+Solved: 1
+----
+User: chrisgiggles1
+----
+Text: Ok, this might be super basic but I'm really having trouble.
+
+I'm basically trying to build an art-directed blog. I don't want to use markdown so I use the tag `<?php echo $page->text() ?>` in my work.php-template to output raw html from my work.txt.
+
+So far so good. My mark-up and styles show up fine... but getting my images to show up seems to be a bit more complicated.
+
+So how do I link to an image that is in the same folder as my work.txt? `<img src="img.png">` doesn't work.

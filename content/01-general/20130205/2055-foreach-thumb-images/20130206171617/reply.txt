@@ -1,0 +1,8 @@
+User: russbaldwin
+----
+Date: 2013-02-06 17:16:17
+----
+Text: I just pasted your code into a page which had images and it listed them as expected? 
+
+Does you page have more than one image in it's folder?
+Are the thumbs being created correctly?

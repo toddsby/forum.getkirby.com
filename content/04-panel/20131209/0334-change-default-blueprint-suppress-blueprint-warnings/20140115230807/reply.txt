@@ -1,0 +1,7 @@
+User: sammularczyk
+----
+Date: 2014-01-15 23:08:07
+----
+Text: The default blueprint must be named "default.php".
+
+As far as I know, Kirby seems to require blueprints for all templates, otherwise it throws that error...

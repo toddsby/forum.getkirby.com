@@ -1,0 +1,6 @@
+User: russbaldwin
+----
+Date: 2013-02-19 12:29:31
+----
+Text: This sounds like a bug so it maybe better in Issue Tracker?
+Leave a note here linking  across to your new post and then mark this one as solved?

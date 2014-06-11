@@ -1,0 +1,11 @@
+Title: Download all image files in folder
+----
+Date: 2013-10-08 14:43:24
+----
+Solved: 0
+----
+User: bytte
+----
+Text: I'm looking for a script that automatically finds all image files in a folder and then presents them as a zip file to the user. 
+
+Anyone here who knows where to start?

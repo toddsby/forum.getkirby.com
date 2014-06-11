@@ -1,0 +1,41 @@
+Title: Generating div ids for Bootstrap Accordion
+----
+Date: 2013-12-27 05:06:53
+----
+Solved: 0
+----
+User: dvw2
+----
+Text: Hi there,
+
+First go-round with Kirby and php, and I'm crashing into a little wall here. What I want to do is create a set of accordion panels showing a project title in the heading and its description in its inner panel. The first level displays fine but as soon as I introduce php calls the accordion functionality stops working. I presume this is because I don't know how to assign the div IDs dynamically to enable the action. I've tried it a bunch of different ways and as a newbie am now totally stumped. Here's the best-looking example I've created for my purposes. That div id for class="accordion-body" is the likely place to start.
+
+<pre>
+<code>
+    <span class="text">
+    "<?php 
+    $items = $page->children()->visible();
+    if($items->count() > 0): 
+    ?>
+    
+    <div class="accordion" id="accordion1">
+    	<?php foreach($items as $item): ?>
+    	<div class="accordion-group">
+        <div class="accordion-heading">
+          <a class="accordion-toggle" data-toggle="collapse" data-    parent="<?php echo $id ?>" href="#collapse_<?php echo $id ?>">
+          <?php echo html($item->title()) ?>
+          </a>
+        </div>
+        <div id="collapse_<?php echo $id ?>" class="accordion-body collapse">
+          <div class="accordion-inner">
+          <?php echo html($item->text()) ?>
+          </div>
+        </div>
+        <?php endforeach ?>
+      </div>
+    </div>
+    
+    <?php endif ?>"
+    </span>
+    </code>
+    </pre>

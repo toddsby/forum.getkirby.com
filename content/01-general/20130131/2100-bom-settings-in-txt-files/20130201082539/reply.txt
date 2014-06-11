@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-02-01 08:25:39
+----
+Text: I think you should add this to the 'Issue tracker'. 
+At least for UTF-8 I do not think it is even necessary to use such a marker?
+[Byte order mark](http://en.wikipedia.org/wiki/Byte_order_mark)

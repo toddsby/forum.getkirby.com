@@ -1,0 +1,24 @@
+Title: Related posts by tag
+----
+Date: 2013-10-15 12:37:39
+----
+Solved: 1
+----
+User: psztrnk
+----
+Text: Hi All,
+
+what I'm trying to achieve (and no luck so far) is to display related posts at the end of each post based on the current one's tag. Each article has only one tag in a field called "Tag".
+
+So what I need to do somehow is
+
+- pass the content of the current article's Tag field to a variable,
+- run a query with that variable and
+- display the results.
+
+I've seen the Related pages plugin, but that does not work "automagically", I just need an automatic list of posts with the same tag.
+
+Any ideas how to manage that?
+
+Thanks, 
+Adam

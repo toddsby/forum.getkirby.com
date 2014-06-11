@@ -1,0 +1,9 @@
+User: baderkamal
+----
+Date: 2013-04-05 03:55:30
+----
+Text: Cache busting using HTML5 Boilerplate's method (.htaccess) doesn't seem to be working with me, or perhaps, with Kirby, as far as I have tested. What worked though is this little PHP snippet:
+
+    <link rel="stylesheet" href="/assets/styles/style.css?<?php echo rand(); ?>" />
+
+This inserts a random number. This will also replace Kirby's CSS helper unfortunately.

@@ -1,0 +1,13 @@
+Title: latest news or blogposts
+----
+Date: 2014-05-25 19:50:49
+----
+Solved: 0
+----
+User: patrickpmller
+----
+Text: I was kind of surprised not to find something like this here at first glance, anyways even though this is a rather simple thing to do I thought I might as well share my snippet as to save everyone who wants to use it some time.
+
+https://github.com/pmller/frontpage-news
+
+Of course feedback (here or on github) is always welcome, I'll clear out the markup that was specific to the project this comes from so that the snippet is as minimal and non-specific as possible.

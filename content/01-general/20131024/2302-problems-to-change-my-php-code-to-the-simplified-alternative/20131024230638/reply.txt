@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-10-24 23:06:38
+----
+Text: You also have a typo in there: ecco instead of echo. But if you're using shorttags, you can just do `<?=` instead of `<? echo`.

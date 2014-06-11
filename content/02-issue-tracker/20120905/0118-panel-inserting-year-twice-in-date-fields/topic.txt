@@ -1,0 +1,11 @@
+Title: Panel inserting year twice in date fields
+----
+Date: 2012-09-05 01:18:23
+----
+Solved: 0
+----
+User: fitzage
+----
+Text: When I insert a date via the Panel, I get 20122012-mm-dd instead of 2012-mm-dd
+
+I think I'm running the latest dev version of the panel.

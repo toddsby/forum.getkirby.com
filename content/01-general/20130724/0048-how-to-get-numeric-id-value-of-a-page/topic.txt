@@ -1,0 +1,36 @@
+Title: How to get numeric ID value of a page?
+----
+Date: 2013-07-24 00:48:31
+----
+Solved: 0
+----
+User: alignedleft
+----
+Text: Is there a way to get a page's numeric ID number out of the $page object? For example, if I have five pages, those pages' corresponding IDs would be:
+
+0
+1
+2
+3
+4
+
+This would be helpful in cases when I have, say, a list of projects on a portfolio site, and on each project page I want to be able to generate something like "Project number x of 100".
+
+I have already looked in [the reference](http://reference.new.getkirby.com/cms/classes/page) and don't see a method that does this.  I am *not* looking for [the uid() value](http://reference.new.getkirby.com/cms/classes/page/methods/uid), which may not strictly be sequential integers starting at zero.  For example, my UIDs could be:
+
+100
+200
+300
+350
+400
+
+…but all I want are simple IDs like:
+
+0
+1
+2
+3
+4
+5
+
+Thanks!

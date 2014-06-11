@@ -1,0 +1,6 @@
+User: edusoftdev
+----
+Date: 2014-02-21 13:46:31
+----
+Text: Oh what i was forgetting heheee.
+I solved it by adding s::start() on each page.

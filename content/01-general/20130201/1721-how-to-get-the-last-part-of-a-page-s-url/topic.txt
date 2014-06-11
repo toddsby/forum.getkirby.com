@@ -1,0 +1,17 @@
+Title: How to get the last part of a page's url ?
+----
+Date: 2013-02-01 17:21:49
+----
+Solved: 1
+----
+User: joachimesque
+----
+Text: For a site I'm making, there's a page that lists all its subpages. The subpages are not linked, and their content is displayed in that parent.
+
+I'd like to put an ID attribute to each item of that list. I was using `$page->uid();` and it was working, I could access `site/parentpage#subpage-item1`, `site/parentpage#subpage-item2` and so on.
+
+There's a problem though : that uid isn't localized. If my website is by default in French, with urls like this `site/fr/frenchparentpage#frenchsubpage-item1`, the UID stays the same and I get this `site/en/englishparentpage#frenchsubpage-item1`.
+
+Now the url() object gives me a right path : `site/en/englishparentpage/englishsubpage-item1`, but that's not how I want my site to behave.
+
+How could I get the last bit of the url() object, to be able to use `site/en/englishparentpage#englishsubpage-item1` ?

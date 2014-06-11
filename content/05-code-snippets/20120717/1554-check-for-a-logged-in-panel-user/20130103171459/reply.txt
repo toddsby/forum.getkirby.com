@@ -1,0 +1,9 @@
+User: tysongach
+----
+Date: 2013-01-03 17:14:59
+----
+Text: I used this snippet to add an 'Edit Page' link to the front end of the site. I find it useful to offer a link straight to the edit page on a site with a lot of content files.
+
+With caching turned on, though, *everyone* sees that link if the page gets cached while I'm logged in; which seems to be very likely.
+
+Any ideas on how to make this snippet not cache?

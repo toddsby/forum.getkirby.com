@@ -1,0 +1,23 @@
+User: mecrawlings
+----
+Date: 2013-11-20 10:36:24
+----
+Text: Hi All
+
+Okay, I've built a modified version of Kirby that does what I needed.
+
+This boils down to:
+
+- the default language code is hidden form the URL (example.com/page)
+- the other language codes show in the URL (example.com/de/page)
+- unknown pages or unknown languages codes result in a 404 not a redirect
+
+It would be great if you guys could try this out and let me know what you think/how you get on with it.
+
+I've checked it with an out of the box Kirby install and it seems to be working.
+
+<https://github.com/mec/kirbycms>
+
+Please do NOT use this in production - it has not been extensively tested!
+
+That said the modification are very small!

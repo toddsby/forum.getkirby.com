@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2013-02-04 17:29:26
+----
+Text: When you translate the URL_key you must use `findByUID()` instead of `find()`

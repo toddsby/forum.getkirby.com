@@ -1,0 +1,29 @@
+User: unexpectedsport
+----
+Date: 2013-11-15 23:02:23
+----
+Text: @fitzage
+
+Thanks for the help! 
+
+That makes sense. I'm just having a little trouble implementing it… Just to be clear, inside each page's folder, there is a /detail subfolder. In other words, I want to target the /detail folder inside each page in my /projects folder. So for example: 
+
+**content/03-projects/01-project-1/detail
+content/03-projects/02-project-2/detail**
+etc…
+
+So in other words, how can I target the relative subfolder for each page, rather than a specific /detail folder (i.e. carousel/detail)? 
+
+I have tried various ways of making this code work:
+
+	<?php $imagepage = $pages->find('carousel/detail') ?>
+	<?php $images = $imagepage->images() ?>				
+	<?php $n=0; foreach($page->images() as $image): $n++; ?>
+
+but I keep getting error messages. E.g.:
+
+	Fatal error: Call to a member function images() on a non-object
+
+Amy I doing something wrong here? Does $page->images() only work with the $page variable (and not custom variables such as $imagepage ?)
+
+Again, thanks so much for all your help. Any suggestions appreciated!

@@ -1,0 +1,18 @@
+Title: Help with setting up A—Z listing
+----
+Date: 2013-11-18 22:22:16
+----
+Solved: 0
+----
+User: unknownguest
+----
+Text: Wondering if someone could please assist?  
+
+I want to implement a section of a site for a "people" page as per this example:
+http://www.bdplaw.com/our-people
+
+It has a search bar, and letters to narrow your search. If you click on a letter it takes you to search results for that letter, and then you can click on a person's name for their bio. 
+
+How would I go about setting this up with Kirby? 
+
+Thanks in advance!

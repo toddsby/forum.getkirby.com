@@ -1,0 +1,5 @@
+User: eso_austin
+----
+Date: 2013-12-11 21:13:59
+----
+Text: Fixed. Just had to reupload all the files in Filezilla, not sure why it failed the first time, but loaded fine after the second upload.

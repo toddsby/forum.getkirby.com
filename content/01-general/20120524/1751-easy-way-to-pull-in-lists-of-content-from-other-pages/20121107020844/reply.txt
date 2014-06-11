@@ -1,0 +1,24 @@
+User: ChrisjMartin87
+----
+Date: 2012-11-07 02:08:44
+----
+Text: For example, 
+
+parent1 
+> child1
+>grandchild1
+>grandchild2
+>grandchild3
+> child2
+> child3
+parent2 
+> child1
+> child2
+>grandchild1
+>grandchild2
+>grandchild3
+> child3
+
+On my homepage i want to show the grandchild of the child of parent1 and then in a separate list show the grandchild of parent2.
+
+Thanks

@@ -1,0 +1,5 @@
+User: AlexK
+----
+Date: 2013-01-02 08:32:12
+----
+Text: It is actually quite simple once you get the hang of it. When you create a template in your site/templates folder you name it whatever you want (for example: work, sub-a, sub-b, sub-c). Then to make us of a template you name the text file of your page the same way. So the page "Work", based on the template work would have a file inside its folder called work.php. Makes sense?

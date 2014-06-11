@@ -1,0 +1,17 @@
+User: russbaldwin
+----
+Date: 2013-03-11 15:21:10
+----
+Text: Mmm, it worked for me...not tested, but perhaps something like:
+
+```php
+<h3>Image loop of Children - getting first image in child folder<h3>
+ <?php $article = $pages->find('article') ?>
+ <ol>
+ <?php foreach($articles as $image): ?>
+  <li><?php echo $image->images()->first()->url() ?><br/>
+      <?php echo html($image->title()) ?>
+    </li
+</ol>
+<?php endforeach ?>
+```

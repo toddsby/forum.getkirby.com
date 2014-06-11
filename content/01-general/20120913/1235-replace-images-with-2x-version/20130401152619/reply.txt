@@ -1,0 +1,35 @@
+User: richgcook
+----
+Date: 2013-04-01 15:26:19
+----
+Text: Sorry, I know this was a old post, but it's something that's becoming more common and I'm keen to work out a solution for Kirby.
+
+I think the issue with using Kirby in combination with the Panel is that you can only upload 'files' that have no real field declaration. For example, all your images are simply 'images'; you can't define what could be a 'standard image' and its 'high res image' counterpart.
+
+(link: https://github.com/imulus/retinajs text: Retinajs) seems to be ideal, but it's working out a way to tell Kirby that there's two types of images.
+
+For example, with Retinajs, if you have an image on your page that looks like this:
+
+    <img src="/images/my_image.png" />
+
+The script will check your server to see if an alternative image exists at this path:
+
+    "/images/my_image@2x.png"
+
+So all you need to do is create two copies of one image. One with the normal filename, and then @2x at the end of the high res file.
+
+In your templates, you can even self-define this with:
+
+    <img src="/images/my_image.png" data-at2x="http://example.com/my_image@2x.png" />
+
+would become
+
+    <?php foreach($project->images() as $image): ?>
+      <img src="<?php echo $image->url() ?>" data-at2x="<?php echo dirname($image->url()) ?>/<?php echo $image->name() ?>@2x.<?php echo $image->extension() ?>"/>
+    <?php endforeach ?>
+
+So, once you have that in place, it would be fairly easy to update your files using FTP etc. The main issue here is doing this using the Panel.
+
+Any ideas/improvements?
+
+R

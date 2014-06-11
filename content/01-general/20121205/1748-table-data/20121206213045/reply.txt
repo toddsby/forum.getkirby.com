@@ -1,0 +1,5 @@
+User: chrstphbach
+----
+Date: 2012-12-06 21:30:45
+----
+Text: I would suggest YAML in this case. Unfortunately, table-style data is not markdown's friend.

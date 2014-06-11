@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2012-11-16 18:00:53
+----
+Text: Is this still a problem? I was having this issue yesterday with this on local, staging, and production. It was around the time Twitter was having authentication issues for third party clients, and could be related to that.
+
+My other thought was that it was related to the fact that the last tweet at the time on that account started with a period, but changing that and deleting the twitter plugin cache didn't seem to fix it, so I think it was the auth issue.

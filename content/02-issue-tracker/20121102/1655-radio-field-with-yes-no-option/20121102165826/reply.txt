@@ -1,0 +1,7 @@
+User: tysongach
+----
+Date: 2012-11-02 16:58:26
+----
+Text: Definitely seems to be an issue with the words ‘Yes’ and ‘No’.
+
+If I swap ‘Yes’ for ‘Yep’ and ‘No’ for ‘Nope’ it also works.

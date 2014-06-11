@@ -1,0 +1,22 @@
+Title: Panel install problem
+----
+Date: 2012-12-27 16:10:59
+----
+Solved: 0
+----
+User: jonathanbelton
+----
+Text: Hi,
+
+I'm trying to install the panel, but can't get past this stage:
+
+1. Step / Panel Configuration
+
+To get your Kirby panel up and running, copy the "defaults" folder
+
+…paste it into your site folder and rename it to "panel"
+
+Whenever I do this, I get a server error as the panel install folder is getting replaced. If I just merge the folders then I'm stuck on this message. Presumably I'm doing something insanely stupid! 
+
+Thanks,
+J

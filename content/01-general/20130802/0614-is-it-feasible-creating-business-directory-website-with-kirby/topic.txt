@@ -1,0 +1,21 @@
+Title: Is it feasible creating business directory website with Kirby?
+----
+Date: 2013-08-02 06:14:46
+----
+Solved: 1
+----
+User: stockphotogram
+----
+Text: Questions:
+
+1. Do you think Kirby's search feature can handle if there are thousands of pages? If there some kind of cache mechanism similar to database indexing?
+
+2. Or should I use the Kirby Toolkit to store data in MySQL instead?
+
+3. Or should I use 3rd party solution like Google Custom Search Engine (https://www.google.com/cse/)
+
+4. Is there a way to sort search result order by Title, Tag, or Date?
+
+
+
+Thank you.

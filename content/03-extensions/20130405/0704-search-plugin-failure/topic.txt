@@ -1,0 +1,19 @@
+Title: Search plugin failure
+----
+Date: 2013-04-05 07:04:39
+----
+Solved: 0
+----
+User: cedwardsmedia
+----
+Text: I added the search plugin to my site today. After fiddling with it and failing, I finally copied and pasted the code from Bastian's github post for the getkirby.com search page.
+
+I'm having a few problems. First, the search form totally fails unless I add method="post" to the form. This works fine, so long as the query is submitted directly by the form. However, this creates new issues - the page has no ?q=foo at the end.
+
+So, that's not working, so I nuked the method="post" and reverted to the code from Bastian's post. However, no matter what the query is, the search page just doesn't seem to be getting the query passed to it.
+
+search.php and pagination.php are located in my plugins file and are the exact same files as are on git. The search template consists of a touch of HTML to style the page, but the top search php block, the form, and the pagination are all from Bastian's post.
+
+I'm mind boggled. I'm thinking the search template is borked. Whatever it is, it's something that's keeping the template from working with the query. As shown by the post method, the search plugin is working, so this issue is localized.
+
+http://www.passionpersonified.com/search

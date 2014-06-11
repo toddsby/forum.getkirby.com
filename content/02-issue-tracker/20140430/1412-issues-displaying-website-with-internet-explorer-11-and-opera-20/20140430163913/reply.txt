@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2014-04-30 16:39:13
+----
+Text: Not really possible to diagnose with such little information, but looks like a problem with the CSS ;-) Have you tried contacting [Tim, the creator of the theme](http://www.chrissvensson.org/about)?

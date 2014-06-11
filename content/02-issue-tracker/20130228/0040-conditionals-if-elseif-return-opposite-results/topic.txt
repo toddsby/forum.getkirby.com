@@ -1,0 +1,20 @@
+Title: Conditionals (if/elseif) return opposite results
+----
+Date: 2013-02-28 00:40:32
+----
+Solved: 0
+----
+User: baderkamal
+----
+Text: Hello,
+
+I'm not sure if this is a bug (might be) or if it's something I'm doing wrong or setup wrong. My conditionals work but return opposite results. For example this,
+
+        <?php if($workshop->category() == 'studio'): ?>
+        <?php echo 'studio' ?>
+
+should return 'studio' when category is set to 'studio'. But it doesn't. Only when I use != instead of == does it return the desired result.
+
+Any ideas? Thanks.
+
+Edit: I'm running on MAMP.

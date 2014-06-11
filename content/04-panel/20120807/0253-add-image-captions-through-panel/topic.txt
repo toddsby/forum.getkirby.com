@@ -1,0 +1,13 @@
+Title: Add image captions through Panel?
+----
+Date: 2012-08-07 02:53:08
+----
+Solved: 0
+----
+User: scottswany
+----
+Text: The image caption support is awesome, but wondering if there is a way (or planned way) to allow a user to add captions to images from the panel.  Would be very helpful for sites built for clients.
+
+Also noticed that you can't upload plain text files to a page either.  So you're only able to add captions through FTP?
+
+thanks!

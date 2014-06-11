@@ -1,0 +1,8 @@
+User: russbaldwin
+----
+Date: 2013-08-26 09:27:22
+----
+Text: I cannot help thinking that if the post, indeed all pages, were straight MultiMarkdown, things would be a lot easier -- see my post [Use MultiMarkdown Metadata for text/md files](
+http://getkirby.com/forum/feedback/topic:575)
+
+Or at least have it as an option...

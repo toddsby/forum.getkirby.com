@@ -1,0 +1,13 @@
+User: fitzage
+----
+Date: 2013-01-10 23:18:51
+----
+Text: I wonder if we're running different versions of Kirby, because that's pretty much what I have.
+
+Sometimes find returns an array when it seems it should only return one item (not sure why or when, but I run into it sometimes), so you could try adding another foreach loop like this:
+
+    $work = $pages->find('work');
+    foreach($work as $project):
+    foreach($project->children()->visible() as $whatever):
+
+Syntax probably isn't all there, but you get the idea.

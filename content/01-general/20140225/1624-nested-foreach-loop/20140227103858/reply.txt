@@ -1,0 +1,60 @@
+User: wilhearts
+----
+Date: 2014-02-27 10:38:58
+----
+Text: Thanks for your reply,
+
+The following code
+	
+    <?php	
+    // if(!r::is_ajax()) notFound();
+	
+    header('Content-type: application/json; charset=utf-8');
+	
+    $data = $pages->visible();
+	
+    $json = array();
+	
+    $json['data'] = array();
+
+    foreach($data as $article) {
+	
+    foreach($data->children()->visible() as $subpage) {
+    $subpages[] = array(
+    'title' => $subpage->title()->value
+    );
+    }
+	
+    $json['data'][] = array(
+    'title' => (string)$article->title(),
+    'url'   => (string)$article->url(),
+    'pages' => array($subpages)
+    );
+     }
+	
+    echo json_encode($json);
+	
+    ?>
+
+Gives me this output
+
+	{
+		data: [
+		{
+			title: "Albertville",
+			url: "http://vitrinemed.loc/albertville",
+			pages: [
+			[
+			{
+				title: "sdsdsd"
+				},
+				{
+					title: "kookoook"
+				}
+				]
+				]
+			}
+			]
+		}
+
+But there is more main pages in the loop, this weirdly stops at the first object in the loop and breaks... there should be like 4 more pages and subpages :/

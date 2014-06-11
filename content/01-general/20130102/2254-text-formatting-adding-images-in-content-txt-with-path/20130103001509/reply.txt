@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-01-03 00:15:09
+----
+Text: You should be using parenthesis not brackets for the kirbytext image method. That might be the problem.

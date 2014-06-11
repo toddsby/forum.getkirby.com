@@ -1,0 +1,20 @@
+User: mzhu11
+----
+Date: 2014-01-15 22:22:45
+----
+Text: Below is my code in my "linklist" page, I want to have a line of text in the child.txt reads the intended link and convert to the working link in the mother page, but not working:
+
+<?php foreach($articles as $article): ?>
+  
+  <article class="twelve columns alpha">
+
+    <div class="row">
+      <time><?= $article->date('d-m-Y') ?></time>
+    
+      <div><a href="<?= html($article->link()) ?>"><?= html($article->title()) ?></a></div>
+
+    </div>
+
+  </article>
+
+ <?php endforeach ?>

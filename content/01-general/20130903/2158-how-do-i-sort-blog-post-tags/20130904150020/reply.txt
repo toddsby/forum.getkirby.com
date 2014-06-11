@@ -1,0 +1,15 @@
+User: aqeelfikree
+----
+Date: 2013-09-04 15:00:20
+----
+Text: This is my code:
+
+    <?php foreach(str::split($page->tags()) as $tag): ?>
+        <li><a href="<?php echo url('tag:' . urlencode($tag)) ?>">&#35;<?php echo $tag; ?></a></li>
+    <?php endforeach ?>
+
+I didn't know where to use sort, I tried:
+
+     <?php echo sort($tag); ?>
+
+but that didn't work.

@@ -1,0 +1,7 @@
+User: nathaniel_h
+----
+Date: 2013-03-01 23:07:34
+----
+Text: Okay, I'm doing it right then, that's the same way I made an image link. I get double classes. Same result, the image disappears after clicking on it. 
+
+I'm not exactly sure how'd I'd change the PHP or JS code... that's why I came to you guys for help again. :P

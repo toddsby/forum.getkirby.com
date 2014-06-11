@@ -1,0 +1,9 @@
+User: plartz
+----
+Date: 2013-02-18 13:48:17
+----
+Text: You're trying to place an image from your content folder in your template? Well, use `$page->images()->find("name-of-image.jpg")` for the image object, and prepend `->url()` to get the url.
+
+http://getkirby.com/docs/media
+
+There's everything you need.

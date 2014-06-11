@@ -1,0 +1,20 @@
+Title: Selecting images based on string occurance in file name?
+----
+Date: 2013-01-07 18:14:27
+----
+Solved: 0
+----
+User: moonbeetle
+----
+Text: I'm wondering what would be the most flexible way to handle different format images on one page.
+
+For instance:
+- a large cover image
+- several smaller images
+
+Ideal would be something like:
+
+$page->files()->findInName("cover");
+$page->files()->findInName("detail");
+
+Thus some string matching on the filename. My PHP skills are a bit rusty but since there is no findInName() method, a foreach loop with a preg_match() within might work, no?

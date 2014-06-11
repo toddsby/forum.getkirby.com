@@ -1,0 +1,9 @@
+Title: Looking for a developer to move my site to Kirby
+----
+Date: 2014-03-31 21:32:04
+----
+Solved: 0
+----
+User: maxyah
+----
+Text: I have a static portfolio website http://hello.io I am looking for developer to move it to Kirby. Please contact me: maxim at hello io

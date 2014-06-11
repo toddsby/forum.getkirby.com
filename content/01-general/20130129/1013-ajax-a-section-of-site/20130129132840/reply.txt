@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-01-29 13:28:40
+----
+Text: Ah, I see what you mean, it of course works correctly if you disable JS so I'm not sure if this is a Kirby problem? It would appear your Ajax JS is picking up the call from the menu as well as calls from within the designated area? Where did you get your Ajax code from?

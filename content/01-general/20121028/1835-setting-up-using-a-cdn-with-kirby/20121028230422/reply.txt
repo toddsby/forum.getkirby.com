@@ -1,0 +1,5 @@
+User: roman_oroco
+----
+Date: 2012-10-28 23:04:22
+----
+Text: Great question! Also it's great to know some info about Kirby and services like: (link: https://www.cloudflare.com/ text: CloudFlare) and (link: http://www.maxcdn.com/ text: MaxCDN).

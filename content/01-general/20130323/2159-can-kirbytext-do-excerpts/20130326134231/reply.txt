@@ -1,0 +1,10 @@
+User: russbaldwin
+----
+Date: 2013-03-26 13:42:31
+----
+Text: I think excerpts as mentioned, are cool, but on shortening, I presume you have seen the [Kirby Toolkit-101?](http://getkirby.com/blog/toolkit-101) and something like (there are other ways and methods):
+
+```php 
+str::short($sometext, 150);
+
+```

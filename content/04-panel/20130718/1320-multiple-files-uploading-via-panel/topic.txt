@@ -1,0 +1,19 @@
+Title: Multiple Files Uploading via panel
+----
+Date: 2013-07-18 13:20:01
+----
+Solved: 0
+----
+User: mikailc88
+----
+Text: Hey guys,
+
+I heard from kirby, and it seems that it is really cool. Also the panel seems to be great.
+
+Does anybody know if it is possible with a plugin or s.e. how to upload multiple files / images via panel?
+
+Thx.
+
+Cheers,
+
+M

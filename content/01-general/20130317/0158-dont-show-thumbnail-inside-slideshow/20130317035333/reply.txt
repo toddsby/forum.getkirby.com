@@ -1,0 +1,18 @@
+User: Lieblingstyp
+----
+Date: 2013-03-17 03:53:33
+----
+Text: Quick Solution: Give all slideshow images the prefix "slide-"
+(example: slide-test.jpg or slide-image01.png or whatever starts with slide- )
+
+     <?php $images = array();
+	foreach($page->images() as $image) {
+		if(preg_match('!^slide-!', $image->filename())) { 
+			$images[] = $image; 
+			}
+		}
+	foreach($images as $image) : ?>
+	 
+     <li><img src="<?php echo $image->url() ?>" alt="src="<?php echo $image->title() ?>"" /></li>
+
+     <?php endforeach ?>

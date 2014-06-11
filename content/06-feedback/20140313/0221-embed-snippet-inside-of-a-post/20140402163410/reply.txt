@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2014-04-02 16:34:10
+----
+Text: And of course they can coexist. `$this->addTags('module','snippet');` and then have both functions. Then you can pull either from a content page or from a snippet.

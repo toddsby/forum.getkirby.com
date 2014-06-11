@@ -1,0 +1,9 @@
+User: studioshitless
+----
+Date: 2013-10-16 14:20:51
+----
+Text: > Have you tested if it works when you set rewrite to false in config.php
+
+That works. Thank-you!
+
+How should I approach debugging the rewrites problem?

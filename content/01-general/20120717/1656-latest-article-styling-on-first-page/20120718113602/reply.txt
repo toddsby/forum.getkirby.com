@@ -1,0 +1,27 @@
+User: ignaty
+----
+Date: 2012-07-18 11:36:02
+----
+Text: Well, let me try to explain.
+
+Lets say I will have lists of recent articles on my home pages and for now there is two pages, 4 items in each.
+
+On page 1 I need:
+
+< article id="lastest-article">...< /article>
+< article>...< /article>
+< article>...< /article>
+< article>...< /article>
+
+On page 2 (and others if they will be there) I need:
+
+< article>...< /article>
+< article>...< /article>
+< article>...< /article>
+< article>...< /article>
+
+Something like that.
+
+Thanks!
+
+P.S. Can't figure out how to put the code, so put spaces instead.

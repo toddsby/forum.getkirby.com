@@ -1,0 +1,19 @@
+Title: Panel: choosing the page blueprint when adding a new page
+----
+Date: 2013-09-16 17:28:04
+----
+Solved: 1
+----
+User: bechhun
+----
+Text: Hi guys,
+
+I was just wondering how I could select a custom blueprint I created when adding a new page.
+
+When I take a look at the ["findTemplates" function](https://github.com/bastianallgeier/kirbycms-panel/blob/cd73a7a15102db367c9d9747d8a8154eaf538d93/lib/data.php), it seems it looks for templates.
+
+Can I just activate the right blueprint only in the folder/file structure or is there a way to do it in the panel ?
+
+Best regards,
+
+B.

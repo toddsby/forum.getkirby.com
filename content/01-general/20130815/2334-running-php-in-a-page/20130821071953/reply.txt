@@ -1,0 +1,7 @@
+User: garyrozanc
+----
+Date: 2013-08-21 07:19:53
+----
+Text: Thanks AZHARC,
+
+Your suggestion has been my solution for running PHP inside wordpress posts. I don't know why I did think to do the same thing in Kirby!

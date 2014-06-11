@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-08-22 21:57:44
+----
+Text: Sounds like you might not have the header snippet embedded in your subpage templates.

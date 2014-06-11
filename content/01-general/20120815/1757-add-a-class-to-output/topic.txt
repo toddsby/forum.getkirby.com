@@ -1,0 +1,11 @@
+Title: Add a class to output
+----
+Date: 2012-08-15 17:57:23
+----
+Solved: 1
+----
+User: simonscheiber
+----
+Text: Is there an easy way to add a class (for example to an ul item, or a p item) in the template?
+
+Thanks in advance!

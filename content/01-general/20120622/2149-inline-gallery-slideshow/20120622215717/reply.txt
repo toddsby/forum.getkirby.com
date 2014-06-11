@@ -1,0 +1,5 @@
+User: brtdesign
+----
+Date: 2012-06-22 21:57:17
+----
+Text: I had the (Gallery: 1.jpg, 2.jpg) with capitalized that caused the error. but its still not working despite not having any error

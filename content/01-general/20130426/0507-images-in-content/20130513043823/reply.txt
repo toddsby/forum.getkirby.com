@@ -1,0 +1,9 @@
+User: brandon_m_cook
+----
+Date: 2013-05-13 04:38:23
+----
+Text: Sorry, I didn't see your last response. I can see them when I convert to .jpg. I just figured out why. I was calling: 
+
+<?php $image = $article->images()->find('01.jpg') ?>
+
+in my template. So it was specifically looking for an image file titled "01.jpg".

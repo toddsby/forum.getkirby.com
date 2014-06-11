@@ -1,0 +1,9 @@
+User: russbaldwin
+----
+Date: 2013-07-11 10:00:34
+----
+Text: Maybe an extra bracket after `categories()` and add one to the end?
+
+```php
+str::split($article->categories()->last())
+```

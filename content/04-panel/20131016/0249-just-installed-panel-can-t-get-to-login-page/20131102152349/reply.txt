@@ -1,0 +1,5 @@
+User: francescoea
+----
+Date: 2013-11-02 15:23:49
+----
+Text: I got the same problem. I followed the tips from @texnixe and @russbaldwin, but nothing. Any hint?

@@ -1,0 +1,31 @@
+Title: Short question about "$pages->find()"
+----
+Date: 2014-01-12 08:48:47
+----
+Solved: 1
+----
+User: fridgewanch
+----
+Text: Hi there.
+
+Just a short question about the "$pages->find()" function
+.
+
+How can I use the value of a field from a page .txt-file inside "$pages->find()" function? Example:
+
+In my home.txt a have this populated field:
+
+    product: product1
+
+Inside my template:
+
+    <?php $productpage = $pages->find($page->product()) ?>
+    <?php echo $productpage->url() ?>
+
+Returns:
+
+Fatal error: Call to a member function url() on a non-object in …
+
+Basically, I want to find a page based on the value of a field in my home.txt file. Is there another way of finding a page based on the value of a field in your page .txt-file?
+
+Thanks in advance :)

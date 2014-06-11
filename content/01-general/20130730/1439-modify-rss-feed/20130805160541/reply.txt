@@ -1,0 +1,5 @@
+User: Swissendo
+----
+Date: 2013-08-05 16:05:41
+----
+Text: Yes, that's the one I'm talking about, and it links to the actual article. Yet it isn't just limited to the first article/all quote-posts, it also happened when using other fields, for example `$item->links()`. I'm unable to find the exact problem though, since it doesn't happen with every field...it's just strange.

@@ -1,0 +1,17 @@
+Title: mod_rewrite is not working
+----
+Date: 2012-12-22 19:18:49
+----
+Solved: 1
+----
+User: andyn
+----
+Text: I've configured the rewrite rule in config.php to true. 
+
+c::set('rewrite', true);
+
+It doesn't work, meaning I get 404 when I try to navigate between pages. The site works fine (albeit with /index.php/ in URLs, obviously) when rewrite is set to false.
+
+I'm running my site locally using MAMP. I've also uploaded it to my webserver (Dreamhost) and the problem persists. 
+
+What am I doing wrong? I've done some Googling and I'm not sure what Kirby tries to set vs what I need to set on my end re: .htaccess.

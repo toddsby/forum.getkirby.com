@@ -1,0 +1,19 @@
+Title: WordPress Exporter Problems
+----
+Date: 2013-06-24 13:18:21
+----
+Solved: 0
+----
+User: joelhousman
+----
+Text: Hello,
+
+Whenever I attempt to run the WordPress Exporter, it returns the message: 
+
+Exported 0 articles to /srv/www/MYDOMAIN.COM/public_html/content/blog
+
+I omitted the actual domain in the message above. I've triple checked that my settings are correct in the WordPress.php plugin file. I've tried disabling all plugins and reverting to the default WordPress theme.
+
+No matter what, I still get the above message. When I log into my VPS and using htop, watch the RAM and CPU usage - I can see the RAM and CPU spike when executing the exporter .php file, so I can tell it is running.
+
+Any ideas as to how to troubleshoot?

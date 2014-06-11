@@ -1,0 +1,10 @@
+Title: Two specific template files with same name
+----
+Date: 2014-02-11 08:04:52
+----
+Solved: 0
+----
+User: sfrnldi
+----
+Text: Anyone here have an idea to create two specific templates for two different pages with same name? 
+e.g: template for /product/**product-a** & /price/**product-a**

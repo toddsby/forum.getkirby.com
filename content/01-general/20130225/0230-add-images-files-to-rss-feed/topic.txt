@@ -1,0 +1,9 @@
+Title: Add images/files to RSS feed?
+----
+Date: 2013-02-25 02:30:14
+----
+Solved: 0
+----
+User: tamaracks
+----
+Text: If you use the template to display images or other files that are attached rather than referring to them from the post text file then they don't show up in the RSS feed. I'm sure I can edit it to add them somehow, but between the feed plugin, feed template, and feed snippet, I'm not quite sure what to change. Any ideas?

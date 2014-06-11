@@ -1,0 +1,11 @@
+User: koeque
+----
+Date: 2013-06-24 16:43:11
+----
+Text: Nice! That already worked- thank you very much.
+
+By clicking another listelement in the menu- how do I get to the first point in the submenu directly?
+
+EDIT:
+
+Not sure if it's the most elegant solution- I added the title of the first submenu point in the menu snippet.

@@ -1,0 +1,7 @@
+User: azharc
+----
+Date: 2013-08-15 02:11:53
+----
+Text: Use an if statement with $article->hasImages() to check for that before outputting that tag. 
+
+There's a full list of media variables in (link: http://getkirby.com/docs/variables/page text: the docs).

@@ -1,0 +1,9 @@
+User: guillaumelobet
+----
+Date: 2013-03-04 13:24:59
+----
+Text: Sorry, I did not know where to ask the question...
+
+The css is working fine (I can see directly the changes in the webpages).
+
+How can I make sure the .js file and jQuery are loading? (sorry if this is a dummy question...)

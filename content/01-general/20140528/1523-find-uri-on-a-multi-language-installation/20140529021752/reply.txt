@@ -1,0 +1,11 @@
+User: wilhearts
+----
+Date: 2014-05-29 02:17:52
+----
+Text: Stumbled on the same problem on my latest website, solution i found is to use the template name (of course if you know your page is the only one using that unique template)
+
+```
+<?php
+$children = $pages->findBy('template', 'customtemplate')->children();
+?>
+```

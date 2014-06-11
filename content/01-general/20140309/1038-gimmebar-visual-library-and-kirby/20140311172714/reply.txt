@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2014-03-11 17:27:14
+----
+Text: Have you seen the [Kirby Docs](http://getkirby.com/docs/media) on adding metadata to media files? 
+
+Or did I not quite see what you are after?

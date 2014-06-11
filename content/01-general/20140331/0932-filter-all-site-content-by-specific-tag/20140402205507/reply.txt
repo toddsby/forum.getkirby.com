@@ -1,0 +1,18 @@
+User: corvine74
+----
+Date: 2014-04-02 20:55:07
+----
+Text: BINGO
+
+I figured it out
+
+Funny enough it was the [Drafts](http://getkirby.com/blog/drafts) tutorial that gave me the right direction.
+
+Here is the working code.
+
+    <?php $deals = $pages->index() ?>
+    <?php foreach($deals AS $p): ?>
+        <?php if($p->deal() == 'yes'): ?>
+            <a href="<?php echo $p->url() ?>">Test</a>
+    <?php endif ?>
+    <?php endforeach ?>

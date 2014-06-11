@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-06-17 16:33:39
+----
+Text: I've never used numbers for image filenames, but I've also never tried prepending them with numbers, so maybe it doesn't allow that? I just use filename.png or whatever.

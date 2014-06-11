@@ -1,0 +1,7 @@
+User: Wordius
+----
+Date: 2013-01-03 21:21:07
+----
+Text: Many thanks. Works perfectly:
+
+  // echo excerpt($article->excerpt())

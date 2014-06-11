@@ -1,0 +1,11 @@
+Title: The thumb-extantion generates a 2MB file from a 139KB file
+----
+Date: 2013-05-17 19:31:03
+----
+Solved: 0
+----
+User: derzyklop
+----
+Text: I have a 139KB png on my Server. It has 1000px width. 
+There is a page where i need to generate a 920px thumb from it. When i do so, i get the 920px png file in my thumbs-folder but it has 2MB!
+Any ideas about that?

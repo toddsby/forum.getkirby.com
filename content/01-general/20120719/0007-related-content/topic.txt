@@ -1,0 +1,17 @@
+Title: Related Content
+----
+Date: 2012-07-19 00:07:40
+----
+Solved: 0
+----
+User: fitzage
+----
+Text: I'm pushing for using Kirby in our next big project, but there's one key thing I know we can do easily in our current CMS, but I'm not sure the best way to go about it in Kirby.
+
+We want to relate content on some pages to content in other sections. For example, we would have an ecommerce "solution" page and we would pull in a logo and blurb from a couple of partners (one section) and a couple of customers (another section) that are related to that ecommerce solution.
+
+I assume we could go the route of having tags or categories, and then pull from the customers and partners sections using a category that matches one from the solution page. But for other things, we may want to be more explicit. Like I may want to pull a blurb from a specific page.
+
+How would I go about doing that? Could I have a field in my text file for the solution page, for example, where I could enter a list of customer page slugs and then content from those would be pulled in? Will that work?
+
+As an aside, something I think wouldn't currently work but would be a great feature for some of our users would be to have the ability to create a field in the control panel that would give a list of things to choose from, and have that list populated by a certain site section. So I could have two fields, one for partner and one for customers, and the Panel user would be able just to pick the items instead of manually entering the name.

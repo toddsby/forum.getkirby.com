@@ -1,0 +1,7 @@
+User: toonvdstruijk
+----
+Date: 2013-02-11 17:41:37
+----
+Text: Same issue here.
+But as long as I don't add the suggested 'thumbs' folder to my site's root, I can use my own (custom) thumbnails.
+@Bastian: When will this bug being fixed?

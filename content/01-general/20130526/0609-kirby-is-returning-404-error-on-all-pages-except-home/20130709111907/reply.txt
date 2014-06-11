@@ -1,0 +1,6 @@
+User: russbaldwin
+----
+Date: 2013-07-09 11:19:07
+----
+Text: Try `c::set('rewrite', false);` just to see if everything is working.
+You can [find out what PHP version you are using](http://php.net/manual/en/function.phpinfo.php) by following the linked article.

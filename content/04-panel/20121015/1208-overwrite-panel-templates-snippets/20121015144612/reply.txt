@@ -1,0 +1,5 @@
+User: 12Hoog
+----
+Date: 2012-10-15 14:46:12
+----
+Text: We are looking at the possibilities to implement some new features. For example we have a YAML list of contact adresses in our contact.txt file wich we would like to make editale in the panel.

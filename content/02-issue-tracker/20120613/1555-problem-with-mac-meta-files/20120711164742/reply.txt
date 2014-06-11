@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-07-11 16:47:42
+----
+Text: It took a while, but this should be fixed in the latest version of Kirby :)

@@ -1,0 +1,18 @@
+Title: Help field and escape characters
+----
+Date: 2012-11-28 15:47:24
+----
+Solved: 0
+----
+User: alexk
+----
+Text: I would like to add a field for adding Vimeo or YouTube links. Since I don't know beforehand if it will be a Vimeo or YouTube link I thought about adding a simple text field and have the user input the Kirbytext for the link (e.g. `(vimeo: URL width: 960 height: 540)`.
+
+So far so good. To make the entry simpler I wanted to add a help definition to that field and enter the above syntax, so the user can basically copy & paste and replace the URL. Like this:
+
+	video:
+		label: Video
+		type: text
+		help: Example: ([vimeo: URL width: 960 height: 540])
+
+Unfortunately, the Panel seems to break when I enter a string that gets interpreted as Kirbytext as help text. Does that make sense? Is there a way to do this?

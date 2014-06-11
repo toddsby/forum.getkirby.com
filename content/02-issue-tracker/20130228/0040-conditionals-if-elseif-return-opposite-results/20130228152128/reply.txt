@@ -1,0 +1,5 @@
+User: baderkamal
+----
+Date: 2013-02-28 15:21:28
+----
+Text: @russbaldwin Thank you for that. Your example seems to be working. My example did not include the rest of the code. This bug seems to go and come back every now and then and I'm still not sure why. It's happening in other parts of my code wherever conditionals are present.

@@ -1,0 +1,12 @@
+User: jens_tornell
+----
+Date: 2014-03-13 12:32:34
+----
+Text: Finally I found a htaccess-code that works. The code below redirects none trailing slash to a trailing slash:
+
+    RewriteCond %{REQUEST_URI} /+[^\.]+$
+    RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R=301,L]
+
+*Source:* http://www.paulund.co.uk/using-htaccess-to-force-trailing-slash
+
+Place it directly after &lt;IfModule mod_rewrite.c&gt;

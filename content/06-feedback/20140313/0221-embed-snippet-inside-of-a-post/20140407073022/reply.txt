@@ -1,0 +1,9 @@
+User: MelTajon
+----
+Date: 2014-04-07 07:30:22
+----
+Text: @fitzage Hmm, I'm trying @me_arno method (mentioned above) and I'm still having an issue with the snippet appearing out of place.
+
+Here, I created a new test site. You can see the placement of the snippet here: http://temp.meltajon.com/kirby-test/content/home/home.txt
+
+But then the snippet ("This is a Test Snippet!") is not properly displaying here: http://temp.meltajon.com/kirby-test/

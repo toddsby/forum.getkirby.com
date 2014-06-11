@@ -1,0 +1,11 @@
+Title: Change default blueprint / suppress blueprint warnings
+----
+Date: 2013-12-09 03:34:37
+----
+Solved: 0
+----
+User: omgitsjkt
+----
+Text: Is it possible to change the default template when adding a new page? I know that I can do this for sub-pages, but, I'm working on a very simple site for a client with a folder structure that is only one level deep. I've created a 'page.php' blueprint, and I'd like that to be the default blueprint when he adds a new page.
+
+On a related note, it would be nice to not have to include a blueprint for every template in the templates folder. For instance, I won't ever need a "sitemap.php" blueprint. In the meantime, I can tell clients just to ignore these extra options or the errors on the main page of the panel, but, I'd of course prefer them to only have the basic available options.

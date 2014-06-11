@@ -1,0 +1,19 @@
+Title: Getting the first image src from each blog post
+----
+Date: 2013-08-15 01:31:23
+----
+Solved: 0
+----
+User: ndrsn
+----
+Text: __Original problem__
+I'm making a very simple blog, each article will have at least one image. So for the "blog listing" I want to pull the first image of each blog post, wrap it in an anchor tag, as seen everywhere. 
+
+The markup is pretty much "ripped" straight out of the blog tutorial but anyway, here's what I got:
+
+(link: http://pastebin.com/EfSvnW9M text: Pastebin link)
+
+As soon as I try to put anything in the src="" my posts just disappear.
+
+__Above works, new problem__
+Okay, so that worked! However here's another problem. If for some reason the user forgets to upload an image, the post doesn't get displayed at all (no PHP errors). Is there a way around that?

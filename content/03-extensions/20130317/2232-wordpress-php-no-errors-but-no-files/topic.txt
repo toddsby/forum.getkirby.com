@@ -1,0 +1,13 @@
+Title: wordpress.php: no errors, but no files
+----
+Date: 2013-03-17 22:32:06
+----
+Solved: 0
+----
+User: bobrockefeller
+----
+Text: When I run wordpress.php with the necessary configuration for my existing blog, the extension runs, outputs a message saying posts were processed and written, offers no errors, but no files are actually written.
+
+Where do I need to be looking for the problem?
+
+Bob

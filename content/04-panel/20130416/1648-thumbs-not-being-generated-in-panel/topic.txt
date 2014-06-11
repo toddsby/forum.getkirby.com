@@ -1,0 +1,11 @@
+Title: Thumbs not being generated in Panel
+----
+Date: 2013-04-16 16:48:18
+----
+Solved: 1
+----
+User: eytanbiala
+----
+Text: For some reason the panel isn't generating thumbs for the 'Files' section on each page.
+
+I do have the thumbs directory at the root, and permission is 775.

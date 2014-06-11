@@ -1,0 +1,15 @@
+Title: SQLite plugin for Kirby Toolkit
+----
+Date: 2012-05-21 18:27:51
+----
+Solved: 0
+----
+User: oelna
+----
+Text: I have begun work on what is to become a SQLite plugin for Kirby Toolkit, if everything works out as I'm hoping. I use the toolkit on almost all of my current projects and it would help a lot if it had a few simple functions to help with some of the database work, much like it currently does with MySQL.
+
+I guess my question is: has something like this been done before, or has somebody else ever needed SQLite support in any of their work?
+
+I was also thinking: the Kirby Forum seems an obvious candidate for SQLite instead of MySQL, as it could stay entirely file-based. A backup or copy of the Forum would simply mean transferring the files.
+
+I'm excited to finally being able to spend some more time with the development of the toolkit, rather than only putting it to work. If anything interesting comes from it, I'll post it to the site.

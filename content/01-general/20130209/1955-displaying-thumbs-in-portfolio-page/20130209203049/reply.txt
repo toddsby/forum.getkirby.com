@@ -1,0 +1,15 @@
+User: tysongach
+----
+Date: 2013-02-09 20:30:49
+----
+Text: You can use the `find()` method to do this.
+
+Since you only want to output one image, there is no need to have a `foreach` loop for your images.
+
+    <?php foreach($page->children()->visible()->flip() as $project): ?>
+      <a href="<?php echo $project->url() ?>"><img src="<?php echo $project->images()->find('thumb.png')->url() ?>"></a>
+    <?php endforeach ?>
+
+This is a loop for your Portfolio page. It gets the children of the Portfolio page (projects) and loops through them, looking for an image named `thumb.png` in each.
+
+Hope that helps.

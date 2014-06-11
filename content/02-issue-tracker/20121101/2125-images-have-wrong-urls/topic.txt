@@ -1,0 +1,16 @@
+Title: Images have wrong urls
+----
+Date: 2012-11-01 21:25:40
+----
+Solved: 0
+----
+User: karolkrakowiak_
+----
+Text: Hi,
+I have some issues with images in Kirby.
+
+Code from my template file: http://codepad.org/JGKfiD2L
+
+Everything works fine on my local server, but when I uploaded site to the production server images urls looks like this: http://onelovehiphop.pl/content120-wspolny-projekt-pezet-x-jimek/image.jpg
+
+Anyone got similar problem?

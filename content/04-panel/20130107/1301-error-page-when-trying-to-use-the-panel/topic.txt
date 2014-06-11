@@ -1,0 +1,22 @@
+Title: Error Page when trying to use the Panel
+----
+Date: 2013-01-07 13:01:31
+----
+Solved: 0
+----
+User: itibz
+----
+Text: Hi,
+
+First of all, thank you *SO MUCH* for the hassle-free experience of Kirby! I'm having a blast using it!
+
+I've installed the panel, and got rid of the various warnings I had (i.e. setting folders to 755 and adding blueprints for the different pages) but now that this is done, I'm having trouble with the panel itself: I can't seen to be able to edit anything.
+
+For example: if I click on the 'Articles' page on the sidebar on the left, it's going to take me to http://tibz.co/panel/articles as opposed to http://tibz.co/articles and show up the error page.
+
+I've looked around the forum for similar problems, but the solutions given didn't seem to have had an impact.
+
+Any clues as to why this is happening and how to fix it?
+
+Thanks :)
+Thibault

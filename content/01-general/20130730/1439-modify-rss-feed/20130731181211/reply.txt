@@ -1,0 +1,6 @@
+User: russbaldwin
+----
+Date: 2013-07-31 18:12:11
+----
+Text: Make the array just have the one you want?
+The example just selects all the images, filter / specify to get a specific one. Not sure how or what you are filtering.

@@ -1,0 +1,5 @@
+User: ndrsn
+----
+Date: 2013-08-30 23:35:05
+----
+Text: Exactly! Everything get redirected back to .se/. And obviously I only want it to happen with articles within folder 01.

@@ -1,0 +1,18 @@
+Title: Autofill fields
+----
+Date: 2012-12-21 16:21:06
+----
+Solved: 0
+----
+User: coolrob335
+----
+Text: Hi,
+
+I'm wondering if it'd be possible to autofill fields e.g. when creating a new blog post, to make the date today's date (all via Kirby Panel).
+
+Would this be possible to do in the blueprint?
+
+Also, it'd be awesome if the forum had a search facility, so that I (and other people) know if there is already a topic on the same thing, saving reposting.
+
+Thanks,
+Rob

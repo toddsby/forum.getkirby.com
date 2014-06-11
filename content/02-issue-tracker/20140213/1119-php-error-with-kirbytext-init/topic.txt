@@ -1,0 +1,15 @@
+Title: PHP Error with kirbytext::init()
+----
+Date: 2014-02-13 11:19:58
+----
+Solved: 0
+----
+User: alexk
+----
+Text: Hi guys,
+
+I forgot to disable debug checking on one of my sites. Recently that server got upgraded to the latest versions of PHP, mySQL, etc. Now I get the following debug error:
+
+    Strict Standards: Non-static method kirbytext::init() should not be called statically in <path to site>/kirby/parsers/kirbytext.php on line 7
+
+Is that a bug? Something that I can fix on my end easily (I mean apart from simply ignoring it and disabling the debug check)?

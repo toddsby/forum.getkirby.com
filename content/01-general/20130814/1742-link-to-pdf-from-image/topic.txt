@@ -1,0 +1,26 @@
+Title: Link to PDF from Image
+----
+Date: 2013-08-14 17:42:13
+----
+Solved: 1
+----
+User: meganraddatz
+----
+Text: I have a folder structure like so:
+-product1
+--product.jpg
+--product.jpg.txt
+--product.pdf
+-product2
+--product.jpg
+--product.jpg.txt
+--product.pdf
+etc...
+
+The goal is that when you click on the image, it will link to the corresponding pdf (which seems simple, but has been harder than I first thought). 
+
+My current solution:
+$imageLink = $page->children()->images()->first()->url();
+$pdfLink = trim($imageLink, '.jpg');
+
+This gets the full url of the image, minus the extension. After that I concatenated $imageLink with '.pdf' - which works (hurrah!), but seems kind of hacky. Can you think of a better way to do this?

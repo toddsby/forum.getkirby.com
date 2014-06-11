@@ -1,0 +1,12 @@
+Title: Panel with database
+----
+Date: 2013-03-23 15:47:58
+----
+Solved: 0
+----
+User: webolymp
+----
+Text: Hey guys,
+I want to connect Kirby to a database and have all my content there, but it would be nice, if I can handle the content with the panel and the backend write the new content in the database.
+
+Do you have a solution for that?

@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2013-10-24 23:05:54
+----
+Text: Are you talking about short tags? Using `<?` instead of `<?php` and `<?=` instead of `<?php echo`?
+
+If so, you may not have shorttags enabled on your server. There's an option in the php.ini for that.

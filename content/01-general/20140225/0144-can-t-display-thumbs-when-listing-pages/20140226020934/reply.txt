@@ -1,0 +1,14 @@
+User: Sciascia10
+----
+Date: 2014-02-26 02:09:34
+----
+Text: Figured it out - please step in if this isn't the best way of handling this!
+
+    <?php foreach($page->children() as $pageList) : ?>
+      <h4><a href="<?= $pageList->url(); ?>"><?= $pageList->title(); ?></a></h4>
+
+      <? if ($pageList->hasImages()) : $image = $pageList->images()->first(); ?>
+        <img src="<?= thumb($image, array('width' => 400), false); ?>" alt="<?= $image->title(); ?>">
+      <? endif ?>
+    </div>
+    <?php endforeach ?>

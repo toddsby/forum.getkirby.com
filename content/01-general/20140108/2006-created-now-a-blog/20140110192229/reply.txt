@@ -1,0 +1,5 @@
+User: _frankallen
+----
+Date: 2014-01-10 19:22:29
+----
+Text: you have to create a new file (blog.php) in your template folder. but, all those informations are explained in the tutorial... did you read it?

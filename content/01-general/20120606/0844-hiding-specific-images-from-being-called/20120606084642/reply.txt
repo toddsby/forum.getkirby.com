@@ -1,0 +1,21 @@
+User: bastianallgeier
+----
+Date: 2012-06-06 08:46:42
+----
+Text: Hey Brandon,
+
+welcome to the forum :)
+
+You can hide particular images very easily: 
+
+```
+<?php foreach($page->images()->not('cover.jpg') as $image): ?>
+<img src="<?php echo $image->url() ?>" />
+<?php endforeach ?>
+```
+
+If you need hide more than one, you can chain that not method:
+
+```php
+$page->images()->not('cover.jpg')->not('preview.jpg')
+```

@@ -1,0 +1,11 @@
+User: fitzage
+----
+Date: 2013-10-24 23:36:39
+----
+Text: There are two types of simplified if clauses. You're mixing the syntax for the other one with the ecco syntax. I think it's either:
+
+    <? ecco($item->isOpen(), 'class="active"') ?>
+
+or
+
+    <?= ($item->isOpen()) ? 'class="active"': '') ?>

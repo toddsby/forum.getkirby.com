@@ -1,0 +1,13 @@
+User: paulrobertlloyd
+----
+Date: 2013-02-16 20:12:49
+----
+Text: Thanks Russ,
+
+I may give this a go, but given the eventual size of my array, I wonder if it’d be too processor intensive?
+
+Any other suggestions?
+
+Cheers,
+
+Paul

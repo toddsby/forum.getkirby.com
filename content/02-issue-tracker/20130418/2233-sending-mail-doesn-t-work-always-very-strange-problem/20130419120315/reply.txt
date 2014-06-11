@@ -1,0 +1,9 @@
+User: plartz
+----
+Date: 2013-04-19 12:03:15
+----
+Text: I GOT IT.
+
+The problem was the message-ID. Without it, all addresses work. I tried multiple variations, but when the message ID is sent, iCloud Mails go to the nirvana.
+
+Now i changed the message ID to `'<' . str::random(20) . '@' . $host . '>'`. I know it's not perfect with a random string, but it works, so I'm using it for now. Maybe I'll change it tomorrow, if my head had some time to recycle... ;)

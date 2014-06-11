@@ -1,0 +1,13 @@
+Title: How to set most recent blog post as homepage?
+----
+Date: 2014-02-14 02:33:39
+----
+Solved: 0
+----
+User: brandonlabbe
+----
+Text: Hoping someone can help with this!
+
+I know you can change the homepage in config.php, and I know how to switch it to 'blog', but how would that work for the most recent post? Is it even possible?
+
+Thanks so much in advance!

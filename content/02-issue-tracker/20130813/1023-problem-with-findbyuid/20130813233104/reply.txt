@@ -1,0 +1,9 @@
+User: texnixe
+----
+Date: 2013-08-13 23:31:04
+----
+Text: The result of findbyUID() is an array, see here:
+
+(link:http://reference.new.getkirby.com/cms/classes/pages/methods/findbyuid)
+
+You can also verify output of the function by using a::show($page1)

@@ -1,0 +1,20 @@
+User: wieisdennis
+----
+Date: 2013-02-16 00:13:10
+----
+Text: <?php <?php 
+$events = $pages->find('events/')->children()->children();
+$country = countrycloud($events);
+?>
+<div id="tag_bar">
+<?php $countries = array('AU' => 'Australia', 'BE' => 'Belgium', 'ES' => 'Spain', 'IT' => 'Italy', ); ?>
+	 <select onchange="window.location.href = this.value">
+	 	<option value="">Choose a country</option>
+	 		<?php foreach($countries as $key => $c): ?>
+	 		<option value="<?php echo $country ? $page->url() . '/country:' . $key : $country->url() . '/' . $key;   ?>"><?php echo $c; ?></option>
+
+?>
+
+This is working but this is not the way, it doesn't include the country-cloud.
+
+Has anyone a [much] better idea/solution?

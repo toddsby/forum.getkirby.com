@@ -1,0 +1,19 @@
+User: bastianallgeier
+----
+Date: 2012-07-11 14:45:31
+----
+Text: The current record for the projects I've been working on so far is 270 pages and it's actually this site here :)
+
+The performance with a large tree of content folders is still very good. The reason for this is that Kirby only fetches the folders for the pages, which it currently needs. So even if you got hundreds of pages in many subfolders it will still only work with a limited subset of those unless you access all of them in your templates or plugins somehow. 
+
+The search is an example for accessing all pages. The performance of the search is going down the more pages you add. But you can give the search for this site a try: <http://getkirby/search> and you will see that more than 200 pages is not a problem at all. 
+
+It's recommended though to look for external search solutions for bigger site projects. Not only because of the performance but also because of the search result quality. 
+
+I also plan to add extendable caching so you could use memcache or any other cache system instead of the built-in site cache. That will help to speed up things even more. 
+
+I also experimented with the limit of subfolders in a single folder and stopped with 2000 subfolders. I didn't really run any benchmarks but the performance was still ok and I think this is an edge case. If you plan to have so many subfolders in a single folder you should try to rethink the folder structure first.
+
+In the end it depends on the traffic your site receives and also on the server you are running your site on. 
+
+The Kirby site is currently hosted on 4 Euro/month shared hosting, which is very cheap. The highest amount of traffic so far has been ~5000 unique visitors per day with ~13000 page impressions after a tweet from Smashing Magazine. The site never went down and you couldn't recognize any performance issue. But this is of course no professional benchmark test :)

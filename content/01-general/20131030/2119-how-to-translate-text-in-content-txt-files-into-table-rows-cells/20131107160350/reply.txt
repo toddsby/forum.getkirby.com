@@ -1,0 +1,7 @@
+User: fenixkim
+----
+Date: 2013-11-07 16:03:50
+----
+Text: Hey may this could be useful for your: http://michelf.ca/projects/php-markdown/extra/#table
+
+You can render tables enabling markdown extra in the confing.php

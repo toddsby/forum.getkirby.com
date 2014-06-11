@@ -1,0 +1,27 @@
+User: russbaldwin
+----
+Date: 2013-05-06 12:39:29
+----
+Text: If you have your data in a CSV format then this is cool ;-)
+
+Looking at your CSV it seems like you have a painting a row, which would probably equate to one per page? So it could be set up with a painting per page in Kirby, with simple panel metatdata selection? Or indeed just metadata for the images...
+
+```php
+StockCodeode: h-15
+----
+Date: 1963
+----
+WorkTitle: Split Rocks 
+----
+Height: 32
+----
+Width: 21
+----
+Materials: Oil on Board
+----
+Ownership: Sold
+```
+
+With dropdowns/options/date selectors in the Panel for selection?
+
+There are of course other consideration not least size and how you receive your data...

@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-01-04 10:17:47
+----
+Text: You just need to set the variables that Facebook is expecting, using the 'Open Graph' link provided above is a good start or use the [Faceboook documentation](http://developers.facebook.com/docs/guides/web/)?

@@ -1,0 +1,5 @@
+User: guillaumelobet
+----
+Date: 2013-05-08 12:44:54
+----
+Text: That would not do the trick I think... I have multiple **div** element for toggle boxes, for instance, which I would like to get rid of for the print version..

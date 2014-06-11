@@ -1,0 +1,16 @@
+Title: Easy way to pull in lists of content from other pages?
+----
+Date: 2012-05-24 17:51:04
+----
+Solved: 0
+----
+User: fitzage
+----
+Text: So lets say I have a Products page, and then a couple layers down I have Appliances with subpages.
+
+(pretty much this http://www.joyentcloud.com/products/ and this http://www.joyentcloud.com/products/appliances/)
+
+I haven't run across this in the documentation yet, although it's probably there…
+
+1. On the appliances page, I want to pull the list of items underneath it, including the thumbnail images associated with each one). I assume that this should be easy enough?
+2. On the Products page, I want to pull the appliances list. So they're not direct children of Products, but grandchildren. Possible?

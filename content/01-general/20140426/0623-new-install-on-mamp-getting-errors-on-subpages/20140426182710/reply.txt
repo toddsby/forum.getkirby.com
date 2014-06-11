@@ -1,0 +1,6 @@
+User: kryz_tho
+----
+Date: 2014-04-26 18:27:10
+----
+Text: Open your .htaccess
+RewriteBase /name_of_kirby_folder_in_htdocs/

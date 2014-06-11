@@ -1,0 +1,37 @@
+User: bastianallgeier
+----
+Date: 2012-05-16 19:45:07
+----
+Text: I think you made the right decision :)
+
+I was planning to release a form plugin, which helps you submit and validate forms, but it's still more or less a far-future project. 
+
+As you already mentioned, the kirby validation methods are quite useful – I hope :)
+
+Receiving values from a request is also very straight forward: 
+
+```php
+
+// I use to add name="submit" to the submit button
+// to check when the form has been submitted
+// like this: 
+if(get('submit')) {
+ 
+  // getting some example values from a contact form
+  // get() is a shortcut for $_GET['email'] and $_POST['email']
+  // it also takes care of trimming and escaping slashes
+  $email = get('email');
+  $name  = get('name');
+  $text  = get('text');
+
+  if(!v::email($email)) {
+    // do something on invalid inputs
+  }
+
+}
+
+```
+
+This is a very basic example, how I would handle form requests Kirby-style. 
+
+I hope it helps!

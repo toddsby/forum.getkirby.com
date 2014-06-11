@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-02-28 18:05:05
+----
+Text: There is now a sister piece of code to this, the main difference being in the code above the filters act together, whilst with [Individual Multi-FilterBy on Page Fields with Form Selection](http://getkirby.com/forum/code-snippets/topic:471) the filters act individually, so you can select none, one, two, or three filters in the example.

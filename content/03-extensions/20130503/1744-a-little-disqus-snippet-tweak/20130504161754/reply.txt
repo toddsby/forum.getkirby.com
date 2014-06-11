@@ -1,0 +1,9 @@
+User: russbaldwin
+----
+Date: 2013-05-04 16:17:54
+----
+Text: Neat, of course for those that don't know you can have different configs for staging and productions so very cool e.g.
+
+config.php
+config.staging-url.com.php
+config.production-url.com.php

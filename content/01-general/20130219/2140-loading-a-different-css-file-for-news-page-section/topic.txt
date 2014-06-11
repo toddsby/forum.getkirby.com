@@ -1,0 +1,10 @@
+Title: Loading a different CSS file for "news" page section
+----
+Date: 2013-02-19 21:40:18
+----
+Solved: 1
+----
+User: stimemmerson
+----
+Text: I have a question about how to activate a .css file that is different from the main .css (in some lines) and bind with **content/01-news** folder
+Actually If the name of the txt. document is **news.txt** I can bind it with **news.php** from the **/site/templates** folder, but how can I definite another .css for the **news.php** ?? Any suggestion??

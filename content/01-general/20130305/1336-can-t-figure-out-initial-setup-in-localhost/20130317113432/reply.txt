@@ -1,0 +1,8 @@
+User: nathaliesc86
+----
+Date: 2013-03-17 11:34:32
+----
+Text: Hi, I have a similar problem and I'm running a LAMP-server on Ubuntu. I copied the over the files to home/user/public_html/mysite.
+When I navigate to localhost, I get the error "The Kirby system could not be loaded". 
+I tried to set the values 'url' and 'subfolder' in config.php with your suggestions but I always get that error.
+Please help me.

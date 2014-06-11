@@ -1,0 +1,11 @@
+User: russbaldwin
+----
+Date: 2014-02-25 16:36:27
+----
+Text: Perhaps if it is a permanent re-route then add it to your **.htaccess** file?
+I've not tested the code below, and I'm not sure it is what you want, but I hope you get the idea.
+
+```
+RewriteCond %{REQUEST_URI} !^mysite.com/projects/$ [NC]
+RewriteRule ^mysite.com/projects/(.*)$ http://mysite.com/$1 [R=301,L]
+```

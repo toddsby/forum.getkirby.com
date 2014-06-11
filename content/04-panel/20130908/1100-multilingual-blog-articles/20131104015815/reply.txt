@@ -1,0 +1,11 @@
+User: IamAdamJowett
+----
+Date: 2013-11-04 01:58:15
+----
+Text: Once the multilanguage feature is enabled, it will try to find a version of the blog article content text file with the language extensions, and if it can't find it, will default to the language specified in your config as the default language.
+
+For example, in my site, blog articles run off article.txt files. When I enabled language support, let's say for Dutch, it looks for an article.nl.txt file first, and if it doesn't find it, will default back to the english version, named article.en.txt.
+
+Naturally the article.nl.txt file is where you translate the english blog article into Dutch.
+
+Hope that helps.

@@ -1,0 +1,12 @@
+User: aqeelfikree
+----
+Date: 2013-07-10 20:01:33
+----
+Text: I did something similar to what you suggested, but it didn't work. Your suggestion gave me this error:
+
+
+Notice: Undefined variable: str in /Applications/MAMP/htdocs/blog/site/templates/blog.php on line 40
+
+Fatal error: Class name must be a valid object or a string in /Applications/MAMP/htdocs/blog/site/templates/blog.php on line 40
+
+Any suggestion is greatly appreciated.

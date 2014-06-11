@@ -1,0 +1,26 @@
+User: bastianallgeier
+----
+Date: 2012-10-22 10:47:11
+----
+Text: To have that right inside the text would involve very complexe regular expressions, which are very error prune. 
+
+I'd suggest to work with invisible subpages instead, which don't actually create subpages, but those tabs instead. 
+
+so your structure would be
+
+```
+page-with-tabs
+  - page-with-tabs.txt
+  - tab-1
+    - tab.txt
+  - tab-2
+    - tab.txt
+  - tab-3
+    - tab.txt
+```
+
+and your page-with-tabs.txt template would then fetch all the tab subfolders and build the tabs html. 
+
+The big advantage of this solution is that those tabs can become very complex with included images and all the other page-related features. 
+
+Does that make sense to you? :)

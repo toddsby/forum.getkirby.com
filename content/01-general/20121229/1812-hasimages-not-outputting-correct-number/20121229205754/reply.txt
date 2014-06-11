@@ -1,0 +1,7 @@
+User: chrisburton
+----
+Date: 2012-12-29 20:57:54
+----
+Text: Solved by @vis7mac
+
+    $page->images()->count()

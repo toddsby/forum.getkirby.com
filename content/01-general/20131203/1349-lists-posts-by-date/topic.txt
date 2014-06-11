@@ -1,0 +1,29 @@
+Title: Lists Posts by Date
+----
+Date: 2013-12-03 13:49:05
+----
+Solved: 0
+----
+User: zeten80
+----
+Text: Hello,
+
+If I post a couple articles per day, I would like to list them by day. Like this:
+
+Day 01:
+-post 1
+-post 2
+-post 3
+
+Day 02:
+-post 4
+-post 5
+
+Day 03:
+-post 6
+-post 7
+-post 8
+
+Is it possible to accomplish this with kirby?
+
+Thanks.

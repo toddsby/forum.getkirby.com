@@ -1,0 +1,15 @@
+Title: Media query conditionals for snippets?
+----
+Date: 2013-04-18 05:59:15
+----
+Solved: 1
+----
+User: p_mylecharane
+----
+Text: Hey all—
+
+I'm building a responsive site at the moment and there's a section where I want to serve up different content (snippet) in a template only for smartphones. Is there a way to call a snippet by php media query?
+
+    <?php snippet(($page->template() == '@media only screen and (max-width: 479px)' ? 'projects-phone'))?> 
+
+I know this is nothing like it, but just jotting an idea out...and help would be great.

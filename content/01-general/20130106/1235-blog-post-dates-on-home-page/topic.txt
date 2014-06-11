@@ -1,0 +1,17 @@
+Title: Blog Post Dates on Home Page
+----
+Date: 2013-01-06 12:35:49
+----
+Solved: 0
+----
+User: tkenny
+----
+Text: Hi,
+
+I've just started using Kirby and I love the simplicity of it, especially coming from a WordPress background.
+
+I've managed to get a list of blog posts displayed on the homepage (from an articles folder) but I don't know how to get the date to display. The date displays on the actual article page itself but not on the homepage or the articles page.
+
+Here is the code I'm using to show the blog posts on the homepage:
+
+[https://gist.github.com/4466709](https://gist.github.com/4466709)

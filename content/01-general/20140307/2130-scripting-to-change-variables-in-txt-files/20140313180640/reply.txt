@@ -1,0 +1,9 @@
+User: OMGitsJKT
+----
+Date: 2014-03-13 18:06:40
+----
+Text: Oh, yeah, I see now that I wasn't very clear.
+
+The script is called after a form is submitted, and run by the server. It's not part of the templates or content, so Kirby doesn't do its thing - it's running independently. So, I'd like to activate kirby to be able to use its functionality.
+
+But, I don't understand how the .htaccess URL rewriting happens, so I'm also wondering that targeting `/photos/photo-one/photo.txt` when the 'real' URL is actually `/content/01-photos/01-photo-one/photo.txt` would still work..

@@ -1,0 +1,25 @@
+User: bastianallgeier
+----
+Date: 2013-01-04 14:24:08
+----
+Text: There's even a simpler method to clean the cache: 
+
+```
+<?php cache::flush() ?>
+```
+
+When combined with a little param check you can build your own cache flush api in one of your templates for example. 
+
+```
+<?php 
+
+if(params('flush-cache') == 'secret-cache-flushing-password') {
+  cache::flush();
+}
+
+?>
+```
+
+You could include that in the header snippet or a custom plugin file. Afterwards you can flush the cache like this: 
+
+http://yourdomain.com/flush-cache:secret-cache-flushing-password

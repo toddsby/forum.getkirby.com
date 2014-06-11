@@ -1,0 +1,5 @@
+User: barrysampson
+----
+Date: 2013-04-01 22:27:15
+----
+Text: I wondered if there had been any changes to the file/folder structure since this post was last updated? I'm considering a move from Wordpress and it's the only thing about Kirby I'm really not keen on.

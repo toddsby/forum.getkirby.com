@@ -1,0 +1,15 @@
+User: tysongach
+----
+Date: 2013-01-01 05:24:02
+----
+Text: @fitzage You're correct and your method should work just fine too.
+
+Although the method I described above requires a bit more upfront work, I choose to do it this way for a few reasons:
+
+1. I usually don't like to hard code image names like that into templates, if I cam avoid it
+2. I always find more value in descriptive file names rather than a bunch of `cover.jpg`'s
+3. I think the select box, which lets you choose *any* of your uploaded images, is super quick and easy. If you had a blog post with 10 photos, the select box allows you to quickly pick and try-out those covers photos without renaming two files each time.
+
+A lot of this mindset comes from building client sites, where if its just a simple select box, it's one less thing to teach, force and make sure it's done correctly. The select box has a title and can have help text, but they'd have to *remember* that naming an image `cover.jpg` is the trick to get what they want.
+
+But each method has a time and a place.

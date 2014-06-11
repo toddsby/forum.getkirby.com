@@ -1,0 +1,33 @@
+User: mattnico
+----
+Date: 2014-01-03 07:17:26
+----
+Text: I'm new to both Kirby and OOP PHP so I may have done this wrong, but I added this function to /kirby/lib/pages.php at the end of the pages class:
+
+    function past($start = 0, $end = false){
+        if(!$end) $end = time();
+    
+        foreach($this->_ as $key => $page) {
+            $page_date = strtotime($page->date('Y-m-d H:i'));
+            if($start < $page_date && $page_date < $end) {
+                $pages[$key] = $page;
+            }
+        }
+        return new pages($pages);
+    }
+
+EDIT: I've updated the function to default to retrieving past articles, but with the option of creating a date range from any time past, present, or future. It expects unix timestamps as arguments, so if you want a specific date you'll just call it like this:
+
+    $articles = $pages->past(strtotime('2013-01-01'), strtotime('2013-01-31'));
+
+This can be chained with all other $pages methods, like so:
+
+    $pages->find('blog')
+        ->children()
+        ->visible()
+        ->past(strtotime('2013-01-01'), strtotime('2013-01-31'))
+        ->filterBy('tags', param('tag'), ',')
+        ->flip()
+        ->paginate(10);
+
+I've seen other plugins but none of them worked properly with pagination so I decided to just modify the class (yes, I realize that's a no-no because it will be lost when Kirby is updated). If Bastian finds my solution agreeable, I hope it can be implemented in the pages class in future releases of Kirby.

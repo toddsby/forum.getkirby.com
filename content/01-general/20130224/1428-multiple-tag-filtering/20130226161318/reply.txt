@@ -1,0 +1,20 @@
+User: wieisdennis
+----
+Date: 2013-02-26 16:13:18
+----
+Text: The month and country cloud are a copy of the normal basic tagcloud and wrapped these in a dropdown-selectmenu combined with your alpha plugin.
+
+So in the country dropdown-selectmenu I refer to the country-cloud-plugin and in the month cloud I refer to month-cloud-plugin.
+
+In the plugins I adjusted the field and param to the corresponding fields, in this case country and month.
+
+In the main-events page the queries from the select-boxes are filtered by:
+
+filtered ->filterBy('country', urldecode(param('country')), ',')
+and it will show all events of the selected country.
+
+In the case of a selection by month it will be filtered by the selected month and show all the events of that month
+
+->filterBy('month', urldecode(param('month')), ',')
+
+See for the whole main-event page http://snipt.org/zfggh3

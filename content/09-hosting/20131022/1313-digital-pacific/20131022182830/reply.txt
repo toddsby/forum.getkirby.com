@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-10-22 18:28:30
+----
+Text: There are a wide variety of issues that could cause something like this, so it's pretty hard to tell. Some troubleshooting steps would be 1) look in the error logs on the server to see if you can find anything helpful and 2) turn on the PHP feature that sends errors to the browser. I don't remember what setting that is, but it's in the php.ini somewhere.

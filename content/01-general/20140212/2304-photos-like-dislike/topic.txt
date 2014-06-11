@@ -1,0 +1,9 @@
+Title: Photos Like/Dislike
+----
+Date: 2014-02-12 23:04:03
+----
+Solved: 0
+----
+User: omfgchris
+----
+Text: I'm using the gallery snippet, showing many photos. Wondering if it's possible to add a Like/Dislike button under each photo that logged the count?

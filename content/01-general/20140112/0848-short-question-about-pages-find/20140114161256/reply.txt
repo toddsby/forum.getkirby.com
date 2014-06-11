@@ -1,0 +1,9 @@
+User: fridgewanch
+----
+Date: 2014-01-14 16:12:56
+----
+Text: Perfect!
+
+Just adding ->first() did not change anything, but… findByUID() did the trick – without ->first().
+
+Thank you very much :)

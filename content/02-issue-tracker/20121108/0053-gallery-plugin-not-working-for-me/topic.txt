@@ -1,0 +1,20 @@
+Title: Gallery Plugin not working for me
+----
+Date: 2012-11-08 00:53:34
+----
+Solved: 0
+----
+User: ruehlpublishing
+----
+Text: Hi Kirbyists,
+
+I can't get the gallery snippet to work.
+
+I have all the files in place, but nothing shows up.
+There are many images in the same folder "drawings". I also tried different formats.
+
+[The page on my site](http://www.ruehlpublishinghouse.com/projects/drawings)
+
+Has anyone tested this snippet yet?
+
+Thanks a lot

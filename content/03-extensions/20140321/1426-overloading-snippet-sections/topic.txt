@@ -1,0 +1,23 @@
+Title: Overloading snippet sections
+----
+Date: 2014-03-21 14:26:51
+----
+Solved: 0
+----
+User: _nilswerner
+----
+Text: [Being a bit frustrated](http://getkirby.com/forum/feedback/topic:1165) with not being able to inject code into snippets I have written [a small extension](https://gist.github.com/nils-werner/9686081) for Kirby that allows you to do that:
+
+Using it you can basically do the following in your snippet:
+
+    <?php section::get('submenu') ?>
+
+ and optionally in your template something like
+ 
+    <?php section::start('submenu') ?>
+        This content will be injected into the snippet.
+    <?php section::end() ?>
+
+The code between `section::start` and `section::end` will be rendered everywhere you run `section::get`, may it be in your template or in a snippet.
+
+Setting the section is entirely optional, if you don't set one nothing will be rendered.

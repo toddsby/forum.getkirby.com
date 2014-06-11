@@ -1,0 +1,12 @@
+User: SimonStuecher
+----
+Date: 2012-09-25 16:37:59
+----
+Text: I currently have the same problem and solved it partly.
+
+The language switch mentioned in https://gist.github.com/2835185 is not compatible with the URL-Key-Feature mentioned in http://getkirby.com/docs/multi-language/translating-urls
+
+I solved this by using the UID of the page. But now I have a unnecessary redirect from /de/UID to /de/URL-Key
+See https://gist.github.com/3782285
+
+Is there a way to get the right URL for the same page but for a different language?

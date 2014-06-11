@@ -1,0 +1,15 @@
+Title: Problem to retrieve the raw URL of a thumbnail
+----
+Date: 2013-03-14 18:54:49
+----
+Solved: 0
+----
+User: tbnv
+----
+Text: Hi,
+
+When I want to retrieve a thumbnail's raw URL, the following code echoes the original image URL instead.
+
+    <?php echo thumb($image, array('width' => 200), false) ?>
+
+Is it a bug or do I anything wrong? Someone else could confirm that?

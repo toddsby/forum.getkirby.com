@@ -1,0 +1,18 @@
+Title: How to parse external txt files and convert them to objects
+----
+Date: 2014-03-11 14:42:31
+----
+Solved: 1
+----
+User: owzim
+----
+Text: I have an external source of my data, which is basically txt-files and are structured exactly like the ones of kirby pages.
+
+How can I parse them so they are converted to objects like the page object? Could not find the logic in the Kirby source code which does that.
+
+So that I can use them like so:
+```
+$externaltxt = someParseFunction("my-file.txt");
+$externaltxt->title();
+```
+Thanks.

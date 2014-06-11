@@ -1,0 +1,36 @@
+Title: Bash script to auto-update image thumbnails inside content folder
+----
+Date: 2013-02-02 19:28:44
+----
+Solved: 0
+----
+User: vladstudio
+----
+Text: It's not exactly a "code snippet", but I thought some of you could find it useful. 
+
+Kirby (core CMS) does not resize images and the docs suggest to upload thumbs in the same folder:
+http://getkirby.com/docs/media 
+01.jpg
+01.thumb.jpg 
+...
+
+One solution is Thumb plugin - http://getkirby.com/blog/thumb-plugin - which needs **/thumbs** folder for cached resized images.
+
+If you prefer to keep thumbs in the same folder as originals, and have ImageMagick installed on your server, another solution is the following bash script:
+
+	#!/bin/bash
+
+	## settings
+	fit=480
+
+	## do not edit below
+	for f in $(find . -iname '*.jpg' -a ! -iname '*.thumb.jpg'); do
+		t=${f/.jpg/.thumb.jpg}
+		if [ -f "${f}" ]; then
+			convert ${f} -adaptive-resize ${fit}x${fit} ${t}
+		fi;
+		echo ${t}; 
+	done;
+
+
+Save it as something like "update.sh" in root folder, and run from Terminal.

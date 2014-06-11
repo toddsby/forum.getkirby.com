@@ -1,0 +1,13 @@
+Title: Breadcrumbs, a slightly different flavor
+----
+Date: 2012-06-18 12:48:17
+----
+Solved: 0
+----
+User: danielgenser
+----
+Text: My personal preference for breadcrumbs is to include the current page, as a <span>, not as a link. I slightly modified the breadcrumb snippet to support this. Have a look at it here: http://pastebin.com/L7FLvBv1
+
+Please do suggest how I can improve it if you notice something.
+
+Thanks!

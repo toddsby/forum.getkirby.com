@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2012-08-27 19:43:54
+----
+Text: Never mind. Didn't realize I had to do find('company/news') but it makes sense.

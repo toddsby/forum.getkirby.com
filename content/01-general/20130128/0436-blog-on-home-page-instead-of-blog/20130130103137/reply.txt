@@ -1,0 +1,7 @@
+User: me_arno
+----
+Date: 2013-01-30 10:31:37
+----
+Text: @russbaldwin do you have a solution for the duplicate urls that happen with a set-up like this?
+
+See: http://getkirby.com/forum/issue-tracker/topic:30

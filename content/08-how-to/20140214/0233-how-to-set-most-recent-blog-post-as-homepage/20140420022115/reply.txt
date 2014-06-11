@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2014-04-20 02:21:15
+----
+Text: Use the above code in your home.php template (or whatever template you're using for your homepage) but limit it to 1 instead of 10. Then just display it as a normal individual post.

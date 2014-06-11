@@ -1,0 +1,13 @@
+Title: Subtract the first image
+----
+Date: 2012-08-05 15:15:24
+----
+Solved: 0
+----
+User: gielcobben
+----
+Text: Hi,
+
+Is there a way to subtract the first image form all other images? So all images are shown except the first one.?
+
+Thanks!

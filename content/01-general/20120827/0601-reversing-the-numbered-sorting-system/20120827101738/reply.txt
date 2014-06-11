@@ -1,0 +1,7 @@
+User: bastianallgeier
+----
+Date: 2012-08-27 10:17:38
+----
+Text: ->flip() is actually the way to go :)
+
+There's also a sortBy() method. For more information you should check out the Kirby Cheat Sheet: <http://cl.ly/GXBe>

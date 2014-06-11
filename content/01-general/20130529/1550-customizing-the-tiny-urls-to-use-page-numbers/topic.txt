@@ -1,0 +1,61 @@
+Title: Customizing the tiny URLs to use page numbers
+----
+Date: 2013-05-29 15:50:38
+----
+Solved: 0
+----
+User: jancbeck
+----
+Text: I have registered my own domain to create tiny urls and I would like to use the numbers of my blog articles to create tiny urls.
+
+My structure looks like this
+
+´´´
+/01-articles
+  - 01-article-a/
+  - 02-article-b/
+  - 03-article-c/
+  etc...
+/02-projects
+/03-about
+´´´
+
+The URL of article B would change from http://mydomain.com/articles/article-b/ to **http://sho.rt/02/**
+
+I already amateurishly tried to edit the function in **/lib/pages.php L196**:
+
+´´´
+function tinyurl() {
+    return c::get('tinyurl.domain') . c::get('tinyurl.folder') . '/' . $this->num;
+}
+´´´
+
+with this in my **config.php**:
+
+´´´
+c::set('tinyurl.folder', '');
+c::set('tinyurl.enabled', true);
+c::set('tinyurl.domain', 'http://sho.rt');
+´´´
+
+which got me `<php $page->tinyurl() ?>`displaying the URL I want. 
+
+I'm struggling to get the redirection to work though. Right now I'm getting an "not found" error and don't know where to start.
+
+In /lib/site.php L161 I found this:
+
+´´´
+    // redirect tinyurls
+    if($this->uri->path(1) == c::get('tinyurl.folder') && c::get('tinyurl.enabled')) {
+      $hash = $this->uri->path(2);
+      
+      if(!empty($hash)) {
+        $resolved = $this->pages->findByHash($hash)->first();
+        // redirect to the original page
+        if($resolved) go(url($resolved->uri));
+      }  
+´´´
+
+But my knowledge of kirby is too limited to adjust the code to incorporate page numbers.
+
+Any help is greatly appreciated!

@@ -1,0 +1,5 @@
+User: walkerbox
+----
+Date: 2013-07-29 18:22:38
+----
+Text: To post code, indent each line with a tab. It's not clear where in the loop above you are using `$child->url()`

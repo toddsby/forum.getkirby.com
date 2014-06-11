@@ -1,0 +1,10 @@
+User: russbaldwin
+----
+Date: 2013-06-11 17:26:57
+----
+Text: Not really, but I guess the folder UID is unique or perhaps article title? Alternatively create a unique ID generated in your blueprint / template?
+
+Check out:
+$pages->findByUID($uid)
+finds a page by its uid.
+uid: foldername without number

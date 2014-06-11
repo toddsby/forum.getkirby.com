@@ -1,0 +1,122 @@
+User: roobottom
+----
+Date: 2013-03-23 19:07:34
+----
+Text: Hi. Thanks for your reply. That's exactly my folder structure, so typically I'll have this:
+
+```
+-gallery
+   -album-name-1
+      -album.txt
+      -01.jpg
+      -02.jpg
+   -album-name-2
+     -album.txt
+      -01.jpg
+      -02.jpg
+   -gallery.txt
+```
+
+And I have two template files `gallery.php` and `album.php`. `gallery.php` shows the first photo from each album and `album.php` shows all the photos from that folder.
+
+You can also pass in a `GET` variable to `album.php` that will show one photo large. It's essentially a wrapper for a single file. I've included the full `album.php` at the bottom of this post.
+
+My issue is with the `GET` variable. It's an ugly url, and I'd like to change it with .htaccess if possible.
+
+Thanks.
+
+```
+<? 
+snippet('header'); 
+require_once(__DIR__ . '/fn.imageMeta.php');
+ 
+$single=false;
+if(isset($_GET['p']) && $_GET['p'] != '') $single=true;
+?>
+
+<? if($single): // --- SINGLE MODE -- //
+	$baseURL = strtok($_SERVER["REQUEST_URI"], '?');
+		
+	$orientation = 'landscape';
+	if($page->files()->find($_GET['p'])->width() < $page->files()->find($_GET['p'])->height()):
+		$orientation = 'portrait';
+	endif;?>
+	
+	<figure class="fullscreen <?=$orientation?>">
+		<img src="<?= $page->files()->find($_GET['p'])->url() ?>"/>
+	</figure>
+
+	
+	<aside class="album">
+		<? if($page->files()->find($_GET['p'])->caption() != null):
+			$title = $page->files()->find($_GET['p'])->caption();
+		else:
+			$title = getTitle($page->files()->find($_GET['p'])->url());
+		endif; ?>
+		
+		<? if($title != null): ?>
+			<h1 class="caption"><?=$title?></h1>
+		<? endif;?>
+	</aside>
+	
+<nav class="simple pagination">
+	<a href="<?=$baseURL?>" class="home" rel="home" title="<?= html($page->title()) ?>"><span><?= html($page->title()) ?></span></a>
+	<? if($page->files()->find($_GET['p'])->hasPrev()): $prev = $page->files()->find($_GET['p'])->prev(); ?>
+	<a href="?p=<?=$prev->filename()?>" class="prev" title="Previously" rel="prev">
+		<span>Previously</span>
+	</a>
+	<? endif; ?>
+	<? if($page->files()->find($_GET['p'])->hasNext()): $next = $page->files()->find($_GET['p'])->next(); ?>
+	<a href="?p=<?=$next->filename()?>" class="next" title="Subsequently" rel="prev">
+		<span>Subsequently</span>
+	</a>
+	<? endif; ?>
+</nav>
+
+	
+<? else:  // --- GALLERY MODE -- // ?>
+<? snippet('menu') ?>
+	<section class="content"><div class="wrapper">
+	
+	<h1 class="center"><?= html($page->title()) ?></h1>
+	<? $n=1;
+	foreach($page->images() as $image): 
+	
+	$class='';
+	if($n%4 == 1) $class='first';
+	if($n%4 == 0) $class='last'; ?>
+	
+	<article class="column x3 photo <?= $class; ?>">
+		<a href="?p=<?= $image->filename() ?>" class="round-image">
+			<img src="<?= thumb($image, array('width' => 200, 'crop' => true), false); ?>" data-imgsrc="<?= thumb($image, array('width' => 625, 'crop' => true), false); ?>"/>
+		</a>
+	</article>
+	
+	<? $n++;
+	endforeach; ?>
+	<article class="prose column x12 first">
+		<div class="post-content">
+			 <hr/>
+			 <p class="date center"><?= $page->date('F Y') ?></p>
+			 <?= kirbytext($page->description()) ?>	 
+		</div>
+	</article>
+
+</div></section>
+
+<nav class="pagination">
+	<? if($page->hasPrev()): $prev = $page->prev(); ?>
+	<a href="<?=$prev->url()?>" class="prev" title="Previously: <?= $prev->title()?>" rel="prev">
+		<span>Previously: <?= $prev->title()?></span>
+	</a>
+	<? endif; ?>
+	<? if($page->hasNext()): $next = $page->next(); ?>
+	<a href="<?=$next->url()?>" class="next" title="Subsequently: <?= $next->title()?>" rel="prev">
+		<span>Subsequently: <?= $next->title()?></span>
+	</a>
+	<? endif; ?>
+</nav>
+
+<?php snippet('footer') ?>
+<? endif; ?>
+```

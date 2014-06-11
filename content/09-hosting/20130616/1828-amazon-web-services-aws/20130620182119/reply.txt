@@ -1,0 +1,16 @@
+User: eytanbiala
+----
+Date: 2013-06-20 18:21:19
+----
+Text: I'm using Ubuntu on EC2 with Kirby and Dropbox installed as well, and it works quite nicely.
+You can install PHP and Apache:
+
+     sudo apt-get install apache2
+
+     sudo apt-get install php5 libapache2-mod-php5
+
+Then restart apache to complete:
+
+     sudo service apache2 restart
+
+Then setup Kirby in /var/www/

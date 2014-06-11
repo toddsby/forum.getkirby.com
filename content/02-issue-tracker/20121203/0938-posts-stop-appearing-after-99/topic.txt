@@ -1,0 +1,13 @@
+Title: Posts stop appearing after "99-..."
+----
+Date: 2012-12-03 09:38:28
+----
+Solved: 0
+----
+User: ignaty
+----
+Text: Hi,
+
+Can't confirm this as a bug or my mistake, but on one of mine projects posts stop appearing on homepage after "99-..." subfolder.
+
+Did someone experienced that before?

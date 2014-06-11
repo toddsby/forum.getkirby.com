@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-03-17 10:11:32
+----
+Text: [Method: db::connection](http://toolkit.getkirby.com/docs/classes/db/connection) returns the current connection or false?

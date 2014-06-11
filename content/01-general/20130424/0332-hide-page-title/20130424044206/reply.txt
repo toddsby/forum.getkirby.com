@@ -1,0 +1,9 @@
+User: staroversky
+----
+Date: 2013-04-24 04:42:06
+----
+Text: I am not sure if this is the right way to do this, but I opened the template folder and the default.php
+
+I deleted this line
+
+    <h1><?php echo html($page->title()) ?></h1>

@@ -1,0 +1,15 @@
+Title: Some plugin ideas if you're bored
+----
+Date: 2012-08-07 19:40:42
+----
+Solved: 0
+----
+User: fitzage
+----
+Text: We're looking at a couple of things for a new site, and with a lot of work I could probably cobble together some various PHP things and make it happen, but my PHP skills are pretty limited at this point, so it may not work out the way I'd like.
+
+1. Something that allows me to generate a PDF file for a user. I'd probably build an HTML page based on options selected by the user, and then generate the PDF. There are PDF creation plugins for PHP, but I'm not sure I know the best way to integrate them into Kirby.
+
+2. Something that allows me to email a single-use download link to a user. Again, something that I could probably do in PHP with a little research, but I'm not sure how to best integrate it. I'd want this download link to link to the generated PDF, instead of giving them the PDF link right up front.
+
+So feel free to whip up some plugins. :-) Also, if you know off the top of your head some resources that would help me get something started on my own, I'd be happy for any links and ideas you could give me.

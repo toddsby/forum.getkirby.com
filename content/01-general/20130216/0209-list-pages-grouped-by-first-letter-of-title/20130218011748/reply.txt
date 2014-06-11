@@ -1,0 +1,13 @@
+User: paulrobertlloyd
+----
+Date: 2013-02-18 01:17:48
+----
+Text: Hi Russ,
+
+Thanks for your suggestion. I tried that to begin with, but wasn’t sure how to recreate the array with real data, so I hunted on Google and found something with similar enough PHP functions to Kirby, and knew I could hack on that.
+
+Others have mentioned to me the problem of using a flat-file based system to generate a site with a large (somewhat relational) database. That said, I’ve got far along in development with no problems. In terms of performance, I plan to turn on all of Kirby’s caching features, and host the site behind a service like [Fastly](http://www.fastly.com), so this shouldn’t be too much of a problem.
+
+Thanks again,
+
+Paul

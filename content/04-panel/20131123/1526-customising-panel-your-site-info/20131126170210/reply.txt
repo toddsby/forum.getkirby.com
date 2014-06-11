@@ -1,0 +1,5 @@
+User: removabledante
+----
+Date: 2013-11-26 17:02:10
+----
+Text: After a lot of searching I found out how to edit "Your Site" on the panel, so you can actually add the name of your site to the header. Counterintuitively, you go to the panel folder, then the languages folder. I just edit en.php and the line where it specifies subheader.site. Also, you can change all the panel messaging if you want :-)

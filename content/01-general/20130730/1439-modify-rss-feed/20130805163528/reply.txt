@@ -1,0 +1,9 @@
+User: russbaldwin
+----
+Date: 2013-08-05 16:35:28
+----
+Text: So what is in `$item->quote()`
+
+```php
+a::show($item->quote())
+```

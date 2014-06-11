@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2014-05-04 17:26:10
+----
+Text: Have the RSS feed only display visible items, and then don't make the article visible until you're done editing.

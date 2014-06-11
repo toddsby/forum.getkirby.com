@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-05-18 08:02:13
+----
+Text: Hm, strange! I'm using `overflow: hidden` to clear the floats in that list, which might cause the problem, but I can't reproduce it in Chrome or Firefox myself. Is it only happening on the Kirby site or do you have the same problem when you install Kirby on your server?

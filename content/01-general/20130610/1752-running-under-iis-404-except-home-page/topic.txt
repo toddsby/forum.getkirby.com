@@ -1,0 +1,24 @@
+Title: Running under IIS - 404 except home page
+----
+Date: 2013-06-10 17:52:47
+----
+Solved: 0
+----
+User: johnkelleher
+----
+Text: Trying to see if Kirby works on our college IIS 7 setup. I'm getting Error 404 on all but home page. Things in play:
+- IIS 7.0 on Windows Server 2008
+- currently have Wordpress site running fine but Kirby is on Dropbox shared to the server and mapped as localhost:81
+- PHP ver 5.2.14
+- URL Rewrite 2.0 (installed from Microsoft)
+
+Things I've tried:
+- amended PHP.ini to include mbstring.dll reference
+- set c::set('rewrite', false); but while this does let me see further pages, they are without styles (can't find styles.css, I reckon)
+- installed URL Rewrite 2.0 but don't know what rules to add to please Kirby
+
+Feel I'm close - think I mostly need the rewrite rules to make Kirby _find_ the sub-pages,
+
+Loving Kirby so far, IIS - not so much ;)
+
+J

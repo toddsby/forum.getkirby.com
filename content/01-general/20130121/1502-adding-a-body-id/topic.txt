@@ -1,0 +1,11 @@
+Title: Adding a body id
+----
+Date: 2013-01-21 15:02:37
+----
+Solved: 1
+----
+User: theoriginalivor
+----
+Text: Hi, I'm new to Kirby.
+
+How do I have dynamic id's on on the body tag. with the children's inheriting the parents id?

@@ -1,0 +1,25 @@
+Title: Multiple select dropdown in panel for tagselection?
+----
+Date: 2013-02-23 11:16:01
+----
+Solved: 1
+----
+User: janstieler
+----
+Text: Hi,
+I have added an textfield at the panel for article tags.
+Now I want to have an multipleselect-dropdown witch have all my tags inside so that i have only to select the needed.
+For this I have copied the the normal selected folder in panel>fields
+added a multiselect.config.php with
+
+	<?php $options['value'] = str::split($options['value']);
+
+and changed the sourcecode to
+
+	<select name="<?php echo $name ?>" class="<?php echo $class ?>" multiple="true"><?php foreach($options AS $key => $text): ?><option<?php if($key == $value) echo ' selected="selected"' ?>value="<?php echo html($key) ?>"><?php echo html($key) ?></option><?php endforeach ?></select>
+
+and in the blueprint file I used type: multiselect. This work fine.
+But now my problem is that it doesn´t store the selection if i reload the article at the panel and at the article txt-file will only save the first selected tag and not all who i have select.
+Can anyone tell me how can I fix my problems?
+
+Jan

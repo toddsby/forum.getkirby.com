@@ -1,0 +1,7 @@
+User: eytanbiala
+----
+Date: 2012-10-04 21:05:54
+----
+Text: It doesn't look like PHP 5.3 does the trick, I'm seeing the same behavior on another server with 5.3.17.
+
+The strange thing is, it's only working for me on a free shared hosting server, and not working on paid, private servers.

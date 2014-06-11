@@ -1,0 +1,12 @@
+User: eytanbiala
+----
+Date: 2012-09-16 08:17:59
+----
+Text: Hi,
+
+I'm also having this issue, but I haven't changed anything in the config file, both the url and subfolder are still set to false.
+
+Edit: I did not have the original .htaccess setup, which was causing the issue.
+
+Thanks,
+Eytan

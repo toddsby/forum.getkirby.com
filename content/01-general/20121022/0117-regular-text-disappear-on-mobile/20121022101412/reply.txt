@@ -1,0 +1,9 @@
+User: bastianallgeier
+----
+Date: 2012-10-22 10:14:12
+----
+Text: I think Russell has some great advice here. 
+
+I also ran into some strange problems related to optimizeLegibility in combination with webfonts a few times and I think I will remove that rule from the default theme soon. 
+
+But in general such CSS problems shouldn't be related to Kirby as long as the produced HTML is correct. If there's a problem with that p tag caused by kirbytext, please let me know.

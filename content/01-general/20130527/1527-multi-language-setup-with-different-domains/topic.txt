@@ -1,0 +1,20 @@
+Title: Multi language setup with different Domains
+----
+Date: 2013-05-27 15:27:32
+----
+Solved: 0
+----
+User: pauvince
+----
+Text: Hey, 
+
+i´ve setup a kirby website with 3 different languages, actually the url schema is the kirby default: domain.com/de , domain.com/en and domain.com/jp … 
+Is there anything built in kirby that i can use to have a seperated TLD for each language like:
+
+domain.com (english site)
+domain.de (german site)
+domain.jp (japanese site)
+
+The easiest solution would be a simple redirect but that is not perfect.
+
+Thanks guys

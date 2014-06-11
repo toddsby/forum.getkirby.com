@@ -1,0 +1,39 @@
+User: bastianallgeier
+----
+Date: 2012-09-27 13:03:35
+----
+Text: Hey guys, 
+
+the performance issue is indeed a very interesting thing. In your case there's some weird redirecting going on, which probably kills performance. You should try to get rid of that and also make sure to switch on caching:
+
+```php
+
+c::set('cache', 'true');
+c::set('cache.html', 'true');
+c::set('cache.data', 'true');
+
+``` 
+
+Normally servers can handle that amount of subfolders in a single folder very well. Although it depends on the used harddrives and the number of other clients on the same server and the IO they generate with their sites. (in case of shared hosting)  
+
+But I already had the case that 600+ articles ruined the performance of a site, even with caching enabled. 
+
+The problem is that Kirby can handle huge amounts of subpages as long as they are all in a tree-like structure. On the back-end, Kirby only reads the files and folders, which are needed to build the current page. So normally there are not more than 10-30 dirs involved, which is very fast – often way faster than fetching the same stuff from a db. 
+
+As soon as you got a blog with a high number of subfolders in a single folder, performance can go down if the hard drive isn't able to compensate it, because Kirby needs to scan the entire directory of articles, even if you just display 10 articles for example. This is needed to check for the number of children/siblings, find next and previous children, etc. 
+
+I'm currently working on improving the code, which handles those dependencies, which will likely speed up things imensely, but I'm not done yet. 
+
+I'm also working on an idea of providing a different kind of folder structure for blogs, where you put each article into another sublevel – either for each year or by category – which would make it way more scalable. 
+
+I don't know if you are willing to spend time on this, but I'd really like to work with you on making the site snappy. 
+
+I also totally understand the naming issue for text files. I had that request a few times already and I will look for a solution here as well. 
+
+The idea of having something like:
+
+```
+myarticleaboutxyz.article.txt
+```
+
+…could really work.

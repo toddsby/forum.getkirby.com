@@ -1,0 +1,13 @@
+User: bastianallgeier
+----
+Date: 2012-06-01 09:38:19
+----
+Text: Sorry guys! The forum really has a notification problem :) I'm working on it. 
+
+There's actually already a built-in "auto-linker". You can find the code for it at the bottom of the plugin. 
+
+All you need to do is to echo the text in your template like this: 
+
+```php
+<?php echo html($tweet->text(true)) ?>
+```

@@ -1,0 +1,11 @@
+Title: Thumbnails: resize long edge
+----
+Date: 2014-03-13 19:10:18
+----
+Solved: 0
+----
+User: omgitsjkt
+----
+Text: Instead of 'width' or 'height'
+
+it's not hard to write an argument in my own script but would be a nice feature for the thumbnail plugin!

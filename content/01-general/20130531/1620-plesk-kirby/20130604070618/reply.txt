@@ -1,0 +1,5 @@
+User: dokdeleon
+----
+Date: 2013-06-04 07:06:18
+----
+Text: Just a follow up for those who might encounter the same thing. For Plesk, that wont permit apache to write on server, use PHP on FastCGI. Have the server guys edit php.ini if you dont have access to it. Thanks.

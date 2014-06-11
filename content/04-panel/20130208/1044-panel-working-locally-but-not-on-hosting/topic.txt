@@ -1,0 +1,11 @@
+Title: Panel working locally but not on hosting
+----
+Date: 2013-02-08 10:44:31
+----
+Solved: 0
+----
+User: theoriginalivor
+----
+Text: Hi I've got a slight annoying problem. The panel works locally all fine, iI can log in edit delete etc. But on my host I can only login in. Anytime I try to edit anything It just defaults to my 404 on my site. Its worth noting that I'm on a windows host.
+
+Could anyone help direct me to things i should check to get it to work.

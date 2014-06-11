@@ -1,0 +1,17 @@
+Title: Can't create new pages
+----
+Date: 2013-10-26 23:01:20
+----
+Solved: 0
+----
+User: staudi_
+----
+Text: Hey,
+
+I have weird problem with kirby panel, when creating new pages nothing happen, sidebar is just greyed out and url is /panel/quotes/show:content/do:add-page.
+
+I have tried changing config and htaccess settings and setting permissions to 755 or 777 but nothing helps.
+
+Do you have any ideas what might be wrong ? Thanks.
+
+(Image: http://cl.ly/SA1S)

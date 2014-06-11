@@ -1,0 +1,9 @@
+User: OMGitsJKT
+----
+Date: 2013-08-15 21:20:27
+----
+Text: Were you able to find a way to integrate an inventory system?
+
+I've been building up a site for a client and we're about to launch - with paypal at first, but once their API is updated with more features, Shoplocket is seeming like a good bet for something that's easy to integrate and also to maintain on the client's end.
+
+Looking forward to seeing your work, Chris ~

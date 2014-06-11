@@ -1,0 +1,5 @@
+User: Swissendo
+----
+Date: 2013-07-19 23:12:47
+----
+Text: As far as I know, it isn't currently possible. The function has been teased for Kirby 2 though, see [here](http://cl.ly/P2Ws).

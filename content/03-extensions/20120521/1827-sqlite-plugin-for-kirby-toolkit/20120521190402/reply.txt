@@ -1,0 +1,9 @@
+User: bastianallgeier
+----
+Date: 2012-05-21 19:04:02
+----
+Text: That's awesome!! I got a request for SQLite support from another user, but I wasn't able to build something yet. I find SQLite super exciting and it's really a fantastic addition to Kirby. I also agree that it would be way cooler to run the forum on SQLite instead of MySQL. 
+
+Let me know when you got a working version. I'm really excited about this and can't wait for it :) 
+
+Have you been able yet to check how support for SQLite is on some of the shared hosting providers. That would be the only downside for me in comparison to MySQL, because you basically get MySQL databases everywhere.

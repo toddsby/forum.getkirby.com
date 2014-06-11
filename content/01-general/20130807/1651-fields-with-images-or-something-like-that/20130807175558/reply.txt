@@ -1,0 +1,28 @@
+User: jean_francois
+----
+Date: 2013-08-07 17:55:58
+----
+Text: If I understand what you want, I think it's possible. 
+With the Panel, you can do it like following :
+
+* Create a blueprint for your product page and add at the end :
+<pre>
+filefields:
+  caption:
+    label: Caption
+    type: text
+  isproductimage:
+    label: Product image (write 'yes' to make this image appears on the product section of the page)
+    type: text
+  iscomponentimage:
+    label: Component image (write 'yes' to make this image appears on the component section of the page)
+    type: text
+</pre>
+* In your template file like [this](http://pastebin.com/WkcLPAaj)
+<br />
+If you're not using the panel, keep the code from template.php.
+For each images you want to display on your page, put them in the same folder as your page file. 
+Then create a samenameasfile.fileextension.fileExtensionForYourPageFiles (mine is .txt, you have the choice in /site/config/config.php)
+e.g : If your file is named photo_product_1.png, you have to create a file named photo_product_1.png.txt, and put [those lines](http://pastebin.com/QcetUDqe) inside.
+
+Now each time you add an image, set yes at Isproductimage/Iscomponentimage in yourimage.extension.txt and it will appears automatically on your product page :)

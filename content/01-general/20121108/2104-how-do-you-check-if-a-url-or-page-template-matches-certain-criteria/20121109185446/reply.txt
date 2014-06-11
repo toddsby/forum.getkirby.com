@@ -1,0 +1,14 @@
+User: chrstphbach
+----
+Date: 2012-11-09 18:54:46
+----
+Text: Why don't you just use a custom field in your txt file? Like
+
+	Title: FooBar
+	----
+	Text: Blabla
+	----
+	Theme: Orange
+
+
+Then you can load images from a hidden content folder named like that theme for example.

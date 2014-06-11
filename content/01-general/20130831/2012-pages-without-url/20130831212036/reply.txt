@@ -1,0 +1,15 @@
+User: texnixe
+----
+Date: 2013-08-31 21:20:36
+----
+Text: If you want to output all your articles, you need to loop through the array to output all articles' titles:
+
+    <?php
+        foreach ($pages->index() as $p): ?>
+            
+           <li><?php echo $p->title() ?></li>
+    <?php endforeach ?>
+
+I'm not quite sure if you want the titles, though. If you want the folders, you can use $p->uid() instead.
+
+If you just echo an array like above, your output is always the word "array".

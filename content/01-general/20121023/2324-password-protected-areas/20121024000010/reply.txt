@@ -1,0 +1,11 @@
+User: tysongach
+----
+Date: 2012-10-24 00:00:10
+----
+Text: I think a lot of us are looking for this function; I know I am. There's already some (link: http://getkirby.com/forum/extensions/topic:91 text: other chatter) here in the forums about this.
+
+The (link: https://github.com/niklausgerber/Protect-Kirby-CMS text: Protect Kirby CMS) plugin by Niklaus Gerber might help you out.
+
+It works, however it's not exactly what I'm looking for in a password protect feature.
+
+I need the ability to have one _global_ login page (like example.com/clients/login, for example) which someone can sign in to using their credentials then it takes them to a particular page. All of this would need to be controllable through the Kirby Panel too. Right now, I don't think this is possible...

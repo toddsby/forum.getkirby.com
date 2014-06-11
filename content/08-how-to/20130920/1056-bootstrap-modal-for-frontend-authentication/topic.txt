@@ -1,0 +1,30 @@
+Title: Bootstrap Modal for Frontend Authentication
+----
+Date: 2013-09-20 10:56:29
+----
+Solved: 0
+----
+User: raflueder
+----
+Text: Hello!
+
+I've been playing with kirby for 24h now and have managed to integrate Bootstrap quite successfully, kirby is great!
+
+I'm wondering what the best way to implement a bootstrap modal for front-end authentication would be.
+
+What I'm trying to achieve is to load login.php inside a Boostrap modal from a link in my menu.php (only one page/link is restricted and would launch the modal the others would work as usual).
+
+I've managed to get the authentication working just fine following the instructions provided here: (link: http://getkirby.com/blog/frontend-authentication)
+
+The problem is, for the bootstrap modal to work it needs an id instead of a page URL and also data-toggle="modal" added to the link: (link: http://getbootstrap.com/2.3.2/javascript.html#modals)
+
+The php for my navigation at the moment is:
+
+    <?php foreach($pages->visible() AS $p): ?>
+    <li <?php echo ($p->isOpen()) ? ' class="active"' : '' ?> >
+    <a href="<?php echo $p->url() ?>"><?php echo html($p->title()) ?></a></li>
+    <?php endforeach ?>
+
+I'd be more than happy to add this as a snippet to kirby once I get it to work properly.
+
+Any ideas? Thanks!

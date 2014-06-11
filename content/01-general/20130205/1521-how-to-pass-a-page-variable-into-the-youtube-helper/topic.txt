@@ -1,0 +1,24 @@
+Title: How to pass a page variable into the Youtube Helper
+----
+Date: 2013-02-05 15:21:01
+----
+Solved: 1
+----
+User: theseason
+----
+Text: I am trying to pass the Videolink info from my .txt file into the Youtube Helper. I get nothing when I try to do it this way:
+
+```
+<?php echo youtube($page->Videolink()) ?>
+```
+
+Do I need to make a variable like this at the top of the page:
+
+```
+<? $videolink = $pages->Videolink(); ?>
+```
+
+and then pass it to the YouTube helper?
+
+Thanks
+A

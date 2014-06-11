@@ -1,0 +1,20 @@
+Title: Subpage parent template
+----
+Date: 2013-02-26 00:38:07
+----
+Solved: 1
+----
+User: zinzygeene
+----
+Text: Hi there! I'm sorry if the answer to my question is incredibly obvious, but I have not been able to find it so far and I'm driving myself a bit crazy.
+
+I'm creating a website with template-specific CSS, and the layout I created needs the subpages to have the same CSS as their parents.
+
+My question is: is there a way for the subpages to use the parent template and not the default? I know I can do two things:
+- create a separate template for each subpage
+- I can install Panel and add blueprints (I think)
+
+However, I want to keep things as efficient as possible, and I don't feel like using Panel.
+
+
+Thank you in advance for your replies!

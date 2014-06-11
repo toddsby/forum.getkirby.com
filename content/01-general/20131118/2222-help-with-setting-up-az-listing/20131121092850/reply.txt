@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-11-21 09:28:50
+----
+Text: Still doesn't seem right to me, giving people a link they cannot click on... Anyway perhaps loop through your Alphabetical tag array and add/merge in missing letters with no links as required?

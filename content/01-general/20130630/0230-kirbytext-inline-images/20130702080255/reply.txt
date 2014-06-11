@@ -1,0 +1,8 @@
+User: russbaldwin
+----
+Date: 2013-07-02 08:02:55
+----
+Text: There are all sorts of ways ;-)
+Simplest would be to add the images with a class (if you are using your kirbytext method) and arrange them with CSS? 
+
+I don't think you need to use negative margins if you don't want, it all depends on what you use for your CSS grid. If you check out the HTML source and CSS of the link you sent you will see `img` tags wrapped in `p` tags and what looks like bootstrap CSS?

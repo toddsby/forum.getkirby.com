@@ -1,0 +1,10 @@
+User: russbaldwin
+----
+Date: 2013-03-17 10:21:51
+----
+Text: Something like (not tested)
+```php
+<?php foreach($page->images()
+                   ->not('thumb.jpg') 
+as $image): ?> 
+```

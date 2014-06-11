@@ -1,0 +1,22 @@
+Title: Multilevel lists aren't working
+----
+Date: 2013-03-08 10:41:42
+----
+Solved: 1
+----
+User: plartz
+----
+Text: It seems like kirby (or markdown, I'm not sure) can't parse lists including more levels than 2. For example, I have the following list:
+```
+- Item 1
+- Item 2
+  - Subitem 2a
+  - Subitem 2b
+- Item 3
+  - Subitem 3a
+    - Subsubitem 3aa
+    - Subsubitem 3ab
+    - Subsubitem 3ac
+  - Subitem 3b
+```
+The Subsubitems 3aa, 3ab and 3ac are also on the second level, together with Subitem 3a and 3b. Is this issue only occuring at my kirby installations (tried it on two different ones), or is it based on markdown? Does anybody know that?

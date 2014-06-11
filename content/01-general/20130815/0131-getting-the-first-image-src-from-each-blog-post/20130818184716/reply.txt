@@ -1,0 +1,7 @@
+User: ndrsn
+----
+Date: 2013-08-18 18:47:16
+----
+Text: @walkerbox
+
+Great that you took the time to use my markup! However, that gives me a syntax error on the first line of the if stamement.

@@ -1,0 +1,10 @@
+User: kamptweets
+----
+Date: 2014-02-12 17:00:46
+----
+Text: There must be something in my kirby.extended.php causing this behaviour, but its just a couple of lines and i dont see the connection...
+
+Any hints?
+
+here it is again:
+https://www.dropbox.com/s/qu7d1d1vreg348q/kirby.extended.php

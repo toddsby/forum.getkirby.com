@@ -1,0 +1,11 @@
+User: qrizzz
+----
+Date: 2012-05-21 19:33:58
+----
+Text: Media queries are fine, but sometimes it would be less traffic cosuming to load another theme for the mobile site e.g. without some banners and the footer but the navigation as a dropdown menu. 
+
+Like the German Newspaper “Zeit” does:
+http://www.zeit.de/wissen/2010-07/lhc-cern-ergebnisse
+http://mobil.zeit.de/wissen/2010-07/lhc-cern-ergebnisse
+
+Is there a way to achieve this with Kirby?

@@ -1,0 +1,12 @@
+User: russbaldwin
+----
+Date: 2013-02-08 16:19:29
+----
+Text: I just tried using Kirby without a **.htaccess** file and in **config.php** changed rewrite to false.
+
+```php
+c::set('rewrite', false);
+```
+Opened Panel edited a file and saved and I was surprised, but it did work.
+
+404 Error sounds like routing problems, are you sure there are no .htaccess  affecting things from a parent directory?

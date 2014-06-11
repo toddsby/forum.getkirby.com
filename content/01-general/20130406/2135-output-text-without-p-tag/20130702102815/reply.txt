@@ -1,0 +1,15 @@
+User: richgcook
+----
+Date: 2013-07-02 10:28:15
+----
+Text: What if your field contains a link?
+
+    (link: http://www.website.com text: Website)
+
+And your markup is as follows:
+
+    <p class="built-with">Built with <?php echo kirbytext( $website->builtwith() ) ?></p>
+
+If I change `kirbytext` to `html` it just outputs the entire line.
+
+-R

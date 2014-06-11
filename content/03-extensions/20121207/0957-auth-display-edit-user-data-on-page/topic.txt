@@ -1,0 +1,17 @@
+Title: Auth: Display/Edit User Data on Page
+----
+Date: 2012-12-07 09:57:26
+----
+Solved: 0
+----
+User: ikasch
+----
+Text: Hey,
+
+I installed the auth Plugin and created a Login/Logout Page which worked all pretty good.
+Now the thing is, i built the login area just for one purpose. User's should be able to login, edit their userdata (if that's even possible) and this custom data should be inserted into a certain contactform. 
+
+Now the problem is, how do i display this data? On this Page (link: http://getkirby.com/docs/panel/accounts text: Accounts), there is an example of custom user data. But is there anything i can do with this custom data?
+
+Thanks,
+Kim

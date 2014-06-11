@@ -1,0 +1,5 @@
+User: azharc
+----
+Date: 2013-08-15 01:38:00
+----
+Text: Perhaps you should read (link: http://getkirby.com/blog/php-templates text: this blog post) if you haven't already.

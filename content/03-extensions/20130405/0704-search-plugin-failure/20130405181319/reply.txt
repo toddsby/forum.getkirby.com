@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-04-05 18:13:19
+----
+Text: Can you show your template code, maybe you are not loading the search variables?

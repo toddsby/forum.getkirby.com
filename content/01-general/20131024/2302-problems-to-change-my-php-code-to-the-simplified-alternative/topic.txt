@@ -1,0 +1,28 @@
+Title: Problems to change my php code to the simplified alternative.
+----
+Date: 2013-10-24 23:02:59
+----
+Solved: 1
+----
+User: janstieler
+----
+Text: Hi,
+I've tried change my php-code to the simplified alternate suggested in the Kirby-Blog.
+But now I do something wrong with the simplified if clauses and I can't find my failure.
+
+    <?// only show the menu if items are available
+    if ($pages->visible()->count() > 0) : ?>
+    <div class="col-sm-6 col-md-3 col-lg-3 text-right">
+    <h1><?= $page->title() ?></h1>
+    <nav class="menu">
+    <ul>    
+    <? foreach($pages->visible() as $item): ?>
+    <li>
+    <a <? ecco($item->isOpen())? 'class="active"' ?> href="<?= ($items->uid('blog'))?  '#' : $item->url() ?>"><?= $item->title() ?></a>		
+    </li>
+    <? endforeach ?>
+    </ul>
+    </nav>
+    <? endif ?>
+
+BR

@@ -1,0 +1,12 @@
+Title: Blueprint label showing on frontpage?
+----
+Date: 2013-03-13 02:36:39
+----
+Solved: 0
+----
+User: janstieler
+----
+Text: Hi,
+how can I show the label of an blueprint at the frontend?
+
+BR

@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-01-01 11:17:24
+----
+Text: @tysongach all true, but if you have 400+ images in a folder then it is mighty slow using Panel. Then choosing the first image or indeed one called 'cover.jpg' maybe a better solution?

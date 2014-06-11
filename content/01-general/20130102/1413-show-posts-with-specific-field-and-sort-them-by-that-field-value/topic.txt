@@ -1,0 +1,19 @@
+Title: Show posts with specific field and sort them by that field value
+----
+Date: 2013-01-02 14:13:02
+----
+Solved: 0
+----
+User: ignaty
+----
+Text: Hi guys, 
+
+Hope you are well and could spend couple minutes on my dilemma.
+
+What I want to do is create separate page what will display only posts that have specific field in it, for example "Rating:".
+
+That field value would be only numbers from 0 to infinity. So I need to sort those posts by that field value from highest to lowest.
+
+Any ideas or help with that?
+
+Thank you!

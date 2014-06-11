@@ -1,0 +1,28 @@
+Title: Delete or Edit an image error
+----
+Date: 2013-10-25 16:45:23
+----
+Solved: 0
+----
+User: gielcobben
+----
+Text: **Hi all,**
+
+Today I tried to upload a new project to my website. Kirby is installed a long time ago so is the panel. Everything goes perfect except for today.
+
+When I try to edit / delete an image from a project I get 2 errors:
+
+****
+
+**Edit:**
+Notice: Trying to get property of non-object in ...\panel\lib\form.php on line 297
+
+**Delete:**
+Fatal error: Call to a member function filename() on a non-object in ...\panel\snippets\files.delete.php on line 23
+
+****
+
+I already tried to update the panel and kirby folder to the last version.
+
+I hope someone can help me out here.
+Thanks.

@@ -1,0 +1,7 @@
+User: gustavschmint
+----
+Date: 2013-10-07 18:06:32
+----
+Text: I can only find the default template and my pages txt file as options of where to put it but neither has a body tag. Should I create a body tag somewhere?
+
+Thanks for your quick reply!

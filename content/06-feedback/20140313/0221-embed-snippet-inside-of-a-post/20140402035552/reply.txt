@@ -1,0 +1,29 @@
+User: MelTajon
+----
+Date: 2014-04-02 03:55:52
+----
+Text: @fitzage Ah, thanks for pointing me in the right direction! Your method will definitely be handy for the future. Just right now, I'm specifically trying to use snippets.
+
+I'm having an issue with this, but here's what I have in my kirbytext.extended.php:
+
+	class kirbytextExtended extends kirbytext {
+		function __construct($text, $markdown=true) {
+			parent::__construct($text, $markdown);
+		
+			$this->addTags('module');
+		}
+		function module($params) {
+			snippet($params['module']);
+		}
+	}
+
+I'm testing this on a page with this in the body:
+
+	xxx(module: products)xxx
+
+But when I view the page, it actually displays things like:
+
+	[html for Products snippet here]
+	xxxxxx
+
+Any ideas why my snippet is appearing in the wrong place?

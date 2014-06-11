@@ -1,0 +1,12 @@
+User: stockphotogram
+----
+Date: 2013-08-05 18:27:15
+----
+Text: Nevermind, 
+
+if ($page = $pages->find('parent/child')) {
+.... code ...
+}
+
+
+did the trick.

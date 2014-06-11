@@ -1,0 +1,7 @@
+User: chrisburton
+----
+Date: 2013-06-29 03:48:39
+----
+Text: You don't need to use Twitter's API to fetch your latest Tweets.
+
+<a href="http://jasonmayes.com/projects/twitterApi/#sthash.ssqFsDVt.dpbs">http://jasonmayes.com/projects/twitterApi/#sthash.ssqFsDVt.dpbs</a>

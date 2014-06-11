@@ -1,0 +1,11 @@
+Title: Breadcrumb trunication
+----
+Date: 2014-01-15 02:10:01
+----
+Solved: 1
+----
+User: timgauthier
+----
+Text: So, i'm working on a project still, I have breadcrumbs for navigation on some courses that are built in a kirby site. The problem being that the page titles are quite long and the site gets a bit deep. I would like some way to truncate the breadcrumbs in length. I would like to show perhaps only the next two levels up, and cut the length off at lets say 120 characters.
+
+I don't understand how the breadcrumb snippet interfaces with the actual breadcrumbs function, is there a way to modify it or would i need to edit core code (don't want to do that). Is there a fairly easy way to build a new functionality on top of the breadcrumb feature in kirby?

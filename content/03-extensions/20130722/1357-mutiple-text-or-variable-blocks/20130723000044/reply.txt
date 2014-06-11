@@ -1,0 +1,6 @@
+User: Flexmotion
+----
+Date: 2013-07-23 00:00:44
+----
+Text: Resolved, nothing to see here...
+I created some child nodes instead, where I kept the information. No need to try and build a tree structure within the txt file when folders does it so well.

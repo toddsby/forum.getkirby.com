@@ -1,0 +1,14 @@
+User: tysongach
+----
+Date: 2012-12-06 17:24:23
+----
+Text: Is there a way to make the image inside the figure tag a smaller thumb of the original (like a max-width of 300px or something), then wrap that image in an anchor tag and link to the original (larger) version?
+
+So the final HTML would look like this:
+
+    <figure>
+      <a href="fullsize.jpg">
+        <img src="smallsize.jpg" />
+      </a>
+      <figcaption>This is a nice figure</figcaption>
+    </figure>

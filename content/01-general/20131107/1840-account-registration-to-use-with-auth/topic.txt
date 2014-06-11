@@ -1,0 +1,16 @@
+Title: Account registration to use with Auth
+----
+Date: 2013-11-07 18:40:54
+----
+Solved: 0
+----
+User: biccio
+----
+Text: Hi,
+I'm testing Kirby and I already love it, I'll buy it as soon as I'll have decided to use it.
+
+I checked into the forum and I didn't find an answer to this: is there any custom implementation, or some ideas at least, to create an account registration form? As far as I understood, this would involve creating a new account-named php file containing all relevants fields (name, password etc.), is this correct? Is there anything already tested?
+
+Thank you
+
+Fabrizio

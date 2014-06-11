@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2013-01-04 14:43:55
+----
+Text: I'm planning to have cacheless snippets, but that's not available right now.

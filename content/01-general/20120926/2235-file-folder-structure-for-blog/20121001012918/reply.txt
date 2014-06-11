@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2012-10-01 01:29:18
+----
+Text: Yes, it would still require a separate folder for each article, named according to your URL slug. So it would give you a more sensible article filename, but it wouldn't really change the mechanics.

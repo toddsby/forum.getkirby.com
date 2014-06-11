@@ -1,0 +1,5 @@
+User: photowatts
+----
+Date: 2013-08-22 19:44:44
+----
+Text: I've discovered that this seems to be related to using a camel-case filename for the image.  If I rename the images using all lower-case, the issue doesn't persist.

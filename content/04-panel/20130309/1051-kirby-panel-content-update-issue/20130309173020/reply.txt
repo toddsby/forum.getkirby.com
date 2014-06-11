@@ -1,0 +1,6 @@
+User: russbaldwin
+----
+Date: 2013-03-09 17:30:20
+----
+Text: Post what you are trying to copy... And what you get out as HTML.
+Is it actually saving?

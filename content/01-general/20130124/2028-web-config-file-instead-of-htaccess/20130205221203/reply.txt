@@ -1,0 +1,9 @@
+User: theoriginalivor
+----
+Date: 2013-02-05 22:12:03
+----
+Text: Which tag are you referring to?
+
+Basically the important part is everything within the rules tag. It's this part that handles the redirect. My only suggestion without seeing your web config file is to revert back to what you had, and find the <system.webserver> tag and paste the rewrite in that. I'm probably not the best person to give advice on things .NET but I can ask around if you are still having problems.
+
+Let me know

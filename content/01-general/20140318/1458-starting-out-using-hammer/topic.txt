@@ -1,0 +1,21 @@
+Title: Starting Out & Using Hammer
+----
+Date: 2014-03-18 14:58:10
+----
+Solved: 0
+----
+User: sulcalibur
+----
+Text: Hi,
+
+I'm completely new to Kirby so it's one of *them* posts.
+
+I'm coming from a WordPress background, I was fed up with how bloated it was. Don't get me wrong, WordPress is truly amazing, but it's overkill for most of what I need. Hence my great interest in Kirby.
+
+My current workflow involving the coding side is mostly built around using [Hammer](http://www.hammerformac.com) along with HTML includes, Sass, Coffeescript using [Bourbon](http://bourbon.io/) and [Bourbon Neat](http://neat.bourbon.io/) along with some other mixins that I have made along the way.
+
+So that's my workflow in a nutshell, and whilst I'm getting to grips with the template system of Kirby I'm trying to figure out how to work [Hammer](http://www.hammerformac.com) into it to preprocess the files into valid HTML/PHP and CSS.
+
+Any help on this matter would be super awesome. Thanks.
+
+~ Sul

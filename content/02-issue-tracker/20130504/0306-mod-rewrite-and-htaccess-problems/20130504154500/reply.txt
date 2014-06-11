@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-05-04 15:45:00
+----
+Text: It also need to be set in your .htaccess file, an invisible file, which maybe did not get copied across or is mis-configured.
+
+If your .htaccess is correct then maybe your PHP version/install does not support mod-rewrite, but it is a long time since I have seen that.

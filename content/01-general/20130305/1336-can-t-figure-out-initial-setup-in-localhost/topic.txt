@@ -1,0 +1,25 @@
+Title: Can't figure out initial setup in /localhost
+----
+Date: 2013-03-05 13:36:53
+----
+Solved: 0
+----
+User: chrisgiggles1
+----
+Text: So here's some info, I'm running a LAMP-server on Ubuntu. I copied over the files to /var/www/ to a folder called /kirby. 
+
+When I navigate to localhost/kirby, the index page shows up but if I click on a link it says that the page is not found.
+
+So I went in to the config.php and tried to adjust the values but I just can't figure out what I'm doing wrong.
+
+Here's the values I set in config.php:
+c::set('url', '/');
+c::set('subfolder', '/kirby');
+
+I also set: RewriteBase /kirby
+
+The index page shows up with those values but links to the subpages still won't work.
+
+I've also tried c::set('url', false); and every other combination I could think of
+
+Please help me out dudes/dudettes!

@@ -1,0 +1,13 @@
+User: bugsysop
+----
+Date: 2013-11-18 11:25:24
+----
+Text: **Beccin**
+Smooth portfolio and blog of Rebecca Neal. 
+
+Not sure this is a theme to use “as is”, but you can use the sources for inspiration.
+
+[Rebecca Neal site](http://beccin.co.uk/)
+[Sources on Github](https://github.com/meyric/beccin-kirby-theme)
+
+[![Beccin](http://i.imgur.com/tAPNAXPl.png)](http://i.imgur.com/tAPNAXP.png)

@@ -1,0 +1,15 @@
+Title: Fuller Panel Home
+----
+Date: 2014-02-06 07:33:53
+----
+Solved: 0
+----
+User: luxuryluke
+----
+Text: Perhaps adding in meta text to the various pages that are useful when viewing your panel
+* preview buttons next to each article when that page is displayed
+* version number in footer of both panel and kirby
+* last edited datetime for each entry when page displayed
+* server time
+* customizable links to thinks like the /mint/ page for analytics or anything else.
+I'm sure you can come up with a ton of ideas!

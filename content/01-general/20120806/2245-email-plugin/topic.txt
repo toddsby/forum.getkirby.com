@@ -1,0 +1,15 @@
+Title: Email plugin
+----
+Date: 2012-08-06 22:45:39
+----
+Solved: 0
+----
+User: ignaty
+----
+Text: Hi guys, hope you are well and rockin' some good websites with kirby.
+
+I want to ask for help with email plugin, specially with how to collect data from fields I have to send them to me.
+
+If I will have form with two simple text inputs (text1 and text2) and submit button, how can I collect those two and show it in email body nicely?
+
+Thank you!

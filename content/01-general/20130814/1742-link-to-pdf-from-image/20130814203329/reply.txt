@@ -1,0 +1,23 @@
+User: walkerbox
+----
+Date: 2013-08-14 20:33:29
+----
+Text: I assume you are using this in a template called outside of the product folders:
+
+    - product1
+      - product.jpg
+      - product.jpg.txt
+      - product.pdf
+     (- product.txt)?
+    - product2
+    - product3
+    template.txt
+
+Ie. This would appear in template.txt?
+
+    <?php foreach($page->children() as $product) : ?>
+        <?php $img = $product->images()->first(); ?>
+        <a href="<?php echo $product->files()->find($img->name() . '.pdf')->url() ?>">
+            <img src="<?php echo $img->url() ?>">
+        </a>
+    <?php endforeach; ?>

@@ -1,0 +1,7 @@
+User: i_cox
+----
+Date: 2013-11-28 05:12:43
+----
+Text: Just realized after looking at the other post that the built in vimeo: and youtube: tags now have a div wrapper with a class of video-container.
+
+I guess the one slight difference is that my version works for both vimeo and youtube and adds some custom (hard coded) options to the Vimeo embed. White link color, no title, no byline, just the video.

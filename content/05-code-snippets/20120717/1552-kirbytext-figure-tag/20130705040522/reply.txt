@@ -1,0 +1,5 @@
+User: Vagari
+----
+Date: 2013-07-05 04:05:22
+----
+Text: I'm also trying to sort out the wrapping P tags. It only happens when Markdown Extra is enabled. Sadly I'm using the definition lists that Extra provides. =/ Might have to drop the DLs to get figure.

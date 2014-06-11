@@ -1,0 +1,43 @@
+User: sashtown
+----
+Date: 2012-11-23 18:36:04
+----
+Text: In this case I'd suggest to write your custom classes directly into your markdown file just like you would do it in a regular .html file.
+
+```html
+<p class="intro">Your awesome intro text.</p>
+```
+
+That will work in combination with regular markdown generated paragraphs as well:
+
+```html
+
+Lorem ipsum dolor sit amet, consectetuer... 
+
+<p class="intro">Lorem ipsum dolor sit amet, consectetuer...</p>
+```
+
+The output would be:
+
+```html
+
+<p>Lorem ipsum dolor sit amet, consectetuer...</p>
+
+<p class="intro">Lorem ipsum dolor sit amet, consectetuer...</p>
+```
+
+Another solution for some kind of "intro" (in your special case) could be an extra field to define some text which will be displayed by something like:
+
+```php
+
+<?php echo kirbytext($page->intro()) ?>
+
+```
+
+while your markdown file would be:
+
+```html
+----
+intro: your awesome intro text
+----
+```

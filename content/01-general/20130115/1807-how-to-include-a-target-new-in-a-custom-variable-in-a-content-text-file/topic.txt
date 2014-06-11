@@ -1,0 +1,22 @@
+Title: How to include a 'target="new"' in a custom variable in a content text file
+----
+Date: 2013-01-15 18:07:13
+----
+Solved: 1
+----
+User: toonvdstruijk
+----
+Text: Hi,
+
+Well the topic pretty much says it all :-)
+
+In my content.txt I have a variable (replace the square brackets for curved ones):
+
+    link: [link: http://www.website.com text: Name of the website]  
+
+In the template I refer to this variable like this:
+
+    <p class="projecturl"><?php echo kirbytext($page->link())?></p>
+
+The url works, but I want it to open in a new window/tab.
+How can I do that. In pure HTML one would add 'target="new"' to the href tag, but I cannot figure out how to that in my situation.

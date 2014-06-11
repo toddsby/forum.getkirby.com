@@ -1,0 +1,14 @@
+User: karlnoelle
+----
+Date: 2013-09-11 05:17:59
+----
+Text: I got this error:
+
+    Fatal error: Call to a member function width() on a non-object in
+    /Users/karlnoelle1/Sites/kirby/site/plugins/thumb.php on line 40
+
+and line 40 of that file is this:
+
+        $this->sourceWidth  = $this->obj->width();
+
+I'm at the point where I don't think the thumb.php plugin is necessary...probably more trouble than its worth and I'm definitely capable of sizing images myself since it wouldn't be a very common task. Thank you for all your troubleshooting though—it's very appreciated!

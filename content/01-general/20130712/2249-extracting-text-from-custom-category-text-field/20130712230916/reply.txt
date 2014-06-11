@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-07-12 23:09:16
+----
+Text: Also, you're checking for "travel" not "Travel" so make sure you're checking for the correct thing, or else lowercasing the category first to check.

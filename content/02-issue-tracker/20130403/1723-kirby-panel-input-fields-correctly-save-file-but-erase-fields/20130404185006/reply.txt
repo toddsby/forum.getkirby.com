@@ -1,0 +1,5 @@
+User: roman_oroco
+----
+Date: 2013-04-04 18:50:06
+----
+Text: In your blueprint just try to lowercase fields, example: `contactName` to `contactname`.

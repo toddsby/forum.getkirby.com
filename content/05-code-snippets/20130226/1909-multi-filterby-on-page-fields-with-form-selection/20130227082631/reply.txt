@@ -1,0 +1,12 @@
+User: russbaldwin
+----
+Date: 2013-02-27 08:26:31
+----
+Text: The above code was update to provide proper sort for select fields...
+code changed:
+
+```php
+$groups = tagcloud($items, array('field' => 'group','sort' => 'name','sortdir' => 'asc'));
+$categories = tagcloud($items, array('field' => 'category','sort' => 'name','sortdir' => 'asc'));
+$options = tagcloud($items, array('field' => 'option','sort' => 'name','sortdir' => 'asc'));
+```

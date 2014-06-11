@@ -1,0 +1,9 @@
+User: scottswany
+----
+Date: 2012-07-03 03:40:48
+----
+Text: That does sound promising.  I got around it current by POST'ing the variables to a config.php file in the assets folder, but the template system is handier.
+
+How would you have one template pass page variables to another? As in - if there is a template "1" pointing to this juicebox template "2", I'd need the variables of page "1" to pass through this external request.
+
+Hope that makes sense.  Kirby has been great so far!

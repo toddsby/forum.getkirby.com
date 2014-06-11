@@ -1,0 +1,13 @@
+User: chrstphbach
+----
+Date: 2012-11-08 12:39:57
+----
+Text: I use it on my company's website <http://the-inspired-ones.de> and therefor I call the method like this in the template: 
+
+`<label for="spam">Bitte rechnen Sie <?php echo str::encode(captcha()); ?>. </label>
+<input type="text" name="spam"  id="spam" />`
+
+Before sending the mail I check
+`if ($data['spam'] != $_SESSION['capres']) { ... }`
+
+Where `$data['spam']` contains the value for the math quiz submitted by the user. Hope that helps.

@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2014-03-25 15:38:32
+----
+Text: I'm not 100% sure, but in order to do what you're doing, you're going to have to enter both width and height for every figure you insert. Seems like it might be easier just to use the "class" option that's already part of the plugin and manually assign the class to every image.

@@ -1,0 +1,17 @@
+Title: Can this be done with Kirby?
+----
+Date: 2013-02-05 01:05:35
+----
+Solved: 1
+----
+User: bytte
+----
+Text: I have two online courses (A and B) that consist of 10 lessons each. Each lesson consists of one article (basically static HTML) and a couple of exercises.
+
+Both courses are attended by about 15 people. I would sign them up so they’re all members. I wouldn’t give them back-end access but design a login form on the front-end. Initially all logged-in members of course A can only see lesson 1 of course A. The same goes for the members of course B. When someone finishes the exercises of lesson 1 of his course, I would manually give them access to lesson 2 etc. until they can see all the content. (They would just email me when they finished a lesson.)
+
+That means it could be that member 1 has access to all lessons of his course, while member 2 only has access to lesson 1, 2 and 3. Etc.
+
+How could I best tackle this scenario with Kirby? Simple outline is enough, the docs will help me further.
+
+Ps i used kirby before but only just saw there's the auth plugin that will most likely be very helpful in my scenario.

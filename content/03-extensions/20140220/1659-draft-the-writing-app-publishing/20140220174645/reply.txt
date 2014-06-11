@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2014-02-20 17:46:45
+----
+Text: Not sure Kirby has an API that could be connected to in that manner, although I'm sure someone could build a plugin to do it.

@@ -1,0 +1,5 @@
+User: bytte
+----
+Date: 2013-02-19 12:26:33
+----
+Text: Seeing your example, you probably want to put the div in your template and just use markdown in your content file.

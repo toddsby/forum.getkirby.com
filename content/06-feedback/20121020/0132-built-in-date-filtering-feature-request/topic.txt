@@ -1,0 +1,11 @@
+Title: Built-in date filtering [feature request]
+----
+Date: 2012-10-20 01:32:52
+----
+Solved: 0
+----
+User: fitzage
+----
+Text: It would be nice if there was something along the lines of ->visible() like ->future() or ->past() or both or something so that I can easily pull a list of items that are dated from today back so I can include future blog posts without them going live, and without having to dick around with the visibility.
+
+I've solved this with some PHP conditional date magic, but it's not as clean as I'd like. I'll never remember it next time without going and digging up my old code. Not that that's a very unusual thing…

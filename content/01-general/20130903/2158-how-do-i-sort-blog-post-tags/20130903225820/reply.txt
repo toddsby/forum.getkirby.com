@@ -1,0 +1,9 @@
+User: texnixe
+----
+Date: 2013-09-03 22:58:20
+----
+Text: By using one of the php sort functions, e.g. `sort();`.Supppose your array of tags is stored in $tags, then call:
+
+    sort($tags);
+
+Don't try to store it in a variable though, because the result is boolean, not an array.

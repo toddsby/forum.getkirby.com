@@ -1,0 +1,8 @@
+User: chrisburton
+----
+Date: 2013-01-08 02:39:31
+----
+Text: I'll have to let Chris know to update that post, then. I should have checked caniuse.com so my fault.
+
+
+*Edit:* Thanks for linking that solution but I think I may stick with PHP if at all possible.

@@ -1,0 +1,38 @@
+Title: Tags not showing in search
+----
+Date: 2013-10-30 19:29:36
+----
+Solved: 0
+----
+User: sasharae
+----
+Text: Hi there,
+
+I am brand new to PHP and am struggling with rejigging the search template to work with tags as well as categories. I have attempted to integrate tags into my search, but it’s not working.
+
+Here is the “rejigged” code in my search template:
+
+	<?php elseif($result->template() == 'portfolio-item'): /*** 	portfolio item ***/ ?>
+
+	<article class="blog format_text">
+	<header class="post-meta">
+	<h1><a href="<?php echo $result->url() ?>"><?php echo html($result->title()) ?></a></h1>
+
+	<?php if ($result->tags() != ''): ?> Tags:
+	<ul class="category">
+	<?php foreach(str::split($result->tags()) as $tag): ?>
+
+	<li><a href="<?php echo url('tag:' . urlencode($tag)) ?>"><?php echo $tag; ?></a></li>
+
+	<?php endforeach ?>
+	</ul>
+	<?php endif ?>
+	</header>
+	<p><?php echo excerpt($result->text(), 400) ?></p>
+	<a class="read_more" href="<?php echo $result->url() ?>">read more →</a>
+	</article>        
+	<?php endif ?>
+
+Being completely new at this, I simply placed tag where category used to be. I would really appreciate some guidance. There is likely a really simple way to incorporate both categories and tags, and I just can’t see it.
+
+Thanks in advance for your help! :)

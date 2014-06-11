@@ -1,0 +1,9 @@
+Title: Trying to use a non breaking space
+----
+Date: 2014-04-16 19:29:30
+----
+Solved: 0
+----
+User: jolinmasson
+----
+Text: Is there any way to specify a non breaking space in Kirby text / Markdown?

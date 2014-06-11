@@ -1,0 +1,21 @@
+User: karlnoelle
+----
+Date: 2013-08-23 03:51:44
+----
+Text: Unfortunately I got errors for both of those attempts.
+
+I've narrowed it down to this string of php:
+
+    <ul>
+    <?php foreach($items as $item): ?>
+    <?php foreach($page->images() as $image): ?>
+    <li>
+    <a<?php echo ($item->isOpen()) ? ' class="active"' : '' ?> href="<?php echo $item->url() ?>">
+    <?php echo thumb($image, array('width' => 300)) ?>
+    </a>
+    </li>
+    <?php endforeach ?>
+    <?php endforeach ?>         
+    </ul>
+
+Right now, this is giving me 3 of each image, but I only want 1 of each. Any ideas how I could modify this?

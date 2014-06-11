@@ -1,0 +1,23 @@
+User: russbaldwin
+----
+Date: 2013-10-02 09:31:09
+----
+Text: If I have an 'articles' templates and then an 'article' template for individual articles, I would have set it on the 'articles' templates.
+Something like:
+
+```html
+title: Add an Article
+files: false
+pages:
+  template: article
+fields:
+  title: 
+    label: Title
+    type:  text
+  description: 
+    label: Description
+    type:  text
+
+```
+
+Hope this helps, it can be a bit confusing :-)

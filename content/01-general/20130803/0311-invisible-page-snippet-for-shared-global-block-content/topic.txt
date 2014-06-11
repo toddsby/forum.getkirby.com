@@ -1,0 +1,16 @@
+Title: Invisible Page Snippet for Shared Global Block Content?
+----
+Date: 2013-08-03 03:11:48
+----
+Solved: 1
+----
+User: stockphotogram
+----
+Text: I am trying to create editable text blocks for sidebar or page blocks that can be inserted just like the snippet() function, but also editable using *.txt for variables.
+
+But this block content should not be accessible directly like the pages (should I use .htaccess to restrict it?).
+
+How do you pull this off in Kirby?
+
+
+Thanks!

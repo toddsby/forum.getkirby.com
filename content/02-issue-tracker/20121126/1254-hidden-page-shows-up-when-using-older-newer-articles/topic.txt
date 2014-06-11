@@ -1,0 +1,21 @@
+Title: Hidden Page shows up when using "Older/Newer Articles"
+----
+Date: 2012-11-26 12:54:35
+----
+Solved: 0
+----
+User: ruehlpublishing
+----
+Text: Hi all,
+
+I'm using this code inside my article template:
+
+    <?php if($page->hasNext()): ?>
+    <a href="<?php echo $page->next()->url() ?>">Next »</a>
+    <?php endif ?>
+
+The problem is that an article which is "invisible" shows up at http://www.ruehlpublishinghouse.com/articles/photocritic-logo-interview
+
+*Am I missing something or did I not understand the concept of hiding pages? ;)*
+
+Thanks a lot

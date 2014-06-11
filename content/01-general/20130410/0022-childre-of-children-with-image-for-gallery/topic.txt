@@ -1,0 +1,53 @@
+Title: Childre of children with image for gallery.
+----
+Date: 2013-04-10 00:22:43
+----
+Solved: 0
+----
+User: arlamentis
+----
+Text: I know this is my third post in less than a week. I'm really sorry for that but i'm stuck again.
+
+Here is my inquiry, I have a main folder, it appear as a menu section of the site,  in that folder there is two other folders that appear as a submenu, in those folder there is many other folders with images in it to appear as a gallery. I was able to show the children as a gallery but not the children of the children.
+
+```
+main folder
+ subfolder1
+   sub-subfolder1
+      img1
+      img2
+      img3
+   sub-subfolder2 
+      img1
+      img2
+      img3 
+  sub-subfolder3
+      img1
+      img2
+      img3
+```
+***
+
+that the code i use to show the first children's
+```
+<?php foreach($page->children as $gallery): ?>
+
+<div class="gallery">
+
+  <h4><?php echo $gallery->title() ?></h4>
+  
+  <ul>
+    <?php foreach($gallery->images() as $image): ?>
+    <li>
+      <a rel="<?php echo $gallery->uid() ?>" href="<?php echo $image->url() ?>"><?php echo thumb($image, array('width' => 200, 'height' => 200, 'crop' => true)) ?></a>
+    </li>
+    <?php endforeach ?>
+  </ul>
+
+</div>
+
+<?php endforeach ?>
+
+```
+
+Thx for the eventual reply.

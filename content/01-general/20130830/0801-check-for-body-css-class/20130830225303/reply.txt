@@ -1,0 +1,10 @@
+User: fitzage
+----
+Date: 2013-08-30 22:53:03
+----
+Text: Of course if you do this all via PHP, you end up using your server time. Instead, you could do everything via javascript, and then you'll have the user's time.
+
+Depending on what you want to do, you may not even need different HTML for day vs night. If you just want different styles, then you can do the following:
+
+1. Apply the body class via javascript.
+2. Use the class in your CSS for anything that needs to be different between day/night.

@@ -1,0 +1,7 @@
+User: Sciascia10
+----
+Date: 2014-01-05 17:42:18
+----
+Text: Thanks for that but I added false to the end of the call which outputs the url to the thumb instead of an img tag - that way I can control the markup (no width/height).
+
+Cheers

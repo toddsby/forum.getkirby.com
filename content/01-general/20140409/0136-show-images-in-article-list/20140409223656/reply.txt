@@ -1,0 +1,9 @@
+User: urgan
+----
+Date: 2014-04-09 22:36:56
+----
+Text: I managed to guess what I needed by using the kirby-cheatsheet.
+
+<pre><code>< img src=" < ? php echo $article->images()->first()->url()  ? > " ></code></pre>
+
+Note you'll need to strip out the extra spaces I added to make this forum's encoder happy.

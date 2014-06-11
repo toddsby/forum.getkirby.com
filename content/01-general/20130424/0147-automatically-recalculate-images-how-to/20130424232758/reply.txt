@@ -1,0 +1,13 @@
+User: tysongach
+----
+Date: 2013-04-24 23:27:58
+----
+Text: The code you have above is for when you’re placing an image in a *template*, not within your text content. That can be easily misunderstood at first, I think...
+
+It’s been too long since I last worked in WordPress, so I can’t comment on exactly how Kirby does this differently.
+
+In your blog post or page content text files, you add an image like this:
+
+(gist: https://gist.github.com/tysongach/5455726)
+
+In terms other than ‘like WordPress’, what exactly are you trying to accomplish?

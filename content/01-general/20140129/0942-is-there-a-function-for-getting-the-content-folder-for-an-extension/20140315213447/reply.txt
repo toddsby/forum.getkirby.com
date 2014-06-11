@@ -1,0 +1,14 @@
+User: JanStieler
+----
+Date: 2014-03-15 21:34:47
+----
+Text: Hi,
+thanks for your thoughts. I wrote an plugin which is capsuled in a php class which I call inside a snippet.
+If call the $site->uri as a var but I got error messages:
+
+Notice: Undefined variable: site in
+Notice: Trying to get property of non-object in
+
+What do I'm wrong or how can I use it inside an plugin?
+
+Greets

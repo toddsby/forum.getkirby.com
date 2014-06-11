@@ -1,0 +1,9 @@
+User: bastianallgeier
+----
+Date: 2012-08-18 20:43:49
+----
+Text: Sorry for the delayed reply. 
+
+There's an unofficial plugin which makes it easy to handle logins, even with different user groups. It looks great, but I never really found the time to test it: 
+
+<https://github.com/marthoff/kirbysec>

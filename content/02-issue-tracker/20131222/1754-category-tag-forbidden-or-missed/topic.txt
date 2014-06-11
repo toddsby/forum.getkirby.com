@@ -1,0 +1,31 @@
+Title: Category Tag forbidden or missed
+----
+Date: 2013-12-22 17:54:58
+----
+Solved: 0
+----
+User: 674morris
+----
+Text: I am new to Kirby.
+Congratulations for this great CMS!
+I'm testing   Kirby (1.1.2-17) on xampp, and  I have some issues.
+I have searched on forum, but nothing is written about these...
+
+1) When I click on a category tag, the category page gives me a Forbidden 
+   warning.
+
+2) With multi-language function  activated all it works fine, but when I 
+   click on a category tag, the category page  gives me a 404 warning.
+
+3) When I try to use the "URL-Key" instruction with Cyrillic language I 
+   receive a warning page 404 ( ULR is rewritten correctly, but the   content  is not found)
+
+4) This one  is  no a really issue but a strange output, if I try to 
+insert a new field in Blueprints, before text field, this is possible in 
+"Page" but not in  "Blog", in "Blog"  is possible to insert a new field 
+after text field, otherwise the existing fields after the new field 
+disappear in Panel interface.
+
+I can add some screen shots, but I don't know how to do this on this forum.
+Thank in advance for every help.
+Morris

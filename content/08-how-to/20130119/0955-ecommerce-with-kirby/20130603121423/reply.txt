@@ -1,0 +1,7 @@
+User: FokusMan
+----
+Date: 2013-06-03 12:14:23
+----
+Text: any possibility to get the demo up again? I've to create a simple shop, but without the payment at the end, it's more about displaying products, shop cart function at sending an request about the interested products... 
+
+so the simpleCartJS solution sounds very well for my use case :)

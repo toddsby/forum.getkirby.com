@@ -1,0 +1,13 @@
+User: richardhellyer
+----
+Date: 2013-04-22 00:16:10
+----
+Text: I use Kirby for a recent site for a client and I'm very pleased with it. For what I used I didn't run into any bugs and it has been a joy to work with.
+
+- I don't use the panel at present
+- The only plugin I used is search
+- I do know php
+
+The site is at globalstrategies.org
+
+Cheers, Richard

@@ -1,0 +1,7 @@
+User: _frankallen
+----
+Date: 2014-04-20 11:00:03
+----
+Text: http://getkirby.com/blog/multi-environment-setup
+
+This should help you with the local dev environement and the live one.

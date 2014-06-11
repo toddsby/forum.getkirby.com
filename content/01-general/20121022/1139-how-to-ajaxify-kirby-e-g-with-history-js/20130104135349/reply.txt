@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2013-01-04 13:53:49
+----
+Text: @zslabs Turbolinks is great. Didn't know it's easy to use with PHP projects as well since it comes from the Rails core. Good to know :)

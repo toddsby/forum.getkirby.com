@@ -1,0 +1,13 @@
+Title: POSSE Twitter?
+----
+Date: 2013-10-21 20:13:59
+----
+Solved: 1
+----
+User: erinanacker
+----
+Text: I just got back from (link: http://2013.realtimeconf.com text: RealTimeConf popup: yes) and learned a lot about the IndieWeb movement. I don't know much programming but am interested in POSSE (Publish Own Site, Syndicate Elsewhere), specifically for Twitter. 
+
+Has anyone else done much with this? Would anyone be interested in building an add-on for Kirby? Here's some great info from the (link: http://indiewebcamp.com/Twitter#How_to text: IndieWebCamp popup: yes). It's over my head but it seems like it wouldn't be too difficult to do...
+
+Thoughts?

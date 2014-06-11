@@ -1,0 +1,78 @@
+User: russbaldwin
+----
+Date: 2013-02-18 13:15:12
+----
+Text: Nathaniel, to now sort by tags you can just changes these bits: 
+
+(I'm using the same station example as above, so you might want to change the variable names if you use it and also I've added some extra tags for some stations - just to show how it works.)
+
+Lets change:
+
+```php
+$stations = $page->children()->visible(); 
+```
+
+to the following to get our tab index
+
+```php
+$tagindex = $pages->find('stations');
+$stations = tagcloud($tagindex, array('sort' => 'name','sortdir'  => 'asc'));
+```
+
+then just change
+```php
+      $temp = explode(' ',$station->title());
+```
+to the tag name, there is not station->title in the tab index.
+
+```php
+     $temp = explode(' ',$station->name());
+```
+
+And because of this we will also have to change our output code a little to:
+
+```php
+<?php foreach($station as $stationName): ?>
+        <li><a href="<?php echo $stationName->url()?>"><?php echo $stationName->name(). " - #". $stationName->results() ?></a></li>
+<?php endforeach ?>
+```
+I've also added added the number of stations with the tag: $stationName->results()
+
+Which gives you:
+
+```html
+<h4>C</h4>
+  <ul class="stations listing">
+            <li><a href="stations/tag:Cafe">Cafe - #3</a></li>
+            <li><a href="stations/tag:Car Park">Car Park - #2</a></li>
+        </ul>
+ <hr/>
+<h4>D</h4>
+  <ul class="stations listing">
+            <li><a href="stations/tag:Disabled Access">Disabled Access - #5</a></li>
+        </ul>
+ <hr/>
+<h4>T</h4>
+  <ul class="stations listing">
+            <li><a href="stations/tag:Toilet">Toilet - #4</a></li>
+        </ul>
+ <hr/>
+```
+
+or
+
+####C
+
++ Cafe - #3
++ Car Park - #2
+
+####D
+
++ Disabled Access - #5
+
+####T
+
++ Toilet - #4
+
+---
+Let us dance and be merry, I promise never to do another 'Alphabetti Spaghetti Stations' example again, OK maybe just one more...

@@ -1,0 +1,22 @@
+Title: Echo article tag for each article on blog page
+----
+Date: 2013-05-03 16:48:15
+----
+Solved: 1
+----
+User: chrisburton
+----
+Text: I'm trying echo a tag for each article but all I'm getting is 'Array'. Any ideas?
+
+    <div class="news">
+      <?php $articles = $page->children()->visible()->flip()->paginate(3) ?>
+      <?php foreach($articles as $article): ?>
+      <?php $category = str::split($article->tags()); ?>
+
+      <article class="article">
+        <span class="category"><?php echo $category; ?></span>
+        <span class="numeral"><?php echo ltrim($article->num(), '0'); ?></span>
+        <h1><a href="<?php echo html($article->url()) ?>"><?php echo html($article->title()) ?></a></h1>
+        <time pubdate="pubdate"><?php echo $article->date('n/j/Y') ?></time>
+      </article>
+    </div>`

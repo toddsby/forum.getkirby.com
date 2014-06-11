@@ -1,0 +1,5 @@
+User: nathaniel_h
+----
+Date: 2013-02-05 19:17:08
+----
+Text: And to remove /blog/ from url on each article: http://getkirby.com/blog/1-0-5

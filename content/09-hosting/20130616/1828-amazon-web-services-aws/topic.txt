@@ -1,0 +1,21 @@
+Title: Amazon Web Services (AWS)
+----
+Date: 2013-06-16 18:28:18
+----
+Solved: 0
+----
+User: isemann
+----
+Text: I want to use AWS with Kirby if it's possible but I need lots of help.
+
+I have a serious learning curve ahead of me with this, never coded with php but sick of the bloat of WYSIWYG and hosted solutions etc. You know the score.
+
+I have my new company domains registered, I'm signed up for AWS... **but I can't even find out if it's possible!**
+
+Anybody with any help or pointers? Better still, anyone done it?
+
+Greatly appreciated.
+
+R!
+
+@isemann on Twitter.

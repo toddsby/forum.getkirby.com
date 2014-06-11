@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-06-29 12:48:05
+----
+Text: I just had a short look at juicebox and I think what you could do is to setup an invisible content folder for your config. Something like `content/juicebox` with a juicebox.txt file. Then just create a juicebox.php in `site/templates` Templates don't have to produce HTML, you can use them to generate whatever output you need. So all you need to do is to create your config output there. You get full access to all variables and you can even use the juicebox.txt to setup additional config rules. I hope this helps.

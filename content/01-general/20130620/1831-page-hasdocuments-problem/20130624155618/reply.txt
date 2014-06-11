@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-06-24 15:56:18
+----
+Text: Does it work with `hasFiles`?

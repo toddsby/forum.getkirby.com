@@ -1,0 +1,30 @@
+User: ouirgane
+----
+Date: 2014-05-28 15:19:11
+----
+Text: Hi, you have two questions there. I can only answer the first one. 
+
+Note that the solution is a hack and you should expect it to disappear if you update the panel. I'm still testing this, so can't guarantee that it doesn't break anything else.
+Maybe Bastian has a better solution that doesn't require messing with the internals, as it would be a nice feature. Maybe this is addressed in the new Panel?
+
+Anyway my solution was this.
+
+1. Rename your template files so they can be isolated.
+For example, if you have a template called post.txt rename it to panel.post.txt.
+Do this in your content folders, template folder and blueprint folder.
+
+2. There is a function called findTemplates in 'panel/lib/data.php'. 
+This function builds an array of templates. I modified this function so that it only returned templates that contain the string 'panel' in the filename:
+_if (strpos($name, 'panel') !== false)
+{
+    // add it to the list of templates
+    $templates[] = $name; 
+}_
+As far as I can see this function is only used in one place ...
+
+3. Open up 'pages.add.php' in 'panel/snippets'.
+The top of this file contains the call to 'data::findTemplates'. 
+This is where the templates are called from. You don't need to do anything here, but it's good to know where the template list gets rendered.
+
+Hope that helps.
+(If anyone else has a different/better way of doing this, shout!)

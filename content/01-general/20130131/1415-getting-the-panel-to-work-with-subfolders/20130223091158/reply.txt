@@ -1,0 +1,23 @@
+User: russbaldwin
+----
+Date: 2013-02-23 09:11:58
+----
+Text: I don't think you need the root index.php, at least not as far as Kirby is concerned.
+Just use it as suggested.
+
+```html
+root
+  subfolder
+    assets
+    content
+    kirby
+    panel
+    site
+    .htaccess
+    index.php
+    
+```html
+
+If you want the root domain you have set to redirect to the subfolder, put something in it to redirect (html) or better still use your webservers' routing, (Assuming Apache 2,) 'httpd-vhosts.conf' and hosts files.
+
+So say your root is domain-root.dev and you want your subfolder to be domain-kirby.dev, you can do this within the Apache webserver.

@@ -1,0 +1,16 @@
+Title: How to import an svg?
+----
+Date: 2013-03-26 00:43:48
+----
+Solved: 0
+----
+User: bradwrage
+----
+Text: Hi There,
+I am trying to import an svg for each folder in my loop.
+
+Something like <?php echo html($font->files()->find('myfont.svg')) ?>
+
+However, I would like kirby to add the svg available in the folder so that the author would only have to make sure it's there.
+
+Any idea?

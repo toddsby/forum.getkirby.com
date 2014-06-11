@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2013-02-04 17:32:43
+----
+Text: I added that to the panel because I often ran into issues with wrong encoding in generated text files. If you have a better way to ensure UTF-8 in the generated text file I'm super happy to use that.

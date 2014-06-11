@@ -1,0 +1,7 @@
+User: tysongach
+----
+Date: 2012-12-30 19:48:50
+----
+Text: No PHP errors or anything? Is it just showing an empty `img` tag in the HTML, or what?
+
+I probably messed up some syntax somewhere or something. Let me see...

@@ -1,0 +1,6 @@
+User: danielkochde
+----
+Date: 2014-02-02 17:34:54
+----
+Text: Yes. But I want to link the file within the "kirby text area".
+So I have to build a kirbytag?

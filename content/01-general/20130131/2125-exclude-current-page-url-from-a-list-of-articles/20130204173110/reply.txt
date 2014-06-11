@@ -1,0 +1,11 @@
+User: bastianallgeier
+----
+Date: 2013-02-04 17:31:10
+----
+Text: A better way would be to use the `not()` method. 
+
+```
+
+<?php foreach($pages->find('blog')->children()->visible()->flip()->limit(5)->not($page->uid()) as $article): ?>
+
+```

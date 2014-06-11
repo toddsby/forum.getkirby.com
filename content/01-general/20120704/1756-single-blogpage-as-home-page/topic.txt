@@ -1,0 +1,15 @@
+Title: Single blogpage as "home-page"?
+----
+Date: 2012-07-04 17:56:35
+----
+Solved: 0
+----
+User: obearone
+----
+Text: Hi everybody!
+I'm looking for a nice way to set my last blogarticle as the "home-page" so I can navigate with _"next"_ and _"prev"_ to the next articles. 
+I tried it with an extra template for "home" but then my "nextprev" navigation was not working anymore... 
+
+Anyone a good idea how to do that?
+
+Thanks, Oli

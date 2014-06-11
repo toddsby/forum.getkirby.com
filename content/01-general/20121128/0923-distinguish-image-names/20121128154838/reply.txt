@@ -1,0 +1,17 @@
+User: lowel
+----
+Date: 2012-11-28 15:48:38
+----
+Text: @Matthew:
+
+Thanks for your reply.
+Unfortunately, I've got only de default image (named bg.jpg) not the context one.
+
+Here is the code in use:
+
+    <?php if($page->hasImages()): ?>
+	<?php $background = $page->images()->filterBy('title', '*=', 'bg'); ?>
+    <img alt="" src="<?php echo $background->url(); ?>" id="full-bg" />
+	<?php else: ?>
+    <img alt="" src="../img/default-bg.jpg" id="full-bg" />
+    <?php endif ?>

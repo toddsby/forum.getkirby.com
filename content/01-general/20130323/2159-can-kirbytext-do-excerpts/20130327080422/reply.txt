@@ -1,0 +1,13 @@
+User: russbaldwin
+----
+Date: 2013-03-27 08:04:22
+----
+Text: Sorry, that is because I forgot to escape my 'Kirby Text' image code (now corrected above), I just re-tried it with a 'KirbyText' image link and it works e.g.
+
+<code>&#40;image: image1.jpg&#41;</code>
+
+It does not appear to work with Markdown relative links e.g.
+
+```kirby
+![](image1.jpg)
+```

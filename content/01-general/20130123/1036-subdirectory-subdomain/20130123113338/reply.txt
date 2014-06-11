@@ -1,0 +1,5 @@
+User: asbiot
+----
+Date: 2013-01-23 11:33:38
+----
+Text: I believe you will have to create a subdomain for your main domain i.e. "section1.domain.com" and then point it at the path "domain.com/section1" . At that point your section1 part of the website will be accessible via the "subdomain.domain.com" URL. However, when I did that last, it worked in a way that would still show "domain.com/<2 letter default language code>/section1" after the visitor arrives in your section. What I mean is, that your subsection will be accessible via the subdomain, but the URL would still show the full path. I think (I have never done it) that you may need to do some smart .htaccess url-rewrite to change the look of the URL as well. Hope this helps.

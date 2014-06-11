@@ -1,0 +1,32 @@
+Title: NextPrevious navigation is killing everything after the snippet on my firts post.
+----
+Date: 2012-11-22 11:44:48
+----
+Solved: 1
+----
+User: obearone
+----
+Text: Hi everyone! I' using this snippet to navigate to the next and previous blogpost on my site (link: http://oliverhelms.de/blog text: oliverhelms):
+
+	<div id="nextprev">
+
+		<ul data-role="pagination">
+		<?php if($page->hasPrevVisible()): ?>
+		<a href="<?php echo $page->prevVisible()->url() ?>"> 
+		<li class="ui-pagination-next icon-right-open-2">Nächster Artikel</li></a>
+		<?php endif ?>
+		</ul> 
+	
+		 <ul data-role="pagination">
+		<?php if($page->hasNext()): ?>
+		<a href="<?php echo $page->nextVisible()->url() ?>">
+		<li class="ui-pagination-prev icon-left-open-2">Voriger Artikel</li></a>
+		<?php endif ?>
+		</ul> 
+	</div>
+
+Don't worry about the changed Next and Previous… i flipped my posts. 
+
+Unfortunately this kills everything after the NextPrev Navigation (Comments, related Articles etc.)But only on my first Blogpost. Every other post works fine. I think the missing privious post is here the problem… ? I think the problem is very simple and I'm just to stupid to see it… :/
+
+Thank's for your help.

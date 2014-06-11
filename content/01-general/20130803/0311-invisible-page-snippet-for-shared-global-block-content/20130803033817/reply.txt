@@ -1,0 +1,20 @@
+User: stockphotogram
+----
+Date: 2013-08-03 03:38:17
+----
+Text: Okay, checked this tutor out
+
+http://getkirby.com/blog/one-pager
+
+Looks like I redirect all pages using the default.php template file to block the access and can also use .htaccess:
+
+http://getkirby.com/blog/protect-your-content-files
+
+Now to fetch a page content, do I have to use 
+
+$pages->findByUID($uid)
+
+or is there a way to store a content as block and call it using the snippet() function?
+
+
+Thank you!

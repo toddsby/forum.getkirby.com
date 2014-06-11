@@ -1,0 +1,23 @@
+Title: Silly if statement
+----
+Date: 2013-12-17 18:23:43
+----
+Solved: 1
+----
+User: theoriginalivor
+----
+Text: I'm trying to display content specific to blog page template and not show it on other pages. the code i'm using (below) isn't working, it shows the content on every page. if it helps the code in a snippet within the header
+
+    <?php 
+    $articles = $pages->find('blog')
+            ->children()
+            ->visible()
+            ->flip();  
+    $count = $articles->count();
+
+    if ($page->template("blogarticle") ) : ?>
+    content specific
+    <?php else: ?>
+
+
+    <?php endif ?>

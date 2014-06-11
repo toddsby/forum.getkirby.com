@@ -1,0 +1,39 @@
+User: Chrisolux
+----
+Date: 2013-07-29 18:34:55
+----
+Text: OK, thanks
+
+	<?php
+
+	$images = array();
+
+	foreach($page->children() as $child) {
+	  foreach($child->images()->limit(1) as $image) {
+	    $images[] = $image;
+	  }
+	
+	}
+	
+	shuffle($images);
+	
+	?>
+	
+	<ul>
+	
+	  <?php foreach($images as $image): ?>
+	
+	    <?php $image->fitWidth(385) ?>
+	
+	    <li class="item">
+	
+	      <a href="<?php echo $child->uri()?>"><img 		
+	src="<?php echo $image->url() ?>" width="<?php echo $image->width() ?>"
+ 	height="<?php echo $image->height() ?>" alt="<?php echo $image->name() ?>" /></a>
+
+	    </li>
+
+	  <?php endforeach ?>
+	
+	</ul>
+	</div>

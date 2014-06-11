@@ -1,0 +1,12 @@
+User: _diondiondion
+----
+Date: 2013-04-10 09:13:34
+----
+Text: Yes, it's possible. Here's a snippet from (link: http://getkirby.com/blog/thumb-plugin text: Bastian's blog post about the thumb plugin):
+
+"If you need the raw url instead of the entire image tag, you can pass false as the third agrument:"
+
+```php
+<?php echo thumb($image, array('width' => 200), false) ?>
+// this will echo the raw url of the thumbnail
+```

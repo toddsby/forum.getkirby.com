@@ -1,0 +1,20 @@
+Title: tel: link
+----
+Date: 2014-05-25 00:48:30
+----
+Solved: 1
+----
+User: jolinmasson
+----
+Text: Hi, I’m trying to have a tel:1111111111 link. right now, here is my formatting with kirby text, but I get a relative link: http://mywebsite.com/tel:1111111111
+
+    (link:tel:1111111111 text:+1 111 111-1111)
+
+As I figured kirby text didn’t worked, I tried with
+
+    Telephone: <a href="tel:1111111111">+1 111 111-1111</a>
+    and
+    <?php echo html($page->telephone()) ?>
+
+But it won’t render as html; just plain text.
+What am I doing wrong?

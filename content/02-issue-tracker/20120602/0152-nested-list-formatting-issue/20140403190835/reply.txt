@@ -1,0 +1,9 @@
+User: sakamies
+----
+Date: 2014-04-03 19:08:35
+----
+Text: Won't fix the root of the problem, but hides the symptoms:
+
+    li > br + br { display: none; }
+
+I like automatic line breaks and don't anticipate ever using double line breaks inside lists, so I use that bit of css to hide the latter break.

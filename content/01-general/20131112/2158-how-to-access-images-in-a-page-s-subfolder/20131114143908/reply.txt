@@ -1,0 +1,13 @@
+User: Lieblingstyp
+----
+Date: 2013-11-14 14:39:08
+----
+Text: Instead of using a subfolder you can name your images like that:
+
+> detail-image01.jpg
+> detail-image02.jpg
+> detail-image03.jpg
+
+Now, just filter the images
+
+    <? $images = $page->images()->filterBy('title', '*=', 'detail-') ?>

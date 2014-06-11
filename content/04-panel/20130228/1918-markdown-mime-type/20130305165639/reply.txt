@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2013-03-05 16:56:39
+----
+Text: I sometimes get application/octet-stream as mime type for Markdown files. Try to add that to your panel config.

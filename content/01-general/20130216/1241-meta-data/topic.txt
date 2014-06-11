@@ -1,0 +1,14 @@
+Title: Meta data
+----
+Date: 2013-02-16 12:41:12
+----
+Solved: 0
+----
+User: geoffforster
+----
+Text: Hi 
+
+I've just downloaded Kirby and have spent a couple of hours reading the docs and forum.
+
+Is there a way to add Meta data for each page.
+I see the description and keywords from site.txt is used site wide.

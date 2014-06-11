@@ -1,0 +1,32 @@
+Title: Use MultiMarkdown Metadata for text/md files
+----
+Date: 2013-04-06 09:23:58
+----
+Solved: 0
+----
+User: russbaldwin
+----
+Text: It would be a great idea if Kirby used the more standard [MultiMarkdown Metadata](https://github.com/fletcher/MultiMarkdown/wiki/MultiMarkdown-Syntax-Guide) structure rather than the current unique style. 
+
+**Current**
+```css
+Title: Your Title
+
+----
+
+Date : 2013/04/06
+
+----
+
+Text: Your text
+
+```
+**MultiMarkdown**
+```css
+Title: Your Title
+Date : 2013/04/06
+
+Your text
+```
+
+It would more closely tie in with the YAML in Blueprints and would mean you could just put a MultiMarkdown file in a folder and it would work ;-)

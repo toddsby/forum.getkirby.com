@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2014-02-20 17:46:02
+----
+Text: Yeah, I'd just use Kirbytext.
+
+The `{.class}` syntax appears to only work on elements that have a delineator at the beginning of the line, and then you put that at the end. Hence working on headings, but not inline links. I think it also works on list items, but not lists because there's no place to put it to apply to the list.

@@ -1,0 +1,11 @@
+User: fitzage
+----
+Date: 2012-07-20 19:41:36
+----
+Text: In which case, entering the full path instead of just the slug is redundant, no?
+
+I'm trying to balance user needs (it won't just be me updating the site) with complexity, so yes, my original thought was to have two separate fields. But if the user has to enter the full path anyway, I think they might get a little confused about having two separate fields and having to do the full path, so from a user standpoint it might be better just to have one field and they enter the full path, and I split them off on the backend.
+
+That's also somewhat more scalable. If we want to show different related content, we don't have to create more fields, we just tweak the content and adjust the template and the users would still be dealing with a single field like they always have.
+
+But I do like the separate fields, too, because that's easier for going back and editing content. So I don't know, but thanks for the input. I could go either way.

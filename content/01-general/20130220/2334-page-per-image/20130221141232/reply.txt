@@ -1,0 +1,19 @@
+User: roobottom
+----
+Date: 2013-02-21 14:12:32
+----
+Text: So in Kirby is there a way I can take each thumbnail link and do something like this:
+
+``<a href="/gallery/album-name/01"/>``
+
+And have build a template for ``XX.php`` ? Does that make sense? So on that page I'd have something like this:
+
+```
+<? $filename=somehow get the filename from the url
+foreach($page->parent()->files()->find($filename) as $image): ?>
+
+display the image.
+
+<?endforeach;?>```
+
+Thanks!

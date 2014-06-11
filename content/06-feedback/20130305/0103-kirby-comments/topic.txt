@@ -1,0 +1,11 @@
+Title: Kirby comments
+----
+Date: 2013-03-05 01:03:49
+----
+Solved: 0
+----
+User: magarciaguerra
+----
+Text: Hello, this forum is really cool and it works very well... 
+My question is... Could Kirby have a similar (more or less) native comment system of this forum?
+:P

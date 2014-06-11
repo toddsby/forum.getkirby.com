@@ -1,0 +1,9 @@
+User: hellovolker
+----
+Date: 2012-12-14 12:58:53
+----
+Text: I just discovered that it works. There only is an "issue" when looking at the page in Chrome. But you normally don't "look" at an .xml file - so issue solved.
+
+(image: http://i.imgur.com/YxVGK.jpg)
+
+it works in FF and other Browsers though.

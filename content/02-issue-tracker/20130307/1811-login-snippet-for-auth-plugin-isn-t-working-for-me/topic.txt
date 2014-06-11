@@ -1,0 +1,13 @@
+Title: Login snippet for auth plugin isn't working for me.
+----
+Date: 2013-03-07 18:11:45
+----
+Solved: 1
+----
+User: fitzage
+----
+Text: I have a fairly fresh install of Kirby, and I followed the instructions for setting up the auth extension, and I can't get it to work.
+
+What happens is that when the `<?php $login = Auth::login() ?>` is included, everything after that on the page breaks completely. No PHP errors are thrown or anything, the page just stops at whatever was before that.
+
+Any ideas on how I can troubleshoot this? I tried three different versions of PHP with no success. Are there any PHP features it requires that I may need to enable? Are there any other plugins it requires that I have (I didn't see that it requires anything else, but I may have missed something)?

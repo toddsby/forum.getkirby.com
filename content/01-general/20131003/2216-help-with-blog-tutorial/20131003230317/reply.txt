@@ -1,0 +1,5 @@
+User: SqueezeOJ
+----
+Date: 2013-10-03 23:03:17
+----
+Text: THANKS!  You're both right.  I changed visible to invisible and it worked great.

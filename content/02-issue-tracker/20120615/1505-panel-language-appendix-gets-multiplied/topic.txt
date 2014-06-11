@@ -1,0 +1,9 @@
+Title: [Panel] language appendix gets multiplied
+----
+Date: 2012-06-15 15:05:15
+----
+Solved: 0
+----
+User: hey_steffen
+----
+Text: After saving content in the panel.. the language 'appendix' gets added over and over again. After multiple edits the file looks liks this: default.en.en.en.en.en.en.en.en.txt

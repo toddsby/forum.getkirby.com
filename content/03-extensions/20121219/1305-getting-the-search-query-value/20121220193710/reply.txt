@@ -1,0 +1,17 @@
+User: tysongach
+----
+Date: 2012-12-20 19:37:10
+----
+Text: Like this:
+
+    $search->query()
+
+I personally like the way that the search works here on getkirby.com: by keeping your search term in the input field.
+
+For example, here’s a search for the word ‘template’: <http://getkirby.com/search/?q=template>
+
+Notice how the search input box displays your search term? You can do that by echoing the search query into the `value` attribute, like this:
+
+    <input id="query" name="query" type="search" placeholder="Search" value="<?php echo html($search->query()) ?>">
+
+Hope this helps you out!

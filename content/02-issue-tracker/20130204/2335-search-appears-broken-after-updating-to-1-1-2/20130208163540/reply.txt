@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-02-08 16:35:40
+----
+Text: Can you look at your web server log to see what is happening when you do a search. It looks like it goes away, does something but doesn't come back with a result. 
+
+I'm not sure what the rights would be to the plugin folder, readable by your webserver user, but I was thinking about your dummy search content folder and file.

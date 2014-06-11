@@ -1,0 +1,11 @@
+User: tysongach
+----
+Date: 2013-04-25 17:41:29
+----
+Text: They are definitely very different.
+
+To make any *changes* to a Kirby–built site, I would say HTML & CSS knowledge is required. PHP knowledge is extremely valuable, but you can hack you’re way around (I had next to none when I started using Kirby).
+
+WordPress has a large theme base surrounding it, in which people can, basically, click a button and have an entirely new design. Although there are a few themes for Kirby floating around, the underlying system in place isn’t nearly as robust as WordPress. That’s not necessarily a bad thing.
+
+I enjoy Kirby because it’s lightweight and more do–it–yourself via all these handy little helper functions.

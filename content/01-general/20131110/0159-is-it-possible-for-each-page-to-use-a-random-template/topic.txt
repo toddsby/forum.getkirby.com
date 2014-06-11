@@ -1,0 +1,20 @@
+Title: Is it possible for each page to use a random template?
+----
+Date: 2013-11-10 01:59:56
+----
+Solved: 1
+----
+User: unexpectedsport
+----
+Text: So yeah, I'm wondering if there is any way for pages to choose a random template. For example, say I made a subfolder inside **/site/templates** with 4 templates in it:
+
+**site/templates/projects/01.php
+site/templates/projects/02.php
+site/templates/projects/03.php
+site/templates/projects/04.php**
+
+Then each time a page in my **content/projects** folder is visited, it would be displayed according to one of the above templates, chosen randomly.
+
+That is just an example—I'm open to any way to achieve this. I think I can imagine a way to choose different style sheets at random using PHP, but ideally, I would like to use completely different templates.
+
+Thank you, and please let me know if this is unclear.

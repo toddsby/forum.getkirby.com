@@ -1,0 +1,23 @@
+Title: kirbytext with images <p> tag problem
+----
+Date: 2012-05-29 12:00:14
+----
+Solved: 0
+----
+User: roman_oroco
+----
+Text: When I try to add images for article, Kirby adds `<p>` tag for each image:
+
+Code I use for display content:
+```php
+<?php echo kirbytext($page->text()) ?>
+```
+
+HTML result:
+```
+<p>
+  <img src="image.png" alt="image">
+</p>
+```
+
+Some solution?

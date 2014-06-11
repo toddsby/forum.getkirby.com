@@ -1,0 +1,20 @@
+User: russbaldwin
+----
+Date: 2013-11-07 17:23:07
+----
+Text: Assuming you have a paginated set of pages in a variable (in this case `$articles`)
+
+```php
+echo 
+'Page'.
+$articles->pagination->countItems()
+.' Articles - Page '.
+$articles->pagination->page()
+.' of '.
+$articles->pagination->countPages();
+  
+```
+
+Which would give you something like 
+`10 Articles - Page 1 of 2`. 
+*You better check to see the array is not empty before this ;-)*

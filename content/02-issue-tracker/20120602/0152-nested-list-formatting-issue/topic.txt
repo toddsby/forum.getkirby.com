@@ -1,0 +1,20 @@
+Title: Nested List formatting issue
+----
+Date: 2012-06-02 01:52:39
+----
+Solved: 0
+----
+User: fitzage
+----
+Text: When I'm using kirbytext and I nest lists, I get a couple of spare break tags before the inside list.
+
+Notice the first list on (link: http://fitzage.mftz.us:8888/articles/ipad-3g-decisions text: this page) with its nested list, and the bigass space above it. There are a couple of break tags in there creating blank lines.
+
+I have this entered on the backend exactly like this (lets hope this comes through…)
+
+
+<code>1. Verizon/Sprint has a better network. Or at least a broader 3G network.
+	1. You may want this if you travel a lot.
+	2. You may want this if you live in an area that AT&amp;T doesn't cover.
+	3. You may want this if you just think AT&amp;T sucks.
+2. A Mifi provides access to multiple devices (like a laptop).</code>

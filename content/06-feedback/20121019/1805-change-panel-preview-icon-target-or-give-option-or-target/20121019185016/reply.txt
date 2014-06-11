@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-10-19 18:50:16
+----
+Text: @russbaldwin great advice! I felt that normally users would prefer to open the preview in a new tab/window. Especially when you are just about to edit something. But you are right that it would be great to have that as an additional option, so everybody can decide which way you prefer. I will add that to the next version.

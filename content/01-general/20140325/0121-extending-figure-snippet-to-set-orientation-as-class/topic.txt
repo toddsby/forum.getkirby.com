@@ -1,0 +1,21 @@
+Title: Extending Figure snippet to set orientation as class
+----
+Date: 2014-03-25 01:21:44
+----
+Solved: 0
+----
+User: omgitsjkt
+----
+Text: I've been fooling around in figure.php and kirbytext.php trying to figure this out but I can't..
+
+How could I do something like:
+
+    if($image->height() >= $image->width()) {
+      $class = 'vertical';
+    } else {
+      $class = 'horizontal';
+    }
+
+    // start the html output        
+    $html  = "<figure class='$class'>";            
+    $html .= $this->image($params);

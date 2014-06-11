@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-07-04 14:31:12
+----
+Text: That's also a great addition. I might add this to kirbytext by default but in the meantime you can simply add it to your site/plugins folder and use it in your templates additionally to kirbytext.

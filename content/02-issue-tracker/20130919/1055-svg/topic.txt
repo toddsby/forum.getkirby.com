@@ -1,0 +1,13 @@
+Title: SVG
+----
+Date: 2013-09-19 10:55:19
+----
+Solved: 0
+----
+User: chrisjmartin87
+----
+Text: Is it possible to upload an SVG file with the panel?
+
+I have enable the mime type image/svg+xml in the panel config file but it is still not allowing it to be uploaded?
+
+cheers

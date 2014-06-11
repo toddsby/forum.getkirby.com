@@ -1,0 +1,28 @@
+Title: Pagination Problem
+----
+Date: 2013-05-01 19:59:11
+----
+Solved: 1
+----
+User: hellovolker
+----
+Text: Hey there,
+just a quick question.
+
+I want to show a "Next" and "Prev" Link on a Page - if the page has siblings.
+
+I looked into ->paginate() but I can not use as I am working already on a subpage.
+Here is what I have so far - which is not working. 
+
+
+
+    <?php 
+    $uid = $page->uid();
+    $siblings = $page->siblings()->visible()->findByUID("$uid");
+    ?>
+    <nav class="sibling-nav">
+        <a href="<?=$siblings->next()->url()?>" rel="prev">Prev</a>
+        <a href="<?=$siblings->prev()->url()?>" rel="prev">Next</a>
+    </nav>
+
+Any ideas?

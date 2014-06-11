@@ -1,0 +1,27 @@
+Title: <img> tag inside a <p>?
+----
+Date: 2014-04-26 13:46:21
+----
+Solved: 1
+----
+User: seitzben
+----
+Text: Hey!
+When I insert a image via kirbytext, it is placed inside a p-tag.
+
+So it looks like:
+
+    <h2>Headline</h2>
+    <p>Some Text</p>
+    <p><img src="some_uri/image.jpg"></p>
+    <p>Some more Text</p>
+
+Instead of:
+
+    <h2>Headline</h2>
+    <p>Some Text</p>
+    <img src="some_uri/image.jpg">
+    <p>Some more Text</p>
+
+
+Am I doing something wrong, is this a known bug or maybe even intended?

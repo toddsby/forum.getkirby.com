@@ -1,0 +1,9 @@
+User: nathaniel_h
+----
+Date: 2013-02-13 04:41:24
+----
+Text: KirbyText actually allows you add classes to images without manually putting a div around them, if you'd like to keep the class applied after you do a find-replace to remove the div.
+
+(image: http://rhino.im/g/J0Pd.png)
+
+But yeah, this functionality should be built right into Kirby... or a plugin at least.

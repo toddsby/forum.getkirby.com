@@ -1,0 +1,9 @@
+User: JerikoOne
+----
+Date: 2014-01-16 18:04:14
+----
+Text: The go() function is part of the toolkit, yes. You don't need it to redirect to another external website though, just use
+
+<pre>&lt;?php header('Location: http://www.google.com/', true); ?&gt;</pre>
+
+and you're good to go.

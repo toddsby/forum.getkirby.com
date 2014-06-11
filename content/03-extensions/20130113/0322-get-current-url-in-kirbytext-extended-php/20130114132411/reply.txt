@@ -1,0 +1,5 @@
+User: nilshendriks
+----
+Date: 2013-01-14 13:24:11
+----
+Text: Unfortunately no. As I'm using Kirby with rewrite for URLs this also gives clean a path without the number in the folder name.

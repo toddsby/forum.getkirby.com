@@ -1,0 +1,9 @@
+Title: Relative images with Markdown
+----
+Date: 2013-04-06 09:10:35
+----
+Solved: 0
+----
+User: russbaldwin
+----
+Text: Nice to get relative images working with Markdown same as they do in KirbyText?

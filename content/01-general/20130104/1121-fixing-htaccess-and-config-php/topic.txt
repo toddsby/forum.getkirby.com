@@ -1,0 +1,25 @@
+Title: Fixing htaccess and config.php
+----
+Date: 2013-01-04 11:21:27
+----
+Solved: 0
+----
+User: wordius
+----
+Text: I am assuming the problems I am having stem from my htaccess and config settings. The content of both files can be found here: https://gist.github.com/4451481
+
+Note that I removed the licence key.
+
+## The problem
+
+I want my home page to be my blog page (this seems fine), but I want the URLs to resolve to:
+
+    domain.com/article-name
+
+Currently, I am getting:
+
+    domain.com/index.php/blog/article-name
+
+The site is up and running at wordius.com if that helps you visualise the problem better.
+
+Any help appreciated. I know as much about htaccess as I do about the anatomy of Australian tree frogs, which is to say not a lot.

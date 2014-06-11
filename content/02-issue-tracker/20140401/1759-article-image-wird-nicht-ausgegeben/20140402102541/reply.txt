@@ -1,0 +1,40 @@
+User: michelsacher
+----
+Date: 2014-04-02 10:25:41
+----
+Text: In meinem Code steht es auch in einem Imagetag :)
+
+```
+<div class="container">
+  	<div class="row-fluid">
+	    <div class="span8 offset2">
+			<section class="content blog">
+			  
+			  <h1><?php echo html($page->title()) ?></h1>
+			  <?php echo kirbytext($page->text()) ?>
+			  
+			  <?php $articles = $page->children()->visible()->flip()->paginate(5) ?>
+  
+  				<?php foreach($articles as $article): ?>
+
+				<article>
+				<div class="row-fluid">
+					<div class="span6">
+						<img src="<?php echo $article->images()->first()->url() ?>" />
+					</div>
+					<div class="span6">			
+					    <h1><?php echo html($article->title()) ?></h1>
+					    <p><?php echo excerpt($article->text(), 300) ?></p>
+					    <a href="<?php echo $article->url() ?>">Read more…</a>
+					  
+					</div>
+				</div>
+				</article>	
+
+			  <?php endforeach ?>
+
+			</section>
+		</div>
+	</div>
+</div>
+```

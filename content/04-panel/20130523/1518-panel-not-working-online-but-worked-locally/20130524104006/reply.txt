@@ -1,0 +1,6 @@
+User: russbaldwin
+----
+Date: 2013-05-24 10:40:06
+----
+Text: Is it in a sub folder now you have moved it? 
+Are the config.php files correct?

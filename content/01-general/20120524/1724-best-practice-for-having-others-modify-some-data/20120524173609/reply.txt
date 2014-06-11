@@ -1,0 +1,9 @@
+User: bastianallgeier
+----
+Date: 2012-05-24 17:36:09
+----
+Text: Your situation is definitely "special" :) The droplet idea sounds great. To be honest I don't really have any best practive advices for you in that case, because I've never been in such a situation. 
+
+I think the biggest problem is to let them update and add articles without screwing anything else. As far as I understand your co-publishers are able to use git, which is fantastic. So why don't you create a repo just for the articles and give them access only to that instead of a repo for the entire site or the entire content? They could push changes and you could add a post-hook to push them to your production servers. They could still mess up their new articles of course, but that's the risk you have in either situation. Otherwise you could only have a hidden drafts folder somewhere and let them post articles only to that. But you would have to review and publish them afterwards. 
+
+I'm currently working on the beta of the (link: panel text: control panel), which is supposed to have user groups and permissions some day, but that's not here yet.

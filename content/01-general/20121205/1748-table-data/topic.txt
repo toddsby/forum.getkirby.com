@@ -1,0 +1,19 @@
+Title: Table data
+----
+Date: 2012-12-05 17:48:47
+----
+Solved: 0
+----
+User: alexk
+----
+Text: Hi guys,
+
+I am converting a friends page to Kirby and because he is very clumsy when it comes to all things HTML or web, I am setting it up to work with the Panel.
+
+The main things that would need to be edited are two pages:
+
+* http://vfx4you.de/vfx_v2/cug/download.htm  
+   The second one is relatively easy. I was just going to create a page for each project listing and then he can easily enter and edit the data for the project.
+
+* http://vfx4you.de/vfx_v2/skills.htm and http://vfx4you.de/vfx_v2/references.htm  
+   I feel the approach from above doesn't really work for these two pages. Having an extra page just to enter three lines of text seems very cumbersome. Does anyone have any ideas how I could approach this in a user friendly manner? Or is a separate page with a YAML structure the best way to go? Can I implement a YAML editor in the Panel?

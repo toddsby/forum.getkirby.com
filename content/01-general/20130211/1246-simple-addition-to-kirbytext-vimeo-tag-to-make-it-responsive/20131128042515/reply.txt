@@ -1,0 +1,14 @@
+User: i_cox
+----
+Date: 2013-11-28 04:25:15
+----
+Text: Here's my solution: 
+[https://gist.github.com/ian-cox/7686447/](https://gist.github.com/ian-cox/7686447/)
+
+Instead of editing the existing vimeo tag I created my own video tag which I've set up to work with both vimeo and youtube.
+<pre><code>(video: vimeo.com/79338229)</code></pre>
+It doesn't include options for size because it comes with div wrapper and fluid width CSS.
+
+The responsive CSS is from [Rapid Boostrap](http://niklausgerber.com/blog/rapid-bootstrap-v3/).
+
+Fluid Video Embed [Example](http://clients.niklausgerber.com/rapid-bootstrap-v3/)

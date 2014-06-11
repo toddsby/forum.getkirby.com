@@ -1,0 +1,5 @@
+User: sasharae
+----
+Date: 2013-12-11 22:53:35
+----
+Text: Wow. I hope this is helpful to some. I am basically posting my progress as I go along. I ended up replacing $pages->find('**articles**') with **blog**, and it seemed to work because I no longer have any errors. The only problem I have now is the thumbnails of the articles are not showing up, however the tag filters are. Oh dear.

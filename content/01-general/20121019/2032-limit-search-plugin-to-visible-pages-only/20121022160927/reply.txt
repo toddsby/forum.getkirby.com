@@ -1,0 +1,11 @@
+User: russbaldwin
+----
+Date: 2012-10-22 16:09:27
+----
+Text: Thank you Bastian, I am very grateful, in fact it brought a warm smile to my face... 
+... thanks to everyone here things are going very well in migrating our first site to KirbyCMS. Only 8 days in and my todo list is now only:
+
++ [Implement **Adaptive Images**](http://adaptive-images.com/details.htm)
++ A different **Contact Form** (we cannot use the plugin as no PHP 5.3 on the client server)
++ Better (more secure) **Login** for some client pages. Currently using the [niklausgerber - /Protect-Kirby-CMS](https://github.com/niklausgerber/Protect-Kirby-CMS) with a more restrictive .htaccess and hidden subpages, lucky we don't have to be very secure ;-)  I tried to get [marthoff - kirbysec · GitHub](https://github.com/marthoff/kirbysec) to work, but without success.
++ Then it's just getting the smallest JavaScript we can get to do the job, tiding up the CSS/Less and we will be good for testing.

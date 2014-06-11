@@ -1,0 +1,13 @@
+Title: Event Calendar
+----
+Date: 2012-05-25 23:44:09
+----
+Solved: 0
+----
+User: fitzage
+----
+Text: So now that I've got my basic site up, I'm thinking about moving my church website to Kirby for practice.
+
+One feature we have is an event calendar. I pretty much think I'm not going to bother with building an actual calendar layout, just more of a blog layout.
+
+So the sticking point is we currently have a lot of repeating events. Is there some kirby feature that would allow me to implement this without having to update the events frequently? Also, when I sort items based on date, can I filter out ones that are outside a certain timeframe from the current date?

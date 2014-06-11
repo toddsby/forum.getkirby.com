@@ -1,0 +1,9 @@
+Title: PHP Code in Page Content and Blueprint File
+----
+Date: 2013-08-26 20:05:03
+----
+Solved: 1
+----
+User: travvt
+----
+Text: Hello All. I'm new to Kirby and I'm having trouble figuring out how to add PHP code to page content and to blueprint files. Is this possible? Or am I missing something simple? Any help would be greatly appreciated.

@@ -1,0 +1,14 @@
+Title: Spit out a sub-headline
+----
+Date: 2013-08-11 14:30:06
+----
+Solved: 1
+----
+User: verpixelt
+----
+Text: Hey folks,
+
+I'm setting up my blog right now and every single post consists a headline + another sub-headline. So in the HTML markup it is a h1 and a h2.
+I use the simple echo article->title to show my headline. Is there already a tag to use for a sub-headline? If not, how would you print out the sub-headline from your text files?
+
+Thanks a lot.

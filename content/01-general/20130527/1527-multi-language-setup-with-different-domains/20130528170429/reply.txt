@@ -1,0 +1,5 @@
+User: roman_oroco
+----
+Date: 2013-05-28 17:04:29
+----
+Text: Nope, currently the only way is using subdirectory url’s (link: /blog/multilang-preview), which is fine according to Google’s (link:http://support.google.com/webmasters/bin/answer.py?hl=en&answer=182192#2 text:multilingual sites popup:yes)

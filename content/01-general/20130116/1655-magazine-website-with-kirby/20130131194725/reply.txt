@@ -1,0 +1,7 @@
+User: roman_oroco
+----
+Date: 2013-01-31 19:47:25
+----
+Text: @russbaldwin Thank you for good response.
+Currently I'm testing with a 100+ of example folders+content.
+It was really a madness rename 100+ files and folders… I'm suggest [Renamer app](http://renamer.com) is a great for renaming a lot of files and folders.

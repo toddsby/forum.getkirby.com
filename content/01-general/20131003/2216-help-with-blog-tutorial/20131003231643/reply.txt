@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2013-10-03 23:16:43
+----
+Text: So changing to invisible means that if you do rename them with the number in front, they'll no longer show up, FYI.
+
+So I'd recommend either actually making them visible, or just calling all articles. If you actually make them visible, and leave the visible statement in there, then you can have draft articles living in there that don't show up on the list yet, but can still be previewed by going directly to their URL.

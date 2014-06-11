@@ -1,0 +1,13 @@
+User: p_mylecharane
+----
+Date: 2013-04-24 06:18:25
+----
+Text: Oh the code turend out weird.
+
+See below:
+
+    	<? foreach($pages->children()->visible()->shuffle()->limit(1) as $project): ?>
+    <figure>
+     <a href="<?= $project->url() ?>"><img class="grayscale" src="<?= $project->files()->find('frontpage.jpg')->url() ?>" alt="<?php echo html($project->title()) ?>" /></a>
+    </figure>
+  <?php endforeach ?>

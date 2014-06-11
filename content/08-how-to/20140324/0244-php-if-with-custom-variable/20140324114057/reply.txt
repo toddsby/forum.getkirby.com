@@ -1,0 +1,7 @@
+User: texnixe
+----
+Date: 2014-03-24 11:40:57
+----
+Text: This should work:
+
+    <?php if($page->client() != "" ?>

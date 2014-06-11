@@ -1,0 +1,5 @@
+User: MattSoar
+----
+Date: 2013-06-04 14:00:55
+----
+Text: 'Blueprints': that was the clue I needed, thanks. Kinda like CSS I suppose. I also hadn't realized that the names of the main folders in Content have to match the names of the available blueprints.

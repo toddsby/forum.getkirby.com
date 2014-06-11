@@ -1,0 +1,18 @@
+Title: Markdown Mime Type
+----
+Date: 2013-02-28 19:18:04
+----
+Solved: 0
+----
+User: tbnv
+----
+Text: Hello,
+
+I know that it is possible to add mime types to the Kirby Panel in its config file. But I'm not familiar with such things and I really don't know what to use for Markdown files. I'm using .md files in Kirby and I'd like to upload .md containing media meta info.
+
+Some people say it's text/x-web-markdown or text/x-markdown but it still doesn't work.
+
+Any idea?
+
+Thanks,
+Thibaut

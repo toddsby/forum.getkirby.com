@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-08-03 10:40:36
+----
+Text: Not much to go on here, if you could elaborate it might be helpful but short answer don't think so. But if they are constants then put them in config.php or for temporary variables session or cookies.
+
+You can of course have select lists and radio and tick box stuff in panel.

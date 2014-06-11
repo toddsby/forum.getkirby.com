@@ -1,0 +1,7 @@
+User: CluelessArian
+----
+Date: 2013-01-23 20:18:39
+----
+Text: It would be really helpful if someone could explain the installation process or post a demo. I'm a total beginner with PHP/Ajax, but so far I've been able to learn from the default theme and the tutorials without any problems. This Like Counter is one of the last things I need to get working, and I'm completely stuck. I've installed the snippet and managed to link a button according to the instructions (ex: http://localhost/kirby/like/post:Lorem-Ipsum), yet all it does is to redirect me to my Error-Page.
+
+I would appreciate it if somebody could help me, many thanks in advance.

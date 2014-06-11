@@ -1,0 +1,7 @@
+User: syropian
+----
+Date: 2014-01-16 20:42:11
+----
+Text: For me, (link:https://disqus.com text:Disqus) works perfectly as an easy-to-use comment system. Commenting should definitely not be native to Kirby, as it really takes away from the whole idea of it being lightweight. I could see it as a plugin, but I still think something like Disqus or LiveFyre is a much better option.
+
+PS. Disqus hits pretty much every one of OP's requirements.

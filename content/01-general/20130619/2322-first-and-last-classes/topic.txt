@@ -1,0 +1,17 @@
+Title: "First" and "last" classes...
+----
+Date: 2013-06-19 23:22:07
+----
+Solved: 0
+----
+User: photowatts
+----
+Text: I have a series of article excerpts posted blog-style, each enclosed in a div class="article" tag.  How would I go about having the system also post a class="first" to the first article in the series and a class="last" in the last article?
+
+I'd also like to apply the same to the first and last li tags in the navigation.
+
+I know I can use :first-child and :last-child in my CSS, but I'm hoping there's a way to add the classes instead.
+
+Thanks,
+
+Chris

@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-01-06 11:12:31
+----
+Text: Not sure if you mean pagination or prev/next links? If the former then the [Pagination snippet](https://github.com/bastianallgeier/kirbycms-extensions/tree/master/snippets/pagination) would be a good starting point and if the latter then the [Prev/Next snippet](https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/prevnext/prevnext.php) maybe useful ;-)
+
+Hope this is what you were after?

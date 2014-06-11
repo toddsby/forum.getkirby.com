@@ -1,0 +1,23 @@
+User: bastianallgeier
+----
+Date: 2012-08-06 09:01:17
+----
+Text: All sets of files in Kirby have a method called slice(). You can use that to get all images except the first one like this: 
+
+```
+<?php foreach($page->images()->slice(1) as $img) ?>
+<!-- do something with the other images -->
+<?php endforeach ?>
+```
+
+slice always starts with 0 as index for the first image. That's why you need to set slice(1) to get all images except the first one. In fact slice() is the equivalent to PHP's array_slice, so you can check out PHP's docs for more options: <http://php.net/manual/en/function.array-slice.php>
+
+If you know the name of the first image – for example cover.jpg – you could also do 
+
+```
+<?php foreach($page->images()->not('cover.jpg') as $img) ?>
+<!-- do something with the other images -->
+<?php endforeach ?>
+```
+
+I hope this helps.

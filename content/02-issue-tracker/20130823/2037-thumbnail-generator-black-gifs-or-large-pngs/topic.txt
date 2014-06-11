@@ -1,0 +1,11 @@
+Title: Thumbnail Generator: Black .gifs or large .pngs
+----
+Date: 2013-08-23 20:37:54
+----
+Solved: 0
+----
+User: omgitsjkt
+----
+Text: I'm using the thumbnail generator on a bunch of images with a transparent background. There's a downside to both using .gif and .png files: When the .gif is resized, any transparent pixels have a black background in the new thumbnail file. When the .png is resized, the file size of the generated image is much larger than the original: 80k for the original, and 241k after being resized about 50%.
+
+Any fix for either?

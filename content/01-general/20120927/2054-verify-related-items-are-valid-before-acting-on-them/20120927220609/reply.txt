@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-09-27 22:06:09
+----
+Text: Checking for broken relations would be really cool, but I'm not sure how to achieve that yet. I will put it on my list :)

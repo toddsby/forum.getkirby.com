@@ -1,0 +1,18 @@
+User: russbaldwin
+----
+Date: 2013-05-04 15:40:58
+----
+Text: I've just tried it on Ubuntu and it works fine...
+
+You can put stuff in config e.g.
+```php
+---------------------------------------
+Thumb Plugin - defaults
+---------------------------------------
+The thumb plugin makes it easy to include smaller, resized versions of your images in your pages without adding extra code or uploading smaller versions yourself. 
+*/
+c::set('thumb.cache.root', c::get('root') . '/thumbs');
+c::set('thumb.cache.url',  c::get('url')  . '/thumbs');
+c::set('thumb.quality', 75);
+c::set('thumb.upscale', false);
+```

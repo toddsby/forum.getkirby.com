@@ -1,0 +1,13 @@
+User: russbaldwin
+----
+Date: 2013-03-01 13:24:40
+----
+Text: You could just edit the PHP code? Or the JS code?
+
+Do you mean like:
+
+```
+( image:mypic.jpg class:myclass link:http://me.com )
+```
+
+[-- See - Kirby Text Formatting 101](http://getkirby.com/blog/text-formatting-101)

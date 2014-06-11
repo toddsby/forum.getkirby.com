@@ -1,0 +1,20 @@
+Title: digitalocean hosting ! great with dropbox
+----
+Date: 2014-01-04 20:43:19
+----
+Solved: 0
+----
+User: jaypegams
+----
+Text: Digital Ocean hosting : 
+
+- very cheap ! 5$ a month
+- has much documentation ! so much that i could set up my VPS and dropbox and I know nothing about using a server in SSH
+- is very straight forward in installation
+- no hassle in the sign up !
+
+honestly I have tried gandi / webfaction / OVH / linode (great as well but much pricier ) digital ocean is just great ! 
+
+referral link : (link:https://www.digitalocean.com/?refcode=e675af2179ff text:digitalocean) 
+or if you would rather not :
+no referral link : (link:https://www.digitalocean.com/ text:digitalocean)

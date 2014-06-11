@@ -1,0 +1,7 @@
+User: texnixe
+----
+Date: 2013-12-09 16:37:33
+----
+Text: It's on GitHub:
+
+[https://github.com/bastianallgeier/kirbycms-panel](https://github.com/bastianallgeier/kirbycms-panel)

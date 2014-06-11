@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-02-18 09:22:25
+----
+Text: Is this the same query as [Thumbnails instead of "Project a-b-c" and how to remove](http://getkirby.com/forum/general/topic:411)?
+
+If so it is perhaps advised not to post the same thing twice.

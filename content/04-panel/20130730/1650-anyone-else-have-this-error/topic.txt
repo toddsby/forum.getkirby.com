@@ -1,0 +1,13 @@
+Title: Anyone else have this error?
+----
+Date: 2013-07-30 16:50:21
+----
+Solved: 0
+----
+User: alexdmejias
+----
+Text: Whenever I click to edit one of the pages in the panel, I get this error on the top of the page.
+
+Warning: is_file() [function.is-file]: open_basedir restriction in effect. File({{path}}/index.php/who-we-are) is not within the allowed path(s): (/nfs:/tmp:/usr/local:/etc/apache2/gs-bin) in {{path}}/kirby/lib/helpers.php on line 15
+
+I have no idea what it could be

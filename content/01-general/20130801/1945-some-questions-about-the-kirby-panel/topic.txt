@@ -1,0 +1,17 @@
+Title: Some questions about the Kirby Panel
+----
+Date: 2013-08-01 19:45:17
+----
+Solved: 1
+----
+User: stockphotogram
+----
+Text: With Kirby Panel, is it possible to:
+
+1. Upload image/resize images?
+
+2. Create/edit blog article by automatically creating the folder and txt file?
+
+Love the way Kirby works, because I like working with Vim text editor and FTP, but don't know if it will be suitable for my clients that don't have these knowledge.
+
+Thank you!

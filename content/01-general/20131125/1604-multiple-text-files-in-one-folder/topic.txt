@@ -1,0 +1,21 @@
+Title: Multiple text files in one folder
+----
+Date: 2013-11-25 16:04:15
+----
+Solved: 1
+----
+User: staudi_
+----
+Text: Hey,
+
+Is it possible to have multiple text files in one folder like so:
+
+- quote
+-- 01-quote.txt
+-- 02-quote.txt
+-- 03-quote.txt
+
+
+without need for creating folder for every file.
+
+Thanks.

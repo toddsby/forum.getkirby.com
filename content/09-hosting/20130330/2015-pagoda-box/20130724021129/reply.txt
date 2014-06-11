@@ -1,0 +1,7 @@
+User: alignedleft
+----
+Date: 2013-07-24 02:11:29
+----
+Text: I'm also developing on Pagodabox for the first time (with Kirby!) and so far, it's awesome.
+
+The only complication I hit was needing to specify a custom .htaccess file for use on the Pagodabox side, so clean URLs map to the right directories on their end. Fortunately, I used their deploy hooks feature to include a couple simple commands that delete my development .htaccess file and rename the .htaccess_pagoda to .htaccess.  Brilliant!

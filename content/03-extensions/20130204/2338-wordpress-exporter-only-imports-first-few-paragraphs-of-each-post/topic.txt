@@ -1,0 +1,11 @@
+Title: Wordpress Exporter only imports first few paragraphs of each post.
+----
+Date: 2013-02-04 23:38:14
+----
+Solved: 1
+----
+User: nathaniel_h
+----
+Text: For some reason the Wordpress Exporter extension only imports about 300 characters of each post, possibly the Wordpress summary, instead of the entire post. Hmmmm...
+
+edit: I think it's because of the <--more--> tag in Wordpress. Is there any way for this plugin to take from the RSS feed, which does not have the <--more--> tag?

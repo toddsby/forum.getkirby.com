@@ -1,0 +1,47 @@
+User: unexpectedsport
+----
+Date: 2013-12-02 00:01:14
+----
+Text: @texnixe
+
+Thank you so much for your help with this! I really appreciate it. I have been using your code, trying to get it to work, but can't quite get there. Here are some of the results I'm getting so far (to keep it simple, I'm just trying to echo the URL in these…)
+
+If I try this: 
+
+	<?php 
+		$articles=$pages->find('featured', 'archive')->children(); 
+		echo $articles->nextVisible()->url(); 
+	?>
+
+I get: **Fatal error: Call to a member function url() on a non-object in http://www.domain.com/kirby/template.php on line 428**
+
+If I try removing **->url()** from the end like this:
+
+	<?php 
+		$articles=$pages->find('featured', 'archive')->children(); 
+		echo $articles->nextVisible(); 
+	?>
+
+…no error message—it's just that nothing outputs.
+
+And finally, if I strip it back to just echo **$articles** I get a list of URLs for all pages in the 'featured' and 'archive' folders. So in other words, this:
+
+	<?php 
+		$articles=$pages->find('featured', 'archive')->children(); 
+		echo $articles; 
+	?>
+
+generates this: 
+
+	http://www.mydomain.com/featured/featured_a
+	http://www.mydomain.com/featured/featured_b
+	http://www.mydomain.com/featured/featured_c
+	http://www.mydomain.com/archive/archive_a
+	http://www.mydomain.com/archive/archive_b
+	http://www.mydomain.com/archive/archive_c
+
+I'm guessing I am getting the error messages because $page->nextVisible() is related to the **$page** object, and **$articles** is related to **$pages**. Is that correct? Is there another step I need to take after your code: 
+
+	$articles=$pages->find('featured', 'archive')->children(); 
+
+Again, thanks again for your help. I feel like it's nearly there but I'm missing a step!

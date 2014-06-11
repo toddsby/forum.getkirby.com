@@ -1,0 +1,7 @@
+User: jonabaptistella
+----
+Date: 2014-01-17 02:50:21
+----
+Text: Really hope for a fix to the issue. I do not have any way to edit the pages. Since the panel do not work. I´m thrown out from the panel when I login to the with the Auth plugin. And visa versa.  @cokotweets solution to the issue do not fix it for me. 
+
+Anyone have some fix to this?

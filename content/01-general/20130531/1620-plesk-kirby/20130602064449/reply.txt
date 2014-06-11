@@ -1,0 +1,5 @@
+User: dokdeleon
+----
+Date: 2013-06-02 06:44:49
+----
+Text: I saw on one Parallels Plesk thread that one solution is to have PHP run on FastCGI. Any special setting needed to make Kirby run on that? Thanks

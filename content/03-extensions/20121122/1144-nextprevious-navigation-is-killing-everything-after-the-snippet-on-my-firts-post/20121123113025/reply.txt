@@ -1,0 +1,5 @@
+User: obearone
+----
+Date: 2012-11-23 11:30:25
+----
+Text: Ok, I was right. Simple and stupid fault. I missed the little word `Visible`in this line: `<?php if($page->hasNext()): ?>`. Now everything works fine.

@@ -1,0 +1,19 @@
+Title: Find image by name, regardless of its extension
+----
+Date: 2013-07-17 13:30:25
+----
+Solved: 1
+----
+User: rappold
+----
+Text: I'm trying to figure out if there's a way to return the URL of an image with a specific _name_ (e.g. "thumb").
+
+I'm currently using
+
+	$i->images()->find('thumb.jpg')->url()
+
+but that way of course, images with a different extension (.png for instance) would be ignored.
+
+I also want to avoid creating an extra text file for each thumb, so I could filter by title.
+
+Does anyone have an idea how I could achieve this?

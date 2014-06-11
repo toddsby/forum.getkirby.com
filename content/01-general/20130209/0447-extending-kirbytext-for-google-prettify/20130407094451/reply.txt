@@ -1,0 +1,38 @@
+User: cedwardsmedia
+----
+Date: 2013-04-07 09:44:51
+----
+Text: Hey Zach,
+
+I've had the same problem myself. I tried a myriad of options and finally discovered a trick that works perfect for Kirbytext.
+
+Kirby comes prepackaged with Markdown Extra, an enhanced version of PHP Markdown. One of the really nice features of Markdown Extra is "fenced code blocks". They work as follows:
+
+<code>~~~~~~~ 
+This is code
+~~~~~~~ </code>
+
+One of the really amazing features of this is that Markdown Extra gives you the ability to specify a class to apply to the code block, overwriting the defaults chosen by Markdown.
+
+So, assuming you have Prettify css and js in your assets folder, as well as the required script and css links in your template, you can do the following:
+
+- Edit your ./site/config/config.php and set <code>c::set('markdown.extra', true);</code>
+
+This will turn on Markdown Extra and allow you to use the fenced code blocks.
+
+In your content file, you will now do something like this:
+
+<code>~~~~~ {.prettyprint .linenums}
+&#35;/etc/aliases
+mailer-daemon: postmasterpostmaster: root
+nobody: roothostmaster: root
+usenet: root
+news: rootwebmaster: root
+www: root
+ftp: rootabuse: root
+noc: root
+security: rootclamav: root
+root: john_doe(@)example.com
+~~~~~</code>
+
+Assuming the template is parsing the content file through kirbytext or markdown, you should now have a prettified code block.

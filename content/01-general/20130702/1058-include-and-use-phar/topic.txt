@@ -1,0 +1,29 @@
+Title: include and use .phar
+----
+Date: 2013-07-02 10:58:03
+----
+Solved: 1
+----
+User: emilien_durand
+----
+Text: Hi everybody,
+
+i'm using Guzzle in my project (https://github.com/guzzle/guzzle),
+to make calls to an api, works perfect in localhost,
+but on my server, i got an error :
+
+my code, (in snippets/mailing-connect.php):
+
+include('guzzle.phar');
+use Guzzle&#92;Http&#92;Client;
+use Guzzle&#92;Http&#92;Exception&#92;BadResponse&#92;Exception;
+use Guzzle&#92;Common&#92;Event;
+
+the error :
+
+      Fatal error: Class 'GuzzleHttpClient' not found in home/www/aa26cff23d6b766543aecc7ad849406c/web/dev/site/snippets/mailing-connect.php on line 12
+
+kind of rooting problem i think,
+but i'm learning php with kirby, tried many solutions but can't make it work…
+Any idea?
+thanks very much

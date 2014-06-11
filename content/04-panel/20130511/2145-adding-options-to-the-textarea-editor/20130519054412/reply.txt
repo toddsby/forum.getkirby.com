@@ -1,0 +1,9 @@
+User: eytanbiala
+----
+Date: 2013-05-19 05:44:12
+----
+Text: Yep definitely, I'll post this in suggestions. 
+
+I started editing as well, I'm using the dialog that already exists for adding a link, it is pretty straightforward so far.
+
+Fortunately the buttons are only really for convenience for me for some custom tags, so I don't mind if an update breaks it.

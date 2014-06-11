@@ -1,0 +1,13 @@
+Title: Compass sass?
+----
+Date: 2013-01-03 22:37:49
+----
+Solved: 0
+----
+User: bradwrage
+----
+Text: Hello,
+I apologize for my confusion, but I want simply serve a static site with a few different pages.  I've created this site via html and scss files being preprocessed with codekit.  Can someone point me in the right direction?
+
+Much thanks,
+Brad

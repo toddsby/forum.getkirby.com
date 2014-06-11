@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-04-10 08:20:13
+----
+Text: No sure what you are asking here. Are you editing PHP files and they are not saving the changes? Perhaps rights?

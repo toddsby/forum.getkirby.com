@@ -1,0 +1,9 @@
+User: fussandfeathers
+----
+Date: 2012-06-06 10:55:51
+----
+Text: I am calling my personal Kirby site my "amoeba" because it is so easy to tinker with and evolve. I imagine that it would be even more powerful if I was a real programmer. I never felt this freedom or creative control with Wordpress.
+
+I am excited about the possibility of using Kirby Panel with clients (I haven't tested it but I like what I see). I find that after years of popular existence, the backend of Wordpress has become cluttered and somewhat overwhelming in the eyes of a technically challenged client. In Wordpress there's a certain amount of customization that I don't want the client to have access to, like the thousands of "widgets" that are available on Wordpress or even the amount of freeform styling allowed in the Wordpress WYSIWYG text editor. A client will oftentimes "get creative" and try to construct his/her own page inside the text editor, as they would in a Word document. You can imagine the results...
+
+From what I've seen, the Kirby Panel can be tailored in such a way that encourages clients to publish content that has structure and semantic meaning. I want my clients to focus on producing great content with little distractions. I am confident that Kirby is a step in this direction.

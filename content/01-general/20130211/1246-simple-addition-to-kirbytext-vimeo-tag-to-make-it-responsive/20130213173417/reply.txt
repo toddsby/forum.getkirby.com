@@ -1,0 +1,5 @@
+User: bytte
+----
+Date: 2013-02-13 17:34:17
+----
+Text: That's great. In that case my original problem is solved, though I'd still love to learn how to extend the Kirby Text file.

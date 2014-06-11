@@ -1,0 +1,27 @@
+Title: Detect if image has thumb, else create one
+----
+Date: 2013-02-18 04:27:18
+----
+Solved: 0
+----
+User: iainmcampbell
+----
+Text: I'm trying to set up an if…else which detects if an image has a thumb, and if not, it creates on using the Thumbs plugin.
+
+My code looks like this:
+
+    <?php $articles = $page->children()->visible()->flip()->paginate(20) ?>
+    <?php foreach($articles as $article): ?>
+    <?php if($article->images()->first()->thumb()) { // look for manually created thumb first ?>
+    <img src="<?= $article->images()->first()->thumb()->url() ?>"/>
+    <?php } else { // failing that generate one ?>
+    <?= thumb($article->images()->first(), array('width' => 420, 'height' => 236, 'crop' => true, 'quality' => 60)) ?>
+    <?php } ?>
+
+It doesn't work. If the image has a manually created thumbnail version, it displays it, but if not it just displays the full size image.
+
+I've got the Thumbs plugin working, and if I just ask it to always generate a thumbnail it works perfectly. So I think the problem is in detecting whether a manually created thumbnail exists:
+
+    <?php if($article->images()->first()->thumb()) { // look for manually created thumb first ?>
+
+I don't know if Kirby can do this, but I hope so.

@@ -1,0 +1,11 @@
+User: chrisgiggles1
+----
+Date: 2013-11-09 00:19:57
+----
+Text: After the first foreach-loop:
+
+`<?php foreach($p->siblings() AS $c): ?>
+        <li><a href="<?php echo $c->url(); ?>"><?php echo html($c->title()); ?></a></li>
+<?php endforeach; ?>`
+
+Maybe?

@@ -1,0 +1,5 @@
+User: zavadesign
+----
+Date: 2013-04-21 07:10:43
+----
+Text: Also not sure if it's related to any issue with the above and not seeing the buttons, but if I add a new field to a page .txt file, it's not showing up in the admin for that page.

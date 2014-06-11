@@ -1,0 +1,18 @@
+Title: Wishlist
+----
+Date: 2014-01-09 16:21:42
+----
+Solved: 0
+----
+User: ssigur
+----
+Text: Hi,
+
+I want to create a whishlist with Kirby.
+
+Any idea to do that or use a jQuery Plugin?
+Is it possible?
+
+thank you
+regard
+Stéphane

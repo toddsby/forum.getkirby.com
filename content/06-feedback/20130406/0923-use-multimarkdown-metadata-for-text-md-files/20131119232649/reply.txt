@@ -1,0 +1,13 @@
+User: timgauthier
+----
+Date: 2013-11-19 23:26:49
+----
+Text: I agree, however the ability to put separators can be useful for pasting chunks of code as a single "title". 
+
+EX:
+    `Text: <h1>A Silly use of H1</h1>`
+    `<hr>`
+    `<div class="special">`
+    `<p>Special use case to put a "module" into a page</p>`
+    `</div>`
+    `<hr>`

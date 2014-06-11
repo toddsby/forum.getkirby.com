@@ -1,0 +1,14 @@
+User: bytte
+----
+Date: 2013-02-08 13:44:01
+----
+Text: Thanks so much Bastian. I assume you would just use the Auth::firewall for protected pages and then use the above code for the lessons? Sounds great.
+
+However, I've run into a problem with the above. In my template it returns this warning twice:
+
+    Warning: trim() expects parameter 1 to be string, array given in /Users/me/Sites/myurl.com/kirby/parsers/yaml.php on line 7
+
+
+It's probably for the yaml() function? If I try to print_r($courses) or print_r($lessons) they're also empty:
+
+    Array()

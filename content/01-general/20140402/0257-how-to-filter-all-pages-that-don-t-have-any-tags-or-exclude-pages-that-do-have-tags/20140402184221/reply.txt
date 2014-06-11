@@ -1,0 +1,9 @@
+User: unexpectedsport
+----
+Date: 2014-04-02 18:42:21
+----
+Text: @russbaldwin Thanks for your reply! I'm not using the panel, but rather just trying to set something up that will work using the pages' text files.
+
+Rereading my question, I think I might have made it sound a little more complex than it is. Certain pages will have a field called "status:". On my home page, I want all the projects with "status: featured" to appear at the top of the page. I have managed to use filterBy('status', 'featured') to do this. 
+
+Now I just need to figure out how to do the "opposite"—filter all the projects that are not "status: featured" (or, ideally, all pages that don't have a "status: " field entered.

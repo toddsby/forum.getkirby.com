@@ -1,0 +1,37 @@
+Title: Include files by default
+----
+Date: 2013-12-13 22:34:13
+----
+Solved: 0
+----
+User: omgitsjkt
+----
+Text: I'd like to include a blank CSS file in each project folder that I create through the panel. So I could, for instance, style the colors on each page differently.
+
+I've fooled around with the panel's /lib/data.php and /lib/actions.php to try to get this to work, and I haven't been able to.
+
+
+      if(c::get('lang.support')) {
+      
+      foreach(c::get('lang.available') as $lang) {
+
+        $file  = $dir . '/' . $tpl . '.' . $lang . '.' . c::get('content.file.extension', 'txt');
+        $write = data::write($file, $data);
+        if(error($write)) return $write;
+      }    
+    
+    } else {
+
+      copy('/assets/styles/project.css',$dir . '/project.css');        
+
+      // write the default file
+      $file  = $dir . '/' . $tpl . '.' . c::get('content.file.extension', 'txt');
+      $write = data::write($file, $data);        
+    
+      if(error($write)) return $write;
+    
+    }    
+
+(lines 316 to 335 in data.php)
+
+any thoughts?

@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-02-22 11:25:06
+----
+Text: Don't think so. You can of course use Markdown/MultiMarkdown in Kirby even with PHP Markdown Extra's - several editors handle these.

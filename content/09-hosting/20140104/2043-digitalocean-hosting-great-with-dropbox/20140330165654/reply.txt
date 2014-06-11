@@ -1,0 +1,5 @@
+User: chanhdnguyen
+----
+Date: 2014-03-30 16:56:54
+----
+Text: So I signed up and loaded Kirby's original files, but I'm getting a 404 when I try to visit a page. Was there any other settings you changed before loading it to DigitalOcean?

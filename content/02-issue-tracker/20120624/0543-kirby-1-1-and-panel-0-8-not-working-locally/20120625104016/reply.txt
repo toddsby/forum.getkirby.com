@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-06-25 10:40:16
+----
+Text: The panel works with rewrite disabled for me here. Did you make sure to get the latest panel version and also the latest Kirby version?

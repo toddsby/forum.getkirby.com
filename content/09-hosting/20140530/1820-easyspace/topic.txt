@@ -1,0 +1,11 @@
+Title: Easyspace
+----
+Date: 2014-05-30 18:20:54
+----
+Solved: 0
+----
+User: iainfarrell
+----
+Text: Just purchased a basic hosting package from EasySpace and copied over Kirby to the server. I can see the front screen but no links work. PHP 5.4 is installed and their support guys aren't familiar with Kirby but think it should work. What am I not doing? :)
+
+You can see the issue at www.kojichu.com

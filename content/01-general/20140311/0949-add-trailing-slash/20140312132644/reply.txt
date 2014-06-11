@@ -1,0 +1,12 @@
+User: russbaldwin
+----
+Date: 2014-03-12 13:26:44
+----
+Text: I am no expert on Rewrite conditions, or indeed .htaccess,
+but it seems to me that putting this before your other re-write blocks (the normal Kirby ones) should work. Not really tested much and it might cause other problems and I'm not sure anything but directories should have a trailing slash?
+
+```Apache
+# Rewrite to add trailing slash to URL
+RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/)$
+RewriteRule ^(.*)$ http://%{HTTP_HOST}/$1/ [L,R=301]
+```

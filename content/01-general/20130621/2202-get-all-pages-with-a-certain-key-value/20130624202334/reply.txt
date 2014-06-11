@@ -1,0 +1,21 @@
+User: eytanbiala
+----
+Date: 2013-06-24 20:23:34
+----
+Text: Thanks for the input. I'm using a radio button for the field:
+
+  published:
+    label: Visibility
+    type: radio
+    default: published
+    options:
+      published: Published
+      draft: Draft
+
+@russbaldwin I am using the panel to edit content, I took a look at some files and they seem to be ok. I tried using your snippet with the actual names of my keys/vals, but it seems to come up empty when it should have at least a few results: 
+
+     $privatePage = $pages->visible()->filterBy('published', 'draft');
+
+And then var_dump($privatePage) gives this:
+
+     object(pages)#4646 (4) { ["index"]=> array(0) { } ["pagination"]=> NULL ["active"]=> bool(false) ["_"]=> array(0) { } }

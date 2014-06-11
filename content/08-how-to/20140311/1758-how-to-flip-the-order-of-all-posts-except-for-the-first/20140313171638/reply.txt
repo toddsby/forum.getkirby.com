@@ -1,0 +1,5 @@
+User: NeilsonCheng
+----
+Date: 2014-03-13 17:16:38
+----
+Text: Actually not too certain if a conditional would work better, I may be wrong, but I imagine the loop having to run a conditional for each item to be more intensive.

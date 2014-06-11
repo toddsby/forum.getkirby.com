@@ -1,0 +1,9 @@
+User: staroversky
+----
+Date: 2013-04-24 19:26:53
+----
+Text: Yes, I want them to be the same or have something similar. Please note that I am a complete noob in CSS coding. All I know is that in Wordpress I can have Categories or Tags displayed on the right side of the website. 
+
+In Kirby, I can use tags to achieve similar results but I have no idea how to make them as visual as they are on the Kirby website.
+
+Can you please show me what I need to do to make TagCloud visually appealing?

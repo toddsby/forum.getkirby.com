@@ -1,0 +1,15 @@
+Title: Embedding content from an RSS feed
+----
+Date: 2012-05-31 22:40:16
+----
+Solved: 0
+----
+User: inkxel
+----
+Text: I am looking for an easy way to embed content from an RSS feed into a page. To be more specific I am trying to add my instagram stream to my website. 
+
+I would think that the method used to build the blog http://getkirby.com/blog/how-to-build-a-blog would be a really nice way to achieve this and would enable you to do some nice dynamic things with the images and any copy. 
+
+This might be a complete bone head question with a simple answer or a more simple solution but I am just learning PHP. I know it can be done by embedding it as xml in an iframe but definitely don't like that approach. 
+
+Thanks all.

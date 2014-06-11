@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-08-02 09:41:50
+----
+Text: I will fix that asap. It's not a critical bug though. PHP 5.4 is just more restrictive than PHP 5.3 if you switch off strict error reporting in the meantime it should all be fine.

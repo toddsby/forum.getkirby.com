@@ -1,0 +1,5 @@
+User: digisocialnet
+----
+Date: 2014-05-09 03:39:01
+----
+Text: how do you set a time for the cache to expire for RSS feeds or other dynamic content in Kirby? make a cron job to delete the folder?

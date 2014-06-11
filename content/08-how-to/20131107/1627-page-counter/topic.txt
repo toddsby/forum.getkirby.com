@@ -1,0 +1,28 @@
+Title: Page counter?
+----
+Date: 2013-11-07 16:27:45
+----
+Solved: 0
+----
+User: carlosjroldanr
+----
+Text: Hello, I’m new in PHP and Kirby (great software!).
+I want to create a counter of pages style of “page (number) of (totalpages)”, I don't know if `$pages->pagination()` could be work, I’d tried and didn't work.
+
+This is my partial solution:
+
+`<?php`
+` $projs = $page->siblings()->visible();`
+` $i = $n = 0;`
+` foreach ($projs as $p) {`
+`  $i++;`
+`  if($p->isOpen()) {`
+`   $n = $i;`
+`   break;`
+`  }`
+` }`
+`?>`
+`<div class="counter">Project <?php echo $n . 'of' . $projs->count()?></div>`
+
+Is there a short code?
+Thanks.

@@ -1,0 +1,11 @@
+Title: Markdown Extra Issue
+----
+Date: 2013-04-07 11:27:40
+----
+Solved: 0
+----
+User: cedwardsmedia
+----
+Text: I'm assuming from the presence of markdown extra, that Kirby uses it. I have set the flag in kirby/defaults.php to true to enable markdown extra. However, the features of extra still aren't available.
+
+Are there more steps involved that I'm missing or is there possible a glitch somewhere?

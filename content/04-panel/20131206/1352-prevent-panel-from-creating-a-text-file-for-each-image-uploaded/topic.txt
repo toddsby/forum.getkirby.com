@@ -1,0 +1,11 @@
+Title: Prevent panel from creating a text file for each image uploaded
+----
+Date: 2013-12-06 13:52:50
+----
+Solved: 0
+----
+User: andatelier
+----
+Text: Hi!
+For each image file I upload on kirby panel, a text file is added to the project's folder on my computer. Is there any way to prevent this?
+Thanks

@@ -1,0 +1,7 @@
+User: Sulcalibur
+----
+Date: 2014-03-18 15:02:05
+----
+Text: Maybe it would work out easier to design and code up in HTML using my normal routine and then convert it over to work with Kirby.
+
+I'm curious to hear other peoples workflows also.

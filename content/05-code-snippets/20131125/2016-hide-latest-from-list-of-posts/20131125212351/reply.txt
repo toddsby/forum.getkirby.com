@@ -1,0 +1,18 @@
+User: fitzage
+----
+Date: 2013-11-25 21:23:51
+----
+Text: I would do something like this:
+
+```php
+    <?php {$articles = $pages->find('journal')
+            ->children()
+            ->visible()
+            ->without($lastarticle->uid())
+            ->sortBy($sort='date', $dir='asc')
+            ->flip()
+            ->paginate(5);
+        } ?>
+```
+
+That might work. I haven't actually tested it.

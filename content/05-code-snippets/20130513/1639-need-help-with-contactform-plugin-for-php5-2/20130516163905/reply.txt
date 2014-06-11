@@ -1,0 +1,7 @@
+User: jonabaptistella
+----
+Date: 2013-05-16 16:39:05
+----
+Text: @iamirm Will it not be better to just set PHP 5.3 inside php.ini file at your hosting company. Just an idea. :) Not all support this and it does not always work out.
+
+Good luck!

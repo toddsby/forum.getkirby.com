@@ -1,0 +1,11 @@
+User: tamaracks
+----
+Date: 2013-03-12 17:43:05
+----
+Text: Thanks, but that doesn't address my problem. I already have it set that way, and the formatted text shows up fine in the feed.
+
+The problem is that the images are not referenced in the text field of the article. I use the template to show any images found with the article. But that code isn't in the feed snippet/template/plugin.
+
+I think basically I need to edit the feed.php snippet to look for images and add them. I already tweaked it a little to address my link posts, which has a URL in a separate field in the Kirby post, it's just that messing with the feed snippet gets ugly fast, at least to me.
+
+I was confused by the `$item->{$descriptionField}` call in the feed snippet, but now I see that just allows the user to have some control over which article field it uses. I think to accomplish what I want, I need to abandon that reference and use some template specific snippets to insert the HTML I want in the CDATA section.

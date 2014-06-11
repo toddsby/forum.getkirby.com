@@ -1,0 +1,6 @@
+User: greenshines
+----
+Date: 2014-03-15 08:18:31
+----
+Text: Pico CMS, draftin plugin it's just what you are looking for http://pico.dev7studios.com/plugins.html (draftin)
+it's open source so may be someone of you guys can make some modifications and make it work for kirby.

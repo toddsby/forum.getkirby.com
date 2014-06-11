@@ -1,0 +1,9 @@
+User: RachelTai_
+----
+Date: 2013-07-18 15:05:17
+----
+Text: @russbaldwin Just a regular "page not found" error. I've tried reinstalling Kirby and the Panel but I'm still getting the same error.
+
+I renamed the subfolder where Kirby resides to `rfd` and changed this line in `config.php`: `c::set('subfolder', 'rfd');` (it was previously `false`), and `RewriteBase /rfd` in .htaccess. Still nothing!
+
+Edit: even installing locally without a subfolder doesn't work. Panel links still result in "page not found".

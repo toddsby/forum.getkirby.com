@@ -1,0 +1,89 @@
+User: DerZyklop
+----
+Date: 2013-10-29 16:14:09
+----
+Text: Thanks @ChrisjMartin87!
+
+I just cleared this example up a bit. Maybe this helps others. So the following code does just the same as Chris' does, but without the grid-classes and styles and stuff. I guess this is easier to read and understand:
+
+templates/contact.php
+
+```
+<?php
+   $form = new contactform(array(
+   'to'       => 'My Name <name@domain.tld>',
+   'from'     => 'My Website <name@domain.tld>',
+   'subject'  => 'New entry in contactform!',
+   'goto'     => $page->url() . '/status:sent'
+   ));
+?>
+
+<?php if(param('status') == 'sent'): ?>
+
+  <h2>Thanks! We will get in touch with you.</h2>
+
+<?php else: ?>
+
+  <form method="post" enctype="multipart/form-data">
+    <?php if($form->isError('send')): ?>
+      <h2>The email could not be sent. Please try again.</h2>
+    <?php elseif($form->isError()): ?>
+      <h2>Please fill in the form Correctly.</h2>
+    <?php endif ?>
+
+    <fieldset>
+      <h2>Your Details</h2>
+      <input type="text" placeholder="Your name" name="name" value="<?php echo $form->htmlValue('name') ?>" />
+      <input type="text" placeholder="Email address" name="email" value="<?php echo $form->htmlValue('email') ?>" />
+      <input type="text" placeholder="Telephone number" name="phone" value="<?php echo $form->htmlValue('phone') ?>" />
+    </fieldset>
+
+    <fieldset>
+      <h2>Type Of Project</h2>
+      <input id="one" type="radio" name="project" value="One">
+      <label for="one">One</label>
+      <input id="two" type="radio" name="project" value="Two">
+      <label for="two">Two</label>
+      <input id="three" type="radio" name="project" value="Three" checked>
+      <label for="three">Three</label>
+    </fieldset>
+
+    <fieldset>
+      <h2>Brief Description</h2>
+      <textarea class="textarea-form" name="description" placeholder="Let us know what your wanting?"><?php echo $form->htmlValue('description') ?></textarea>
+    </fieldset>
+
+    <h2>Finished?</h2>
+    <input class="grid one-button button" type="submit" name="submit" value="Send This!" />
+  </form>
+
+<?php endif ?>
+```
+
+Line 12-14 in plugins/contactform/contactform.php
+
+```
+<?php
+// set required and wanted fields
+$this->defaults('required', array('name', 'email', 'project', 'description'));
+$this->defaults('keep',     array('name', 'email', 'phone', 'project', 'description'));
+?>
+```
+
+snippets/contactform.mail.php
+
+```
+Hey,
+
+your contact form has been submitted
+
+Name: {name}
+---------
+Email: {email}
+---------
+Phone: {phone}
+---------
+Project: {project}
+---------
+Description: {description}
+```

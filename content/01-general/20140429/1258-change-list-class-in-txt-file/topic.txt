@@ -1,0 +1,18 @@
+Title: Change list class in txt file
+----
+Date: 2014-04-29 12:58:08
+----
+Solved: 0
+----
+User: patzuda
+----
+Text: Is there a possibility to change the class of a list tag in the txt file with help of square brackets or something like that?
+
+e.g. in the txt-file: 
+Why do you use kirby cms?
+0. [class=standard]
+1. first answer
+2. second answer
+3. etc.
+
+Thanks MP

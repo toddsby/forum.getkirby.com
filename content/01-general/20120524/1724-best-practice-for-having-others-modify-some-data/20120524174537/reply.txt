@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-05-24 17:45:37
+----
+Text: Ah, then I misunderstood you. If Git is getting to complicated the droplet idea is probably best or an ftp account, which is setup so it can only access the articles folder. You could work with a script, which checks for changes in that folder and then pushes updates to the production server. So many options :) I hope you find the right one for you and your team.

@@ -1,0 +1,11 @@
+Title: vcard (.vcf) can't be uploaded
+----
+Date: 2013-04-27 07:03:21
+----
+Solved: 0
+----
+User: _jhart
+----
+Text: i added 'text/x-vcard' to the panel config but it still doesn't allow me to upload vcard files. it results in this error: "The file type is not allowed: text/directory"
+
+any ideas? thanks!

@@ -1,0 +1,5 @@
+User: peterpham_
+----
+Date: 2014-06-02 02:28:48
+----
+Text: I solved it by wrapping the a tag in with an if($->hasImages()) statement

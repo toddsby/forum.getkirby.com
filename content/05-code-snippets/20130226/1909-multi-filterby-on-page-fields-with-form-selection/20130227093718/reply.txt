@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-02-27 09:37:18
+----
+Text: Now a [GitHub gist -- kirbycms-multifilterby.php](https://gist.github.com/shoesforindustry/5046322#file-kirbycms-multifilterby-php).
+
+I'll update that in future and not the code here ;-)

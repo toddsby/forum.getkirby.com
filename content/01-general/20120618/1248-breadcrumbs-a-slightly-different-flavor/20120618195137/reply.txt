@@ -1,0 +1,5 @@
+User: DanielGenser
+----
+Date: 2012-06-18 19:51:37
+----
+Text: Thanks Bastian, I'm still getting used to Markdown. Good to know! Another small suggestion for the forum would be to add search. In fact, search across the Forum/Blog/Answers/Tutorials would be great, since you have so much great content on how to do things with Kirby spread out across those areas.

@@ -1,0 +1,20 @@
+User: russbaldwin
+----
+Date: 2013-02-22 11:12:20
+----
+Text: I cannot quite see what you want here? If you want two galleries then two folders would be good?
+```html
+Photography
+        photography.txt
+    01-project-a
+        img1.jpg
+        img2.jpg
+        gallery.txt
+    02-project-b
+        img1.jpg
+        img2.jpg
+        gallery.txt
+```
+You can use the same code for both? 'photography.txt' and 'photography.php' for gallery index and then gallery.txt/gallery.php for gallery display?
+
+Sorry if this is not what you want?

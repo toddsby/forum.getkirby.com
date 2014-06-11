@@ -1,0 +1,14 @@
+Title: Individual Multi-FilterBy on Page Fields with Form Selection
+----
+Date: 2013-02-28 18:01:11
+----
+Solved: 0
+----
+User: russbaldwin
+----
+Text: Very much like [Multi-FilterBy on Page Fields with Form Selection](http://getkirby.com/forum/code-snippets/topic:460), the key difference being that in this version the filters act individually rather than together, so you can select none, one, two, or three filters in the example
+
+I put it up on [Gist -- kirbycms-individualmultifilterby.php](https://gist.github.com/shoesforindustry/5058198#file-kirbycms-individualmultifilterby-php)
+
+Enjoy... 
+"no more a-filtering will I go..."

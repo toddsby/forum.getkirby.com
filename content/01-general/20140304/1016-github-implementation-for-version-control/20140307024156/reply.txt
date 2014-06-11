@@ -1,0 +1,9 @@
+User: LabofOz
+----
+Date: 2014-03-07 02:41:56
+----
+Text: I actually _just_ set up my site through [PagodaBox](https://pagodabox.com/). They have free hosting, and since you have the domain already, you can easily get it pointed (again free). Maybe give it a shot and if you need more juice look into the pricing. I have another kirby site I was messing around with on [Heroku](http://stemlets.heroku.com/), but I felt that was definitely much more complicated.
+
+It basically let's you push your local repo onto your "box", which is essentially a repo, exactly like GitHub. In fact, if your git client supports it, you can actually set two remotes for your project - 1 that points to GitHub and 1 that points to PagodaBox - and you can push to them separately (for example, always pushing to GitHub, but only pushing to Pagoda when you want to make something live).
+
+I was able to launch my site in about 2 hours because I got stuck trying to figure out how to enable mbcrypt, which is just a setting I couldn't figure out. I also don't really _know_ how to use git, but I can imagine being able to setup a site in 10 min if you did.

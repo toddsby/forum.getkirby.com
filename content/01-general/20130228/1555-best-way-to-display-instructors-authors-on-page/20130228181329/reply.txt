@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-02-28 18:13:29
+----
+Text: Nice mockup! I think ['How to build a “one-pager” with Kirby'](http://getkirby.com/blog/one-pager) would be a good starting point? Also maybe the stuff on the [Smashing Conference](http://getkirby.com/blog/smashingconf)?

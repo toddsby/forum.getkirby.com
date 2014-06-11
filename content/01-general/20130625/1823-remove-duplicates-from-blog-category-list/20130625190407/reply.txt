@@ -1,0 +1,9 @@
+User: huhcorp
+----
+Date: 2013-06-25 19:04:07
+----
+Text: Thanks @fitzage
+
+I've seen that plug-in. That works perfectly for me, if I go change all the instances of "categories" in my content txt files to "tags." But I don't want to blur the line of what Categories and Tags are, in my blog articles.
+
+Could I just duplicate the tagcloud plugin, rename it to "catcloud," and replace all instances of "tag" to "category"? Sorry, I'm a PHP noob, but would that work? Is that what you did, since you mention that you're using both categories & tags?

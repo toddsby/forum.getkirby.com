@@ -1,0 +1,13 @@
+User: PaulVintin
+----
+Date: 2014-02-14 20:21:48
+----
+Text: Getting there...so I include this – 'sitename'/kirby/lib/kirby.php – in my separate php file and obviously the classes then work. I use the database classes to do stuff with my database. Job done. 
+
+But then I'm including a big file full of classes (do I really want to strip out just the classes I want in my form handler?) and have to connect to the database, which is already connected on the rest of the website because of the settings I put in the config file. Seems like I may as well just use normal MySQL code in this page? 
+
+The separate php (form handling) file is in root/assets. Would it have access to the toolkit classes if it was somewhere else? I have tried moving it but I get a 301 redirect error.
+
+As you can tell I'm operating beyond the limits of my knowledge. Any pointers appreciated. Thanks
+
+(In summary: I'd like to use the database toolkit in my form handling file. Is it possible without having to specifically include it?)

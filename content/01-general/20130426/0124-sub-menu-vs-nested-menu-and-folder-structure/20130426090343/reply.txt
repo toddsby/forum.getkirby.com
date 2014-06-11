@@ -1,0 +1,5 @@
+User: structor
+----
+Date: 2013-04-26 09:03:43
+----
+Text: you should use in your template only the snippets you need. So if you don't need the submenu snippet, just delete that line from your template.

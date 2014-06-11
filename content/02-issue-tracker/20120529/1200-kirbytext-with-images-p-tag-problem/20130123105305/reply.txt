@@ -1,0 +1,50 @@
+User: bastianallgeier
+----
+Date: 2013-01-23 10:53:05
+----
+Text: @ndrsn Kirbytext is behaving correctly for me in the latest version: 
+
+### Inline image
+
+```
+Text text text ( image: image.jpg) Text text text
+```
+
+Result: 
+
+```
+<p>Text text text <img src="image.jpg" />Text text text</p>
+```
+
+### Simple line breaks
+
+```
+Text text text 
+( image: image.jpg) 
+Text text text
+```
+Result: 
+
+```
+<p>Text text text<br /><img src="image.jpg" /><br />Text text text</p>
+```
+
+### New paragraph
+
+```
+Text text text 
+
+( image: image.jpg) 
+
+Text text text
+```
+
+Result: 
+
+```
+<p>Text text text</p>
+<p><img src="image.jpg" /></p>
+<p>Text text text</p>
+```
+
+P.S. please ignore the spaces after each opening bracket. I had to add that, otherwise Kirbytext will render the image tag instead :)

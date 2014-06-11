@@ -1,0 +1,23 @@
+Title: Feedback wanted - comments plugin for Kirby
+----
+Date: 2013-02-20 03:51:52
+----
+Solved: 0
+----
+User: vladstudio
+----
+Text: Hello,
+
+I have been working on internal "Comments" plugin for Kirby, and I'd appreciate any feedback from Kirby community. Get the files and read "readme" here:
+<https://github.com/vladstudio/vladstudio-kirby-comments>
+
+Some things I am interested in:
+
+* do you actually need comments on **your** Kirby site?
+* was the plugin easy to understand and install?
+* what is the most important feature that I missed?
+* what (if anything) would prevent you from using it in production?
+
+(Note - it's beta yet, no guarantees!)
+
+Thanks!

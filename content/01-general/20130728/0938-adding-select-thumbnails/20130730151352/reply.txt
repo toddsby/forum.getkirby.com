@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-07-30 15:13:52
+----
+Text: Instead of just picking the first, 
+`<?php $image = $pick->images()->first()?>`
+Loop through the 'images()' array with a filter?

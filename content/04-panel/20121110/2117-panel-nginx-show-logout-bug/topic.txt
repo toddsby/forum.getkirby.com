@@ -1,0 +1,41 @@
+Title: Panel nginx show:logout Bug
+----
+Date: 2012-11-10 21:17:07
+----
+Solved: 0
+----
+User: niklaspostulart
+----
+Text: I uploaded kirby and the kirby panel to my nginx Test-Server, everything is working fine, but there is one Bug I found.
+
+If you click the logout-button and the show:logout action is called I get a file named show-logout as a download and the session will not close.
+
+My main rewrite is
+
+    location /content {
+        rewrite ^/content/(.*).(txt|md|mdown)$ /error redirect;
+    }
+
+    location /site {
+        rewrite ^/site/(.*) /error redirect;
+    }
+
+    location /kirby {
+        rewrite ^/kirby/(.*) /error redirect;
+    }
+
+    location /panel {
+        if (!-e $request_filename) {
+            rewrite ^/panel/(.*)$ /panel/index.php last;
+            break;
+        }
+    }
+
+    location / {
+        if (!-e $request_filename) {
+            rewrite ^/(.*)$ /index.php last;
+            break;
+        }
+    }
+
+Does anyone experienced the same problem by using the Kirby Panel with nginx?

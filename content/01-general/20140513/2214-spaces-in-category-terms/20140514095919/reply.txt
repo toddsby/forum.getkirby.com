@@ -1,0 +1,10 @@
+User: Anthony__Noel
+----
+Date: 2014-05-14 09:59:19
+----
+Text: Good to know, thanks.
+
+I need further help then! Where does one need to encode the urls? Does that happen in a template/snippet? Is it a function of PHP? 
+
+Thanks again,
+Anthony

@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2014-03-07 03:37:00
+----
+Text: Yes. Create separate text fields for all the content blocks on the page. Bob's your uncle.

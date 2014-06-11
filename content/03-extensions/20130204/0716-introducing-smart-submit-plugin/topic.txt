@@ -1,0 +1,25 @@
+Title: Introducing Smart Submit plugin
+----
+Date: 2013-02-04 07:16:39
+----
+Solved: 0
+----
+User: vladstudio
+----
+Text: For my own needs, I created a Smart Submit plugin for Kirby - it allows you to handle form submissions, without reloading the page. Honeypot spam protection is included.
+
+To read how it works and download, please see this Github repo:
+
+<https://github.com/vladstudio/vladstudio-kirby-smart-submit>
+
+I use similar approach at my website here: 
+<http://www.vladstudio.com>
+
+You can see what I mean here:
+<http://www.vladstudio.com/contact/>
+(try submitting empty form, or you can actually send me a message :-)
+This is not actual demo of Kirby plugin - the actual example is included in repo.
+
+As any fellow developer, I'll be happy if you find this plugin useful or have a comment to share.
+
+Thanks!

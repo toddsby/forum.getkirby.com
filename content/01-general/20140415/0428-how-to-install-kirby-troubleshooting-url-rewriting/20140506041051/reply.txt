@@ -1,0 +1,19 @@
+User: stevensondarren
+----
+Date: 2014-05-06 04:10:51
+----
+Text: I had the identical problem at initial set up. None of the 3 default linked pages on default homepage worked.
+
+To fix this, I added this text below to my .htaccess file, which I copied from the top answer on this (link: http://stackoverflow.com/questions/869092/how-to-enable-mod-rewrite-for-apache-2-2 popup: yes text:Stack Overflow post). Prior to adding this, my .htaccess file was a completely blank/empty file. 
+
+``<IfModule mod_rewrite.c>``
+``    RewriteEngine On``
+``   RewriteBase /``
+``   RewriteCond %{REQUEST_FILENAME} !-f``
+``    RewriteCond %{REQUEST_FILENAME} !-d``
+``    RewriteRule . /index.php [L]``
+``</IfModule>``
+
+After adding this text to the .htaccess file, all the links worked from the default homepage on my Kirby test install, and subsequent pages created / links work now as well.
+
+If above modification of .htaccess file is not recommended for Kirby install (where Kirby is running entire site, not just in a subfolder), maybe someone on this forum here can alert this. I'd rather not spread mis-information!

@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2012-10-04 17:29:17
+----
+Text: Had to make it a gist to keep it from getting converted. Not sure how to display it otherwise. Anyway, if you use the filename as it exists in your content folder, that should work. Same thing with images only you'd use image instead of file.

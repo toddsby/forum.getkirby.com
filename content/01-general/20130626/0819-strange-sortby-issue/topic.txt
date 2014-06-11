@@ -1,0 +1,32 @@
+Title: Strange sortBy Issue
+----
+Date: 2013-06-26 08:19:02
+----
+Solved: 1
+----
+User: psztrnk
+----
+Text: Hi,
+
+I've came across a strange ordering issue on my blog and I thought someone might help me out.
+
+There are four posts on my site (01-04, where 01 is the oldest one and 04 is the newest). On my homepage I display the latest post with the code
+
+    $articles = $page->children()->visible()->flip()->paginate(1)
+
+That works just fine, displaying the latest article.
+
+However, when I try to create an archive page (displaying all the articles) there's an ordering issue. Instead of displaying posts in the order of 04-03- 02-01, what I got is 03-02-01-04.
+
+The code I use is
+
+    $blog = $pages->find('blog')->children()->visible()->sortBy($sort='date', $dir='asc')->flip()->paginate(3)
+
+If I switch to "asc" ordering, the issue still remains and the order will be 04-01-02-03. Always the latest article is the problem. 
+
+All dates are set to "dd/mm/yyyy" in the blogarticle.txt, so different formats cannot be the problem.
+
+Any ideas? Am I missing something?
+
+Thanks,
+Adam

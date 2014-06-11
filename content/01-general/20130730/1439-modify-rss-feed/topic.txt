@@ -1,0 +1,33 @@
+Title: Modify RSS-Feed?
+----
+Date: 2013-07-30 14:39:52
+----
+Solved: 1
+----
+User: swissendo
+----
+Text: Hi! I've created several different article blueprints for Kirby, yet because of their special layouts, the posts look quite broken in the RSS-Feed. For example, when using a Quote-Post like this:
+
+	<article class="quote">
+  		<div class="postcard">
+		    <h1><a href="<?php echo ($article->link()) ?>"><?php echo ($article->title()) ?></a></h1>
+		    <p class="source"><a href="http://<?php echo ($article->source()) ?>"><?php echo ($article->source()) ?></a></p>
+		    <div class="quotes">
+				<a href="<?php echo ($article->link()) ?>"><blockquote><p><?php echo ($article->quote()) ?></p></blockquote></a>
+		    </div>
+		    <?php echo kirbytext($article->text()) ?>
+		
+		    <div class="postend">
+		        <span class="endleft">
+		            <span class="date"><i class="icon-calendar icon-large"></i><a href="<?php echo $article->url() ?>"><?php echo $article->date('d.m.Y') ?></a></span>
+		            <?php if($article->comments() == 'on'): ?><span class="comments"><i class="icon-comment icon-large"></i><a href="<?php echo $article->url() ?>#disqus_thread"></a></span><?php else: ?><?php endif ?>
+		        </span>
+
+		        <span class="endright">
+		            <a href="<?php echo url() ?>blog/category:<?php echo $article->category(); ?>"><span class="category"><?php echo $article->category() ?></span></a>
+		        </span>
+		    </div>
+	    </div>
+	</article> 
+
+Only the kirbytext shows up in the feed and the whole blockquote is missing. Same problem for thumbnails of images or links. Is there any way I can modify the feed to include these elements? If so, how would I do that? Thanks in advance for any answers!

@@ -1,0 +1,23 @@
+User: plfstr
+----
+Date: 2014-04-08 17:26:06
+----
+Text: @zavadesign, @SqueezeOJ and anyone else who comes across this same issue.
+
+You might have found 'contactform' in kirbycms-extensions under snippets OR plugins. **ITS BOTH**, it's a snippet and a plugin.
+
+In the kirbycms-extensions download under /plugins, you need the folder called 'contactform'. 
+
+That plugins/contactform folder goes into your site/plugins.
+
+INSIDE of that 'contactform' folder, there is a folder called 'snippets'. [site/plugins/contactform/snippets]
+
+Inside of 'snippets' folder are the files, 'contactform.php' and 'contactform.mail.php'. 
+_[these same files can also be found in the snippets folder in the kirbycms-extensions download]_
+
+Move those two files and add them directly into your own Kirby site/snippets folder.
+ 
+Than you proceed as the readme instructions and change your mail values and embed the form within your page using &lt;?php snippet('contactform') ?>
+
+Hope that helps
+Paul

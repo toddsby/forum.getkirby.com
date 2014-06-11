@@ -1,0 +1,207 @@
+Title: PayPal eCommerce store
+----
+Date: 2013-04-02 13:04:58
+----
+Solved: 0
+----
+User: joshje
+----
+Text: When creating the new site for [kylebean.co.uk](http://kylebean.co.uk) I needed to create an online shop using Kirby.
+
+# Explanation
+This cart system builds a form for PayPal to receive and take payment. It uses `PHP sessions` to store products in an array called 'cart'. Each item in the array takes the UID for the product as it's key, and quantity as it's value.
+
+# Plugin cart.php
+My solution was to create a plugin called _cart_:
+
+	<?php
+	function get_cart() {
+	    s::start();
+	    $cart = s::get('cart', array());
+	    return $cart;
+	}
+	
+	function cart_logic($cart) {
+	
+	    if (isset($_REQUEST['action'])) {
+	      $action = $_REQUEST['action'];
+	      $id = $_REQUEST['id'];
+	      switch ($action) {
+	          case 'add':
+	              if (isset($cart[$id])) {
+	                  $cart[$id]++;
+	              } else {
+	                  $cart[$id] = 1;
+	              }
+	              break;
+	          case 'update':
+	              if (isset($_REQUEST['quantity'])) {
+	                  $quantity = intval($_REQUEST['quantity']);
+	                  if ($quantity < 1) {
+	                      unset($cart[$id]);
+	                  } else {
+	                      $cart[$id] = $quantity;                
+	                  }
+	              }
+	              break;
+	          case 'delete':
+	              if (isset($cart[$id])) {
+	                  unset($cart[$id]);
+	              }
+	              break;
+	      }
+	      s::set('cart', $cart);
+	    }
+	    
+	    if (count($cart) == 0) {
+	    	go(url('shop'));        
+	    }
+	    
+	    return $cart;
+	}
+	
+	function cart_count($cart) {
+	    $count = 0;
+	    foreach ($cart as $id => $quantity) {
+	        $count += $quantity;
+	    }
+	    return $count;
+	}
+	
+	function cart_postage($total) {
+	    $postage;
+	    switch ($total) {
+	        case ($total < 10):
+	            $postage = 2.5;
+	            break;
+	        case ($total < 30):
+	            $postage = 3.5;
+	            break;
+	        case ($total < 75):
+	            $postage = 5.5;
+	            break;
+	        case ($total < 150):
+	            $postage = 8;
+	            break;
+	        default:
+	            $postage = 10;
+	    }
+	    return $postage;
+	}
+
+You should update the `cart_postage` function to reflect your own shipping rates.
+
+# Content
+The plugin expects the following structure in content:
+
+* shop/shop.txt
+* shop/cart/cart.txt
+* shop/complete/complete.txt
+* shop/XX-product/product.txt
+
+
+Within `shop/cart/cart.txt`, you should write the email used on PayPal to receive payments:
+
+	Email: email@address.com
+	----
+
+# shop.php template
+The shop template will list all products and allow people to add them to the cart.
+
+	<?php $cart = get_cart(); ?>
+    <?php $count = cart_count($cart); ?>
+    
+   	<!-- header here -->
+   	
+    <?php if ($count > 0): ?>
+        <p>You have <strong><?php echo $count ?> item<?php if ($count > 1) echo 's' ?></strong> in your cart.</p>
+        <p><a href="<?php echo url('shop/cart') ?>">View your Cart and Pay</a></p>
+    <?php endif ?>
+    
+    <?php $products = $page->children()->visible() ?>
+    
+    <?php foreach($products as $product): ?>
+        <article>
+            <h2><?php echo kirbytext($product->title(), false) ?></h2>
+            <?php echo kirbytext($product->text()) ?>
+            <form method="post" action="<?php echo url('shop/cart') ?>">
+                <input type="hidden" name="action" value="add">
+                <input type="hidden" name="id" value="<?php echo $product->uid() ?>">
+                <p>£<?php echo $product->price() ?> <button type="submit">Add to Cart</button></p>
+            </form>
+        </article>
+        
+    <?php endforeach ?>
+    
+    <?php if ($count > 0): ?>
+        <p class="align-right"><a class="button" href="<?php echo url('shop/cart') ?>" data-icon-after=" &rarr;">View your Cart and Pay</a></p>
+    <?php endif ?>
+    
+   	<!-- footer here -->
+ 
+# cart.php template
+The cart template is used to show products in the cart, as well as to make changes to them.
+
+	<?php $cart = cart_logic(get_cart()) ?>
+	<?php $products = $page->siblings()->visible() ?>
+	
+   	<!-- header here -->
+	        
+	<form method="post" action="https://www.paypal.com/cgi-bin/webscr">
+		<input type="hidden" name="cmd" value="_cart">
+		<input type="hidden" name="upload" value="1">
+		<input type="hidden" name="business" value="<?php echo $page->email() ?>">
+	    <input type="hidden" name="currency_code" value="GBP">
+	    
+	    <table>
+	        <thead>
+	            <tr>
+	            	<th>Product</th>
+	            	<th>Quantity</th>
+	            	<th>Price</th>
+	            </tr>
+	        </thead>
+	        <tbody>
+	    <?php $i=0; $count = 0; $total = 0; ?>
+	    <?php foreach ($cart as $id => $quantity): ?>
+	        <?php if ($product = $products->findByUID($id)): ?>
+	            <?php $product = $product->first() ?>
+	            <?php $i++; ?>
+	            <?php $count += $quantity ?>
+	            <tr>
+	                <th>
+	                    <input type="hidden" name="item_name_<?php echo $i ?>" value="<?php echo $product->title() ?>" />
+	                    <input type="hidden" name="amount_<?php echo $i ?>" value="<?php echo $product->price() ?>" />
+	                    <?php echo kirbytext($product->title(), false) ?>
+	                </th>
+	                <td><input data-id="<?php echo $product->uid() ?>" data-quantity="<?php echo $quantity ?>" pattern="[0-9]*"  class="quantity" type="number" name="quantity_<?php echo $i ?>" min="1" value="<?php echo $quantity ?>"> <a href="<?php echo url('shop/cart') ?>?action=delete&amp;id=<?php echo $product->uid() ?>">Remove</a></td>
+	                <?php $prodtotal = floatval($product->price()->value)*$quantity ?>
+	                <td>£<?php printf('%0.2f', $prodtotal) ?></td>
+	            </tr>
+	            <?php $total += $prodtotal ?>
+	        <?php endif; ?>
+	    <?php endforeach; ?>
+	        </tbody>
+	        <tfoot>
+	            <tr>
+	                <td colspan="2">Subtotal</td>
+	                <td>£<?php printf('%0.2f', $total) ?></td>
+	            </tr>
+	            <tr>
+	                <?php $postage = cart_postage($total) ?>
+	                <td colspan="2" class="align-right">Postage</td>
+	                <td>£<?php printf('%0.2f', $postage) ?></td>
+	            </tr>
+	            <tr>
+	                <th colspan="2" class="align-right">Total</th>
+	                <th>£<?php printf('%0.2f', $total+$postage) ?></th>
+	            </tr>
+	        </tfoot>
+	    </table>
+	    <p><button type="submit">Pay with PayPal</button></p>
+	    <p>or <a href="<?php echo url('shop') ?>">continue shopping</a></p>
+	</form>
+	    
+   	<!-- footer here -->
+   	
+You can see this in action at [kylebean.co.uk/shop](http://kylebean.co.uk/shop).

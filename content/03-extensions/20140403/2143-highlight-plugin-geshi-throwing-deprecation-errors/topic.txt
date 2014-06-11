@@ -1,0 +1,15 @@
+Title: Highlight plugin (geshi) throwing deprecation errors
+----
+Date: 2014-04-03 21:43:03
+----
+Solved: 0
+----
+User: tcervo
+----
+Text: On pages that have code snippets, the entire top of the page (usually about 20-30 lines or more) are the same error displayed over and over:
+
+```
+Deprecated: preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /var/httpd/techdocs.viedu.org/htdocs/site/plugins/highlight/highlight/geshi.php on line 2149
+```
+
+I should point out I'm using the Knowledge-Base theme.

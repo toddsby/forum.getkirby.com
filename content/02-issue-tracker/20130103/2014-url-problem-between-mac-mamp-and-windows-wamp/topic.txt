@@ -1,0 +1,31 @@
+Title: Url problem between mac (mamp) and windows (wamp)
+----
+Date: 2013-01-03 20:14:57
+----
+Solved: 0
+----
+User: me_arno
+----
+Text: I've set up a Kirby dev site at work on mamp and everything works just fine.
+
+When I do the same or copy the site to my home wamp I encounter the following:
+
+Previous / Next links on mac:
+http://localhost/blog/page:2 (see :)
+
+Previous / Next links on win turn into:
+http://localhost/blogo/page;2 (see ; )
+
+Both work.
+
+For the tag cloud on mac:
+http://localhost/blog/blog/tag:php
+
+On win:
+http://localhost/blog/blog/tag:php
+
+The tag links on win don't work but they do when I manually change : to ;
+
+I'm lost about how and why, any of you guys or girls got an idea?
+
+Thanks and Happy New Year all and especially Bastian with the new born.

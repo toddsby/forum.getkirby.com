@@ -1,0 +1,14 @@
+User: lowel
+----
+Date: 2012-11-28 16:00:54
+----
+Text: ...But this works:
+
+    <?php if($page->hasImages()): ?>
+    <?php $background = $page->images()->filterBy('title', '*=', 'bg'); ?>
+    <img alt="" src="<?php echo $background->first()->url(); ?>" id="full-bg" />
+    <?php else: ?>
+    <img alt="" src="../img/default-bg.jpg" id="full-bg" />
+    <?php endif ?>
+
+@Matthew, thanks again for your help. That's perfect :)

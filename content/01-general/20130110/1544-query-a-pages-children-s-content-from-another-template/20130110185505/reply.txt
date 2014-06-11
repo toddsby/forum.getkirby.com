@@ -1,0 +1,14 @@
+User: fitzage
+----
+Date: 2013-01-10 18:55:05
+----
+Text: You may need a better find command. This is what I'm doing to pull items from /articles into my homepage:
+
+    <?php $articles = $pages->find('articles'); ?>
+    <?php foreach($articles->children()->visible() as $article): ?>
+
+etc, etc
+
+Maybe you left off $pages-> before find?
+
+Also if your "work" folder is more than one level deep, you need to include the full path.

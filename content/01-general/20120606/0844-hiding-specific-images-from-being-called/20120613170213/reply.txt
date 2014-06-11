@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-06-13 17:02:13
+----
+Text: @clayharris unfortunately not yet. I thought about adding the option to use regular expressions for not or filterBy methods, but it's not there yet.

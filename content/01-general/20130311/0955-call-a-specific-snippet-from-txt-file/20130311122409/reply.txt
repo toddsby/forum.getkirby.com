@@ -1,0 +1,14 @@
+User: structor
+----
+Date: 2013-03-11 12:24:09
+----
+Text: Thanks for for the interest!
+
+@russ
+Yes the template.php and the content.txt have the same name (press.php and press.txt), and the snippets are stored in the snippets folder.
+
+@plartz
+
+    snippet($page->sidepanel())
+
+This does not work either.

@@ -1,0 +1,50 @@
+Title: Main menu parent page addition
+----
+Date: 2013-11-09 00:15:23
+----
+Solved: 0
+----
+User: lare2
+----
+Text: I have the following code
+
+    <?php foreach($pages->visible() AS $p): ?>
+
+    <?php if ($p->hasChildren() && $p->template() != 'blog'){ ?>
+
+    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo     html($p->title()); ?> <b class="caret"></b></a>
+	    <ul class="dropdown-menu">
+	    <?php foreach($p->children() AS $c): ?>
+		    <li><a href="<?php echo $c->url(); ?>"><?php echo html($c->title()); ?></a></li>
+	    <?php endforeach; ?>
+	    </ul>
+    </li>
+
+    <?php } else{ ?>
+    <li><a href="<?php echo $p->url() ?>"><?php echo html($p->title()); ?></a></li>
+    <?php } ?>
+    <?php endforeach; ?>
+
+
+ to gereate a main menu for a site with a content 
+structure as follows.
+
+
+    \content
+    --- 01-about-us\
+        |about-us.txt
+    --- 02-events\
+        |--- 01-event-one\
+        |    |---event.txt
+        |--- 02-event-two\
+        |    |---event-txt
+        |events-index.txt
+
+
+The code produces a menu like the following picture
+
+
+![Screenshot](http://i.imgur.com/7b2RmpF.png)
+
+
+How can I make the menu to show also the "events-index.txt" in there.

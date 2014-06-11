@@ -1,0 +1,7 @@
+User: staroversky
+----
+Date: 2013-04-24 21:46:54
+----
+Text: I am sorry for asking such basic questions but where specifically do I *add a class of tagcloud to the ul element?*
+
+ul elements are in style.css or the default template?

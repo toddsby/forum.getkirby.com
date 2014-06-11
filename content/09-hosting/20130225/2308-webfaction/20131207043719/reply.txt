@@ -1,0 +1,5 @@
+User: KevinRothermel
+----
+Date: 2013-12-07 04:37:19
+----
+Text: It worked once, but after the first time the symlinked folders show up empty. Double clicking in Transmit gives a file not found error. So close, but so far.

@@ -1,0 +1,7 @@
+User: aqeelfikree
+----
+Date: 2013-07-13 19:11:28
+----
+Text: I got a file from one of the themes and plugged it in, it's working. So I'll be comparing the code with mine and see where I slipped.
+
+I figure this might help others.

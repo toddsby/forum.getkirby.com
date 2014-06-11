@@ -1,0 +1,13 @@
+User: AaronWolber
+----
+Date: 2013-10-18 13:05:20
+----
+Text: Hi,
+
+thanks for your replies. I saw the princip in a wordpress theme (http://demo.udthemes.com/cartel/wordpress/) where you can generate grids with shortcodes and thought it is very nice and fast to use. On the other hand you're right about the division of content and layout.
+
+_@texnixe_ Your first suggestion is to use several content files for every new column system. I would prefer to have one content file for each site like your second suggestion. You wrote _"[...] or use several variables in the content files"_. I don't really know how to handle this. Is it possible that you could make a short example for me? That would be great!
+
+Thanks again,
+
+Aaron

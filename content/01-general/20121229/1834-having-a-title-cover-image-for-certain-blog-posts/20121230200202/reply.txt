@@ -1,0 +1,5 @@
+User: jonathanbelton
+----
+Date: 2012-12-30 20:02:02
+----
+Text: Yep panel's working great and content text updates as it should. Not quite following, my code for home.php is http://pastebin.com/LsCTe0DK does it look correct? If it's working for you I'm probably doing something stupid!

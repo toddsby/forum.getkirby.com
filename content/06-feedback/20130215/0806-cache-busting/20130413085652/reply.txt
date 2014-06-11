@@ -1,0 +1,11 @@
+User: vis7mac
+----
+Date: 2013-04-13 08:56:52
+----
+Text: What about adding a anchor to the asset name? This does not need any changes in any file of the core or the `.htaccess`.
+
+Simply use it like that:
+
+```php
+<?php echo css('assets/css/style.css#123456'); ?>
+```

@@ -1,0 +1,5 @@
+User: plartz
+----
+Date: 2013-03-27 12:28:28
+----
+Text: I think you have to use `if($page->parent()->uid() == 'what'):`. The `parent()` method returns a page object, doesn't it?

@@ -1,0 +1,7 @@
+User: Haustraliaer
+----
+Date: 2013-03-16 09:30:37
+----
+Text: Hah, as we can see - in the example above the backslash key (supposed to escape) does not even appear...
+
+So I've added them in manually as **[backslash]**.

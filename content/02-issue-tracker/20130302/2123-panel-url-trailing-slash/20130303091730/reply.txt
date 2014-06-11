@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-03-03 09:17:30
+----
+Text: It could well be a .htaccess problem, where did you get yours?
+
+Also have you set up panel correctly? I have seen this problem when it has been set up incorrectly. Although only some bits are related [see-- Getting the Panel to work with subfolders](http://getkirby.com/forum/general/topic:327) in particular my [post 1379](http://getkirby.com/forum/general/topic:327/#post1379)

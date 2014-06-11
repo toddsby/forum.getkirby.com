@@ -1,0 +1,5 @@
+User: laggoun
+----
+Date: 2012-06-27 13:51:16
+----
+Text: Yes, changelog says it's Kirby 1.1.1 and it's the latest .htaccess (the one that includes the lines to make the panel links work).

@@ -1,0 +1,36 @@
+User: staroversky
+----
+Date: 2013-04-24 16:55:51
+----
+Text: Getting closer now. However, following your suggestion to remove these lines also changes the navigation menu.
+
+Menu with original CSS - <https://dl.dropboxusercontent.com/u/184602/Original%20CSS.png>
+
+Modified CSS - <https://dl.dropboxusercontent.com/u/184602/Modified%20CSS.png>
+
+I have tried changing padding from 0px to other numbers but I can't get the menu items to be even between two horizontal lines.
+
+    }
+    nav {
+      overflow: hidden;
+      border-top: 1px solid green;
+      border-bottom: 1px solid green;
+      padding: 0px 0;
+    }
+
+Update:
+
+Would this be a correct way to fix the navigation menu lines?
+
+    }
+    nav {
+      overflow: hidden;
+      border-top: 1px solid green;
+      border-bottom: 1px solid green;
+      padding: 0px 0 10px 0;
+    }
+
+Result - <https://dl.dropboxusercontent.com/u/184602/double%20padding.png>
+
+----
+Please note that I don't know anything about CSS and I am learning all of this through trial and error and through the support of kind people like you.

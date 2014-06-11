@@ -1,0 +1,17 @@
+Title: Can I add a class via kirbytext?
+----
+Date: 2013-06-11 02:15:29
+----
+Solved: 1
+----
+User: huhcorp
+----
+Text: Is it possible to pass a class into an h1 element, for instance, using kirbytext?
+
+Something like this?
+
+title: #My Page Title (class:zing)
+
+I know about the 'html' alternative (to 'kirbytext'), but using 'kirbytext' would make my Markdown strategy in my content much simpler. Just wondering. 
+
+Thanks!

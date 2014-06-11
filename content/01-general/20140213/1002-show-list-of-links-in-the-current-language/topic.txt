@@ -1,0 +1,47 @@
+Title: show list of links in the current language
+----
+Date: 2014-02-13 10:02:39
+----
+Solved: 0
+----
+User: devdatastream
+----
+Text: Hi,
+
+I have many links in my footer with custom URL-Keys. Just want to add links that always shows in the current language. What I currently have is not a good solution. Why isn't this possible, or am I missing something?
+
+For >50 links, this procedure is tiresome and cruel..
+```php 
+<?php
+$language = c::get('lang.current');
+
+if($language == 'de'){
+  $special = $pages->find('service/spezielle-dienste');
+  $more    = $pages->find('service/mehr);
+  // …
+}
+else {
+  $special = $pages->find('service/special-services');
+  $more    = $pages->find('service/more');
+  // …
+}
+```
+
+```php
+    <div id="footer">
+        <ul>
+            <li>
+                <a href="$special->url();?>">
+                    <?= $special->title();?>
+                </a>
+            </li>
+            <li>
+                <a href="$more->url();?>">
+                    <?= $more->title();?>
+                </a>
+            </li>
+           …
+        </ul>
+
+</div>
+```

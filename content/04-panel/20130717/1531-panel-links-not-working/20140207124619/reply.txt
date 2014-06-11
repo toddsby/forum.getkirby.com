@@ -1,0 +1,18 @@
+User: PaulVintin
+----
+Date: 2014-02-07 12:46:19
+----
+Text: SOLVED - see reply below.
+
+I'm having the same problem.
+Everything is fine on MAMP. I've uploaded the site to the server and the site links work and I can see the first panel overview page. When I click on a page in the panel I get the 'error' page. 
+
+If I upload the htaccess file from the root of my MAMP site into the root of my server site everything is exactly the same as above except I then get a server error instead of the error page. 
+
+I've tried out loads of different settings in the config file (URL, subfolder and rewrite setups), none of which make any difference. My site is a sub-folder on the server which has been defined as an add on domain.
+
+I don't know much about rewrites and htaccess so keep it simple please!
+
+Thanks
+
+Thanks

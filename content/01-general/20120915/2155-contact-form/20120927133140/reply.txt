@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-09-27 13:31:40
+----
+Text: @scottswany the snippet bug should be fixed now

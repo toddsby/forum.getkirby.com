@@ -1,0 +1,23 @@
+Title: help convert (foundation) to kirby
+----
+Date: 2014-02-18 17:12:41
+----
+Solved: 0
+----
+User: gournis
+----
+Text: hello everybody
+
+i had create a foundation css framework page and am try to convert it to kirby theme, but its real hard to understand the process:
+
+Demo:
+http://gournis.gr/kirby/company.html
+*free to everybody for any use: http://gournis.gr/kirby/kirby-fndtn.zip
+
+its a column, inside column and am a bit confused:
+
+12 columns (header)
+3 (left vertical menu) +
+9 ( full with image = 12 +
+     main contect = 9 + 
+     wright vertical menu = 3 )

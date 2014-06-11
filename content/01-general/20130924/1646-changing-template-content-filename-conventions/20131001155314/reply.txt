@@ -1,0 +1,11 @@
+User: texnixe
+----
+Date: 2013-10-01 15:53:14
+----
+Text: @russbaldwin
+
+I completely agree with you with regard to the panel because if you use it, you don't usually get to see the files.
+
+@travVT
+
+It probably doesn't make that much sense to get the panel to recognize the modified file names. Or rather, you would have to integrate a feature that allows you to name the files which is currently not possible because the files simply get the name of the chosen template. If you don't, you will have to rename the files all individually outside of the panel once you have created them using the panel. Or, you will end up with semantically meaningful file names for content created outside the panel and standard file names for content created with the panel.

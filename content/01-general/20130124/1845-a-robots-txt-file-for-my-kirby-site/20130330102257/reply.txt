@@ -1,0 +1,5 @@
+User: moonbeetle
+----
+Date: 2013-03-30 10:22:57
+----
+Text: Where and how would you setup a robots for for a multiligual Kirby installation? Aren't search engines expecting this file in the web root?

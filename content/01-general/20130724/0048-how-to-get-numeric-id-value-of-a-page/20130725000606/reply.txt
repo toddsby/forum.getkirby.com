@@ -1,0 +1,11 @@
+User: walkerbox
+----
+Date: 2013-07-25 00:06:06
+----
+Text: Brief disclaimer - my laptop's screen has died, so I am on my netbook and am unable to test any code out.
+
+However, what I would test if I could is the following:
+
+    <?php echo 'Project number ' . $pages->indexOf($page) . ' of ' . $pages->count(); ?>
+
+Note that `$pages` in this context could be a pages object you've built yourself using `$page->children()->visible()` or whatever.

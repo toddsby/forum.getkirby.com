@@ -1,0 +1,20 @@
+Title: List Subfolder Articles
+----
+Date: 2014-04-18 01:18:49
+----
+Solved: 0
+----
+User: victorsarbu
+----
+Text: Hello,
+
+I'm a bit stumped trying to figure out how to display articles from subfolders. My folder structure looks like this:
+
+Folder
+-2014
+--01-Article
+--02-Article
+
+I am able to list the the year folder, but unable to display 01-Article and 02-Article. I am using the blog tutorial to set this up.
+
+Ultimately I have been able to create a listing using the submenu tutorial, but I would like to include excerpts and dates in the listing. Any help would definitely be appreciated.

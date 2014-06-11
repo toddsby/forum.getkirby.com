@@ -1,0 +1,20 @@
+User: russbaldwin
+----
+Date: 2013-03-03 19:17:15
+----
+Text: I can't see a helper, doesn't mean to say there isn't one? Bastian maybe able to help here:
+
+You could of course do something like:
+
+```php
+
+#http://www.foo.bar/foobar/foo
+<?php echo $articles->url(); ?>
+
+#foobar/foo
+<?php echo $articles->uri(); ?>
+
+#foo
+<?php echo end(explode('/', $article->uri())); ?>
+
+```

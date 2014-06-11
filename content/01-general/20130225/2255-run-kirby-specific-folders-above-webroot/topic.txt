@@ -1,0 +1,9 @@
+Title: Run Kirby specific folders above webroot
+----
+Date: 2013-02-25 22:55:30
+----
+Solved: 0
+----
+User: roman_oroco
+----
+Text: It's possible to run Kirby `assets`, `content`, `thumbs` above webroot?

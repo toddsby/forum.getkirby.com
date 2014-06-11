@@ -1,0 +1,18 @@
+Title: php if with custom variable
+----
+Date: 2014-03-24 02:44:46
+----
+Solved: 1
+----
+User: jolinmasson
+----
+Text: Hi, I am trying to build a php if to check if there is text in the variable. Otherwise, I would like to hide the complete div, so that there is not the Client text without any actual client.
+
+Here’s what I got so far. true is not working, and I did not found any way of doing this in the cheatsheet
+
+    <?php if($page->client()->TRUE): ?>
+      <div class="six columns omega">
+        <p>Client</p>
+        <?php echo $page->client() ?>
+      </div>
+    <?php endif ?>

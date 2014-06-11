@@ -1,0 +1,7 @@
+User: Swissendo
+----
+Date: 2013-08-04 13:04:37
+----
+Text: `$item->links()` is a field from a blueprint, used to create link posts (see post #3 in this thread). I even had to rename it to "links", because "link" outputs the url of the main website.
+
+About the blocks at line 49: Yeah, I'm still fiddling around with it and can't be bothered right now to clean things up :P. Sorry about that. It's not part of the problem though, since it also happened before I added the blocks.

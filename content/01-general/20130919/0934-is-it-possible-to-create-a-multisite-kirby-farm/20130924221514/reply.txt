@@ -1,0 +1,9 @@
+User: fitzage
+----
+Date: 2013-09-24 22:15:14
+----
+Text: It appears that a standard `rsync -avx /path/to/source /path/to/destination` command will copy symlinks and they'll work as long as you have them set up either with an absolute path, or in a way that the relative path is the same in both locations.
+
+For example, if your master folder is at `/web/public/master` and your base kirby install is at `/web/public/base` and your client files are at `/web/public/clientname` then if you create a symlink in `/web/public/master` pointing to a file in `/web/public/base` using the syntax (from within the master folder) `ln -s ../base/kirby kirby` then when you rsync `/web/public/master` to `/web/public/clientname`, the symlink should work. But if you rysnc it to `/web/public/clients/clientname` it won't work because it's not longer the same relative path.
+
+So to be safe, you should probably use the absolute path when creating your symlinks. So your script could create the `/web/public/clientname` folder and then do something like `rsync -avx /web/public/master/ /web/public/clientname` and then set up the Apache virtualhost.

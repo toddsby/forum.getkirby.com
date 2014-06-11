@@ -1,0 +1,19 @@
+Title: Displaying Subpage images as links
+----
+Date: 2014-01-11 20:25:09
+----
+Solved: 0
+----
+User: adamwilcox
+----
+Text: Hi,
+
+I run a small theatre companies website, just starting to port it to Kirby. Figured most of it out myself, but I am stuck on one issue. I have a 'Productions' page and under that a sub-page for each production. What I want to do is have a list of the sub pages on the 'Productions' page, and use the productions poster image as the link. The poster is stored in each production folder.
+
+I've added a
+
+    poster: poster.jpg
+
+section to each productions text file, but I don't know how to output it on the parent page.
+
+Thanks,

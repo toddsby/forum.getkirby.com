@@ -1,0 +1,11 @@
+User: russbaldwin
+----
+Date: 2014-04-30 10:05:20
+----
+Text: Perhaps use different config files.
+'config.php' as your base
+'config.dev.domain.com.php'
+'config.stage.domain.com.php'
+'config.prod.domain.com.php'
+
+All inherit config.php, just put your changes in the other ones?

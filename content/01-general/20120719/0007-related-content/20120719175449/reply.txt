@@ -1,0 +1,12 @@
+User: fitzage
+----
+Date: 2012-07-19 17:54:49
+----
+Text: This should work pretty well, although what I really want to do is have two separate types of related content on the same page, because I want to display customers as one thing and partners as another.
+
+However, I imagine I can do this just by filtering when I display them on the page. So I would have one related field, and then only display the customers with one tag and display the partners with another tag.
+
+So something like this would work, right?
+
+
+(gist: https://gist.github.com/3144873)

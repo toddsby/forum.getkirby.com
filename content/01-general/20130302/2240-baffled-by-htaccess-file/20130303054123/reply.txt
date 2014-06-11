@@ -1,0 +1,9 @@
+User: richardhellyer
+----
+Date: 2013-03-03 05:41:23
+----
+Text: OK. I think I worked it out
+
+The rewrite rule just sends anything that isnt a valid file or directory request too index.php by rewriting the uri... But the original uri can still be retrieved from $_SERVER['REQUEST_URI']
+
+I live and  learn :-)

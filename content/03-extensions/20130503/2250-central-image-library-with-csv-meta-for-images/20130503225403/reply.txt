@@ -1,0 +1,18 @@
+User: hagatorn
+----
+Date: 2013-05-03 22:54:03
+----
+Text: If your interested in the code for the central gallery it is as follows
+<pre>
+  &lt;ul class=&quot;gallery&quot;&gt;<br />
+  &lt;?php $imagelist= $page-&gt;imagelist();<br />
+  if ($imagelist != ''){<br />
+  $imagelistitem= explode(&quot;, &quot;, $imagelist);<br />
+  foreach ($imagelistitem  as $image): ?&gt;<br />
+  &lt;li&gt;&lt;img src=&quot;&lt;?php echo url('assets/artistswork/450/').$image.'.jpg' ?&gt;&quot; /&gt; &lt;/li&gt;<br />
+  &lt;?php endforeach ;} ?&gt;<br />
+  &lt;/ul&gt;</p></pre>
+<p>Then you can make a list of the filenames you want in you page.txt file <br /><pre>
+  eg<br />
+  ----</p>
+<p>Imagelist: a-04, a-08, h-16, i-35 </p></pre>

@@ -1,0 +1,49 @@
+Title: Gallery with pagination problem
+----
+Date: 2013-02-20 16:07:50
+----
+Solved: 1
+----
+User: stimemmerson
+----
+Text: Hello everyone,
+
+The problem is, I try to definite separately **"gallery2"** snippet with pagination for images that are placed in the **/photography** directory, for this purpose I created a new **photography.php** instead of default.php
+and put there the way to my **"gallery2"** snippet 
+<?php snippet('gallery2') ?> with contains follow code
+
+<pre>&lt;?php
+// change the name of the pagination parameter in the url
+// i.e. http://yourdomain.com/gallery/image:2
+c::set(&#39;pagination.variable&#39;, &#39;image&#39;);
+// add the pagination object to the set of images
+$images = $page-&gt;images()-&gt;paginate(1);
+// get a shortcut to the pagination object
+$pagination = $images-&gt;pagination();
+// get the current image
+$image = $images-&gt;first();
+?&gt;
+&lt;section class=&quot;gallery&quot;&gt;
+&lt;figure&gt;
+&lt;img src=&quot;&lt;?php echo $image-&gt;url() ?&gt;&quot; width=&quot;&lt;?php echo $image-&gt;width() ?&gt;&quot; &gt;height=&quot;&lt;?php echo $image-&gt;height() ?&gt;&quot; alt=&quot;&quot; /&gt;
+&lt;/figure&gt;
+&lt;nav&gt;
+&lt;ul&gt;
+&lt;?php if($pagination-&gt;hasPrevPage()): ?&gt;
+&lt;li class=&quot;prev&quot;&gt;&lt;a href=&quot;&lt;?php echo $pagination-&gt;prevPageURL() ?&gt;&quot;&gt;&amp;larr;&lt;/a&gt;&lt;/li&gt;
+&lt;?php else: ?&gt;
+&lt;li class=&quot;prev&quot;&gt;&lt;span&gt;&amp;larr;&lt;/span&gt;&lt;/li&gt;
+&lt;?php endif ?&gt;
+&lt;?php if($pagination-&gt;hasNextPage()): ?&gt;
+&lt;li class=&quot;next&quot;&gt;&lt;a href=&quot;&lt;?php echo $pagination-&gt;nextPageURL() ?&gt;&quot;&gt;&amp;rarr;&lt;/a&gt;&lt;/li&gt;
+&lt;?php else: ?&gt;
+&lt;li class=&quot;next&quot;&gt;&lt;span&gt;&amp;rarr;&lt;/span&gt;&lt;/li&gt;
+&lt;?php endif ?&gt;
+&lt;?php for($x=1; $x&lt;=$pagination-&gt;countPages(); $x++): ?&gt;
+&lt;li&gt;&lt;a&lt;?php if($x == $pagination-&gt;page()) echo &#39; class=&quot;active&quot;&#39; ?&gt; href=&quot;&lt;?php echo &gt;$pagination-&gt;pageURL($x) ?&gt;&quot;&gt;&lt;?php echo $x ?&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;?php endfor; ?&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/section&gt;</pre>
+
+but the **photography.php** steel not recognize "gallery2" snippet and works with default **"gallery"** snippet, what is the problem?!

@@ -1,0 +1,20 @@
+User: Swissendo
+----
+Date: 2013-08-02 15:48:46
+----
+Text: @russbaldwin Thanks for the answer. I've tried fiddling around with this, and everything kinda works now on my local setup. I say "kinda", because there is still one problem left. For example, this code:
+
+	<description>
+		<?php if($item->quote() !=''): ?>
+		  <?php foreach($item->quote() as $quote): ?>
+		    <![CDATA[<div><blockquote><?php echo $quote ?></blockquote></div>]]>
+		  <?php endforeach ?>
+		<?php endif ?>
+		<![CDATA[<?php echo kirbytext($item->{$descriptionField}) ?>]]>
+	</description>
+
+displays the quote from the article, but strangely adds a link to the main article at the end. See the picture:
+
+(image: https://dl.dropboxusercontent.com/u/5846269/Unbenannt.JPG)
+
+Same thing happens when using any another field besides images. Is there any way I can fix this?

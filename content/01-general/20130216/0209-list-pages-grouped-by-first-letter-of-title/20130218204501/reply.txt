@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-02-18 20:45:01
+----
+Text: There is now a beta Alphabetise Plugin for this:
+
+[Alphabetise Plugin Beta...](https://github.com/shoesforindustry/kirbycms-extensions/tree/master/plugins)

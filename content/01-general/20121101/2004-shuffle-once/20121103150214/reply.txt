@@ -1,0 +1,16 @@
+User: prayasabhinav
+----
+Date: 2012-11-03 15:02:14
+----
+Text: @hey_steffen
+
+they disappeared again! using another service now, 
+
+here is the loop: (link: https://gist.github.com/4007458)
+
+and here is the whole template: (link: https://gist.github.com/4007455)
+
+sorry for the unexpected problems! 
+
+thanks,
+prayas

@@ -1,0 +1,22 @@
+User: texnixe
+----
+Date: 2013-07-15 09:00:05
+----
+Text: Hi @asbiot,
+
+you could use a conditional statement in your menu like below: Whenever page content in the current language is available, the url of the current language is used, if not, the link goes to the url of the default language.
+
+    <?php 
+    $lang_current = c::get('lang.current');
+    $lang_default = c::get('lang.default');
+    ?>
+      <nav class="menu" role="navigation">
+        <ul>
+          <?php foreach($pages->visible() AS $p): ?>
+          <li><a<?php echo ($p->isOpen()) ? ' class="active"' : '' ?> href="<?php if ($p->content($lang_current) == false) echo $p->url($lang_default); else echo $p->url() ?>"><?php echo html($p->title($lang_current)) ?></a></li>
+         <?php endforeach ?>
+      </ul>
+    </nav>
+
+
+From a usability point of view, however, I'd rather suggest to display a message saying something like "This content is only available in German. Do you want to go to the German site?" and then offer a link to the German version.

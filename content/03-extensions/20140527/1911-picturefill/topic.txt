@@ -1,0 +1,14 @@
+Title: Picturefill
+----
+Date: 2014-05-27 19:11:36
+----
+Solved: 0
+----
+User: thisislawatts
+----
+Text: Hello World,
+
+If like me you've been excitingly following the work of the responsive images crew then perhaps you'd be interested in a new plugin I have started work on, the aim being for it to handle the markup and image generation
+[https://github.com/thisislawatts/kirbycms-extensions/tree/picture/plugins/picture](https://github.com/thisislawatts/kirbycms-extensions/tree/picture/plugins/picture)
+
+Any and all feedback welcome.

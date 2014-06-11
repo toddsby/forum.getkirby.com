@@ -1,0 +1,11 @@
+User: tysongach
+----
+Date: 2012-11-05 23:03:38
+----
+Text: I agree with the sentiment that a WYSISYG editor like TinyMCE (the one WordPress uses) would destroy the mindset and real charm Kirby has. It would be a step backwards.
+
+Markdown is powerful and with Kirbytext, it becomes *really* powerful.
+
+I think with the addition of a few key buttons for text fields (or the ability to create our own, for when we extend Kirbytext) would be beneficial. As well as the creation of a repeatable field.
+
+Maybe even a preview panel, ala this (link: http://john.onolan.org/ghost/#fulloverlay text: Ghost concept).

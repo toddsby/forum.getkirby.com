@@ -1,0 +1,16 @@
+User: scottswany
+----
+Date: 2013-03-02 05:19:47
+----
+Text: In case anyone is interested in doing this, I did the following and got it to work (assuming you've set up a value 'email' in the form for this):
+
+/snippets/contactform.php
+remove line #5: 'from' => ...
+
+/plugins/contactform/contactform.php
+after line #32: $from = $self->option('from');
+add new line: $email = $self->value('value');
+then change line below it: if(!from) self->option('from', $to);
+to: if(!from) self->option('from', $email);
+
+Since the from option in the snippet is gone, it now tells it to set the from address as the form entered address.

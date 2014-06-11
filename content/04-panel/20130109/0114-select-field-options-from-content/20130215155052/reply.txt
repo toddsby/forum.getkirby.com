@@ -1,0 +1,21 @@
+User: rappold
+----
+Date: 2013-02-15 15:50:52
+----
+Text: **I wanted to implement a similar feature a while ago and asked Bastian for advice via email:**
+
+Basically you're able to build your own field types for the panel by creating a "fields" folder in site/panel in which you put your custom fields. The existing field types in panel/fields serve as templates.
+
+Bastian built a "pageselect" field for me ((link: http://cl.ly/2G321U2C1519 text: **Download**)) which simply fetches all the subfolders from the "projects" folder and creates a selectbox with them.
+
+Install it by putting the whole folder in site/panel/fields. Afterwards you can define the new field type in your blueprint, like so:
+
+	fields:
+ 	 title: 
+  	  label: Title
+  	  type:  text
+ 	 project: 
+ 	   label: Project
+ 	   type:  pageselect
+
+Not exactly the thing you're looking for, but now it should be pretty easy to either modify pageselect.php or create your own custom field type for the panel ;)

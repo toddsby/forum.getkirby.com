@@ -1,0 +1,15 @@
+User: vladstudio
+----
+Date: 2013-02-16 14:25:39
+----
+Text: FYI - I made an update to Smart Plugin: <https://github.com/vladstudio/vladstudio-kirby-smart-submit>
+
+You now need to define handler name right inside the form "action":
+
+`<form id="smart-submit" action="<?= url('smart-submit') ?>?handler=do-something">`
+
+and the handler would be
+
+`content/smart-submit/do-something.php`
+
+That allows you to use single handler on more than one page.

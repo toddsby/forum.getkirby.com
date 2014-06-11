@@ -1,0 +1,21 @@
+User: nilshendriks
+----
+Date: 2013-02-06 07:45:28
+----
+Text: Yes but you're just putting HTML paragraphs there. 
+That is cheating :-)
+
+On this (link: http://michelf.ca/projects/php-markdown/extra/#header-id text: page) it says:
+
+> With PHP Markdown Extra, you can set the id and class attribute on certain elements using an attribute block. For instance, put the desired id prefixed by a hash inside curly brackets after the header at the end of the line, like this:
+
+```
+Header 1            {#header1}
+========
+
+## Header 2 ##      {#header2}
+```
+
+But I could only get this to work with headers and ids not classes and not other elements like a P.
+
+So I'll still use my function to get a P with a class instead of having HTML in the markdown file :-P

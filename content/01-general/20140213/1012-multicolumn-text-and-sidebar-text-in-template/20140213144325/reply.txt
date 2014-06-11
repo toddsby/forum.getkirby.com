@@ -1,0 +1,20 @@
+User: fitzage
+----
+Date: 2014-02-13 14:43:25
+----
+Text: I don't understand. It's just standard html/css, with the kirby fields echoed inside them:
+
+```php
+<div id="content">
+    <?php echo kirbytext($page->text()) ?>
+</div>
+<div id="sidebar">
+    <?php echo kirbytext($page->sidebar()) ?>
+</div>
+```
+
+Then you set the width of each column in CSS and float them. Easy peasy.
+
+If you want the sidebar background to go top to bottom, you probably need to make it a two-tone body background image. That's still the easiest way.
+
+Of course usually your sidebar won't have content that's custom for each page, or won't completely be content that's custom for each page, so you'd generate a list of links in your sidebar snippet or some such.

@@ -1,0 +1,11 @@
+User: __rizqi
+----
+Date: 2012-11-12 07:56:32
+----
+Text: Hi there!
+
+Thanks - I'll check out Mou, it looks promising for a desktop app. The live preview in particular looks useful.
+
+I made a mistake! It turns out iA Writer *does* allow me to save as .txt, even on iOS. I somehow managed to miss the fact that it allows me to set an extension when saving the file.
+
+So for now, this is done and dusted. It might remain useful for future Kirby versions, if it decides to go for a more descriptive format, too.

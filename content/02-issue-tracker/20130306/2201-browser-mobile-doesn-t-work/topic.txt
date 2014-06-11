@@ -1,0 +1,11 @@
+Title: browser::mobile doesn't work
+----
+Date: 2013-03-06 22:01:56
+----
+Solved: 0
+----
+User: jesuismaksim
+----
+Text: I know it's more a Kirby ToolKit things, but still the KirbyCMS core. Try it on many devices, many ways.. it returns nothing.. no false, no error, just nothing.
+
+Edit : It seems that the ::mobile refers to old device (no android or something similar are supported) If you need to fixed it temporary, use (link:http://detectmobilebrowsers.com/ text:detectmobilebrowsers.com) as a Kirby plugin to get some mobile devices detection.

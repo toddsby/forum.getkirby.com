@@ -1,0 +1,25 @@
+User: private_storm
+----
+Date: 2013-10-31 07:25:45
+----
+Text: Hi,
+I'm also new to Kirby and my answer might be totally wrong if so please ignore.
+
+But what I do and for me it works without any issues (at least on a Windows localserver :) is simple this:
+
+From my search page:
+
+      <?php
+
+      $blog = $pages->find('blog');
+      $tags = tagcloud($blog);
+
+      ?>
+
+      <?php foreach($tags as $tag): ?>
+      <li <?php if($tag->isActive()) echo ' class="active"' ?>><a href="<?php echo $tag->url() ?>"><?php echo umlautepas(str_replace('-',' ', $tag->name)) ?></a></li>
+       <?php endforeach ?>
+
+Uhm ignore umlautepas is a function I've created to replace e.g. "Ü" with "ue" and vice versa...
+
+regards

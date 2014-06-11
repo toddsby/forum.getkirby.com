@@ -1,0 +1,29 @@
+User: aqeelfikree
+----
+Date: 2013-07-15 15:28:49
+----
+Text: Strange, I'm still getting a 0 even after changing it to home/
+
+The way I've coded the site in order to hide the home from the url, what I've done is used:
+
+    url(article->uid())
+
+instead of
+
+    article->url()
+
+So that when you click on the title of the post instead of getting:
+
+http://aqeelfikree.com/home/a-third-awesome-article
+
+you'd get:
+
+http://aqeelfikree.com/a-third-awesome-article
+
+But I've also changed it back so that it shows home in the url to see if that helps show the comment number, but it didn't.
+
+This is the code I'm using to show the clickable "Comment: 0" - maybe this'll help give an idea.
+
+      <div class="comment">
+        <a href="<?php echo url($article->uid()) ?>#disqus_thread">Comments: <?php snippet("disquscount", array("identifier" => $article->uri())); ?></a>
+      </div>

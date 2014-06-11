@@ -1,0 +1,5 @@
+User: tillpro
+----
+Date: 2013-06-18 18:02:16
+----
+Text: This is because the isChildOf method requires a page object to be passed and not the slug…

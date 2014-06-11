@@ -1,0 +1,11 @@
+User: clayharris
+----
+Date: 2012-06-12 14:43:41
+----
+Text: Since I'm using this in a template - is there a way to use a wildcard in the not statements?
+
+Something like
+
+$page->images()->not('*-exclude.jpg)
+
+And that would exclude 01-exclude.jpg, 02-exclude.jpg, etc.?

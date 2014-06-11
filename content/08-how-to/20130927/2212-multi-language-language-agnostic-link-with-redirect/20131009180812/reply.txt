@@ -1,0 +1,9 @@
+User: timgauthier
+----
+Date: 2013-10-09 18:08:12
+----
+Text: i'd like to be able to have specific links that redirect to the language specific links.
+
+such as www.website.com/imprint going to either the /en/imprint or /de/imprint or www.website.com/blog going to the /en/blog or /de/blog 
+
+is there anyone who's made a plugin to do this? extending the current redirections in the language system.

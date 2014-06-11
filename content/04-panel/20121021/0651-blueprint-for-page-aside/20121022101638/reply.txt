@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-10-22 10:16:38
+----
+Text: @jackkeller I also don't really understand the problem, but I'm glad you already figured it out :) If you still have troubles with this, maybe attach a screenshot or just add some more explanation what you are actually trying to build. Cheers

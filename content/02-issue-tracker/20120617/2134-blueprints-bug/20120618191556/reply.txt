@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-06-18 19:15:56
+----
+Text: Yep, I made a lot of changes today and as far as I tested, everything works fine now. I'm planning to release a new version this week after a few more tests.

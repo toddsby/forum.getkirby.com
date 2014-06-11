@@ -1,0 +1,11 @@
+User: wieisdennis
+----
+Date: 2013-02-16 12:59:28
+----
+Text: Hi Geoff,
+
+Yes it's possible, see http://getkirby.com/blog/custom-metatags
+
+You can take the keywords / description for each page.
+
+Good luck!

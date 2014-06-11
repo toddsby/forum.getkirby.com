@@ -1,0 +1,18 @@
+User: obearone
+----
+Date: 2013-02-21 11:16:09
+----
+Text: Hi,
+just try it this way and you'll get automatic thumbs (generated from your first image) as well. 
+	
+	<?php foreach($page->children()->visible()->flip() as $project): ?>
+  	<?php $image = $project->images()->first()?> 
+    <div class="item">
+      <a href="<?php echo $project->url() ?>">
+      	<?php echo thumb($image, array('width' => 280, 'height' => 280, 'crop' => true)) ?> 
+      </a>
+      <a href="<?php echo $project->url() ?>">
+      	<?php echo $project->title() ?> 
+      </a>
+    </div>
+	<?php endforeach ?>

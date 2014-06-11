@@ -1,0 +1,7 @@
+User: Crisp_Concepts
+----
+Date: 2014-03-05 22:40:18
+----
+Text: Thanks Russ, works great.
+
+This would a nice feature to have built in, if not for any external page variable at least for site variables.

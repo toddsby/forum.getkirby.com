@@ -1,0 +1,14 @@
+User: russbaldwin
+----
+Date: 2013-05-21 12:39:48
+----
+Text: This is not really to do with KirbyCMS ;-)
+
+I do not know this plugin but judging by the demo you will probably have to load (in your template)
+
++ eventCalendar.css
++ eventCalendar_theme_responsive.css
++ jquery.min.js (1.9.1)
++ jquery.timeago.js
++ jquery.eventCalendar.min.js
++ Some jQuery to set it up as per the demo.

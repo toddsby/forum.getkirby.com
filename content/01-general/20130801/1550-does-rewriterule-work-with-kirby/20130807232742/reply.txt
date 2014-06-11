@@ -1,0 +1,8 @@
+User: atimoda
+----
+Date: 2013-08-07 23:27:42
+----
+Text: Thanks for your replies.
+if anybody else can help me, i really appreciate!
+
+Maybe a way to do that via php, setting custom routes using kirby built-in rewrite...

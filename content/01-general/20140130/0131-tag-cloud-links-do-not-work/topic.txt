@@ -1,0 +1,13 @@
+Title: Tag cloud links do not work
+----
+Date: 2014-01-30 01:31:26
+----
+Solved: 0
+----
+User: mzhu11
+----
+Text: I used tagcloud plugin in, it looks like it is working, but when you click on the tags, the resulting url"http://...target:XXXXX" just links back to the article list page. 
+
+I'm working in MAMP so far.
+
+Any help will be greatly appreciated!

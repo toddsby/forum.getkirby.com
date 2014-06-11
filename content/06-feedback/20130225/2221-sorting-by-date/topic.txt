@@ -1,0 +1,10 @@
+Title: Sorting by date
+----
+Date: 2013-02-25 22:21:41
+----
+Solved: 0
+----
+User: webolymp
+----
+Text: Hey all,
+I have the problem, that I have many events at the folder "veranstaltungen" and I want to show the next three events at the homepage. Do you have a solution for that?

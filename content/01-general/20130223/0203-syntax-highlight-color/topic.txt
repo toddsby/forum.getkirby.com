@@ -1,0 +1,11 @@
+Title: Syntax highlight / color?
+----
+Date: 2013-02-23 02:03:28
+----
+Solved: 1
+----
+User: atomicbird
+----
+Text: On some of the help pages here there's PHP code that's got syntax-aware colors. For example, the [How to Build a Blog](http://getkirby.com/blog/how-to-build-a-blog) page.
+
+How can I do this?

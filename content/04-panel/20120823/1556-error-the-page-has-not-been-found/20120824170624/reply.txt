@@ -1,0 +1,14 @@
+User: bastianallgeier
+----
+Date: 2012-08-24 17:06:24
+----
+Text: Hey Dennis, 
+
+you can try three things: 
+
+1. make sure that the RewriteBase is set to /test in your htaccess file
+2. make sure you don't set url or subfolder in your config file. both should be set to false
+3. if the steps above won't work, try to get the latest dev version of kirby and the panel from github: 
+
+<https://github.com/bastianallgeier/kirbycms/tree/dev>
+<https://github.com/bastianallgeier/kirbycms-panel/tree/dev>

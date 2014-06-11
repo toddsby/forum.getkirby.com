@@ -1,0 +1,19 @@
+Title: Pop up not displaying?
+----
+Date: 2013-03-06 22:44:36
+----
+Solved: 1
+----
+User: kvng
+----
+Text: Hi everyone!
+
+I'm just delving into php and am using Zurb's Foundation 4 as the framework for the my site. 
+
+My issue is with the "reveal" modal that appears when one presses "BLOG" on my nav. I have checked that I linked all necessary js and styling files.
+
+It works fine [pre-kirby](http://kvng.co/portfolio/work.html), but not [post-kirby](http://kvng.co/kirby). Something is working, however, as it appends a # to the url (but not on the pre-kirby config).
+
+Could it be an issue with having my site currently in a subfolder of my root? I have followed all the instructions in changing the config.php and .htaccess. 
+
+Thanks in advance!

@@ -1,0 +1,9 @@
+User: staroversky
+----
+Date: 2013-04-27 15:59:08
+----
+Text: Thanks, I fixed that problem and I am almost there. Right now it looks like this <http://cl.ly/image/3B1r1I0Q0m2F> 
+
+The actual sub-menu "Test" is always visible but I can't figure out what do I need to change in the nestedmeu.php to make menu drop-down when the mouse is hovering over the menu
+
+nestedmenu.php - <http://cl.ly/code/1y3d331k2g0I>

@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-03-03 09:11:57
+----
+Text: One way you could possible do it your way would be to get the [difference between the arrays](http://php.net/manual/en/function.array-diff.php), but I'm not sure about how efficient that would be. 
+
+I'm Also not sure that this would be the best way as I'm not sure what the differences between article and featured-article are.

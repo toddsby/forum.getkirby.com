@@ -1,0 +1,19 @@
+Title: Slideshow, like the start page of getkirby.com
+----
+Date: 2013-06-28 14:13:37
+----
+Solved: 0
+----
+User: teimaz
+----
+Text: hello, 
+i couldn't find the right explanation how to place the slideshow, into the site. 
+
+i had try to follow the others entries but no result. 
+
+since last week i'm new with Kirby and script. i'm just start to learn the script structure and set up my personal website. 
+
+have someone a good link where i can understand how i build the slideshow? at the moment i have the pictures one below the other. 
+but i like to have a slideshow instead like the startpage of getkirby. 
+
+thanks, teimaz

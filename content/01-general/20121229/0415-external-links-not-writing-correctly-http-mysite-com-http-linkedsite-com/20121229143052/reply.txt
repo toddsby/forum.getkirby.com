@@ -1,0 +1,27 @@
+User: jonathanbelton
+----
+Date: 2012-12-29 14:30:52
+----
+Text: Thanks - it looks like it's stripping out the : from http://
+
+Here's what I have in my article text file - 
+
+<pre>
+----
+Link: http://www.yahoo.ie/
+----
+</pre>
+
+Any my template has:
+
+
+<pre>
+(I've removed < and > so it formats!)
+
+?php if($page->link()): ?
+	a class="button primary out" href=" ?php echo url($page->link()) ? ">Visit site /a 
+	<?php endif ?>
+</pre>
+Is there a better way of doing this?
+
+Thanks

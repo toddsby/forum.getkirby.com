@@ -1,0 +1,5 @@
+User: kvng
+----
+Date: 2013-03-09 00:45:37
+----
+Text: Solved it by removing a console error from the js function trigger, along with moving the foundation.min.js and its call on to the footer.

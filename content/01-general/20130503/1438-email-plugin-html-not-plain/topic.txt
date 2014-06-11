@@ -1,0 +1,9 @@
+Title: email plugin html not plain
+----
+Date: 2013-05-03 14:38:46
+----
+Solved: 0
+----
+User: robrainfall
+----
+Text: how can i change the headers set up in the email plugin ($headers[] = 'Content-Type: text/plain; charset=utf-8';) to send html emails and not plain text without replacing the line in the core file?

@@ -1,0 +1,29 @@
+Title: Loop two items/arrays at once
+----
+Date: 2013-05-21 13:09:02
+----
+Solved: 1
+----
+User: roman_oroco
+----
+Text: Please someone knows how to loop two items/arrays at once?
+
+The html result must bee similar to this:
+```html
+<!-- First -->
+<div>
+  <img src="01.jpg" alt="">
+  <img src="02.jpg" alt="">
+</div>
+<!-- Second -->
+<div>
+  <img src="03.jpg" alt="">
+  <img src="04.jpg" alt="">
+</div>
+<!-- Third -->
+<div>
+  <img src="05.jpg" alt="">
+  <img src="06.jpg" alt="">
+</div>
+<!-- etc. -->
+```

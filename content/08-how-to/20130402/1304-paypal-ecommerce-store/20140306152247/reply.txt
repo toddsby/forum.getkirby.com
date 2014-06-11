@@ -1,0 +1,15 @@
+User: hennirocks
+----
+Date: 2014-03-06 15:22:47
+----
+Text: @pixelbande: Excellent update, thanks a lot Dennis :) (link: http://hennirocks.de/shop text: I got my own shop working now at my website).
+
+And in case anyone's coming across that PayPal error "Your shopping cart is empty": In my case it was a stupid mistake, a typo, but which cost me quite some time to find out.
+
+Well, I had quotation marks in the titles of my products. And that ended up looking like this, with double quotation marks:
+
+`<input type="hidden" name="item_name_1" value=""Title" with quotation marks, boo" />`
+
+This led to that PayPal error, so stupid :) So: Just don't do quotation marks in your product's titles or change the markup to singular quotation marks.
+
+@joshje, thanks for this plugin: By far on of my most favorite snippets and Kyle Bean's site you created is a great source of inspiration :)

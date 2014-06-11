@@ -1,0 +1,17 @@
+User: staroversky
+----
+Date: 2013-04-24 21:00:19
+----
+Text: Thank you for the reference links. I will definitely start learning the basics.
+
+At the moment:
+
+My CSS with your added code - <http://pastebin.com/MYaefbMi>
+
+default.php template - <http://pastebin.com/PUh1Y2Em>
+
+The end result is that nothing has changed. The tags are displayed as bullets just like you see in the screenshots in the previous post. 
+
+Does it matter where specifically I insert tagcloud code into the default.php?
+
+Please advise.

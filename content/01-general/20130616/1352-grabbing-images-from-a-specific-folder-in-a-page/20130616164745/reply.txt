@@ -1,0 +1,7 @@
+User: sub_fauna
+----
+Date: 2013-06-16 16:47:45
+----
+Text: Nevermind: 
+
+<code>foreach($page->children()->find('photos')->images() as $image): </code>

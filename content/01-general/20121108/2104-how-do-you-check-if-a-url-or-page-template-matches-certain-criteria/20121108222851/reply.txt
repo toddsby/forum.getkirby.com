@@ -1,0 +1,9 @@
+User: MatteusZablocki
+----
+Date: 2012-11-08 22:28:51
+----
+Text: I'm working on a set of pages where I want to be able to load a random image based on a page (theme). 
+Something like: page = theme -> random theme image
+And I don't want to have a lot of template files to fizzle around with. I think this might be it.
+
+Thanks!

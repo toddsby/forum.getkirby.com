@@ -1,0 +1,19 @@
+User: arlamentis
+----
+Date: 2013-04-11 00:21:20
+----
+Text: i use this to enable the gallery thing
+
+```
+ <?php if($page->hasImages()): ?>
+<ul class="gallery">
+  <?php foreach($page->images() as $image): ?>
+  <li>
+    <a title="My Caption"  rel="gallery" href="<?php echo $image->url() ?>"><?php echo thumb($image, array('width' => 200, 'height' => 200, 'crop' => true)) ?></a>
+  </li>
+  <?php endforeach ?>
+</ul>
+<?php endif ?>
+
+```
+The issue is that when i add the title="My Caption" thing well, it puts me "My caption" in every single picture...

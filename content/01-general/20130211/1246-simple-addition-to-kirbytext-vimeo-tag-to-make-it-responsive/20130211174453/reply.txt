@@ -1,0 +1,7 @@
+User: tysongach
+----
+Date: 2013-02-11 17:44:53
+----
+Text: Indeed, our solutions are similar, but there’s one notable difference: I suggest the wrapping container to be a `div` rather than the `p` tag. Since `p` tags are meant for paragraph text, a `div` really makes much more sense here.
+
+As you can see in (link: http://getkirby.com/forum/general/topic:371 text: this topic), I’ve submitted a pull request via GitHub for this to be added to the default install of Kirby. We’ll have to see if Bastian chooses to add this, but for now, it’s not a huge deal to change those few lines by hand.

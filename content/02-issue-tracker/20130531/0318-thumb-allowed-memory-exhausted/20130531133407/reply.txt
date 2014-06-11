@@ -1,0 +1,6 @@
+User: roman_oroco
+----
+Date: 2013-05-31 13:34:07
+----
+Text: @swenflea Hi,
+In most cases the default php memory_limit is 8 mb. 33554432 bytes = 32 mb - it’s probably your current memory_limit. I solved with increase to 64 mb, if you generate a lot of images you might need 128 or 256 mb, or if your hosting allows you can set unlimited memory usage in server: `memory_limit = -1`. (link:http://newexception.com/php-increase-memory-limit text:For more info popup:yes)

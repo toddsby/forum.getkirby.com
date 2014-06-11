@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-09-08 18:20:49
+----
+Text: I haven't played with the multilingual feature in awhile, so I'm not sure the exact implementation. But the broad idea is that in your templates instead of just calling the fields for specific languages, you need to check if they exist and fall back to the default language if they don't exist.

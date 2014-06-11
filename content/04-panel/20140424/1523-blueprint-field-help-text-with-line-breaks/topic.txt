@@ -1,0 +1,20 @@
+Title: Blueprint field: help text with line breaks
+----
+Date: 2014-04-24 15:23:29
+----
+Solved: 0
+----
+User: peterhansel6
+----
+Text: Hi!
+
+How do I add a line break in the help text of a field?
+
+I already tried [this](http://stackoverflow.com/questions/3790454/in-yaml-how-do-i-break-a-string-over-multiple-lines), but it didn't work:
+
+    text:
+    label: Text
+    type:  textarea
+    help: >
+           Line one
+           Line two

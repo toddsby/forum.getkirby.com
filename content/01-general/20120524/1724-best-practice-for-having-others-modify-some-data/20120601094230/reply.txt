@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-06-01 09:42:30
+----
+Text: @mikehargreaves if you got a server with ssh access and you are able to install the Dropbox client for Linux <https://www.dropbox.com/install?os=lnx> it's actually super easy to link your content folder with your Dropbox. You could then share that folder with your team mates and administrate the content that way. That's actually a pretty awesome solution for that problem.

@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2013-01-04 13:57:03
+----
+Text: I have something similar in mind for a future version, but I really need to make sure it's going to be easy and yet flexible enough, which is more difficult to get right than it sounds.

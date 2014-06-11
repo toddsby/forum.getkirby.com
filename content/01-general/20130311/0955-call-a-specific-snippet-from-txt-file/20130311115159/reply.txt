@@ -1,0 +1,7 @@
+User: plartz
+----
+Date: 2013-03-11 11:51:59
+----
+Text: I haven't testet it, but I'd use `snippet($page->sidepanel())`. If you use single quotes, the parameter gets parsed – the function would call kirbytext($page->sidepanel()).php, which actually makes no sense ;)
+
+And I think you just want plain text – `kirbytext()` wraps a p-tag around your text, so don't use it here.

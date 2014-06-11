@@ -1,0 +1,32 @@
+Title: When using 'Date:' nothing shows up
+----
+Date: 2014-03-27 20:59:10
+----
+Solved: 0
+----
+User: chanhdnguyen
+----
+Text: I'm currently testing Kirby out, and I think I found an issue. My current setup is this:
+
+```
+<div><?php echo html($page->title()) ?></div>
+<div><?php echo html($page->date()) ?></div>
+<div><?php echo html($page->location()) ?></div>
+<div><?php echo multiline($page->address()) ?></div>
+<div><?php echo html($page->coaches()) ?></div>
+<div><?php echo html($page->description()) ?></div>
+```
+
+For some reason 'date' does not want to display. When I rename it, it works. It seems that Kirby just doesn't like the name 'Date'.
+
+Here's how my text file is setup:
+
+```
+  Title:
+  Title test
+  ----
+  Date:
+  jeudi, mai 1, 2014 to dimanche, mai 4, 2014
+```
+
+Am I missing something? In the end I ended up using 'When:' and it worked. Which makes no sense.

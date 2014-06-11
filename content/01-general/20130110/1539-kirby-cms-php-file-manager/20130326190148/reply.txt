@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-03-26 19:01:48
+----
+Text: Integration is nice, many people I know who have Kirby as their main 'Blog' site engine, use an external Markdown editor to write their articles and then just paste them into Panel.

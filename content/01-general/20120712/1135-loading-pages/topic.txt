@@ -1,0 +1,15 @@
+Title: Loading pages?
+----
+Date: 2012-07-12 11:35:33
+----
+Solved: 0
+----
+User: gielcobben
+----
+Text: Hi,
+
+I wonder if you can load Kirby pages with AJAX or something like pagify.js ? I hope someone can help me.
+
+Thanks,
+
+Giel

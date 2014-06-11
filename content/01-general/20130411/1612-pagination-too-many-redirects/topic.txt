@@ -1,0 +1,19 @@
+Title: Pagination: too many redirects
+----
+Date: 2013-04-11 16:12:48
+----
+Solved: 1
+----
+User: iamirm
+----
+Text: Hi forum, 
+
+I set up pagination for my site but when I open page:1 I get an 310 error saying there are too many redirects.
+
+page:2 displays fine.
+
+I have no idea what caused this, when I tested it before it worked fine. I have since added other things to the site but never went back to testing if the pagination still worked so unfortunately, I can't go back to when it still worked.
+
+If you have any suggestions I'd really like to hear them.
+
+Thanks!

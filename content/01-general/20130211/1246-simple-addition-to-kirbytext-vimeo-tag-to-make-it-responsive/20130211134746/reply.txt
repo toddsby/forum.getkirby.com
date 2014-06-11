@@ -1,0 +1,7 @@
+User: bytte
+----
+Date: 2013-02-11 13:47:46
+----
+Text: Thanks, I've checked the topic and I see that the fix that's in that topic is the exact same fix I'm mentioning above.
+
+The problem with it is that I would have to change the kirbytext.php file every time I update Kirby. So I was hoping for a better solution, probably by writing a plugin. There's documentation on extending kirbytext.php as a plugin, but I'm not good enough at PHP to solve my problem.

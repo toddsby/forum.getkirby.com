@@ -1,0 +1,8 @@
+User: bastianallgeier
+----
+Date: 2012-07-12 11:51:23
+----
+Text: Good news guys!!
+With the help from @jolantis I've just uploaded a new version to the dev branch on Github, which has an improved Markdown configuration, which will fix the figure and image problem: 
+
+<https://github.com/bastianallgeier/kirbycms/tree/dev>

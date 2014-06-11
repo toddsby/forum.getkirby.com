@@ -1,0 +1,10 @@
+User: angelistudio
+----
+Date: 2013-11-04 13:45:14
+----
+Text: Hi texnixe,
+
+update: for this project I installed kirby in a subfolder, making all the adjustments to site/config/config.php and .htaccess file.
+
+I tried the same code on a fresh install (this time in the root folder) and it works like a charm. 
+Did I miss something?

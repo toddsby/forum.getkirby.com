@@ -1,0 +1,11 @@
+Title: How can I echo a image from the assets folder, like CSS or JS?
+----
+Date: 2013-09-05 12:55:33
+----
+Solved: 0
+----
+User: sanjaypoyzer
+----
+Text: I can't seem to find a way to echo an image from the assets folder like is done with CSS. For example, `echo image('assets/i/logo.png')` does not work.
+
+Does anybody know any way of doing this? Or agree that the above code should be a feature?

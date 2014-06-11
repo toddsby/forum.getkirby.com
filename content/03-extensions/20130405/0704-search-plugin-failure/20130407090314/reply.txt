@@ -1,0 +1,51 @@
+User: russbaldwin
+----
+Date: 2013-04-07 09:03:14
+----
+Text: Apart from the typo with `php snippet('header')` which of course should be `snippet('header')` 
+The code works for me ?
+
+```php
+
+<?php 
+$search = new search(array(
+  'searchfield' => 'q',
+  'ignore'      => array('search', 'error'),
+  'words'       => true,
+  'paginate'    => 10
+    ));
+
+  $results = $search->results();
+  snippet('header')
+?>
+  <!-- Begin page content -->
+  <form action="<?php echo thisURL() ?>">
+    <input type="text" placeholder="Type in your searchword…" name="q" value="<?php echo html($search->query()) ?>" />
+    <input type="submit" value="Search" />
+  </form>
+
+  <?php if($results): ?>
+
+    <?php snippet('pagination', array('pagination' => $results->pagination())) ?>
+
+    <ul>
+      <?php foreach($results as $row): ?>
+        <li>
+          <strong><a href="<?php echo $row->url() ?>"><?php echo html($row->title()) ?></a></strong>
+          <a href="<?php echo $row->url() ?>"><?php echo html($row->url()) ?></a>
+        </li>
+      <?php endforeach ?>
+    </ul>
+
+    <?php snippet('pagination', array('pagination' => $results->pagination())) ?>
+
+  <?php elseif($search->query()): ?>
+    <div class="no-results">No results for <strong><?php echo html($search->query()) ?></strong></div>
+  <?php endif ?>
+</div>
+<?php snippet('sidebar') ?>
+<?php snippet('footer') ?>
+
+```
+
+You might also want to check if the `search->results` array has something in it before showing the pagination?

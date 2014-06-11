@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-11-26 17:25:49
+----
+Text: Nice idea! I think this should really be an additional blueprint setting. I will put it on my todo list for future releases.

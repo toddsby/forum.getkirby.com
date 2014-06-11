@@ -1,0 +1,7 @@
+User: aqeelfikree
+----
+Date: 2013-07-12 16:30:50
+----
+Text: Done. I finally went the CSS route to include "," after each category and left out the last by using last-child.
+
+Thank you all for the help.

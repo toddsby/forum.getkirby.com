@@ -1,0 +1,43 @@
+Title: Sharpen Thumbnails in Kirby Thumb Plugin
+----
+Date: 2012-10-30 18:27:36
+----
+Solved: 0
+----
+User: russbaldwin
+----
+Text: I was thinking that I would like to sharpen the thumbnails a little when producing them with the thumb plugin.
+
+So in 'thumb.php' I added a '$sharpen=false' var to the end of the vars in the thumb class:
+
+    class thumb {
+      ...
+    	var $crop = false;
+    	var $sharpen = false;
+      ...
+  
+I think you also need to add it as an option below the code '$this->crop = @$options['crop'];'
+    
+      // set the sharpen
+    $this->sharpen = @$options['sharpen'];
+ 		
+ Then just at the end above 'switch($this->mime)' I added:
+
+    if($this->sharpen == true) {
+           //sharpen the image?
+           $sharpenMatrix = array(
+           array(-1, -1, -1),
+           array(-2, 16, -1),
+           array(-1, -1, -1)
+           );
+           $divisor = array_sum(array_map('array_sum', $sharpenMatrix)); 
+           imageconvolution($thumb, $sharpenMatrix, $divisor, 0);
+       }
+ 
+Now you can call the thumbs plugin with the sharpen option ( I've set it to 'false' by default.):
+
+	<?php echo thumb($item, array('width' => 200,'height' => 200, 'crop' => true,'sharpen' => true)) ?>
+
+It will obviously have a little impact on things, but I think it is worthwhile. I borrowed most of this from the [PHP manual website](http://php.net/manual/pt_BR/function.imageconvolution.php) and you can play around with the matrices to get other effects. I've not really tested too much so not offered as an improvement to the thumb plugin, just an idea,  seems to work OK though.  
+
+Please feel free to use, improve, expand, alter, make fun of...

@@ -1,0 +1,19 @@
+Title: I can´t access the panel
+----
+Date: 2013-05-28 22:07:50
+----
+Solved: 0
+----
+User: tinybigstudio
+----
+Text: I have checked everything and I just can´t see what the problem is.
+I can´t access with username and passwork and on the screen I get this error:
+
+Warning: Unknown: open(/var/php_sessions/sess_adc20a3a3994b469f43a5751480c5fb3, O_RDWR) failed: No such file or directory (2) in Unknown on line 0
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/php_sessions) in Unknown on line 0
+
+
+Any suggestions?
+
+thanks

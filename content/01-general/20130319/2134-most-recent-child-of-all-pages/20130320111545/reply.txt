@@ -1,0 +1,26 @@
+User: roobottom
+----
+Date: 2013-03-20 11:15:45
+----
+Text: It depends on how many sub-sections you have to how you do this. Personally I only have three, so I pull the page object into a couple of arrays, which then allow me to multisort by date, like this:
+
+```//create the array of things for the homepage.
+$things = array();
+$dates = array();
+
+foreach($pages->findByUID('blog')->children()->visible()->sortBy('date', 'desc') as $article):
+	$things[] = $article;
+	$dates[] = $article->date();
+endforeach;
+foreach($pages->findByUID('work')->children()->visible()->sortBy('date', 'desc') as $article):
+	$things[] = $article;
+	$dates[] = $article->date();
+endforeach;
+foreach($pages->findByUID('gallery')->children()->visible()->sortBy('date', 'desc') as $article):
+	$things[] = $article;
+	$dates[] = $article->date();
+endforeach;
+
+array_multisort($dates, SORT_DESC, $things);```
+
+This then gives me an array of date sorted objects from each of my three main sections which I can loop through. I guess you could do something similar and skim the most recent off the top.

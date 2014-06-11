@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2014-03-21 18:39:29
+----
+Text: All these answers are good, but they all require separate fields for content if you want content both before and after the snippet.
+
+I'll try to whip up the kirbytext extension answer soon. That's the only solution that would allow for one content field, and allow inserting the snippet in the middle of it.

@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-11-21 18:21:46
+----
+Text: You could perhaps use [array_merge](http://php.net/manual/en/function.array-merge.php) - being careful about which way round you do it :-)

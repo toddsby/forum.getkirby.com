@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2013-01-05 11:18:03
+----
+Text: That's a problem with the tagcloud plugin. Colons are not allowed in URLs on Win, but on Linux. In the Kirby core this is taken care of, but not in the plugin. I just uploaded a new version of the plugin to Github which should fix this.

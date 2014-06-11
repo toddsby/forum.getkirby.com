@@ -1,0 +1,41 @@
+Title: Filtering categories
+----
+Date: 2012-12-29 05:12:02
+----
+Solved: 0
+----
+User: jonathanbelton
+----
+Text: Hi guys, I've taken a look at the tag tutorial but can't figure it out. I've added a category field to my articles - so I plan to assign one of three to each post. 
+
+The resulting text file looks like this:
+
+*********************
+Title: Super duper post
+
+----
+
+Role: Role goes here
+
+----
+
+Text: Text goes here
+
+----
+
+Link: 
+
+----
+
+Date: 29.12.2012
+
+----
+
+Category: 2
+
+*********************
+
+On my homepage I'd like normal links to work as filters for the categories (1, 2 or 3), is this possible?
+
+Thanks,
+J

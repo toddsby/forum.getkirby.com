@@ -1,0 +1,26 @@
+Title: Thumbnail width and height
+----
+Date: 2014-02-15 18:43:40
+----
+Solved: 0
+----
+User: richgcook
+----
+Text: Hi folks,
+
+If you echo an image, defining the height and width, you do this:
+
+    <img src="<?php echo $image->url() ?>" width="<?php echo $image->width() ?>" height="<?php echo $image->height() ?>" />
+
+But what if you want to define the width and height, inline, with a thumbnail?
+
+    <img src="<?php echo thumb($image, array('width' => 950), false) ?>" />
+
+I thought this might work: 
+
+    width="<?php echo thumb($image->width()); ?>"
+
+But alas it doesn't. Any ideas?
+
+Thanks,
+R

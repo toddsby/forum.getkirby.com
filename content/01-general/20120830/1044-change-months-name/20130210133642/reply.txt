@@ -1,0 +1,20 @@
+User: roman_oroco
+----
+Date: 2013-02-10 13:36:42
+----
+Text: @loasca Hey it's works for me:
+```
+<?php if (c::get('lang.current') != 'it'): ?>
+<time datetime="<?php echo $page->date('Y-m-d') ?>"><?php echo $page->date('F j, Y') ?></time>
+<?php else: ?>
+<time datetime="<?php echo $page->date('Y-m-d') ?>"><?php echo strftime('%d %B %Y', $page->date()); ?></time>
+<?php endif ?>
+```
+
+The only issue I have is with minutes, it's translate only `%d %B %Y - %g:`**%i** and minutes displays in html with `i` instead of ex. 10:
+```
+<?php if (c::get('lang.current') != 'it'): ?>
+<?php echo $page->modified('D j, Y - g:i') ?>
+<?php else: ?>
+<?php echo strftime('%d %B %Y - %g:%i', $page->modified()); ?><?php endif ?>
+```

@@ -1,0 +1,64 @@
+User: edusoftdev
+----
+Date: 2014-02-18 13:26:31
+----
+Text: Aslam O Alukum 
+I have used this code to make a snipest to increment view variable in .txt file. I also follwed this link http://pastie.org/private/w5farmrl9j5ee93u0xswq
+(Thanks for the use full link)
+
+//snipest to update the view counter
+$post=$pages->active();
+// get current view count
+$view = intval((string)$post->viewed());
+$view++;
+
+// get all variables from the content text file
+$variables = $post->content()->variables();
+
+// add the updated likes counter
+$variables['viewed'] = $view;
+
+// set the filename
+$file = $post->root() . '/' . $post->intendedTemplate() . '.txt';
+
+// overwrite the file
+$write = write($file, $variables);
+
+// react on errors
+if(error($write)) die(a::json($write));
+
+
+
+// writer function
+function write($file, $values) {
+      
+  if(file_exists($file) && !is_writable($file)) return array(
+    'status' => 'error',
+    'msg'    => 'The file could not be written'
+  );
+
+  $break  = false;
+  $result = "\xEF\xBB\xBF";   
+  $keys   = array();
+  foreach($values AS $k => $v) {
+    $k = str::urlify($k);
+    $k = str::ucfirst(str_replace('-', '_', $k));
+    if(in_array($k, $keys) || empty($k)) continue;
+    $keys[] = $k;     
+    $result .= $break . $k . ': ' . trim($v);
+    $break = "\n\n----\n\n";    
+  }
+  $write = f::write($file, $result);
+    
+  if(!$write || !file_exists($file)) return array(
+    'status' => 'error',
+    'msg'    => 'The file could not be written'
+  );
+  
+  return array(
+    'status' => 'success',
+    'msg'    => 'The file has been written'
+  );
+  
+}
+It might help you too.

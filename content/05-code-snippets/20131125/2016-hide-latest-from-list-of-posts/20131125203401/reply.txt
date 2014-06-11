@@ -1,0 +1,12 @@
+User: structor
+----
+Date: 2013-11-25 20:34:01
+----
+Text: Maybe "slice" will help.
+
+     <?php {$articles = $pages->find('journal')
+                            ->children()
+                            ->visible()->slice(1,5)
+                            ->sortBy($sort='date', $dir='asc')
+                            ->flip()
+        } ?>

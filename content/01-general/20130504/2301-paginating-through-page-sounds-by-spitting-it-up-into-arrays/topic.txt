@@ -1,0 +1,21 @@
+Title: Paginating through $page->sounds() by spitting it up into arrays
+----
+Date: 2013-05-04 23:01:28
+----
+Solved: 0
+----
+User: jonheslop
+----
+Text: I wondered what the best way is to paginate through a bunch of files. I have 100+ .mp3’s in a directory (a podcast, basically) and want to show 10 per page with pagination?
+
+I’ve tried a bunch of different ways none have which have been even close to working.
+
+I’m thinking:
+
+set $page->sounds() as array
+
+check querystring for ?showpage=2 
+
+then use that to filter the array to just show .mp3 11-20
+
+I’m getting nowhere… I tried this method — http://jfh.cc/P3Kw but it seems Kirby uses objects not arrays?

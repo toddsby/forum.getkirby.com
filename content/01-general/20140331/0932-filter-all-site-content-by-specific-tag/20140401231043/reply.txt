@@ -1,0 +1,13 @@
+User: texnixe
+----
+Date: 2014-04-01 23:10:43
+----
+Text: Your code looks perfectly alright to me? Do you get an error message or just no results? Do you use a comma-separated taglist? Than you might have to add the separator:
+
+    <?php $article = $pages->filterBy('tags', 'deal', ','); ?>
+
+Maybe also add an if-statement:
+
+    <?php if(param('tag')) : ?>
+        <?php $article = $pages->filterBy('tags', 'deal', ','); ?>
+    <?php endif ; ?>

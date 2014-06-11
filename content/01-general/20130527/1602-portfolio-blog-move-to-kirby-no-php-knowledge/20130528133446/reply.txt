@@ -1,0 +1,9 @@
+User: Swissendo
+----
+Date: 2013-05-28 13:34:46
+----
+Text: Well, in my opinion, this depends on how complex your site is going to be. I still have nearly no clue how to use PHP and managed to build something quite nice, just by copy-pasting snippets from this forum or the themes and editing them through trial and error. I'm starting to have problems now at the "advanced stuff" though, such as like counters and _custom_ RSS-Feeds.
+
+Anyways, for a good idea on how to build sites with kirby, I recommend having a look at  the [tutorials](http://getkirby.com/tutorials) and then the [themes](http://getkirby.com/downloads/themes). This gave me quite a good overview and helped me to understand the basics. The rest was just, as mentioned above, trial and error.
+
+As for the license, you have to buy one for each of your websites that run on Kirby. So yes, you'll also need to buy one.

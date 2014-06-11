@@ -1,0 +1,14 @@
+Title: Kirby and Lightbox
+----
+Date: 2013-03-20 11:36:55
+----
+Solved: 0
+----
+User: fhuery
+----
+Text: Hi again.
+I have combined Wookmark and lightbox on a Kirby website and I needed to be able to change the thumbnails, the captions and the larger versions of the images via my Kirbytext txt file and the panel. The lightbox and Wookmark are working just fine. I'd just like to know how to update the thumbnails, captions and larger images via the txt file and panel. What would my portfolio.php and portfolio.txt look like? Here is my html:
+
+`<li><a href="<?php echo url('assets/img/image_2big.jpg') ?>" title="HERITAGE HOTELS: HOLIDAY EXPO 2012<br>Design . Production . Furniture . Branding . Set-up"><img src="<?php echo url('assets/img/image_2.jpg') ?>" width="200" height="150" alt="Space build-ups and set-ups"></a></li>`
+
+Thank you

@@ -1,0 +1,7 @@
+User: BobRockefeller
+----
+Date: 2013-03-31 00:49:45
+----
+Text: It turns out that the success message is returned before the work is done. I ended up just waiting and the imported posts eventually showed up.
+
+Bob

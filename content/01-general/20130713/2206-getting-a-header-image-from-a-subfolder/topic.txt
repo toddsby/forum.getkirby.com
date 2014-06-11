@@ -1,0 +1,18 @@
+Title: Getting a header image from a subfolder
+----
+Date: 2013-07-13 22:06:25
+----
+Solved: 1
+----
+User: jrantaka
+----
+Text: I've been using this snippet to find a header image in a current folder of the page (using it in a blog):
+
+~~~
+<?php if ($page->hasImages() && $page->images()->filterBy('title', '*=', 'header')->first()): ?>
+    <?php $image = $page->images()->filterBy('title', '*=', 'header')->first() ?>
+    <img src="<?php echo $image->url() ?>">
+<?php endif ?>
+~~~
+
+And now I'm building a blog-page which loops all my posts and want to add the header-image to the list of posts. I think it might got something to do with the ->hasChildren() function but I just can't seem to get it working! What do I need to add to make it work?

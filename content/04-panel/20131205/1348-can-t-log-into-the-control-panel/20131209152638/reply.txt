@@ -1,0 +1,5 @@
+User: thisiskylierose
+----
+Date: 2013-12-09 15:26:38
+----
+Text: I can add some validation or feedback. I'm also thinking about having a session based flash message for errors etc. But, is there a possibility to fork the code and contribute?

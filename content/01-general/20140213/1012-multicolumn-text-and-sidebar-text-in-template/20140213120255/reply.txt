@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2014-02-13 12:02:55
+----
+Text: Unless I'm missing something, just use CSS?
+You can create columns in a few ways using CSS.
+If you want separate 'Panel' fields for each column and side bar create them as separate entities.

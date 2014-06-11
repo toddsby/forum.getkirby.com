@@ -1,0 +1,9 @@
+User: plartz
+----
+Date: 2013-02-05 11:56:37
+----
+Text: You have to change the rewrite rule in the config.php to true (usually line 92):
+
+	c::set('rewrite', true);
+
+Maybe you'll add a second config.php for your webserver – read out this article how to do that: (link: http://getkirby.com/blog/multi-environment-setup text: Multi-environment setup).

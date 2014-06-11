@@ -1,0 +1,12 @@
+Title: Showing the text that was found when doing a search?
+----
+Date: 2013-03-07 21:31:55
+----
+Solved: 1
+----
+User: richardhellyer
+----
+Text: I was wondering how I could extend the search plugin so that I can show a snippet of the page text that was found - or if someone else has already extended the plugin to do that?
+
+thanks
+Richard

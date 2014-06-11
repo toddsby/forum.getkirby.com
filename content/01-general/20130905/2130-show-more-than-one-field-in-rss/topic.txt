@@ -1,0 +1,34 @@
+Title: Show more than one field in RSS
+----
+Date: 2013-09-05 21:30:56
+----
+Solved: 0
+----
+User: aqeelfikree
+----
+Text: All my posts start with an image, so my .md file has a field named Image and another one named Text. In templates/feed.php how do I combine image and text so that both these show up in RSS? Right now only images from each post is showing, without the description.
+
+    <?php 
+
+    $articles = $pages->find('home')->children()->visible()->flip()->limit(10);
+
+    snippet('feed', array(
+      'link'  => url('home'),
+      'items' => $articles,
+      'descriptionField'  => 'image',
+      'descriptionLength' => false,
+      'descriptionExcerpt' => false
+    ));
+
+    ?>
+
+I tried:
+
+    'descriptionField' => 'image, text'
+
+    'descriptionField' => 'image', 'text'
+
+    'descriptionField' => 'image',
+    'descriptionField' => 'text'
+    
+None of them worked. Any ideas?

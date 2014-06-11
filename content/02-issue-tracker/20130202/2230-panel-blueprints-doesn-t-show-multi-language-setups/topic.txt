@@ -1,0 +1,46 @@
+Title: Panel Blueprints doesn't show multi language setups
+----
+Date: 2013-02-02 22:30:21
+----
+Solved: 1
+----
+User: roman_oroco
+----
+Text: Panel with blueprint multi language setups:
+(image: http://f.cl.ly/items/2L2A322T2H330L2J0d0b/panel-blueprints-doesnt-show-multi-language-setups-1.png)
+
+Blueprint multi language setups:
+```
+<?php if(!defined('KIRBY')) exit ?>
+
+# article blueprint
+
+title: Article
+pages: false
+files: true
+fields:
+  title: 
+    label:
+      en: Title
+      it: Titolo
+    type: text
+
+  author: 
+    label:
+      en: Author
+      it: Autore
+    type: author
+
+  date:
+    label:
+      en: Date
+      it: Data
+    type: date
+    format: MM d, yy
+
+  […]
+```
+
+Version: Kirby 1.1.1, Panel 0.9.1
+
+**Update 1: Issue persists with Kirby 1.1.2 and Panel 0.9.2**

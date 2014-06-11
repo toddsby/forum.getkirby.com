@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2014-04-02 15:48:28
+----
+Text: Maybe if you use Panel, set up a drop down, or if you only have three, maybe a radio button group with these options and set status accordingly?

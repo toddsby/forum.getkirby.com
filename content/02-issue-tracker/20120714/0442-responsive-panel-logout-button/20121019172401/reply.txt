@@ -1,0 +1,8 @@
+User: bastianallgeier
+----
+Date: 2012-10-19 17:24:01
+----
+Text: @russbaldwin you are right. the z-index for the logout link is totally arbitrary and I can't tell why I set it that way to be honest :) It must have been late or something :) I just fixed it for the mobile and the regular version and it doesn't overlap the fancybox anymore. I'm not responsible for the z-indexes in the fancybox scripts btw. They are taken as is from the original fancybox version. 
+
+You can get the updated version from the dev branch: 
+<http://github.com/bastianallgeier/kirbycms-panel/tree/dev>

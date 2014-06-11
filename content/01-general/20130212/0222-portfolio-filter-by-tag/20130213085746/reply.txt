@@ -1,0 +1,12 @@
+User: ibuypink
+----
+Date: 2013-02-13 08:57:46
+----
+Text: Na, you don't need a separate page for the results. Just loop through the articles:
+
+	<?php foreach($articles AS $article): ?>
+		<h1><?php echo $article->title() ?></h1>
+		<?php echo kirbytext($article->text()) ?>
+	<?php endforeach ?>
+
+You've made sure you're not using an old template or something like that?

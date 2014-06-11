@@ -1,0 +1,56 @@
+User: arlamentis
+----
+Date: 2013-04-06 17:57:22
+----
+Text: The folder structure comes like that:
+```
+gallery
+ gallery.txt
+ style.css
+   paintings
+     paintings.txt
+     style.css
+   2009
+      2009.txt
+      img01
+      img02
+   photo
+       photo.txt
+       img01
+       img02
+  etc...
+```
+***
+Then I copy the treemenu snippet and load it into the painting template, the photos template etc...:
+
+```
+ ?php if(!isset($subpages)) $subpages = $site->pages() ?
+
+
+ul class="submenu">
+  <?php foreach($subpages = $pages->find('paintings')->children(); AS $p): ?
+  <li class="depth-<?php echo $p->depth() ?>"
+    <a<?php echo ($p->isActive()) ? ' class="active"' : '' ?> href="<?php echo $p->url() ?>"><?php echo $p->title() ?></a
+    <?php if($p->hasChildren()): ?
+    <?php snippet('treemenu', array('subpages' => $p->children())) ?
+    <?php endif ?>
+  /li>
+  ?php endforeach ?
+/ul
+```
+The custom template for the sections is there to laod the treemenu snippet and the fancybox gallery:
+```
+<?php snippet('header') ?>
+<?php snippet('menu') ?>
+<?php snippet('treemenu') ?>
+
+<section class="content">
+  <article>
+    <h1><?php echo html($page->title()) ?></h1>
+    <?php echo kirbytext($page->text()) ?>
+  </article>
+</section>
+
+<?php snippet('footer') ?>
+```
+I think that my trouble is that i don't get how the treesnipet work, the depth think.

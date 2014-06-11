@@ -1,0 +1,28 @@
+User: russbaldwin
+----
+Date: 2013-04-27 09:00:58
+----
+Text: Not tested but one way would be to edit:
+**site/panel/config/config.php**
+
+add **text/vcf** *I think*...
+
+```php
+// allowed mime types for file uploads
+c::set('upload.allowed', array(
+  'text/vcf', 
+  'image/jpeg', 
+  'image/pjpeg',
+  'image/png',
+  'image/x-png', 
+  'image/gif',
+  'application/pdf',
+  'application/gzip',
+  'application/zip',
+));
+```
+Also for **.htaccess** (for viewing/downloading)
+
+```php
+AddType text/x-vcard                  		vcf
+```

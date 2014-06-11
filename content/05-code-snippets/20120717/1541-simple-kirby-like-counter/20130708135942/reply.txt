@@ -1,0 +1,32 @@
+User: _frankallen
+----
+Date: 2013-07-08 13:59:42
+----
+Text: Today I tried to apply this snippet.
+In my eyes, only the like.php was a problem.
+
+I didn't know how it works with the base code from Bastian, so i tried my own:
+
+//$uid = param('post');
+$uid = $_GET['entry'];
+
+Changed this line in like.php - rest worked well.
+Other step is to creat an own ajax request for pushing likes into the text-files. Something like:
+
+$('h2 i.icon-heart').click(function() {
+        if($(this).hasClass('clickable')) {
+            var text = parseFloat($(this).attr('data-original-title'));
+            if(text==0) {
+                $(this).attr('data-original-title', text+1+' Herz');
+            } else {
+                $(this).attr('data-original-title', text+1+' Herzen');
+            }
+            $(this).removeClass('clickable');
+            var url = $(this).parent().parent().attr('data-url');
+            url = url.substr(5);
+            $.ajax({
+                type: 'POST',
+                url: 'like/?entry='+url
+            });
+        }
+    });

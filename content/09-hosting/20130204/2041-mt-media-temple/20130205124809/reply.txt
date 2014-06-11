@@ -1,0 +1,5 @@
+User: roman_oroco
+----
+Date: 2013-02-05 12:48:09
+----
+Text: @bastianallgeier Wow, this is not good. Well (gs) offers **GPU Usage Reports > Top Scripts & Files** which may helps to understand more about delays issues.

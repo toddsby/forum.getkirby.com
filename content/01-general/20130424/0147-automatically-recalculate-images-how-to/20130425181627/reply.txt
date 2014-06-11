@@ -1,0 +1,23 @@
+User: staroversky
+----
+Date: 2013-04-25 18:16:27
+----
+Text: Got it working. The mistake that I made was simply adding this code to the end of my css file.
+
+     img {
+       max-width: 100%;
+     }
+
+Instead, I added to to this section
+
+     img {
+     	max-width: 100;
+     	outline: 0;
+     	border: 0;
+     }
+
+Thank you for your help. On top of the book that you recommended about HTML and CSS, I think that these sites are a good start too:
+
+<http://www.w3schools.com/html/default.asp>
+
+<http://www.w3schools.com/css/css_intro.asp>

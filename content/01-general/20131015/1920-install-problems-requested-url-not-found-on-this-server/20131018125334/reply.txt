@@ -1,0 +1,7 @@
+User: texnixe
+----
+Date: 2013-10-18 12:53:34
+----
+Text: Well, usually this line serves to tell the server to process .html files as php files, so you can include your php script in .htm or .html files (eg. to hide the fact that you are using php as your scripting language)
+
+You definitely need the .htaccess that ships with Kirby, you can try to simply use that .htaccess and if for some reason or other it doesn't work without that first line from your provider's .htaccess, simply copy it back in.

@@ -1,0 +1,7 @@
+User: texnixe
+----
+Date: 2013-08-28 09:11:41
+----
+Text: You can either put a blank index.html file in the folder or edit the .htaccess by adding
+
+Options -Indexes

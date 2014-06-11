@@ -1,0 +1,13 @@
+User: Fhuery
+----
+Date: 2013-03-11 15:24:29
+----
+Text: I actually found out from Bastian that my issue is that I have not made blueprints for that page. I am not quite sure how to do that. What would my fields be? This is my markdown:
+
+'Movies_image_1: (image: 01.jpeg)
+----
+Movies_title_1: 100 years of Paramount: The studio and its legend
+----
+Movie_date_1: 15th January 2013
+----
+Movies_text_1: Lorem ipsum dolor sit amet, consectetuer adipiscing elit.'

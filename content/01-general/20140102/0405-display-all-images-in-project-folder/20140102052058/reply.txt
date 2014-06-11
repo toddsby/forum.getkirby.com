@@ -1,0 +1,26 @@
+User: fitzage
+----
+Date: 2014-01-02 05:20:58
+----
+Text: In your example, you're looping through child pages and then pulling the first image. You need to also loop through the images the same way you're looping through the child pages.
+
+Something like this:
+
+```php
+<div class="project">
+<h1 class="description"><?php echo html($data->title()) ?></h1>
+<p class='caption'><span>
+<?php echo kirbytext($data->text()) ?>
+</span></p>
+
+<div class='images'>
+ 
+  <?php foreach($data->children()->visible() as $project): ?>
+    <?php foreach($project->images() AS $image): ?>
+      <img src="<?php echo $image->url() ?>" alt="<?php echo html($project->title()) ?>" />
+    <?php endforeach ?>
+  <?php endforeach ?>
+ 
+</div>
+</div>
+```

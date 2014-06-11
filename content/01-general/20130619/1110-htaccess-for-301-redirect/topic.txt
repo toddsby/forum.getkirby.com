@@ -1,0 +1,19 @@
+Title: .htaccess for 301 redirect
+----
+Date: 2013-06-19 11:10:51
+----
+Solved: 1
+----
+User: 5w
+----
+Text: Hi guys,
+
+I'm currently looking for a solution that will redirect a specific folder(before Kirby install) to a new folder(after kirby install)
+
+I'd like to make the following example work
+
+    http://url.com/articles/articleName/ --> http://url.com/articles/category/article-name/
+
+Thank you in advance
+
+-Shah

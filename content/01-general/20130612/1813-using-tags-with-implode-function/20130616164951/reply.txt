@@ -1,0 +1,18 @@
+User: tillpro
+----
+Date: 2013-06-16 16:49:51
+----
+Text: ~~~~
+<?php
+	$blog = $pages->find('blog');
+	$tags = tagcloud($blog);
+		
+	$tagNames = array();
+	
+	foreach($tags as $tag) {
+	  $tagNames[] = $tag->name();
+	}
+?>
+
+<p><?= implode(', ', $tagNames); ?></p>
+~~~~

@@ -1,0 +1,5 @@
+User: robrainfall
+----
+Date: 2012-05-16 20:29:38
+----
+Text: so the get is also for the $_POST!, didn't know that. i thought only for the $_GET because of the nameing. super.

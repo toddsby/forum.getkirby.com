@@ -1,0 +1,11 @@
+User: russbaldwin
+----
+Date: 2013-02-22 10:53:09
+----
+Text: The above code has been updated to match the v0.4 in [GitHub](https://github.com/shoesforindustry/kirbycms-extensions/tree/master/plugins).
+
+Thanks to Paul who pointed out a few issues with sorting and titles with spaces in, (due to me exploding the string on a space.)
+Mmmm...
+Now using a tilde '~' so unless you have a tilde in your 'alphabetic' key title/string, then you should be OK.
+
+Let me know if you have further problems via GitHub, thanks again Paul for spotting these.

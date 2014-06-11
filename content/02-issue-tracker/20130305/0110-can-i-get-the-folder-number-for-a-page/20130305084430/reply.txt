@@ -1,0 +1,12 @@
+User: russbaldwin
+----
+Date: 2013-03-05 08:44:30
+----
+Text: Daivd, this is probably not a support issue, rather a question so it might have been better in [*Forum → General*](http://getkirby.com/forum/general)?
+
+I'm sure you realise that using the folder number may not be the best way to keep a constant and fixed reference to a page but you can get to it with: 
+```php 
+$pagearray->num()
+```
+
+Please mark this post as solved if your query has been answered.

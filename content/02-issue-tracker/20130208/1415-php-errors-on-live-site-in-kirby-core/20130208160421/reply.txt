@@ -1,0 +1,15 @@
+User: russbaldwin
+----
+Date: 2013-02-08 16:04:21
+----
+Text: Check the PHP version and make sure it has re-write and anything else you need in it. Also check if you can use a .htaccess file on this host and that you have copied it across and it is correct.
+
+Also make sure you copied all the files across, FTP can sometimes be a bit weird and that the rights to folders/files are correct.
+
+Something you are loading before the main page is returning an incorrect value.
+
+```html 
+<br />
+<b>Notice</b>:  Uninitialized string offset:  0 in <b>/var/www/vhosts/zowel.eu/httpdocs/kirby/lib/variables.php</b> on line <b>27</b><br />
+<!DOCTYPE html>
+```

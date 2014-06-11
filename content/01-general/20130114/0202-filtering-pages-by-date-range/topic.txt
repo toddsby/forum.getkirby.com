@@ -1,0 +1,14 @@
+Title: Filtering pages by date range?
+----
+Date: 2013-01-14 02:02:06
+----
+Solved: 0
+----
+User: tykisha
+----
+Text: Hello all, 
+I'm not sure if I'm missing something simple or I've tripped up on something not-so-simple. Is there a straight forward way to query for all of the pages with a date greater than today? 
+
+For example when dealing with pages as events, I want to be able to query for "upcoming" events forgoing any with a start date prior to today.
+
+Thanks in advance for any insight.

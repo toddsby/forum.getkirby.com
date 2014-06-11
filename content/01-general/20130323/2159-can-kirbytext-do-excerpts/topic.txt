@@ -1,0 +1,15 @@
+Title: Can kirbytext() do excerpts?
+----
+Date: 2013-03-23 21:59:03
+----
+Solved: 0
+----
+User: bobrockefeller
+----
+Text: What I'd like to do is present excerpts of blog articles on my main blog page. `excerpt()` will do some of what I need, but it strips the formatting (HTML or Markdown) and I want to keep the formatting (Markdown, in my case).
+
+Will `kirbytext()` take a length parameter?
+
+Is there another trick to extract the first portion of an article and feed that to `kirbytext()`?
+
+Bob

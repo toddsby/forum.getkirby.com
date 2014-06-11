@@ -1,0 +1,9 @@
+User: fitzage
+----
+Date: 2012-11-26 18:35:53
+----
+Text: Yes, that fixes the setting.
+
+It still bogs down when trying to drag the article to be visible, though. If I pause a bit while dragging it catches up, and then I can put it in the right place. Submitting that change takes awhile, which is weird because it should only have to rename one folder, but it seems like it might be doing something with the entire list.
+
+I'm not sure my main publisher is patient enough to do that pause, and she's going to be dropping stuff in the wrong place. This isn't really a huge issue because everything is sorted by date anyway, it just makes it harder for her to go edit something that's already done.

@@ -1,0 +1,17 @@
+User: bastianallgeier
+----
+Date: 2012-10-29 11:33:06
+----
+Text: Super interesting thread guys!!
+
+In general it should be absolutely no problem to host your assets on a CDN – no matter which. The assets folder that ships with the default version of Kirby is only a suggestion anyhow. You are free to include css, js and all kinds of images, fonts and images for your site design however you prefer. That means that you just have to link to files on a CDN instead of local files in the assets folder. 
+
+But for images, videos, etc, in the content folders it's definitely going to be more complicated – or even impossible. A lot of Kirby's functionalities build upon the idea of having direct access to all files in the content folder and things like hasImages(), the entire file methods or the thumbs plugin wouldn't work. I also don't see that this is changeable in an easy way and it would probably not end in having huge benefits out of it. The preformance of the site would go down big time, since reading files on a CDN – to create a thumbnail for example – takes way longer than on your local disk. 
+
+But it's absolutely no problem to get the best of both worlds. When you expect huge amounts of traffic, I would always try to host the assets on a CDN as I said before and for images or videos in the content I would also try to outsource huge files to a CDN and include them in your content by just linking them directly. 
+
+i.e. the Kirbytext image tag is not limited to local files at all:
+
+(image: http://cl.ly/KUnC/Screen%20Shot%202012-10-29%20at%2011.34.03.png)
+
+I think the best is always to look for the most practicable way to go. Don't over-engineer right from the beginning.

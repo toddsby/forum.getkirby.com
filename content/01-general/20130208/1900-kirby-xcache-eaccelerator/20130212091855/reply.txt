@@ -1,0 +1,9 @@
+User: russbaldwin
+----
+Date: 2013-02-12 09:18:55
+----
+Text: Well it may work, if you can run it on your host? However, it maybe it is just the host? Shared hosts and some virtual machines are sometimes slow and under resourced?
+
+>"Using Adaptive Images clients have to make manually different  versions per image, this is not fantastic. "
+
+We found just visiting the page produces the 'ai-cache' image, visit on a few different devices and the images are made ;-)

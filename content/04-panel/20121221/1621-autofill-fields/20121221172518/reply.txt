@@ -1,0 +1,9 @@
+User: tysongach
+----
+Date: 2012-12-21 17:25:18
+----
+Text: I don’t have a direct solution for you, but see (link: http://getkirby.com/forum/general/topic:98 text: this forum thread) which answers a question along the same lines (auto-fill author field).
+
+For searching around the Kirby forum, I always use a Google search like this:
+
+site:getkirby.com/forum autofill

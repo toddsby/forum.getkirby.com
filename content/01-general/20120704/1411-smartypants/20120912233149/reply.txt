@@ -1,0 +1,11 @@
+User: tmfsd
+----
+Date: 2012-09-12 23:31:49
+----
+Text: Okay, next up: Smartypants and Markdown + Markdown Extra?
+
+**Update:** Whoops, I think I got it. This solution:
+
+	<?php echo smartypants(markdown($page->text())) ?>
+
+seems to work just fine.

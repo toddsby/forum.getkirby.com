@@ -1,0 +1,16 @@
+User: NathVallieres
+----
+Date: 2013-05-22 22:46:38
+----
+Text: I totally agree. I was just going to suggest it.
+
+Currently it is quite easy via the markup, but I'm building my own portfolio and know how to do it. However, I'd like to suggest this great CMS for upcoming clients and I'd need more buttons to do that since I can't ask them to use the markup directly. I'd need a Preview (HTML) / Markdown (Raw text) switch button for clients with little to no knowledge.
+
+I'd need at least:
+- underline (I know it's not supported but the current markdown but we can dream)
+- separator line [hr]
+- unordered and ordered list (with sub levels)
+- blockquote and code (with sub levels)
+- flash and video (youtube/vimeo) insert
+
+I'm currently trying to add them on the panel myself but I'm not sure if I'll be able to add them all with my current knowledge.

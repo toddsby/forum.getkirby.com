@@ -1,0 +1,9 @@
+Title: Blog on home page instead of /blog?
+----
+Date: 2013-01-28 04:36:41
+----
+Solved: 1
+----
+User: nathaniel_h
+----
+Text: Thanks for your help again. I'm sort of a newbie to all of this, but I desperately went to leave Wordpress and I feel like I could learn it.

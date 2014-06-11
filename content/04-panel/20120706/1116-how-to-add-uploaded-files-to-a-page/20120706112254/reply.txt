@@ -1,0 +1,9 @@
+User: bastianallgeier
+----
+Date: 2012-07-06 11:22:54
+----
+Text: When you set 
+
+files: true
+
+in your blueprints you will see an upload button in the files section of each page.

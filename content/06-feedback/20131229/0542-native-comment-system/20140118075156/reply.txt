@@ -1,0 +1,5 @@
+User: chrisburton
+----
+Date: 2014-01-18 07:51:56
+----
+Text: Thanks for the feedback you two. I have agreed with the others that this would be better off as a plugin which I am actively developing with the help of a few people. However, we may just have to agree to disagree on Disqus. Probably one of the ugliest comment systems I've seen and used.

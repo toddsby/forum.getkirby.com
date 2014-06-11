@@ -1,0 +1,5 @@
+User: swenflea
+----
+Date: 2013-06-08 06:02:49
+----
+Text: If you create a template called 'default.php' then no matter what the page is called if there is no template linking to the name it will use the default template.

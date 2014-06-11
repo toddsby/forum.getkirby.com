@@ -1,0 +1,5 @@
+User: plartz
+----
+Date: 2013-03-11 12:01:18
+----
+Text: Okay, just forget about my example, it is just confusing – I just want to escape something in markdown, but the panel saves everything but the backslash, whereas changing the content textfile directly works fine. So I'd guess – if the issue occurs not only at my installations – that this is "one for Bastian" ;)

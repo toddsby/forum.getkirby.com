@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2013-08-02 19:29:32
+----
+Text: I'm not sure if the Kirby search plugin supports showing an excerpt surrounding the search term, which is often desired for these things. It might, but I'm not sure. Google CSE works well with Kirby, and does provide this feature. It also lets you lump multiple properties into one search, which is the primary reason we use it.
+
+There is a downside to CSE though: new pages won't show up immediately, and old removed pages won't disappear immediately.

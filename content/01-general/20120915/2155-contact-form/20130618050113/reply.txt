@@ -1,0 +1,10 @@
+User: federicojm
+----
+Date: 2013-06-18 05:01:13
+----
+Text: Hi Guys
+
+Plugin works as intended (thanks)!
+Do any of you have tried to extend the form to include select fields?
+
+Cheers

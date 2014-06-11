@@ -1,0 +1,25 @@
+User: russbaldwin
+----
+Date: 2013-05-22 13:25:58
+----
+Text: If on a Mac you will also want 777 for permissions on content and sub folders of it with the default Apache server.
+
+Assuming Mac and Apache, I'd leave everything as default and set up Apache virtual hosts (**httpd-vhosts.conf**) for sub folders, it's so much nicer ;-)
+
+```
+<VirtualHost *:80>
+    ServerAdmin fred@domain.tld
+    DocumentRoot "/Users/fred/Sites/sitefolder/"
+    ServerName sitefolder.dev
+    ServerAlias www.sitefolder.dev
+	<Directory DocumentRoot>
+	    AllowOverride All
+	    Order allow,deny
+	    Allow from all
+	</Directory>
+    ErrorLog "/private/var/log/apache2/folder.dev-error_log"
+    CustomLog "/private/var/log/apache2/folder.dev-access_log" common
+</VirtualHost>
+```
+
+Don't forget to change your hosts and restart Apache server and make sure it is running OK.

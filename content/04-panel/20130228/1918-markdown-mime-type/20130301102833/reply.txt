@@ -1,0 +1,7 @@
+User: tbnv
+----
+Date: 2013-03-01 10:28:33
+----
+Text: @tysongach: He is right, I know that and it's done. Now I just want to allow .md files to be uploaded. My Kirby install already uses .md files. ;)
+
+@plartz: As you can read in my initial post, I wrote that "Some people say it's text/x-web-markdown or text/x-markdown but it still doesn't work." I got these clues from Google, obviously. ;)

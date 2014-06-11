@@ -1,0 +1,7 @@
+User: lukasbestle
+----
+Date: 2014-04-22 09:55:20
+----
+Text: If you mean a REST API, (twitter: @timkaechele) started one some time ago for Kirby 2: <https://github.com/TimKaechele/Api.plugin>
+
+I guess that could already work with the current version of Kirby 2, but not with Kirby 1. We'll have to see.

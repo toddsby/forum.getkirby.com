@@ -1,0 +1,25 @@
+Title: WordPress <!--more--> like functionality
+----
+Date: 2012-09-19 08:21:48
+----
+Solved: 0
+----
+User: afrais
+----
+Text: If you’ve ever used WordPress, you’re probably familiar with the `<!--more-->` tag.
+
+This tag can be placed anywhere in your blog article, and it will cut the text off and create “click to continue” link to read the full article on the article page.
+
+&hellip;It’s similar to how the Kirby `excerpt()` function works, but instead, you can control where the article cuts off.
+
+I played around with the code in the post (link: http://getkirby.com/forum/general/topic:78 text: here), but couldn’t figure out how to create this functionality.
+
+Has anybody done something like this? Or would be willing to share some insights on how I might accomplish this? :D
+
+****
+
+Loving Kirby by the way. After staying on one CMS (WordPress) for so long, you try new things like this and it’s like enter into a whole new world.
+
+I’m stoked to switch my business website from WordPress to Kirby.
+
+Thanks for the help!

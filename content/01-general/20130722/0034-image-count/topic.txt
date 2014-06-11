@@ -1,0 +1,24 @@
+Title: Image Count
+----
+Date: 2013-07-22 00:34:20
+----
+Solved: 1
+----
+User: azharc
+----
+Text: Hey all, 
+
+I'm trying to get a count of the number of images in a project. I haven't found a reference to an imageCount function, but I did find the value I'm looking for by doing a var_dump of $page->images :
+
+	array(2) {
+	  ["pagination"]=&gt;
+	  NULL
+	  ["_"]=&gt;
+	  array(8) {
+	    ["01.jpg"]=&gt;
+	    object(image)#379 (2) {
+	      ["meta"]=&gt;
+
+What I need is line 5, the length of that array. How can I echo it?
+
+Thanks.

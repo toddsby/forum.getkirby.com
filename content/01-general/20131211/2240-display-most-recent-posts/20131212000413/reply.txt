@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-12-12 00:04:13
+----
+Text: Yes, I think you need your limit AFTER your sort. Now you're getting 5 in whatever order, then sorting. You need to sort them, then get 5.

@@ -1,0 +1,5 @@
+User: zavadesign
+----
+Date: 2013-04-21 12:53:47
+----
+Text: From my initial review of Kirby, am liking what I'm seeing, but I do think the theme system could be revised. I think everything for a theme should be in one folder, so you can either change that one folder or switch to point to a particular folder somewhere. As it is, files all over the place, it is a little bit of a pain to switch a site's theme over.

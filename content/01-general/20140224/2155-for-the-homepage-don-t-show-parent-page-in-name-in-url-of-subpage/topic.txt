@@ -1,0 +1,9 @@
+Title: For the homepage, don't show parent page in name in url of subpage
+----
+Date: 2014-02-24 21:55:42
+----
+Solved: 0
+----
+User: syropian
+----
+Text: If for instance, I create a page called "home" and its going to contain a list of subpages that are articles, when I click  an article, the url will be something like `my site.com/home/article-blah-blah`. Taking "home" out of the url actually works, but using `$page->url()` includes the "home" part, even if that page is the home page of the site. Anyway, either through a config value, or htaccess bit that doesn't show the "home" bit of subpage urls of the home page?

@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-02-12 15:21:05
+----
+Text: Did you copy across the hidden .htaccess file and maybe edit the config file? As per the installation readme.mdown?

@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2012-10-19 17:36:09
+----
+Text: Works for me, many thanks! I've only been using KirbyCMS for four days and I'm already loving it. 
+
+I was having some real problems updating a client site based upon a MySQL powered CMS as part of a responsive re-design/upgrade. I decided to give Kirby a try and am very pleased I did. I've still got a few more weeks of work to go, but it is shaping up nicely.

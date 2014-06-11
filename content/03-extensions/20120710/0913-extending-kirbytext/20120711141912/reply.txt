@@ -1,0 +1,17 @@
+User: bastianallgeier
+----
+Date: 2012-07-11 14:19:12
+----
+Text: To be honest, I'm using a super cheap trick for this :)
+
+I write tags with a trailing slash like this: 
+
+```
+(\\thetag: theattribute)
+```
+
+and in my templates I'm using this code to remove the tag after kirbytext has already been executed:
+
+```php
+<?php echo str_replace('(\\', '(', kirbytext($page->text())) ?>
+```

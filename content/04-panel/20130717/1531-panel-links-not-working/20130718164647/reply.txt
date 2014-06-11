@@ -1,0 +1,10 @@
+User: russbaldwin
+----
+Date: 2013-07-18 16:46:47
+----
+Text: Try in your  locally (non-subfolder) setup with
+`RewriteBase /` in .htaccess and in config `c::set('subfolder', false);`
+
+This assumes your PHP had mod_rewite available (most do), but you could also try `c::set('rewrite', false);` to trun of the mod re-writing for testing.
+
+If not I suspect something else is not right, things not in the right place? You you list out your folders for your local install.

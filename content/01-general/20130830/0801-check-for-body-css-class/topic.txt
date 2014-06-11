@@ -1,0 +1,17 @@
+Title: Check for body css class?
+----
+Date: 2013-08-30 08:01:49
+----
+Solved: 0
+----
+User: kevincgreene
+----
+Text: Does anybody know a good way to check with kirby/php to see if an element (in this case the body) has a specific css class assigned to it? 
+
+Basically I would like to check to see if a class is assigned on the body tag in my header snippit (there I have things like class="<?php echo $page->uid() ?>" or class="<?php echo browser::css() ?>" etc. ) and if it does exist then I would print out some additional html in my template file.
+
+Any thoughts would be appreciated. 
+
+Thanks,
+
+Kevin

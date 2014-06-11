@@ -1,0 +1,22 @@
+User: thomasgreenau
+----
+Date: 2013-10-24 05:05:08
+----
+Text: Email from the webhost:
+
+The issue appears to be with the function declaration in " /home/thomasgr/public_html/dptest/kirby/lib/kirby.php". I read in Kirby support forums that the MySQL database support is not required for Kirby CMS. However, when I checked the file " /home/thomasgr/public_html/kirby/kirby/lib/kirby.php", I noticed a database connection definition section :
+
+======
+
+static function connect() {
+
+$connection = self::connection();
+$args = func_get_args();
+$host = a::get($args, 0, c::get('db.host', 'localhost'));
+$user = a::get($args, 1, c::get('db.user', 'root'));
+$password = a::get($args, 2, c::get('db.password'));
+$database = a::get($args, 3, c::get('db.name'));
+
+======
+
+The error occurs when the function "get()" is declared more than once in a file. Unfortunately, the issue is out side of our support boundaries. Please consult with a developer or contact Kirby developers (http://getkirby.com/contact) so as to fix the issue.

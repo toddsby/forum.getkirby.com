@@ -1,0 +1,28 @@
+Title: Extracting text from custom "Category" text field
+----
+Date: 2013-07-12 22:49:18
+----
+Solved: 1
+----
+User: randymdaniel
+----
+Text: Sorry guys, I have minimal PHP experience, here is my issue:
+I've got custom fields set up in my blog blueprint that looks something like this:
+
+    category:
+      label: Category
+      type: text
+
+It works great. I'm able to input a value such as "Travel", and it displays when I do:
+
+    <?php echo $article->category() ?>
+
+Problem is, I want to display a custom image based on each of my categories.  So I tried doing something like this... 
+
+    <?php if ($article->category() !='travel'): ?>
+    (travel image)
+    <?php else: ?>
+    (default image)
+    <? endif ?>
+
+But that doesn't seem to work. Any help would be greatly appreciated.

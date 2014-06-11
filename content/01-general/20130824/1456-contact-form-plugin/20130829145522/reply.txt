@@ -1,0 +1,11 @@
+User: texnixe
+----
+Date: 2013-08-29 14:55:22
+----
+Text: Because you want to return an array, you need to give the checkbox an array-like name, so you need to replace
+
+name="needs"
+
+with
+
+name="needs[]"

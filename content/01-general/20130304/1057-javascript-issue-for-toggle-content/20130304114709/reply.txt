@@ -1,0 +1,9 @@
+User: russbaldwin
+----
+Date: 2013-03-04 11:47:09
+----
+Text: Not really a Kirby thing but...
+Can you make sure everything is actually loading:
+- css
+- jQuery
+- toggle.js

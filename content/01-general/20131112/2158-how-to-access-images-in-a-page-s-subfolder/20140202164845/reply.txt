@@ -1,0 +1,13 @@
+User: boerup
+----
+Date: 2014-02-02 16:48:45
+----
+Text: Thank you! That works. One (last?) question:
+
+If I want to use the gallery snippet and grab images from a subfolder (using the thumb plugin), how would I do that? I now have the (fancybox) gallery working and it grabs images from the page folder: 
+
+	<?php foreach($page->images() as $image): ?>
+ 	 <div>
+ 	  <a rel="gallery" href="<?php echo $image->url() ?>"><?php echo thumb($image, array('width' => 250, 'crop' => false)) ?></a>
+	  </div>
+ 	 <?php endforeach ?>

@@ -1,0 +1,5 @@
+User: richgcook
+----
+Date: 2013-07-02 10:43:10
+----
+Text: Just a heads up; GIFs that are resized server-side don't animate. I had this issue with Wordpress.

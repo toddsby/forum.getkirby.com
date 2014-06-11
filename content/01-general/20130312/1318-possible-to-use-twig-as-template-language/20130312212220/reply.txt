@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-03-12 21:22:20
+----
+Text: Don't think so, but it should be pretty easy to translate any Twig code to PHP?

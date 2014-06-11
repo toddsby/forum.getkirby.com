@@ -1,0 +1,39 @@
+Title: Working With Nested Variables
+----
+Date: 2013-09-13 22:14:01
+----
+Solved: 0
+----
+User: smalltransport
+----
+Text: I am trying to configure the panel to work with a new site and I am having trouble setting up a blueprint for a file with nested variables. Following is an example strucure:
+
+Questions:
+
+question-1:
+  Text: this is a question
+  Phase: 1
+  Description: this is a description for question 1
+
+question-2:
+  Text: this is a question
+  Phase: 2
+  Description: this is a description for question 1
+
+----
+
+Methods:
+
+method-1:
+  Text: this is a method
+  Phase: 1
+  Description: this is a description for method 1
+
+method-2:
+  Text: this is a method
+  Phase: 1
+  Description: this is a description for method 2
+
+
+
+The problem I am having is that I am unable to get the nested variables to display correctly in kirby panel. Anyone know of perhaps it is not set up to deal with nested variables in this way?

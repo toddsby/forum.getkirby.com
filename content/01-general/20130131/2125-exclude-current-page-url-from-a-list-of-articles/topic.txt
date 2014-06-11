@@ -1,0 +1,18 @@
+Title: Exclude current page/url from a list of articles
+----
+Date: 2013-01-31 21:25:05
+----
+Solved: 1
+----
+User: wordius
+----
+Text: I want to list the three latest articles at the foot of each main article page. So far I have the following code:
+
+    <h2>You might also be interested in…</h2>
+    <ul>
+    <?php foreach($pages->find('blog')->children()->visible()->flip()->limit(3) as $article): ?>
+    <li><a href="<?= $article->url() ?>"><?= html($article->title()) ?></a></li>
+    <?php endforeach ?>
+   </ul>
+
+But when the article being viewed happens to be one of the latest three articles I would like to exclude it from the list. I assume there’s something like ‘hide if current url’, but can’t figure out the correct syntax.

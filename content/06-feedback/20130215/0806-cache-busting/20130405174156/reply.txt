@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-04-05 17:41:56
+----
+Text: @baderkamal I'm intrigued by that approach, but wouldn't that generate a new random number on every page, and every visit, essentially defeating the purpose of caching the file in the first place?

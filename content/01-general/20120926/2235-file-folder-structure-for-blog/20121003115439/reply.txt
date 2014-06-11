@@ -1,0 +1,5 @@
+User: apolaine
+----
+Date: 2012-10-03 11:54:39
+----
+Text: The second one would work for me and, if moving from Wordpress, also solve many of the permalinks, because that /2012/09/12/article-slug is the structure anyway. Is this already possible or does Kirby expect there to only be one level of folders?

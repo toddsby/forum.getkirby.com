@@ -1,0 +1,5 @@
+User: plartz
+----
+Date: 2013-02-01 09:49:53
+----
+Text: @russbaldwin I think that's exactly the point: he wants kirby to live in a subfolder ("atest"), but the urls to work as if it lived in the root-folder itself (http://localhost/panel, http://localhost/sitename). That's how I understood it :D

@@ -1,0 +1,22 @@
+Title: KirbyCMS and Git
+----
+Date: 2012-11-30 21:15:35
+----
+Solved: 0
+----
+User: danielweidner
+----
+Text: Hey,
+I currently setup a web project using kirby cms. In order to make updating the system a breeze I wonder how you would setup the project using git? Unfortunately I am new to git (currently switching from subversion) and still struggling with some of its concepts.
+
+Basically I want the project to allow for the following:
+1. Incorporate changes from the official kirby cms dev branch.
+2. Customize the core of the kirby cms/toolkit
+3. Customize site content/assets/config
+
+So how would I start? Simply clone the kirbycms repository and change the files I want to modify? But how would I commit my changes to my own repository then? Should I instead include kirbycms as submodule? What is your git-workflow for a kirbycms powered site?
+
+Quite confusing for me as a git-starter...
+
+Greetings,
+Daniel

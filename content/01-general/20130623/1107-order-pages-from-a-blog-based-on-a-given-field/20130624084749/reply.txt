@@ -1,0 +1,11 @@
+User: guillaumelobet
+----
+Date: 2013-06-24 08:47:49
+----
+Text: Thanks a lot for these answers. Actually, I was not clear in my question. What I would like to do is first to sort all the pages by a given field (p.e. 'author') and them retrieve the first results (e.g. the first ten). The problem is, when I do this:
+
+`$articles = $pages->find('blog')->children()->limit(10)->sortBy($sort='author');`
+
+it retrieves to first ten and then sort them by authors, which gives a completely different result.
+
+Is there is way to first sort the pages and the retrieve them?

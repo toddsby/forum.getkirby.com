@@ -1,0 +1,32 @@
+Title: Increase Memory for Thumbs Plugin
+----
+Date: 2013-02-07 22:57:41
+----
+Solved: 1
+----
+User: roman_oroco
+----
+Text: So it's pretty simple, this code is generate 6 images in different sizes for each image in page with help of Scott's (link: https://github.com/scottjehl/picturefill text: Picturefill popup: yes) which provide support of (link: http://picture.responsiveimages.org text: W3C Picture element popup: yes):
+```
+<?php if($page->hasImages()): ?>
+<ul>
+  <?php foreach($page->images() as $image): ?>
+  <li>
+    <div data-picture>
+      <div data-src="<?php echo thumb($image, array('width' => 320, 'height' => 214), false) ?>"></div>
+      <div data-src="<?php echo thumb($image, array('width' => 640, 'height' => 428), false) ?>" data-media="(min-device-pixel-ratio: 2.0)"></div>
+      <div data-src="<?php echo thumb($image, array('width' => 768, 'height' => 514), false) ?>" data-media="(min-width: 768px)"></div>
+      <div data-src="<?php echo thumb($image, array('width' => 1536, 'height' => 1028), false) ?>" data-media="(min-width: 768px) and (min-device-pixel-ratio: 2.0)"></div>
+      <div data-src="<?php echo thumb($image, array('width' => 990, 'height' => 660), false) ?>" data-media="(min-width: 990px)"></div>
+      <div data-src="<?php echo thumb($image, array('width' => 1980, 'height' => 1324), false) ?>" data-media="(min-width: 990px) and (min-device-pixel-ratio: 2.0)"></div>
+    </div>
+  </li>
+  <?php endforeach ?>
+</ul>
+<?php endif ?>
+```
+
+I have this error message after only the first image is been generated:
+```
+Fatal error: Allowed memory size of 33554432 bytes exhausted (tried to allocate 4904097 bytes) in /html/site/plugins/thumb/thumb.php on line 246
+```

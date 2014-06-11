@@ -1,0 +1,18 @@
+Title: Caching explanation
+----
+Date: 2012-11-29 11:14:51
+----
+Solved: 1
+----
+User: russbaldwin
+----
+Text: 1. Does anyone have a better explanation of what the various caching options actually do, I'm a little vague on this.
+
+2. Also how would these affect dynamic pages like a gallery or contact or search forms etc.?
+
+
+		c::set('cache', false);
+		c::set('cache.autoupdate', false);
+		c::set('cache.data', false);
+		c::set('cache.html', false);
+		c::set('cache.ignore', array('excludeme', 'andme'));

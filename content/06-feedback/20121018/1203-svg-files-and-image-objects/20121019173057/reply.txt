@@ -1,0 +1,9 @@
+User: bastianallgeier
+----
+Date: 2012-10-19 17:30:57
+----
+Text: I never thought about adding SVG to the list of images, but that's definitely something to consider for the next version. I'm not sure though that PHP is able to fetch the width and height of SVGs and it won't be possible to use thumb generation on them of course. 
+
+Do you really need them to be placed dynamically in your content? Otherwise you can just store SVGs for your layout right in the assets folder or anywhere else and embed them in your css files or directly in your templates like you normally would. 
+
+For other retina-ready approaches you should always be able to implement them with Kirby, since you can add all kinds of javascript or css trickery to your site. And for images in your content I would recommend to go for high-res jpgs, use a bit more compression and let them be downscaled by the browser.

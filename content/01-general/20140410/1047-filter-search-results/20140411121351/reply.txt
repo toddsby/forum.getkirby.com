@@ -1,0 +1,22 @@
+User: conefreykoedam
+----
+Date: 2014-04-11 12:13:51
+----
+Text: I got an e-mail response from Bastian so I just post that here:
+
+I think the best way to set this up is with a different "in" parameter: 
+
+$in = get('in') == 'printwork' ? 'printwork' : 'digital';
+
+$search = new search(array(
+'searchfield' => 'search',
+'in' => 'files/' . $in
+));
+
+
+That way you can have a query parameter in your URL, which can switch where to search: 
+
+http://yourdomain.com/search/?in=printwork...
+http://yourdomain.com/search/?in=digital...
+
+I hope this helps

@@ -1,0 +1,28 @@
+User: _nilswerner
+----
+Date: 2014-03-21 14:42:10
+----
+Text: I have written [a small extension](http://getkirby.com/forum/extensions/topic:1166) that abstracts all the `tpl::set` and `tpl::get` logic and is more consistent with Kirby templating system.
+
+Using it, the above essentially boils down to
+
+    <ul class="nav nav-list">
+        <?php foreach($site->pages()->visible() AS $p): ?>
+            <li><a href="<?php echo $p->url() ?>"><?php echo $p->title() ?></a></li>
+        <?php endforeach ?>
+        <?php section::get('submenu') ?>
+    </ul>
+
+in the snippet and 
+
+    <?php section::start('submenu') ?>
+    <?php snippet('treemenu',array('subpages' => array($page->parent()))) ?>
+    <?php section::end() ?>
+
+    <?php snippet('header') ?>
+        <div class="container">
+            <p>This is my body content.</p>
+        </div>
+    <?php snippet('footer') ?>
+
+in the template

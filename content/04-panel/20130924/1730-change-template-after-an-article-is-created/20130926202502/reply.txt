@@ -1,0 +1,7 @@
+User: JanStieler
+----
+Date: 2013-09-26 20:25:02
+----
+Text: Hi,
+sorry I was a little bit confused :).
+The solution is to rename the .txt file in the content folder.

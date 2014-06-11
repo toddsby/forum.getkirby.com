@@ -1,0 +1,59 @@
+User: AndrewR_Design
+----
+Date: 2013-02-05 22:55:24
+----
+Text: Yeah that's what I did. Here's the code. Thanks for the help, I know so little about .NET and it's really frustrating that I'm forced to work with it so I appreciate it.
+
+Original Code:
+
+    <?xml version="1.0" encoding="UTF-8"?>
+    <configuration>
+        <system.webServer>
+            <directoryBrowse enabled="false" />
+            <defaultDocument>
+                 <files>
+                    <clear />
+                    <add value="index.asp" />
+                    <add value="index.html" />
+                    <add value="Default.htm" />
+                    <add value="Default.asp" />
+                    <add value="index.htm" />
+                    <add value="iisstart.htm" />
+                </files>
+            </defaultDocument>
+        </system.webServer>
+    </configuration>
+
+Modified Code:
+
+    <?xml version="1.0" encoding="UTF-8"?>
+    <configuration>
+        <system.webServer>
+    
+        <httpErrors errorMode="Detailed" />
+        <asp scriptErrorSentToBrowser="true"/>
+
+         <rewrite>
+        <rules>
+            <rule name="RuleRemoveIndex" stopProcessing="true">
+                <match url="^(.*)$" ignoreCase="false" />
+                <conditions>
+                    <add input="{REQUEST_FILENAME}" matchType="IsFile" ignoreCase="false" negate="true" />
+                    <add input="{REQUEST_FILENAME}" matchType="IsDirectory" ignoreCase="false" negate="true" />
+                </conditions>
+                <action type="Rewrite" url="index.php/{R:1}" appendQueryString="true"/>
+            </rule>
+        </rules>
+       </rewrite>
+
+    </system.webServer>
+
+    <system.web>
+        <customErrors mode="Off"/>
+        <compilation debug="true"/>
+    </system.web>
+    
+    </configuration>
+
+
+This gives me a **500 - Internal server error**.

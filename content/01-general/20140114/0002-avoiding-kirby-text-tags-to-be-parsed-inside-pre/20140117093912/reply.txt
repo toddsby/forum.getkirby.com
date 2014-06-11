@@ -1,0 +1,11 @@
+User: texnixe
+----
+Date: 2014-01-17 09:39:12
+----
+Text: The only solutions I can come up with:
+
+1. Use "markdown($page->text())" to output your content instead of kirbytext. Unfortunately, you cannot use kirbytext shortcuts at the same time.
+
+2. Use html-tags and character entities around your code.
+
+<code>&lpar;image:abc.jpg&rpar;</code>

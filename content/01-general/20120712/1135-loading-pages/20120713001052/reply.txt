@@ -1,0 +1,41 @@
+User: gielcobben
+----
+Date: 2012-07-13 00:10:52
+----
+Text: Hi, 
+
+A couple hours later and this is my code in combination with <a href="http://benalman.com/projects/jquery-hashchange-plugin/">jQuery Hashchange Plugin</a>
+
+<pre><code>$(document).ready(function() {
+
+    var newHash      = "",
+        $mainContent = $("#wrapper"),
+        $pageWrap    = $("#wrapper"),
+        $el;
+    
+    $("a").live("click", function(event){
+        window.location.hash = $(this).attr("href");
+        return false;
+    });
+    
+    $(window).hashchange( function(){
+    
+        newHash = window.location.hash.substring(1);
+        
+        if (newHash) {
+            $mainContent
+                .find(".content")
+                .fadeOut(200, function() {
+                    $mainContent.hide().load(newHash + " .content", function() {
+                        $mainContent.fadeIn();
+                    });
+                });
+        };
+        
+    });
+    
+    $(window).hashchange();
+
+});</code></pre>
+
+but there is one problem, the "back" button doesn't work at all..

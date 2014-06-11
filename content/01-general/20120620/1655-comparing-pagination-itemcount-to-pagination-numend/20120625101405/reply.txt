@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-06-25 10:14:05
+----
+Text: I just uploaded a new dev version to Github, which should fix your notice error: <https://github.com/bastianallgeier/kirbycms/tree/dev>

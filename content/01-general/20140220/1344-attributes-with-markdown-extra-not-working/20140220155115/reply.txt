@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2014-02-20 15:51:15
+----
+Text: I just add a quick play and Kirby does not seem to support the MarkdownExtra `{.class}` bit on links or images, even though I tink it should? It does support it on headings though, strange, I'd log a call with Bastian.

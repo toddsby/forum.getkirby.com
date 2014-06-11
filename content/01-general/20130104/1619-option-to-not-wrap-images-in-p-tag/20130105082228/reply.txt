@@ -1,0 +1,15 @@
+User: Wordius
+----
+Date: 2013-01-05 08:22:28
+----
+Text: You get the same problem using Markdown’s standard image syntax:
+
+    ![Image](http://image.png)
+
+While my paragraphs don’t have a bottom margin, I still encounter problems because I apply a text-indent to subsequent paragraphs:
+
+    p + p {
+        text-indent: 2em;
+    }
+
+I’ve reverted to calling images using the ‘img’ tag and wrapping them in a ‘div’ with a clear line space inserted above and below the ‘div’. Markdown does not appear to recognise ‘section’ as a block-level element, which creates other problems.

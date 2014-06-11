@@ -1,0 +1,25 @@
+Title: open_basedir errors an mode_rewrite
+----
+Date: 2012-10-10 06:06:36
+----
+Solved: 0
+----
+User: thatweb
+----
+Text: Hello if I use rewrite for the URL I always get an OpenBaseDir error in the panel:
+
+Warning: is_file(): open_basedir restriction in effect. File(/var/www/clients     ............  web/kirby/lib/helpers.php on line 15 
+
+If I comment that line out  
+
+if($uri && is_file(c::get('root') . '/' . $uri)) {
+   return $baseUrl . '/' . $uri;          
+}
+
+The panel works fine but the frontend is broken.
+
+If I switch on rewrite - the panel doesn't work any more.
+
+Is there a way to fix the panel links?
+
+Many thanks Tobias

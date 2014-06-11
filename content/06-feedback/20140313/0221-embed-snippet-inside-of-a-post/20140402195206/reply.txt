@@ -1,0 +1,18 @@
+User: MelTajon
+----
+Date: 2014-04-02 19:52:06
+----
+Text: @fitzage Getting close! It's printing out the snippet but the only problem is it's treating everything like markdown when I just want it to stay html.
+
+I've tried:
+
+	function module($params) {
+	    $html = file_get_contents($_SERVER["DOCUMENT_ROOT"] . '/site/snippets/' . $params['module'] . '.php');
+	    echo $html;
+	}
+
+...but this repeats the same problem as before where it'll render the snippet out of place.
+
+I've also tried `echo html($html);` and `return html($html);` but neither of those are converting it to proper HTML.
+
+So close! Any ideas?

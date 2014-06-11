@@ -1,0 +1,11 @@
+Title: External Snippets
+----
+Date: 2013-06-28 15:44:07
+----
+Solved: 0
+----
+User: photowatts
+----
+Text: Is it possible to pull a snippet externally?  For example, I'm creating several Kirby sites, and I'd like to have a single snippet repository from which they can all pull snippets.  I know I could probably just use a php include, but curious if the snippet tag will work.
+
+Thanks!

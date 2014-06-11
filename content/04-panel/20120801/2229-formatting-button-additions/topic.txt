@@ -1,0 +1,13 @@
+Title: formatting button additions?
+----
+Date: 2012-08-01 22:29:49
+----
+Solved: 0
+----
+User: fitzage
+----
+Text: I figured out how to add new formatting buttons easily enough, at least for basic things like additional headers, but I have to edit too many files that will be replaced when the panel is updated. Splitting this out into some sort of user-customizable file would be nice.
+
+Of course, if you pretty much had button options for everything the default kirbytext can handle, that would work. :-)
+
+Ones I currently want are a couple more levels of headers, and an image button. For bonus points, the image button would allow selecting from the files that are already in the folder for that page.

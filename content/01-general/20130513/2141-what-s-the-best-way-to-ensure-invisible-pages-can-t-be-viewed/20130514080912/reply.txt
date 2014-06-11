@@ -1,0 +1,9 @@
+User: russbaldwin
+----
+Date: 2013-05-14 08:09:12
+----
+Text: Only add the link if the 'next-page' is visible, maybe use some different text like 'Coming soon...' and don't call the page "quarter-after" - call it what it is - then they would have to know the actual chapter url? It is still obfuscation, but it is a bit better? 
+
+Best and easiest would perhaps be not to post until ready or have different content showing perhaps a summary?
+
+There could also be options with Apache .htaccess protected directories or maybe even some re-write stuff?

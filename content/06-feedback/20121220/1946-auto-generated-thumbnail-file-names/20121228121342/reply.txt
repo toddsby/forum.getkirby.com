@@ -1,0 +1,19 @@
+User: henninghorn
+----
+Date: 2012-12-28 12:13:42
+----
+Text: This is how the thumbs are named (thumb.php, line 92):
+
+	return md5($this->source) . $options . '.' . $this->obj->extension;
+
+The first part is a MD5 hash of the image followed by the options given when you ran thumb().
+
+This means that you e.g. could have 10 blog posts with different images all named "photo.jpg", but in order for you to have all the thumbs placed together in one folder they have to have unique names, which also identify which options the thumb was generated with.
+
+That last part is a performance thing, so that thumbs arent generated each time they are viewed, but only when they haven't been generated.
+
+I'm thinking that the best way to get "good" thumbnail names would be to generate the thumbs within the page's folder, perhaps under a thumbs-folder.
+
+	content/02-blog/05-random-photo-shoot/thumbs/a-400x400.jpg
+
+I might look into this myself. I believe Kirby has the flexibility to do it like that :)

@@ -1,0 +1,11 @@
+User: fitzage
+----
+Date: 2013-05-09 20:53:54
+----
+Text: Your if statement would work, but for anything other than the date field, you have to let PHP know that it's actually a date, so you have to convert stuff.
+
+I did something like this:
+
+    <? $date = new DateTime(); if ($date->getTimestamp() < strtotime($newsitem->enddate()) + 86400): ?>
+
+The `+ 86400` is just so it doesn't disappear immediately, but disappears after one day. Remove that or change it to whatever value you want.

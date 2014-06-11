@@ -1,0 +1,7 @@
+User: LucaMattiuzzo
+----
+Date: 2014-02-21 19:11:18
+----
+Text: I find myself the solution!
+
+(link: http://getkirby.com/docs/panel/blueprints/file-fields)

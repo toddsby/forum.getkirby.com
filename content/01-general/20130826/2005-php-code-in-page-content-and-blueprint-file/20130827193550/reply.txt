@@ -1,0 +1,9 @@
+User: travVT
+----
+Date: 2013-08-27 19:35:50
+----
+Text: Thanks for the information, I'll definitely check that out. And, I can see that being helpful down the road as well. I have another question, if you have the time. 
+
+I've created a custom field for the panel and I'm trying to mimic the "Author Field" on GitHub. Basically, I'm creating a PHP file for the field to add custom options to it. I'm able to successfully do this with an input field but not with a select field; data does not get written to the content text file. Any ideas?
+
+Again, thank you so much for your help so far! It's always great to be in a forum that has "live bodies" in it.

@@ -1,0 +1,5 @@
+User: ibuypink
+----
+Date: 2013-02-12 08:51:27
+----
+Text: I've got the same setup and it works just fine on my site. Just to be sure; you're filtering the articles like this: www.example.com/work/tag:design

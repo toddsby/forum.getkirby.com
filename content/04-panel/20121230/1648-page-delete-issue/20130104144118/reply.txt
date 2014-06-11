@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2013-01-04 14:41:18
+----
+Text: @th451 hm, it's very difficult to tell why you get this issue. Never seen this so far. Could you send me an email? I might need to look at your installation: <bastian@getkirby.com>

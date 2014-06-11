@@ -1,0 +1,5 @@
+User: theavangelist
+----
+Date: 2014-05-14 14:52:38
+----
+Text: I've experienced this on a recent install this week too. I can't work out what this bug is, but re-downloading the panel files doesn't seem the answer to me and yet it works. Must be a bug in Master.

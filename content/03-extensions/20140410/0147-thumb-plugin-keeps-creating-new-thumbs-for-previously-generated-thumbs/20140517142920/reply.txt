@@ -1,0 +1,11 @@
+User: DerZyklop
+----
+Date: 2014-05-17 14:29:20
+----
+Text: Your'e right. Usually the thumbs-plugin doesn't generate new thumbs when there is already a generated.
+
+The first thing the plugin does is: It creates a name of a thumb like 
+`{md5-hash of the original name}.{width}.{height}.{compression-rate}.jpg`. 
+Next thing is: It checks if an image with this name already exists in the thumbs-folder. 
+
+This is the right place where you should start your research. It seems like the plugin cant find the already generated files. Whats the permissions of the thumbs-folder? Whats the permissions of the generated files? Did you changed any config-values of the plugin?

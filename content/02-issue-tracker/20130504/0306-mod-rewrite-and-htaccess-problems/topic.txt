@@ -1,0 +1,26 @@
+Title: Mod_Rewrite and .htaccess Problems
+----
+Date: 2013-05-04 03:06:58
+----
+Solved: 1
+----
+User: enlifer
+----
+Text: I did a fresh install of Kirby on my server with the demo site on it.
+
+Every time I click on a link (About, Projects) following page shows up:
+
+> The requested document was not found on this server.
+>
+> Apache Server at domain.com Port 80
+
+
+It only works if I paste following code in the .htaccess:
+
+>RewriteEngine on
+>RewriteRule !.(js|ico|gif|jpg|png|css|php)$ index.php
+>php_flag magic_quotes_gpc off
+>php_flag register_globals off
+
+
+Is there a reason that I need it because like I see everyone else did not needed this code?

@@ -1,0 +1,5 @@
+User: simplicitybliss
+----
+Date: 2013-11-10 20:42:00
+----
+Text: Facing the same issue after turning on mod_rewrite and editing apache config. Still 404s. What steps did you go through to make it work?

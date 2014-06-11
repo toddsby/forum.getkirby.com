@@ -1,0 +1,14 @@
+User: Wordius
+----
+Date: 2013-01-06 14:30:32
+----
+Text: Tried the suggested code, but it doesn’t appear to work. All items appear in a single line, rather than structured between url tags, like:
+
+    <url>
+        Item one
+    </url>
+    <url>
+        Item two
+    </url>
+
+Adding drafts to ignore doesn’t get rid of the child directory containing my blog template. So, I removed the child directory, which seemed to be the simplest solution.

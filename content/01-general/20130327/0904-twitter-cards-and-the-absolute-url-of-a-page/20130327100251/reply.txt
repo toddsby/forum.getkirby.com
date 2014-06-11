@@ -1,0 +1,7 @@
+User: Wordius
+----
+Date: 2013-03-27 10:02:51
+----
+Text: I think I see your point. My concern was that in some way it might affect a page’s ranking in Google if there are two versions, the one with `/blog/article-name` and the one with `/article-name`.
+
+But, as `/blog/article-name` is automatically redirecting to `/article-name`, maybe I shouldn’t be worrying.

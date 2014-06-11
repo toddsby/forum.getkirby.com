@@ -1,0 +1,17 @@
+User: fitzage
+----
+Date: 2012-10-26 18:36:29
+----
+Text: Yeah, you could split out conditionals in your foreach loop:
+
+    <?php $partners = $page->children() ?>
+    <?php $last = $partners->last() ?>
+    <?php foreach ($partners AS $partner) : ?>
+        <?php if ($partner != $last) { ?>
+            Stuff to do for ones that aren't the last item.
+        <?php } else { ?>
+            Stuff to do for ones that are the last item.
+        <?php } ?>
+    <?php endforeach ?>
+
+Something along those lines. The previous code is good if you just have one slight change to make for the last time, this code should work if you want more of a completely different layout for the last item.

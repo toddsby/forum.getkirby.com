@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2012-12-30 14:54:56
+----
+Text: I use it like that, if I find a specific image file I show it else I show the first of any other images or none at all if there are none. It seems to work OK.
+
+Of course your don't have to do anything if you do not find the specified image, but it does mean you have to be consistent in your image naming e.g. 'cover.jpg'

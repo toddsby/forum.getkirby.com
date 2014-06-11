@@ -1,0 +1,28 @@
+User: tutobootstrap
+----
+Date: 2012-12-12 11:54:38
+----
+Text: Hey, you can use this simple code to force deletion of the cache.
+
+Although when you edit a page cache is updated.
+
+	<?php
+
+		function resetCache($folder)
+		{
+		    foreach(glob($folder . "/*") as $files_folder)
+		    {
+		        unlink($files_folder) or die("IMPOSIBLE delete file  ***</br>n");
+		        echo $files_folder . " - DELETE OK </br>n";
+		    }
+		 
+		}
+
+
+		$cacheDir = (dirname(__FILE__).'/site/cache');
+
+		resetCache($cacheDir) ;
+
+		echo "<p>The reset cache files is Ok...</p>";
+
+	?>

@@ -1,0 +1,20 @@
+User: bastianallgeier
+----
+Date: 2012-07-12 14:59:28
+----
+Text: The instructions are misleading on some setups. Please do the following: 
+
+Try to change the permissions for your thumbs folder in the following steps and check after each in your panel if you still get the warning for the thumbs folder: 
+
+746
+747
+756
+757
+764
+765
+766
+767
+
+If you found the right setting, use that for your content folders and files.
+
+Let me know if this does not work. I'm currently working on improving those steps.

@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-07-30 15:09:57
+----
+Text: Not sure how they are linked, but assuming thumbnail represent menu items, call the thumbnails the same as your menu UID and then just add them in as images, use CSS to do it a slightly different way.

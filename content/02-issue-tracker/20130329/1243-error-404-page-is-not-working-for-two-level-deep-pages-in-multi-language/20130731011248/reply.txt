@@ -1,0 +1,7 @@
+User: d3ddesign
+----
+Date: 2013-07-31 01:12:48
+----
+Text: Causes also problems with retina.js
+
+https://github.com/imulus/retinajs/issues/77

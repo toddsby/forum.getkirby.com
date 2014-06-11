@@ -1,0 +1,7 @@
+User: roman_oroco
+----
+Date: 2013-03-29 15:59:26
+----
+Text: I think it's possible just try be more simple:
+1. Your slider will be used for displaying content that is related to some pages?
+2. You slider will be used in specific pages only for displaying images with optional image captions?

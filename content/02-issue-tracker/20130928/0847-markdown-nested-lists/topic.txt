@@ -1,0 +1,27 @@
+Title: Markdown nested lists
+----
+Date: 2013-09-28 08:47:08
+----
+Solved: 0
+----
+User: gama_hachaa
+----
+Text: Hi,
+
+First post so let me testify on Kirby awesomeness.
+Two days playing around and I loving it !
+
+I tryed to nest list the Markdwon way but it seems to not work accordingly.
+
+- element level1
+- element level1
+	- element level2 (tab indented...)
+	- element level2 (... Should appear indented with different bullet)
+<pre>
+- element level1
+- element level1
+	- element level2 (tab indented...)
+	- element level2 (... Should appear indented with different bullet)
+</pre>
+
+Maybe I'm missing something (~.~)

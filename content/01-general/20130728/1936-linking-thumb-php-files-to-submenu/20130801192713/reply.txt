@@ -1,0 +1,19 @@
+User: karlnoelle
+----
+Date: 2013-08-01 19:27:13
+----
+Text: Ok, so I'm one step further and have working links that go to their project page!
+
+    <nav class="submenu">
+    <ul>
+    <?php foreach($items AS $item): ?>
+    <?php foreach($page->images() as $image): ?>
+    <li><a<?php echo ($item->isOpen()) ? ' class="active"' : '' ?> href="<?php echo $item->url() ?>"><?php echo html($item->title()) ?><?php echo thumb($image, array('width' => 300)) ?></a></li>
+    <?php endforeach ?>
+    <?php endforeach ?>         
+    </ul>
+    </nav>
+
+My only problem now is that every page is being linked to every image, and I'd only like the first image to link to the first project, second image to the second project, etc.
+
+Any idea how that could be done?

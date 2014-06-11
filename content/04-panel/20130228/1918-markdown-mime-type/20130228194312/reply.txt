@@ -1,0 +1,7 @@
+User: tysongach
+----
+Date: 2013-02-28 19:43:12
+----
+Text: By default, Kirby looks .txt content files. You can easily change this setting in your site's config.
+
+See my response towards the bottom of (link: http://getkirby.com/forum/general/topic:181 text: this forum topic) on how to do that.

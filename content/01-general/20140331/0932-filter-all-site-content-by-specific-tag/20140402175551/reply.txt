@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2014-04-02 17:55:51
+----
+Text: OK, I think what I had to do was instead of using filterBy, I had to loop through the items and use an if statement to determine what fits.

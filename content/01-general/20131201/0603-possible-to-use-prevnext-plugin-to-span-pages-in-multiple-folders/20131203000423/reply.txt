@@ -1,0 +1,15 @@
+User: unexpectedsport
+----
+Date: 2013-12-03 00:04:23
+----
+Text: @texnixe
+
+AHHHHH thank you so much! I just removed the following line because I don't think I need it in my case
+
+    $articles = $articles->sortBy('date','time');
+
+and it seems to be doing just what I need! 
+
+I can't thank you enough for your help. I wish I could bake you some cookies or something…
+
+Now I just have to figure out how this works exactly :)

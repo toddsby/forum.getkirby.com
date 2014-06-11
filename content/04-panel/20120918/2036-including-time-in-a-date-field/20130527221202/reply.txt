@@ -1,0 +1,5 @@
+User: estimmel
+----
+Date: 2013-05-27 22:12:02
+----
+Text: I know this thread is a bit old, but I'd love to see a field that automatically selects the date and time natively in the panel.

@@ -1,0 +1,11 @@
+Title: Thumbnails insted of "Project a-b-c" and how to remove or replace "Projects" in the textform
+----
+Date: 2013-02-16 20:23:50
+----
+Solved: 0
+----
+User: stimemmerson
+----
+Text: Hello again I an newbie and I am working on my photography portfolio)
+
+The question is, is it possible to set thumbnails instead of "Project a-b-c" titles and how to remove or replace "Projects" in the description and set the text at first and then put the pictures..

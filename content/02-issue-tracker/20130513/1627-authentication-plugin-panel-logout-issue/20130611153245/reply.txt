@@ -1,0 +1,7 @@
+User: conefreykoedam
+----
+Date: 2013-06-11 15:32:45
+----
+Text: Yes, I've got the same problem lay out is broken. In Dutch I changed the template to 'loguit' which makes sence and solves the problem.
+
+In addition I would like to be able to exclude templates from the panel. I would not like clients to mess around with a login or logout page.

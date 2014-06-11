@@ -1,0 +1,15 @@
+User: Wordius
+----
+Date: 2013-01-04 13:20:38
+----
+Text: Thanks, Russell.
+
+You are a genius and a gentleman.
+
+Every time I set the rewrite rule in config.php I got a 404, apart from on the home (blog) page.
+
+When I replaced the content of my htaccess file with the documented version linked to in your message everything started working.
+
+I copied my original htaccess info from somewhere else on the forum. It was probably not intended for the set-up I am using.
+
+Thanks again.

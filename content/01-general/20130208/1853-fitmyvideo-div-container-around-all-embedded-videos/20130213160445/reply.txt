@@ -1,0 +1,5 @@
+User: tysongach
+----
+Date: 2013-02-13 16:04:45
+----
+Text: Heads up: the `<div class="video-container">` has now been (link: https://github.com/bastianallgeier/kirbycms/commit/a24281534a0e5d19f3f7a9e6ed5e4d669e0d8473 text: added to the default Kirby install).

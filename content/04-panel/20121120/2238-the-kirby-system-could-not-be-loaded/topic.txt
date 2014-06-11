@@ -1,0 +1,15 @@
+Title: The Kirby system could not be loaded
+----
+Date: 2012-11-20 22:38:17
+----
+Solved: 0
+----
+User: blackforest13
+----
+Text: Hi,
+
+trying to use Kirby on local LAMP-Server (Linux Ubuntu).
+After uploading to server (localhost) i get the following message:
+"The Kirby system could not be loaded".
+
+What can i do?

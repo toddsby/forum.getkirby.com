@@ -1,0 +1,17 @@
+User: zinzygeene
+----
+Date: 2013-03-11 15:18:38
+----
+Text: Well, it's not so much a Kirby issue as it is an issue of me not fully knowing Kirby (and php).
+
+What I have is this:
+
+	<toggle div>
+	Project content
+	</toggle div>
+
+	<thumbnail grid>
+	Clicking on these thumbnails opens the div
+	</thumbnail grid>
+
+My question is: how do I let the toggle div know that it needs to display the project content when the thumbnail of that project is clicked on? I've been playing around with it for a little while now, but I can't seem to figure it out.

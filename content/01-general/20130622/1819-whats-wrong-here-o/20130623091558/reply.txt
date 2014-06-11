@@ -1,0 +1,6 @@
+User: russbaldwin
+----
+Date: 2013-06-23 09:15:58
+----
+Text: It is worth reading all the documentation and having a good look through this forum and the Kirby site in general, lots of good information including ;-)
+[Instagram plugin](http://getkirby.com/downloads/plugins)

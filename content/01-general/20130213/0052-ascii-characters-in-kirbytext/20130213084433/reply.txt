@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-02-13 08:44:33
+----
+Text: Use the [Unicode symbol for trademark](http://www.fileformat.info/info/unicode/char/2122/index.htm)&trade; instead?
+
+UTF8 rather than ASCII  :-)

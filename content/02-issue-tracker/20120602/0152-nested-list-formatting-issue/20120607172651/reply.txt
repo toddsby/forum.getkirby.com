@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-06-07 17:26:51
+----
+Text: Yep, the paragraphs still work. You just have to force simple line breaks like you would with any Markdown implementation.

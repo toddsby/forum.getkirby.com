@@ -1,0 +1,9 @@
+User: fitzage
+----
+Date: 2013-08-24 00:04:20
+----
+Text: There are a few ways to go about it, depending on the extent of the differences in the themes.
+
+You could have a base CSS file, and then have other CSS files loaded based on the template used. Or you could apply a body class based on template, and then apply styling based on the body class.
+
+I'd use the first method if they are significant differences, and the second if they are more minor.

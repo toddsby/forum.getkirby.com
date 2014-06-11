@@ -1,0 +1,7 @@
+User: vis7mac
+----
+Date: 2013-04-13 09:02:26
+----
+Text: You mean what template it is going to have?
+When creating a page, you can select the blueprint you want to create.
+The Panel then names the file after the blueprint.

@@ -1,0 +1,16 @@
+Title: Panel timeout
+----
+Date: 2014-03-12 15:36:42
+----
+Solved: 0
+----
+User: richgcook
+----
+Text: Hi folks,
+
+For a while now... 6 months at least... on most of my Kirby projects, I always get kicked back to the login screen when using the Panel. It tends to be when I switch tabs, or focus away. Then, as soon as I hit 'Save' or navigate elsewhere, it just kicks me out to the login screen.
+
+Any reason why this should be happening and how to avoid this?
+
+Thanks,
+R

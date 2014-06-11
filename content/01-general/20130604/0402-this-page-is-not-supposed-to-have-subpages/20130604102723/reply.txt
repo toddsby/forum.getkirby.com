@@ -1,0 +1,9 @@
+User: russbaldwin
+----
+Date: 2013-06-04 10:27:23
+----
+Text: [Panel Blueprint](http://getkirby.com/docs/panel/blueprints) file for blogs?
+
+Also  maybe not enough rights, but if you can see them in Panel and read and write them I suspect that is not it.
+
+Also list out a bit of the folder structure for you blog folder...

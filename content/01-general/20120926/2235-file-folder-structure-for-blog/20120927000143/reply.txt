@@ -1,0 +1,13 @@
+User: fitzage
+----
+Date: 2012-09-27 00:01:43
+----
+Text: 1. Regarding scale, we're doing well with http://joyent.com/blog (the whole site is Kirby, but the blog itself has probably around 700 entries). Do you have caching enabled?
+2. Regarding file/folder structure: I love the way Kirby does it because I can easily drop images and documents into the folder and link to it. This makes maintenance easy. When I'm deleting an article or page, I can delete any page-specific resources that go with it.
+
+I understand your concern, though. If this is really a deal breaker for you, there is another CMS built on a flat-file-based content structure that uses the method you suggest. http://statamic.com/
+
+I played around with Statamic a little bit, and decided to go with Kirby for a variety of reasons, some I can't put into words. But two of them are:
+
+1. I actually really like the ability to drop images in next to the article content.
+2. Statamic uses a more Rails-like template structure (I don't know how to explain it) and I like Kirby's better. Also, they use a template language, which I initially thought was cool but decided I kind of like Kirby's approach because it's very flexible in regards to adding plain-old PHP.

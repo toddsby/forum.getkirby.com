@@ -1,0 +1,17 @@
+Title: Categories + Tags
+----
+Date: 2012-08-26 00:38:51
+----
+Solved: 0
+----
+User: fitzage
+----
+Text: I have a setup where I'm trying to get my authors to use a limited number of overall categories, and then a smaller number of tags. The plan is that the sidebar navigation includes just the categories, and the tags are just going to be displayed at the bottom of each post.
+
+This is working fine. However…
+
+I would like to be able to have someone click a tag and have it apply to what's already been filtered via category (and vice versa). When I get URLs set up that can handle this, they have the downside of also including multiple categories and tags in the URL (if more are clicked) although only the last one of each actually works.
+
+So I'd get domain.com/blog/category:something/category:somethingelse/tag:otherstuff/tag:stuff/ when what I'd want is for there never to be more than one category or tag in the URL. The alternative is to have either categories or tags only filter by one item, but that kind of defeats the purpose of having both as a high level and low level filtering mechanism.
+
+Do you have any words of wisdom on how I can make this work?

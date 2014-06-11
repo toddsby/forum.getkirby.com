@@ -1,0 +1,5 @@
+User: vis7mac
+----
+Date: 2013-07-15 15:41:01
+----
+Text: Hm, maybe debug that line where the URL is built (simply use echo) and access that using your browser.

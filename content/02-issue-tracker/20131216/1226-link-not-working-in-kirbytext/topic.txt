@@ -1,0 +1,17 @@
+Title: Link not working in kirbytext
+----
+Date: 2013-12-16 12:26:16
+----
+Solved: 1
+----
+User: louisefernando
+----
+Text: Hi, I'm a newbie at using Kirby and I've just finished my folio site. Everything is working pretty smoothly except some of the links set-up in kirbytext aren't working.
+
+Please view page for example, click Details link to bring up the overlay which contains the kirbytext. The View website link isn't working.
+
+http://l-jns.com/work/emily-green
+
+I think it's got something to do with HTML, as the kirbytext is nested. Can anyone help on this topic?
+
+Thanks in advance!

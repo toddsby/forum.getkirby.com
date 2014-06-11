@@ -1,0 +1,23 @@
+Title: Load previous articles with Ajax
+----
+Date: 2013-07-09 23:19:30
+----
+Solved: 0
+----
+User: jallart
+----
+Text: Hi guys,
+
+Is there someone who already did it in one of his website with kirby :
+
+Load next articles or pages in the same page with Ajax ? 
+The visitor click on "Load previous articles" and XX articles appear under the initial articles list without getting in a new page... 
+
+If you don't see what I mean, you can see this feature in Wordpress on this blog : www.lokan.fr .
+
+Hope someone can help me, 
+Thanks in advance
+
+Regards,
+
+Julien

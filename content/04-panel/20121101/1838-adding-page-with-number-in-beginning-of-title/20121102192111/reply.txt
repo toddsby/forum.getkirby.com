@@ -1,0 +1,11 @@
+User: tysongach
+----
+Date: 2012-11-02 19:21:11
+----
+Text: I have the same issue.
+
+I have a client who’s project titles often start with a building number, for instance, **1000 Broadway Ave**.
+
+When I add a new project in the panel and type ‘1000 Broadway Ave.’ into the title and click ‘Save’, I get a 404 error.
+
+I’m going to have a hard time explaining not to put numbers first to any client, and expect everyone from their team to remember. Is there any way to fix this issue?

@@ -1,0 +1,24 @@
+Title: Custom Blueprint For Multiple Pages?
+----
+Date: 2013-04-04 20:46:05
+----
+Solved: 0
+----
+User: pablomunez
+----
+Text: I may be being a bit silly but is it possible to create a custom blueprint that can apply to say 2 out 4 pages within the panel?
+
+For example I have these pages...
+
+Home
+About The Company
+Whats Our Aim
+Projects
+
+And these blueprints...
+
+default.php
+content.php
+projects.php
+
+I would like the content.php blueprint to apply to both About The Company & Whats Our Aim pages, is this possible?

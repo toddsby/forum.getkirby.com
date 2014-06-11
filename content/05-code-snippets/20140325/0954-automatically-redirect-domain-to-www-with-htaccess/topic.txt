@@ -1,0 +1,24 @@
+Title: Automatically redirect domain to www with htaccess
+----
+Date: 2014-03-25 09:54:00
+----
+Solved: 0
+----
+User: jens_tornell
+----
+Text: After &lt;IfModule mod_rewrite.c&gt; in the htaccess file add this:
+
+    RewriteCond %{HTTP_HOST} !^www\.
+    RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+It redirects a domain to www like this:
+
+**This...**
+
+    http://my-kirby-site.com/about
+
+**will become this...**
+
+    http://www.my-kirby-site.com/about
+
+I would NOT recommend this for the htaccess on a localhost environment.

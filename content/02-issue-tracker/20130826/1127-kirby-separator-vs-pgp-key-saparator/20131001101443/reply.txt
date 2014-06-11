@@ -1,0 +1,11 @@
+User: russbaldwin
+----
+Date: 2013-10-01 10:14:43
+----
+Text: Try using a backtick ` e.g.
+
+`-----Begin PGP Public Key Block----
+
+maybe also tab in for code e.g.
+
+    -----Begin PGP Public Key Block----

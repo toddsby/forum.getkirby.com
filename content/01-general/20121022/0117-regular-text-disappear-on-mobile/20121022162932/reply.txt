@@ -1,0 +1,26 @@
+User: SDavisMedia
+----
+Date: 2012-10-22 16:29:32
+----
+Text: Thanks for the replies, gents!
+
+I did attempt to validate my HTML and I noticed that < /p > issue too. It's not actually there in the markup. But I get issues like that when I have to use HTML in my .txt files... that was the case there.
+
+...
+
+I actually just figured out what the issue is in between the last paragraph and this paragraph... and it turns out to be CSS.
+
+    p:empty,
+    br {
+        display: none;
+    }
+
+I put that bad boy in my CSS file because coming from WordPress to Kirby (using the exporter) along with having to have raw HTML in some of my files was, for some reason, creating unwanted empty paragraphs and break tags in my markup.
+
+That CSS solved my issue. It just popped up in my head that it could also be causing my issue too... and it looks like it was. I can't replicate the problem now that I've taken that CSS out... so I'm going to conclude that it was the culprit!
+
+The problem did persist after removing:
+
+    text-rendering: optimizeLegibility;
+
+So it's safe to so that it was NOT the problem! All seems to be okay now... so thank you all for the help. It was the reference to the straggling < /p > tag that made me thing about that chunk of CSS... so thanks!

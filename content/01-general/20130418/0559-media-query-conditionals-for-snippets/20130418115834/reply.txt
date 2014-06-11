@@ -1,0 +1,7 @@
+User: iamirm
+----
+Date: 2013-04-18 11:58:34
+----
+Text: I don't know if this is the answer to what you're trying to achieve, but I know Twitter Bootstrap uses CSS classes to hide specific content on different devices and that works like a charm for me.
+
+(link: http://twitter.github.io/bootstrap/scaffolding.html#responsive) and scroll down to Responsive Utility Classes to see how it works.

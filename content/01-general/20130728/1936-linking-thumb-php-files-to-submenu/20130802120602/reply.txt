@@ -1,0 +1,8 @@
+User: russbaldwin
+----
+Date: 2013-08-02 12:06:02
+----
+Text: If there is only one image or if it is the first you want maybe 
+`$page->images()->first()`?
+or
+`$page->images()->first()->url()`?

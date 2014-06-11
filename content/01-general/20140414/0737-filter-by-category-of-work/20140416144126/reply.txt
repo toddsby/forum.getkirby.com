@@ -1,0 +1,14 @@
+User: _frankallen
+----
+Date: 2014-04-16 14:41:26
+----
+Text: $pages->filterBy($key, $value, $split=false)
+filters a set of pages by a key and a value.
+if you pass a splitting character as third arg. 
+it will try to split a single value. ie. a comma 
+sperated list of tags and search within its 
+elements. returns the filtered set of pages
+
+
+
+so you can set a variable "Category: Web" and filter it this way.

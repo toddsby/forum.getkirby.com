@@ -1,0 +1,15 @@
+Title: Your site; Informations aren’t displayed
+----
+Date: 2012-12-24 17:42:02
+----
+Solved: 0
+----
+User: tues37
+----
+Text: Hey there,
+
+the installed panel on the server does not show the meta tag fields. Does someone know a solution? 
+
+I’m running the latest versions.
+
+Thanks in advance!

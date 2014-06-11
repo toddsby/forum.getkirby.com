@@ -1,0 +1,23 @@
+User: milojennings
+----
+Date: 2014-01-14 03:42:39
+----
+Text: I just conquered this issue yesterday. The key is to use ACL for permissions, instead of trying to switch users or groups.
+
+Here's the important steps for setting up Dropbox: https://gist.github.com/facelordgists/8345435
+
+Here's the part that pertains to you:
+
+### Give www-data user read and write access to Dropbox files
+
+Install Access Control List
+
+    sudo apt-get install acl
+
+Give www-data user read, write & execute access to dropbox files
+
+    setfacl -Rm u:www-data:rwx /root/Dropbox
+
+Set as default, recursively to inherit these settings on newly created files
+
+    setfacl -dRm u:www-data:rwx /root/Dropbox

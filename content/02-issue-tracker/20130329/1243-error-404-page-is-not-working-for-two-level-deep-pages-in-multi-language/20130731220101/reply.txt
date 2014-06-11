@@ -1,0 +1,16 @@
+User: 75laengengrade
+----
+Date: 2013-07-31 22:01:01
+----
+Text: I do not know if it is a dirty hack, but I copied the following line in defaults.php
+
+    c::set('404', 'error');
+
+to my config.php and changed it to
+
+    c::set('404', '/error');
+
+and this works. The ugly side-effect is that the breadcrumb and navigation is not changed accordingly, but I am sure there is a solution for that too.
+
+Cheers,
+Uwe

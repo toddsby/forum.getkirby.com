@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-07-18 08:24:29
+----
+Text: What is the exact error you are getting? If you cannot change the name of a folder it sounds like access rights?

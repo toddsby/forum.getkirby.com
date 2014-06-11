@@ -1,0 +1,28 @@
+User: dokdeleon
+----
+Date: 2013-02-21 16:32:27
+----
+Text: @roobottom Hi.. challenge accepted! :D
+
+Try this: 
+
+First make an invisible page inside gallery, let's call it ***attachment***. Then use this for your gallery template:
+
+
+	<?php foreach($page->images() as $image): ?>
+	<?php $path_parts = pathinfo($image->url());  ?>
+		<li><a href="<?php echo $site->url().'/gallery/attachment/?id='.$path_parts['basename'] ?>"><?php echo thumb($image, array('width' => 150, 'crop' => true)) ?></a></li>
+	<?php endforeach ?>
+
+This will have links that looks like this - `http://localhost/kirby/gallery/attachment/?id=dummy_1429158.jpg`
+
+Basically, we're using `$_GET` method for the url
+
+So for displaying the page and the Big image, we use this code for the `attachment.php` template:
+
+	<?php $myImage = $_GET['id']; ?>
+    		<?php $bigImage = $page->parent()->images()->find($myImage) ?>
+	        <img src="<?php echo $bigImage->url() ?>" />
+
+
+I hope I'm making sense and excuse the crude php as i'm still a beginner :D

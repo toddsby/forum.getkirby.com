@@ -1,0 +1,23 @@
+Title: PHP errors when Thumbs plugin generating 2000px width images
+----
+Date: 2013-03-24 20:15:27
+----
+Solved: 0
+----
+User: roman_oroco
+----
+Text: This is really pesky… I have many of this errors in my php_error.log:
+```
+`[24-Mar-2013 19:04:16 UTC] PHP Fatal error:  Allowed memory size of 104857600 bytes exhausted (tried to allocate 9000001 bytes) in ~/site/plugins/thumb/thumb.php on line 235`
+```
+I'm using Thumbs for generating an 2000px width images from "original" bigger photographs with > 4500px width.
+
+System: php5.4.4 with `memory_limit = 256MB`.
+
+Some one have solutions?
+
+**Update 1:**
+This message appears for every file uploaded via Panel:
+```
+[24-Mar-2013 20:27:18 UTC] PHP Strict Standards:  Non-static method upload::max_size() should not be called statically in ~/kirby/panel/lib/upload.php on line 11
+```

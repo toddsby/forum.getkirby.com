@@ -1,0 +1,5 @@
+User: hey_steffen
+----
+Date: 2012-10-21 14:22:49
+----
+Text: Create a file and/or a blueprint for your 'aside' and output the aside-content in your main-content template.

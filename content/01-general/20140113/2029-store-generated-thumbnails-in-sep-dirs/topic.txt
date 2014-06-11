@@ -1,0 +1,21 @@
+Title: Store generated thumbnails in sep. dirs?
+----
+Date: 2014-01-13 20:29:55
+----
+Solved: 1
+----
+User: scottswany
+----
+Text: Wondering if it'd be possible to store generated thumbnails in separate directories (by uid, or path, etc).
+
+i.e.
+
+on page:
+site/page-1
+
+the thumbs would be stored in:
+site/thumbs/page-1
+
+Since the thumbs don't have any recognizable filenames, if you want to clean up thumbs if you re-arrange or remove a section, there isn't anyway to track them down.
+
+Thanks!

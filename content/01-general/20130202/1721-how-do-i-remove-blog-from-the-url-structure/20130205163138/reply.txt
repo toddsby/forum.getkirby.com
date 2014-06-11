@@ -1,0 +1,5 @@
+User: theoriginalivor
+----
+Date: 2013-02-05 16:31:38
+----
+Text: @sashtown yeah doing it in the .htaccess file would be the simplest way, but considering my host doesn't support .htaccess files( windows hosting) I'm unable to do so. I just thought maybe there was another way around it.

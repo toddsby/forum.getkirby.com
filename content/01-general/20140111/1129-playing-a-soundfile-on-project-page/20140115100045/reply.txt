@@ -1,0 +1,26 @@
+User: _frankallen
+----
+Date: 2014-01-15 10:00:45
+----
+Text: there are two steps for solving your problems:
+
+first of all you should look at the cheatsheet to implement the sound file:
+
+    http://getkirby.com/content/02-docs/kirby-cheatsheet.pdf
+
+you have 2 ways to handle the sound file:
+1. you set the sound file as a variable in the project.txt:
+    ----
+    Soundfile: sound.mp3
+    ----
+2. you use the template file:
+   <?php $page->sounds()->url(); ?>
+
+(the codes abouve are just examples).
+
+the second part is to render the template and to play the sound file again.
+you can use the html5 tag "audio". for me, normally write a function to play/stop a sound/video file. on buttons click -> play again, on inivtialload -> play again.
+
+so far... let me know (twitter me!) if you need more help.
+
+~frank

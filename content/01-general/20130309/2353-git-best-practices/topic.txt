@@ -1,0 +1,11 @@
+Title: Git best practices?
+----
+Date: 2013-03-09 23:53:01
+----
+Solved: 0
+----
+User: atomicbird
+----
+Text: I'd like to keep my site in git while using Kirby so, normally I'd create a new branch for my site and periodically merge in new changes.
+
+But... I also want to use the Kirby panel and some extensions, and one of the themes, and those are in different repositories. What's a good way to keep my site in git *and* track changes to the main Kirby code, the panel, extensions, and a theme? They don't seem to fit neatly as git submodules. How can I set this up so that I can track changes without ending up copying files between repos by hand?

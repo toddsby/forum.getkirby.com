@@ -1,0 +1,9 @@
+User: alignedleft
+----
+Date: 2013-07-25 19:54:20
+----
+Text: @walkerbox Fantastic, thank you! I had missed the indexOf() method. Here's what I ended up using. As you suggested, the idea is to first build a reference to just the pages you want counted. Then I find the "ID" of the current page within that group.  Then I add 1 to it (so counting starts at 1, not zero), just because in my case I want these to be "human" counting numbers and not code-counting numbers. Then echo it all out.
+
+	$projects = $page->parent()->children()->visible();
+	$thisProjectNum = $projects->indexOf($page) + 1;
+	echo $thisProjectNum . " of " . $projects->count();

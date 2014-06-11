@@ -1,0 +1,11 @@
+User: bastianallgeier
+----
+Date: 2012-11-02 11:43:22
+----
+Text: Ok, that's easy to fix :) 
+
+First, I just got the format in the docs wrong for the date field. If you want to have a full year it's really just yy instead of yyyy
+
+Then you are using mm.dd.yy which PHP isn't able to parse. You would need something like yy-mm-dd or mm/dd/yy or dd.mm.yy. 
+
+As soon as PHP is able to parse the entered date, it will also show the correct date in the template when you use date formatting.

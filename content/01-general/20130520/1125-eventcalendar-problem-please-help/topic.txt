@@ -1,0 +1,16 @@
+Title: EventCalendar Problem - Please help!
+----
+Date: 2013-05-20 11:25:34
+----
+Solved: 0
+----
+User: mari_pelu3
+----
+Text: Hello!
+
+I'm trying to put a calendar in my website, I have downloaded a event Calendar , but I don't know what to do to make it appear in my website. 
+I have made a snippet called calendar, and then, I have moved his css, js and json to the folder assest. When I called the snippet for appearing in my website only appear the title. I think that this problem is because of the json file, but I don't know how I might make it.
+
+Please, if you know how I can put the calendar in my website, tell me, I thank you a lot!
+
+Thanks!

@@ -1,0 +1,33 @@
+User: texnixe
+----
+Date: 2013-12-27 14:20:44
+----
+Text: Unfortunately, your code is missing here.
+
+But its actually quite straightforward, all you need to do is assign an ID to the accordion-body (e.g. $page->uid() ) and reference that id in your href. Just be careful not to use the uid as skiplink as well. In that case it might be more advisable to simply use a number variable for the accordion-body ID that increases with each loop.
+
+Here some example code that uses a simple variable $i while the uid() is used as skip mark for the accordion-title (this code uses Bootstrap 3 "Collapse"). If you don't need the additional skip mark, just replace $i with $page->uid() for a more semantic id.
+
+    <?php 
+	    $pages = $page->children()->visible();
+	    $i = 1; 
+    ?>
+	<div class="panel-group" id="accordion">
+            <?php foreach($pages as $page): ?>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<a data-toggle="collapse" data-parent="#accordion" href="#<?php echo $i; ?>">
+							<h4 class="panel-title" id="<?php echo $page->uid() ?>">
+								<?php echo ($page->title()) ?>
+							</h4>
+						</a>	
+					</div>
+					<div id="<?php echo $i; ?>" class="panel-collapse collapse">
+						<div class="panel-body">
+							<!--content of panel-body-->
+						</div>
+					</div>
+				</div>
+	              <?php $i++; ?>
+		<?php endforeach; ?>
+	</div>

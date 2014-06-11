@@ -1,0 +1,7 @@
+User: pauvince
+----
+Date: 2013-02-14 11:10:46
+----
+Text: Im not asking about pre compiling css, because with Sass etc i can output aggregated and minified "one file´er".
+
+Its about JS, because i dont "pre" compile this in any way

@@ -1,0 +1,13 @@
+Title: If/else with config
+----
+Date: 2014-04-20 05:50:58
+----
+Solved: 0
+----
+User: digisocialnet
+----
+Text: Is it possible to do an if/else statement with my environment configs? i want my local dev env. to use separate scripts/CSS and the public site to use concatenated & minified versions from gulp.
+
+right now i just comment and uncomment the sections as needed but i think it would be pretty cool to be able to have it more automated.
+
+thanks!

@@ -1,0 +1,9 @@
+Title: URL Key
+----
+Date: 2012-08-08 18:47:00
+----
+Solved: 0
+----
+User: robrainfall
+----
+Text: I defined the URL Key in the blueprint, but it messes up everything. How can I add that option for url translation through the Panel?

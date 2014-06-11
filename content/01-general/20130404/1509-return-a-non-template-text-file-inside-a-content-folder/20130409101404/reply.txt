@@ -1,0 +1,19 @@
+User: bastianallgeier
+----
+Date: 2013-04-09 10:14:04
+----
+Text: Hey Brendan, 
+
+you can ask for the current extension in your template with:
+
+```php
+if($site->uri()->extension) {
+  // echo some json here
+} else {
+  // your default html stuff
+}
+```
+
+This will be different in Kirby 2. I actually plan something in the line of pong.json.php as this will make it a lot more flexible. 
+
+I hope this helps.

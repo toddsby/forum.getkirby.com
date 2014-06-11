@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-05-31 08:23:01
+----
+Text: Store users 'Sticky' preferences, cookies, session, db?

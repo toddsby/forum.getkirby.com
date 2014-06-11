@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-10-02 15:05:23
+----
+Text: That seems very weird. Did you try to set url and subfolder to false in your config file? Did you make sure to set the RewriteBase correctly in your htaccess?

@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-02-13 10:31:08
+----
+Text: Are you meaning something like a [ranged pagination](https://gist.github.com/bastianallgeier/3143887)?

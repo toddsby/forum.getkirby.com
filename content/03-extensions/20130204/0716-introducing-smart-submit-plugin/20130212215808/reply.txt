@@ -1,0 +1,9 @@
+User: kukac7
+----
+Date: 2013-02-12 21:58:08
+----
+Text: sorry for the dumb asking, but "do actual work here! Send email, add info to database, whatever." part should be replaced by what?
+
+in the repo could get a more concrete example?
+
+thanks for your help.

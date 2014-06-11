@@ -1,0 +1,7 @@
+User: bastianallgeier
+----
+Date: 2012-06-20 17:30:34
+----
+Text: You can try the following: <https://gist.github.com/2960491>
+
+Sorry for the messed up formatting! I hope I can spend some more time on this next week.

@@ -1,0 +1,8 @@
+User: russbaldwin
+----
+Date: 2013-10-25 08:40:03
+----
+Text: Not possible at the moment out of the box, possibly in v2?
+But you can just write normal forms in HTML/PHP and/or Ajax. Depending on what you want to do with the results, you may need a database of some sort or perhaps flat files? If you are going to use it a lot then make it into a plugin.
+
+As I understand it this forum uses an SQLlite DB and you may want to check out the [Kirby Toolkit for DB stuff](http://toolkit.getkirby.com/). I don't think the source code for this forum has been released.

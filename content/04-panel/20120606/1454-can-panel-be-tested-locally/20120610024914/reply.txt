@@ -1,0 +1,5 @@
+User: FlaviusMihaiu
+----
+Date: 2012-06-10 02:49:14
+----
+Text: I've actually had problems running it locally. The problem arose when submitting any forms and such, in this case with most/all URIs with ':' in them. Maybe it's just me, I'm not sure.

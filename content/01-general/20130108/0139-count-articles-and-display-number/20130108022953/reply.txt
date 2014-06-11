@@ -1,0 +1,5 @@
+User: chrisburton
+----
+Date: 2013-01-08 02:29:53
+----
+Text: It doesn't look like that is supported on mobile devices. I'd prefer if it was in the DOM.

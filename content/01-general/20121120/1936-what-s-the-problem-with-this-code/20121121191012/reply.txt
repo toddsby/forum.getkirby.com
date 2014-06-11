@@ -1,0 +1,17 @@
+User: mattlegresley
+----
+Date: 2012-11-21 19:10:12
+----
+Text: Try this...
+
+	<?php foreach ($page->children()->children() as $grandchild): ?>
+	  <?php echo $grandchild; ?>
+	<?php endforeach; ?>
+
+and 
+
+	<?php foreach ($pages->findByUID('home')->children()->children() as $grandchild): ?>
+	  <?php echo $grandchild; ?>
+	<?php endforeach; ?>
+
+Not tested, but might get you started.

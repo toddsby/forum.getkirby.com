@@ -1,0 +1,9 @@
+User: lulezi
+----
+Date: 2012-09-07 16:10:12
+----
+Text: There's the (link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/treemenu/treemenu.mdown text: treemenu snippet), which renders a nested menu as an unordered list.
+
+I made a gist with a few changes to treemenu.php and the implementation in menu.select.php:
+
+(gist: https://gist.github.com/3666538)

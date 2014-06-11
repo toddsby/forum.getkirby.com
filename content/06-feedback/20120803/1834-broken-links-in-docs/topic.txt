@@ -1,0 +1,11 @@
+Title: Broken links in Docs
+----
+Date: 2012-08-03 18:34:07
+----
+Solved: 0
+----
+User: fitzage
+----
+Text: Since you moved the panel stuff under docs, you have links in the panel content that are broken because they're pointing to the old URLs. On this page, for example http://getkirby.com/docs/panel/blueprints/blueprint-variables
+
+The links in the last paragraph for define fields and field types are broken.

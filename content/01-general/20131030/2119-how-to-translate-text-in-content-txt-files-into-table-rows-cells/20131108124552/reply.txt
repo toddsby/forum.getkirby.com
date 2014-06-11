@@ -1,0 +1,16 @@
+User: texnixe
+----
+Date: 2013-11-08 12:45:52
+----
+Text: @unexpectedsport Even if you decide not to use tables in the end but a more responsive table-like layout, the yaml-solution is still probably the best option for the structured content of a CV, I guess. It allows you to address all fields separately and you could also put all content into just one file if you like. Like so:
+
+    CVItems:
+    
+        Exhibition1
+            Date: 2011
+            Type: Solo Exhibition
+            Title: Exhibition Title
+            City: Toronto
+            ....
+
+Or whatever is the best structure

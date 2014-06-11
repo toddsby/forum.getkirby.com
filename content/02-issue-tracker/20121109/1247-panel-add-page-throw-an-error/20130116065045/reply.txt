@@ -1,0 +1,5 @@
+User: Haustraliaer
+----
+Date: 2013-01-16 06:50:45
+----
+Text: Definitely seems to be a WAMP error - works fine in all other environments for me.

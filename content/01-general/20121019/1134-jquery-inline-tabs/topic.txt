@@ -1,0 +1,13 @@
+Title: jquery inline tabs
+----
+Date: 2012-10-19 11:34:29
+----
+Solved: 0
+----
+User: ben_roe
+----
+Text: We extended our Kirbytext with tabs for multiple images, but it's only for one image per tab. Is it possible for text and images with markdown like an "iframe"?
+
+(image:http://f.cl.ly/items/0A2s291g350t0i3s2u0k/Snapshot%2019.10.12%2011:20.jpeg width:734)
+
+(link: https://gist.github.com/3919038)

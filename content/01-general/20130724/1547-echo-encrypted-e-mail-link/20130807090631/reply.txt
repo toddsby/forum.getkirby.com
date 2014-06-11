@@ -1,0 +1,11 @@
+User: azharc
+----
+Date: 2013-08-07 09:06:31
+----
+Text: What do you mean by 'encrypted'?
+Do you mean encode the address into HTML entities for spam prevention?
+(Such as http://www.wbwip.com/wbw/emailencoder.html)
+
+If you just mean generating a mailto: link that's rather simple:
+
+	<a href="mailto:<?php echo $page->email(); ?>"> <?php echo $page->email(); ?></a>

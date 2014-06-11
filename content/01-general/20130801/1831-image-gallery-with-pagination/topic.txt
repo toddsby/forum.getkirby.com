@@ -1,0 +1,13 @@
+Title: Image gallery with pagination?
+----
+Date: 2013-08-01 18:31:00
+----
+Solved: 1
+----
+User: stockphotogram
+----
+Text: Just started analyzing Kirby today, great CMS! 
+
+Is it possible to create pagination for images? Trying to display 10 images per page if there are like hundreds of them.
+
+Thank you!

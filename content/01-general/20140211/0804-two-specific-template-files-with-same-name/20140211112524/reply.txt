@@ -1,0 +1,12 @@
+User: _diondiondion
+----
+Date: 2014-02-11 11:25:24
+----
+Text: That's no problem, because the public name of the page is not related to the template it will use.  Kirby will look for a template that has the same name as the file's content text file.
+
+So you can just name your text files like this:
+
+/product/product-a/**template-a.txt**
+/price/product-a/**template-b.txt**
+
+And in your template folder, you create both a template-a.php and a template-b.php which will be used by these pages.

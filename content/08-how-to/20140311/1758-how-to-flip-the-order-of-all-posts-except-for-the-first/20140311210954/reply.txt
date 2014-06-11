@@ -1,0 +1,11 @@
+User: fitzage
+----
+Date: 2014-03-11 21:09:54
+----
+Text: There are a variety of options, depending on other factors or your preference.
+
+1. Make the About page invisible (no number). Then for the other items, pull a list of visible items, and for the about item pull the invisible items.
+2. Pull the About page by URL slug separately, then filter it out in the list of other pages.
+3. Number the About page 0, and have all the other pages below that (similar to your current solution, but doesn't require an arbitrary number that might have to change later.
+
+There are other methods that would be variations on #2. Like creating a specific field to filter by and things like that.

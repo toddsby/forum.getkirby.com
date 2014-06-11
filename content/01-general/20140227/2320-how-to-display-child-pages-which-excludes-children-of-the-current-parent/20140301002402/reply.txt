@@ -1,0 +1,22 @@
+User: walkerbox
+----
+Date: 2014-03-01 00:24:02
+----
+Text: "When on sheets, how do we show the child pages of Bed spreads and Duvet covers but exclude the children of the current page, sheets?"
+
+    <?php foreach($page->siblings()->visible() as $sibling) : ?>
+    
+      <?php foreach($sibling->children()->visible() as $child) : ?>
+    
+        <?php
+          if(!$child->hasImages()) continue;
+          $image = $child->images()->first();
+        ?>
+    
+        <div class="item">
+          <a href="<?= $child->url(); ?>" alt="<?= $child->title(); ?>"><img src="<?= thumb($image, array('width' => 500), false); ?>" alt="<?= $child->title(); ?>"><h6><?= $child->title(); ?></h6></a>
+        </div>
+    
+      <?php endforeach; ?>
+    
+    <?php endforeach; ?>

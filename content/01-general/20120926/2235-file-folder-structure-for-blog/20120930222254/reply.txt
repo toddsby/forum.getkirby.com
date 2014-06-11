@@ -1,0 +1,9 @@
+User: apolaine
+----
+Date: 2012-09-30 22:22:54
+----
+Text: @bastian - thanks for the detailed responses, as always. I'm not sure what redirecting you're seeing, but I have some .htaccess stuff going on at the main domain level for the current Wordpress blog and also to catch some old URLs from years ago (I try not to ever break permalinks if I can). They might be interfering, but I couldn't see it. How did you find/see the redirect stuff?
+
+In terms of the folder/file structure, something like my-title-article.txt or even my-title.article.txt could work, though the latter seems a bit nasty!
+
+@fitzage The only problem with the elegant solution you mentioned is the URLs, I think. They're currently built off the directory name aren't they?

@@ -1,0 +1,11 @@
+User: texnixe
+----
+Date: 2013-10-16 13:00:54
+----
+Text: Have you tested if it works when you set rewrite to false in config.php
+
+    c::set('rewrite', false);
+
+and disable rewrite in .htaccess as well
+
+Just to make sure ...

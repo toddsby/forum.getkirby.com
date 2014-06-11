@@ -1,0 +1,13 @@
+Title: Smartypants
+----
+Date: 2012-07-04 14:11:54
+----
+Solved: 0
+----
+User: jolantis
+----
+Text: Is it possible to add [Smartypants and Smartypants Typographer](http://michelf.com/projects/php-smartypants/) to the parsers as an (optional) addition to the Markdown and/or Markdown Extra parsers?
+
+Or is there an easy way I can do it myself?
+
+That would be great, good typography is a must!

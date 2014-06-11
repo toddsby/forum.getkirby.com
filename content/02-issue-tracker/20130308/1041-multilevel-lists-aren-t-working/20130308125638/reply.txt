@@ -1,0 +1,93 @@
+User: russbaldwin
+----
+Date: 2013-03-08 12:56:38
+----
+Text: Mmmmmm
+
+```
+- Item 1
+- Item 2
+	- Subitem 2a
+	- Subitem 2b
+- Item 3
+	- Subitem 3a
+		- Subsubitem 3aa
+		- Subsubitem 3ab
+		- Subsubitem 3ac
+	- Subitem 3b
+
+```
+I get...
+
+```html
+<ul>
+  <li>Item 1</li>
+  <li>Item 2<br />
+  <br />
+    <ul>
+      <li>Subitem 2a</li>
+      <li>Subitem 2b</li>
+    </ul>
+  </li>
+<li>Item 3<br />
+ <br />
+  <ul>
+  <li>Subitem 3a<br />
+  <br />
+    <ul>
+      <li>Subsubitem 3aa</li>
+      <li>Subsubitem 3ab</li>
+      <li>Subsubitem 3ac</li>
+    </ul>
+  </li>
+  <li>Subitem 3b</li>
+  </ul>
+</li>
+</ul>
+
+```
+
+When it should be...
+
+```html
+<ul>
+  <li>Item 1</li>
+  <li>Item 2
+    <ul>
+      <li>Subitem 2a</li>
+      <li>Subitem 2b</li>
+    </ul>
+  </li>
+  <li>Item 3
+    <ul>
+      <li>Subitem 3a
+        <ul>
+          <li>Subsubitem 3aa</li>
+          <li>Subsubitem 3ab</li>
+          <li>Subsubitem 3ac</li>
+        </ul>
+      </li>
+      <li>Subitem 3b</li>
+    </ul>
+  </li>
+</ul>
+
+```
+
+I am using
+```php
+    <?php echo kirbytext($page->text()) ?>
+```
+
+I do have Markdown Breaks and Extra set to true:
+
+```php
+c::set('markdown.breaks', true);
+c::set('markdown.extra', true);
+```
+
+Now if I set *markdown.breaks* to false, it seems to work...
+```php
+c::set('markdown.breaks', false);
+
+```

@@ -1,0 +1,15 @@
+Title: Get article information within kirbytext extension
+----
+Date: 2012-11-12 18:37:37
+----
+Solved: 0
+----
+User: fitzage
+----
+Text: When extending kirbytext, is there a way I can programatically include the title of the page that the kirbytext item is contained in?
+
+The reason for this is I'm implementing tracking for embedded videos, but on overview pages for my blog I could have multiple videos that each come from different blog articles. Right now, I'm inserting the name of the page, but on blog overview pages it would just say "Blog" which isn't very helpful.
+
+If the kirbytext could pull the page title or URI or something of the page it's included on, I could then include that in the id element of my embed code iframe and pull that in my tracking javascript.
+
+Does that make any sense? And is it possible at this point?

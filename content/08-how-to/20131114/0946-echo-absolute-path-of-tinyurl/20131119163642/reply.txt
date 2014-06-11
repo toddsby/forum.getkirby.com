@@ -1,0 +1,7 @@
+User: ChrisjMartin87
+----
+Date: 2013-11-19 16:36:42
+----
+Text: You could try
+
+          echo $site->url() . $page->tinyurl();

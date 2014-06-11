@@ -1,0 +1,8 @@
+User: milojennings
+----
+Date: 2013-09-24 20:34:42
+----
+Text: Good idea @fitzage 
+I hadn't really thought too much about using symlinks. My main concern was that it would be too much manual effort whenever a new "plan room" is added, and would require help from an admin.
+
+The more I think about it though the more I realize there are probably ways to automate creation of the symlinks. I don't quite know yet what those ways are, but I can do some research. If you happen to have any ideas, as you sound fairly familiar with symlinking, I'd appreciate it.

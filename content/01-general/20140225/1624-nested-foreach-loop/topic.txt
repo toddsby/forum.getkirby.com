@@ -1,0 +1,81 @@
+Title: Nested foreach loop
+----
+Date: 2014-02-25 16:24:16
+----
+Solved: 0
+----
+User: wilhearts
+----
+Text: Hello,
+
+I am trying to build a Kirby JSON API with the following structure :
+
+    data: [
+    {
+    "title": "Page Title",
+    "url":"http://kirbysite.com/url",
+    "pages": [
+    {"title": "subpage1", "url": "http://kirbysite.com/url/subpage1"},
+    {"title": "subpage2", "url": "http://kirbysite.com/url/subpage2"}
+    ]
+    },
+    ...
+    {}
+    ]  
+
+My current directory structure is as follows
+
+content/
+├── 01-albertville
+│   ├── 01-pagetest
+│   │   └── agence.txt
+│   ├── 02-lol
+│   │   └── agence.txt
+│   └── agence.txt
+├── 02-annecy
+│   ├── 01-pagetest
+│   │   └── agence.txt
+│   ├── 02-lol
+│   │   └── agence.txt
+│   └── agence.txt
+...
+
+and the code i am using is
+
+    <?php
+
+    // if(!r::is_ajax()) notFound();
+
+    header('Content-type: application/json; charset=utf-8');
+
+    $data = $pages->visible();
+
+    $json = array();
+
+    $json['data'] = array();
+
+    foreach($data as $article) {
+
+    // $subpages[] = array(
+    //     'title' => (string)$subpage->title()
+    // );
+
+    $json['data'][] = array(
+        'title' => (string)$article->title(),
+        'url'   => (string)$article->url(),
+        'pages' => array()
+    );
+
+    // foreach($data->children()->visible() as $subpage) {};
+
+    }
+
+    echo json_encode($json);
+
+    ?>
+
+I do not know how to nest the $article subpages in the pages array, as when i uncomment my nested foreach loops even though it is empty it stops at the first iteration of the main loop... :/ maybe i don't understand php enough..
+
+Can anybody help me achieve this ?
+
+Thanks.

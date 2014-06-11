@@ -1,0 +1,16 @@
+User: SimonStuecher
+----
+Date: 2012-10-02 16:30:21
+----
+Text: What, if I don't need the url, but the the title?
+
+<?php echo $pages->find('about-us')->title('en') ?>
+
+doesn't work.
+
+Maybe it would be better, to make somethink like this:
+
+<?php echo $pages->find('about-us', 'en')->url() ?>
+<?php echo $pages->find('about-us', 'en')->title() ?>
+
+What are you're suggestions?

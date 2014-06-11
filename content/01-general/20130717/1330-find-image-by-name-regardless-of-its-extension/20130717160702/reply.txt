@@ -1,0 +1,9 @@
+User: fitzage
+----
+Date: 2013-07-17 16:07:02
+----
+Text: Should be able to use this instead of the find. I think you'll also have to add first() to it. `filterBy('title', '*=', 'thumb')`
+
+Like so:
+
+    $i->images()->filterBy('title', '*=', 'thumb')->first()->url()

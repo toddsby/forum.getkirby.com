@@ -1,0 +1,12 @@
+User: russbaldwin
+----
+Date: 2013-06-20 11:10:08
+----
+Text: You can create the blueprints at any time really.
+
+Possible solutions might be
+1. Check the blueprints are in the right place? 
+**/site/panel/blueprints**
+2. Check access rights.
+
+Hope this helps...

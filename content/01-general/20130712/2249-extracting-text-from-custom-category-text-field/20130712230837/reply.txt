@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-07-12 23:08:37
+----
+Text: Well, I don't know if this is a typo or what, but your code basically says "If article category is not 'travel', show the travel image. Else, show the default image."

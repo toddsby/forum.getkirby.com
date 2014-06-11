@@ -1,0 +1,15 @@
+Title: Facebook-to-kirby (IFTTT or Zapier style)
+----
+Date: 2013-11-03 22:35:58
+----
+Solved: 0
+----
+User: francescoea
+----
+Text: Hi
+I'd like to create an automated task that creates a new entry on my kirby-powered site whenever I post something new on my Facebook wall or Facebook page. 
+
+I'm just wondering which is the easier way to accomplish that. I took a look to IFTTT or Zapier, and they do some little nice tricks that could be useful, but I didn't find the complete solution (which is the one that won't require my intervention). 
+
+Thank you
+Francesco

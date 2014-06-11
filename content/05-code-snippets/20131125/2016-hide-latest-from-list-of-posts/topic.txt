@@ -1,0 +1,38 @@
+Title: Hide latest from list of posts
+----
+Date: 2013-11-25 20:16:35
+----
+Solved: 0
+----
+User: simoncvbohm
+----
+Text: Hi,
+
+I'm building a tiny blog with Kirby (which is really great!), and was hoping to get some hints from someone a little wiser than me when it comes to PHP.
+
+On the first page of the blog I have echoed the latest article, and beneath it I have a list of links to older posts. In this list however, I'd like to leave out the latest post, since it's already displayed. How do I do this?
+
+I'm fetching the latest article like this:
+```
+<?php $lastarticle = $pages->find('journal')
+                      ->children()
+                      ->visible()
+                      ->last()
+?>
+```
+
+And the rest of the posts like this:
+```
+<?php {$articles = $pages->find('journal')
+	                    ->children()
+	                    ->visible()
+                        ->sortBy($sort='date', $dir='asc')
+	                    ->flip()
+	                    ->paginate(5);
+	} ?>
+```
+
+How can I leave out the `$lastarticle` from the list above? I'm sure there's a really easy solution, but I can't seem to find it.
+
+Thanks in advance,
+Simon

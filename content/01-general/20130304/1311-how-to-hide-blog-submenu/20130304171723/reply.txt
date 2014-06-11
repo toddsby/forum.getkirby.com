@@ -1,0 +1,7 @@
+User: wieisdennis
+----
+Date: 2013-03-04 17:17:23
+----
+Text: or adjust the submenu snippet into:
+
+$open  = $pages->findOpen()->not('blog');

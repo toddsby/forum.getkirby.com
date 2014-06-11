@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-07-15 10:09:05
+----
+Text: Your code looks to see if there are images for a page and then pulls out the header one. So what code are you using for the blog index the code shown is for a single page?
+
+There are a few ways to do this, loop through all the blog folders (children) and then pick up the images check out the [one-pager](http://getkirby.com/blog/one-pager) for ideas.

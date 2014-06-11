@@ -1,0 +1,7 @@
+User: jhercher
+----
+Date: 2012-11-13 14:20:59
+----
+Text: Thanks for the solution: mixing html tags with markdown works fine for formatting the contents.
+
+A related question is how to accomplish this for other page elements like the menue and page-titles, cf. <http://getkirby.com/forum/general/topic:189>

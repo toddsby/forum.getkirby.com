@@ -1,0 +1,7 @@
+User: bastianallgeier
+----
+Date: 2012-11-13 13:07:27
+----
+Text: I don't have any experience with Anvil but what I use and love on my Mac is (link: http://clickontyler.com/virtualhostx/ text: VirtualHostX) in combination with the default PHP version on Mac. There are dozens of tutorials how to activate the default PHP version and setup Apache on OS X and I always felt that this is a more integrated approach then MAMP. 
+
+VirtualHostX is just outstanding! I can highly recommend it.

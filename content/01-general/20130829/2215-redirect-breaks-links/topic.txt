@@ -1,0 +1,21 @@
+Title: Redirect (?) breaks links
+----
+Date: 2013-08-29 22:15:59
+----
+Solved: 0
+----
+User: ndrsn
+----
+Text: http://teamskithugg.se
+
+The "home" page (which is also what the folder is called, 01-home), is basically a blog, more or less the same as in the tutorial.
+
+Each post has it's own page, such as http://www.teamskithugg.se/pretentioesa-skriverier-fran-ovetande-fiskare
+
+That's all fine and dandy, just what I want. However, I am planning on expanding the site just a little bit.
+
+http://teamskithugg.se/medlemmar
+
+It's basically the same as the home page, but each and every post in it also get redirected straight back to ".se/member-name" instead of, as I want it to be, ".se/medlemmar/member-name". So the links basically gets "broken".
+
+Right now, I've gone back to the default .htaccess and config.php until this problem is sorted.

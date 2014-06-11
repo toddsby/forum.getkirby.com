@@ -1,0 +1,33 @@
+Title: Remove paragraph tags from figures and images
+----
+Date: 2013-12-29 15:56:28
+----
+Solved: 1
+----
+User: joshcollie
+----
+Text: I'd like to be able to inset an image or figure through kirbytext without paragraph tags or line breaks being added around, or inserted between, lines while using kirbytext.
+
+For example:
+
+    (figure: picture1.jpg)
+    (figure: picture2.jpg)
+
+Should turn into:
+
+    <figure>...</figure>
+    <figure>...</figure>
+
+Currently it does not, it instead changes to:
+
+    <figure>...</figure>
+    <br>
+    <figure>...</figure>
+
+Or if I place an extra line break, it adds multiple empty paragraphs between them.
+
+I've looked at a [few](http://getkirby.com/forum/issue-tracker/topic:16) [topics](http://getkirby.com/forum/general/topic:261) including the following but none resolve the issue:
+
+I'm also using the [kirbytext extension](https://gist.github.com/tysongach/4338482) for figures.
+
+Any help would be appreciated.

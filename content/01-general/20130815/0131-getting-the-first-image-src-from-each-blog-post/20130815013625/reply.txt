@@ -1,0 +1,7 @@
+User: azharc
+----
+Date: 2013-08-15 01:36:25
+----
+Text: Perhaps try $article->images->first->url(). Your code hasn't appeared properly but I assume you are missing the $article before ->images().
+
+If not, can you paste in the PHP Error Log?

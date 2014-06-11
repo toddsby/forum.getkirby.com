@@ -1,0 +1,10 @@
+Title: Kirby panel content update issue
+----
+Date: 2013-03-09 10:51:43
+----
+Solved: 0
+----
+User: fhuery
+----
+Text: Hi,
+I have tried to copy and paste my markdown on the panel to update a particular page. When I save the markdown, all the text disappears but leaves the first line of markdown which is actually meant to show an image - the image is therefore not displayed but everything else after it is displayed. What could be the problem?

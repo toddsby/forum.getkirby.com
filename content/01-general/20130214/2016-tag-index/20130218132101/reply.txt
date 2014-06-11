@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-02-18 13:21:01
+----
+Text: I've added some more examples using real 'pages' for my 'stations' example and also using an alphabetised tag index as requested, no charge, I'm much more expensive than that ;-)
+
+[List pages, grouped by first letter of title...](http://getkirby.com/forum/general/topic:406)

@@ -1,0 +1,13 @@
+Title: Not found error on sub pages.
+----
+Date: 2013-01-15 21:24:09
+----
+Solved: 1
+----
+User: andrewr_design
+----
+Text: I've installed Kirby using MAMP on a local server and the home page launches fine but any navigation to a sub page gives a Not Found error. I've used several templates to and the main Kirby theme to the same effect. All the links seem to be pointing to the right place but they aren't picking anything up for some reason...
+
+Any ideas?
+
+EDIT: Got an answer from Twitter, apparenlty the .htaccess file is hidden so I had to find it and copy it over too.

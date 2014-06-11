@@ -1,0 +1,48 @@
+User: BobRockefeller
+----
+Date: 2013-03-24 00:43:13
+----
+Text: So, after a bit of fiddling, I came up with a work around by stealing a technique from WordPress. It uses the `<!--more-->` tag as a way to signal its post excerpt engine where to split a post.
+
+So I created a `kirbytext()` extension to do the same with a `(more:)` tag.
+
+My kirbytext.extended.php file looks like this:
+
+```PHP
+<?php
+class kirbytextExtended extends kirbytext {
+	function __construct($text, $markdown=true) {
+		parent::__construct($text, $markdown);
+		// define the custom 'more' tag
+		$this->addTags('more');
+	}
+	// define that the 'more' tag returns nothing
+	function more($params) {
+		return ("");
+	}
+}
+?>```
+
+My loop for my main block pages looks like this:
+
+```PHP
+<?php foreach($page->children()->visible()->flip() as $article): ?>
+	<article>
+		<h1><?php echo html($article->title()) ?></h1>
+		<?php
+		$theText = $article->text();
+		if (strpos($theText, '(more:)') === FALSE) {
+			echo kirbytext($theText);
+		} else {
+			echo kirbytext(strstr($theText, '(more:)', true));
+			echo '<a href=' . $article->url() . '>Read more…</a>';
+		}
+		?>
+	</article>
+<?php endforeach ?>```
+
+I'm sorry my code is all compressed. I haven't quite figured out the syntax for good markdown. [Edit: Now my code looks right thanks to @plartz who commented below]
+
+Maybe that will help someone trying to do the same thing. Or maybe there's even a better way?
+
+Bob

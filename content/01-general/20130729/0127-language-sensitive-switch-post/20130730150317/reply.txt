@@ -1,0 +1,29 @@
+User: texnixe
+----
+Date: 2013-07-30 15:03:17
+----
+Text: Update: Problem solved
+
+    <nav class="switch_post">
+      <?php 
+      $current = c::get('lang.current');
+      $mysiblings = $page->siblings();
+      
+      foreach($mysiblings as $sibling)
+         {
+             foreach($sibling->files as $file) 
+                {
+                   if ($file->languageCode == $current)
+                   {$currentsiblings[] = $sibling;}
+                }
+         }
+    $mysiblings= new Pages ($currentsiblings);
+    $mysiblings = $mysiblings->sortBy('date','time');
+    if($page->_prev($mysiblings)) : ?>
+       <a class="prev" href="<?php echo $page->_prev($mysiblings)->url() ?>"><i class="left"></i></a>
+    <?php endif ?>
+
+    <?php if($page->_next($mysiblings)): ?> 
+       <a class="next" href="<?php echo $page->_next($mysiblings)->url() ?>"><i class="right"></i></a>
+    <?php  endif ?>
+    </nav>

@@ -1,0 +1,7 @@
+User: jesuismaksim
+----
+Date: 2013-02-17 00:02:57
+----
+Text: After a lil' search in the Kirby core I found the 'content' method wich apparently print all the content (with the lang of your choice), so useful but secret :P
+
+$page->content([lang])->yourvar()

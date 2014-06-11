@@ -1,0 +1,11 @@
+Title: Authentication Plugin + Panel - Logout issue
+----
+Date: 2013-05-13 16:27:43
+----
+Solved: 0
+----
+User: roman_oroco
+----
+Text: When I open (link:https://github.com/bastianallgeier/kirbycms-extensions/tree/master/plugins/auth text:Auth popup:yes) logout page in the Panel it has the same name of Panel logout, so it breaks all the layout.
+
+So temporally it’s possible to modify the Auth logout page only via FTP.

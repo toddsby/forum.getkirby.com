@@ -1,0 +1,5 @@
+User: texnixe
+----
+Date: 2013-11-05 21:54:58
+----
+Text: @IamAdamJowett: don't think it ever did; am running a multi language site myself and the default behavior when requesting a url like example.com/string is redirecting to the start page and not to example.com/en/string or example.com/de/string; their should be a way to redirect such URLs though, worth looking into that

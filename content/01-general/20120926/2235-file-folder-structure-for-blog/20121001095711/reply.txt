@@ -1,0 +1,5 @@
+User: apolaine
+----
+Date: 2012-10-01 09:57:11
+----
+Text: Having unique article names is a step forwards, at least. Might not solve the sub-directory performance issue. I said the name.article.txt sounded a bit nasty because of the multiple suffixes, but I guess it's not so bad. That way the slug could be pulled out of the file name, although putting it in the text file as a slug field could also do this I guess.

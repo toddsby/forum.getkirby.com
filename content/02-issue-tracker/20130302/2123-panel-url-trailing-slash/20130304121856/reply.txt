@@ -1,0 +1,16 @@
+User: iamirm
+----
+Date: 2013-03-04 12:18:56
+----
+Text: Ok so these are the settings I have:
+
+.htaccess 
+      RewriteBase /test/site
+
+site/config/config.php
+      c::set('url', 'http://www.mysite.com/test/site');
+      c::set('subfolder', 'test/site');
+      
+I don't think anything else could be of influence? Like I said, I used the default htaccess file from the Kirby download.
+
+Thanks again for any help!

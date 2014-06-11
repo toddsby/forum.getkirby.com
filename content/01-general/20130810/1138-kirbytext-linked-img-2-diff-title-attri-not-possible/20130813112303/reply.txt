@@ -1,0 +1,6 @@
+User: russbaldwin
+----
+Date: 2013-08-13 11:23:03
+----
+Text: How can I display the captions? 
+See Docs [Adding media](http://getkirby.com/docs/media)

@@ -1,0 +1,15 @@
+User: danielweidner
+----
+Date: 2012-12-03 20:33:01
+----
+Text: I played around a bit with all the git tools available and figured out a way that could work:
+
+1. I forked the original repository of kirbycms which allows me to apply (cross-project) changes to the source. The fork can be upgraded/updated anytime the original kirbycms repository changes using git pull (--rebase).
+
+2. For a new web project using kirbycms I can now clone the custom repository and add my contents, templates and assets. Once I want to upgrade the cms of a project to the latest version I can fetch the remote branch and merge them again.
+
+At least that workflow worked for my small test project, but maybe I am over-complicating the whole process... 
+
+@fitzage Your approach is way more target-oriented and has the advantage that it does not clutter the version history of the actual project. 
+
+Maybe I have to over-think my attempt. Nonetheless I would be still interested in further comments about proven KirbyCMS/Git workflows.

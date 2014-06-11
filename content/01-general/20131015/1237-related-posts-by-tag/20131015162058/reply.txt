@@ -1,0 +1,20 @@
+User: psztrnk
+----
+Date: 2013-10-15 16:20:58
+----
+Text: Thanks Russ, in the meanwhile I was also experimenting with `filterBy()`.
+
+First I tried to pass the variable to the filter by `$tag = $page->tag()` but that wasn't working. Later on I found out that the problem was that this requires a string to work, so with `strval()` it works really nice. :)
+
+So the whole thing is like
+
+`$tag = strval($page->tag());
+$articles = $pages->find('blog')->children->visible()->filterBy('tag', $tag)->flip()->paginate(5);
+foreach ($articles as $article)`
+
+The only thing I have to do is to strip the current article from the list and it should be OK.
+
+Edit: done with `->not($page->uid())` after the `filterby()`.
+
+Thanks anyway,
+Adam

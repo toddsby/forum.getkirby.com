@@ -1,0 +1,7 @@
+User: tysongach
+----
+Date: 2013-04-24 19:09:25
+----
+Text: Meaning, you want them to be the same *visually*?
+
+If so, use CSS to style those list items.

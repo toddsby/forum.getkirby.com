@@ -1,0 +1,23 @@
+User: russbaldwin
+----
+Date: 2013-06-11 08:25:48
+----
+Text: Sorry, misunderstood, what you were asking for. I don't think it works like that, you can pass params, but not like that. 
+
+You can of course test for and get params and then perhaps pump them into a snippet as a variable? You can maybe have multiple params with some special handling -- Bastian maybe able to advise here?
+
+```php 
+ if(param('something')) {
+  ...
+ }
+```
+
+---
+
+My original replay for question was for calling snippets with params not from from URL params. I left it here because it may be helpful.
+
+```php
+snippet('mySnippet',
+array('something' => 'funky','somethingelse' => 'notsofunky')
+)
+```

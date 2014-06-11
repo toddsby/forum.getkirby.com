@@ -1,0 +1,163 @@
+User: AngelosThoughts
+----
+Date: 2014-04-20 23:36:43
+----
+Text: Edit: Having trouble posting the code without it parsing the php lines. You should be able to view the source of this page to read the code, however.
+
+Used the Submission class to process and validate the form input (see https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/contactform/lib/submission.php)
+
+Created signup() in Auth class
+
+1) Created lib folder in /auth and added submission.php
+
+2) Added after `s::start();` in site/plugins/auth/auth.php:
+<pre><code>if(!class_exists('Submission')) require_once('lib/submission.php');
+
+class SignUpForm extends Submission {
+  public function __construct($params = array()) {
+    
+    $this->defaults();
+
+    // set required and wanted fields
+    $this->defaults('required', array('email', 'password', 'firstname', 'lastname', 'phone'));
+    $this->defaults('keep', array('email', 'password', 'firstname', 'lastname', 'phone'));
+
+    // take the current URL as the default goto URL
+    $this->defaults('goto', $_SERVER['REQUEST_URI']);
+    
+    // set a custom validation event
+    $this->defaults('validate', function($self) {
+      if(!filter_var($self->value('email'), FILTER_VALIDATE_EMAIL)) $self->addInvalid('email');
+      if(!preg_match('/^.{6,}$/', $self->value('password'))) $self->addInvalid('password');
+      if(strlen(preg_replace("/[^0-9]/", '', $self->value('phone'))) < 10) $self->addInvalid('phone');
+      
+      // check if account exists
+      if(self::accountExists($self->value('email'))) $self->addInvalid('emailTaken');
+    });
+    
+    // create new user on success
+    $this->defaults('success', function($self) {
+      // The following code is copied from Auth::signup
+      Auth::signup($self->option('goto'), $self->option('encryption'), $self->option('group'));
+    });
+
+    // merge the defaults with the given options
+    $this->options($params);
+
+    // trigger the request
+    $this->trigger('request');
+  }
+  
+  static protected function accountExists($email) {
+
+    $email = str::lower($email);
+
+    $dir  = c::get('root.site') . '/accounts';    
+    $file = $dir . '/' . $email . '.php';
+    
+    return file_exists($file);
+  }
+}</code></pre>
+
+Added anywhere in the Auth class in site/plugins/auth/auth.php:
+<pre><code>static public function signup($redirect = '/', $encryption = 'sha1', $group = '') {
+  
+  self::kill();
+  
+  $attr = array(
+    'email'     => get('email'),
+    'password'  => get('password'),
+    'encrypt'   => $encryption,
+    'group'     => $group,
+    'firstName' => get('firstname'),
+    'lastName'  => get('lastname'),
+    'phone'     => get('phone'),
+    'created_at'=> getdate(),
+    'updated_at'=> getdate()
+  );
+  
+  // encrypt password
+  switch($encryption) {
+    // sha1 encoded
+    case 'sha1':
+      $attr['password'] = sha1($attr['password']);
+      break;
+    // md5 encoded
+    case 'md5':
+      $attr['password'] = md5($attr['password']);
+      break;
+  }
+  
+  // downcase email
+  $email = str::lower($attr['email']);
+  $attr['email'] = $email;
+  
+  // try to create user
+  if(!self::load($email)) {
+    
+    // convert attr to yaml
+    $yaml = Spyc::YAMLDump($attr);
+    $str = "<?php if(!defined('KIRBY')) exit ?>\n\n" . $yaml;
+    
+    $dir  = c::get('root.site') . '/accounts';
+    $file = $dir . '/' . $email . '.php';
+    
+    f::write($file, $str);
+    
+    // auto login after creation
+    self::login($redirect);
+  }
+}</code></pre>
+
+site/snippets/account-signupform.php:
+<pre><code><?php
+$form = new signupform(array(
+  'encryption'  => 'sha1',
+  'group'       => 'customer',
+  'goto'        => 'account'
+));
+?>
+<section id='signupform'>
+  <form action="<?php $page->url() ?>" method="post">
+    <fieldset>
+      <?php if($form->isError('emailTaken')): ?>
+      <p class='alert'>An account with that email address already exists. Please enter a different email address.</p>
+      <?php elseif($form->isError()): ?>
+      <p class='alert'>The form could not be submitted. Please fill in all fields correctly.</p>
+      <?php endif ?>
+      
+      <h2>Login Details</h2>
+      
+      <div class='field<?php if($form->isError("email") || $form->isError("emailTaken")) echo " error" ?>'>
+        <label class='label' for='signupform-email'>Email Address <?php if($form->isError("email")): ?><small>Please enter a valid email address</small><?php endif ?><?php if($form->isError("emailTaken")): ?><small>Please enter a different email address</small><?php endif ?></label>
+        <input class='input' type='email' id='signupform-email' name='email' value='<?php echo $form->htmlValue("email") ?>' />
+      </div>
+      
+      <div class='field<?php if($form->isError("password")) echo " error" ?>'>
+        <label class='label' for='signupform-password'>Password <?php if($form->isError("password")): ?><small>Please enter a valid password</small><?php endif ?></label>
+        <input class='input' type='password' id='signupform-password' name='password' value='<?php echo $form->htmlValue("password") ?>' />
+        <div class='help'>Must be at least 6 characters</div>
+      </div>
+      
+      <h2>Personal Details</h2>
+      
+      <div class='field<?php if($form->isError("firstname")) echo " error" ?>'>
+        <label class='label' for='signupform-firstname'>First Name <?php if($form->isError("firstname")): ?><small>Please enter a first name</small><?php endif ?></label>
+        <input class='input' type='text' id='signupform-firstname' name='firstname' value='<?php echo $form->htmlValue("firstname") ?>' />
+      </div>
+      
+      <div class='field<?php if($form->isError("lastname")) echo " error" ?>'>
+        <label class='label' for='signupform-lastname'>Last Name <?php if($form->isError("lastname")): ?><small>Please enter a last name</small><?php endif ?></label>
+        <input class='input' type='text' id='signupform-lastname' name='lastname' value='<?php echo $form->htmlValue("lastname") ?>' />
+      </div>
+      
+      <div class='field<?php if($form->isError("phone")) echo " error" ?>'>
+        <label class='label' for='signupform-phone'>Phone Number <?php if($form->isError("phone")): ?><small>Please enter a valid phone number</small><?php endif ?></label>
+        <input class='input' type='tel' id='signupform-phone' name='phone' value='<?php echo $form->htmlValue("phone") ?>' />
+        <div class='help'>Example: (808) 555-1234</div>
+      </div>
+      
+      <input class='button' type='submit' name='submit' value='Sign Up' />
+    </fieldset>
+  </form>
+</section></code></pre>

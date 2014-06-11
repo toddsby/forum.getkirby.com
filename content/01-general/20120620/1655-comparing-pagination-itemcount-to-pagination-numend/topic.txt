@@ -1,0 +1,20 @@
+Title: Comparing pagination->itemCount to pagination->numEnd
+----
+Date: 2012-06-20 16:55:00
+----
+Solved: 0
+----
+User: danielgenser
+----
+Text: I was working a bit on adding to the pagination snippet, so that in the case of, say, 6 results, it wouldn't say "6 Results / Showing 1-10", instead it would say "6 Results / Showing 1-6".
+
+I thought this might be accomplished by having an if statement checking whether pagination->itemCount is greater than pagination->numEnd, if it is show itemCount, if it isn't, show numEnd.
+
+I'm still a beginner with Kirby and with PHP, so I'm always wary of my syntax. So far, I can't get the code to work as expected. Anyone care to have a look here?
+
+<http://codepad.org/2co2CX7A>
+
+I suspect the statement in question is:
+    <?php if($pagination->countItems() > $pagination->numEnd()) ?><?php echo $pagination->countItems() ?><?php else: ?><?php echo $pagination->numEnd() ?><?php endif ?>
+
+Thanks in advance for your attention!

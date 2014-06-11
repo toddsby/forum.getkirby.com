@@ -1,0 +1,7 @@
+User: roman_oroco
+----
+Date: 2013-04-05 12:38:52
+----
+Text: @cedwardsmedia Try to move `pagination.php` to your ~/site/snippets/ folder.
+
+Keep attention to this two totally different files: `~/site/templates/search.php` and `~/site/plugins/search.php`.

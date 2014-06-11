@@ -1,0 +1,5 @@
+User: plartz
+----
+Date: 2013-01-30 16:34:21
+----
+Text: Yeah, for copy text where I am using the `kirbytext()` method for parsing it'll work with extending kirbytext. But when I want to use them for headings, titles etc. it won't work – there you need to use `html()` for parsing, otherwise the output is wrapped up with a p-tag. And thats definitely not what I want for my headings :D

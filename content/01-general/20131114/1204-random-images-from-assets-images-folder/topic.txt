@@ -1,0 +1,26 @@
+Title: Random images from assets/images folder.
+----
+Date: 2013-11-14 12:04:14
+----
+Solved: 0
+----
+User: mutchov
+----
+Text: Hi,
+
+I want to show random images in my page header. The images are in my assets folder.
+
+Path:
+assets/images/img-header
+
+img-header folder content:
+- image01.jpg
+- image02.jpg
+- image03.jpg
+
+I know how to get this to work from the pages folder:
+```php
+<?php $image = $page->images()->shuffle()->first(); ?>
+<img src="<?php echo $image->url() ?>" alt="<?php echo $image->title() ?>" /> 
+```
+**But how do I loop(?) through the img-header folder in the assets folder?**

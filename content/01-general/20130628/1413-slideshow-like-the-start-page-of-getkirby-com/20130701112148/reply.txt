@@ -1,0 +1,5 @@
+User: nicovanzyl
+----
+Date: 2013-07-01 11:21:48
+----
+Text: You just put all the js files in the assets folder, add the `<script>` to your footer.php snippet and initiate/call the slider. :)

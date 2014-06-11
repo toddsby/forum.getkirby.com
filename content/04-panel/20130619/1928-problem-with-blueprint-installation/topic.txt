@@ -1,0 +1,17 @@
+Title: Problem with Blueprint Installation
+----
+Date: 2013-06-19 19:28:16
+----
+Solved: 0
+----
+User: nomadicism
+----
+Text: Hi there,
+
+I created a site with a kirby install, and got the panel set up for my client. I had neglected to create the blueprints ahead of time, so it gave me the usual warning upon login to the panel [see Skitch here](https://www.evernote.com/shard/s76/sh/93146bd9-a1e5-47c2-985d-9b8e4128d9b4/73b3e85e99033f856962887028e7e800/deep/0/Screenshot%206/19/13%201:23%20PM.png).
+
+I created a blueprint to test it out (this part is new to me, I don't use the panel to manage my own site, which also uses kirby) and put it where the tutorial/directions said to (../panel/blueprints/). I also created another one, but that's irrelevant.
+
+I continue to get the warning about the missing blueprints. Do I need to create all the blueprints before installing the panel? Or do I need to create the blueprints before adding content to the site (which I have already done manually via ftp as part of the development process) AND before installing the panel?
+
+Thanks for your help!

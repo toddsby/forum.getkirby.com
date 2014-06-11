@@ -1,0 +1,53 @@
+User: russbaldwin
+----
+Date: 2013-02-01 08:04:37
+----
+Text: I maybe missing something but I just set up a quick test installing Kirby with a default *.htaccess* at:  
+*http://localhost/atest*
+
+```
+root
+    atest
+        assets
+        content
+        kirby
+        panel
+        site
+        .htaccess
+        index.php
+```
+
+In *config.php* I changed:
+
+```php
+/* 
+---------------------------------------
+Subfolder Setup
+---------------------------------------
+Kirby will automatically try to detect the subfolder
+i.e. http://yourdomain.com/subfolder
+This might fail depending on your server setup. 
+In such a case, please set the correct subfolder here. 
+You must also set the right url then:
+c::set('url', 'http://yoururl.com/subfolder');
+if you are using the .htaccess file, make sure to 
+set the right RewriteBase there as well:
+RewriteBase /subfolder
+*/
+c::set('atest', true);
+/*
+```
+
+Changed my .htaccess (it is in the *atest* subfolder)
+
+```php 
+# Set the RewriteBase to:
+RewriteBase /atest
+```
+
+I can go to 
+http://localhost/atest/panel/ with no problem?
+
+---
+
+You could also use your webservers' virtual host facility to set up a domain to point to the folder, which is what I would normally do.

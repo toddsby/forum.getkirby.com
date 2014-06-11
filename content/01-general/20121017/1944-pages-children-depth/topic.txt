@@ -1,0 +1,22 @@
+Title: $pages, children() depth
+----
+Date: 2012-10-17 19:44:49
+----
+Solved: 0
+----
+User: prayasabhinav
+----
+Text: Hello all, 
+
+I am making my first kirby site. Enjoying so far, but have hit a block now. 
+
+My site (not yet public) has a three level structure. so content --> folder --> folder --> folder --> article. On the homepage of the site/blog I would like to show pages from all depths. When I use: 
+
+>> <?php $articles = $pages->children()->visible()->flip()->sortBy($sort='date', $direction='desc')->paginate(5) ?>
+
+
+I get only a depth of two-levels. How do I get more levels of depth in children()?
+
+Thanks for all the suggestions in advance, 
+
+Prayas

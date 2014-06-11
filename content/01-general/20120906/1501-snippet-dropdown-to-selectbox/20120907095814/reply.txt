@@ -1,0 +1,5 @@
+User: tues37
+----
+Date: 2012-09-07 09:58:14
+----
+Text: Yes. Like http://css-tricks.com/convert-menu-to-dropdown/. I did it once, but not with the variables of kirby. I want the structure updated when someone adds pages, etc.

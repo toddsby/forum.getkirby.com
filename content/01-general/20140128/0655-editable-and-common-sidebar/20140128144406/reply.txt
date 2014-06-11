@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2014-01-28 14:44:06
+----
+Text: For something that's site wide, I would typically put it in the site.txt (which can be edited from the panel). That's where I have my about text, among other things.

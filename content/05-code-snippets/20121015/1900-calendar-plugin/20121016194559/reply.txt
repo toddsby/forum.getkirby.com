@@ -1,0 +1,5 @@
+User: chrstphbach
+----
+Date: 2012-10-16 19:45:59
+----
+Text: Hey, unfortunately there's no live demo for it at the moment and also no iCal export, but this shouldn't be a problem and we have this on our todo list. So I would recommend watching the repo on github so that you get updates very quick.

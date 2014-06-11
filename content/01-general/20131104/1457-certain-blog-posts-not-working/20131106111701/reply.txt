@@ -1,0 +1,5 @@
+User: AlexK
+----
+Date: 2013-11-06 11:17:01
+----
+Text: Figured it out. It was a dumb mistake on my end. I am automatically creating the folders from a Hazel action and the folder name is based on the title of my post. I forgot to clean up my dashes. I like to use en and em dashes in my titles and Hazel used those instead of a simple minus for the folder names.

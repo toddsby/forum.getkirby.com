@@ -1,0 +1,9 @@
+User: fitzage
+----
+Date: 2013-01-31 00:16:21
+----
+Text: Yes, I think it's on the forum somewhere already, but might be buried in an unrelated post.
+
+    <body class="<?php echo ($page->isHomePage()) ? 'home' : $site->uri()->path()->last() ?>">
+
+You don't need all of that if you don't want, but that will give you "home" as the class if you're on the homepage, the last segment of the URL otherwise.

@@ -1,0 +1,15 @@
+Title: Contact Form Plugin E-Mail
+----
+Date: 2014-04-23 09:55:14
+----
+Solved: 0
+----
+User: tues37
+----
+Text: Hey, I’m looking for a way to display the name and/or e-mail from the sender. 
+
+The problem is that all e-mails from the Contact Form are addressed with the same e-mail why I can’t sort them according to clients.
+
+Is there any easy way to change that value in the plugin?
+
+Thanks a lot.

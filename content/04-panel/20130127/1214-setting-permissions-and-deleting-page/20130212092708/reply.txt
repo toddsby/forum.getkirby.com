@@ -1,0 +1,9 @@
+User: russbaldwin
+----
+Date: 2013-02-12 09:27:08
+----
+Text: Not really sure, but I guess it is just different rights, groups and users on different UNIX-like operating systems. (Mac is UNIX-like as are most hosting OS's.)
+
+Also 777 is a bit open, so I believe on Apache web servers, at least, that are running suphp or suexec, they will force 755 (common on shared servers). Apache servers in dedicated server/VPS environments that aren't running these may just require 775. So you can set 777, but it will become 755 on host. If it does not then you should set it on your host ;-)
+
+Does that help?

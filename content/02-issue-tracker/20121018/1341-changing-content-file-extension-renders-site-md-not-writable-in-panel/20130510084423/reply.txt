@@ -1,0 +1,6 @@
+User: markusgiesen
+----
+Date: 2013-05-10 08:44:23
+----
+Text: Quick question, is it possible to have more than one extension?
+i.e. make this an array of txt and md?

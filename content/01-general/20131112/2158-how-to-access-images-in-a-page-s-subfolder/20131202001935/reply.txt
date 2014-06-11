@@ -1,0 +1,18 @@
+User: unexpectedsport
+----
+Date: 2013-12-02 00:19:35
+----
+Text: @fitzage
+
+Thank you so much for your reply, and I'm sorry this is so late. After some trial and error, I managed to get it working with your code:
+
+	<?php $imagepage = $page->children()->first() ?>
+
+Fortunately, my detail folder was the first child folder so in this instance it was fine. Just in case I come across a situation in the future where there are multiple child folders and I need to target a specific one, I have been trying to figure out how to do that. I haven't yet been able to get your second code working: 
+
+	<?php $page->children()->findByUID('detail') ?>
+
+I was thinking that maybe **findByUID** only works on **$pages** and not **$page** and tried thinking of workarounds like this: 
+	<?php $imagepage = $pages->active()->children()->findByUID('detail') ?>
+
+Unfortunately, I haven't had any luck yet. If you or anyone else has suggestions how to target a page's specific subfolder (without using **$pages->findByUID($uid)**) I would really appreciate the tips! Thanks again!

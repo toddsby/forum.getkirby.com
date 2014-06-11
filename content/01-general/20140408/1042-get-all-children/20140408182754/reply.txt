@@ -1,0 +1,28 @@
+User: fitzage
+----
+Date: 2014-04-08 18:27:54
+----
+Text: Pretty much, yes. A Kirby structure would look more like this:
+
+```
+01-products
+   products.txt
+   01-drink
+      drinks.txt
+      01-scotch
+         drink.txt
+      02-vodka
+         drink.txt
+   02-fruit
+      fruit.txt
+      01-apple
+         fruit.txt
+   03-dessert
+      desserts.txt
+      01-chocolate
+         dessert.txt
+```
+
+The folder name is the slug, the name of the actual file is the name of the template. They could all be `default.txt` or some such, but if you have separate templates for the different items, you'd name them like this example.
+
+In your previous example, scotch and vodka aren't children of drinks. Whichever one shows up first is the content file for drinks, and whichever shows up next is just nothing. You're using more of a Statamic content structure. ;-)

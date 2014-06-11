@@ -1,0 +1,6 @@
+User: tillpro
+----
+Date: 2013-06-23 11:09:17
+----
+Text: It seems you uploaded the wrong `.htaccess`?
+<https://github.com/bastianallgeier/kirbycms/blob/master/.htaccess>

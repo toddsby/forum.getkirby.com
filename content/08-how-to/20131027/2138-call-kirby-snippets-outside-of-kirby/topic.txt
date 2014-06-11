@@ -1,0 +1,13 @@
+Title: call kirby snippets outside of kirby
+----
+Date: 2013-10-27 21:38:14
+----
+Solved: 0
+----
+User: timgauthier
+----
+Text: I'm in a weird situation, I need to use amember pro to manage a clients customers, and we are using kirby to replace a site that was previously wordpress. I got the site working and i've got most of the backend working, the problem i'm having now is where the amember runs into kirby. I am not able to replace some of the functions of amember with my own kirby replacements, so I need to put kirby into some of the amember pages.
+
+AMember uses a phtml template system, and I am wondering how I can extend kirby into these, so that I can have the correct navigation, footer, etc being pulled from Kirby into these pages (as apposed to just giving them the same CSS and no navigation etc). I need to be able to dynamically pull content so that the navigation is always up-to-date as it isn't useful for us to have to constantly update the phtml's to reflect any site changes.
+
+I haven't a clue where to start, any ideas?

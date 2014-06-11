@@ -1,0 +1,13 @@
+Title: Snippet return value for building static web pages
+----
+Date: 2014-06-02 11:45:23
+----
+Solved: 0
+----
+User: homegrown
+----
+Text: I was trying to build static web pages using Kirby. For this I would find it convenient, to return a value from a template snippet. This way I could include $html = snippet('myMenu') into home.php and save that to a static file.
+
+Can anyone give me a hint for building static webpages using Kirby? I hoped, this would be simple using Kirby's own template system and not being forced to use "ob_start();eval( '?>' . $code );" or DomDocument or phpquery on top of it.
+
+P.S.: "ob_start();eval( '?>' . $code );" is used in https://github.com/catnapgames/Tempo/blob/master/tempo.php

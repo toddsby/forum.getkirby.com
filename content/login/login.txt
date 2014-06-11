@@ -1,0 +1,9 @@
+Title: Login
+
+----
+
+Text:
+
+We are really sorry, but the login failed.
+You either cancelled it, or something went technically wrong.
+Please try again or go back to the (link: / text: threads).

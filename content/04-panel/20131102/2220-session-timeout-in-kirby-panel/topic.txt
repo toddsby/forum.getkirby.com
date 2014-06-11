@@ -1,0 +1,9 @@
+Title: Session Timeout in Kirby Panel
+----
+Date: 2013-11-02 22:20:24
+----
+Solved: 0
+----
+User: ashpodel
+----
+Text: How can I change the time after which the Kirby Panel logs out a user automatically?

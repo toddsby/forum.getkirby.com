@@ -1,0 +1,25 @@
+User: roman_oroco
+----
+Date: 2013-03-06 14:04:37
+----
+Text: I presume that your folder structure is:
+```
+root
+-www
+--mysite.com
+---test <- Kirby CMS
+```
+
+In my case I use Kirby .htaccess with (link:https://github.com/h5bp/html5-boilerplate/blob/master/.htaccess text:HTML5 Boilerplate), but standard Kirby htaccess might work well too.
+
+In your case `~site/config/config.php` just use:
+```php
+c::set('url', 'http://www.mysite.com/test');
+```
+
+My preferred method is using a subdomain:
+```php
+c::set('url', 'http://www.test.mysite.com/');
+```
+
+This should works for both.

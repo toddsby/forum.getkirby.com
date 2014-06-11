@@ -1,0 +1,31 @@
+User: UnknownGuest
+----
+Date: 2014-02-14 03:19:25
+----
+Text: I would achieve this layout like this in the content: 
+
+    Title: Start
+    ----
+    Column1: Column 1 text. Column 1 text. Column 1 text. Column 1 text. 
+    ----
+    Column2: Column 2 text. Column 2 text. Column 2 text. Column 2 text. 
+    ----
+    Sidebar: 
+    Sidebar links. Sidebar links. Sidebar links. Sidebar links.
+    Sidebar links. Sidebar links. Sidebar links. Sidebar links. 
+    Sidebar links. Sidebar links. Sidebar links. Sidebar links. 
+    Sidebar links. Sidebar links. Sidebar links. Sidebar links.
+
+And then in the templates:
+
+    <div class="column1">
+        <?php echo kirbytext($page-> column1()) ?>
+    </div>
+    <div class="column2">
+        <?php echo kirbytext($page->column2()) ?>
+    </div>
+    <div class="sidebar">
+        <?php echo kirbytext($page->sidebar()) ?>
+    </div>
+
+So in the Panel, you can enter column 1 and column 2 text in separate fields.

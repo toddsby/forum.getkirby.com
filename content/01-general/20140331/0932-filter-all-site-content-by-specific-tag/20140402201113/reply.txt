@@ -1,0 +1,5 @@
+User: corvine74
+----
+Date: 2014-04-02 20:11:13
+----
+Text: Since I'm not close to being a good PHP developer, can someone show me an example of structuring the loop.

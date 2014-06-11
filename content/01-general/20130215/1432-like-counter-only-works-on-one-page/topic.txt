@@ -1,0 +1,43 @@
+Title: Like counter only works on one page
+----
+Date: 2013-02-15 14:32:33
+----
+Solved: 0
+----
+User: swissendo
+----
+Text: I'm sorry to bother you again, but I've had some trouble with the [Like Counter](https://gist.github.com/bastianallgeier/3129327) for a few weeks now and haven't been able to find solutions. The counter kinda works (which is quite a bit of a surprise for me, since I don't know anything about PHP and/or AJAX), besides the following two problems:
+
+1. For some strange reason, the Like Counter doesn't work on another page, eventhough I'm using the same code (I'm just just replacing "blog" with "photos") and I'm placing the script at the same position. It just always returns the error that the likes couldn't be updated.
+2. Articles can be liked again after reloading the page.</br>
+
+The AJAX-Script (I've used [csspandemic](http://csspandemic.com/) as a starting point and modified it slightly through trial and error.):
+
+
+
+	$(document).ready(function(){
+	    $('.likes a').on('click', function(){
+	    
+	    	var currentUID = $(this).attr('href').replace('blog/like/post;', ''); 	
+	    	var span = $(this);
+	    		    
+	    	$.getJSON('blog/like/post;' + currentUID + '', function(r) {
+	    	
+	    	  if(r == undefined || r.status == 'error') {
+	    	    return alert('Likes could not be updated');
+	    	  } else {
+	    	  	span.parent().parent().parent().find('.likes').replaceWith('<span class="likes_active"><i class="icon-heart icon-large"></i>'+ r.likes +'</span>');
+	    	  }
+	    	
+	    	});
+	    	
+	    	return false;
+	    
+	    });
+	});
+
+and the "Button":
+
+	<span class="likes"><a href="<?php echo $article->uid() ?>"><i class="icon-heart icon-large"></i></a><?php if ($article->likes() == ''): ?>0<?php else: ?><?php echo $article->likes() ?><?php endif ?></span>	
+
+If somebody could help me with this, I would be forever grateful. Thanks in advance.

@@ -1,0 +1,10 @@
+User: Gurjeet_Singh
+----
+Date: 2012-07-12 16:25:48
+----
+Text: Still playing with the Panel. Was seeing if you could change template once it had been chosen. Could not see a way so went to do it manually and noticed that pages created in the Panel get set as the user '99' and group of 'nobody' which means you get a permission denied message when trying to delete/edit the page manually unless you change user and group first.
+
+So 2 issues maybe.
+
+1) Ability to change template of a page in Panel
+2) Permissions of files created using Panel

@@ -1,0 +1,18 @@
+User: ADRegan
+----
+Date: 2012-10-13 06:40:14
+----
+Text: There was a problem! After I added a feed, my process of calling the latest post only called the feed. So I combined my little bit of code with the little bit above and got this
+
+    <?php $latest = $pages->find('blog') ?>
+      
+    <?php foreach($latest->children()->visible()->flip()->limit(1) as $article): ?>
+
+    <article>
+      <h1><?php echo html($article->title()) ?></h1>
+      <?php echo kirbytext($article->text()) ?>
+    </article>
+
+    <?php endforeach ?> 
+
+And it seems to work well.

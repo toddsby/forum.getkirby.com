@@ -1,0 +1,9 @@
+Title: Contact Form not sending email
+----
+Date: 2014-02-11 02:14:06
+----
+Solved: 0
+----
+User: timgauthier
+----
+Text: Not sure if this should go here or bug reports, not sure if it is a bug in kirby or my end. I haven't been able to get the contact form plugin or email plugin to send email, on MAMP or live servers. I am using sendmail (or whatever the default email thing on apache servers is) and I even attempted to use Amazon to send email without success. Literally everything default except for the address i am sending email too.

@@ -1,0 +1,62 @@
+Title: find() returns wrong page w/ multilanguage support enabled
+----
+Date: 2013-06-17 17:26:53
+----
+Solved: 0
+----
+User: iso_zeu
+----
+Text: Hi there,
+
+so here's the situation:
+- language support is enabled
+- page structure as follows:
+path/to/page/a/b
+path/to/page/b (same page uid "b" as above)
+
+Loading the second page (path/to/page/b) results in a redirect loop.
+
+I've did some debugging and the problem seems to be the find function, but - again - only if the language support is enabled.
+
+Call stack:
+
+	#0  pages->find(path/to/page/b) called at [kirbylibpages.php:528]
+	#1  pages->active() called at [kirbylibsite.php:83]
+	#2  site->load() called at [kirbysystem.php:65]
+	#3  require_once(D:websiteszeuisogmbhkirbysystem.php) called at [index.php:71]
+
+pages.php, l. 506:
+
+	foreach($array as $p) {    
+		
+		$next = ($translated) ? $obj->findBy('translatedUID', $p) : $obj->{'_' . $p};
+		if(!$next) return $page;
+		
+		$page = $next;
+		$obj  = $next->children();
+	}
+
+Specifically it is this line:
+
+	$next = ($translated) ? $obj->findBy('translatedUID', $p) : $obj->{'_' . $p};
+
+The intention is to to go through the URI path step by step ("$array as $p") and to find the corresponding page for each part.
+In case language support is enabled this is done by looking at the translatedUID property. However, findBy will search recursively, i.e. not only the direct children are considered, but also any other child at any level below. 
+In the above example the result is that from path/to/page findBy will find path/to/page/a/b and therefore the correct page is never found.
+
+In pages->active() the returned URI (path/to/page/a/b) will be compared to the site's URI (path/to/page/b). As this does not match the functions returns the error page.
+In site->load() there is some code which tries to rewrite broken translated URLs. This will find path/to/page/b again (since it's working with site->uri) and redirect to that page, which starts the redirect loop.
+
+I came up with a workaround, which is to replace the problematic line mentioned above with the following code:
+
+	$next = false;
+	foreach ($obj as $child) {
+		if ($child->translatedUID == $p) {
+			$next = $child;
+			break;
+		}
+	}
+
+I didn't do much testing on this yet, though. So it might not be a flawless solution.
+
+Cheers

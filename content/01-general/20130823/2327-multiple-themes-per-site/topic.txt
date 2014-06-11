@@ -1,0 +1,11 @@
+Title: Multiple themes per site?
+----
+Date: 2013-08-23 23:27:38
+----
+Solved: 0
+----
+User: tipsbytony
+----
+Text: I'm thinking this is possible, but not sure how best to proceed without screwing everything up. 
+
+I'd like to use one theme for blog posts, and a different theme for articles. (For example, use the travelogue theme for articles, and the baseblog theme for blog posts and the home page...)

@@ -1,0 +1,5 @@
+User: _frankallen
+----
+Date: 2014-01-15 08:09:53
+----
+Text: maybe you should consider, whether is it really necessary to split the text-blocks and quote-blocks in two different files?

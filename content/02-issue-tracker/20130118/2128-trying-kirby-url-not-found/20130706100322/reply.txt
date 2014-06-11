@@ -1,0 +1,8 @@
+User: russbaldwin
+----
+Date: 2013-07-06 10:03:22
+----
+Text: Some more information required to help here ;-)
+What's in your .htaccess, your site folder structure server, php version.
+Which web server?
+Is mod_rewrite enabled if an Apache web server, otherwise if an nginx server what is your config?

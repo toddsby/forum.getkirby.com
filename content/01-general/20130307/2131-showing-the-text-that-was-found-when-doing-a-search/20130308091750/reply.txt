@@ -1,0 +1,17 @@
+User: russbaldwin
+----
+Date: 2013-03-08 09:17:50
+----
+Text: The array return contains quite a lot so you can use most of it, I'd check to see if it exists before doing anything with it though (I've not done that here for clarity:)
+
+Assuming $item is your array and your have a text field, something like
+
+```php
+<?php echo $item->text() ?>
+```
+Or if you have a description field, something like
+
+```php
+<?php echo $item->description() ?>
+```
+*You may end up with some problems doing this if the string you return contains a list for example and you truncate midway through the list*. One way to fix some of this is to remove html and get an excerpt using the toolkit, maybe [*str::excerpt*](http://toolkit.getkirby.com/docs/classes/str/excerpt)

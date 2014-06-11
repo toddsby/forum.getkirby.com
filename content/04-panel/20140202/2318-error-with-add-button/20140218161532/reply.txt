@@ -1,0 +1,9 @@
+User: JanKups
+----
+Date: 2014-02-18 16:15:32
+----
+Text: Overwriting the /panel files with the files found here:
+
+https://github.com/bastianallgeier/kirbycms-panel/tree/dev 
+
+worked out fine for me.

@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2014-04-30 00:29:02
+----
+Text: I assume you mean because you're creating them from the panel?
+
+If so, you need to create a blueprint for your blogarticle.txt files. You don't have one yet. (link: http://getkirby.com/docs/panel/blueprints)

@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-06-30 11:08:10
+----
+Text: [kirbytext with images `<p>` tag problem](http://getkirby.com/forum/issue-tracker/topic:16)

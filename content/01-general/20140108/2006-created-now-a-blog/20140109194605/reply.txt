@@ -1,0 +1,13 @@
+User: peterpolz
+----
+Date: 2014-01-09 19:46:05
+----
+Text: i choose that template
+http://kirby.christianreber.com
+
+now how did you to that?
+what should i change in the default.php or where should i add?
+http://getkirby.com/docs/templates
+
+thx
+peter

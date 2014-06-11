@@ -1,0 +1,9 @@
+User: LewisJenkins
+----
+Date: 2013-02-01 22:47:49
+----
+Text: Thanks for your replies.
+
+After two days trying to make the Panel work with this configuration I eventually gave up and installed everything in the root directory.
+
+If I ever figure it out I'll post back here...

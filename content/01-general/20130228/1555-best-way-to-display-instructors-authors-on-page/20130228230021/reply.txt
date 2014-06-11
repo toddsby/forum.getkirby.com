@@ -1,0 +1,11 @@
+User: plartz
+----
+Date: 2013-02-28 23:00:21
+----
+Text: You can get the images of the instructors with help of the `find()` function. Therefore your instructors-field in the workshop.txt has to be exactly the instrucor page's name (the folder name). Then you can just call your images "instructor-image.jpg" or something like that in your instructors' folder by finding the corresponding instructor's page and selecting the image as usual with the `images()` function:
+
+```php
+$image = $pages->find("instructors/" . $page->instructor())->images()->find("instructor-image.jpg");
+```
+
+If you have more than one, just use an foreach-loop, like for example in the menu.

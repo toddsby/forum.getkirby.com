@@ -1,0 +1,17 @@
+Title: Fliphost VPS Hosting
+----
+Date: 2013-02-04 13:57:24
+----
+Solved: 0
+----
+User: grandebruno
+----
+Text: Whenever Bastian posted the instructions for Dropbox syncing, I quickly started looking for VPS hosting (primarily for SSH access, something shared hosting (in my case, [StableHost](http://getkirby.com/forum/hosting/topic:341)) doesn't typically offer. My main criteria was cost. I was looking for VPS hosting for less than $10/month.This is why I didn't opt for Linode, which starts at $20/month. 
+
+While searching, I was referred to Fliphost. Their VPS hosting starts at $6/month. According to its owner, they're able to achieve such a low price by offering unmanaged hosting. In other words, they generally don't involve themselves in managing your server. This doesn't mean that support is non-existent. In fact, for the few times I had problems, they responded promptly and helpfully. 
+
+Hence, I can vouch for Fliphost. They're great for anyone who is looking for cheap VPS hosting. Be warned: it's unmanaged, so you should know a bit of system administration or be able to google stuff (which is what I did). 
+
+If you believe I deserve a referral, follow this link: [http://sales.fliphost.net/aff.php?aff=030](http://sales.fliphost.net/aff.php?aff=030). 
+Otherwise, here's the non-affiliate link: 
+[http://www.fliphost.net/vps.html](http://www.fliphost.net/vps.html).

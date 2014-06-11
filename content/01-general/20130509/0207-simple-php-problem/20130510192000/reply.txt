@@ -1,0 +1,15 @@
+User: ChrisjMartin87
+----
+Date: 2013-05-10 19:20:00
+----
+Text: @russbaldwin That worked Perfect. Thanks.
+
+what is the difference between 
+
+     translatedUID  === 'example'
+
+and
+
+     findByUID('example')
+
+Cheers

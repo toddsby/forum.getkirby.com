@@ -1,0 +1,11 @@
+User: bastianallgeier
+----
+Date: 2012-10-22 10:41:26
+----
+Text: @quintincarlson did you make sure that URL rewriting with mod_rewrite is available? If you are on a dv I suppose that you are responsible for server administration, right? You might need to change your apache config to allow htaccess files to work and also to enable mod_rewrite. 
+
+Alternatively you can go to site/config/config.php and set 
+
+```php
+c::set('rewrite', false);
+```

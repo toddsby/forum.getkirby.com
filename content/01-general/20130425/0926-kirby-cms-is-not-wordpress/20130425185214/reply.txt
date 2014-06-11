@@ -1,0 +1,9 @@
+User: fitzage
+----
+Date: 2013-04-25 18:52:14
+----
+Text: Yup, Kirby is not WordPress. Which is one of the reasons I love Kirby. :-)
+
+Regarding security, I'm not really sure. Seems like it should be more secure, but I'm not entirely sure.
+
+Regarding SEO, SEO doesn't depend on your CMS. It depends on your content. You can incorporate good SEO practices in any CMS. I would say Kirby is easier to do that with partly because it's easier to deal with custom fields, which come in handy for things like description meta tags.

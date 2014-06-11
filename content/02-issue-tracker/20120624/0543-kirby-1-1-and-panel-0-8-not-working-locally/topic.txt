@@ -1,0 +1,12 @@
+Title: Kirby 1.1 and Panel 0.8 not working locally?
+----
+Date: 2012-06-24 05:43:10
+----
+Solved: 1
+----
+User: nilshendriks
+----
+Text: Is it me or does the panel not work locally anymore with 'rewrite, false'?
+I always get the page not found page.
+
+It does work with panel 0.6...

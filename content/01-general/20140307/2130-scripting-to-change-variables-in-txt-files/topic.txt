@@ -1,0 +1,19 @@
+Title: Scripting to change variables in .txt files
+----
+Date: 2014-03-07 21:30:09
+----
+Solved: 0
+----
+User: omgitsjkt
+----
+Text: I've written a script to change a variable from "true" to "false" in a page's .txt file after a form submission. Currently, I'm using the URL of the file before it's changed by kirby:
+
+	$path_to_file =     $_SERVER['DOCUMENT_ROOT'].'content/02-photos/03-three/photo.txt';
+	$file_contents = 	str_replace('Avlabl: true', 'Avlabl: false', file_get_contents($path_to_file));
+	file_put_contents($path_to_file, $file_contents);
+
+But, it's going to get more complicated later when the script is called to change different .txt files. I'd like write:
+
+	$path_to_file =     $_SERVER['DOCUMENT_ROOT'].'/photos/'.$photoUID.'/photo.txt';
+
+How can I do this?

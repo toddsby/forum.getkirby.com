@@ -1,0 +1,5 @@
+User: VisionsInEd
+----
+Date: 2013-10-01 23:24:51
+----
+Text: Nevermind. Answered my own question by taking another look at the config file. Markdown Extra was set to false. Set it to true, and now it works. ;)

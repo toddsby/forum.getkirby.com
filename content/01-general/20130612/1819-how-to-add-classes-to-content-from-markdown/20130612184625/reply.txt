@@ -1,0 +1,8 @@
+User: roman_oroco
+----
+Date: 2013-06-12 18:46:25
+----
+Text: Hi,
+here’s some links:
+- (link: forum/extensions/topic:199)
+- (link: forum/extensions/topic:289#post1044)

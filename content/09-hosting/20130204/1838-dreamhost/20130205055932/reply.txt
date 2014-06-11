@@ -1,0 +1,5 @@
+User: maguay
+----
+Date: 2013-02-05 05:59:32
+----
+Text: I have Kirby running on a DreamHost shared account, but since my site was moved to a new server, it's had over an hour of downtime each day. Their support says my site is using too many resources - too much ram, apparently - even though it appears to be using <100Mb at any given time. Frustrating, since DreamHost has been quite good for me otherwise so far.

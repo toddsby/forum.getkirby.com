@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-04-26 09:20:07
+----
+Text: Whilst I am of the opinion that your mobile website should have the same content as your desktop one, this is not always possible. CSS media-queries can help, as can Javascript media-query based code and loading stuff? Other than that I think you are into the nebulous area of browser detection- there are several PHP libraries out there and I think Kirby has a few built in -- check out the [Kirby Toolkit](http://toolkit.getkirby.com/).

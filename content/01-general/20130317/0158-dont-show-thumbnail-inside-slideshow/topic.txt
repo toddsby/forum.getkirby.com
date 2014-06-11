@@ -1,0 +1,22 @@
+Title: Don´t show thumbnail inside slideshow
+----
+Date: 2013-03-17 01:58:43
+----
+Solved: 1
+----
+User: janstieler
+----
+Text: Hi,
+I have an little problem with images for an slideshow.
+In the article folder I have on image with the name thumb.jpg and also some images for the slideshow. My problem now is that I don´t want to show the thumb image inside the slideshow.
+Is there a way to set an subfolder for images or take one image out the array?
+
+This ist the code for the slideshow
+
+	<ul id="slider" class="rslides">
+	<?php foreach($page->images() as $image): ?>
+	<li><img src="<?php echo $image->url() ?>" alt="src="<?php echo $image->title() ?>"" /></li>
+	<?php endforeach ?>
+	</ul>
+
+BR

@@ -1,0 +1,7 @@
+User: bastianallgeier
+----
+Date: 2012-06-18 19:18:22
+----
+Text: Ah, nice one!! Having the active page a span makes perfect sense. I'm thinking about switching to your version. 
+
+If you want to add code to your forum posts, just use the Markdown syntax for adding code blocks by indenting them. You can also use Markdown for links, etc. I'm planning to add instructions on formatting in the forum soon.

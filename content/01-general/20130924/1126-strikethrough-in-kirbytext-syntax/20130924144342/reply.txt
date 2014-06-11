@@ -1,0 +1,7 @@
+User: JanStieler
+----
+Date: 2013-09-24 14:43:42
+----
+Text: Hi,
+I have added the [Markitup Editor](https://github.com/markitup/1.x "Markitup Editor") to the Panel.
+With this it is not so hard to add new elements to markdown.

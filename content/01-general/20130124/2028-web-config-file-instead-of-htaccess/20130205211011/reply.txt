@@ -1,0 +1,8 @@
+User: AndrewR_Design
+----
+Date: 2013-02-05 21:10:11
+----
+Text: @theoriginalivor
+Interesting... So when I just add this to the end of my web config file I get a: 403 - Forbidden: Access is denied. If I replace what is in my config file with what you have I get: 500 - Internal server error. (I put the code with in the <configuration> tag).
+
+Any suggestions?

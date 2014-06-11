@@ -1,0 +1,8 @@
+User: chrisburton
+----
+Date: 2013-05-14 11:11:24
+----
+Text: @dokdeleon I'm actually not using the latest update. I will try that, thank you.
+
+
+@russbaldwin Unfortunately, I never changed any file extensions so I don't believe that to be the cause. I'm going to try to update the Panel to see if that works. Appreciate your help!

@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-08-13 11:21:26
+----
+Text: It is returning an array? If so `->first()` would help if you only have one and want the first one. Otherwise iterate through the array?

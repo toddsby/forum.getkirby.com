@@ -1,0 +1,15 @@
+User: tysongach
+----
+Date: 2013-03-27 21:13:33
+----
+Text: Hi,
+
+You can use the slice method to accomplish that:
+
+```php
+
+<?php $articles = $page->children->slice(1,5) ?>
+
+```
+
+You can read more about this and other methods in the Kirby docs: <http://getkirby.com/docs/variables/pages>

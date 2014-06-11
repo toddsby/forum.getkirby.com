@@ -1,0 +1,15 @@
+Title: View local Kirby site on iPhone or iPad with MAMP
+----
+Date: 2014-04-08 04:53:05
+----
+Solved: 1
+----
+User: fridgewanch
+----
+Text: Spent a bit of time trying to figure out how to view a local Kirby site on an iPhone with MAMP and though that I should share my solution if someone else does not know how to do it.
+
+1. Get the IP on your Mac. System Preferences > Network > AirPort.
+2. Get the APACHE port from MAMP. MAMP > Preferences > Ports > Apache Port.
+3. Add those two togeter. Example, 192.168.100.170:8888
+4. Set the URL in Kirby config.php. mysite > site > config > config.php. Set the URL to: c::set('url', 'http://192.168.100.170:8888/mysite');
+5. You should now be able to visit your site from an iPhone or whatever other device by going to http://192.168.100.170:8888/mysite

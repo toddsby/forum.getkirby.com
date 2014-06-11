@@ -1,0 +1,30 @@
+Title: Inline Gallery by prefix/filename
+----
+Date: 2013-12-01 21:55:16
+----
+Solved: 0
+----
+User: testelitt
+----
+Text: Hi, all!
+I found this post on how to create inline galleries/slideshows:
+Post: (link: http://getkirby.com/forum/general/topic:45)
+Gist: (link:https://gist.github.com/1711983)
+
+It all works great! It enables me to create inline galleries by  typing **(gallery: image.jpg, image2.jpg)**
+
+But:
+Can anyone help me modify the code so that I can get all images based on a prefix/filename?
+
+For example:
+**(gallery: 2)** will would list all images that has *2-* in their filename. 
+
+I have done the filtering part before by using the *filterBy*:
+$page->images()->filterBy('title', '*=', '2-')
+
+But I can't manage to integrate it into the existing code.
+
+Thanks a lot!
+
+Regards,
+Magnus

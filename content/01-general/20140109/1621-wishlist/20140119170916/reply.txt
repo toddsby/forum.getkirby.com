@@ -1,0 +1,11 @@
+User: ssigur
+----
+Date: 2014-01-19 17:09:16
+----
+Text: Hello,
+
+For information, finally, i have found this jQuery plugin :
+ [https://github.com/Frogmouth/jQuery.Wishlist](https://github.com/Frogmouth/jQuery.Wishlist)
+who work well in my case.
+
+Stéphane

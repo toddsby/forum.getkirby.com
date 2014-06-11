@@ -1,0 +1,42 @@
+Title: What's the problem with this code?
+----
+Date: 2012-11-20 19:36:05
+----
+Solved: 0
+----
+User: chrisjmartin87
+----
+Text: Hey, Just curious as to why this code would not work. It is located in the footer of my page and the aim is to pull the grandparent of the homepage only.
+
+If the page structure was as follows:
+
+// Home -> Child -> Child
+//                 Child
+//                 Child
+//                 Child
+//                 Child
+// Services -> Child -> Child
+//                    Child
+//                     Child
+//                     Child
+// Other -> Child -> Child
+//                  Child
+//                  Child
+//                   Child
+// Page 
+
+If i used the following it would work when on the homepage only, when services page is loaded it will then show a list of grandparents for this page.
+
+// <?php foreach($page->children()->children() as $grandchild): ?>
+// <--- Grandchild Content Here --->
+// <?php endforeach ?>
+
+I have tried this code which renders nothing but i cant see the problem. It should find the homepage by uid and then fetch the grandchild of that page?
+
+// <?php foreach($pages->findByUID($home)->children()->children() as $grandchild): ?>
+// <--- Grandchild Content Here --->
+// <?php endforeach ?>
+
+Does anyone with greater understanding see why this is?
+
+Many thanks

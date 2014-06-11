@@ -1,0 +1,13 @@
+User: dokdeleon
+----
+Date: 2013-06-01 08:35:08
+----
+Text: First off.. this is cool :D
+
+Maybe have a conditional statement that checks if your post is **empty** or **not**? (like: `if ($post->body() == '')`) You know the next article's title so have the post there but have the `body` of the post empty. If it's empty, `echo` an "invisible" generic post that says "not yet ready".
+
+
+Again, cool site. :D
+
+
+(sorry for the spam.. really need the help :D) Anyway, if anyone here can help me out with my kirby installation on Plesk, that'll be awesome! Thanks. :D [Here's the kirby forum link!](http://getkirby.com/forum/general/topic:680)

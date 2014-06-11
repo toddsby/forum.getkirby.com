@@ -1,0 +1,25 @@
+Title: Locate Kirby text files (.txt) directly with $pages
+----
+Date: 2013-05-10 02:53:38
+----
+Solved: 0
+----
+User: enlifer
+----
+Text: Following code won't work:
+
+I defined two variables,
+
+    <?php $main_r_t = $pages->find('response_times/main.txt') ?>
+    <?php $r_t = $pages->find('response_times/times.txt') ?>
+
+and want to load different content from both files.
+
+It will be put in the main.php as following:
+
+    <p><?php echo $r_t->times() ?></p>
+    <p><?php echo $main_r_t->clock() ?></p>
+
+But what happens: the __clock__ field from $main_r_t gets loaded, but the content for __times__ from $r_t (that means from file times.txt) doesn't get loaded.
+
+Only one file in this folder is being processed. How can I address two files at once?

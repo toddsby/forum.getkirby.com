@@ -1,0 +1,28 @@
+User: rizkysyazuli
+----
+Date: 2013-10-08 19:14:44
+----
+Text: I use Git to deploy my site. Everything is synced. I have two Kirby configuration. For local and staging (as instructed in the Multi-environment tutorial). I disable rewrite on my local config though. Sorry forgot to mention that.
+
+Apart from that, most of the setup is almost the same.
+
+The local server is on OSX 10.8.5 running Apache 2.2.22 and PHP 5.3.15 with mod_rewrite enabled.
+
+The staging server is on Ubuntu 12.04.1 LTS (AWS EC2) running Apache 2.2.22 and PHP 5.3.10 with mod_rewrite enabled.
+
+Here's my staging server domain config (website name has been replaced):
+
+	<VirtualHost *:80>
+		DocumentRoot "/var/www/mysite.com"
+		ServerName mysite.com
+
+		<Directory "/var/www/mysite.com">
+			Options Indexes FollowSymLinks MultiViews
+			AllowOverride All
+			Order allow,deny
+			Allow from all
+		</Directory>
+
+		ErrorLog ${APACHE_LOG_DIR}/mysite.error.log
+		CustomLog ${APACHE_LOG_DIR}/mysite.access.log combined
+	</VirtualHost>

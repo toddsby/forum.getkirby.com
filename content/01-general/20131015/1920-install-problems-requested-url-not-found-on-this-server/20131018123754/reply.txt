@@ -1,0 +1,9 @@
+User: studioshitless
+----
+Date: 2013-10-18 12:37:54
+----
+Text: >You will need more in your .htaccess to make nice URL's work.
+
+So, I need the .htaccess file from the kirby install? 
+
+I don't think that got copied over when I installed from OS X. Because it's invisible on my desktop I didn't know it was there. I'll try again. Thank-you

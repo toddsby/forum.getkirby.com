@@ -1,0 +1,5 @@
+User: nathaniel_h
+----
+Date: 2013-02-09 08:44:25
+----
+Text: Even disabling automatic line breaks doesn't work for me. My images are still wrapped in <p> tags. So stupid!

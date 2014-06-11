@@ -1,0 +1,21 @@
+User: roobottom
+----
+Date: 2013-03-20 11:09:28
+----
+Text: I've had a moment of mad genius, but the syntax is so confusing I need help to realise my dream. Here's the current Kirby rewrite rule:
+
+```# make site links work
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*) index.php [L]```
+
+Which is clearly very nice, and got me thinking... I don't need to be specific about the /gallery/ folder, I can simply rewrite any `?p=x` statements no matter what page they're on. So I tried this:
+
+```# make site links work
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/([A-Za-z0-9-]+)?$ index.php?p=$1 [L]```
+
+Which is clearly crazy-go-nuts, but thought it might spark something for someone here to help.
+
+Please?

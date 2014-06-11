@@ -1,0 +1,9 @@
+User: OMGitsJKT
+----
+Date: 2014-03-17 18:21:42
+----
+Text: I'd like to add to all of this: the ability to upload files to be used as specific variables and arrays. For instance, a client can upload 'my-fav-pic.jpg' to the 'Background' field, and then a bunch of images to the 'Gallery' field. In the templates, I can just use:
+
+`$page->bg-image` and a foreach for `$page->gallery`
+
++1 to sorting, +1 to including files within the Content area, and bonus points for being able to upload+insert images inline with markdown content.

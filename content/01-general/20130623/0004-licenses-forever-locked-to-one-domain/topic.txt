@@ -1,0 +1,29 @@
+Title: Licenses forever locked to one domain?
+----
+Date: 2013-06-23 00:04:23
+----
+Solved: 1
+----
+User: joelhousman
+----
+Text: **Update - I found the answer to my own question:**
+
+_As of June 22, 2013, the answer to this question can be found on this page: [Entering your license code](http://getkirby.com/docs/getting-started/entering-your-license-code). In short, entering your license code within config.php is for your own records and there is no sort of authentication with Kirby's servers. It is an honor system. So, yes, you can do what I outlined below. And I thank Kirby for this._
+
+****
+
+Hey folks,
+
+I apologize if the explanation of this is posted somewhere on the site already, but after searching the Docs, Answers, Tutorial, and Forums I've been unable to find an answer to my question.
+
+I just bought Kirby but am unwilling to completely adopt it as my CMS yet until I've given it a full trial run.
+
+Because of this, I want to install on my Linode VPS under its own domain (or a sub-domain of one of my sites) to try it out first. However, I have had previous experience with licensed web app software such as this that, once you install it with one domain, the license is "locked" to that domain and I would need to purchase a second copy to then use it on another domain in the future.
+
+So my question is this:
+
+**If I setup my Kirby license with www.foo.com, can I later delete this site and install it in another location with a different domain?**
+
+Effectively, I want to setup the software and use it on www.joelhousmantest.com to try it out, and once I am happy with it, replace my CMS at joelhousman.com (Wordpress) with Kirby. I do not want to use my one Kirby license to run two sites...I just want to use it on a single domain to try it out and after passing judgment on it, uninstall it on that domain and install it on another. 
+
+Thanks for your help in advance.

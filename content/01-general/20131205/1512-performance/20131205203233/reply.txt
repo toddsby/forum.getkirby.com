@@ -1,0 +1,11 @@
+User: ChrisjMartin87
+----
+Date: 2013-12-05 20:32:33
+----
+Text: @fitzage - thanks for the reply :)
+
+If this project gets the go ahead it could potentially have around 500 pages in one category but since only one folder would be used at a time this shouldnt affect performance too much.
+
+What do you mean load balanced across servers, how is this done?
+
+Thanks

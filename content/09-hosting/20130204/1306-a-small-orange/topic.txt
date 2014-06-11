@@ -1,0 +1,15 @@
+Title: A Small Orange
+----
+Date: 2013-02-04 13:06:36
+----
+Solved: 0
+----
+User: zslabs
+----
+Text: I came across [A Small Orange](http://asmallorange.com/) a few months ago and decided to keep tabs them for future reference. They seemed to have everything the big dogs did (cPanel, SSH, SFTP, etc) but for a slightly cheaper price.
+
+I decided to move my Kirby site to A Small Orange a few weeks ago and couldn't be happier. I manage my site locally, push to a Git repository (through Beanstalk) and then ultimately deploy with DeployHQ -- and didn't have any issues getting that all setup.
+
+The other great thing about A Small Orange is the ability to scale pretty seamlessly, from shared hosting all the way up to their dedicated servers. No service interruptions thus-far and customer service has been fairly quick responding to my questions.
+
+Definitely consider giving these guys a shot if you're looking for affordable hosting with all the same features as you'd come to expect from a great host. Thanks!

@@ -1,0 +1,13 @@
+Title: Multi-word tags
+----
+Date: 2012-08-24 01:12:42
+----
+Solved: 0
+----
+User: fitzage
+----
+Text: After running into issues with multi-word tags not working, I just figured they weren't supposed to. But then I noticed it works on your blog: http://getkirby.com/blog/tag:use%20case
+
+I'm running the development version of kirby now and that's not working for me. Is there something you had to do to make it work, or is it something that's broken in the current dev branch?
+
+I get the tag link created just fine, but nothing shows up on pages filtered with a multi-word tag.

@@ -1,0 +1,12 @@
+User: lulezi
+----
+Date: 2012-08-29 14:20:31
+----
+Text: kirby has the `go`-function, which redirects to URLs.
+
+```php
+// if you're on http://site.com/blog
+go($page->children()->first()->url());
+// if you're on another site
+go($pages->find('blog')->children()->first()->url());
+```

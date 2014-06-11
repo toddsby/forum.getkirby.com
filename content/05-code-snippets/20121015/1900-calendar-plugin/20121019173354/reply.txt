@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-10-19 17:33:54
+----
+Text: @chrstphbach just send me an email if you feel that the plugin is ready for a demo and I put it on the Kirby server somewhere. It might also be interesting to publish a little article in the blog about it, if you are interested!?

@@ -1,0 +1,14 @@
+Title: Search Plugin return Json or XML
+----
+Date: 2013-10-31 08:07:07
+----
+Solved: 0
+----
+User: private_storm
+----
+Text: Hi,
+Does someone has implemented a search query result as XML or Json yet? Would be nice to stay on the search page while posting an Ajax request instead of reloading the whole page?
+
+In the moment I'm trying to implement Ajax with Kirby for the search plugin and contact form as well. I wonder maybe its already done so it would save me some work not reenventing the wheel.
+
+regards

@@ -1,0 +1,21 @@
+Title: svg not showing
+----
+Date: 2013-03-14 23:12:56
+----
+Solved: 1
+----
+User: bradwrage
+----
+Text: Hello I cannot for the life of me figure out why I cannot get my logo to display at the top of my page.  I have tried multiple directory paths but still nothing.
+
+The image is located in /kirby/assets/images/jte.svg
+
+Here is what I have been trying.
+
+      <img class="logo1" src="/assets/images/jte.svg" alt="Logo">
+
+Any ideas?
+
+I've tried 
+
+       <img class="logo1" src="/kirby/assets/images/jte.svg"     alt="Logo"> still nothing.

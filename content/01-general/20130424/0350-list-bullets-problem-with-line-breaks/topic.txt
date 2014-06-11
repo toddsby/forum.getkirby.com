@@ -1,0 +1,15 @@
+Title: List Bullets - Problem With Line Breaks
+----
+Date: 2013-04-24 03:50:16
+----
+Solved: 1
+----
+User: staroversky
+----
+Text: This is the original markdown code - http://pastebin.com/TiqytqEe
+
+This is how the line breaks are not working - http://img836.imageshack.us/img836/9373/linebreaks.png
+
+I have noticed that this bug occurs only after text is listed after bullets. Maybe there is a bug in markdown rendering somewhere.
+
+How can this be fixed?

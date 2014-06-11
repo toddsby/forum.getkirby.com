@@ -1,0 +1,11 @@
+User: ADRegan
+----
+Date: 2012-10-11 14:23:01
+----
+Text: I had success calling and displaying the latest blog post using the following method. I'm not sure if there are any problems with the way I managed it, so if anyone spots a problem, let me know. Thanks.
+
+    <?php $latest = $pages->find('blog')->children()->last(); ?>
+    <article>
+      <h1><?php echo html($latest->title()) ?></h1>
+      <?php echo kirbytext($latest->text()) ?>
+    </article>`

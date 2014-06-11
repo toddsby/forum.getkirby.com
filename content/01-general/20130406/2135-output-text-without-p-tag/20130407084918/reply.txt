@@ -1,0 +1,9 @@
+User: russbaldwin
+----
+Date: 2013-04-07 08:49:18
+----
+Text: This will give you naked html...
+```php
+<?php echo html($page->gig()) ?>
+```
+[Checkout 'Formatting Text'](http://getkirby.com/docs/formatting-text)

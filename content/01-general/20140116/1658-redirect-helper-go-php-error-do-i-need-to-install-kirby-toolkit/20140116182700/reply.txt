@@ -1,0 +1,9 @@
+User: mzhu11
+----
+Date: 2014-01-16 18:27:00
+----
+Text: Thanks! 
+
+Can you show me a code example of redirect to an internal subpage without using the "go();" helper? For example, I would like to have a page showing the first child page as the default page.
+
+Thanks!

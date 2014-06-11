@@ -1,0 +1,15 @@
+Title: Linked tags for current page
+----
+Date: 2013-05-07 01:54:53
+----
+Solved: 1
+----
+User: bobcorporaal
+----
+Text: It probably is very simple but I can't find a way to create a tagcloud for just the tags for the current page. When displaying a post I would like to show the tags for the post and have these link to the page for that tag.
+
+A tagcloud for all the posts works fine but I can't get it to filter down to just one post.
+
+Thanks!
+
+Bob

@@ -1,0 +1,7 @@
+User: chrisburton
+----
+Date: 2012-12-07 05:47:11
+----
+Text: I've had that structure for a while and I've always preferred it to appear that way. I also have content that has been shared onto other sites and I'd rather keep the redirects to a minimum.
+
+I'd like to read more about Kirby from the docs before I start inserting any content (images, etc). If you don't mind, I'll email you once I'm ready to pull that stuff into the Portfolio page.

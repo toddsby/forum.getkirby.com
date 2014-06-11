@@ -1,0 +1,7 @@
+User: apolaine
+----
+Date: 2012-09-27 10:19:39
+----
+Text: Thanks Matthew. Not sure about the caching. I just installed a pretty vanilla version so far to test the content export/import and a few other things.
+
+I understand the beauty of dropping images into documents. I liked that idea too. My ideal file/folder structure would be 01-my-post-folder > 01-my-post-text-file.txt + myimagefile.jpg. I'm wondering whether its possible to cheat this by using a prefix on the post text file name of something like article-01-my-post-text.txt and then seeing if the template can just pull in the equivalent of article*.txt or some fancy regex that is beyond me.

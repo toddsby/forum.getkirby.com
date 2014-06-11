@@ -1,0 +1,23 @@
+Title: Panel installation problem
+----
+Date: 2012-08-10 10:19:39
+----
+Solved: 0
+----
+User: vedamart
+----
+Text: Hi,
+I'm working on a local MAMP-Installation and tried to install the panel following the install-instructions.
+
+I'm using a multi-environment-setup explained here: http://getkirby.com/blog/multi-environment-setup
+config.myname.local.php (local testing)
+config.devsetup.xx.php (server testing)
+config.productionsetup.xx.php (production)
+config.php (general)
+
+With 'myname.local/subfoldername/panel' I allways get redirected to the error-page.
+
+With 'localhost/subfoldername/panel' I get redirected to the panel-login without styles, and after login to the defined production-url
+
+I thought, setup is correct. The site itself is working as expected. So, I'm not able to figure out, where to search for the error, assuming it has something to do with the .htaccess.
+I'm confused, because same thing works seemless in an older installation of kirby/panel for me.

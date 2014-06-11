@@ -1,0 +1,7 @@
+User: OMGitsJKT
+----
+Date: 2014-03-24 23:06:27
+----
+Text: You can use regular old PHP:
+
+    <?php echo file_get_contents($page->files()->find('test.html')->url()) ?>`

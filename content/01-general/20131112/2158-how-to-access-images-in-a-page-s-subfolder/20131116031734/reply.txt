@@ -1,0 +1,9 @@
+User: fitzage
+----
+Date: 2013-11-16 03:17:34
+----
+Text: OK, in that case you probably need to do something like:
+
+    <?php $imagepage = $page->children()->first() ?>
+
+If detail is the only child. Otherwise you can probably do `$page->children()->findByUID('detail')` or something.

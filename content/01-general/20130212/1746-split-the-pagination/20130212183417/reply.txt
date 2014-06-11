@@ -1,0 +1,40 @@
+User: tysongach
+----
+Date: 2013-02-12 18:34:17
+----
+Text: Hi!
+
+That’s definitely doable.
+
+I’m not sure I’m catching on to the part about `position: absolute`, since the CSS for pagination could really be anything. In terms of putting the *previous* and *next* buttons in different places, that’s just a matter of placing the PHP variables where you need them in your HTML.
+
+A standard pagination implementation for you would go something like this:
+
+    <?php $articles = $page->children()->visible()->flip()->paginate(10) ?>
+    
+    <header>
+      <?php if($articles->pagination()->hasPrevPage()): ?>
+      <nav class="pagination">
+        <a class="prev" href="<?php echo $articles->pagination()->prevPageURL() ?>">Previous</a>
+      </nav>
+      <?php endif ?>
+    </header>
+    
+    <section>
+      <?php foreach($articles as $article): ?>
+    
+      Loop through your articles...      
+    
+      <?php endforeach ?>
+    </section>
+    
+    <footer>
+      <?php if($articles->pagination()->hasNextPage()): ?>
+      <nav class="pagination">
+        <a class="next" href="<?php echo $articles->pagination()->nextPageURL() ?>">Next</a>
+      </nav>
+      <?php endif ?>
+    </footer>
+
+
+There’s a great blog post all about pagination which should help too: <http://getkirby.com/blog/add-pagination-to-your-blog>

@@ -1,0 +1,49 @@
+Title: Image code does't work anymore ?
+----
+Date: 2012-10-21 01:25:41
+----
+Solved: 0
+----
+User: cyclera
+----
+Text: A code snippet I found on this forum is causing me trouble :
+
+    <?php $image = $article->images()->find('featured.jpg') ?>
+		         <?php if($image): ?>
+			         <img class="featured" src="<?php echo $images->url() ?>">
+		        <?php endif ?>
+
+This previous code that worked fine on one local install I had doesn't work on the one I used with 1.1.1. 
+
+If the "featured" image is found then nothing below this code will appear. 
+
+Did I miss something ? This is the code I have before :
+
+
+    <?php $articles = $pages->find('blog')->children()->visible()->flip()->paginate(5) ?>
+		    <?php foreach($articles as $article): ?>
+
+And the code I have after : 
+
+   				
+  				<h2><a href="<?php echo $article->url() ?>"><?php echo html($article->title()) ?></h2>
+   				
+   				
+   				
+   				<aside class="entry-meta">
+   				 <time><?php echo $article->date('d M Y') ?></time> | Tags:
+   				  	<?php foreach(str::split($article->tags()) as $tag): ?>
+   				  	<a class="tag" href="<?php echo url('blog/tag:' . urlencode($tag)) ?>"> #<?php echo html($tag) ?></a>
+   				  	<?php endforeach ?>
+   				 </aside>
+   				 
+   				 
+   				 <div class="entry-content">
+   				 	
+   				 	
+   				 	<?php echo kirbytext($article->text()) ?>
+   				 
+   				 </div>
+
+
+Any help appreciated. Thanks

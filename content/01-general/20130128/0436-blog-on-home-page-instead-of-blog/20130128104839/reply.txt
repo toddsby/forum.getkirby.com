@@ -1,0 +1,38 @@
+User: russbaldwin
+----
+Date: 2013-01-28 10:48:39
+----
+Text: In your **site** folder, in your **config.php** find and amend this bit:
+
+```php
+    /* 
+    ---------------------------------------
+    Homepage Setup
+    ---------------------------------------
+    By default the folder/uri for your homepage is "home".
+    Sometimes it makes sense to change that to make your blog
+    your homepage for example. Just change it here in that case.
+    
+*/
+    c::set('home', 'home');
+
+
+```
+
+to something like
+
+
+```php
+    /* 
+    ---------------------------------------
+    Homepage Setup
+    ---------------------------------------
+    By default the folder/uri for your homepage is "home".
+    Sometimes it makes sense to change that to make your blog
+    your homepage for example. Just change it here in that case.
+    
+*/
+    c::set('home', 'blog');
+
+
+```

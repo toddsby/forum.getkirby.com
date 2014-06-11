@@ -1,0 +1,26 @@
+User: sebastianberns
+----
+Date: 2014-02-18 18:53:30
+----
+Text: Hey, just stumbled across your question, while looking for something else. I did that recently, hope it will help you—
+Here’s how I solved it.
+
+    <?php
+    
+    // I assume your cards are organised in subpages, let’s get them all.
+    $cards = $page->children()->visible();
+
+    // Now, let’s filter out all that will be published at a future date.
+    $publishedcards = $cards;
+    foreach( $publishedcards as $card )
+        if( new DateTime( $card->publishdate() ) > new DateTime( "now" ) )
+            $publishedcards = $publishedcards->not( $card->uid() );
+    
+    ?>
+
+That’s it. Obviously you’ll have to include a date field in your card blueprint with the name _publishdate_.
+
+————
+Note to Bastian (in case you ever read this):
+Please include Markdown/Kirbytext formatting indications for new replies right from the start. I just had to spend 15 minutes figuring out how to formate this lousy piece of code up there.
+Thanks

@@ -1,0 +1,11 @@
+User: silasburton
+----
+Date: 2013-03-01 16:13:11
+----
+Text: Has anyone actually gotten this to work?
+
+I have the same problem, running my main site from a subfolder (.htaccess file redirects to it using a template .htaccess file from my hosting provider), and I get a redirect loop. Interestingly it is redirecting me to mysite.com/panel/error.
+
+To stop the URLs from reading as "mysite.com/kirbysite/work," I have the subfolder in the Kirby config set as "/". If I set the subfolder in the config file to "" or "/kirbysite" (the folder where my site actually lives), then the panel works fine, but my urls read as "mysite.com/kirbysite/work", which is not acceptable.
+
+I don't understand why the main site URLs work fine under this setup but the panel doesn't at all. I definitely prefer to run my site from a subfolder instead of the root, since I have multiple sites hosted on my server and keeping it organized is really helpful.

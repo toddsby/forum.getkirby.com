@@ -1,0 +1,13 @@
+User: IamAdamJowett
+----
+Date: 2013-11-04 23:41:31
+----
+Text: Actually I am looking for it to do things the other way. i.e. if someone tries to go to:
+
+example.com/string
+
+it would redirect to the default language, i.e.
+
+example.com/en/string
+
+... could have sworn it used to do that, but not at the moment. Any thoughts?

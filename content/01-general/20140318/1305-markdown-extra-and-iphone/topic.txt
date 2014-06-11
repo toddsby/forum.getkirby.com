@@ -1,0 +1,15 @@
+Title: Markdown Extra and iPhone
+----
+Date: 2014-03-18 13:05:57
+----
+Solved: 0
+----
+User: paulvintin
+----
+Text: Here's an odd one – Markdown Extra doesn't appear to work on the iPhone.
+
+I'm using it to add footnotes to my text. It works fine on the Mac in Safari and FF. On the iPhone, the basic Markdown features work (headers, bold) but the footnote tags (e.g. '[^1]') are not converted to numbers and links, as they should be. 
+
+It doesn't appear to be a caching issue as I can change the text. The config file is being read because I can turn basic Markdown off.
+
+Any ideas?

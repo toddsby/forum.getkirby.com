@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-02-14 11:59:08
+----
+Text: As I said, I don't think Kirby concatenates JS at present or compresses it, but you can use external tools to do it, CodeKit being one.
+
+Having said all that I think [vis7Mamc created a plugin](https://github.com/vis7mac/kirbycms-extensions/blob/master/plugins/assety/assety.mdown) to do quite a bit of this, but it would appear this plugin is not out yet and will be released together with a future version of Kirby...

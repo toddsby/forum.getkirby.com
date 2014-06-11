@@ -1,0 +1,16 @@
+User: _frankallen
+----
+Date: 2014-05-17 17:45:02
+----
+Text: it's something like this:
+
+	<?php
+		$i = 0;
+		foreach($pages as $page) {
+			$i++;
+	?>
+		ARTICLE HTML GOES HERE
+	<?php
+			if($i==5) { snippet('ad.php'); }
+		}
+	?>

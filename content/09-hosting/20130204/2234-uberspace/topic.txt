@@ -1,0 +1,13 @@
+Title: Uberspace
+----
+Date: 2013-02-04 22:34:38
+----
+Solved: 0
+----
+User: m_for_manu
+----
+Text: <http://uberspace.de>
+
+One of the few shared hosting where you can host a lot of applications (php, node, python, ruby/rails, all kind of databases, install own stuff, ...) and: you can choose how much you want to pay, starting from 1 € per month.
+
+No graphic interface, only the bash. Best support ever. Disclaimer: german documentation only.

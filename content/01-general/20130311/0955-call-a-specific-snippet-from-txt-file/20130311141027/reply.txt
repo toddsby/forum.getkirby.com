@@ -1,0 +1,17 @@
+User: plartz
+----
+Date: 2013-03-11 14:10:27
+----
+Text: @russbaldwin I understood it that way: @structor has multiple sites with the same template (press.php), but wants to include a snippet based on a field 'Sidepanel' in the content text file (press.txt).
+
+@structor well, just tested it and it works perfectly... my text file:
+```
+testsnippet: header
+```
+
+My template:
+```php
+<?php snippet($page->testsnippet()) ?>
+
+...
+```

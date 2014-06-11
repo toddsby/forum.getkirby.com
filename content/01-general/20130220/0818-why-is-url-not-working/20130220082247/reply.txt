@@ -1,0 +1,11 @@
+User: Wordius
+----
+Date: 2013-02-20 08:22:47
+----
+Text: Stupid, stupid boy!
+
+Of course, I forgot to ‘print’ the url:
+
+    <a href="<?php echo url('about') ?>">about</a>
+
+Solved.

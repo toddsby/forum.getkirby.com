@@ -1,0 +1,7 @@
+User: bastianallgeier
+----
+Date: 2012-07-16 12:57:25
+----
+Text: @jolantis ah, damn! I missed those :( Just added them to the dev branch. I didn't add them to the config though, because I need to make some bigger changes to the markdown extra file before I can do so – they are directly declared as class variables and I can't use c::get() there. I actually don't want to mess the original files up too much so I will have to take a look how I can implement that in a good way first. 
+
+Thanks for the heads-up!

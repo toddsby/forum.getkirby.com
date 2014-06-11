@@ -1,0 +1,5 @@
+User: syropian
+----
+Date: 2013-12-19 21:16:30
+----
+Text: You could also use Grunt.js for this sort of thing. Highly customizable and easy to get started. Good resource: (link: http://24ways.org/2013/grunt-is-not-weird-and-hard/)

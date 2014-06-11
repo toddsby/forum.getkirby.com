@@ -1,0 +1,9 @@
+Title: MySQL connection
+----
+Date: 2013-03-16 17:19:25
+----
+Solved: 1
+----
+User: aqeelfikree
+----
+Text: I'm trying the Kirby Toolkit to do a project that involves MySQL. After entering the database connection (with the right details) in config.php as explained in (link: http://www.getkirby.com/blog/database), how do I confirm that the connection is successful, before going to the next step?

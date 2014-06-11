@@ -1,0 +1,16 @@
+User: texnixe
+----
+Date: 2014-01-10 14:34:16
+----
+Text: This works for me:
+   
+    <?php foreach($langs as $lang):?> 
+        <?php if($page->content($lang)!=false):?>  
+            <?php if($lang!==$current ):?>
+                <span>
+                  <a href="<?php echo $page->url($lang)?>">
+                     <?php echo $page->content($lang)->title()?>
+                  </a></span>
+            <?php endif; ?>
+        <?php endif; ?>
+    <?php endforeach; ?>

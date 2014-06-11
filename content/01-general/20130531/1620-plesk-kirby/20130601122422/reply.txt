@@ -1,0 +1,5 @@
+User: dokdeleon
+----
+Date: 2013-06-01 12:24:22
+----
+Text: @roman_oroco, hi, how were you able to fix the folder permissions? What was the setting used to make the panel work? is safe php on? Thanks

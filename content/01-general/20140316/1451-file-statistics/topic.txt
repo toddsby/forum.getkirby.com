@@ -1,0 +1,15 @@
+Title: File statistics
+----
+Date: 2014-03-16 14:51:32
+----
+Solved: 1
+----
+User: loliism
+----
+Text: Hello
+
+My client -  a professional photographer - has requested to be able to see who (what ip-number) has viewed each of his photos and how many times.
+
+Is this a statistic Kirby keeps track of, or is there some other way I can access/display this information, preferably from inside the Kirby Panel? Maybe a way to insert the ip-numbers into the image metadata files? My PHP is rusty, so I'd prefer not to edit Kirby's core files, but I'm open for any suggestion.
+
+I think his host is running Apache and has some kind of internally-developed statistics tool (no awstats), but I don't know much about the server side. I'm mainly a front-end guy...

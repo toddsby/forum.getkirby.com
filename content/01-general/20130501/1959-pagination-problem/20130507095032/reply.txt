@@ -1,0 +1,14 @@
+User: chrstphbach
+----
+Date: 2013-05-07 09:50:32
+----
+Text: There's a simple way. That's how I do it on my blog:
+
+    <nav class="pagination clearfix">
+	<?php if ($page->hasPrevVisible()): ?>
+		<a class="previous" href="<?php echo $page->prevVisible()->url(); ?>">&lsaquo; Vorheriger Beitrag</a>
+	<?php endif; ?>
+	<?php if ($page->hasNextVisible()): ?>
+		<a class="next" href="<?php echo $page->nextVisible()->url(); ?>">Nächster Beitrag &rsaquo;</a>
+	<?php endif; ?>
+    </nav>

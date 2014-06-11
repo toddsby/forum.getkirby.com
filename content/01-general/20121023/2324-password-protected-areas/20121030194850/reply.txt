@@ -1,0 +1,5 @@
+User: tysongach
+----
+Date: 2012-10-30 19:48:50
+----
+Text: For anyone who missed it, Kirby now has an (link: http://getkirby.com/blog/frontend-authentication text: official authentication plugin) that might fill your needs.

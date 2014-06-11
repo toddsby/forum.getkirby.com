@@ -1,0 +1,42 @@
+Title: Calling a Kirby snippet via jQuery AJAX?
+----
+Date: 2013-04-26 01:24:35
+----
+Solved: 0
+----
+User: bobrockefeller
+----
+Text: I would like to call a Kirby snippet with a jQuery AJAX call so that I have access to all the good Kirby-context variables and methods.
+
+Bastian has suggested a call to a template of the form:
+
+```
+$('#picks').load('/snippetServer/snippet:somesnippet');
+```
+
+And then using a "director" at the start of the template to load the snippet like this:
+
+```
+<?php 
+if(param('snippet')) {
+  snippet(param('snippet'));
+  exit();
+}
+?>
+```
+
+That all makes sense to me. But I'm confused about the path to use from the jQuery AJAX to get to the template file. Should it be:
+
+```
+/site/templates/snippetServer.php/snippet:targetSnippet
+```
+
+or:
+
+```
+/site/templates/snippetServer/snippet:targetSnippet
+```
+
+But either way I'm generating an error with the jQuery AJAX call.
+
+Any advice?

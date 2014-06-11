@@ -1,0 +1,5 @@
+User: larsschulz
+----
+Date: 2012-06-02 20:10:46
+----
+Text: Have a look at The skeleton framework www.getskeleton.com, it is much easier to set up and not as overkill as bootstrap (where everything looks like twitter anyways)...

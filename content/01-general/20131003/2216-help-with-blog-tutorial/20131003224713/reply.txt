@@ -1,0 +1,13 @@
+User: texnixe
+----
+Date: 2013-10-03 22:47:13
+----
+Text: I think you need to change the line
+
+    <?php foreach($page->children()->visible()->flip() as $article): ?>
+
+to
+
+    <?php foreach($page->children()->invisible()->flip() as $article): ?>
+
+or prefix a number to the blog children article folders ...

@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-01-10 18:48:16
+----
+Text: Hmmm…the thought had never crossed my mind, but it's an interesting idea. A file manager with a built-in ability to edit text files could be very handy for a Kirby install.

@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-10-10 10:40:08
+----
+Text: Well, you really need PHP to be compiled with mbstring functions, no matter which version of PHP. This is so common on most hosting plans that I decided to include it, because it will offer UTF-8 support. If you are having issues on the paid private servers, just install mbstring functions there yourself or ask your server admin to do it for you.

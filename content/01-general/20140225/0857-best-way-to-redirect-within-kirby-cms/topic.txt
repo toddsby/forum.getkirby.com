@@ -1,0 +1,20 @@
+Title: Best way to redirect within Kirby CMS?
+----
+Date: 2014-02-25 08:57:46
+----
+Solved: 0
+----
+User: screencuts
+----
+Text: I need the following redirect:
+
+> http://mysite.com/projects/a-project ======>  http://mysite.com/a-project
+
+As of now in order to achieve this, I've put the following code at the very top of my header snippet:
+
+    <?php  
+    if ( $site->uri()->path(1) == 'projects' ) 
+        go($site->url().'/'.$site->uri()->path(2)); 
+    ?>
+
+My question: is this the best way to do this? Is there perhaps a more logical place to place this code than in the header snippet?  In the config file for example?

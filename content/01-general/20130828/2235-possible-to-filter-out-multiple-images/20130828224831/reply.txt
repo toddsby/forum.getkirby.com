@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-08-28 22:48:31
+----
+Text: I think you can just chain another filterBy to it.

@@ -1,0 +1,16 @@
+User: JanStieler
+----
+Date: 2013-03-12 22:52:16
+----
+Text: Hi,
+thanks. Your code is working.
+But if I use ->first() inside my code id got this error in the sourcecode:
+
+	Fatal error :  Call to a member function width() on a non-object in
+	/Applications/XAMPP/xamppfiles/htdocs/kirby/site/plugins/thumb.php on line 38.
+
+It looks like that the problem is the thumbgenerator.
+
+Maybe someone have any ideas.
+
+BR

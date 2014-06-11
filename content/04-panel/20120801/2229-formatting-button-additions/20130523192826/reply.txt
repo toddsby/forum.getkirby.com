@@ -1,0 +1,7 @@
+User: NathVallieres
+----
+Date: 2013-05-23 19:28:26
+----
+Text: I totally agree that most default and useful markdown should be included. Such as UL, OL, HR, Blockquote, code, Youtube, Vimeo, Image/Files would be great.
+
+I'm currently trying to add a few to my editor. Will post the code somewhere when I'm done.

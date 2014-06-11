@@ -1,0 +1,31 @@
+User: tysongach
+----
+Date: 2013-02-08 19:44:36
+----
+Text: Yep, I’ve submitted a (link: https://github.com/bastianallgeier/kirbycms/pull/60 text: pull request) to add a div around a video’s iFrame in the Kirby Text parser.
+
+I found myself adding it to about 80% of my projects, and since it's just a little `div`, I see no harm in it being default.
+
+As @roman_oroco mentioned above, go to `~/kirby/parsers/kirbytext.php` and edit these lines:
+
+### For the YouTube Kirbytext tag
+
+Change Line 388:
+
+`return '<iframe' . $class . ' width="' . $params['width'] . '" height="' . $params['height'] . '" src="' . $url . '" frameborder="0" allowfullscreen></iframe>';`
+
+To This:
+
+`return '<div class="video-container"><iframe' . $class . ' width="' . $params['width'] . '" height="' . $params['height'] . '" src="' . $url . '" frameborder="0" allowfullscreen></iframe></div>';`
+
+### For the Vimeo Kirbytext tag
+
+Change Line 414:
+
+`return '<iframe' . $class . ' src="' . $url . '" width="' . $params['width'] . '" height="' . $params['height'] . '" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>';`
+
+To This:
+
+`return '<div class="video-container"><iframe' . $class . ' src="' . $url . '" width="' . $params['width'] . '" height="' . $params['height'] . '" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>';`
+
+I’m using the class `video-container`, but you can use what you want.

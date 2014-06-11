@@ -1,0 +1,9 @@
+User: iamirm
+----
+Date: 2013-04-17 18:34:57
+----
+Text: If your home page uid is 'home' you could try this in your if statement:
+
+    <? if($page->uid() != 'home'): ?>
+      // your html code here
+    <? endif; ?>

@@ -1,0 +1,15 @@
+User: russbaldwin
+----
+Date: 2013-02-16 18:49:47
+----
+Text: I don't think this gallery is meant to produce a sliding gallery, but rather to provide an example of how to use Kirby to produce the typical underlying code for a gallery.
+
+So you have got it working just as it is meant too be, we'll done.
+
+You are usually going to need some 'slider' JavaScript to get stuff moving. They often require the JavaScript library JQuery to be loaded before the 'slider' script. Which 'slider' script depends on what you want to acheive. 
+
+A quick search in Google for ’jQuery slider' will find quite a few. For something simple try [ResponsiveSlides](http://responsive-slides.viljamis.com/), which has pretty good documentation.
+
+Come back if you get stuck, but you appear to have the Kirby side of things working OK.
+
+p.s. The highlighted dot in your example is a bullet from the list you are using to create the gallery. You can remove it with some CSS, the code I suggested above would do this.

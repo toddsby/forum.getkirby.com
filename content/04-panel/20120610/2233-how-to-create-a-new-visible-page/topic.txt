@@ -1,0 +1,14 @@
+Title: How to create a new 'visible' page ?
+----
+Date: 2012-06-10 22:33:42
+----
+Solved: 0
+----
+User: hey_steffen
+----
+Text: Context: default kirby demo + multi-lang + panel
+
+When I want to add a new page (first level).. I enter a title.
+The newly created page becomes an invisible page by default.
+
+Where or how do I prefix a new page w/ a number so it gets the status of a visible page?

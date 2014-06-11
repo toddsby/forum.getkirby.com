@@ -1,0 +1,15 @@
+User: texnixe
+----
+Date: 2013-08-23 00:27:26
+----
+Text: The best way to include the stylesheet is by using the css-helper, it automatically turns your link into an absolute path, but you won't get into problems in case you move your site later, e.g.:
+
+    <?php echo css('assets/styles/styles.css') ?>
+
+or
+
+    <?php echo css('path/to/stylesheet') ?>
+
+You may also use this syntax with an absolute url if you want (e.g. in case you refer to ressources not hosted on your server)
+
+    <?php echo css('http:/some.url/path/to/stylesheet.css')?>

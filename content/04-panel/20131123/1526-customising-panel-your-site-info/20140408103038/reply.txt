@@ -1,0 +1,9 @@
+User: hennirocks
+----
+Date: 2014-04-08 10:30:38
+----
+Text: I don't see a solution here :| How to make a blueprint for the home page of the panel?
+
+How to adjust the kirbytext input fields *Title*, *Author*, *Description*, *Keywords* and *Copyright* in the back end. For example so that one could change the predefined field for *Copyright* into a textarea with buttons.
+
+I've tried adding templates with correspondent blueprint files like "site", "panel", "copyright" etc. but none of those worked.

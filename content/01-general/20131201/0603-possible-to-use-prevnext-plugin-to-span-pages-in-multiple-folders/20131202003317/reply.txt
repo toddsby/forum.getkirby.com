@@ -1,0 +1,14 @@
+User: texnixe
+----
+Date: 2013-12-02 00:33:17
+----
+Text: You need to put a foreach loop in front
+
+    <?php foreach($articles as $article): 
+        if ($article->hasNextVisible): ?>
+            <a href="<?php echo $article->nextVisible()->url() ?>">Next</a>
+        <?php endif; ?>
+        <?php if ($article->hasPrevVisible): ?>
+            <a href="<?php echo $article->prevVisible()->url() ?>">Prev</a>
+        <?php endif; ?>
+    <?php endforeach; ?>

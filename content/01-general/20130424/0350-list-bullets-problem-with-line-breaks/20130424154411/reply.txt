@@ -1,0 +1,12 @@
+User: dokdeleon
+----
+Date: 2013-04-24 15:44:11
+----
+Text: @staroversky, by original css, I'm assuming you meant the basic design shipped with kirby. If you look at the `styles.css`, it has this in the first line: 
+	
+	* {
+	  margin: 0px;
+	  padding: 0px;
+	}
+
+This line removes margins in lists so you may want to edit the CSS to get it to work the way you want it to. It's definitely not a bug though :D. A suggestion would be to remove this line for now and see what happens.

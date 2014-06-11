@@ -1,0 +1,9 @@
+User: DerZyklop
+----
+Date: 2012-10-25 18:49:46
+----
+Text: Okay, i read this 
+http://getkirby.com/docs/multi-language/translating-urls
+and than i was also setting up a URL-Key field in my Blueprints. So if there are more like us, than you should maybe bring up that in a sentence (at your "Translating URLs"-Article).
+
+Great work. Keep it up!

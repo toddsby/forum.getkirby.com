@@ -1,0 +1,11 @@
+User: hey_steffen
+----
+Date: 2012-09-02 23:51:09
+----
+Text: I suggest you set the appropriate timezone.
+In this example it's for Nederland / Dutch language
+
+```php
+setlocale(LC_ALL, 'nld_NLD');
+date_default_timezone_set('Europe/Amsterdam');
+```

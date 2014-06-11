@@ -1,0 +1,30 @@
+User: nathaniel_h
+----
+Date: 2013-02-14 20:35:44
+----
+Text: This is all of the code on my Archives.php page. 
+
+	<?php snippet('header') ?>
+	<?php snippet('submenu') ?>
+		<div class="grid-12 article">
+		<h1><?php echo html($page->title()) ?></h1>
+		<?php echo kirbytext($page->text()) ?>
+		
+		<?php
+		
+		$blog = $pages->find('blog');
+		$tags = tagcloud($blog);
+		
+		?>
+		<ul class="tagcloud">
+	  <?php foreach($tags as $tag): ?>
+	  <li<?php if($tag->isActive()) echo ' class="active"' ?>><a href="<?php echo $tag->url() ?>"><?php echo $tag->name() ?></a></li>
+	  <?php endforeach ?>
+	</ul>
+		</div>
+	
+	<?php snippet('sidebar') ?>
+	<?php snippet('footer') ?>
+
+
+edit: Scratch that. I figured out why tags weren't sorting anything. I just forgot to edit a few things in the blog.php file too...

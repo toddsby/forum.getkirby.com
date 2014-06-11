@@ -1,0 +1,11 @@
+User: Wordius
+----
+Date: 2013-02-13 12:47:35
+----
+Text: Ah, use the right terminology and people are far more likely to understand what you mean! ‘Ranged pagination’ it is.
+
+The only thing this solution doesn’t provide is a ‘break’, as in an ellipsis to replace an indefinite number of ‘pages’. For example, once the pagination exceeds seven, it would be useful to show only the first three and last three page ranges, like:
+
+    « 1 2 3 … 21 22 24 »
+
+Thanks for taking the time to help me out on this one.

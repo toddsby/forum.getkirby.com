@@ -1,0 +1,12 @@
+User: wilhearts
+----
+Date: 2014-03-25 14:39:28
+----
+Text: Same problem as you there, but i found out how to solve it, i pushed a PR here : [Github](https://github.com/bastianallgeier/kirbycms-panel/pull/75)
+
+
+Basically, you have to edit `panel/lib/data.php` starting line 317;
+
+Remove the foreach loop.
+
+https://gist.github.com/iandoe/9761932

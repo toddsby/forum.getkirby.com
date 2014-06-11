@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-08-23 00:06:37
+----
+Text: OK, so I guess then the question is wether you have an absolute path for your CSS URL. If it's relative, that would make it only work on the homepage and not subpages.

@@ -1,0 +1,11 @@
+Title: How to add uploaded files to a page?
+----
+Date: 2012-07-06 11:16:55
+----
+Solved: 0
+----
+User: danielgenser
+----
+Text: Maybe I'm missing something dreadfully obvious, but I see how to upload files to a given page in the Panel, however I don't see any UI or instructions on how to add that file to a given page. Can anybody clarify this?
+
+Thanks!

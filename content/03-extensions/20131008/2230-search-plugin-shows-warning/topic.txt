@@ -1,0 +1,21 @@
+Title: Search plugin shows warning
+----
+Date: 2013-10-08 22:30:52
+----
+Solved: 0
+----
+User: rizkysyazuli
+----
+Text: Suddenly i'm getting this PHP warning message in the search result.
+
+    Notice: Trying to get property of non-object in /Users/username/Sites/mysite/site/plugins/search.php on line 101
+
+    Warning: array_keys() expects parameter 1 to be array, null given in /Users/username/Sites/mysite/site/plugins/search.php on line 101
+
+    Warning: array_intersect() [function.array-intersect]: Argument #1 is not an array in /Users/username/Sites/mysite/site/plugins/search.php on line 101
+
+    Warning: Invalid argument supplied for foreach() in /Users/username/Sites/mysite/site/plugins/search.php on line 110
+
+I've tried reverting my code up to the moment i remember the search was working. But i'm still getting the same warning.
+
+Any ideas?

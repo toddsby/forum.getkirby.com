@@ -1,0 +1,13 @@
+User: fenixkim
+----
+Date: 2013-06-07 03:33:59
+----
+Text: I don't know if `$site->pages()->index()` could works, anyone knows?
+
+**UPDATE**
+
+Using the undocumented index() function also works:
+
+	$pages = (new Pages($pages->visible()->index()))->filterBy('template',  'templateName');
+
+First you need to index all pages an then create a new instance of Pages.

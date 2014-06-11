@@ -1,0 +1,10 @@
+Title: Articles (with images) posted by visitors with math capcha
+----
+Date: 2013-03-29 18:45:17
+----
+Solved: 0
+----
+User: structor
+----
+Text: Articles (with images) posted by visitors with a simple math capcha.
+Can this be done in Kirby? :D

@@ -1,0 +1,14 @@
+User: boerup
+----
+Date: 2014-02-01 21:45:15
+----
+Text: I tried:
+
+$imagepage = $page->children()->first()
+$images = $imagepage->images()             
+echo $images->first()->url()
+
+That only shows the URL, but now it's not active. I need to show the actual image. What's wrong, I wonder?
+
+I hope you can help, 
+B

@@ -1,0 +1,22 @@
+Title: Header and Metatags for Facebook Preview
+----
+Date: 2013-01-04 00:06:15
+----
+Solved: 0
+----
+User: kenyamamoto
+----
+Text: Hi there,
+
+could you please help me?
+
+Whenever I post a link to a blogpost on Facebook, the preview always shows the same title/description/ from the homepage/indexpage. 
+
+how do i have to i modify the header, that Facebook displays the post-title and post-description in the preview?
+
+i tried custom metatags but i'm really a beginner with no code experience.
+
+thanks for your help
+ky
+
+www.kenyamamoto.de

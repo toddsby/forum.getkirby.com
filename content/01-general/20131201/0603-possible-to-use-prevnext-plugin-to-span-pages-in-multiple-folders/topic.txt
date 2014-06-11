@@ -1,0 +1,33 @@
+Title: Possible to use PrevNext plugin to span pages in multiple folders?
+----
+Date: 2013-12-01 06:03:55
+----
+Solved: 1
+----
+User: unexpectedsport
+----
+Text: Hi all, apologies if this is a simple question—I'm slowly learning PHP through using Kirby :)
+
+I'm working on a site that has several different categories of "projects" in separate folders. Let's say: 
+
+	/content
+		/01-featured
+			/01-featured_a
+			/02-featured_b
+			/03-featured_c
+		/02-archive
+			/01-archive_a
+			/02-archive_b
+			/03-archive_c
+
+The reason I am doing this is on the home page, there is a randomized grid of thumbnails from each of the projects, and I want to be able to easily control which thumbnails are at the top (e.g. all the projects I want displayed first, I put in the "featured" folder.)
+
+This is all working fine, but my problem is, I would like to be able to use the **PrevNext** snippet to cycle through both projects in both "featured" and "archive". So for example, if someone clicks the "Next" link on **03-featured_c**, they will be taken to **01-archive-a**.
+
+Is this possible? In my mind, I imagine their might be a way to define a new variable or something that say, combines **$pages->find('featured')->children()** and **$pages->find('archive')->children()** into one "super-variable" but I might be dreaming.
+
+Could anyone offer any advice? I would really appreciate it! Here is the code from the PrevNext snippet (but I am totally open to a different approach…)
+
+	<?php if($page->hasNextVisible()): ?>
+	<a href="<?php echo $page->nextVisible()->url() ?>">next page</a>
+	<?php endif ?>

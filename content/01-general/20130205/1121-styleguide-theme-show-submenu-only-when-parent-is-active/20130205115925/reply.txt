@@ -1,0 +1,7 @@
+User: plartz
+----
+Date: 2013-02-05 11:59:25
+----
+Text: Change line 6 of your code snippet to the following, so that you check whether the site is open or not:
+
+	<?php if($p->isOpen() && $p->hasChildren()): ?>

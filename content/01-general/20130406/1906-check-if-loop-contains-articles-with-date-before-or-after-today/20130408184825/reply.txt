@@ -1,0 +1,24 @@
+User: iamirm
+----
+Date: 2013-04-08 18:48:25
+----
+Text: Thanks Russ. I fixed it as follows:
+
+    $today = date('Yz'); // 201359
+    $futuredates = array(); // create empty array
+    $pastdates = array(); // create empty array
+    
+    foreach($tourdates as $tourdate):   
+    $date = $tourdate->date('Yz'); 
+    
+    if($date >= $today): // check if date is today or in the future
+    $futuredates[] = $tourdate; // add this article to $futuredates
+    else:
+    $pastdates[] = $tourdate; // if date is in the past add it to $pastdates		
+    endif;
+    
+    endforeach;
+
+Then I check if the arrays are empty and display code accordingly.
+
+What do you think? I'm fairly new to PHP, finding the right way to deal with situations is not easy :-)

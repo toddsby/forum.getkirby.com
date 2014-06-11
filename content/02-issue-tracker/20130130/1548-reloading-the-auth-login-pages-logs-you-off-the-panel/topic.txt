@@ -1,0 +1,9 @@
+Title: Reloading the Auth-login pages logs you off the panel
+----
+Date: 2013-01-30 15:48:44
+----
+Solved: 0
+----
+User: plartz
+----
+Text: An issue I just recognized: when you are logged in in the panel and reload the login-page of the Auth-plugin – where you have the `$login = Auth::login()` – it logs you off the panel. Doesn't matter *that* much, just wanted to tell you this issue.

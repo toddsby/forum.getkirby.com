@@ -1,0 +1,9 @@
+Title: Kirby + Require.Js
+----
+Date: 2013-08-01 21:57:09
+----
+Solved: 0
+----
+User: corvine74
+----
+Text: Has anyone found a way to use the built-in Kirby JS call "echo js('')" with Require JS?

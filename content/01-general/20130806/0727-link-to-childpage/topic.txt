@@ -1,0 +1,21 @@
+Title: link to childpage
+----
+Date: 2013-08-06 07:27:42
+----
+Solved: 0
+----
+User: vsy
+----
+Text: Hi, it is a sample :
+
+01-AAA      -----  when click this
+__01-BBB    -----  then show 01's childpage
+__01-CCC
+02-AAA      -----  when click this
+__02-BBB    -----  then show 02's childpage ...etc
+__02-CCC
+03-AAA
+__03-BBB
+__03-CCC
+
+is it possible ? thanks.

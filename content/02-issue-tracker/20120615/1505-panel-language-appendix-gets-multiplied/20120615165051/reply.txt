@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-06-15 16:50:51
+----
+Text: The Panel is not yet working well with the latest multi-language version. I'm on it right now. Sorry for the bug!

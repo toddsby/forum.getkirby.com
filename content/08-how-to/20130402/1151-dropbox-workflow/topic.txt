@@ -1,0 +1,26 @@
+Title: Dropbox Workflow
+----
+Date: 2013-04-02 11:51:41
+----
+Solved: 0
+----
+User: mrflix
+----
+Text: # The Development Setup of my Dreams
+
+It's based on a dropbox folder syncing the content between my local dev environment, my customer and the server:
+![dream setup](http://f.cl.ly/items/3d1a0O3B362I032t2D0V/dropbox-dream-setup.png)
+
+### Setting it up
+The tutorial [kirby meets dropbox](http://getkirby.com/blog/kirby-meets-dropbox) and more specifically [this tutorial (german)](http://maxhaesslein.de/blog/webentwicklung/1329055694) for uberspace users by Max Häßlein helped me get the server-side dropbox client running.
+
+### Errors
+Running `~/.dropbox-dist/dropboxd` didn't print the URL to link my Dropbox folder. I had to run the command as a cron-job and then read out the link from the log (daemontools was quite helpfull there).
+
+### Linking the Dropbox locally
+Way to often I had to see kirby telling me the following:
+![kirby content directory could not be found](http://f.cl.ly/items/1T3l3Y311L1C0w1K2Z1p/kirby-content-directory-not-found.png)
+Somehow kirby wasn't able to access the dropbox directory I placed into the folder as a symlink. Eventually I found the error: naturally, the Dropbox directory's access rules are very restrictive. Only the local user is allowed to access it (`700`). I set the Dropbox access rights to `755` (`chmod 755 ~/Dropbox` via terminal) and – boom – it worked. 
+
+### Synching the Code
+I sync my local kirby environment with the server using **git**. [This tutorial](http://toroid.org/ams/git-website-howto) was very helpful - it describes how to use the git post-receive hook to checkout the code on the server.

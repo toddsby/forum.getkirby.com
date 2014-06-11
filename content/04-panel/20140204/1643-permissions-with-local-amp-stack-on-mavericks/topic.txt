@@ -1,0 +1,28 @@
+Title: Permissions with local AMP stack on Mavericks
+----
+Date: 2014-02-04 16:43:48
+----
+Solved: 1
+----
+User: owzim
+----
+Text: Hi, 
+
+I just started playing around with Kirby, and I am having problems with folder and file permissions in the content folder when using the **Panel** (but only with my local AMP stack on OSX Mavericks installed with **Homebrew**, on my shared host on uberspace.de everything works fine):
+
+> The permissions in your content directory are not set properly. Please change the permissions for all folders to **0755** and for all files to **0666**
+
+What I figured out already is, that this is not a Kirby problem per se. The permissions are set how they're supposed to, but PHP has no write access when run with apache, I checked it by echoing it out in the **check::all** function of the Panel's lib, so this is working as it should.
+
+but when I run **is_writable** in the interactive php shell with **php -a** I get this.
+
+	php > echo is_writable("./content/") ? "writable" : "not writable";
+	# outputs "is writable"
+
+
+So php can access the dir and files but not when run with apache, so this might be more of an apache or *nix group permission question. I am not an expert with this, but I guess is has something to do that apache is not a member of the right group?
+
+Or maybe the local folders in my http root are not in the right group or not owned by apache?
+
+Thanks in advance.
+Christian

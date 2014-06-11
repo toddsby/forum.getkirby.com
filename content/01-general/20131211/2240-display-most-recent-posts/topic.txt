@@ -1,0 +1,23 @@
+Title: Display most recent posts
+----
+Date: 2013-12-11 22:40:58
+----
+Solved: 0
+----
+User: erow80
+----
+Text: I currently have 6 articles in company/news. The code below displays the first 5 posts, but not most recent. I want only the 5 most recent posts. I'm sure it's obvious... anyone?
+
+```
+<?php foreach($pages
+	->find('company/news')
+	->children()
+	->visible()
+	->limit(5)
+	->sortBy($sort="date", $dir="desc") 
+as $article): ?>
+  // lists and stuff
+<?php endforeach ?>
+```
+
+Thanks.

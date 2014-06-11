@@ -1,0 +1,17 @@
+Title: [Panel Field] Geocode Field
+----
+Date: 2014-04-09 19:38:07
+----
+Solved: 0
+----
+User: wilhearts
+----
+Text: Hey, just released my latest field for geocoding user input and storing it in a simple way.
+
+![See it in action](https://github.com/iandoe/kirbycms-panel-geocode-field/raw/master/action.gif)
+
+[Check it out on Github](https://github.com/iandoe/kirbycms-panel-geocode-field)
+
+Hope you'll build awesome thing with this :)
+
+Cheers

@@ -1,0 +1,49 @@
+Title: WebFaction
+----
+Date: 2013-02-25 23:08:01
+----
+Solved: 0
+----
+User: roman_oroco
+----
+Text: (link:http://www.webfaction.com?affiliate=oroco text:WebFaction popup:Yes) offers excellent service with datacenters in USA, Europe and Asia.
+
+Starting at:
+- Disk space 100GB
+- Bandwidth 600GB
+- RAM 256MB (equivalent to 512MB cloud server memory)
+
+Cost: $8.50/month (+20% VAT)
+
+I recommend it for Kirby because all plans offer Nginx web server in RAID-10 for serving static files.
+
+You can (link:http://getkirby.com/blog/kirby-meets-dropbox text:Connect Kirby with Dropbox), here's a mini guide for installing via SSH:
+
+1 - Download
+```
+cd ~/bin
+wget https://www.dropbox.com/download?dl=packages/dropbox.py
+chmod u+x dropbox.py
+```
+
+2 - Install
+```
+~/dropbox.py start -i
+```
+
+3 - Run & Connect your (link:http://db.tt/5fWn4OVU text:Dropbox account popup:Yes) 
+```
+~/dropbox.py start
+```
+
+4 - Connect Kirby `content` folder with Dropbox
+```
+ln -s /home/user_example/webapps/kirby_app/content ~/Dropbox/
+```
+<hr>
+
+NOTE: I'm not hired by WebFaction, simply satisfied client.
+
+<hr>
+
+<small>I also testing a big website *(~300 pages)* built with Kirby and performance is above expectations, server latency and loadings are immediate *(location I've tested is from Rome and London)*.</small>

@@ -1,0 +1,48 @@
+User: russbaldwin
+----
+Date: 2014-02-13 11:46:26
+----
+Text: OK, I put this in my **kirby.extended.php**, taken from your link.
+
+```php
+<?php 
+class kirbytextExtended extends kirbytext {
+
+  function __construct($text, $markdown=true) {
+    parent::__construct($text, $markdown);   
+    
+    // define soundcloud tags
+    $this->addTags('soundcloud');  
+  }  
+
+  function soundcloud($params) {
+  $soundcloud_url = $params['soundcloud'];
+  $s='<div class="soundcloud">'.'<iframe width="100%" height="650" scrolling="no" frameborder="no" '.'src="'.$soundcloud_url . '"></iframe>'.'</div>';
+  return $s;
+  }
+}
+?>
+```
+
+I put `(soundcloud: https://soundcloud.com/fedx/the-clash-should-i-stay-or-should-i-go)` in my page file text.
+
+```
+Title: Home
+
+----
+
+Text: ### SoundCloud
+
+(soundcloud: https://soundcloud.com/fedx/the-clash-should-i-stay-or-should-i-go)
+
+```
+It didn't show up as a Soundcloud player or link I presume I'm missing the plugin or something. No errors though. It did produce the following in the html:
+
+```html
+<div class="soundcloud">
+<iframe width="100%" height="650" scrolling="no" frameborder="no" src="https://soundcloud.com/fedx/the-clash-should-i-stay-or-should-i-go">
+</iframe>
+</div>
+```
+
+Clutching at straws, but maybe PHP version?

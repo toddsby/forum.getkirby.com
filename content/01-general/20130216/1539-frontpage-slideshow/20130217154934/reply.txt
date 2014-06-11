@@ -1,0 +1,16 @@
+User: StimEmmerson
+----
+Date: 2013-02-17 15:49:34
+----
+Text: Hello again,
+
+just find really simple way to make a slideshow (what I actually need)
+(link: http://css-tricks.com/snippets/jquery/simple-auto-playing-slideshow)
+
+
+but can´t integrate it inside of my page
+if I post the <div id="slideshow"> in my **home.php**
+I got all 3 pictures seen at once and no slideshow at all. 
+
+Please help someone to explain step by step how integrate this
+slideshow to Kirby´s **home.php**

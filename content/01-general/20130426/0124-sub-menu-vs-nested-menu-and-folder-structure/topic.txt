@@ -1,0 +1,28 @@
+Title: Sub Menu vs Nested Menu and Folder Structure
+----
+Date: 2013-04-26 01:24:49
+----
+Solved: 0
+----
+User: staroversky
+----
+Text: I am trying to add a drop-down menu to my main navigation menu.
+
+1. How do i structure the drop-down sub menu in my content folder?
+Should it be something like 
+
+	01-about/
+	 01-about.txt
+	  /contact/
+	   contact.txt
+
+2. in the default.php how does Kirby distinguish between submenu and nested menu?
+
+	`<?php snippet('header') ?>`
+        `<?php snippet('menu') ?>`
+	`<?php snippet('submenu') ?>`
+	`<?php snippet('nestedmenu') ?>`
+
+Should I delete the submenu line?
+
+I also added nestedmenu.php into my snippets folder and the end result is that I get two copies of navigation menus one under the other.

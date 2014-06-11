@@ -1,0 +1,23 @@
+Title: Conditionals and stripping p tags from images
+----
+Date: 2012-06-11 02:32:32
+----
+Solved: 0
+----
+User: kilmc
+----
+Text: I know I saw some post somewhere on the site which had examples of if statements but I can't find them for reference.
+
+I'm very new to php so none of this is very cut and dry, I need examples for everything I do at the moment.
+
+What I'm trying to do is have a condtional statement for if I have a featured image in my blog post that it pulls in the image and renders it in an <img> tag.
+
+Currently I have it pulling the file in from straight kirbytext so in essence the conditional part works i.e. if I've set a value for the featured image in the blogarticle.txt file then it renders it however it is wrapping it in a p tag which I don't want.
+
+If there's resources on using conditionals it would be great to get a link to those and if there's a way of stripping a p tag from around the img element I'm sure that'd come in handy to know for the future too.
+
+Thanks 
+
+
+
+Kilian

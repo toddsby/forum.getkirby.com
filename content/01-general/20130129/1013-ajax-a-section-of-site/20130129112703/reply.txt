@@ -1,0 +1,7 @@
+User: chrisburton
+----
+Date: 2013-01-29 11:27:03
+----
+Text: @russbaldwin
+
+Click one of the arrows, doesn't matter which one. Now, click on the **About** page at the very top. See the issue? My entire site loads into that section like it's an iframe.

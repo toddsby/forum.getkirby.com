@@ -1,0 +1,11 @@
+Title: Error with add '+' Button
+----
+Date: 2014-02-02 23:18:07
+----
+Solved: 0
+----
+User: screencuts
+----
+Text: I am having a vexing problem: when I try to add content via the panel, I never get to the point of being able to add content. The sidebar area to the left that lists the content fades a bit, and then the site seems to freeze. I need to reload the page. In the address bar at the top I see `http://mysite.net/panel/show:content/do:add-page`... 
+
+Any ideas what is going on here?

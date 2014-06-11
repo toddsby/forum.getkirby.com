@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2014-02-18 20:09:35
+----
+Text: I've made a plugin that pulls the latest non-future items. It may or may not be of use. (link: http://fitzage.com/articles/kirby-plugin-for-latest-non-future-items)
+
+Hopefully Kirby 2.0 will have that capability built in.

@@ -1,0 +1,50 @@
+Title: Conditional dependant upon parent
+----
+Date: 2013-03-27 01:49:48
+----
+Solved: 0
+----
+User: benwellby
+----
+Text: I have three listing pages each with their own set of child pages. The child pages all use the same template:
+
+What I do (/what)
+- Child one
+- Child two
+- Child three
+
+Case studies (/case-studies)
+- Child one
+- Child two
+- Child three
+
+Blog (/blog)
+- Child one
+- Child two
+- Child three
+
+My question is; how can I use conditionals to include three separate sidebars?
+
+Here's my attempt so far:
+
+    <?php if($page->parent('what')): ?>
+      <aside id="aside">
+        <?php snippet('sidebar-case') ?>
+        <?php snippet('sidebar-blog') ?>
+      </aside>
+    
+    <?php elseif($page->parent('case-studies')): ?>
+      <aside id="aside">
+        <?php snippet('sidebar-what') ?>
+        <?php snippet('sidebar-blog') ?>
+      </aside>
+        
+    <?php else: ?>
+      <aside id="aside">
+        <?php snippet('sidebar-what') ?>
+        <?php snippet('sidebar-case') ?>
+      </aside>
+    
+    <?php endif; ?>
+
+All it returns for all pages is the first conditional. Any ideas. Thanks.

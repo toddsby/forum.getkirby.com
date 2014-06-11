@@ -1,0 +1,17 @@
+User: bastianallgeier
+----
+Date: 2012-10-22 12:59:13
+----
+Text: @lunelson
+
+Since you only need the main content without footer and header for the ajax result, you can do something like: 
+
+```
+<?php if(!r::is_ajax()) snippet('header') ?>
+
+<!-- your main content goes here -->
+
+<?php if(!r::is_ajax()) snippet('footer') ?>
+```
+
+haven't tried that together with history.js yet, but it should work.

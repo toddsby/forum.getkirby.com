@@ -1,0 +1,5 @@
+User: enlifer
+----
+Date: 2013-05-04 15:52:46
+----
+Text: Hello rusbaldwin, as you see I figured it out and pasted the previous code in the .htaccess and it runs now. But I do not know why I need this code because I do not have a subfolder.

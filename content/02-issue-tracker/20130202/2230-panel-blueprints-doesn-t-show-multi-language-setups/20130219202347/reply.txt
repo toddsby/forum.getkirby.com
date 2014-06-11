@@ -1,0 +1,7 @@
+User: jesuismaksim
+----
+Date: 2013-02-19 20:23:47
+----
+Text: I think that multilang label are relatives to user language, not the current edit lang.
+
+Try to set different languages to your (link: http://getkirby.com/docs/panel/accounts text:users).

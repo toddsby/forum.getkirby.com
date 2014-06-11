@@ -1,0 +1,5 @@
+User: dokdeleon
+----
+Date: 2013-04-24 05:54:45
+----
+Text: Try this: `$pages->invisible()->first()`

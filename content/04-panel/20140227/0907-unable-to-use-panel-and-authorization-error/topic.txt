@@ -1,0 +1,16 @@
+Title: Unable to use Panel and Authorization Error
+----
+Date: 2014-02-27 09:07:19
+----
+Solved: 0
+----
+User: screencuts
+----
+Text: I am able to log into and use the panel on a kirby site that I am developing, but a partner of mine using a different computer is unable to. Using Safari, he is unable even to log in; using Chrome, he is able to log in, but when he attempts to add a project the sidebar grays out and nothing further happens. 
+
+In the sites error log, there is the following: 
+
+> [error]  user **** not found: /failed_auth.html    
+> [error]  user **** not found: /panel/
+
+Does any one know what might be going on here. I'm stumped.

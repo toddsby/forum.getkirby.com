@@ -1,0 +1,9 @@
+User: fitzage
+----
+Date: 2012-11-13 19:28:30
+----
+Text: OK, that looks like it should work. But now I think I'm having trouble getting a kirbytext extension set up correctly for this. I've done a simpler one before.
+
+You know what would make a great tutorial? Showing me how to duplicate the functionality of, say, the default vimeo parser as a kirbytext extension.
+
+But I'll continue to try to get it working.

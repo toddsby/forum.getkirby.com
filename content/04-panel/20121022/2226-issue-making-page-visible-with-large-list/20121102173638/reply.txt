@@ -1,0 +1,26 @@
+User: tysongach
+----
+Date: 2012-11-02 17:36:38
+----
+Text: I guess I should clarify...
+
+The ‘show more...’ link has *always* been there in the Panel. However, I can’t turn it off, nor can I change the value. So it seems to be ‘stuck’.
+
+For example, here's my blueprint for the Portfolio section of my site:
+
+    <?php if(!defined('KIRBY')) exit ?>
+    
+    title: Portfolio
+    pages:
+      template: project
+      limit: 5
+    files: false
+    fields:
+      title: 
+        label: Title
+        type:  text
+
+And here’s a screenshot of what the Panel looks like with those settings: http://cl.ly/Kd2U
+
+
+Notice that 10 are showing in the sidebar, even though I've specified 5.

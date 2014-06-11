@@ -1,0 +1,7 @@
+User: symonium
+----
+Date: 2012-08-30 10:46:53
+----
+Text: [@rogie](http://twitter.com/rogie) also made an awesome Twitter thing called "Chirp.js" :
+
+[http://lab.rog.ie/chirp/](http://lab.rog.ie/chirp/)

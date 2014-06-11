@@ -1,0 +1,11 @@
+Title: Setting up/Using a CDN with Kirby?
+----
+Date: 2012-10-28 18:35:28
+----
+Solved: 0
+----
+User: coolrob335
+----
+Text: Is there an easy way to integrate something like Amazon S3 into kirby? 
+
+I am using the thumbs extension and fancybox to do galleries, and I am wondering if I could easily integrate a CDN into Kirby, although still using $page->hasImages() as shown in the tutorial with fancybox?

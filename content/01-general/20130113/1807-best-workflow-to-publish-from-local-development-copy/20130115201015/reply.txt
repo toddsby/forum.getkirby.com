@@ -1,0 +1,13 @@
+User: fitzage
+----
+Date: 2013-01-15 20:10:15
+----
+Text: Git works great, but if you're not familiar with it and you're the only one working on the site, you might be farther ahead with a simple rsync script that you run via AppleScript or LaunchBar or Alfred or something when you're ready to push live.
+
+Something like this should work:
+
+    rsync -rv --delete ~/local/kirby/path/ user@ipaddress:~/remote/kirby/path/
+
+If your config files are different for local and remote, you'll have to add an --exclude option in there for the config folder.
+
+Of course this works best if you have SSH key authentication set up, but would also work if you use a password. You'd just have to type in your password every time.

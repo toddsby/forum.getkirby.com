@@ -1,0 +1,11 @@
+User: vis7mac
+----
+Date: 2012-12-04 14:55:37
+----
+Text: Basically, the `/panel/page` structure just means that you want to open and edit the page in the Panel - not view the rendered result.
+This files actually do not exist, there are some rules in the `.htaccess` routing these requests to the Panel.
+
+I would not change the file structure of Kirby, because it causes problems unless you change some stuff in `index.php` and the `.htaccess`.
+So try to use a normal file structure or look at these files and change them.
+
+If you need help doing this stuff, please post your complete folder structure - including, where the `site`, `content`, `kirby` folders and all assets are. :)

@@ -1,0 +1,10 @@
+User: conefreykoedam
+----
+Date: 2013-03-29 14:53:26
+----
+Text: Thank you, I already had a look at that tutorial, indeed a good explanation. 
+
+But what I'm trying to do is looping and mixing through two arrays (images and separate text-files or text-fields). I'm looking into the MultipleIterator at the moment. Got some php learning to do (I'm used to working with ExpressionEngine tags).
+
+I'm now using a custom text field for the text which I will try to mix in with the images …
+Any suggestions or examples are appreciated.

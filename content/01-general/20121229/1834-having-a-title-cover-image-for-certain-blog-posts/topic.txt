@@ -1,0 +1,14 @@
+Title: Having a title/cover image for certain blog posts
+----
+Date: 2012-12-29 18:34:22
+----
+Solved: 0
+----
+User: jonathanbelton
+----
+Text: on my home page I'm listing all articles, and if there's a images present it will display them beneath the title. 
+
+I would like to change this so that if a particular type of image is present then it will display (eg: cover image/title image), and if that image isn't present (but there may be other images) then no image displays on the home.php. Is calling a particular file name the way to do this? Anyone any ideas as I'm a little stumped! :)
+
+Thanks,
+J

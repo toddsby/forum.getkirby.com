@@ -1,0 +1,9 @@
+User: _diondiondion
+----
+Date: 2013-03-04 15:47:25
+----
+Text: Simply navigate to site/templates/default.php and delete the following line:
+
+```
+<?php snippet('submenu') ?>
+```

@@ -1,0 +1,9 @@
+User: mecrawlings
+----
+Date: 2013-10-31 12:07:42
+----
+Text: What happens when you go to:
+
+www.youcantwritethat.com/de/support
+
+Can you confirm your language settings in the config file?

@@ -1,0 +1,11 @@
+User: russbaldwin
+----
+Date: 2013-11-20 10:29:22
+----
+Text: >Do you think it'd be possible to output tags which don't have results? I'd like to output all letters A through Z even if they haven't got a person that begins with that letter. And have them styled so it's obvious they don't lead anywhere.
+
+Not sure showing stuff with no content makes much sense?
+
+>Also, would it be possible to search for only the first character of the name, so it assigns the tag to it? Or would I have to add a tags category for this and then search for tags to output.
+
+Not quite sure what you mean, but you can probably do this in a few different ways to suit.

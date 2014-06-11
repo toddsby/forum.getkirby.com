@@ -1,0 +1,21 @@
+Title: Auto-creation of .lang.txt files from panel
+----
+Date: 2014-03-13 11:10:24
+----
+Solved: 0
+----
+User: iamirm
+----
+Text: Hi Forum,
+
+I posted this in the general forum, but though it would a good idea to post here too as it is a panel related issue.
+
+I am running a multi language site with Kirby. All pages are in English and in Dutch, on page is in English, Dutch and French, the blog is in English.
+
+I would like to know if it's possible to prevent the panel from auto-creating the .lang.txt files to make sure there is a prober fallback when no translation is given?
+
+Currently Kirby falls back to the default language when a text file for another language is missing. But since the Panel creates the files automatically, I end up with empty text fields for non-translated content.
+
+Thanks for any suggestions!
+
+Irma

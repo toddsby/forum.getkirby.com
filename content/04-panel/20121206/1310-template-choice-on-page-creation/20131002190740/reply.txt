@@ -1,0 +1,7 @@
+User: ndrsn
+----
+Date: 2013-10-02 19:07:40
+----
+Text: Indeed it does helps. It's an error on my part. I did ``pages: false`` and ``template: blueprint``on two seperate lines.
+
+It's definately noted until the next time. Thanks for the help.

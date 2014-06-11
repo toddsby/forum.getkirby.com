@@ -1,0 +1,15 @@
+Title: Vimeo/Youtube embed inside Bootstrap Carousel
+----
+Date: 2014-01-12 12:58:31
+----
+Solved: 0
+----
+User: andrewwalt
+----
+Text: Hi,
+
+I'm trying to figure out a way to get vimeo and youtube embeds inside of the bootstrap carousel (and not just images). Is this possible/something anyone else has tried to do? 
+
+Since I'm not displaying or using image captions in the theme.. my first thought was to try and pass the video URL as a caption of a static image that would then be replaced by video embed. This way you could sequence the video embed(s) with any images in the carousel.
+
+I'm not the most adept with php but have a good understanding. Any suggestions would be much appreciated! Thanks.

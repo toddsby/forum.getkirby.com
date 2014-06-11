@@ -1,0 +1,17 @@
+User: psztrnk
+----
+Date: 2013-10-15 13:16:39
+----
+Text: Hi Russ,
+
+as far as I see it right TCP searches for all tags of the whole site, while I just need the one for the currently viewed article. TCP also gives back the tags themselves, while I would need the articles with this tag to display something like
+
+> Further posts in the category:
+> link to article 1
+> link to article 2
+> etc.
+
+Can I somehow achieve this with the TCP, or are we talking about different things here?
+
+Thanks,
+Adam

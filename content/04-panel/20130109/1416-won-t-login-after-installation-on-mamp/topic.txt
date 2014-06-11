@@ -1,0 +1,9 @@
+Title: Won't login after installation on MAMP
+----
+Date: 2013-01-09 14:16:01
+----
+Solved: 0
+----
+User: jaxbeard
+----
+Text: I'm using MAMP to try Kirby and the Panel out locally and everything seems to be working fine up until now. The Panel installation worked fine until I got to Step 2 and it gave me the Login button. But when I click on it, it just refreshes the same page and nothing happens. Am I missing something?

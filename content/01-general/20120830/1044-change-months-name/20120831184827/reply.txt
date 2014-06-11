@@ -1,0 +1,12 @@
+User: lulezi
+----
+Date: 2012-08-31 18:48:27
+----
+Text: Just use `strtolower()` to convert your string to lowercase.
+
+To get sept. of "September" use
+
+```php
+$monthName = 'September';
+print substr(strtolower($monthName), 0, 4).'.';
+```

@@ -1,0 +1,11 @@
+User: p_mylecharane
+----
+Date: 2013-02-12 06:16:12
+----
+Text: Hey all-
+
+I'm trying something a little different again. I want to have a divider between every five thumbs of a twenty thumb grid. 
+
+So the thumbs are laid out horizontal and after five there is a horizontal divider. Is it possible in the loop to say display 1-5 / 5-10 / 10-15 etc? I'd obviously have to include four loops instead–but it's my work around in this situation.
+
+Cheers

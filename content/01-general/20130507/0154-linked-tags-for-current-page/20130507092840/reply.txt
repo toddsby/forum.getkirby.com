@@ -1,0 +1,11 @@
+User: russbaldwin
+----
+Date: 2013-05-07 09:28:40
+----
+Text: This will give you a comma separated list
+```php
+<?php echo $page->tags() ?>
+```
+
+For something a bit more useful see Bastian gist:
+[https://gist.github.com/bastianallgeier/1941133](https://gist.github.com/bastianallgeier/1941133)

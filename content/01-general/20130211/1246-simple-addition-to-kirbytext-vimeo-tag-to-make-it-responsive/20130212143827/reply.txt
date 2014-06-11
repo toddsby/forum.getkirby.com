@@ -1,0 +1,9 @@
+User: bytte
+----
+Date: 2013-02-12 14:38:27
+----
+Text: Sure I can live with a div. In most situations that would be the perfect fit. Looks ok to add the div to the default code. 
+
+However, I was looking for a way to extend the vimeo function so I can rewrite what's returned by the default vimeo function in Kirby's kirbytext.php file.
+
+Can anyone help with that?

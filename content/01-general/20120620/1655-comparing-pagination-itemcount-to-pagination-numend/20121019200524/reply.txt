@@ -1,0 +1,7 @@
+User: erow80
+----
+Date: 2012-10-19 20:05:24
+----
+Text: Here's how I handled this:
+
+<script src="https://gist.github.com/3919671.js"> </script>

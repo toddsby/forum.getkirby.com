@@ -1,0 +1,11 @@
+Title: Cyrillic incompatibility
+----
+Date: 2013-06-09 21:07:21
+----
+Solved: 0
+----
+User: vivanov
+----
+Text: Hello.
+
+Looks like Kirby is not fully compatible with cyrillic texts. For example, the search function does not find any of Russian words in the texts, cyrillic tags also show zero results when filtering content, and the reading time plugin counts only latin words ignoring cyrillic.

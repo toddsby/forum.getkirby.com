@@ -1,0 +1,26 @@
+Title: How to create a link list page that behaves like a blog homepage
+----
+Date: 2014-01-15 17:06:37
+----
+Solved: 1
+----
+User: mzhu11
+----
+Text: I'm making a team forum site with kirby, and there is one section requires to collect individual link inputs only and show all the inputs as lists on one page. So it is kinda like the homepage of a blog, just no images or texts, only links.
+
+My file structure as below:
+
+
+ project
+   // 01-link
+      //// link.txt
+   // 02-link
+      //// link.txt
+   // 03-link
+      //// link.txt
+...
+
+
+I made a template based on blog.php, it works on collecting all the links, but it goes to a subpage showing a link there.
+
+Can I show a direct link on home page instead of going to a subpage?

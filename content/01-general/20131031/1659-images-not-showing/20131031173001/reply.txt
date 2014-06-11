@@ -1,0 +1,5 @@
+User: texnixe
+----
+Date: 2013-10-31 17:30:01
+----
+Text: The code is correct, usually this error message is shown when the image doesn't exist.

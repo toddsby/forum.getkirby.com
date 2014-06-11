@@ -1,0 +1,19 @@
+Title: Dropdown Menus
+----
+Date: 2012-12-22 16:26:20
+----
+Solved: 0
+----
+User: coolrob335
+----
+Text: Hi, 
+
+I am currently converting my blog from WordPress to Kirby, at <http://dev1.robbrazier.com>.
+
+I have, however reached one problem regarding dropdown menus in the navigation:
+If you go to <http://dev1.robbrazier.com/web-tools>, You will see that there are two subpages. I have tried myself to get those into the navigation bar (I don't need the exact styling, just the base functions that i'd use, to nest a dropdown menu in a nav link).
+
+The result is a mass of links from the blog, which I can't figure out how to remove. Would it be possible to make dropdown menus for all subpages except the ones in the "Blog" page?
+
+Thanks,
+Rob

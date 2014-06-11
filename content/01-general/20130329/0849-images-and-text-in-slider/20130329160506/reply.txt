@@ -1,0 +1,34 @@
+User: russbaldwin
+----
+Date: 2013-03-29 16:05:06
+----
+Text: I don't think I'd be using HTML in a Markdown CMS :-) I presume you can actually do the slider bit as their are loads on the internet...
+
+As **@roman_oroco** suggested, be more simple put them in different directories?
+```html
+01-myFolders
+  01-myFolder1
+     text.txt
+     image.jpg
+  02-myFolder2
+     text.txt
+     image.jpg
+```    
+And loop through normally?
+
+If you want folder(s) with all the files in then loop through the `files()`, sort order could be more problematic for you depending on files name and required order...
+Not tested, but something like (assuming a 'myFolders') with possible sub folders:
+
+```php
+<h3>Display Files in folders<h3> 
+<ol>
+  <?php foreach($pages->find('myFolders')->children() as $pagelist): ?>
+    <?php foreach($pagelist->files() as $filelist ) : ?>
+      <li>
+        Name: <?php echo $filelist->name() ?><br/>
+        URL:  <?php echo $filelist->url() ?>
+      </li>
+    <?php endforeach ?>
+  <? endforeach ?>
+</ol>
+```

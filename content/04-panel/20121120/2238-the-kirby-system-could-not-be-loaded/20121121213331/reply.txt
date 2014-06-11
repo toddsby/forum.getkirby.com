@@ -1,0 +1,6 @@
+User: BlackForest13
+----
+Date: 2012-11-21 21:33:31
+----
+Text: Problem solved. User rights needed some adjustment.
+Now it works.

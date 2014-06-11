@@ -1,0 +1,7 @@
+User: bastianallgeier
+----
+Date: 2012-08-14 12:00:36
+----
+Text: I'm really sorry that you got so much trouble with this. Is there a chance that you can send me the entire code of your project and I give it a try with my MAMP installation?
+
+Maybe just send me an email about it: <bastian@getkirby.com>

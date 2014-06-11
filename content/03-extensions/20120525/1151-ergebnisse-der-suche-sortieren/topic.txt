@@ -1,0 +1,16 @@
+Title: Ergebnisse der Suche sortieren
+----
+Date: 2012-05-25 11:51:02
+----
+Solved: 0
+----
+User: ttfan81
+----
+Text: Aktuell sind die Ergebnisse nach einer Suche (Search-Plugin) chronologisch sortiert. Und zwar so, dass die ältesten Blogeinträge oben erscheinen.
+
+Ich fäde es logischer, wenn die Sortierung genau andersrum wäre. Die aktuellsten Blogeinträge sollten oben angezeigt werden.
+
+Wie könnte man das umsetzen?
+
+Und Teil 2 der Frage:
+Gibts auch ne Möglichkeit die Suchergebnisse als komplette Artikel anzuzeigen? Genauso, wie auf der Blog-Startseite. Nicht nur den Titel des Eintrags.

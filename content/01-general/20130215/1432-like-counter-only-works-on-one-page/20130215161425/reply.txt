@@ -1,0 +1,5 @@
+User: Swissendo
+----
+Date: 2013-02-15 16:14:25
+----
+Text: Thanks for your reply. The like.txt for "photos" follows the same structure as for the working "blog" page, so everything should be correct. Like.txt doesn't need to be writeable, since the count is added to the article itself (which makes it possible to echo it). And since I'm able to change these articles with the panel, I guess they are writeable too.

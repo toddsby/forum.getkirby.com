@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-11-02 11:10:44
+----
+Text: Good point! I also ran into spam issues with the form recently. I will try to add some spam protection soon. If anybody has suggestions I'm very happy to hear your thoughts.

@@ -1,0 +1,32 @@
+Title: Linking thumb.php files to Submenu?
+----
+Date: 2013-07-28 19:36:23
+----
+Solved: 0
+----
+User: karlnoelle
+----
+Text: <p>Hi all,
+
+I'm having trouble linking my thumbnails from the thumb.php plugin to my Submenu pages (Project A, Project B, etc)
+
+My current thumbnail images are being produced with this:</p>
+    <ul class="projects-images">
+    <?php foreach($page->images() as $image): ?>
+    <li><?php echo thumb($image, array('width' => 600)) ?></li>
+    <?php endforeach ?>
+    </ul>
+
+
+<p>and my submenu is just the default one right now:</p>
+    <nav class="submenu">
+    <ul>
+    <?php foreach($items AS $item): ?>
+    <li><a<?php echo ($item->isOpen()) ? ' class="active"' : '' ?> href="<?php echo $item->url() ?>"><?php echo html($item->title()) ?></a></li>
+    <?php endforeach ?>            
+    </ul>
+    </nav>
+
+<p>And ideas how I can link the Submenu links to my thumbnail list items? I'm really new to PHP but am slowly wrapping my mind around it.
+
+Thanks for any help!</p>

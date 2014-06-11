@@ -1,0 +1,13 @@
+Title: File Field Title Problem
+----
+Date: 2013-08-21 17:36:22
+----
+Solved: 0
+----
+User: photowatts
+----
+Text: I'm having a bit of an issue with a file field in a blueprint.  I have a single file field in a blueprint which appears to be working fine.  The problem is, when I log in to the panel and edit a file, when I enter text in that file field (leaving the filename as is), I get a new *name already exists* message, even though I've not edited the filename.  An example filename would be FirstLastC-001.  If I rename the file as well, I'm able to save the edits to the file, including the file field I created.
+
+Alternatively, if I create the text file for the image instead of going through the panel, everything seems to work fine, but it would be much more convenient to go through the panel.
+
+TIA

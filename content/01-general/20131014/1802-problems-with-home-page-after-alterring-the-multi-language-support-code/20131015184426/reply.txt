@@ -1,0 +1,11 @@
+User: texnixe
+----
+Date: 2013-10-15 18:44:26
+----
+Text: Maybe you can replace line 3 by using find():
+
+    <div class="cover" style="background-image: url(<?php echo $page->images()->find('cover.jpg')->url() ?>)"></div>
+
+(or whatever the title of the image is) instead of using the filterBy method. Seems that if there is more than one image starting with 'cover', an error is thrown, but I'm not sure why this happens.
+
+Hope this helps.

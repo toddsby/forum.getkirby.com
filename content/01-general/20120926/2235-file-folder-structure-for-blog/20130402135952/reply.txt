@@ -1,0 +1,5 @@
+User: roman_oroco
+----
+Date: 2013-04-02 13:59:52
+----
+Text: @barrysampson It's all up to you for content structure. Thanks to this forum eventually I was able to built website with 500+ pages. There's many websites built on Kirby (link: /made-with-kirby-and-love) and some of them are pretty huge. You can also use available Kirby themes (link: /downloads/themes). If you moving from WP you can try plugin: (link: /downloads/exporter text: WordPress Exporter) and check also (link: /blog/how-to-fix-broken-wordpress-urls).

@@ -1,0 +1,11 @@
+Title: $page from path?
+----
+Date: 2013-04-20 15:21:46
+----
+Solved: 1
+----
+User: bobrockefeller
+----
+Text: Is it possible to get a Kirby page object ($page) if you know the file path to that page?
+
+I'm writing a PHP script to be called from AJAX as a part of a Kirby page. A snippet works fine. But calling a PHP script from AJAX takes it out of the Kirby context so that I don't have access to Kirby variables. I'm not even sure I'll have access to Kirby functions, but one step at a time.

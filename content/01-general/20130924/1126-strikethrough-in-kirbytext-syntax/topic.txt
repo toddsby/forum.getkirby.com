@@ -1,0 +1,13 @@
+Title: strikethrough in kirbytext syntax
+----
+Date: 2013-09-24 11:26:28
+----
+Solved: 0
+----
+User: verde_andrea
+----
+Text: Hi!
+
+Is there a way to have a strikethrough text with kirbytext (or with a button in the admin?)
+
+Thank you!

@@ -1,0 +1,7 @@
+User: tbnv
+----
+Date: 2013-03-05 17:03:47
+----
+Text: I don't see the uploaded .md files in the "Files" tab of a page but at least I'm able to upload them.
+
+Thanks. :)

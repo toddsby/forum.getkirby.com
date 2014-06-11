@@ -1,0 +1,12 @@
+User: tysongach
+----
+Date: 2013-04-24 21:59:09
+----
+Text: You need to add it to the HTML `ul` element, so that’s in your default.php file.
+
+See the revision here: <https://gist.github.com/tysongach/5455060/revisions>
+
+I added the class to the `ul` element on line 7.
+
+
+P.S. When giving links in the Kirby forum, put ‘<’ and ‘>’ on either side and it will become an actual clickable link element. Quite helpful...

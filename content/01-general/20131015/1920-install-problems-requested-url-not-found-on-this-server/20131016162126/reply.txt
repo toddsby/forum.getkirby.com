@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-10-16 16:21:26
+----
+Text: Assuming the re-write modules are up and running (as per @texnixe's previous post), what do you have in your .htaccess for rewrite rules? If you can list it...

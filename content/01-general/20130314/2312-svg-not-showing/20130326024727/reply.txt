@@ -1,0 +1,11 @@
+User: p_mylecharane
+----
+Date: 2013-03-26 02:47:27
+----
+Text: True, svg's aren't supported as images as yet in Kirby.
+
+When calling svg's then you need to use the files() method:
+
+    src="<?= $page->files()->find('jte.svg')->url() ?>"
+
+This works fine for me.

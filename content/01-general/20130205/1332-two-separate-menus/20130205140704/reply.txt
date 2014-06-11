@@ -1,0 +1,11 @@
+User: plartz
+----
+Date: 2013-02-05 14:07:04
+----
+Text: Would be a nice addition. Maybe you could add an extra line to your parent text-files (Home, Website Design, Support, ...) where you define your menu:
+
+	title: Foo
+	----
+	menu: header
+
+In your header-menu, you can now check if `$page->menu()` is *header*. I'm not quite sure about performance – but as the whole content file is loaded anyway, it might not be a problem.

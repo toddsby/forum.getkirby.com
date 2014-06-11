@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2013-05-24 15:32:32
+----
+Text: Siblings should normally be without the current page. An even easier way to debug this is to use echo on $p1 and $p2 since that will only give you a list of links to the included pages.

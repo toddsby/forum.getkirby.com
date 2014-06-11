@@ -1,0 +1,13 @@
+Title: Does each article have its own ID?
+----
+Date: 2013-06-11 12:53:53
+----
+Solved: 1
+----
+User: chrisburton
+----
+Text: I know Wordpress has an ID class for each single post article but does Kirby have something similar?
+
+Summary:
+
+I'm creating a comment system for Kirby and need to identify a unique ID for each article to know which comments belong to which post.

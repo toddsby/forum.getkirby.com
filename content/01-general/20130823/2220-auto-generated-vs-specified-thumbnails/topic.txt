@@ -1,0 +1,13 @@
+Title: Auto-Generated vs. Specified Thumbnails
+----
+Date: 2013-08-23 22:20:56
+----
+Solved: 0
+----
+User: theseason
+----
+Text: I am currently using the thumb snippet to auto-generate a thumbnail for each of my projects in a portfolio. However, some of those thumbnails are not the best.
+
+How would I write an if/then statement to search for a specified thumb.jpg file in a project directory, and if that file is not found, then use the thumb snippet to create one?=
+
+Thanks for the help.

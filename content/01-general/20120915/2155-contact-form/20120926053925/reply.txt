@@ -1,0 +1,11 @@
+User: scottswany
+----
+Date: 2012-09-26 05:39:25
+----
+Text: I implemented the contactform plugin and for the most part, it works great.
+
+Small issue though, it doesn't seem to use the 'contactform.mail.php' snippet properly.  It always defaults to the secondary $body definition listed in the 'contactform.php' plugin file.
+
+Curious if this is a simple option I'm missing...
+
+Thank you!

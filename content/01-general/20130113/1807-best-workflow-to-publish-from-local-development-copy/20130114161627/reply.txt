@@ -1,0 +1,9 @@
+User: hey_steffen
+----
+Date: 2013-01-14 16:16:27
+----
+Text: [git-ftp](https://github.com/resmo/git-ftp)
+[dandelion](https://github.com/scttnlsn/dandelion)
+[deploy hq](http://www.deployhq.com)
+
+_(did not try them)_

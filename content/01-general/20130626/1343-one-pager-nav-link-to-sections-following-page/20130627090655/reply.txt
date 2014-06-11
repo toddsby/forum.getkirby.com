@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-06-27 09:06:55
+----
+Text: Three backticks (here is one ` ) at the start and the end of the code and you can use the text *php* or *css* or *html* or *js* etc after the first set of backticks for syntax formatting.

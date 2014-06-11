@@ -1,0 +1,18 @@
+User: hjholland
+----
+Date: 2012-10-15 13:48:04
+----
+Text: Ok - i'm an idiot! 
+
+This is what i did:
+
+step 1: Download Kirby, show invisible files, setup with MAMP
+step 2: Get excited, decide to use Kirby as my CMS, get bored with invisible files - turn them off.
+step 3: Duplicate Kirby directory, start integrating static html design
+step 4: **FAIL!**
+
+During step 3 i duplicated everything **apart** from the .htaccess file! This breaks Kirby, as documented in the MAMP tutorial - you get plain 404 pages... phew!
+
+apologies for a semi-redundant forum post :-)
+
+-h

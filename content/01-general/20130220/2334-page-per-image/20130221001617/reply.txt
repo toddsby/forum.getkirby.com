@@ -1,0 +1,7 @@
+User: tysongach
+----
+Date: 2013-02-21 00:16:17
+----
+Text: Heh, I only did that because I once tried to figure this out too. Sorry, I don’t have a solution. Hopefully some others will chime in. I’m anxious to know...
+
+I wonder if something similar to how you can modify directory views is possible: <http://perishablepress.com/better-default-directory-views-with-htaccess/>

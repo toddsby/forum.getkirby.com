@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2013-12-29 05:47:30
+----
+Text: The docs are incorrect. Use yy instead of yyyy.
+
+See this http://getkirby.com/forum/issue-tracker/topic:110

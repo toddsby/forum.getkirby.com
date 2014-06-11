@@ -1,0 +1,8 @@
+User: russbaldwin
+----
+Date: 2013-01-06 13:35:50
+----
+Text: Not sure what the support is like for 'time datetime' in browsers?
+Have you tried just outputting the date as a string in a 'p' tag?
+
+Also if you are after the article date maybe '$article->date'?

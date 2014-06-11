@@ -1,0 +1,11 @@
+User: russbaldwin
+----
+Date: 2013-01-28 10:43:13
+----
+Text: You probably have to set the 'content' folder and sub folders and files to 0777 on a Mac if you are using the default Apache Server? 
+
+From terminal navigate to the folder and chmod 777.
+
+If you are unfamiliar with the command line then maybe use an FTP client like Transmit? (When you have Transmit, select the 'content' folder and right click on it and select 'Get info' - you can set it from there and then 'Apply' and then 'Apply to Enclosed')
+
+Hope this helps?

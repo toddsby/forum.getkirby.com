@@ -1,0 +1,7 @@
+User: bastianallgeier
+----
+Date: 2012-06-01 09:22:31
+----
+Text: Great news :) There's a plugin for Instagram, which might be exactly what you are looking for: <https://github.com/simonalbrecht/Instagram-Kirby-Plugin>
+
+If you are looking for other ways to load content from an RSS feed, you should check out <http://www.simplepie.org/> It's a great way to parse and work with RSS feeds with PHP.

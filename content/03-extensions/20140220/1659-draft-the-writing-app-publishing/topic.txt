@@ -1,0 +1,15 @@
+Title: Draft (the writing app) Publishing
+----
+Date: 2014-02-20 16:59:22
+----
+Solved: 0
+----
+User: tysongach
+----
+Text: [Draft](https://draftin.com) is a really neat browser-based writing app, with features like Markdown editing, version-control, team collaboration and publishing (plus [*much* more](http://docs.withdraft.com)).
+
+Draft already has built-in publishing to services like WordPress, Tumblr and MailChimp, so you can write in Draft and then send that document straight to any of these services.
+
+Although Kirby is not a built-in publishing source (maybe it should be, maybe not?), Draft does have [webhooks support](http://docs.withdraft.com/#webhooks), so you can push documents out to your own services.
+
+Has anyone set this up? Thoughts? Would anyone be interested in this?

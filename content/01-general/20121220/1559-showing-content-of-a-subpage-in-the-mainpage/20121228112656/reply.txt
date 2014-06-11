@@ -1,0 +1,24 @@
+User: henninghorn
+----
+Date: 2012-12-28 11:26:56
+----
+Text: I guess you would create a template named story.php in the site/templates folder and name your Story txt-file story.txt
+
+In the template you do your usual snippet() stuff and this is how you would include the first subpage of Story:
+
+	<?php
+
+	snippet('header')
+
+	$first_story = $page->children()->visible()->first();
+
+	?>
+
+	<h2><?php echo html($first_story->title()) ?></h2>
+	<?php echo kirbytext($first_story->text()) ?>
+	
+	<?php
+	snippet('footer');
+	?>
+
+Is this what you were looking for or didn't I understand it correctly?

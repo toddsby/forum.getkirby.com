@@ -1,0 +1,5 @@
+User: azharc
+----
+Date: 2013-08-07 09:09:30
+----
+Text: I suspect it might be the missing quotes? The code you provided is missing the surrounding quotes for the url (its background-image:url('image.jpeg')). Perhaps the missing quotes are resulting in it missing from your output.

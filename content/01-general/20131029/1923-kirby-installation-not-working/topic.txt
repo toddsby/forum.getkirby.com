@@ -1,0 +1,22 @@
+Title: Kirby installation not working …
+----
+Date: 2013-10-29 19:23:19
+----
+Solved: 1
+----
+User: robinscholz
+----
+Text: Hello guys,
+
+I recently got into HTML and CSS and I am now trying to get Kirby to work.
+
+I bought some serverspace on campusspeicher.de and I am now failing miserably to get Kirby to work.
+
+Opening the domain: robinscholz.de just results in an automatic download of the index.php file.
+
+I uploaded Kirby to the httpdocs subfolder and I also tried uploading it to the parent folder which results in an access denied message.
+
+Could anybody tell me what the mistake is? Its kind of discouraging being stuck this early on in the process …
+
+Thanks!
+R

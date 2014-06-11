@@ -1,0 +1,5 @@
+User: plartz
+----
+Date: 2013-03-18 09:30:51
+----
+Text: If you have missed it: I just collected the cheat sheet in a Sublime Text Auto-complete file... have a look at (link: https://github.com/jakobploens/Kirby-CMS-Auto-completion-for-Sublime-Text-2 text: Github) or the (link: http://getkirby.com/forum/extensions/topic:476 text: original post in the forum).

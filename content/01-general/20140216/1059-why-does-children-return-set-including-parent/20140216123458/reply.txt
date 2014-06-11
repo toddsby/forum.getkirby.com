@@ -1,0 +1,5 @@
+User: walkerbox
+----
+Date: 2014-02-16 12:34:58
+----
+Text: I can't replicate this on a fresh install. Your code works as expected for me. Do you have more than one directory called projects?

@@ -1,0 +1,7 @@
+User: bastianallgeier
+----
+Date: 2012-08-22 10:01:18
+----
+Text: @fitzage sorry for being so cryptic about this. You can find the dev branch of Kirby over here: <https://github.com/bastianallgeier/kirbycms/tree/dev> Just click on the ZIP download button to get the latest version. 
+
+I'm using the dev branch to publish bug fixes between two releases.

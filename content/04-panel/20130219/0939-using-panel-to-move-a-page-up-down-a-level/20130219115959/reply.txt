@@ -1,0 +1,6 @@
+User: roman_oroco
+----
+Date: 2013-02-19 11:59:59
+----
+Text: Currently it's possible only manually via ftp.
+For projects/articles or whatever is you can assign (link:http://getkirby.com/blog/tag:tags text:tags) to make it more dynamic.

@@ -1,0 +1,7 @@
+User: tysongach
+----
+Date: 2013-02-06 17:50:22
+----
+Text: Yeah, I think I'm seeing the same issue.
+
+I changed the text on a page, saved it, then viewed the sitemap and it still says the last modification was over a month ago (when it was originally created).

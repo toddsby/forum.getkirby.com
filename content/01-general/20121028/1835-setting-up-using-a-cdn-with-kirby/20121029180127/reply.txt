@@ -1,0 +1,8 @@
+User: fitzage
+----
+Date: 2012-10-29 18:01:27
+----
+Text: 1. Something like CloudFlare or Max CDN would not have a problem, because they don't require anything in the CMS or on the webserver itself. They just cache and distribute your site, and maybe do some minimizations depending on your settings. This would be the easiest route to go, and would have the advantage of making everything faster, not just media.
+2. If you did decide to use a CDN just for media, the easiest route would probably be to extend kirbytext to have a tag just for your CDN links (assuming they all use the same prefix). Then you could have a tag cdnimage instead of just image, and still use just the filename (presumably).
+
+From a template, you could even do something like looking in the kirby content folder to see what images are there, but then pull those images automatically from the CDN instead. Obviously that would require all CDN images to have the same prefix. Or you could even include a text file describing the image that includes a field for the CDN URL for that image. This would give you the same flexibility of programatically pulling in images into a template, and the only complication would be adding the images to the CDN as well as the content folder, and then including a link to the CDN version in the description file for the image if necessary.

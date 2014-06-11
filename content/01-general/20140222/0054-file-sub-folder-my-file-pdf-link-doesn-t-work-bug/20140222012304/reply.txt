@@ -1,0 +1,11 @@
+User: DevDataStream
+----
+Date: 2014-02-22 01:23:04
+----
+Text: Ok, here's a quirk. But this solution really sucks for end-users I think..
+
+(file: my/folder/the file.pdf  won't work.
+
+But (file: content/04-my/folder/the file.pdf works.
+
+However, why does (file: the file.pdf work when the file is located in the same folder as the page the link is located at??

@@ -1,0 +1,19 @@
+Title: Is it possible to count the number of images on a page?
+----
+Date: 2013-10-28 02:13:02
+----
+Solved: 1
+----
+User: unexpectedsport
+----
+Text: Hello all,
+
+I was hoping to echo the number of images on each page. I tried searching here and the cheat sheet, but the closest thing I could find was $pages->count()
+
+After some trial and error, I got to this:
+
+    <?php echo $page->files->count(); ?>
+
+I'm not sure if that's the correct way to use the function, but it seems to be echoing the total number of files in each page's folder. Now I'm just wondering if there's a way to limit it to just image files…
+
+Thanks for any help and suggestions you can offer!

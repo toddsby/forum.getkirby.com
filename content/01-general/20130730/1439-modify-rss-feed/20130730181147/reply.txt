@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-07-30 18:11:47
+----
+Text: You have seen [https://github.com/bastianallgeier/kirbycms-extensions/tree/master/snippets/feed](https://github.com/bastianallgeier/kirbycms-extensions/tree/master/snippets/feed)?

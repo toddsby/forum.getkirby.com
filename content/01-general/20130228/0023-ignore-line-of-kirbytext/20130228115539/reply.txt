@@ -1,0 +1,14 @@
+User: russbaldwin
+----
+Date: 2013-02-28 11:55:39
+----
+Text: Three back-ticks (they go the other way) and you can specify a language (e.g. html, php, css, js etc.)
+
+```html
+<img src="http://getkirby.com/picture.jpg" class="left" />
+
+```
+
+[See also: A Kirby tag for code snippets](http://getkirby.com/forum/extensions/topic:156/#post551)
+
+You could also [embed Gists](http://getkirby.com/blog/text-formatting-101)?

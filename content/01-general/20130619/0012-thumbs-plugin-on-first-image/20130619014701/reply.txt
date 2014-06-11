@@ -1,0 +1,19 @@
+User: fenixkim
+----
+Date: 2013-06-19 01:47:01
+----
+Text: I don't understand well your question but try this:
+
+	<?php thumb($work->images()->first(), array('width' => 800)) ?>
+
+The thumb plugin must generate the img tag by default, but if you only want to get the URL of the generated thumb, you must pass a `false` for the third attribute of `thumb()` function as follow:
+
+
+	<?php 
+	
+	$tnURL = thumb($work->images()->first(), array('width' => 800), false);
+	echo $tnURL;
+	
+	?>
+
+I hope this work for you :)

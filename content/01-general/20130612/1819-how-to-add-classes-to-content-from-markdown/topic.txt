@@ -1,0 +1,13 @@
+Title: how to add classes to content from markdown
+----
+Date: 2013-06-12 18:19:44
+----
+Solved: 0
+----
+User: wfmarc
+----
+Text: Hello,
+
+someone knows how i can add classes to my content from markdown? for example i want to add a class to every link that comes from markdown, because i don't want to style the a element and i also don't want to use higher css specificity.
+
+greets

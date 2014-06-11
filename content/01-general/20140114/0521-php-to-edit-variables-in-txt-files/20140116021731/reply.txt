@@ -1,0 +1,11 @@
+User: OMGitsJKT
+----
+Date: 2014-01-16 02:17:31
+----
+Text: This is good - yes, what I was looking for, thank you.
+
+One thing i'm not sure about - how do I 'activate' kirby, or use kirby's functions, within a script that is not part of the site's browsing structure?
+
+When a product is ordered, foxycart will send variables in an encoded request to /assets/scripts/inventory.php
+
+After looking through your code above and some fooling around, I can get things to work on a test file - but, in particular, i'd like to use kirby's $pages->findByUID() function.

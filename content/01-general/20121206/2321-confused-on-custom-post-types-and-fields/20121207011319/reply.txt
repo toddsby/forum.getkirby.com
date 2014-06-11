@@ -1,0 +1,68 @@
+User: chrisburton
+----
+Date: 2012-12-07 01:13:19
+----
+Text: Hey, Tyson.
+
+That is unbelievably simple. I wish the docs had some of this information in there (unless I've missed it).
+
+Instead of your structure, could I have something like this?:
+
+<ul>
+  <li>01-about</li>
+    <ul>
+      <li>about.txt  >  <strong>blueprint is about.php</strong></li>
+    </ul>
+</ul>
+
+<br>
+
+<ul>
+  <li>02-portfolio</li>
+    <ul>
+      <li>portfolio.txt  >  <strong>blueprint is portfolio.php</strong></li>
+    </ul>
+</ul>
+
+<br>
+
+<ul>
+  <li>03-articles</li>
+    <ul>
+      <li>articles.txt  >  <strong>blueprint is articles.php</strong></li>
+    </ul>
+</ul>
+
+<br>
+
+<ul>
+  <li>lettering (invisble page)</li>
+    <ul>
+      <li>google (invisible page)</li>
+          meta.txt  >  <strong>blueprint is meta.php</strong>
+      <li>pinterest (invisible page)</li>
+          meta.txt  >  <strong>blueprint is meta.php</strong>
+      <li>instagram (invisible page)</li>
+          meta.txt  >  <strong>blueprint is meta.php</strong>
+      <li>lettering.txt  >  <strong>blueprint is lettering.php</strong></li>
+    </ul>
+</ul>
+
+<br>
+
+<ul>
+  <li>type</li>
+    <ul>
+      <li>Facebook</li>
+          meta.txt  >  <strong>blueprint is meta.php</strong>
+      <li>Yahoo</li>
+          meta.txt  >  <strong>blueprint is meta.php</strong>
+      <li>Twitter</li>
+          meta.txt  >  <strong>blueprint is meta.php</strong>
+      <li>type.txt  >  <strong>blueprint is type.php</strong></li>
+    </ul>
+</ul>
+<br>
+Is there a way to hide the Post Type from being accessed (/lettering or /type)? Or would I have to create a redirect in htaccess for that?
+
+Once again, thank you!

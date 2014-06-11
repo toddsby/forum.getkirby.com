@@ -1,0 +1,15 @@
+Title: automatic update for kirby
+----
+Date: 2013-12-30 20:05:10
+----
+Solved: 0
+----
+User: peterpolz
+----
+Text: hi!
+
+is it planned to make an automatic update for kirby
+
+thx
+regards
+Peter

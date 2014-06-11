@@ -1,0 +1,8 @@
+User: russbaldwin
+----
+Date: 2013-03-11 13:42:23
+----
+Text: Bit confused, are you:
+1. Trying to load a different PHP snippet into a page based on something?
+2. Trying to load a different block of text into a page based on something?
+3. What is the something?

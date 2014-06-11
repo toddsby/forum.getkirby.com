@@ -1,0 +1,13 @@
+User: texnixe
+----
+Date: 2013-11-03 19:05:30
+----
+Text: Hi Marco,
+
+then I have no more ideas I'm afraid ...
+
+but nevertheless, try putting the a::show code from above right after
+
+    <?php $image = $page->images()->find('01.jpg') ?>
+
+and before the img-tag to see what the result is and if your image is listed in the array.

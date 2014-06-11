@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-08-31 18:21:54
+----
+Text: I don't believe this is currently possible. The easiest thing would be to include the same word in the filename of every visible photo (maybe the word visible) and use filename filters to find only those images. I think.

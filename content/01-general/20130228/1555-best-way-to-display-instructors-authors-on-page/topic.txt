@@ -1,0 +1,28 @@
+Title: Best way to display instructors (authors) on page.
+----
+Date: 2013-02-28 15:55:59
+----
+Solved: 0
+----
+User: baderkamal
+----
+Text: Hello,
+
+I'm trying to display images of instructors on the details of workshops listed on my home page (and elsewhere). Current structure:
+
+    - content
+        - instructors
+            - instructorone
+                - instructorname.txt
+            - instructortwo
+        - workshops
+            - 01-workshopone
+                - workshop.txt
+            - 02-workshoptwo
+
+In my workshop.txt, I have "instructors: instructorone, instructortwo". I'd like to be able to pull their images out of the instructors folders correspondingly and display them on the homepage.
+
+What would be the best way to achieve this?
+
+Here's an image mockup of how I want it to look like:
+(link: http://files.baderkamal.com/image/1l3H2F0C0G34)

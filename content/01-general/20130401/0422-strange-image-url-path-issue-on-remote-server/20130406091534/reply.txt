@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-04-06 09:15:34
+----
+Text: 1. Are you using Apache / PHP? If so what versions? 
+2. Does it have mod-rewrite enabled. 
+3. Is your .htaccess correct?

@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2014-03-20 21:43:07
+----
+Text: The numbers is what Kirby uses to differentiate between visible and invisible pages. There probably is a way to change the behavior, but it would require a pretty radical hack of the way kirby is designed to work.

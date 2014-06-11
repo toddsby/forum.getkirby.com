@@ -1,0 +1,37 @@
+Title: Two separate menus
+----
+Date: 2013-02-05 13:32:07
+----
+Solved: 0
+----
+User: lewisjenkins
+----
+Text: How would I create and display two (or more) separate menus? For example...
+
+    Main menu
+        Home
+        Website Design
+        Web Hosting
+        SEO
+        Contact Us
+
+    Footer menu
+        Support
+        Jobs
+        Legal
+        About Us
+
+It would be handy to have a way to do this in Kirby, maybe by grouping pages into distinct menu folders:
+
+    /
+        content
+            _menu1
+                01-website-design
+                02-web-hosting
+                etc...
+            _menu2
+                01-support
+                02-jobs
+                etc....
+
+Any thoughts? Or is this already possible?

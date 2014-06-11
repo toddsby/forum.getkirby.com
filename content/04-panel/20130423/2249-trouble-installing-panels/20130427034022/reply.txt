@@ -1,0 +1,5 @@
+User: CharlesMinxFarq
+----
+Date: 2013-04-27 03:40:22
+----
+Text: Yes to the folder structure, and I've not touched config.php, simple tried placing the folders in each specific area

@@ -1,0 +1,7 @@
+User: theoriginalivor
+----
+Date: 2013-02-09 18:16:23
+----
+Text: I'm pretty sure its not the htaccess file. I've request a support ticket from my host. And the said outright they dont support it on their windows shared hosting.
+
+I'll double check though just in case. Thanks for the help btw.

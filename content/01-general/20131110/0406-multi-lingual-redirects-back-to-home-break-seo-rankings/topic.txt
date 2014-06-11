@@ -1,0 +1,36 @@
+Title: Multi-lingual redirects back to home break SEO rankings
+----
+Date: 2013-11-10 04:06:33
+----
+Solved: 0
+----
+User: iamadamjowett
+----
+Text: Hey guys,
+
+I have a Kirby site in testing here: http://formitize.com.au ... which has multilingual settings enabled (en, nl). The issue I have is if a user links to the old links before multiple languages was enabled, the links break and Google hammers us with the ranking as it redirects back to the home page rather than the page looked for.
+
+Example:
+
+The old link for this blog article was:
+
+http://formitize.com.au/blog/formitize-blogs-digest-october-2013
+
+Now that multi-languages are enabled it has changed to:
+
+http://formitize.com.au/en/blog/formitize-blogs-digest-october-2013
+
+... i.e. with the "en" string added. Google had ranked this page for one of our keyterms 2nd on page 1, now since the change it is on page 5 as the link is broken.
+
+Instead of redirecting page to:
+
+http://formitize.com.au/en
+
+Is there a way to instead redirect it to the fill url with the default language inserted?
+
+http://\<site-url\>/\<default-language\>/\<rest-of-the-link\>
+
+I have tried some .htaccess trickery but to no avail for now, but seems like it is the logical thing for the kirby codebase to do. If someone could point me in the right direction that would be appreciated :)
+
+Cheers
+Adam

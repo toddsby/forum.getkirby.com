@@ -1,0 +1,5 @@
+User: jackkeller
+----
+Date: 2012-10-22 06:52:01
+----
+Text: I think I finally got it worked out, on this particular Theme it was looking for extra fields and not subpages. After working that out and looking into other ends I'm getting the hang of the system. That initial hurdle of learning a new system is always a fun one.

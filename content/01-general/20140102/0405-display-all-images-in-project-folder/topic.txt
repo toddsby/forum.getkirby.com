@@ -1,0 +1,32 @@
+Title: display all images in project folder
+----
+Date: 2014-01-02 04:05:13
+----
+Solved: 0
+----
+User: jon_l_
+----
+Text: I've been following some the tutorials but am a php newb and do not understand how to get all the images in a folder to display rather than just the first. Any direction would be helpful.
+
+project.php snippet:
+<a target='blank' href='http://jsfiddle.net/29QRZ/'>JSFIDDLE</a>
+
+<div class="project">
+<h1 class="description"><?php echo html($data->title()) ?></h1>
+<p class='caption'><span>
+<?php echo kirbytext($data->text()) ?>
+</span></p>
+
+<div class='images'>
+ 
+  <?php foreach($data->children()->visible() as $project): ?>
+
+     <img src="<?php echo $project->images()->first()->url() ?>" alt="<?php echo html($project->title()) ?>" />
+
+  <?php endforeach ?>
+ 
+</div>
+</div>
+
+folder directory looks like this:
+02-project > 01-project-a > 01.jpg,02.jpg…

@@ -1,0 +1,31 @@
+Title: Force trailing slash to urls (like WordPress)
+----
+Date: 2014-03-25 09:46:57
+----
+Solved: 0
+----
+User: jens_tornell
+----
+Text: After &lt;IfModule mod_rewrite.c&gt; in the htaccess file add this:
+
+    RewriteCond %{REQUEST_URI} !^/panel/
+    RewriteCond %{REQUEST_URI} /+[^\.]+$
+    RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R=301,L]
+
+**Exclude Kirby Panel**
+
+The first row excludes /panel/. It does not force trailing slash to Kirby Panel.
+
+**Redirect trailing slash**
+
+The second and third row will redirect all the other urls to a trailing slash.
+
+**This...**
+
+    http://my-kirby-site.com/about
+
+**...will become this...**
+
+    http://my-kirby-site.com/about/
+
+It will work both on server and on a localhost environment.

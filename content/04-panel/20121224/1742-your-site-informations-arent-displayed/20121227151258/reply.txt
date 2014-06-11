@@ -1,0 +1,7 @@
+User: tysongach
+----
+Date: 2012-12-27 15:12:58
+----
+Text: Hmm, I haven't dealt with multi-language support in Kirby, but maybe this is something to do with having two languages.
+
+Are your site content files named `site.de.txt` and `site.en.txt`?

@@ -1,0 +1,11 @@
+User: bastianallgeier
+----
+Date: 2012-06-20 17:46:14
+----
+Text: Maybe there's a typo in your code or the code I sent you. Please switch on debugging in site/config/config.php
+
+```php
+c::set('debug', true);
+```
+
+That should help to find the problem.

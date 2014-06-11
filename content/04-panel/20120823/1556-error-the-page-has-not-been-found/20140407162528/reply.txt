@@ -1,0 +1,14 @@
+User: Ox000000
+----
+Date: 2014-04-07 16:25:28
+----
+Text: Hello there; 
+I'm fiddling around with Kirby and found it crystal clear for now on ( very relaxing I find if you ask :)
+Well, I hitted this thread problem pretty soon.
+NONE of the remedies exhibited here solved.
+MY problem lied in I renamed the [panel] folder to [whatever]
+BUT the default install htaccess includes:
+
+    RewriteRule ^panel/(.*) panel/index.php [L]
+
+you have to change accordingly.

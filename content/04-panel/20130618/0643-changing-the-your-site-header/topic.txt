@@ -1,0 +1,9 @@
+Title: Changing the Your Site Header
+----
+Date: 2013-06-18 06:43:45
+----
+Solved: 0
+----
+User: simpleckz
+----
+Text: Hey guys, first time really using Panel for websites, and I was sort of wondering what the easiest way to change the Header that appears on every single page in the Panel. The default text for it is Your Site, and was wondering where in the files can I change this.

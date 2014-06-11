@@ -1,0 +1,19 @@
+Title: Can not log in with md5 and sha1 encryption
+----
+Date: 2014-03-07 14:28:52
+----
+Solved: 0
+----
+User: fridgewanch
+----
+Text: I can not log in users that has md5 or sha1 encryption enabled.
+
+Login to panel without encryption works.
+
+For testing purposes I use the exact name and password as outlined in the tutorial here on this site.
+
+I have the same issues on a local installation with Mamp as well as on an external server.
+
+Any ideas of what I could try to get this to work?
+
+Thanks.

@@ -1,0 +1,7 @@
+User: DerZyklop
+----
+Date: 2014-01-12 14:46:48
+----
+Text: I never used the plugin for Images with transparency, but i also have this problem with too large png's. 
+
+So i guess your second issue has nothing to do with transpanancy.

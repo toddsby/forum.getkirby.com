@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2014-03-11 17:24:04
+----
+Text: I'd use your .htaccess file, the info for all this is in the [Apache mod-rewrite docs](https://httpd.apache.org/docs/current/mod/mod_rewrite.html)

@@ -1,0 +1,7 @@
+User: RachelTai_
+----
+Date: 2013-07-17 22:16:41
+----
+Text: @russbaldwin I have changed the subfolder to `test`, and I did copy the `defaults` folder from `kirbycms-panel` to Kirby's `site` folder. I cannot change the `kirbycms-panel` to just `panel` – the page where the panel is supposed to be throws up a warning / fatal error message.
+
+Tried locally (MAMP) and I cannot get links to work in Panel either :(

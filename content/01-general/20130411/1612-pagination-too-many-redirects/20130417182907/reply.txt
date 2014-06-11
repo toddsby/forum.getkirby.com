@@ -1,0 +1,11 @@
+User: iamirm
+----
+Date: 2013-04-17 18:29:07
+----
+Text: Apparently, this had something to do with a paginated blog archive on a paginated blog page.
+
+I don't know why this results in too many redirects, would really like to know.
+
+Anyhow, I ended up busing break; in my foreach loop for the archive. 
+
+Problem solved.

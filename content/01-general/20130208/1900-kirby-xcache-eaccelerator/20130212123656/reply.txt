@@ -1,0 +1,6 @@
+User: roman_oroco
+----
+Date: 2013-02-12 12:36:56
+----
+Text: @russbaldwin Oh I totally misunderstood A.I., so I give a try. Thanks!
+It's could be definitely hosting problem in fact I'm using shared hosting. But I've also tested in MAMP and get same result…

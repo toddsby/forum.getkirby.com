@@ -1,0 +1,18 @@
+User: russbaldwin
+----
+Date: 2013-05-14 11:43:38
+----
+Text: And something like this to go loop through them, again not tested
+
+```php
+<ul class="tags">
+  <?php foreach($tags as $tag): ?>
+    <li>
+      <?php if($tag->isActive()) echo ' class="active"' ?>>
+      <a href="<?php echo $tag->url() ?>">
+        <?php echo $tag->name() ?>
+      </a>
+    </li>
+  <?php endforeach ?>
+</ul>
+```

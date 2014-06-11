@@ -1,0 +1,9 @@
+User: namaless
+----
+Date: 2014-03-13 12:57:24
+----
+Text: @brandonlabbe You have tried to:
+```
+$items = $pages->find('blog')->children()->visible()->flip()->limit(10);
+```
+example to get latest 10 items from `blog` section.

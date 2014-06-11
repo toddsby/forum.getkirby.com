@@ -1,0 +1,5 @@
+User: jhaaren
+----
+Date: 2013-08-16 13:01:11
+----
+Text: Great plugin, thanks a lot. Will there also be support for radio buttons and such? Can't seem to get it working.

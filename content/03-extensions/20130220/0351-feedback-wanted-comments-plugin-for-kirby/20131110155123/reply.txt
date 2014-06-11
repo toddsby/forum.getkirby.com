@@ -1,0 +1,7 @@
+User: axelintu
+----
+Date: 2013-11-10 15:51:23
+----
+Text: Hey, awesome plugin.
+
+Is there a way to make this Work when JavaScript is disabled?

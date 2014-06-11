@@ -1,0 +1,7 @@
+User: dokdeleon
+----
+Date: 2013-06-02 19:21:52
+----
+Text: @roman_oroco, Not sure. It's client's server. Will try to have the server guys to work on this on Monday. Hope they could find a solution.
+
+Am using sublime as well, will try out your plugin. Thanks for the help! :D

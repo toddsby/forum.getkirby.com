@@ -1,0 +1,9 @@
+User: janlenaerts_be
+----
+Date: 2013-08-10 22:15:13
+----
+Text: I have written a how-to on my blog, how-to secure content. I also explain how you can exclude content from the sitemap. I have a modified sitemap template.
+
+(link:http://janlenaerts.me/notes/kirby-securing-content text: How-to secure content title: Jan Lenaerts, Kirby - How to secure content popup: yes)
+
+Happy reading.

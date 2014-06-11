@@ -1,0 +1,23 @@
+User: russbaldwin
+----
+Date: 2013-01-04 10:03:28
+----
+Text: I use Codekit and have put most of my files in the assets folders with sub folders for files, fonts, images (site ones e.g icons), js and styles. 
+
+Some files are linked from a central repository (a useful Codekit feature) but the rest of them are in these folders. I link to the Codekit compiled versions from my HTML template in Kirby. 
+For example:
+
+**Linking an icon:**
+
+	<link rel="shortcut icon" href="<?php echo url('assets/images/favicon.ico') ?>" type="image/x-icon" />   
+	<link rel="shortcut icon" href="<?php echo url('assets/images/favicon.png') ?>" type="image/png"/>
+
+**Linking a combined stylesheet created form Less in Codekit:**
+
+    <?php echo css('assets/styles/style.css') ?>
+
+**Linking to combined Javascript files created in Codekit:**
+
+     <?php echo js('assets/js/combined-scripts.min.js') ?>
+
+I have not 'versioned' these yet, as I was planning on using the [HTML5 Boilerplate 'cache busting' technique](https://github.com/h5bp/html5-boilerplate/blob/master/doc/htaccess.md) but just have not got around to it yet.

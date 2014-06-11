@@ -1,0 +1,15 @@
+User: jonabaptistella
+----
+Date: 2012-10-25 03:16:17
+----
+Text: I really have issues with this panel. How do I install it? 
+
+My servers (MAMP and hosting server) gives med 500 Server Error when I upload the panel files.
+
+I overwrought the files in the root. Right?
+
+The core CMS work fine on the servers. 
+
+What is it I miss or do wrong? 
+
+Thanks

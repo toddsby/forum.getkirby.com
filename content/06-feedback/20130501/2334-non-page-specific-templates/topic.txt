@@ -1,0 +1,9 @@
+Title: Non page specific templates?
+----
+Date: 2013-05-01 23:34:52
+----
+Solved: 0
+----
+User: tvaugh0n
+----
+Text: I see that I can create a page called foo and a template called foo, and another page called bar and a template called bar. But how do I create just one template like three-columns that could be applied to pages foo and bar? A symlink won't work because foo and bar will be created after three-columns is created. I know what templates I'll need, but I don't know what pages I'll need after that. Thanks.

@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2014-02-27 18:42:54
+----
+Text: I guess I don't understand what you're trying to accomplish. What do you mean by "modifying the initial $page object" and what do you think that will get you?

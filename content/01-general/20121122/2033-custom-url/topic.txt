@@ -1,0 +1,18 @@
+Title: Custom URL
+----
+Date: 2012-11-22 20:33:16
+----
+Solved: 0
+----
+User: tillpro
+----
+Text: Hi,
+
+I’d like to change the URL scheme from `/page/child` for child pages to `/child`
+
+Any ideas?
+
+Thank you!
+
+
+Till

@@ -1,0 +1,11 @@
+Title: 404 error when trying to edit a page
+----
+Date: 2014-02-20 17:41:15
+----
+Solved: 0
+----
+User: erinanacker
+----
+Text: When I click on a page in the panel, it gives me a 404 error because it's trying to find /panel/index.php/home rather than /panel/home. I'm not sure what's happening as I have the main site redirect set as true in my config file. 
+
+Thoughts?

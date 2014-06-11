@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2014-03-27 00:15:58
+----
+Text: If you've made the folder visible, it is possible to create a URL with a number in front. It appears that it just can't be the same number as the number that makes it visible.
+
+So for example a folder name of `06-06-audio` results in a URL slug of `audio` but a folder name of `06-12-audio` results in a URL slug of `12-audio`. At least in my brief testing.

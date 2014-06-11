@@ -1,0 +1,7 @@
+User: texnixe
+----
+Date: 2013-10-16 18:27:01
+----
+Text: Why not use a semantic grid system like [semantic.gs](http://semantic.gs) and use an appropriate markup in your snippets and templates? If need be, you can then even divide your content into several content files for the different sections or use several variables in the content files.
+
+Doing it that way you will not end up styling your content and can easily change it whenever you want without having to modify all the content files again.

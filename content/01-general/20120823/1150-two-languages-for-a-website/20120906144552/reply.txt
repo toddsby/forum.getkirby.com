@@ -1,0 +1,15 @@
+User: tues37
+----
+Date: 2012-09-06 14:45:52
+----
+Text: Hey there,
+another problem appeared, i’ve tested it before in another kirby installation and everything worked fine, but now:
+
+I can swtich from 
+"http://localhost:8888/bmp/de/geschichte" to 
+"http://localhost:8888/bmp/en/story" 
+easily, although the url is displayed as "http://localhost:8888/bmp/en/geschichte" but i can't switch back to the german version (the displayed url is "http://localhost:8888/bmp/en/geschichte").
+
+This is what I get: 
+Fatal error: Call to a member function url_key() on a non-object in /Applications/MAMP/htdocs/bmp/kirby/lib/site.php on line 134
+And I really have no idea and I didn’t find something about that in the tutorials and docs.

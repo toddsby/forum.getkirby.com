@@ -1,0 +1,32 @@
+User: arlamentis
+----
+Date: 2013-04-10 10:22:24
+----
+Text: Thx for the quick reply.
+
+I try to us $page->children()->children(), it works to get into the children of children and show the content of them with the title of each sub-subfolder that's perfect. But it doesn't take in count the subfolder1 title. I'd like to have something like this:
+```
+main folder > as a menu item
+  subfolder1 -> as a submenuitem1 * does not appear*
+       sub-subfolder1 -> as a title and beneath the images.  *work properly*
+          img1
+          img2
+          img3
+       sub-subfolder2 -> as a title and beneath the images. 
+          img1
+          img2
+          img3
+  subfolder2 -> as a submenuitem2
+       sub-subfolder1 -> as a title and beneath the images. 
+          img1
+          img2
+          img3
+       sub-subfolder2 -> as a title and beneath the images. 
+          img1
+          img2
+          img3
+```
+
+I hope there is an other trick around to handle such weird setting ?
+
+Thx again.

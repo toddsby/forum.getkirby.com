@@ -1,0 +1,15 @@
+User: texnixe
+----
+Date: 2013-09-05 19:11:47
+----
+Text: I agree with @fitzage, where would be the gain to use
+
+    <?php echo image('assets/images/file.png') ?> */does not exist!*/
+
+instead of
+
+    <img src="<?php echo url('assets/images/file.png')?>" />
+
+or even the absolute path?
+
+You could of course hack the helper.php and add the function image similar to the css and js functions, at least until the next update is due.

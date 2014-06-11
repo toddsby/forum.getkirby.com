@@ -1,0 +1,5 @@
+User: sashtown
+----
+Date: 2012-11-30 15:28:47
+----
+Text: Seems like you haven't set up the corresponding (link: http://getkirby.com/docs/panel/blueprints text: blueprints) yet. I'd suggest to check out those docs to learn more.

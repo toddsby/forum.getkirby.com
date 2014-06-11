@@ -1,0 +1,11 @@
+User: mattsandersuk
+----
+Date: 2012-11-06 13:26:13
+----
+Text: Thanks for all of your replies.
+
+@fitzage I completely agree, there are instances when people struggle to (or aren't willing to) use anything other than a pretty WYSISYG editor. In cases like this getting them to adopt markdown into their workflow won't be easy but at least with a preview pane they can see how their content will look and not have to visualise it.
+
+My primary concern with asking the user to use markdown/KirbyText is user error. In my opinion, asking someone that has no coding experience (or very little technical experience for that matter) to format content using markdown may open the door to a range of user errors that weren't there with a WYSISYG editor. Again with a preview pane users can spot and rectify these errors before they publish the content. With simple formatting buttons for bold/underlined text etc... this risk is minimised further.
+
+I think if the user is expected to do much more than that without having enough technical knowledge to be able to get to grips with markdown then KirbyCMS probably isn't the right option. Luckily as @bastianallgeier mentioned most of the strain of formatting the content can be taken away by structuring the content appropriately and correctly within the page templates.

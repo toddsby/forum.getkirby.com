@@ -1,0 +1,16 @@
+Title: How to remove 'index.php' from URL
+----
+Date: 2013-02-05 11:08:20
+----
+Solved: 1
+----
+User: toonvdstruijk
+----
+Text: Hi to you all,
+
+I recently uploaded a site to a webserver.
+But now I get this kind of URL's:
+domainname.com/index.php/projects/projectname
+
+I want to get rid of the 'index.php' part of it.
+How can I do that.

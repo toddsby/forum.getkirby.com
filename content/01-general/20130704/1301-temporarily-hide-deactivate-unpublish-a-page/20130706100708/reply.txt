@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-07-06 10:07:08
+----
+Text: I still think it would be best to make unpublished invisible and make your published items visible. Then add a menu post boolean to show or not show in the menu (as well as the invisible thing).
+
+Simplest is if you don't want to publish it - don't put it on your web server, not sure why you want to publish/unpublish and what you mean by that?

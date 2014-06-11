@@ -1,0 +1,9 @@
+User: symonium
+----
+Date: 2012-09-03 09:07:52
+----
+Text: And where do I need to put these lines ?
+(as well as :
+
+$monthName = 'September';
+print substr(strtolower($monthName), 0, 4).'.';)

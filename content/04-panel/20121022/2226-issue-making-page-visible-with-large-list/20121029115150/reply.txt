@@ -1,0 +1,18 @@
+User: bastianallgeier
+----
+Date: 2012-10-29 11:51:50
+----
+Text: It's really a problem to use the panel with so many articles. I'm thinking about offering an entirely new view for sections with so many subfolders – maybe with a table for articles instead. But for now the hint by @roman_oroco is definitely the way to go. The syntax is just wrong: 
+
+````
+# blueprint
+
+title: Blog
+pages:
+  sort: flip
+  limit: 10
+fields:
+
+...
+
+````

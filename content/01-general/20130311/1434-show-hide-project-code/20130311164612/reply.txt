@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-03-11 16:46:12
+----
+Text: Thinking on it, I'd only have one combined list and maybe do the show/hide with CSS3 and a Javascript fallback for IE8 and less?

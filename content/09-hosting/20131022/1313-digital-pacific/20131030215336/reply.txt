@@ -1,0 +1,50 @@
+User: thomasgreenau
+----
+Date: 2013-10-30 21:53:36
+----
+Text: Tech support at Digital Pacific tried a clean install which had the same problem, so I'm guessing it's not as simple as a config or .htaccess. PHP version is also adequate. Full email from the hosting support below.
+
+***
+
+Hi Thomas,
+
+Sorry for the delay in getting back to you. I was going through the support forums to check whether there are any known issues with Kirby CMS.
+
+I set up a free trial version of Kirby in a test directory and noticed that the same error is encountered while accessing the site :
+
+=========
+
+thomasgr@thomasgreen.com.au [~/public_html/dptest]# php index.php
+PHP Fatal error: Cannot redeclare get() in /home/thomasgr/public_html/dptest/kirby/lib/kirby.php on line 2337
+Status: 500 Internal Server Error
+X-Powered-By: PHP/5.3.27
+Content-type: text/html
+
+=========
+
+I checked and confirmed that the issue is not due to the server configuration. The server meets all the requirements for the Kirby installation (As mentioned in their website http://getkirby.com/hosting). The PHP version on the server is 5.3.27.
+
+The issue appears to be with the function declaration in " /home/thomasgr/public_html/dptest/kirby/lib/kirby.php". I read in Kirby support forums that the MySQL database support is not required for Kirby CMS. However, when I checked the file " /home/thomasgr/public_html/kirby/kirby/lib/kirby.php", I noticed a database connection definition section :
+
+========
+
+static function connect() {
+
+$connection = self::connection();
+$args = func_get_args();
+$host = a::get($args, 0, c::get('db.host', 'localhost'));
+$user = a::get($args, 1, c::get('db.user', 'root'));
+$password = a::get($args, 2, c::get('db.password'));
+$database = a::get($args, 3, c::get('db.name'));
+
+======
+
+The error occurs when the function "get()" is declared more than once in a file. Unfortunately, the issue is out side of our support boundaries. Please consult with a developer or contact Kirby developers (http://getkirby.com/contact) so as to fix the issue. 
+
+You can check the PHP configuration for the domain via the URL : http://thomasgreen.com.au/kirby/phpinfo.php
+
+Note :
+Fixing the coding issues with the customer website is outside of our support boundaries as defined in https://digitalpacific.com.au/esupport/index.php?/Knowledgebase/Article/View/414/0/sharedreseller-hosting-support-boundaries
+
+Regards,
+Digital Pacific

@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2012-12-13 23:38:08
+----
+Text: Personally, I would just use Disqus. Handles all the comments for you, and allows logging in with a Disqus, Facebook, or Twitter account. Also gives you moderation capabilities and spam filtering options.

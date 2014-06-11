@@ -1,0 +1,9 @@
+User: russbaldwin
+----
+Date: 2013-07-11 09:55:09
+----
+Text: I'm using the [Thumbnail plugin on a few sites](http://www.andreainsworth.com). Yes there can be problems with PHP and GD versions, what versions do you have?
+
+If they need fixing and you cannot fix them try and get your ISP todo it. Otherwise manually creating them client side is an option or make/use some other code. Problem is the 'other' code will probably rely on GD or alternatives anyway.
+
+Not sure why PNG for thumbs, try jpg if possible?

@@ -1,0 +1,15 @@
+Title: Fixed Panel Menu
+----
+Date: 2012-12-22 02:14:04
+----
+Solved: 0
+----
+User: tysongach
+----
+Text: I made a slight tweak to the Kirby Panel by making the left sidebar menu (desktop view) fixed position so it's always viewable on long pages with a lot of fields.
+
+Here's a side-by-side view (newly fixed on the left): <http://cl.ly/LkRb>
+
+Change line 171 from `position: absolute` to `position: fixed` in the file `screen.css` under `panel > assets > css`.
+
+Maybe this could be useful for everyone and make its way into the next release.

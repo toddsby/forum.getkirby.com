@@ -1,0 +1,7 @@
+User: jaypegams
+----
+Date: 2013-03-23 20:14:55
+----
+Text: Yeah it's pretty clean but uses a database and is quit buggy ! 
+
+I like how the twitter is used to be able to post / comment with the kirby forum and would really like to see a version of this come out even if it's buggy ;)

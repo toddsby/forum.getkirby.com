@@ -1,0 +1,11 @@
+User: conefreykoedam
+----
+Date: 2013-12-06 09:55:15
+----
+Text: One of those silly things that can keep you busy for a long time …
+
+Bastian says: "You must only use the following characters for usernames: a-z0-9_-"
+
+So spaces or caps are not allowed, like I was trying to use ;-)
+
+The tricky thing is that there is no feedback after hitting submit, which will leave you with no clue what is going on. So some validation or feedback would be very helpful.

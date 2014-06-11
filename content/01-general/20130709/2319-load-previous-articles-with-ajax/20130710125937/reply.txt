@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-07-10 12:59:37
+----
+Text: Intercept the link call with Javascript, write some JS/PHP to fetch the new stuff and some CSS to make it all lovely ;-)
+
+Seriously there are quite a few JS libaries for this.

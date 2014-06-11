@@ -1,0 +1,38 @@
+Title: Using Disqus with relative URLs
+----
+Date: 2012-12-22 01:16:53
+----
+Solved: 0
+----
+User: zslabs
+----
+Text: If you attempt to use the Disqus plugin when you have relative URLs set:
+
+    c::set('url', '/');
+
+You'll get error similar to:
+
+> We were unable to load Disqus. If you are a moderator please see our [troubleshooting guide](http://docs.disqus.com/help/83/).
+
+The reason is because Disqus is looking for absolute URLs to pass to their system -- and the defaults that Kirby will use will be the relative paths (due to the site config).
+
+So - a fix for this would be to add a new site variable in `/content/site.md`, something like the following:
+
+    Full URL: http://yourdomain.com
+
+Then, inside of your template files, you can call the Disqus snippet like so:
+
+	// disqus
+	// need to specify 'disqus_identifier' and 'disqus_url' because we're using relative URLs
+	snippet('disqus', array(
+		'disqus_shortname'  => 'YOUR-SHORTNAME',
+		'disqus_developer'  => true,
+		'disqus_identifier' => $site->full_url . thisURL(),
+		'disqus_url'        => $site->full_url . '/' . $page->uri()
+	))
+
+There's obviously a bit of responsibility on your part to make sure the `full_url` var is up to date... but you already knew that ;)
+
+Also - MAMP Pro is your friend here -- I just set up a new virtual host to point to my `Sites/` folder and I'm golden.
+
+First Kirby project and loving it so far. Thanks all!

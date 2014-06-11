@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-10-01 10:22:29
+----
+Text: Maybe the art here is not to go changing the source and perhaps not to have thousands of templates but a few templates that are more modular and utilise various conditional snippets? Just a thought.

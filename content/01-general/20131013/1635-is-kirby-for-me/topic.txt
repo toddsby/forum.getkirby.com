@@ -1,0 +1,19 @@
+Title: Is Kirby for me?
+----
+Date: 2013-10-13 16:35:55
+----
+Solved: 1
+----
+User: artsydesigny
+----
+Text: Hello,
+
+I'm a graphic designer. I used to build websites a few years ago (until 5 years ago) and had an OK understanding of HTML and CSS. Since wordpress took over i've done the building less and less as wordpress got more and more complicated. I've been thinking of getting back into it and having Kirby be my CMS system to base it on. I love the simplicity of kirby and seeming ease of use. I'm looking to replace my current website with a new very simple and clean new look that I know Kirby can offer.
+
+My questions are…
+1) Is kirby for my with my current skills? (Obviously I know there will be a learning curve and I will need to learn some new skills)
+2) Will I be able to switch over content from my wordpress blog?
+
+Thanks for your help, looking forward to some replies.
+
+Rob

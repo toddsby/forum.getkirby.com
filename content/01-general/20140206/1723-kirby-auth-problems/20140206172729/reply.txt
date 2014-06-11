@@ -1,0 +1,6 @@
+User: kamptweets
+----
+Date: 2014-02-06 17:27:29
+----
+Text: this is my kirby.extended.php file: 
+https://www.dropbox.com/s/qu7d1d1vreg348q/kirby.extended.php

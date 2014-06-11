@@ -1,0 +1,7 @@
+User: bastianallgeier
+----
+Date: 2012-11-26 17:24:48
+----
+Text: If you still got problems with the Tweets plugin you should have a look at chirp.js: <http://lab.rog.ie/chirp/>
+
+It's a client-side javascript plugin, which is very handy and easy to install and I must confess that I prefer it over the server-side Tweets plugin.

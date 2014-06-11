@@ -1,0 +1,16 @@
+Title: Responsive CSS framework for you, and I'm looking for a simple CSS typography framework
+----
+Date: 2013-04-21 21:37:25
+----
+Solved: 0
+----
+User: zavadesign
+----
+Text: Hey folks,
+
+Thought this might be of use to someone, I created a nice, simple, clean CSS framework that you should be able to easily incorporate into a theme: https://github.com/deeve007/responsive-grid-system
+
+And perhaps someone here knows of a very clean, simple CSS typography framework that I might be able to use as a starting point for projects? The ones I've found seem to be overly complex, I'd rather start from a simple "base" with a few core styles, and add the more complex ones where a project needs it. I know it might be better creating something myself eventually but thought I'd ask to see if anyone had something.
+
+Cheers,
+Dave

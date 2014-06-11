@@ -1,0 +1,12 @@
+User: syropian
+----
+Date: 2013-12-02 02:53:05
+----
+Text: In your virtual host config file (should be located in `/etc/apache2/sites-available`), make sure you have something like this in your root.
+
+    <Directory /home/root/>
+      Options Indexes FollowSymLinks MultiViews
+      AllowOverride All
+    </Directory>
+
+When you change it, be sure to restart Apache with `service apache2 restart`.

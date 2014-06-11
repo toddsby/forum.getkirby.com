@@ -1,0 +1,10 @@
+Title: Go() redirects SE safe?
+----
+Date: 2013-01-23 09:46:13
+----
+Solved: 0
+----
+User: asbiot
+----
+Text: Hi,
+can anyone put my mind to rest about the go() redirect? I am currently using it to jump directly from a top level menu-item onto a sub-level child-page, and I am wondering whether I should not better use an htaccess redirect to make it more search-engine transparent. Anyone know more about this?

@@ -1,0 +1,19 @@
+Title: Runtime template change?
+----
+Date: 2013-03-18 04:50:54
+----
+Solved: 0
+----
+User: cedwardsmedia
+----
+Text: I'm building an "offline" page for my site that will be displayed when I'm doing lots of behind the scenes work.
+
+The problem I'm having is that I'm using a custom template for this page. In my header snippet, I have some php that checks different variables to determine the status of the site. Long story short, when it decides the site is offline, I want it to load the specific template instead of the one Kirby would usually use.
+
+##For example:
+I have a blog post that uses blog.php template.
+The blog.php template, like all other parts of my site, invoke the header snippet, where the above logic is performed.
+
+If the php code decides the site is offline, I'd like to force Kirby to use offline.php template for the blog post, despite the existence of blog.php template.
+
+Is this possible? I'd prefer to keep this magic centralized to Kirby itself. Worst case, I can always do it at the server level with NGINX.

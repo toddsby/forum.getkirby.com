@@ -1,0 +1,7 @@
+User: TyKisha
+----
+Date: 2013-01-14 18:35:29
+----
+Text: Thanks for the reply Russ. I looked into that. The only operators for the filterBy method are "==", "!=" & "*=" which wouldn't work since what I need would be >= todays date.
+
+It think it might be plugin time.

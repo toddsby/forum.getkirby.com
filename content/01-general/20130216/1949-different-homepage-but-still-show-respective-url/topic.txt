@@ -1,0 +1,17 @@
+Title: Different homepage but still show respective URL
+----
+Date: 2013-02-16 19:49:48
+----
+Solved: 1
+----
+User: rappold
+----
+Text: I'm building a portfolio for a designer friend of mine. Therefore I defined the "work" page as homepage in config.php like so:
+
+	c::set('home', 'work');
+
+Now, when I visit the site, it won't append the "/work" to the URL.
+
+You can see a live example of what I'm trying to achieve by visiting (link: http://frankchimero.com/ text: **frankchimero.com**). Do you notice how the URL instantly changes to (link: http://frankchimero.com/work/ text: **http://frankchimero.com/work/**)?
+
+Is there any way to replicate this behaviour with Kirby?

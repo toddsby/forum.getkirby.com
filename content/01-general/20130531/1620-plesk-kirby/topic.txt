@@ -1,0 +1,11 @@
+Title: Plesk + Kirby
+----
+Date: 2013-05-31 16:20:37
+----
+Solved: 1
+----
+User: dokdeleon
+----
+Text: Has anyone successfully installed kirby on a Plesk server? I'm really a Cpanel guy and have little to no experience on Plesk. I can't make permission settings correctly on content and thumbs folders to 0755 (also files inside content to 0666). Actually, it's already that way on my ftp client and on Plesk's online file manager, but i still can't sort/add content and the message to "fix permissions first" is still on the panel's home page. Honestly I don't even know if this is a server issue. Help? :D
+
+Thanks in advance :D

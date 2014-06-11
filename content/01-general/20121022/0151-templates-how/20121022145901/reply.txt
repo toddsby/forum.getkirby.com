@@ -1,0 +1,5 @@
+User: h2only
+----
+Date: 2012-10-22 14:59:01
+----
+Text: From the above URL:  "Download and install the Kirby knowledge-base"... where?  I've tried installing in the templates folder, and replacing existing... and it doesn't seem to quite get there.

@@ -1,0 +1,11 @@
+User: BeMobileFirst
+----
+Date: 2014-03-31 11:26:34
+----
+Text: Hello,
+
+To implement Foundation in Kirby, I have created as many snippets that I have components.
+
+For instance header.php, footer.php...
+
+In the header, you will have for instance the link to the foundation CSS.

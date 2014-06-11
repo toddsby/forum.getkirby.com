@@ -1,0 +1,7 @@
+User: joachimesque
+----
+Date: 2013-02-02 10:43:01
+----
+Text: thank you :)
+
+I was trying to avoid making too many PHP manipulation, but I'll use that…

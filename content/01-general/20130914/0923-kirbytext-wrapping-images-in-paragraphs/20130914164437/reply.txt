@@ -1,0 +1,5 @@
+User: texnixe
+----
+Date: 2013-09-14 16:44:37
+----
+Text: unfortunately, this doesn't seem to be possible without changing the  the core markdown.php file --> (link: http://getkirby.com/forum/issue-tracker/topic:16)

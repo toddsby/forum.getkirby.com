@@ -1,0 +1,25 @@
+Title: Internal File Redirects
+----
+Date: 2012-09-29 13:32:35
+----
+Solved: 1
+----
+User: roman_oroco
+----
+Text: Recently I got some strange redirect for any file assigned to the page:
+
+```
+http://demo.site.com/WjRQO/assets/js/scripts.js
+redirects to:
+http://demo.site.com/assets/js/scripts.js
+
+http://demo.site.com/WjRQO/assets/images/image.jpg
+redirects to:
+http://demo.site.com/assets/images/image.jpg
+
+etc.
+```
+
+Also the "**WjRQO**" is change after some period to a different text like: YmOWQ etc.
+
+P.S. Yes I have the latest version of Kirby and Panel.

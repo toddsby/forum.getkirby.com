@@ -1,0 +1,8 @@
+User: vis7mac
+----
+Date: 2013-04-12 09:35:07
+----
+Text: Nope, it's actually the new version - but it's not finished yet.
+Of course, everything stay open source, but please note that it's not working in the moment.
+
+Development takes time, right? :)

@@ -1,0 +1,15 @@
+User: staroversky
+----
+Date: 2013-04-26 14:19:43
+----
+Text: When I use just the nestdemenu, everything is duplicated 
+
+default.php - <http://cl.ly/code/0K0W2L1e2t08>
+
+nestedmenu.php snippet - <http://cl.ly/code/1R3P240d3v3E>
+
+My folder structure - <http://cl.ly/image/2l3d163R3Q0Y>
+
+Result - <http://cl.ly/image/1D2Y2N3U3i3M>
+
+I am stil learning things, and from what I see I can either make it show or not show sub-menus, but how can I make it drop-down upon hovering the mouse over the menu with sub-menus?

@@ -1,0 +1,16 @@
+Title: I search a web site producer
+----
+Date: 2014-01-28 21:29:48
+----
+Solved: 0
+----
+User: fblome
+----
+Text: Hi,
+
+the website http://projectwizards.net should get a revamp. A new design is ready, now we do need someone who creates the new (kirby) backend and the CSS. At the end it should be a responsive design with focus on Mac and iOS devices.
+
+Please send me a direct message on twitter if you're interested.
+
+Thanks,
+Frank

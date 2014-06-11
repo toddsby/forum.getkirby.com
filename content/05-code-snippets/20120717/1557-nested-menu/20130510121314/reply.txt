@@ -1,0 +1,9 @@
+User: hagatorn
+----
+Date: 2013-05-10 12:13:14
+----
+Text: I have a similar issue I think.  Have half a solution posted on 
+
+<http://stackoverflow.com/questions/16479545/bootstrap-accordion-for-nested-navigation-tree-in-kirby>
+
+When I get it working with a plug-in I'll offer as a snippet.

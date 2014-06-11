@@ -1,0 +1,19 @@
+User: yvesluther
+----
+Date: 2014-03-03 13:05:17
+----
+Text: Strange behavior in my case:
+
+A
+
+    setlocale(LC_TIME, 'de_DE.utf8');
+
+as the last line in config.php doesn't seem to survive until used again within a template. E.g. there I need to do a
+
+    <?php setlocale(LC_TIME, 'de_DE.utf8'); echo strftime('%e. %B %Y', $article->date()) ?>
+
+again. Otherwise I will get an ISO-8859-1 encoded date within a completely UTF-8 encoded system. Resulting in
+
+    3. M�rz 2014
+
+Any ideas? THX in advance.

@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2012-08-27 17:45:53
+----
+Text: Put this in a plugin and used it when constructing my lists of tags and categories on each post, and it worked perfectly. Although I had to correct params() to param().

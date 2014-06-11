@@ -1,0 +1,11 @@
+User: bastianallgeier
+----
+Date: 2012-06-01 16:12:44
+----
+Text: Ah, damn! You are right :) It should be without the html() function. 
+
+```php
+<?php echo $tweet->text(true) ?>
+```
+
+That definitely needs to go into the plugin docs.

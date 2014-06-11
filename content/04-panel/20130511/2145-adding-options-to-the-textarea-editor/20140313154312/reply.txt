@@ -1,0 +1,9 @@
+User: namaless
+----
+Date: 2014-03-13 15:43:12
+----
+Text: Very old topic but I'm working on KirbyPanel today and my clients need more simple editor, I thinking to Ghost Editor and I have integrated inside KirbyPanel, this is a simple and fast result: (link: https://www.dropbox.com/s/2pu00dg4nxara8z/dual-textarea-kirbypanel.png)
+
+Anyone tried other solutions?
+
+I have tried to use a Kirby buttons but get javascript error, I thinking this is removed because need more time to complete.

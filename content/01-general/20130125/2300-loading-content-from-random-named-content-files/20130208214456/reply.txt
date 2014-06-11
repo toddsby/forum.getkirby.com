@@ -1,0 +1,6 @@
+User: ralphbert
+----
+Date: 2013-02-08 21:44:56
+----
+Text: I just want to load the content from this text files and display them on my website.
+So the snippet approach seems suitable for me but how do I read this files in the "kirby"-way?

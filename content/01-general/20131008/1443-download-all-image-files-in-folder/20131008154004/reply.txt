@@ -1,0 +1,8 @@
+User: JanStieler
+----
+Date: 2013-10-08 15:40:04
+----
+Text: Hi,
+maybe this could help: http://stackoverflow.com/questions/1048805/compressing-a-directory-of-files-with-php
+
+Greets

@@ -1,0 +1,18 @@
+Title: Configuring clean URLs
+----
+Date: 2014-05-14 20:00:50
+----
+Solved: 0
+----
+User: theoinkk
+----
+Text: Hey,
+
+I have tried all the tricks in the book (enabling RewriteEngine, changing RewriteBase in .htaccess and setting rewrite to true in the config) but I am yet to get clean URLs working in Kirby.
+
+Here's the site: http://jackg.co.uk which is still using the default template.
+
+What other things can I do? I am running a virtual server on DigitalOcean. This is the first time I have had issues with Kirby.
+
+Best,
+Jack

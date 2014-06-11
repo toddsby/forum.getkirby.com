@@ -1,0 +1,25 @@
+Title: RSS Plugin error in different PHP versions
+----
+Date: 2014-04-14 07:58:59
+----
+Solved: 1
+----
+User: private_storm
+----
+Text: Hi,
+I've got the following error when changing to different PHP versions in MAMP:
+
+Version 5.3.28 anything is fine...
+
+Version 5.4.26
+I've got the following when clicking on the RSS link (no big deal though): 
+
+Allowed memory size of 262144 bytes exhausted (tried to allocate 3072 bytes) in /Applications/MAMP/htdocs/test
+
+The biggest Problem is Version 5.5.10
+Deprecated: preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /Applications/MAMP/htdocs/test/kirby/lib/kirby.php on line 2597
+ http://localhost/test/blog Kirby Mon, 14 Apr 2014 05:51:40 +0000
+
+Well, I'm not a PHP pro, just guessing that a function which is used should be replaced with a newer one?
+
+Nevermind, found the answer in the comment section...

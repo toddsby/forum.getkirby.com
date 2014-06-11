@@ -1,0 +1,18 @@
+Title: All links "The page has not been found" error comes
+----
+Date: 2013-02-20 22:06:51
+----
+Solved: 1
+----
+User: kukac7
+----
+Text: hi,
+
+i installed on my hosting kirby and the panel.
+did not have to set anything in the .htaccess file, kirby worked well.
+the panel works, but either click on the link, "The page has not been found" error page thrown.
+content folder: chmod 755.
+
+what could be the problem?
+
+thanks for your help!

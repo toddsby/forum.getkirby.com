@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-11-13 13:02:24
+----
+Text: It would need quite some work to get the registration, payment and access stuff right. It's doable, but not too easy and straight forward.

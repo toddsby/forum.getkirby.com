@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2012-06-04 20:42:44
+----
+Text: Really pushing to get my company's next site built in Kirby. Hoping I get to build it myself, but they'll probably have someone else do it.

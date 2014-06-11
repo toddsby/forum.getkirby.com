@@ -1,0 +1,5 @@
+User: timgauthier
+----
+Date: 2013-09-02 11:00:59
+----
+Text: could you share the snippet for the template of that file page? I am not fully understanding how you showed the untranslated content to the viewer.

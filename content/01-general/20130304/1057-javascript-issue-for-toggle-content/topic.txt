@@ -1,0 +1,58 @@
+Title: Javascript issue for toggle content
+----
+Date: 2013-03-04 10:57:55
+----
+Solved: 0
+----
+User: guillaumelobet
+----
+Text: I am trying to use the toggle code I found here: http://jsfiddle.net/wGbh5/. It seemed pretty straight forward and doing exactly what I want.
+
+So I had the following code in my **style.css** file:
+
+
+`.clickme {
+background-color: #eee;
+border-radius: 4px;
+color: #666;
+display: block;
+margin-bottom: 5px;
+padding: 5px 10px;
+text-decoration: none;}
+
+.clickme:hover {
+    text-decoration: underline;
+}`
+
+
+Then I created a **toggle.js** file containing this code:
+
+`$('.box').hide();
+$('.clickme').each(function() {
+    $(this).show(0).on('click', function(e) {
+        e.preventDefault();
+        $(this).next('.box').slideToggle('fast');
+    });
+});`
+
+and I called both file in my html using, in the **header.php** file, using the lines
+
+`<?php echo css('assets/styles/styles.css') ?>
+<?php echo js('assets/js/toggle.js') ?>`
+
+As you can see in the link, I am working locally using MAMP.
+
+In the HTML file, the code looks like this:
+
+`<a href="#" class="clickme">Click Me</a>
+<div class="box">
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+    when an unknown printer took a galley of type and scrambled it to make a type
+</div>`
+
+The problem is, when I load the html file in my browser, it does not work (I would be here if it worked right?). Both the "clickme" and the "box" content are displayed and nothing appends when I click them.
+
+Can anyone help me with my problem?
+
+Thanks a lot in advance

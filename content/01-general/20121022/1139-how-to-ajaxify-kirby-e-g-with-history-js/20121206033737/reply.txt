@@ -1,0 +1,7 @@
+User: chrisburton
+----
+Date: 2012-12-06 03:37:37
+----
+Text: @lunelson
+
+Hey. I checked out your plugin but I'm a little confused on how to implement it for my content only. Could you possible spare some time to write a short tutorial (for us designer folks)?

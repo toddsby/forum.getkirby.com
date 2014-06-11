@@ -1,0 +1,7 @@
+User: Stibie
+----
+Date: 2014-04-09 16:42:59
+----
+Text: Also, please disable that Kirby-Markup is rendered inside code-blocks - I freaked out while editing on and on :)
+
+Otherwise - great product!

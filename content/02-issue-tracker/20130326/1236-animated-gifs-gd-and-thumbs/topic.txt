@@ -1,0 +1,11 @@
+Title: Animated Gifs, GD and thumbs() ?
+----
+Date: 2013-03-26 12:36:37
+----
+Solved: 0
+----
+User: joachimesque
+----
+Text: I'm bad at PHP. I'd like to be able to make animated thumbnails of animated gifs, which is currently not possible…
+
+I found this library : <http://forssto.com/gifexample/>, but I can't begin to understand how to integrate it in the thumbs plugin. Could someone help me with that ?

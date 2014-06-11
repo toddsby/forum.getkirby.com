@@ -1,0 +1,15 @@
+Title: error using mail/contact form plugin with Mailgun
+----
+Date: 2014-03-31 15:02:12
+----
+Solved: 0
+----
+User: eugenebicyclist
+----
+Text: I'm using the contact form plugin. It works with the default mail() function, but with the Mailgun service, I get:
+
+curl_setopt_array(): CURLOPT_FOLLOWLOCATION cannot be activated when safe_mode is enabled or an open_basedir is set ...
+
+I'm new to Mailgun and I supsect this is a problem with how I've set things up there, or the settings on my server.
+
+Just wondering if anyone has run into this.

@@ -1,0 +1,9 @@
+Title: Web.config file instead of htaccess
+----
+Date: 2013-01-24 20:28:30
+----
+Solved: 1
+----
+User: theoriginalivor
+----
+Text: Has any one got or can any one create a web.config for kirby with the rewrites in place. My hosting provider is .net based and dont support .htaccess files.

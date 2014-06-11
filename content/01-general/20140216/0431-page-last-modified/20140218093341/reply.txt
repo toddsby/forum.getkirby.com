@@ -1,0 +1,13 @@
+User: fridgewanch
+----
+Date: 2014-02-18 09:33:41
+----
+Text: Thanks! Can't get it to work though.
+
+Trying this out locally.
+
+    <?php echo date('c', filemtime('http://localhost:8888/test/content/04-blog/blog-post-5/blogarticle.txt'));  ?>
+
+Returns error:
+
+Warning: filemtime() [function.filemtime]: stat failed for http://localhost:8888/test/content/04-blog/blog-post-5/blogarticle.txt in ... 1970-01-01T00:00:00+00:00 php

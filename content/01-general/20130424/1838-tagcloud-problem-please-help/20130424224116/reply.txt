@@ -1,0 +1,9 @@
+User: tysongach
+----
+Date: 2013-04-24 22:41:16
+----
+Text: Now you have two opening `ul` elements in your HTML (default.php file). In the GitHub Gist I sent, the red highlighted line is what I *removed or changed* and the green highlighted line is what it was changed to.
+
+Remove line 7, keep line 8.
+
+Everyone has to start somewhere and I was once in the same position as you, but this is *very* basic HTML knowledge. I would suggest learning HTML and CSS before diving into Kirby.

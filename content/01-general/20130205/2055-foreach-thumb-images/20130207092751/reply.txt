@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2013-02-07 09:27:51
+----
+Text: please switch on debugging and have a look at possible PHP errors.

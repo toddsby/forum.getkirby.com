@@ -1,0 +1,15 @@
+User: sammularczyk
+----
+Date: 2014-01-15 22:58:46
+----
+Text: Yep, your blueprint needs to allow pages if it doesn't already.
+
+Each blueprint should begin with:
+
+    title: Blueprint title
+    pages: true
+    files: true
+
+You can enable/disable both subpages and file uploads for a blueprint by setting their respective values to true/false.
+
+You should then be able to create a new subpage by clicking [this button.](http://d.pr/i/bnzA)

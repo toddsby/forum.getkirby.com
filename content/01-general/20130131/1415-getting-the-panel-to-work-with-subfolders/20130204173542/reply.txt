@@ -1,0 +1,22 @@
+User: bastianallgeier
+----
+Date: 2013-02-04 17:35:42
+----
+Text: Sorry for the hassle but you completely went the wrong way. 
+If you want to set the subfolder in your config it should look like this: 
+
+```
+c::set('subfolder', 'atest');
+```
+
+But normally just leave that with "false" and adjust the RewriteBase like this: 
+
+```
+
+RewriteBase /atest
+
+```
+
+Make sure to just use Kirby's htaccess and not an additional file. 
+
+I hope this helps.

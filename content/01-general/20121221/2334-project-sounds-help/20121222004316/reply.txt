@@ -1,0 +1,15 @@
+User: lulezi
+----
+Date: 2012-12-22 00:43:16
+----
+Text: Hi
+
+`$project->sounds()` actually returns an array, which is being "parsed" as links. To get a sound's path, you could do this:
+
+```php
+foreach($project->sounds() as $sound) {
+  $path = $sound->url();
+}
+```
+
+Cheers

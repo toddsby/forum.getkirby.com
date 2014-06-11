@@ -1,0 +1,14 @@
+User: fitzage
+----
+Date: 2012-11-28 14:58:34
+----
+Text: Absolutely.
+
+    <img src="<?php echo $page->images()->find('filename.png')->url(); ?>" alt="-" id="full-bg" />
+
+And if you really want to put something useful in that alt tag, include a text file of filename.png.txt with a Title: field and do something like this.
+
+    <?php $background = $page->images()->find('filename.png'); ?>
+    <img src="<?php echo $background->url(); ?>" alt="<?php echo $background->title(); ?>" id="full-bg" />
+
+You can of course include a conditional with a default that triggers if a file of that name doesn't exist. I use this method to check for header images on pages, and if one doesn't exist I just leave it out.

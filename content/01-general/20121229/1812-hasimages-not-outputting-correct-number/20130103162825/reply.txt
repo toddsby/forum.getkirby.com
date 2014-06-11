@@ -1,0 +1,5 @@
+User: chrisburton
+----
+Date: 2013-01-03 16:28:25
+----
+Text: Thanks guys. Basically what I was doing was trying to determine how many images a post had. If it had less than 2, don't echo a certain piece of text.

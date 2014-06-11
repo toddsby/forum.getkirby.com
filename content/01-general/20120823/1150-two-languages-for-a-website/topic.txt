@@ -1,0 +1,13 @@
+Title: Two languages for a website
+----
+Date: 2012-08-23 11:50:36
+----
+Solved: 0
+----
+User: tues37
+----
+Text: Hello,
+
+I’m looking for a good and easy way to switch between two languages in kirby. Is there any good tutorial, because I have no idea how to handle that.
+
+Thanks for the help.

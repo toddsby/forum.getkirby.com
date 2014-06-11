@@ -1,0 +1,9 @@
+Title: storing files outside of directory
+----
+Date: 2013-03-23 02:35:50
+----
+Solved: 0
+----
+User: iheartwordpress
+----
+Text: anyway we can store certain extensions, say .zip files not in the page name directory? say /zips/ like it does with /thumbs/ ?

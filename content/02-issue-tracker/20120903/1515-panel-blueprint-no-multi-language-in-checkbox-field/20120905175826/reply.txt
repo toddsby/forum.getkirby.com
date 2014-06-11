@@ -1,0 +1,6 @@
+User: bastianallgeier
+----
+Date: 2012-09-05 17:58:26
+----
+Text: It's fixed in the latest dev version: 
+<https://github.com/bastianallgeier/kirbycms-panel/tree/dev>

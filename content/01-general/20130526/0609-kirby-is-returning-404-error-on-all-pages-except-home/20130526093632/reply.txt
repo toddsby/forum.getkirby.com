@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-05-26 09:36:32
+----
+Text: Anything in your server logs?
+This does sound like .htaccess / routing problems. Perhaps you could list some here?
+What is in your config.php for routing? Do you have a separate one for staging server?

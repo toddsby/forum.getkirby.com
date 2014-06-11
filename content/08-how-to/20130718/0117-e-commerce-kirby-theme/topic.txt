@@ -1,0 +1,22 @@
+Title: E-commerce Kirby Theme
+----
+Date: 2013-07-18 01:17:43
+----
+Solved: 0
+----
+User: chrisjmartin87
+----
+Text: Simple E commerce theme for Kirby.
+
+Will be available for download possibly this weekend, just need to add a few finishing touches to it.
+
+Theme URL - http://theme.minml.co
+Responsinator URL - http://www.responsinator.com/?url=theme.minml.co
+
+Created using a custom CSS grid and using a PHP array for the cart.
+Payments through Paypal.
+The Theme is responsive down to mobile, Slide out mobile navigation for mobile devices.
+
+Any feedback would be great.
+
+Cheers

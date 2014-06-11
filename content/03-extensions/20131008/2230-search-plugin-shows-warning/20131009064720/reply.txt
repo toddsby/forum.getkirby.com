@@ -1,0 +1,72 @@
+User: rizkysyazuli
+----
+Date: 2013-10-09 06:47:20
+----
+Text: Sorry about that. See below. The code is very basic. I followed the tutorial step-by-step.
+
+Here's the website:
+http://coffesso.co/search/?q=coffee
+
+Here's the main code:
+
+    <!-- start: search result -->
+    <section class="search-result">
+        <?
+        $search = new search(array(
+            'searchfield' => 'q',
+            'fields' => array('title', 'text'),
+            'ignore' => array('search', 'error', 'home', 'contact'),
+            'paginate' => 10
+        ));
+        $results = $search->results();
+        ?>
+
+        <? if ($results): ?>
+
+        <? snippet('search-pagination', array('pagination' => $results->pagination())); ?>
+
+        <ul>
+            <? foreach ($results as $result): ?>
+            <li>
+                <? if ($result->id() == 'glossary') : ?>
+                <h3><a href="<?= url('experience/coffee-glossary/#index-' . $result->title()) ?>"><?= $result->title(); ?></a></h3>
+                <? else: ?>
+                <h3><a href="<?= $result->url() ?>"><?= $result->title(); ?></a></h3>
+                <? endif; ?>
+                <p class="search-desc"><?= excerpt($result->text(), 250); ?></p>
+                <p class="search-url"><a href="<?= $result->url() ?>"><?= $result->url(); ?></a></p>
+            </li>
+            <? endforeach; ?>
+        </ul>
+
+        <? snippet('search-pagination', array('pagination' => $results->pagination())); ?>
+
+        <? elseif ($search->query()): ?>
+
+        <div class="no-results">No results for <strong><?= html($search->query()); ?></strong></div>
+
+        <? endif; ?>
+
+    </section>
+    <!-- end: search result -->
+
+Here's the paging snippet code:
+
+    <nav role="pagination" class="search-pagination">
+        <div class="search-count left">
+            <strong><?php echo $pagination->countItems() ?></strong> Results / showing <strong><?php echo $pagination->numStart() ?></strong> - <strong><?php echo $pagination->numEnd() ?></strong>
+        </div>
+
+        <div class="search-buttons right">
+            <? if($pagination->hasPrevPage()): ?>
+            <a class="prev" href="<?= $pagination->prevPageURL() ?>">&lsaquo; Previous</a>
+            <? else: ?>
+            <span class="prev">&lsaquo; Previous</span>
+            <? endif ?>
+            <? if($pagination->hasNextPage()): ?>
+            <a class="next" href="<?= $pagination->nextPageURL() ?>">Next &rsaquo;</a>
+            <? else: ?>
+            <span class="next">Next &rsaquo;</span>
+            <? endif ?>
+        </div>
+    </nav>

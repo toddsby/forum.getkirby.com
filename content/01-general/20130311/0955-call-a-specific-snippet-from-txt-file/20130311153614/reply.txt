@@ -1,0 +1,8 @@
+User: structor
+----
+Date: 2013-03-11 15:36:14
+----
+Text: @plartz
+Thank you my friend, it works indeed.
+
+@russ, the scope of this tweak is the ability to use different side panels (or header, footer, etc.) in pages that are using the same template, just by naming the panel that you want on one specific page, in the content .txt file.

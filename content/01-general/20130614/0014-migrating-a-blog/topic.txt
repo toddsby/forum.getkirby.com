@@ -1,0 +1,17 @@
+Title: Migrating a Blog
+----
+Date: 2013-06-14 00:14:56
+----
+Solved: 0
+----
+User: mauphie
+----
+Text: I'm working on a couple websites and so far am enjoying Kirby.
+Now I'm at a fork in the road.
+One of my websites has a blog, currently run on Blogger.
+Has anyone migrated a currently existing blog into Kirby? How easy is it? Has anyone imported from Blogger, specifically.
+
+Any suggestions, opinions, advice would be _deeply_ appreciated!
+
+Thanks!
+Sarah

@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-06-23 12:09:30
+----
+Text: The [Instagram plugin documenation](https://github.com/bastianallgeier/kirbycms-extensions/tree/master/plugins/instagram) is pretty clear and has example code?

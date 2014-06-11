@@ -1,0 +1,5 @@
+User: dokdeleon
+----
+Date: 2013-06-05 17:11:16
+----
+Text: @iamirm hi, i suggest forget about contactform and just use other means (third party form builders) to do the contact form for you. I myself had this problem before and used google forms for a while (really crude) but decided to do away with the whole contact form idea.

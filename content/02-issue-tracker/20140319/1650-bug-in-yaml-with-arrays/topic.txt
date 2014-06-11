@@ -1,0 +1,43 @@
+Title: Bug in YAML with arrays?
+----
+Date: 2014-03-19 16:50:25
+----
+Solved: 0
+----
+User: jens_tornell
+----
+Text: **I write this:**
+
+    Exclude:
+     - xml-sitemap
+     - error
+     - cookies
+
+**Expect to get this:**
+
+    Array
+        (
+            [0] => xml-sitemap
+            [1] => error
+            [2] => cookies
+         )
+
+**Getting this:**
+
+    Array
+    (
+        [0] => Array
+            (
+                [0] => error
+                [1] => cookies
+             )
+     )
+
+**Problems**
+
+ - It's nesting more than needed.
+ - It ignores the first value (xml-sitemap)
+
+**I executed it by this:**
+
+    print_r( yaml( $page->my_value() ) );

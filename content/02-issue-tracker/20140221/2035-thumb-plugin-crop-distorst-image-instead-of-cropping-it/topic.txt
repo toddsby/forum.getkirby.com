@@ -1,0 +1,27 @@
+Title: Thumb plugin: Crop distorst image, instead of cropping it.
+----
+Date: 2014-02-21 20:35:38
+----
+Solved: 0
+----
+User: devdatastream
+----
+Text: I just want the image to fill a 200x200 container and without distortion. It should crop the part that doesn't fit, but the thumbs plugin doesn't do that, but `upscale` and `crop` do the same.
+
+```php
+<?= thumb($article->images()->find('header.jpg'),
+    array('width' => 200, 'crop' => true)) ?>
+```
+
+Results in:
+
+<img src="http://i.imgur.com/xff4EVE.png" />
+
+
+And crop false results in:
+
+```php
+<?= thumb($article->images()->find('header.jpg'),
+    array('width' => 200, 'crop' => false)) ?>
+```
+<img src="http://i.imgur.com/IBqizpH.png" />

@@ -1,0 +1,13 @@
+User: russbaldwin
+----
+Date: 2013-04-07 15:02:49
+----
+Text: Not sure what you have changed, but if you have not done this, rollback what you did and do this ;-)
+
+You should set in **site/config.php**
+
+```php
+c::set('markdown.extra', true);
+```
+
+If you have done this can you be a bit more specific about what is not working?

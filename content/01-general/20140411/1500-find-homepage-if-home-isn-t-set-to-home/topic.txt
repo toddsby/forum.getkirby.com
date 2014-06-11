@@ -1,0 +1,23 @@
+Title: Find homepage if 'home' isn't set to 'home'
+----
+Date: 2014-04-11 15:00:09
+----
+Solved: 0
+----
+User: lieblingstyp
+----
+Text: Hey folks,
+
+I usually get elements from the homepage like this:
+
+    $images = $pages->find('home')->images()
+
+How can I search for elements inside my home folder, if the homepage is set to another folder ('blog' or whatever) inside the config.txt?
+
+Something like
+
+    $images = $site->HomePage()->images()
+
+would be great, but that isn't working.
+
+Thanks, Christian

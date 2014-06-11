@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-07-10 21:01:49
+----
+Text: Oh, try removing the dollar sign from before the str::split part in the code I added. That's a mistake. :-)

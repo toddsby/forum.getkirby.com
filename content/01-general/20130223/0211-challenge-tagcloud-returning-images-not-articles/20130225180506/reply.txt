@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-02-25 18:05:06
+----
+Text: Well you can leave off the 'filterby' which will retrieve all image/tag data. Then you just have sort and group on tag name and make a list out of that? 30,000 images, going to be big then ;-), mind you with caching might be manageable.

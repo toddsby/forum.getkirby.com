@@ -1,0 +1,6 @@
+User: possible_books
+----
+Date: 2014-03-21 11:03:00
+----
+Text: As everything works pretty perfect, i do not suspect php version to be responsible...
+maybe the .htaccess. Is it possible to write into files but not create new ones through the .htaccess?

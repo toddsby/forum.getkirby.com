@@ -1,0 +1,11 @@
+Title: Adding options to the textarea editor
+----
+Date: 2013-05-11 21:45:07
+----
+Solved: 0
+----
+User: eytanbiala
+----
+Text: Hi,
+
+I'd like to add some additional buttons to the area that appears above textareas (aside from link, bold, italic, email, h1...h3), such as my own extensions to kirbytext. Is there any way to do this without modifying the standard panel?

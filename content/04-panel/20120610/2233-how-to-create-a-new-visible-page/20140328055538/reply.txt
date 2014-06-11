@@ -1,0 +1,7 @@
+User: jasonli
+----
+Date: 2014-03-28 05:55:38
+----
+Text: Hmm... I can see why it's done like that. But there's probably a clear-er way so people are less confused? Not as easy as it sounds though.
+
+In the meanwhile, please add a little section about this to the docs for the blueprint? ;) Or issit already there and I missed it?

@@ -1,0 +1,17 @@
+Title: Multi-language page creation
+----
+Date: 2013-03-24 12:40:00
+----
+Solved: 0
+----
+User: joachimesque
+----
+Text: Hey all,
+
+Here's the deal : I'm using the panel on a multi-language website (**fr** and **en**). Whenever I create a page in French, it also creates an *empty* page in English. However, when I upload a single page in French through FTP, it gets *replicated* : my English page is already half-filled, which is good, as there's lots of fields that are to be the same between French and English.
+
+Is there a way to get the page in the second language replicated from the first *filled* page ?
+
+The same option could be awesome for document-related data…
+
+I looked on the forum for such an issue but found nothing, I apologize if there's already been a discussion and I overlooked it.

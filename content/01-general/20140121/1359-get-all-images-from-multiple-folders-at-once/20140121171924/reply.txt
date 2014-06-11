@@ -1,0 +1,15 @@
+User: fitzage
+----
+Date: 2014-01-21 17:19:24
+----
+Text: You could get all the images from each of the subfolders, and then use `Pages::merge()` to combine them. Then you can do whatever you want with ordering those.
+
+`Pages::merge()` takes comma-separated sets of pages. Probably easiest to put them in variables first and then assign the results of the merge to a variable.
+
+```php
+<?php
+    $mergedpages = Pages::merge($set1, $set2, $set3);
+    foreach($mergedpages->shuffle() AS $page) :
+```
+
+Blah, blah. You should get the idea.

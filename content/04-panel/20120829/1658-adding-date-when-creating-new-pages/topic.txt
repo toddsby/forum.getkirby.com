@@ -1,0 +1,14 @@
+Title: Adding date when creating new pages
+----
+Date: 2012-08-29 16:58:01
+----
+Solved: 0
+----
+User: ndrsn
+----
+Text: Is it not possible to add the date when creating new "blog" pages from the panel?
+
+Am I missing something here?
+
+Regards,
+Dennis.

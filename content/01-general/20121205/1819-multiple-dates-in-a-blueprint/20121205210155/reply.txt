@@ -1,0 +1,15 @@
+User: tysongach
+----
+Date: 2012-12-05 21:01:55
+----
+Text: I took this a small step further and made sure to check if there is a start *and* end date (multiple day event) or if there is no end date inputted (one day event) to adjust accordingly:
+
+    <?php if(strtotime($event->enddate()) != ''): ?>
+
+    <?php echo date('F j', strtotime($event->startdate())) ?>&#8211;<?php echo date('j, Y', strtotime($event->enddate())) ?>
+
+    <?php else: ?>
+
+    <?php echo date('F j, Y', strtotime($event->startdate())) ?>
+
+    <?php endif ?>

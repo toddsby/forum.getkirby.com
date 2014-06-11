@@ -1,0 +1,13 @@
+Title: Better article excerpts?
+----
+Date: 2012-07-30 03:36:59
+----
+Solved: 0
+----
+User: anthonyterrell
+----
+Text: Is there a way to include images in the excerpt function? I know you can pass a number to increase/decrease the amount of characters. Though a few of my articles have an image at the beginning. 
+
+Any help would be greatly appreciated.
+
+Thanks!

@@ -1,0 +1,20 @@
+Title: Best way to post form content to a mysql database?
+----
+Date: 2013-10-01 23:40:39
+----
+Solved: 0
+----
+User: kriebernegg
+----
+Text: Hi guys,
+
+one question.
+What is the best way inside Kirby to post content of a form to a MYSQL database?
+
+I tried it with 
+`<form role="form" action="save.php" method="post">`
+but unfortunately Kirby doesn't find my save.php file and I am running out of ideas where to put it.
+
+Would be nice if anyone could help me out on this.
+
+Thanks

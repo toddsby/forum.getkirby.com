@@ -1,0 +1,6 @@
+User: ben_roe
+----
+Date: 2012-10-23 21:32:13
+----
+Text: That's a good idea, but the Tabs haven't a fix position. It would be good if i have the possibility to place the Tabs with a Markdown.
+I tried to use KirbyText (tabs: tab1, tab2) and load the content of the subpages into the tab (with $page->children()), but the $page variable is not access able. Any suggestions?

@@ -1,0 +1,22 @@
+Title: Kirby Developer
+----
+Date: 2013-02-11 23:04:18
+----
+Solved: 1
+----
+User: sethkasky
+----
+Text: Hey there,
+
+I'm looking for a developer for my portfolio site. It would be a fairly simple site with 4 separate layouts:
+
+Portfolio Overview (thumbnails)
+Portfolio Piece Detail
+About Me
+Blog
+
+I've already coded a pretty big chunk of the responsive site using the Bootstrap framework, not sure if this would help you at all though.
+
+I'm willing to pay or do web design work in exchange. Hit me up on Twitter if you're interested! @sethkasky
+
+Thanks!

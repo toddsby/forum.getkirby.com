@@ -1,0 +1,27 @@
+Title: Trimmed & lowercase parser
+----
+Date: 2013-11-04 22:36:24
+----
+Solved: 0
+----
+User: roylodder
+----
+Text: Drop the code below in a php file in your plugins folder.
+
+	<?php
+
+	// direct access protection
+	if(!defined('KIRBY')) die('Direct access is not allowed');
+
+	// create space trimmed lowercase html
+	function trimmed($text) {
+	  return str_replace(' ', '-', strtolower(html($text)));
+	}
+
+Usage:
+
+	<section role="main" class="<?php echo trimmed($page->title())?>">
+
+Output: 
+
+	<section role="main" class="awesome-projects">

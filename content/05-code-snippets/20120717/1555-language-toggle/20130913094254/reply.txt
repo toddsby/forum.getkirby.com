@@ -1,0 +1,21 @@
+User: texnixe
+----
+Date: 2013-09-13 09:42:54
+----
+Text: Hi Tim,
+
+you can use the php Locale::getDisplayName function:
+
+
+    <?php 
+       $langs=c::get('lang.available');
+       $current=c::get('lang.current');
+          foreach($langs as $lang):?>
+             <a href="<?php echo $page->url($lang)?>">
+                <?php echo Locale::getDisplayName($lang, $lang);?>
+             </a>
+          <?php endforeach?>
+
+In the example above, the language names are displayed in their respective languages like you specified above. You can also set all language names to the currently active language with
+
+    <?php echo Locale::getDisplayName($lang, $current); ?>

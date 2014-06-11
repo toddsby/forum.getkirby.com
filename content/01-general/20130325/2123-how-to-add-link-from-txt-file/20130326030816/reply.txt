@@ -1,0 +1,14 @@
+User: richardhellyer
+----
+Date: 2013-03-26 03:08:16
+----
+Text: I've been caught out by forgetting to put separators between my fields eg.
+
+     Text: Lorem muspi
+     ----
+     Link: some purli
+     ----
+
+If i leave out the first '----' it parses the link definition as if it is part of the text field
+
+R

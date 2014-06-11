@@ -1,0 +1,11 @@
+User: walkerbox
+----
+Date: 2013-08-16 01:11:51
+----
+Text: "I need to be able to run bits of PHP from within a page from time to time"
+
+You can absolutely do this in Kirby, although it would need solid templates/plugins.
+
+I'm writing a very similar project at the moment for a teacher, and as part of that have put together a plugin to handle multiple question types and an admin interface, and templates for the question types.
+
+I've actually completed the question and data collection side of it - I'm currently wrapping up the admin interface and some minor design tweaks - and at no point is the teacher required to use any php in their content.

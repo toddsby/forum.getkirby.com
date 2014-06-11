@@ -1,0 +1,10 @@
+User: Crssp
+----
+Date: 2013-03-20 16:10:50
+----
+Text: Still looking for answers on this.
+I've got a test server Xampp setup going, working on adding some extras, the Control Panel and some other goodies.
+
+Any thought then, can themes be combined, or is it best to run separate setups, from different sub-folders?
+
+Thanks for any suggestions. ;)

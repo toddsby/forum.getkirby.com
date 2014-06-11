@@ -1,0 +1,12 @@
+Title: Site root Url
+----
+Date: 2014-03-31 06:36:52
+----
+Solved: 1
+----
+User: digisocialnet
+----
+Text: I have set up my Kirby config for multiple environments. Is there a tag to reference for the root URL in my templates? 
+
+
+c::set('url', 'http://localhost:8888');

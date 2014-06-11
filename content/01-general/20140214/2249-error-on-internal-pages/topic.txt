@@ -1,0 +1,16 @@
+Title: error on internal pages
+----
+Date: 2014-02-14 22:49:43
+----
+Solved: 0
+----
+User: ekowalc
+----
+Text: Hello,
+
+I got the homepage to run in Kirby, but I am getting this error now on the internal pages:
+
+{"status":"error","msg":"The file could not be written"}
+
+
+I can't seem to find any documentation on it, and I suspect its a permission setting but not sure. Any help would be appreciated!

@@ -1,0 +1,10 @@
+User: plartz
+----
+Date: 2013-02-27 10:19:58
+----
+Text: Now I'm a bit confused, don't really get what you want, sorry :D Maybe you can post some code or another example, a bit more structured? If you just want to get the current page's parent, use `$page->parent()` and you get all the infos:
+
+```php
+$parent = $page->parent();
+echo $parent->title(); // displays the parent's title – just use it like another $page object
+```

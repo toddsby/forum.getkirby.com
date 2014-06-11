@@ -1,0 +1,9 @@
+User: texnixe
+----
+Date: 2013-11-01 10:34:19
+----
+Text: I copied your code and tested it just to make sure and it works perfectly well; have you cleared the cache of your browser?
+
+What do you get as result if you output $image:
+
+    <?php a::show($image); ?>

@@ -1,0 +1,9 @@
+Title: Prevent Editing / Remove Title field in blueprint
+----
+Date: 2014-03-10 13:07:19
+----
+Solved: 0
+----
+User: screencuts
+----
+Text: Is there a way to prevent users from editing the title field in a panel blueprint? This field seems to be added automatically.

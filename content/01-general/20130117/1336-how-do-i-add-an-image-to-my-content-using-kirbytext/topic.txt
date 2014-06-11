@@ -1,0 +1,10 @@
+Title: How do I add an image to my content using Kirbytext?
+----
+Date: 2013-01-17 13:36:19
+----
+Solved: 1
+----
+User: fhuery
+----
+Text: Hi,
+Still getting the hang of Kirby (on day three and still fascinated). I want to know how to add an image in my contents folder to my articles with Kirbytext and I didn't quite get it on the tutorials. If you can, please show me a practical example of code on both the template php file and the txt file. Thank you very much

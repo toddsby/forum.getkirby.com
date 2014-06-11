@@ -1,0 +1,7 @@
+User: DanielGenser
+----
+Date: 2012-06-20 17:39:44
+----
+Text: Thanks Bastian, that makes sense instead of comparing the numbers. I tried it, however, and it didn't seem to work. Now, I'm not seeing any pagination on my search results. 
+
+Here's my search template and pagination snippet: (gist: https://gist.github.com/2960534).

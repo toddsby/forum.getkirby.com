@@ -1,0 +1,7 @@
+User: mecrawlings
+----
+Date: 2013-11-20 10:44:30
+----
+Text: I built a custom version of Kirby that does what I needed, if you come across this, please check:
+
+<https://github.com/mec/kirbycms>

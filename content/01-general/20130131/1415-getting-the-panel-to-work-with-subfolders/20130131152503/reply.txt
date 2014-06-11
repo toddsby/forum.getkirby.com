@@ -1,0 +1,12 @@
+User: plartz
+----
+Date: 2013-01-31 15:25:03
+----
+Text: Ah, okay, now I got you. I guess this occurs because the panel got its own part in the .htaccess:
+
+	# make panel links work
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^panel/(.*) panel/index.php [L]
+
+What if you change the last line to `RewriteRule ^panel/(.*) subfolder/panel/index.php [L]` ? (like I said, I'm not an expert, so maybe it's bullshit, but nevertheless, just try it ;)).

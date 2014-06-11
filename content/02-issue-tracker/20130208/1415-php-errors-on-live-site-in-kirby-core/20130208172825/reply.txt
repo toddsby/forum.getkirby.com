@@ -1,0 +1,9 @@
+User: grimmweb
+----
+Date: 2013-02-08 17:28:25
+----
+Text: Yep, that's the error being written in there :)
+
+Issue was just solved by sysadmin changing the PHP settings to a not so 'strict' mode. All is well now.
+
+thanks for your feedback!

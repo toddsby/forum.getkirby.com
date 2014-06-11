@@ -1,0 +1,31 @@
+Title: Session variables not accessable on other pages
+----
+Date: 2014-02-21 12:13:11
+----
+Solved: 1
+----
+User: edusoftdev
+----
+Text: Aslam O ALukum
+I am unable to access the session variables on the other pages in kirby.  
+if(count($result)>0){
+		
+		//starting session
+		s::start();
+		
+		foreach($result as $rec){
+			s::set('myname', $rec['name']);
+			s::set('emailfilter', $rec['emailfilter']);
+			s::set('fname45', $rec['fname45']);
+		}
+		// later…
+		echo s::get('myname');
+		echo s::get('myname',0);
+		// result: my value
+		//can access easily over here but not on other pages.
+		//go($siteUrl);
+		
+	}else{
+		//do something here without session
+		}
+Any Help

@@ -1,0 +1,17 @@
+User: fitzage
+----
+Date: 2012-11-19 20:32:00
+----
+Text: You might be able to use the recent filtering changes to modify it. You could change this line in the snippet:
+
+    $files = $page->files();
+
+To this:
+
+    $files = $page->files()filterBy('title', '!=', '.fw');
+
+I assume that Kirby only recognizes the .png as the extension, so the .fw should show up as part of the title. If that doesn't work, though, you could try:
+
+    $files = $page->files()filterBy('extension', '!=', '.fw');
+
+which would filter by extension. You may also need to leave out the period in the matching pattern and just do 'fw'.

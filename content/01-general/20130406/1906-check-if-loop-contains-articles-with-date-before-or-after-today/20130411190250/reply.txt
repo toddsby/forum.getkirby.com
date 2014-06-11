@@ -1,0 +1,7 @@
+User: TyKisha
+----
+Date: 2013-04-11 19:02:50
+----
+Text: If this helps anyone, I re-formatted what @iamirm did as a micro plugin to pull future dates...to keep some of the php out of the templates.
+
+(link:https://gist.github.com/TKP/7e0274bf47ef8661490)

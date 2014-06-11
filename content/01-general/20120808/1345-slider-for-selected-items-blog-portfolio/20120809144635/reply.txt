@@ -1,0 +1,37 @@
+User: bastianallgeier
+----
+Date: 2012-08-09 14:46:35
+----
+Text: Ah, I think I understand now :)
+
+That should be possible very easy. I suggest you add the slider code to the header snippet so it will be available in each template. You then just have to check for that slider field and if the content of it is "on" or true or whatever and display the code. This can be done with a simple if clause: 
+
+```
+// in your snippets/header.php
+
+<?php if($page->slider == 'on'): ?>
+
+<!-- put the code for the slider here -->
+
+<?php endif ?>
+
+```
+
+
+In the panel you can use the checkbox field to set the slider to on or off. Check out the docs for the checkbox field over here: 
+<http://getkirby.com/docs/panel/blueprints/field-types>
+
+Finally if you want to additionally check if there are any images for the slider at all you can do it like this: 
+
+```
+// in your snippets/header.php
+
+<?php if($page->slider == 'on' && $page->images()->count() > 0): ?>
+
+<!-- put the code for the slider here -->
+
+<?php endif ?>
+
+```
+
+I hope this helps

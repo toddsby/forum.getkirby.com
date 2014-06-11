@@ -1,0 +1,9 @@
+User: russbaldwin
+----
+Date: 2014-02-11 13:48:46
+----
+Text: OK the PHP ('portfolio.php') is actually the template file, and should be in: 
+'/site/templates/portfolio.php'
+
+I was looking for the blueprint file, what you have in:
+'/site/panel/blueprints/portfolio.php'

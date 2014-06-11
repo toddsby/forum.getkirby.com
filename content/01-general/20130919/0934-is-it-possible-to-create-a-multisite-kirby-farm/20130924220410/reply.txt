@@ -1,0 +1,26 @@
+User: fitzage
+----
+Date: 2013-09-24 22:04:10
+----
+Text: So your symlinks would be for all the core files, and then you could create a default content folder that has the base files needed for creating a site for a new client. So you could possibly have a master folder that includes symlinks and the base content, and then run a script that copies that to a new location. That assumes that you can copy symlinks without copying the content. I'm not entirely sure about that. Other option would be to have a list of folders that need to be symlinked built into the script, and then pass your destination location to the script. The script would copy the base content folder over, then generate the symlinks necessary in the new folder.
+
+You'd still have to set up the Apache virtualhost, but you could script that possibly with a little bit of research (might not work on a shared host).
+
+I haven't tried anything this extreme, so it's pretty conceptual.
+
+So you'd have a folder called "master" or some such, with the default content. You'd run the script kind of like this:
+
+    /path/to/script/new-site.sh /path/to/web/folder/for/new/site
+
+So then your script would use that argument as a variable, and use that as the base path for the copy of the base content files and all the symlink commands listed in the script.
+
+You probably would then want the Apache virtualhost to be set up as a subdomain like `client.yourdomain.com`, and to make things "easy" you could base that on the last segment of the path that you used for the argument. So if your script was run like this:
+
+    /path/to/script/new-site.sh /path/to/web/clientname
+
+Then the script would extract `clientname` and set up an Apache virtualhost for `clientname.yourdomain.com`. You could include the entire Apache config in the script, and echo it out to the Apache config file location, using a variable in the shell script to insert `clientname.domain.com` as well as `/path/to/web/clientname`.
+
+The potential issues I see are:
+
+1. **Familiarity with shell scripts.** It seems like something I could pull off with some trial and error, personally, but only because I've recently done a lot of googling to figure out some things for some other scripts. The biggest issue is just the dealing with arguments and variables.
+2. **File ownership/permissions.** If you're on a shared host, you may not be able to script the apache config. If you're not on a shared host, you shouldn't have trouble with that, but you may have issues with making sure things have the correct permissions. You'd probably need to run the script as root, and then have the script set permissions on whatever is copied. Using rsync for the copy step might help with this, and you may be able to copy the symlinks without copying what they point to by using rsync (instead of setting up all the symlinks one-by-one in the script). I haven't entirely figured out what flags to use to make rsync do that, though.

@@ -1,0 +1,15 @@
+Title: Change domain without breaking incoming links
+----
+Date: 2013-12-19 05:00:14
+----
+Solved: 0
+----
+User: kevinrothermel
+----
+Text: Anyone know if that's possible? 
+
+I've been blogging under myname.com for years, but I'm moving all of that content to Kirby, and I'd like to start writing that blog under a different domain. 
+
+So, my question is whether it's possible to automatically bounce someone looking for http:myname.com/blog/post12 to http://newdomain.com/blog/post12 
+
+Thanks

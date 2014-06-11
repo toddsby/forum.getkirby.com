@@ -1,0 +1,7 @@
+User: scottswany
+----
+Date: 2014-01-16 01:06:54
+----
+Text: Got this working by adding a new option to the Thumb plugin and creating the directories if they don't exist.
+
+If anyone ever is interested, feel free to reach out.

@@ -1,0 +1,48 @@
+User: screencuts
+----
+Date: 2014-02-17 09:17:01
+----
+Text: Update here. But still no Answer.
+
+What we are currently doing to deal with categories is that we have categories added as a field to each Project in our content. Our content folder looks like this:
+
+    content
+      01-projects
+        project1
+        project2 
+        project3
+
+Then the content  file for project1 might be:
+
+    Title: Project 1
+    
+    ----
+
+    Text: Some text... 
+
+    ----
+
+    Categories: category1
+
+    ----
+
+    Tags: tag1
+
+Then in our default template -- for the moment -- we pull all the projects by category, assuming a url like this: http://mysite.com/projects/ours:
+
+    $category = $site->uri()->path()->last();
+    if($category == 'projects'){
+    	$category = '';
+    }
+    $projects = $pages->find('projects')->children();
+    $found = $projects->filterBy('categories', $category);
+
+Then we use $found to output the html content. 
+
+The trouble is that we are also getting an "Error" in the title field, i.e. $page->title is Error. This is because there is no page in our content that corresponds to the url http://mysite.com/projects/ours. 
+
+There are a number of ways around this. The easiest and messiest is just to create a folder "ours" under the projects directory. This solves the problem essentially, but it's messy. Another way would be to use .htacess to redirect requests with a base http://mysite.com/projects to home and then handle everything in the code, but then Kirby is in the dark about what page we are really on. The $page-title() call, for example, would be wrong, since we would not really be on the "Home" page.
+
+The question is, though, how to intervene in what content kirby is pulling at a deeper more basic level, so that kirby knows fundamentally that we are searching for a category of pages. In WordPress, there is already the ability to pull up a set of posts by category, and then one can create a template for a category page. But what is the *best practices* sort of way to do this in Kirby. I'm unsatisfied with the solution of dropping an errant page into our Projects folder. 
+
+If anyone has any ideas, I would be very very happy to hear them. I'm still new to Kirby.

@@ -1,0 +1,15 @@
+User: russbaldwin
+----
+Date: 2013-08-23 08:46:58
+----
+Text: So you tried replacing this line
+```php
+<?php foreach($page->images() as $image): ?>
+```
+
+with this line?
+```php
+<?php foreach($page->images()->first() as $image): ?>
+```
+
+What error did you get and what line?

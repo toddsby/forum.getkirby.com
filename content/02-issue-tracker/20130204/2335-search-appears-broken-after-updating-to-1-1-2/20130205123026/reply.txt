@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-02-05 12:30:26
+----
+Text: I've just updated two test sites and they seem OK with search, is it access rights? I'm not sure what error you are getting.

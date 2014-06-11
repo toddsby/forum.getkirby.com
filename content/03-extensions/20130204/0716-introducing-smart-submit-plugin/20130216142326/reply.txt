@@ -1,0 +1,13 @@
+User: vladstudio
+----
+Date: 2013-02-16 14:23:26
+----
+Text: roman_oroco: И тебе :)
+
+kukac7: I cannot tell - it entirely depends on why you need the form.
+
+Kirby CMS is designed for static web sites. Forms are interactive by nature. When user sends you some information using a form, you are supposed to do something with it.
+
+Smart Submit plugin is "a hack" to make "doing something with user submitted information" easier.
+
+For example, if you created a contact form, you may want to send the submitted info to your email.

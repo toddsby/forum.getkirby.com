@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2012-12-30 15:00:47
+----
+Text: I've not tried it but you should be able to use the normal Markdown syntax for linking as well?

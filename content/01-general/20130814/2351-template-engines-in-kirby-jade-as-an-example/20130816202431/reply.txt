@@ -1,0 +1,63 @@
+User: juerglehni
+----
+Date: 2013-08-16 20:24:31
+----
+Text: Well yes I have but I beg to differ.
+
+I personally find PHP templates messy and see a big advantage in using languages such as (link: http://slim-lang.com/ text: Slim) or (link: http://jade-lang.com/ text: Jade). I have worked with both approaches and know what I prefer. But I like most other aspects of Kirby a lot, which is why I have spent this effort at making Jade available in Kirby.
+
+The Jade templates actually get translated to PHP templates and are cached as files, so speed wise there should be almost no difference.
+
+The result works really well for me, which is why I wanted to share it with the community.
+
+For reference, here the translated templates from the default Kirby example:
+
+_main.jade
+
+    !!! 5
+    html
+      head
+        title #{$site->title()} - #{$page->title()}
+        meta(charset="UTF-8")
+        meta(name="description", content=html($site->description()))
+        meta(name="keywords", content=html($site->keywords()))
+        meta(name="robots", content="index, follow")
+        link(rel="stylesheet", href=url("assets/styles/styles.css"))
+      body
+        header
+          h1
+            a(href=url())
+              img(src=url("assets/images/logo.png"), width="115", height="41", alt=$site->title())
+        include _menu
+        include _submenu
+        section.content
+          block content
+        footer!= kirbytext($site->copyright())
+
+_menu.jade
+
+    nav.menu
+      ul
+        each $p in $pages->visible()
+          li
+            a(class=$p->isOpen() ? 'active' : '', href=$p->url())= $p->title()
+
+_submenu.jade
+
+    $open = $pages->findOpen()
+    $items = $open ? $open->children()->visible() : false
+    if $items && $items->count()
+      nav.submenu
+        ul
+          each $item in $items
+            li
+              a(class=$item->isOpen() ? 'active' : '', href=$item->url())=$item->title()
+
+default.jade
+
+    extends _main
+
+    block content
+      article
+        h1!= html($page->title())
+        != kirbytext($page->text())

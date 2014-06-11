@@ -1,0 +1,11 @@
+User: russbaldwin
+----
+Date: 2013-03-01 15:52:10
+----
+Text: Not sure what you are setting in you articles page file if it is not featured? I am presuming nothing? 
+
+So maybe add a filter to latest articles, something like (not tested.)
+
+```php
+->filterBy('featured', '')
+```

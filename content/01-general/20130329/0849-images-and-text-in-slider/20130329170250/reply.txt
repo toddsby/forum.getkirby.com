@@ -1,0 +1,9 @@
+User: russbaldwin
+----
+Date: 2013-03-29 17:02:50
+----
+Text: Mmmmm, quick test works for me... perhaps I was not that clear in saying you should replace the 'myFolders' bit with your actual folder name?
+
+---
+
+txt files with the the same name as the accompanying image file will be a caption as explained in a previous link by **@roman_oroco** and shown in the [/blog/bootstrap-carousel](http://getkirby.com/blog/bootstrap-carousel) page.

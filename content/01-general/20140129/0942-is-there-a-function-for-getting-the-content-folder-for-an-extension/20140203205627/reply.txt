@@ -1,0 +1,8 @@
+User: asbiot
+----
+Date: 2014-02-03 20:56:27
+----
+Text: Hi,
+have you looked at (link: http://getkirby.com/blog/the-mighty-mighty-uri-object text: the mighty uri object)? That should give you any path in your site. Otherwise you may want to do something with the file path. $file->root() should give you the root path of the file on your server. You could then parse that with php string functions.
+That is just what comes to my mind just know. There is probably a better way to do it :-)
+I take it that using the php function echo $_SERVER['DOCUMENT_ROOT'] is not what you are after?

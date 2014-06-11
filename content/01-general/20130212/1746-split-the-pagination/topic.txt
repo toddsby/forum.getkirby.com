@@ -1,0 +1,27 @@
+Title: Split the pagination.
+----
+Date: 2013-02-12 17:46:17
+----
+Solved: 1
+----
+User: gielcobben
+----
+Text: Hi,
+
+I want to set the previous button on another position than the next button in the page navigation but without "position: absolute;" 
+Is there a way to do the following:
+
+*HEADER*
+**Previous button**
+
+article
+article
+article
+
+**Next button**
+*FOOTER*
+
+I hope someone can help me with this problem!
+Thanks,
+
+Giel

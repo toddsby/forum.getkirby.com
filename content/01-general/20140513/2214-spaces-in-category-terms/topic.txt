@@ -1,0 +1,18 @@
+Title: Spaces in category terms
+----
+Date: 2014-05-13 22:14:01
+----
+Solved: 0
+----
+User: anthony__noel
+----
+Text: Are spaces allowed in category terms? I can't see any examples on this site that shows a category term with two or more words.
+
+My new site won't be a film blog, but if it was I might want categories like this:
+
+Film Noir
+New releases
+Action & Adventure
+Oscar Winners
+
+Is there any reason why this might not work?

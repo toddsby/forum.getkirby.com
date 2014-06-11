@@ -1,0 +1,7 @@
+User: bastianallgeier
+----
+Date: 2012-08-07 13:20:07
+----
+Text: This is already available :) 
+
+Check out: <http://getkirby.com/docs/panel/blueprints/file-fields>

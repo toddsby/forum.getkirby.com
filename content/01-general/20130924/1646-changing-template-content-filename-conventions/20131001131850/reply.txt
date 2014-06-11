@@ -1,0 +1,22 @@
+User: russbaldwin
+----
+Date: 2013-10-01 13:18:50
+----
+Text: I do see what you mean, but I think I've been sort of using folders for that.
+
+```html
+├── 01-london
+│   ├── article.md
+│   ├── london.jpg
+│   └── london.jpg.md
+├── 02-paris
+│   ├── article.md
+│   ├── paris.jpg
+│   └── paris.jpg.md
+├── 03-manchester
+│   ├── article.md
+│   ├── manchester.jpg
+│   └── manchester.jpg.md
+└── articles.md
+
+```

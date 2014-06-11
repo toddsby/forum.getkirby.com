@@ -1,0 +1,16 @@
+Title: Kirby Panel dialog issue
+----
+Date: 2014-05-09 09:24:52
+----
+Solved: 0
+----
+User: dubielzyk
+----
+Text: I'm running Kirby on MAMP and I'm having a problem when adding a new page from the panel (from the little plus icon).
+
+It seems like the dialog window isn't appearing. You can see the error here: http://i.imgur.com/y13XBIV.png
+
+It works fine when uploading images.
+
+Thanks.
+Jon

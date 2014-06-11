@@ -1,0 +1,13 @@
+User: tysongach
+----
+Date: 2012-11-12 17:01:26
+----
+Text: You can change what filetypes Kirby accepts as content files within your site's configuration file.
+
+Open up **site/config/config.php**, scroll all the way to the bottom and change this setting:
+
+**Original:** c::set('content.file.extension', 'txt');
+
+**Change it to:** c::set('content.file.extension', 'md');
+
+So keep using IA Writer, because it’s awesome, and just change Kirby to accept Markdown files instead of Text files.

@@ -1,0 +1,9 @@
+User: tues37
+----
+Date: 2012-12-27 16:17:42
+----
+Text: Oh man, that’s it. I had a problem once with the language toggle, because 'en' and 'de' were written in caps.
+
+The problem was, that the files were named <code>site.DE.txt</code> and <code>site.EN.txt</code>. Thank you for the hints, how stupid I was…
+
+Have a nice time!

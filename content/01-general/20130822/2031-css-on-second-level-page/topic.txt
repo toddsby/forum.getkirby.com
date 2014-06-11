@@ -1,0 +1,17 @@
+Title: CSS On Second Level Page
+----
+Date: 2013-08-22 20:31:07
+----
+Solved: 0
+----
+User: jrdnbwmn
+----
+Text: I'm sure there's a very simple explanation for this, but I'm relatively new to coding.
+
+I'm creating a blog (on MAMP so far), using the instructions <a href="http://getkirby.com/blog/how-to-build-a-blog">here</a>. I have my regular first-level blog page, and then obviously each article has its own page as well, like the tutorial says. 
+
+The article pages I created, however, lose all styling, almost as if there is no stylesheet linked at all. These pages have the same exact header snippet that every other page of my website does (home, main blog, about, etc) – and the styling on all the rest of my pages is working normally. 
+
+I even did a test and put the same exact code for one of my articles into a first-level page (i.e., I put it at mydomain.com/article), and then the styling worked fine. So apparently the problem is that it is a second-level page.
+
+How do I fix this?

@@ -1,0 +1,15 @@
+Title: Timestamp
+----
+Date: 2013-10-28 22:41:44
+----
+Solved: 0
+----
+User: chrisjmartin87
+----
+Text: Hey I'm trying to generate a timestamp in ISO 8601 format.
+
+I've tried using the date function but cant seem to get it to work.
+
+Anyone?
+
+Many Thanks :)

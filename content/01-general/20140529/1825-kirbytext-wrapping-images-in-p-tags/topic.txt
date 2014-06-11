@@ -1,0 +1,43 @@
+Title: KirbyText wrapping images in <p> tags
+----
+Date: 2014-05-29 18:25:18
+----
+Solved: 0
+----
+User: harriganworks
+----
+Text: Whenever I use the echo kirbytext php tags kirbytext will wrap   
+my images in paragraph tags. I'd love to know how to counteract 
+this, kind of screws with the css a lot. Thanks!
+
+So essentially this snippet from a markdown text file:
+     
+     Poke around and take a look at our new work. Thanks for checking 
+     out our new site. 
+
+     (image:blog_post_1_image.jpg title:Big things have small 
+     beginnings alt:Big things have small beginnings)
+     (image:blog_post_1_image2.jpg title:Eggshell with Romalian type 
+     alt:Eggshell with Romalian type)
+     (image:blog_post_1_image3.jpg title:Put a lightning bolt on it 
+     alt:Put a lightning bolt on it)
+     (image:blog_post_1_image4.jpg title:You can ignore us on any 
+     size now alt:You can ignore us on any size now)
+
+Will output this:
+
+     <p>Poke around and take a look at our new work. Thanks for 
+     checking out our new site.</p>
+
+     <p><img src="http://www.harriganworks.com/content/02-news/01-
+     first-article/blog_post_1_image.jpg" title="Big things have 
+     small beginnings" alt="Big things have small beginnings"><br>
+     <img src="http://www.harriganworks.com/content/02-news/01-first-  
+     article/blog_post_1_image2.jpg" title="Eggshell with Romalian 
+     type" alt="Eggshell with Romalian type"><br>
+     <img src="http://www.harriganworks.com/content/02-news/01-first-
+     article/blog_post_1_image3.jpg" title="Put a lightning bolt on 
+     it" alt="Put a lightning bolt on it"><br>
+     <img src="http://www.harriganworks.com/content/02-news/01-first-
+     article/blog_post_1_image4.jpg" title="You can ignore us on any 
+     size now" alt="You can ignore us on any size now"></p>

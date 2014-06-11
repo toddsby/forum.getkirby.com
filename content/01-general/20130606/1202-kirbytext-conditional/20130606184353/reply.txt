@@ -1,0 +1,31 @@
+User: fitzage
+----
+Date: 2013-06-06 18:43:53
+----
+Text: OK, that's pretty simple. The first thing you need to know is if the field might be there but empty, or if it just won't be there. If you're using the panel, it will create an empty field, so checking for the existence of the field doesn't work, you have to check if it has content. At least with the current version of Kirby.
+
+    <?php if ($post->headerimage() != ''): ?>
+        <img src="<?php echo $post->headerimage() ?>">
+    <?php endif ?>
+
+That should work. Now if you're actually putting the kirbytext in your headerimage field, you'd just use this instead of the img tag:
+
+    <?php echo kirbytext($post->headerimage()) ?>
+
+What I do, personally, is instead include an image called header.jpg or header.png in the folder instead of actually adding anything to the content. Then you can use something like this instead:
+
+    <?php if ($page->hasImages() && $page->images()->filterBy('title', '*=', 'header')->first()): ?>
+        <?php $image = $page->images()->filterBy('title', '*=', 'header')->first() ?>
+        <img src="<?php echo $image->url() ?>">
+    <?php endif ?>
+
+This looks more complicated at first, but what's happening here is this:
+
+1. Check if page has images, and if any of those images have a title of header.
+2. Only select the first result in case there are multiple.
+3. Echo the URL for that image.
+4. It works whether it's a PNG or JPG, so you don't have to use the same every time. I guess it would also work for GIF.
+
+You can also include a description file with that image if you want to pull in a title or alt tag.
+
+I like this approach because I can just drop the header image in the folder at any point and it will show up. No editing of the content necessary.

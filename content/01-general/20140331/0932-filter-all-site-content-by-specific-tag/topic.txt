@@ -1,0 +1,24 @@
+Title: Filter all site content by specific tag
+----
+Date: 2014-03-31 09:32:13
+----
+Solved: 0
+----
+User: corvine74
+----
+Text: is there a way to filter every page in the entire site instead of a specific folder.
+
+I am trying to add items to my homepage that have a specific tag but the pages could be in any folder, i.e ecommerce site that filters to the from page anything with a tag "deal".
+
+Here is my current code:
+
+    <?php $article = $pages->filterBy('tags', 'deal'); ?>
+
+    <?php foreach($article as $p): ?>`
+    <article>
+      <h1><?php echo kirbytext($p->title()) ?></h1>
+      <p><?php echo excerpt($p->text(), 300) ?></p>
+      <a href="<?php echo $p->url() ?>">Read more…</a>
+    </article>
+
+    <?php endforeach ?>

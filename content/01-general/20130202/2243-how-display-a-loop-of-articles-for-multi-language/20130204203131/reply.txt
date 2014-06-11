@@ -1,0 +1,22 @@
+User: roman_oroco
+----
+Date: 2013-02-04 20:31:31
+----
+Text: @russbaldwin Hi, the only issue was with `find('articles')` infact for multi language must be `findByUID(articles)`
+
+Here's the definitive code that works well:
+```
+<?php $articles = $pages->findByUID('articles')
+                        ->children()
+                        ->visible()
+                        ->sortBy('date', 'desc')
+                        ->paginate(5); ?>
+<?php foreach($articles as $article): ?>
+<article>
+  <h1>
+    <a href="<?php echo $article->url() ?>"><?php echo $article->title() ?></a>
+  </h1>
+  <?php echo kirbytext($article->text()) ?>
+</article>
+<?php endforeach ?>
+```

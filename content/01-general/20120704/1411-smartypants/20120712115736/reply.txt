@@ -1,0 +1,17 @@
+User: bastianallgeier
+----
+Date: 2012-07-12 11:57:36
+----
+Text: Good news – SmartyPants is now included in the latest dev version: <http://cl.ly/I33u> :D
+
+If you update your Kirby version, you can activate it in your config like this: 
+
+```php
+c::set('smartypants', true);
+```
+
+Please check out the latest version of the `config.php` for more smartypants options: 
+
+<https://github.com/bastianallgeier/kirbycms/blob/dev/site/config/config.php>
+
+I hope you like it!!

@@ -1,0 +1,36 @@
+Title: If statement for fields
+----
+Date: 2013-07-02 08:47:11
+----
+Solved: 1
+----
+User: richgcook
+----
+Text: Hi folks,
+
+Hopefully just a quick one.
+
+Within the blueprint for a template, I have two simple text fields set up:
+
+    builtwith:
+      label: Built with
+      type:  text  
+    builtat:
+      label: Built at
+      type:  text
+  
+For any one project I add via the Panel, only one of these two fields are ever going to be filled out. So, I thought it would make sense to wrap these two fields, in the template file, in an if statement.
+
+    <?php if ( $website->builtwith() ) : ?>
+      <p class="built-with">Built with <?php echo $website->builtwith() ?></p>
+    <?php endif; ?>
+    <?php if ( $website->builtat() ) : ?>
+      <p class="built-at">Built at <?php echo $website->builtat() ?></p>
+    <?php endif; ?>
+
+However, even if one of the fields are blank, it still returns the contents within the if that is 'not true'.
+
+Any ideas? I've used Advanced Custom Fields for WP and it follows the same method.
+
+Thanks in advance,
+R

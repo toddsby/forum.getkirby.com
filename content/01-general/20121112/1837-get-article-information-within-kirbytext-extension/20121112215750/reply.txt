@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2012-11-12 21:57:50
+----
+Text: Oh, looking at that, that would seem to give the title of the active page. That would be "blog" if I'm on a blog archive page, but I need the title of the actual blog article, even if I'm on an archive page.

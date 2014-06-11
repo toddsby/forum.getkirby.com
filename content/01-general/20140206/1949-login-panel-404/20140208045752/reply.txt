@@ -1,0 +1,20 @@
+User: imtheAndyLee
+----
+Date: 2014-02-08 04:57:52
+----
+Text: Which folder are you referring to? Here's my structure right now, with "- " being folders.
+
+- assets
+- content
+- Help-Kirby-installation
+- kirby
+- kirbycms-panel-master
+- site
+.gitignore
+.htaccess
+favicon.ico
+index.php
+license.mdown
+readme.mdown
+
+Thanks for the response!

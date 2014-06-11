@@ -1,0 +1,13 @@
+Title: Adding buttons to the editor
+----
+Date: 2013-05-19 05:46:52
+----
+Solved: 0
+----
+User: eytanbiala
+----
+Text: I posted this in another section, but it probably would be best here.
+
+It would be cool if we could easily add buttons for custom markup/tags to the editor (the simple one that is available for textareas), similar to how we can add new fields for the panel.
+
+Of course it's possible right now already with some additional work, but this won't carry over after a panel update.

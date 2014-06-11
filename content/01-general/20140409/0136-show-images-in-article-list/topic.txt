@@ -1,0 +1,10 @@
+Title: Show images in article list
+----
+Date: 2014-04-09 01:36:48
+----
+Solved: 1
+----
+User: urgan
+----
+Text: Hi all,
+I'm new to Kirby. I'm trying to use the monochrome theme but need to add images to the article list. How would I go about doing this? I tried searching the forums but couldn't quite figure it out.

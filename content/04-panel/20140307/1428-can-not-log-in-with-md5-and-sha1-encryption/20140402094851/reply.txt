@@ -1,0 +1,8 @@
+User: CBeloch
+----
+Date: 2014-04-02 09:48:51
+----
+Text: Check that you have used the encrypt key and used lowercase encryption method.
+
+SHA1 - wrong
+sha1 - correct

@@ -1,0 +1,9 @@
+User: Haustraliaer
+----
+Date: 2012-12-16 03:11:17
+----
+Text: This seems like a great (and not too bloated) solution for simple rights management. 
+
+The default could easily be 'all access' - so it only needs to be implemented when required.
+
++1 from me.

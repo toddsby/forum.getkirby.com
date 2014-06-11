@@ -1,0 +1,13 @@
+Title: 'Notice: Uninitialized string offset ...'
+----
+Date: 2012-06-21 14:17:14
+----
+Solved: 0
+----
+User: velvetumbrella
+----
+Text: Updating to Kirby 1.1.0 causes a Notice "Uninitialized string offset: 0 in ...kirbylibvariables.php on line 27"
+
+line27: $this->filecontent = @$vars['raw'];
+
+Tried some time to find out but no success.

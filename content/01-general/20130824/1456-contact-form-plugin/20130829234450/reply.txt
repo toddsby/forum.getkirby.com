@@ -1,0 +1,7 @@
+User: ChrisjMartin87
+----
+Date: 2013-08-29 23:44:50
+----
+Text: @texnixi
+
+I had tried this as i thought this could fix the problem but it would just return array :(

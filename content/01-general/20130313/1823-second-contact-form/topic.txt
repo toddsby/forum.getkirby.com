@@ -1,0 +1,13 @@
+Title: Second contact form
+----
+Date: 2013-03-13 18:23:49
+----
+Solved: 0
+----
+User: structor
+----
+Text: Hi there!
+
+I am using the (link:http://per-bistrita.zab.ro/contact text:contactform) plugin, but we need the second form, witch is a litle more complex, like (link:http://per-bistrita.zab.ro/adeziune text:this one), from google.
+
+Is it possible to modify the contactform plugin into that?

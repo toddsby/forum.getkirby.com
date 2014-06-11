@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-09-27 13:42:39
+----
+Text: If you mean the homepage by first page you could simply create a custom template for the homepage and a separate template for the blog and set your number of pages accordingly.

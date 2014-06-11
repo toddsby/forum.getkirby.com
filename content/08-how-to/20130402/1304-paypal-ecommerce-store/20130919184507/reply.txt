@@ -1,0 +1,9 @@
+User: hennirocks
+----
+Date: 2013-09-19 18:45:07
+----
+Text: Hej folks. I'm having the problem that postage and packaging is not submitted to PayPal:
+
+P&P is shown in the cart at my website and it is also added to the total amount here. But when proceeding to PayPal for payment, P&P is not included in PayPal's order summary. Only the item itself.
+
+Am I missing something / Is anyone having the same problem? Otherwise from this issue (and the updating problem, see above) the plugin's working fine.

@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-02-25 10:18:36
+----
+Text: Indeed, perhaps pre-installed in Kirby CMS would be sensible?

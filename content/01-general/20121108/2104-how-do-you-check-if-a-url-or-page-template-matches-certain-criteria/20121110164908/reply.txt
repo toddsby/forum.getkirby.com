@@ -1,0 +1,57 @@
+User: MatteusZablocki
+----
+Date: 2012-11-10 16:49:08
+----
+Text: Probably not the purest way to do it, but ended up having a random full background image based on a theme by going like this:
+
+in my footer snippet which gets loaded on almost every page i wrote:
+(repeat this code and change url for as many dir with theme images you want to pull)
+
+	<?php if ($page->url() == "path/to/page") { // when url is met…
+	
+		$project = $pages->find('path/to/dir/images'); // go fetch the page
+		$bg_image  = $project->images()->shuffle()->first();  // gimme just one random
+	}  
+	?>	
+	
+	<img src="<?php echo $bg_image->url() ?>" id="bg_image" alt="">
+
+
+which gets resized/scaled with JS:
+
+	$(document).ready(function() {   
+		
+			var theWindow        = $(window),
+			    $bg              = $("#bg_image"),
+			    aspectRatio      = $bg.width() / $bg.height();
+			    			    		
+			function resizeBg() {
+				
+				if ( (theWindow.width() / theWindow.height()) < aspectRatio ) {
+				    $bg
+				    	.removeClass()
+				    	.addClass('bgheight');
+				} else {
+				    $bg
+				    	.removeClass()
+				    	.addClass('bgwidth');
+				}
+							
+			}
+			                   			
+			theWindow.resize(function() {
+				resizeBg();
+			}).trigger("resize");
+		
+		});
+
+
+then styled with CSS:
+
+	#bg_image { position: fixed; top: 0; left: 0; z-index: -99; }
+	.bgwidth { width: 100%; }
+	.bgheight { height: 100%; }
+
+I guess you could do it with a template and snippet technique only without an if statement, but if you have the same main code shared across several pages this could be worth a try. 
+
+I thought I'd share this anyway…

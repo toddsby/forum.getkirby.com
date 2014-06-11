@@ -1,0 +1,37 @@
+User: mutchov
+----
+Date: 2013-08-14 09:55:38
+----
+Text: Thank for the answer.
+I think you missed a > after: 
+```
+title: <?php echo html($thumbimage->title()) ?>
+```
+So it must be:
+```php
+<div class="item">
+   <a href="<?php echo $bigassimage->url() ?>" title: <?php echo html($thumbimage->title()) ?>><img src="<?php echo $thumbimage->url() ?>" /></a>
+</div>
+```
+Edit:
+So if I understand you correctly this:
+```php
+<?php $imagelist= $page->imagelist();
+   if ($imagelist != ''){
+      $imagelistitem= explode(", ", $imagelist);
+      foreach ($imagelistitem as $image): ?>
+         <?php $thumbimage = $page->images()->filterBy('title', '*=', $image) ?>
+         <?php $bigassimage = $page->images()->filterBy('title', '*=', $image . '-big') ?>
+	<div class="item">
+    	<a href="<?php echo $bigassimage->url() ?>" title: <?php echo html($thumbimage->title()) ?>><img src="<?php echo $thumbimage->url() ?>" /></a>
+	</div>
+<?php endforeach ;} ?>
+```
+
+should work? Hmm no. It makes:
+```html
+<div class="item">
+   <a href="" title: ><img src="" /></a>
+</div>
+```
+Sure I can set the url/path to the pictures than it works. But the title attribute is still empty.

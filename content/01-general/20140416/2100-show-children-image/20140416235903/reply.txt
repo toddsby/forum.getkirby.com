@@ -1,0 +1,23 @@
+User: fitzage
+----
+Date: 2014-04-16 23:59:03
+----
+Text: I don't think this works because you're trying to get one image from all children.
+
+Instead, you need find the children pages, loop through them with the foreach, and then just get the image from each. Something like this:
+
+```php
+<section class="container">
+  <div class="twelve columns offset-by-two">
+    <div class="projets">
+    <?php $children = $page->children() ?>
+    <?php foreach ($children as $child): ?>
+      <?php $articleimage = $child->images()->find('main.jpg') ?>
+      <div style="background:url('<?php echo $articleimage->url() ?>');">
+        <a href="<?php echo $page->nextVisible()->url() ?>" class="prochain"></a> 
+      </div>
+    <?php endforeach ?>
+    </div>
+  </div>
+</section>
+```

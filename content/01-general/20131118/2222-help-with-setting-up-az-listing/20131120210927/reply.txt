@@ -1,0 +1,11 @@
+User: UnknownGuest
+----
+Date: 2013-11-20 21:09:27
+----
+Text: Thanks for the reply. I should have been more specific. 
+
+With regard to my first query, check out this link below. All letters A-Z are in the list and they are inactive if there's no people for that respective letter. That's what I want to achieve. 
+
+http://www.bdplaw.com/our-people
+
+But I'm not sure how to approach this, as if I set them up as essentially a tag cloud, only the ones with matches will appear. Any ideas?

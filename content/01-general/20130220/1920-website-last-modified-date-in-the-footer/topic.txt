@@ -1,0 +1,18 @@
+Title: Website "last modified" date - in the footer
+----
+Date: 2013-02-20 19:20:13
+----
+Solved: 1
+----
+User: psztrnk
+----
+Text: Hi,
+
+I'm currently experimenting with Kirby on localhost -- so far so nice, I managed to achieved everything I wanted.
+
+Everything, except one: I'd like to display the date the site was last modified in the footer (most likely in the footer.php snippet). So basically what I need is the data from the "date" of the latest blogpost. 
+
+Is it even possible to get that?
+
+Thanks,
+Adam

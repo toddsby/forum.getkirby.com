@@ -1,0 +1,8 @@
+User: JanStieler
+----
+Date: 2013-10-24 23:26:13
+----
+Text: I have shorttags enabled on php.ini and also in the Kirby htacccess.
+I got this error message:
+
+Parse error: syntax error, unexpected ';' in … site/snippets/menu.php on line 12

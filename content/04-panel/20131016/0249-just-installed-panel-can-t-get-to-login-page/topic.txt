@@ -1,0 +1,19 @@
+Title: Just installed Panel, can't get to login page…
+----
+Date: 2013-10-16 02:49:16
+----
+Solved: 0
+----
+User: artsydesigny
+----
+Text: Hi, I've set up Panel. Set up my account info.
+
+I get to this page…
+
+http://www.scozzari.ca/kirby/panel/
+
+When I click on (Login!) nothing happens.
+
+Not sure what to do.
+
+Rob

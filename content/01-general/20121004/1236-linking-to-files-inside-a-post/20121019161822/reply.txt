@@ -1,0 +1,5 @@
+User: apolaine
+----
+Date: 2012-10-19 16:18:22
+----
+Text: Thanks Matthew. I'm a Markdown guy and keep forgetting about Kirbytext. Would be nice if Markdown links worked too though.

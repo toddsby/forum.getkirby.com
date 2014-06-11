@@ -1,0 +1,7 @@
+User: bastianallgeier
+----
+Date: 2012-09-27 13:40:56
+----
+Text: PHP needs to be compiled with mbstring functions <http://php.net/manual/en/mbstring.installation.php> 
+
+I always thought that this is a standard, but it seems that more and more users run into similar problems. I use those functions to ensure that Kirby is working with UTF-8, but I will add fallbacks if those functions are not available in the next version.

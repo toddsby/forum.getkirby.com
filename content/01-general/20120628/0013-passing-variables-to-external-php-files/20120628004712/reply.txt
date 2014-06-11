@@ -1,0 +1,7 @@
+User: scottswany
+----
+Date: 2012-06-28 00:47:12
+----
+Text: Looks as though POST and GET functions can pass along the $page variables to the external .php file.  That should suffice for now.
+
+Hope that helps someone down the road.

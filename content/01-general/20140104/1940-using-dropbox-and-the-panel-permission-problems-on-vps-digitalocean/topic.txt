@@ -1,0 +1,23 @@
+Title: using dropbox and the panel permission problems on VPS digitalocean
+----
+Date: 2014-01-04 19:40:06
+----
+Solved: 0
+----
+User: jaypegams
+----
+Text: Hi,
+
+kirby is using www-data to write files. I am as well as dropbox using the username janfi.
+
+If I change ownership to janfi:janfi I can FTP my files over without issue and dropbox works well, but the Panel cannot write.
+
+If I change ownership to www-data:www-data kirby panel can write, but I cannot use dropbox or FTP.
+
+janfi:www-data (kirby panel cannot write, I can)
+www-data:janfi (kirby panel can write, I cannot)
+
+I would like to be able to FTP and use dropbox from my username, and have the Panel write as well. How do I do this?
+
+
+Thanks a ton.

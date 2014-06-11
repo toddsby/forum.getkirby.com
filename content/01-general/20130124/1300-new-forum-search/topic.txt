@@ -1,0 +1,21 @@
+Title: New forum search
+----
+Date: 2013-01-24 13:00:33
+----
+Solved: 0
+----
+User: bastianallgeier
+----
+Text: Hey guys, 
+
+I'm happy to announce that the forum finally has its own search. 
+I think there's still space for improvements but I think this is a big step forward to make it easier to find stuff here :)
+
+Can't wait to hear what you think about it. 
+You can find the search in the little menu in the upper right corner, next to your profile name. 
+
+Here's a direct link: <http://getkirby.com/forum/search>
+
+Cheers, Bastian
+
+P.S. what do you like to see in the forum next? Wishes?

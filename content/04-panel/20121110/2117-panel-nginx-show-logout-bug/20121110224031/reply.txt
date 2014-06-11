@@ -1,0 +1,13 @@
+User: niklaspostulart
+----
+Date: 2012-11-10 22:40:31
+----
+Text: As noted on github [Issue #21](https://github.com/bastianallgeier/kirbycms-panel/issues/21) I set
+
+    c::set('panel.rewrite', false);
+
+in
+
+    site/panel/config/config.php
+
+and the logout will work properly.

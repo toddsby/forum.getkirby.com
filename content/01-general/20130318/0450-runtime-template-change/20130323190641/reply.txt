@@ -1,0 +1,9 @@
+User: russbaldwin
+----
+Date: 2013-03-23 19:06:41
+----
+Text: The problem here is if people don't land on your home page and if you alter something that makes the CMS run, this could also affect your 'site down' page. 
+
+Perhaps the easiest is just to add a temporary index.html 'site is down' page and also replace your .htaccess with a temporary one to route traffic to this index.html?
+
+So then as along as you don't touch these files all will be good.

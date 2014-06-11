@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2014-03-12 17:22:25
+----
+Text: You could possibly build it into the same foreach loop, but have a conditional statement. That might not let you handle the order correctly, though.
+
+You could also probably just split the PHP object somehow, but that's probably not any easier. If you know what location the item in question is (beginning or end) that shouldn't be too hard, but otherwise it could be awkward.

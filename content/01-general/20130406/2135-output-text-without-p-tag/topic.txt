@@ -1,0 +1,23 @@
+Title: Output text without <p> tag?
+----
+Date: 2013-04-06 21:35:28
+----
+Solved: 1
+----
+User: tallblondeguy
+----
+Text: Not sure if this has been addressed yet...wasn't sure how to search for it. 
+
+So I created my own...not sure what to call it...tag? Like this:
+
+    Title: Portfolio Item 3
+    ----
+    Gig: Freelance
+    ----
+    Text: [...]
+
+And in my portfolio.php file, I put `A <?php echo kirbytext($page->gig()) ?> gig`. This obviously didn't have the results I wanted.
+
+Is there a way to output the Gig text without the `<p>` tag? Or, is there another solution to the problem?
+
+Thanks.

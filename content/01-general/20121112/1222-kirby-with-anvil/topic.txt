@@ -1,0 +1,11 @@
+Title: Kirby with Anvil?
+----
+Date: 2012-11-12 12:22:55
+----
+Solved: 0
+----
+User: ndrsn
+----
+Text: I know it's possible with MAMP and all that jazz, but the simplicity of Anvil would be pretty awesome if it could work with a local GetKirby installation.
+
+So? Possible? Impossible? Future versions?

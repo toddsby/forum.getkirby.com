@@ -1,0 +1,13 @@
+Title: Only a thumbnail for the first image in subpage?
+----
+Date: 2013-03-03 18:56:24
+----
+Solved: 0
+----
+User: janstieler
+----
+Text: Hi,
+I use the Thumb-Plugin for generating thumbnails for an gallery.
+But now my problem is that I got generate thumbs for every image in the subpagefolder. But I need only a thumbnail for the first image in the folder. How can I realize that?
+
+BR

@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2014-03-22 16:39:30
+----
+Text: You might have to do something like `$site->pages()` and then loop through them and compare each `$page->template()` to the one you're looking for.
+
+Doesn't sound terribly efficient though. I'm not really sure how index works, however.

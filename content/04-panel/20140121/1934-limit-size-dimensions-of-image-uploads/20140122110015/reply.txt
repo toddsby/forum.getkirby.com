@@ -1,0 +1,5 @@
+User: _diondiondion
+----
+Date: 2014-01-22 11:00:15
+----
+Text: Wouldn't it be much friendlier behaviour to just automatically downsize images that exceed a specified threshold, instead of giving the users an error and asking them to do it themselves? ;)

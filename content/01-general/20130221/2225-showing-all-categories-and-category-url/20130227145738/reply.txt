@@ -1,0 +1,22 @@
+User: nathaniel_h
+----
+Date: 2013-02-27 14:57:38
+----
+Text: I'm still not able to get this working. It's visible in the sidebar on the blog.php page, but not visible on any of the other pages. I'm not a fan of drop downs, so I wanted to stay away from having it in the top menu bar.
+
+edit:
+I figured it out!
+
+     <?php
+     $categories = tagcloud($pages->find('blog'), array(
+     	'param'    => 'category',
+     	'field'    => 'categories'
+     									
+     ));
+     ?>
+     <h3>Categories</h3>
+     <ul>
+     <?php foreach($categories as $category): ?>
+     <li<?php if($category->isActive()) echo ' class="active"' ?>><a href="                   <?php echo $category->url() ?>"><?php echo $category->name() ?></a></li>
+     <?php endforeach ?>
+     </ul>

@@ -1,0 +1,7 @@
+User: ibuypink
+----
+Date: 2013-08-30 22:42:15
+----
+Text: Very confusing. I'm no expert, but what are you trying to achieve? Are you simply trying to change so that /blog is the home page? In that case, simply change in /site/config/config.php to:
+
+	c::set('home', 'blog');

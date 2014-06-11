@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-04-15 19:07:05
+----
+Text: This has been discussed on the forum elsewhere. Short answer: you either need to have a space after the opening parenthesis (not very nice, usually) or you need to use the html entities for the parentheses. `&#40;` and `&#41;`

@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-08-05 19:49:22
+----
+Text: Yeah, it's probably conflicting with Kirby's built-in rewrite. You could set it up as a redirect, but that obviously wouldn't accomplish the same thing.

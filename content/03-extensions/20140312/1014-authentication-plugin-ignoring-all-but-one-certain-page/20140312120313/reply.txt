@@ -1,0 +1,5 @@
+User: hennirocks
+----
+Date: 2014-03-12 12:03:13
+----
+Text: **Edit**: "Controlling the firewall with your content files" did the trick, I feel silly for having asked ;) But at least, others may find this post helpful :)

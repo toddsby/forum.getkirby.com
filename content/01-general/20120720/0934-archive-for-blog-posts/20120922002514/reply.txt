@@ -1,0 +1,26 @@
+User: fitzage
+----
+Date: 2012-09-22 00:25:14
+----
+Text: I haven't actually done this, so I'm not 100% sure, but I have some ideas.
+
+The easiest thing to do from a template and maintenance standpoint is probably to make it parameter based. So instead of having URLs like blog.com/archive/2012/12/ it would be more like blog.com/archive/year:2012/month:12/ or even blog.com/archive/y:2012/m:12/.
+
+You would then access them in your archive template using <?php param('year') ?> etc.
+
+Then you would need to filter the blog results. Now it would be really easy to use the filterBy method, but I'm not sure if that's possible regarding dates, and if it is I'm not sure how.
+
+So I think you would need to set up some conditionals that compare the year of each article to the year in the parameter, and then within that compare the month. So you'd have something along these lines:
+
+    <?php $blog = $pages->find('articles')->children()->visible()->sortBy($sort='date', $dir='asc') ?>
+    <?php foreach ($blog AS $article): ?>
+        <?php if ($article->date('Y') == param('year')) { ?>
+            <?php if ($article->date('m') == param('month')) { ?>
+                <?php echo $article->title() ?>
+            <?php } ?>
+        <?php } ?>
+    <?php endforeach ?>
+
+I haven't tested this, but I think it should work. Then you'll need to generate lists of dates based on the content for navigation purposes. That might be a little more complicated. I think it would involve creating an array from all the years included in the dates of the given articles, and then within the years doing the same for months. I don't have the time to really dig into that.
+
+I would think a plugin could be created to make it somewhat reusable. I may work on something like that myself when I have the time.

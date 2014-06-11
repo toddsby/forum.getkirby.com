@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2013-04-13 17:24:20
+----
+Text: How well does that method work? I know that one method (and the one I've been using) adds a query string. There are some reasons why that's not always advised. One of them has to do with proxy servers not recognizing it, but I'm not sure if there are more reasons. Does the anchor method have the same problems?
+
+I guess either method is probably fine except for extreme edge cases.

@@ -1,0 +1,15 @@
+Title: Can't log into the Control Panel
+----
+Date: 2013-12-05 13:48:38
+----
+Solved: 1
+----
+User: conefreykoedam
+----
+Text: I've transferred a local dev site to a remote server. I've placed the site in a subfolder and put up a firewall with the Authentication plugin. Everything works just fine.
+
+Meanwhile I worked on the panel and uploaded the necessary files, but trying to log into the Panel fails: after filling in user and password and hitting the submit button doesn't do anything but reset the login form. In my local MAMP set up I'm able to login though.
+
+I've double checked all the files and folders.
+Any suggestions?
+Thanks

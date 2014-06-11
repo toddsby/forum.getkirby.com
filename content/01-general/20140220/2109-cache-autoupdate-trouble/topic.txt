@@ -1,0 +1,19 @@
+Title: Cache Autoupdate Trouble
+----
+Date: 2014-02-20 21:09:17
+----
+Solved: 0
+----
+User: travvt
+----
+Text: Hello All,
+
+I'm having some trouble with cache.autoupdate not performing as I expected. While the comments in site/config/config.php state:
+
+> With c::set('cache.autoupdate') you can set if Kirby will automatically check for updates in your content folder.
+
+the result is that once a page has been cached it's never replaced with a newer version. I have confirmed that caching is working, files are being created in site/cache, and the site performance improves greatly on pages that contain large Kirby for-each loops. No changes/updates to a page's content TXT file ever replaces the already cached page.
+
+If anyone has any ideas, or has encountered the same, I'd really appreciate the help.
+
+Thanks Kirby community!

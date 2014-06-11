@@ -1,0 +1,7 @@
+User: sammularczyk
+----
+Date: 2014-01-16 03:00:03
+----
+Text: Seems Kirby reads blueprint PHP files as plain text. So that offset error is appearing because Kirby doesn't actually see the intended PHP output - it just ignores those lines entirely.
+
+Is there a way to get Kirby to process the code first?

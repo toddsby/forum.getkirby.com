@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2013-05-13 09:35:59
+----
+Text: You should simply use `$page->uid()` instead of `$page->translatedUID()` It won't break anything if you go for translatedUID but the uid method is the one that is intended for that kind of job.

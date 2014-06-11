@@ -1,0 +1,5 @@
+User: texnixe
+----
+Date: 2013-08-21 21:14:02
+----
+Text: Just delete the quotation marks around the variable in filterBy, it should read filterBy('sport', $sitetitle, ','), then it should work.

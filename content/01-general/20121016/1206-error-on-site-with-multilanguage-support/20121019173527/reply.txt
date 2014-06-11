@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-10-19 17:35:27
+----
+Text: Which problem with the panel still exists? Maybe I can help if you could send me an FTP access to your site. That's always the easiest way to help you with troubleshooting. If that's an option, just send me an email: <bastian@getkirby.com>

@@ -1,0 +1,32 @@
+Title: How to filter all pages that DON'T have any tags (or exclude pages that do have tags?)
+----
+Date: 2014-04-02 02:57:12
+----
+Solved: 0
+----
+User: unexpectedsport
+----
+Text: Hi all, this might seem like a silly question but I'm trying to figure out the best way to approach this. I'm working on a site with many "project" pages and want to create a simple way to show "featured" pages at the top. I just read Bastien's post about using filterby() and managed display all entries with the following tag: 
+
+	status: featured
+
+So that's working great. The next part I'd like to do is show all the rest of the pages that DON'T have a "status" tag. I know I could just go through and make another category, like "status: normal" but I think it would be safer and easier to just set it up to display anything without a status tag after the "featured" items.
+
+Here is the code I used to grab all the "status: featured" pages:
+
+	<?php $featured = $pages->find('projects')->children()->filterBy('status', 'featured'); ?>
+	<?php foreach($featured as $featured_item): ?>
+		<?php if($image = $featured_item->images()->shuffle()->first()): ?>
+		<figure class="iso-item project-thumbnail <?php echo $featured_item->tags() ?>">
+		    <a href="<?php echo $featured_item->url() ?>"><img src="<?php echo $image->url(); ?>"></a>
+		</figure>
+	    <?php endif ?>
+	<?php endforeach ?>
+
+Ultimately, I'd like to have three categories: 
+
+1. status: featured
+2. status: archive
+3. everything else (i.e. no status tag)
+
+Thanks in advance!

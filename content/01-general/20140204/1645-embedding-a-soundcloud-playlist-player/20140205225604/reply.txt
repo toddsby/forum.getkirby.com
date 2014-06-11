@@ -1,0 +1,7 @@
+User: francescoea
+----
+Date: 2014-02-05 22:56:04
+----
+Text: Here it is.
+
+(link:http://www.softworkr.com/blog/20140206-kirbytext-embedding-soundcloud text:Extending Kirbytext to embed Soundcloud tracks)

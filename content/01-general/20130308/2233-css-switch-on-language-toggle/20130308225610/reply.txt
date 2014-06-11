@@ -1,0 +1,16 @@
+User: baderkamal
+----
+Date: 2013-03-08 22:56:10
+----
+Text: I was able to make this work using:
+
+    <link rel="stylesheet" href="/assets/styles/<?php echo l::get("language-toggle") ?>" />
+
+While setting 'language-toggle' in the as a language variable:
+
+en.php:
+    l::set('language-toggle', 'foundation.css');
+ar.php:
+    l::set('language-toggle', 'foundationarabic.css');
+
+This seems to be working fine for now. But I do have a feeling that there might be an easier/better way.

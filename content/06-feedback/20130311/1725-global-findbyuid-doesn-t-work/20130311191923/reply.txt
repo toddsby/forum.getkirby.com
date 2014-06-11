@@ -1,0 +1,17 @@
+User: russbaldwin
+----
+Date: 2013-03-11 19:19:23
+----
+Text: Not sure if you are after this, but it returns an array of lots of stuff, assuming you are after 'title' and it exists in your txt file for example (Not Tested):
+
+`
+Title: About
+`
+
+```php
+<?php echo $pages->findByUID('about')->first()->title() ?>
+```
+
+```html
+About
+```

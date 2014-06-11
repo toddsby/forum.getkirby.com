@@ -1,0 +1,23 @@
+Title: Page delete issue
+----
+Date: 2012-12-30 16:48:47
+----
+Solved: 0
+----
+User: th451
+----
+Text: Hello!
+
+I am having the following issue: when I try to delete a page using the panel, I get redirected to the following URL
+`http://dev.mysite.com/panel/index.php/en/blog/show:pages`
+
+which displays an error message:
+
+`Warning: require(/var/www-dev/panel/templates/pages.php): failed to open stream: No such file or directory in /var/www-dev/panel/lib/panel.php on line 159 Fatal error: require(): Failed opening required '/var/www-dev/panel/templates/pages.php' (include_path='.:/usr/share/php:/usr/share/pear') in /var/www-dev/panel/lib/panel.php on line 159`
+
+Strange thing is that an exact copy of this website is working OK on my local machine (permissions etc). The only difference is that I use apache locally and lighttpd on remote, but I can't see any problems with this -- rewrite rules are translated and seem to be working properly on both main site and panel. Any thoughts?
+
+I have tried using both stable panel version and the one from dev, same issue re-occurs.
+
+
+Thanks!

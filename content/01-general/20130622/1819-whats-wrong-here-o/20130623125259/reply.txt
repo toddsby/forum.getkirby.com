@@ -1,0 +1,12 @@
+User: primitiv_me
+----
+Date: 2013-06-23 12:52:59
+----
+Text: @russbaldwin Thanks for your help.
+
+Now it works :)
+Forgot to activate curl on my local xampp installation :)
+
+The next Step is to become a row with 2 Pictures and not only 1 Picture in a row, but i it will not work for me :/.
+
+Someone have experience with this ?

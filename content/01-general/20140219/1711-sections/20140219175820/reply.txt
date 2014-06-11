@@ -1,0 +1,16 @@
+User: fitzage
+----
+Date: 2014-02-19 17:58:20
+----
+Text: 1. You can pull content from other pages via the templates. This is best used in cases where you want the same content on multiple pages (like maybe sidebars) or when you're creating a main page that links to other pages (like a blog archive).
+2. You can have as many fields as you want in your markdown file. Just include a line of four hyphens between them, and then the field name followed by a colon. Then you pull them into your template the same way you do other fields.
+
+```php
+<?php echo kirbytext($page->column1()) ?>
+```
+For your sidebar list example, it depends on what you're listing there. You could have a field called sidebar_list on each page, but if you want the same thing on multiple pages, you have a few options:
+
+1. **Include it in the template or a sidebar snippet**. This is best if you're creating a dynamic list of pages or something, like navigation or listing categories. Things like that. That way you can make it automatic in the template.
+2. **Have a specific content file for the sidebar**. For example, you'd have an invisible "page" called sidebar that has as many fields as you need, then you'd pull that in the template or sidebar snippets.
+3. **Have a content folder with multiple entries.** You'd have an invisible sidebar content folder, with multiple "pages" inside it. Each of these "pages" would be different blocks in your sidebar. They'd only need a title and text field. One advantage of this is you could just loop through them in your sidebar snippet, and automatically pull the title and text for each chunk in the sidebar. Then you can easily rearrange them, remove, replace, or add new ones. Not a lot of places I can think where this would come in really handy, but it's pretty flexible.
+4. **Include sidebar content in site.txt**. Site.txt is a good place to include values that you don't really need pages for, and are included around the site. You'd call these fields the same way the footer copyright info is called in the examples.

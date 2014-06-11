@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-03-27 09:26:02
+----
+Text: Not sure why you'd be stripping it...but if it is just for this to remove the '/blog' bit, then maybe parse the URL, remove the bit you don't want and then re-assemble?
+
+There are quite a few handy [string methods in the toolkit](http://toolkit.getkirby.com/docs/classes/str)

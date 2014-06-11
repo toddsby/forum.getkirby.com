@@ -1,0 +1,26 @@
+Title: Readingtime plugin a bit off
+----
+Date: 2012-05-18 09:12:57
+----
+Solved: 0
+----
+User: nilshendriks
+----
+Text: I noticed the readingtime plugin is a bit off in its calculation because it sees the kirbytext links (the href value) as words. The more links you have in your content the longer the reading time becomes, sometimes even doubling the time.
+
+Maybe not a big issue, but I thought the forum was a nice place to put this :-)
+
+I changed this:
+
+```php
+$words   = str_word_count(strip_tags($content));
+```
+
+to:
+
+```php
+$words = kirbytext($content);
+$words   = str_word_count(strip_tags($words));
+```
+
+Of course this assumes you're using kirbytext I guess...

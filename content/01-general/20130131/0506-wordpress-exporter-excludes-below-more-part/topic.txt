@@ -1,0 +1,13 @@
+Title: WordPress Exporter excludes below <!--more--> part
+----
+Date: 2013-01-31 05:06:28
+----
+Solved: 0
+----
+User: saifulmuhajir
+----
+Text: I tried to export from my old WordPress using WordPress exporter and it did well. Except that it didn't export what lies below **more** part.
+
+Any suggestions?
+
+Thanks

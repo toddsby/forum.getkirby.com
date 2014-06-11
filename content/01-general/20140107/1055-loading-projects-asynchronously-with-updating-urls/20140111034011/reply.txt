@@ -1,0 +1,5 @@
+User: syropian
+----
+Date: 2014-01-11 03:40:11
+----
+Text: I think your best bet would be to use a combination of (link: http://visionmedia.github.io/page.js/ text: page.js) and (link: http://api.jquery.com/load/ text: jquery's load function).

@@ -1,0 +1,5 @@
+User: netaisllc
+----
+Date: 2013-06-12 23:29:32
+----
+Text: @dokdeleon, yeah I tried that before posting. It displayed a lot but nothing jumped out at me. In the meantime, since I am using VMs, I spun up another standard Lampstack image using Vagrant (vagrantup.com) and everything worked out perfectly. I strongly suspect I messed up permissions on the first go round. Thanks for taking the time to reply with hints.

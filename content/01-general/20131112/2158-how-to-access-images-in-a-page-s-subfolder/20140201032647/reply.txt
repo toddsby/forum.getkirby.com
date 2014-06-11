@@ -1,0 +1,16 @@
+User: boerup
+----
+Date: 2014-02-01 03:26:47
+----
+Text: Sorry - I am quite the noob. I am trying to show an image from a subpage, but I don't quite get it. 
+
+I have this:
+
+$imagepage = $page->children()->first()
+$images = $imagepage->images()             
+echo ($images)
+
+which shows the correct url of the first (and only) image in the subfolder. How do I show the actual image on the page? 
+
+I hope you can help,
+Br, B

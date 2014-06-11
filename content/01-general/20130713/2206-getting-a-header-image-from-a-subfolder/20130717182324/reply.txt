@@ -1,0 +1,11 @@
+User: jrantaka
+----
+Date: 2013-07-17 18:23:24
+----
+Text: Yeah, already solved this. Apparently I was under the influence of something when I first wrote this because when I look at it now I understand how I need to do it.
+
+
+```
+<?php $image = $article->images()->find('header.jpg') ?>
+<img src="<?php echo $image->thumb()->url() ?>">
+```

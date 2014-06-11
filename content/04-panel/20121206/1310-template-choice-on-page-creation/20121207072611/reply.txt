@@ -1,0 +1,20 @@
+User: brianwik
+----
+Date: 2012-12-07 07:26:11
+----
+Text: Strange I am getting the total opposite! ... I want to set a specific template for a subpage but it just keeps giving me the list ... here is what I have:
+
+
+project blueprint
+title: Project Page
+pages: true
+    template: project
+files: true
+fields:
+  title:
+    label: Title
+    type:  text
+  text:
+    label: Text
+    type:  textarea
+    size:  large

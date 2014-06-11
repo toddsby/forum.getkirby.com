@@ -1,0 +1,7 @@
+User: iamirm
+----
+Date: 2014-03-13 11:08:45
+----
+Text: The height and width params for the thumb plugin are there for the creation of the thumbnail. If you set a thumbnail width 200 and height 100, a thumbnail with those exact dimensions is created.
+
+Thus no need for inline width and height.

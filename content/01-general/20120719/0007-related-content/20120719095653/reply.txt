@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-07-19 09:56:53
+----
+Text: There's no way to build a nice field for this in the Panel yet, but I'm working on something :)

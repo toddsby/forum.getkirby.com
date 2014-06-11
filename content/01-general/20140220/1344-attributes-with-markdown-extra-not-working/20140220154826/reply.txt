@@ -1,0 +1,24 @@
+User: russbaldwin
+----
+Date: 2014-02-20 15:48:26
+----
+Text: Do you need to use MarkdownExtra?
+Normal KirbyText will give you what you want...
+
+```
+( link: /what-we-do/testimonials text: Read what some of our customers say class: btn )
+```
+
+```html
+<p>
+  <a href="http://ktest.dev/what-we-do/testimonials" 
+  class="btn">Read what some of our customers say</a>
+</p>
+```
+Rendered with
+
+```php
+<?php 
+  echo kirbytext($page->text())
+?>
+```

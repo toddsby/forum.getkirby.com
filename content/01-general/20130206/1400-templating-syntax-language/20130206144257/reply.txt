@@ -1,0 +1,5 @@
+User: plartz
+----
+Date: 2013-02-06 14:42:57
+----
+Text: I had the same discussion with Bastian already some weeks (or months? :D) ago – I asked why he wants us to use kirbytags. He argued (and I totally agree with him after working on some more projects) that you are way more flexible when you use PHP instead of creating another templating syntax that everyone has to learn. Both have their pros and cons, but I think kirby is intended to be easy and flexible, and PHP is definitely more flexible (and you don't have to learn much if you know it already).

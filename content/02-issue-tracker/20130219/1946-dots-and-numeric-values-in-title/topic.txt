@@ -1,0 +1,9 @@
+Title: Dots and numeric values in Title
+----
+Date: 2013-02-19 19:46:26
+----
+Solved: 0
+----
+User: roman_oroco
+----
+Text: Currently via Panel isn't possible to create Titles with dots ex. "`M.A.C. Concept`" and numeric value at the beginning ex. "`26th Biennale des Antiquaires`" in fact the last one gives me an error page.

@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2013-02-22 10:12:28
+----
+Text: In your example you have wrapped $page->title() in quotes. Is this the same in your template? That might be the issue.

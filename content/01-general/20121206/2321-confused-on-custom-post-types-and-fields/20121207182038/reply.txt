@@ -1,0 +1,11 @@
+User: fitzage
+----
+Date: 2012-12-07 18:20:38
+----
+Text: I agree with @tysongach: if you're not having people access the lettering and type pages directly, then it doesn't matter what their URL is. I would just put them under Portfolio, and then in the portfolio template pull them in as children and display their content on the Portfolio page.
+
+Granted, you can do this by having them at the top level too, it just makes more sense and seems less cluttered to have them under portfolio.
+
+No matter where they are, you can add their directories to your robots.txt to deny search engines access to them so they don't access them directly. You could probably also do an htaccess redirect that sends people back to the portfolio page if they access them.
+
+At least if I understand your requirements correctly.

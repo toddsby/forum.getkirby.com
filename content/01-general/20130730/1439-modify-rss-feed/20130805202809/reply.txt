@@ -1,0 +1,5 @@
+User: Swissendo
+----
+Date: 2013-08-05 20:28:09
+----
+Text: Alright, using `<?php if($item->quote() !=''): ?><blockquote><?php echo ($item->quote()) ?></blockquote>` seems to solve the problem for me. I'll have to test it further, but thank you @russbaldwin for the assistance and the help.

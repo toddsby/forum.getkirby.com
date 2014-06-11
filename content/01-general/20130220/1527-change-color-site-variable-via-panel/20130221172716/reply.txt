@@ -1,0 +1,11 @@
+User: roman_oroco
+----
+Date: 2013-02-21 17:27:16
+----
+Text: @lulezi Thank you, works well!
+
+P.S. You are right about validation, maybe use (link:https://github.com/Belelros/jQuery-ColorPicker text:jQuery-ColorPicker) with Panel integration it's would be useful.
+
+(image:http://f.cl.ly/items/3V2u1C0E1x120Y453H2W/jquerycolor-picker.jpg)
+
+*<small>I don't know it's support mobile devices</small>*

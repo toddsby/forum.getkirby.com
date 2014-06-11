@@ -1,0 +1,13 @@
+User: zavadesign
+----
+Date: 2013-04-21 12:12:08
+----
+Text: Okay, worked out both the above, but a new problem has arisen...
+
+So showing buttons I found out how from: http://getkirby.com/blog/panel-0-6
+
+But now I get an error message at the top of my edit screen:
+
+Notice: Undefined variable: css in /public_html/kirby/panel/lib/form.php on line 160
+
+Warning: implode() [function.implode]: Invalid arguments passed in /public_html/kirby/panel/lib/form.php on line 160

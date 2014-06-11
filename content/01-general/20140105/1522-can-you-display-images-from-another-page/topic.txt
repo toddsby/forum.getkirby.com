@@ -1,0 +1,39 @@
+Title: Can you display images from another page?
+----
+Date: 2014-01-05 15:22:14
+----
+Solved: 1
+----
+User: sciascia10
+----
+Text: Hi There,
+
+I've been searching but can't find any info sorry (I must be using the wrong search terms).
+
+I have a shared gallery section setup like this:
+|_ galleries-shared
+|__ hand-wrapped
+|___ handwrapped_01.jpg
+|___ handwrapped_02.jpg
+|___ handwrapped_02.jpg
+
+How to I display images from the hand-wrapped directory on another page?
+
+    <?php
+      // Grab hand-wrapped packaging gallery
+      $gallery = $pages->find('hand-wrapped');
+    ?>
+
+    <? if($gallery->hasImages()) : ?>
+    <div class="product-gallery">
+      <? foreach($gallery->images() as $image): ?>
+      <a class="fancybox" href="<?= $image->url() ?>">
+        <img class="fancy-thumb" src="<?= thumb($image, array('width' => 79), false) ?>" alt="<?= $image->title() ?>">
+      </a>
+      <? endforeach ?>
+    </div>
+    <? endif ?>
+
+Any help would be much appreciated.
+
+Cheers

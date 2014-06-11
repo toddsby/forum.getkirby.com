@@ -1,0 +1,7 @@
+User: lulezi
+----
+Date: 2012-09-13 18:39:22
+----
+Text: Sure that'd be possible. But in this snippet the whole page loads if you request a new image.
+
+Take a look at the (link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/gallery/gallery.mdown text: gallery-snippet) from Bastian. Combine it i.e. with (link: http://fancyapps.com/fancybox/ text: fancyBox) and you're good to go.

@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-01-14 09:24:33
+----
+Text: It does this with wrong login credentials, although if memory serves me correctly it does change colour?

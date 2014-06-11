@@ -1,0 +1,5 @@
+User: DevDataStream
+----
+Date: 2014-02-21 20:26:17
+----
+Text: Much easier to rely on a date field in the news.en.txt file. You can read the string and then convert that to a valid date string. That way you can optionally enable dates in the url, or disable it to your liking. I'll probably post something like that in the coming weeks. I'm currently working on a slideshow, gallery, blog/news archive, download section, realtime search and more. Gonna publish some stuff after I am finished.

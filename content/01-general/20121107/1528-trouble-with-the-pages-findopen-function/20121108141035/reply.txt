@@ -1,0 +1,9 @@
+User: chrstphbach
+----
+Date: 2012-11-08 14:10:35
+----
+Text: Hey,
+
+you get this error, because you call `$sub_sections->findOpen();` while `$sub_section` seems to be false I guess. So it's not an object. I am not familiar with how findOpen() works, but what exactly are you trying to do here? Just identifying the current page? 
+
+There might be several small logical errors in your code. At least you have to make sure that `$sub_section` is definitely not false when calling an object function on it.

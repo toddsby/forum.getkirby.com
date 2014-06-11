@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-06-14 16:59:40
+----
+Text: Well, that would be very complicated and I'm not even sure if it would work at all. You would need to check first if there are children for the current page and then jump down a level deeper and go on with pagination there and if you reached the end in a subcategory you need to check again if there's a next parent. Do you know what I mean. It's probably doable, but quite complex.

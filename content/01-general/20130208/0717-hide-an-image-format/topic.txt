@@ -1,0 +1,35 @@
+Title: Hide an image format
+----
+Date: 2013-02-08 07:17:35
+----
+Solved: 1
+----
+User: p_mylecharane
+----
+Text: Hey all.
+
+Just working on a template and I'm calling a specific image (png) that I only want to display once–therefore I need to hide it from the general flow of images in the project. 
+
+They way I am displaying it currently is like this:
+
+    <? $image = $page->images()->find('01.thumb.png') ?>
+
+    <img class="png" src="<? echo $image->url() ?>" alt="<? echo $image->title() ?>" />
+
+Then to display all the other images associated with the project (jpgs) I am using this:
+
+    <? foreach($page->images() as $image): ?>
+
+	    <li class="<? echo $image->position() ?>">
+
+		    <img src="<? echo $image->url() ?>" alt="<? echo $image->title() ?>" />
+
+		    <p class="img-caption"><? echo $image->caption() ?></p>
+
+	    </li>
+
+    <? endforeach ?>
+
+I somehow need to add an if statement that says if an image is a png then "display:none" or something like that.
+
+Any help would be awesome..

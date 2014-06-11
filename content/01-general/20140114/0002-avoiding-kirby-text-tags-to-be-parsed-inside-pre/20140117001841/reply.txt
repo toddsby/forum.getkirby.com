@@ -1,0 +1,19 @@
+User: francescoea
+----
+Date: 2014-01-17 00:18:41
+----
+Text: Thanks for your reply, but it doesn't work. 
+
+I want to display in a code block something like this:
+
+    ( image:aaa.jpg )
+
+(without the spaces) 
+
+But using the character entities I get
+
+    &lpar;image:aaa.jpg&rpar;
+
+and if don't use them I get the kyrbytext tag converted to html:
+
+    (image:aaa.jpg)

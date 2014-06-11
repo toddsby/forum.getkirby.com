@@ -1,0 +1,30 @@
+User: russbaldwin
+----
+Date: 2013-03-11 18:41:52
+----
+Text: Assuming you structure your folders like this?
+```
+projects
+  projects.txt
+      01-projecta
+          project.txt
+          project.jpg
+      02-projectb
+          project.txt
+          project.jpg
+```
+
+Then you can loop through the group of pages and get the elements required? You could do it twice if you need to changing what you echo, for example (only once)...
+
+```php
+<h3>Loop of Projects<h3>
+ <?php $projects = $pages->find('projects')->children() ?>
+ <ol>
+ <?php foreach($projects as $project): ?>
+  <li>Title: <?php echo $project->title() ?><br/>
+    Text: <?php echo $project->text() ?><br/>
+    <img src="<?php echo $project->images()->first()->url() ?>" alt="<?php echo $project->title() ?>"?>
+  </li>
+<?php endforeach ?>
+</ol>
+```

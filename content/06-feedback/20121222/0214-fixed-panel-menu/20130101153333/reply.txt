@@ -1,0 +1,7 @@
+User: tysongach
+----
+Date: 2013-01-01 15:33:33
+----
+Text: You're right. I had my blueprints only show 5 visible and 5 invisible subpages, so I never ran across the issue. This method breaks that flexibility of showing more.
+
+A JavaScript solution would work a lot better.

@@ -1,0 +1,32 @@
+User: nathaniel_h
+----
+Date: 2013-02-21 22:43:08
+----
+Text: I'm not sure you would have to use the tagcloud plugin or not. It seems like it's very similar, now that you mention it. 
+
+On each blog post I have a categories field which I display on the home page next to each post by using
+(image: http://rhino.im/g/0qTn.png)
+
+title: IBM Model M Buckling Spring Keyboard Sound Test
+
+----
+
+date: 2012-03-13 04:29
+
+----
+
+text: 
+
+I present to you the IBM Model M, a classic buckling spring keyboard...
+
+----
+
+tags: buckling, classic, ibm, keyboard, m, mechanical, model, retro, sound, spring, test
+
+----
+
+categories: Hardware
+
+I was wondering if I could make it a link to see other posts in the same category.
+
+And then as a second option, I was wondering if I could list all categories with links on a page or in the sidebar of my website.

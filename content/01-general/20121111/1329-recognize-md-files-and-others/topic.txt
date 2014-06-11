@@ -1,0 +1,17 @@
+Title: Recognize .md files (and others)
+----
+Date: 2012-11-11 13:29:43
+----
+Solved: 0
+----
+User: __rizqi
+----
+Text: Part of my workflow is using the excellent iA Writer app to easily and quickly jot things down from a variety of devices. Leveraging the dropbox-syncing trick, this makes it super-easy to blog from anywhere, anytime. There's just one problem.
+
+iA Writer stores the files with the .md extension.
+
+There's no "right" extension, but this is turning into a big deal for me, because I'm forced to rename files explicitly, which kind of clogs up the workflow (and is sometimes impossible in certain difficult scenarios). Other applications accept .mdown or .markdown.
+
+Would it be possible to get Kirby to recognize these file formats? They'd also help hint that the contents support the Markdown format.
+
+(I'm aware that it's not _really_ Markdown, but it's close enough.)

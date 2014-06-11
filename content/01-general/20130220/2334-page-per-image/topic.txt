@@ -1,0 +1,19 @@
+Title: Page per image
+----
+Date: 2013-02-20 23:34:12
+----
+Solved: 0
+----
+User: roobottom
+----
+Text: Hello
+
+I've created a gallery using the excellent thumbnail plugin. Each item links to the original large version of the image.
+
+Rather than using a lightbox plugin to display the large image, I'd like to have a page where I can display the image.
+
+Is it possible to create a template that displays one image? And if so, how would I link to it _without_ having to create a .txt file for each image?
+
+Hope this makes sense!
+
+Thanks.

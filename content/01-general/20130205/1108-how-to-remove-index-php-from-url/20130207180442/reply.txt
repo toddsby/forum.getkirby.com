@@ -1,0 +1,7 @@
+User: toonvdstruijk
+----
+Date: 2013-02-07 18:04:42
+----
+Text: Thanks both of you.
+I changed the rewrite rule, and added the kirby .htaccess file.
+Everything now works as promised.

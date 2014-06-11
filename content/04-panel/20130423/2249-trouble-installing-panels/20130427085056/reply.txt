@@ -1,0 +1,12 @@
+User: russbaldwin
+----
+Date: 2013-04-27 08:50:56
+----
+Text: I only asked because of
+'xampphtdocs/kirby/lib/kirby.php
+
+This one also has no slashes...
+'xampphtdocsgetkirbyindex.php
+
+Also what version PHP and is it set up OK with necessary modules. 
+Have you checked access rights.

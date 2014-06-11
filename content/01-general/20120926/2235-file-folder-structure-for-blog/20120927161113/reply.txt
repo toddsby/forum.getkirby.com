@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2012-09-27 16:11:13
+----
+Text: Regarding file naming: if you set things up so that the articles use the default template, and any other page types use custom templates, your article text files can be named whatever you want. If there's no template available, it will fall back to the default.

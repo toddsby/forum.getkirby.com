@@ -1,0 +1,27 @@
+User: unsaltednu
+----
+Date: 2014-04-29 21:21:04
+----
+Text: Quick Hack
+
+Add this to your config.php in site/panel/config
+(add templates you want to exclude to the array)
+
+```
+// exclude these templates
+c::set('templates.exluded', array(
+	'error',
+	'homepage',
+));
+```
+Replace:
+```
+if(empty($name) || in_array($name, $templates)) continue;
+```
+with:
+```
+if(empty($name) || in_array($name, $templates) || in_array($name, c::get('templates.exluded'))) continue;
+```
+in panel/lib/data.php around line 753
+
+You still need to add a blueprint... like I said it's a quick hack ; )

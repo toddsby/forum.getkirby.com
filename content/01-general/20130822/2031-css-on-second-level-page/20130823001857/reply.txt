@@ -1,0 +1,7 @@
+User: jrdnbwmn
+----
+Date: 2013-08-23 00:18:57
+----
+Text: It must be relative then, here's what it looks like: http://cl.ly/image/223N0P43380O
+
+How do I make it "absolute"? This must be really basic stuff but I never learned it.

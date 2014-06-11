@@ -1,0 +1,6 @@
+User: richardhellyer
+----
+Date: 2013-03-12 08:42:47
+----
+Text: Many thanks Russ, I'd not realized that you could have php in the text file so I'll try that ... I do agree that it's not cool to have code in the text files, so I'll look at a way to refactor that. I put the images in the assets folder because they're icons that are used in lots of pages ... 
+Richard

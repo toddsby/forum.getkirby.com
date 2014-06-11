@@ -1,0 +1,7 @@
+User: mfedko
+----
+Date: 2013-10-23 07:24:03
+----
+Text: Turn on debugging, in my case the session could not be created:
+
+http://stackoverflow.com/questions/5104065/php-session-handling-errors

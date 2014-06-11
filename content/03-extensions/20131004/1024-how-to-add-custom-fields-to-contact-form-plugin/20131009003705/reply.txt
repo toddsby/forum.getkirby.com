@@ -1,0 +1,178 @@
+User: ChrisjMartin87
+----
+Date: 2013-10-09 00:37:05
+----
+Text: Hey,
+
+The code is slightly messy but its functional. 
+
+Planner.php Template
+
+        <?php snippet('header') ?>
+	<div class="full-page form-item">
+    	<section class="container">
+    
+	<?php
+    
+       $form = new contactform(array(
+       'to'       => 'Chris <sayhello@minml.co>',
+       'from'     => 'Contact Form <sayhello@minml.co>',
+       'subject'  => 'Oi, Awesome!',
+       'goto'     => $page->url() . '/status:sent'
+       ));
+       ?>
+    
+       <?php if(param('status') == 'sent'): ?>
+
+        <div class="grid full">
+	<h2>Thanks for sending us details of your project. :)</h2>
+        </div>
+      
+       <?php else: ?>
+		
+        <form method="post" enctype="multipart/form-data">
+	<?php if($form->isError('send')): ?>
+        <div class="grid full"><h2>The email could not be sent. Please try again.</h2></div>
+    <?php elseif($form->isError()): ?>
+        <div class="grid full"><h2>Please fill in the form Correctly.</h2></div>
+        <?php endif ?>
+      
+	<fieldset class="text">
+    	<h2>Your Details</h2>
+    	<ul>
+        <li class="grid one-third"><input type="text" placeholder="Your name" name="name" value="<?php echo $form->htmlValue('name') ?>" /></li>
+        <li class="grid one-third"><input type="text" placeholder="Email address" name="email" value="<?php echo $form->htmlValue('email') ?>" /></li>
+        <li class="grid one-third"><input type="text" placeholder="Telephone number" name="phone" value="<?php echo $form->htmlValue('phone') ?>" /></li>
+	</ul>
+	</fieldset>
+    
+	<fieldset name="radio">
+    	<h2>Type Of Project</h2>
+	<ul>
+	<li class="grid one-third"><input class="radio-input" id="website" type="radio" name="project" value="<?php echo $form->htmlValue('project') ?> Website"><label for="website">Website</label></li>
+	<li class="grid one-third"><input class="radio-input" id="app" type="radio" name="project" value="<?php echo $form->htmlValue('project') ?> App"><label for="app">App</label></li>
+	<li class="grid one-third"><input class="radio-input" id="other" type="radio" name="project" value="<?php echo $form->htmlValue('project') ?> Other" checked><label for="other">Other</label></li>
+	</ul>
+	</fieldset> 
+
+	<fieldset class="text">
+    	<h2>Brief Description</h2>
+    	<ul>      
+	<li class="grid full"><textarea class="textarea-form" name="description" placeholder="Let us know what your wanting?"><?php echo $form->htmlValue('description') ?></textarea></li>
+	</ul>
+	</fieldset>
+    
+	<fieldset name="radio">
+    	<h2>Estimated Budget</h2>
+        <ul>
+	<li class="grid one-third"><input id="0-500" type="radio" name="budget" value="<?php echo $form->htmlValue('radio') ?> 0-500"><label for="0-500">£0 - £500</label></li>
+	<li class="grid one-third"><input id="500-1000" type="radio" name="budget" value="<?php echo $form->htmlValue('radio') ?> 500-1000" checked><label for="500-1000">£500 - £1000</label></li>
+	<li class="grid one-third"><input id="1000-2000" type="radio" name="budget" value="<?php echo $form->htmlValue('radio') ?> 1000-2000"><label for="1000-2000">£1000 - £2000</label></li>
+	</ul>
+	</fieldset> 
+    
+	<fieldset name="check">
+    	<h2>Project Needs</h2>     
+	<ul>
+	<li class="grid one-third"><input id="strategy" type="checkbox" name="strategy" value="<?php echo $form->htmlValue('strategy') ?> yes"><label for="strategy">Strategy</label></li>
+	<li class="grid one-third"><input id="ux" type="checkbox" name="UX" value="<?php echo $form->htmlValue('ux') ?> yes"><label for="ux">UX</label></li>
+	<li class="grid one-third"><input id="redesign" type="checkbox" name="redesign" value="<?php echo $form->htmlValue('redesign') ?> yes"><label for="redesign">Re-Design</label></li>
+	<li class="grid one-third"><input id="responsive" type="checkbox" name="responsive" value="<?php echo $form->htmlValue('responsive') ?> yes"><label for="responsive">Responsive Design</label></li>
+	<li class="grid one-third"><input id="cms" type="checkbox" name="cms" value="<?php echo $form->htmlValue('cms') ?> yes"><label for="cms">CMS Implementation</label></li>
+	<li class="grid one-third"><input id="unsure" type="checkbox" name="unsure" value="<?php echo $form->htmlValue('unsure') ?> yes" checked><label for="unsure">Unsure</label></li>
+	</ul>
+	</fieldset>
+    
+	<fieldset class="similar">
+    	<h2>Similar Websites</h2>
+    	<ul>
+        <li class="grid one-third"><input type="text" placeholder="Website #1" name="similar01" value="<?php echo $form->htmlValue('similar01') ?>" /></li>
+        <li class="grid one-third"><input type="text" placeholder="Website #2" name="similar02" value="<?php echo $form->htmlValue('similar02') ?>" /></li>
+        <li class="grid one-third"><input type="text" placeholder="Website #3" name="similar03" value="<?php echo $form->htmlValue('similar03') ?>" /></li>
+	</ul>
+	</fieldset>
+    
+	<fieldset class="drop">
+    	<h2>Project Start Date</h2>
+	<ul>
+	<li class="grid one-third"><input class="radio-input" id="now-3" type="radio" name="date" value="<?php echo $form->htmlValue('radio') ?> Now - 3 Months" checked><label for="now-3">Now - 3 Months</label></li>
+	<li class="grid one-third"><input class="radio-input" id="3-6" type="radio" name="date" value="<?php echo $form->htmlValue('radio') ?> 3 Months - 6 Months"><label for="3-6">3 Months - 6 Months</label></li>
+	<li class="grid one-third"><input class="radio-input" id="6-1" type="radio" name="date" value="<?php echo $form->htmlValue('radio') ?> 6 Months - 1 Year"><label for="6-1">6 Months - 1 Year</label></li>
+        </ul>
+        </fieldset>
+	
+        <h2>Finished?</h2>
+        <input class="grid one-button button" type="submit" name="submit" value="Send This!" />
+        </form>
+  
+        <?php endif ?>
+	</section>
+        </div>
+        <?php snippet('footer') ?>
+
+I then used display: none for the actual checkbox/radio button and used the label as the button itself.
+
+My CSS is as follows
+
+        fieldset {
+	          margin: 25px 0;
+	          font-family: inherit;
+	          font-size: inherit;
+	          font-weight: inherit;
+                  color: #333;
+	          text-align: center;
+	          border: none;
+        }
+        fieldset textarea,
+        fieldset input {
+	          font-family: inherit;
+	          font-size: inherit;
+	          font-weight: inherit;
+	          text-align: center;
+                  color: #2C3E50;
+	          background: #FFF;
+	          padding: 15px 0;
+	          width: 100%;
+	          resize: none;
+        }
+        fieldset textarea {
+	           height:150px;
+        }
+       ul li ul li input[type=radio], ul li ul li input[type=checkbox],
+       fieldset input[type=radio], input[type=checkbox] {
+                  display:none;
+       }
+       fieldset input[type=radio] + label, input[type=checkbox] + label {
+                  padding: 15px 0;
+                  color: #FFF;
+                  width: 100%;
+	          display: block;
+                  cursor: pointer;
+                  background: #2C3E50;
+       }
+       input[type=radio]:hover + label:hover, input[type=checkbox]:hover + label:hover {
+	          background: #16A085;
+	          color: #FFF;
+       }
+       fieldset input[type=radio]:checked + label,           input[type=checkbox]:checked + label{
+                  background: #16A085;
+	          color: #FFF;
+       }
+       fieldset input.button {
+                  padding: 15px 0;
+                  color: #FFF;
+	          width: 100%;
+	          display: block;
+                  cursor: pointer;
+                  background: #2C3E50;
+	          margin: 0 auto;
+      }
+
+
+I'm sure there is easier ways to achieve this but this is what i found worked for me.
+
+In the plugin file i changed the following line, adding in the fields i wanted to display. I believe you could use an array but i couldn't seem to get it to work so for now this will have to do.
+
+       // set required and wanted fields
+       $this->defaults('required', array('name', 'email', 'phone',        'project', 'description', 'budget', 'date'));
+       $this->defaults('keep',     array('name', 'email', 'phone', 'project', 'description', 'similar01', 'similar02', 'similar03', 'budget', 'strategy', 'ux', 'redesign', 'responsive', 'cms', 'unsure', 'date'));

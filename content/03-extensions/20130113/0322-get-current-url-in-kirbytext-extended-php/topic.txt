@@ -1,0 +1,11 @@
+Title: Get current url in kirbytext.extended.php
+----
+Date: 2013-01-13 03:22:21
+----
+Solved: 1
+----
+User: nilshendriks
+----
+Text: I'm trying to create a tag for which I would need the 'real' url of the current page folder. With url::current(); I get the rewritten url like 'foldername' but I would need '01-foldername'.
+
+Is there a way to do this?

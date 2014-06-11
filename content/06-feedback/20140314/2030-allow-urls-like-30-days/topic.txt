@@ -1,0 +1,9 @@
+Title: Allow urls like "30-days"
+----
+Date: 2014-03-14 20:30:56
+----
+Solved: 0
+----
+User: jens_tornell
+----
+Text: Allow turn off "visible" pages in options in version 2. That allows the freedom to use urls like "30-days".

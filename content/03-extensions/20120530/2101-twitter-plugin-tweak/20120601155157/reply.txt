@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2012-06-01 15:51:57
+----
+Text: So if I enable the plugin, it works. But if I use html() to pull the tweet text, it display the link code instead of rendering it as a link. If I leave that off it works great.

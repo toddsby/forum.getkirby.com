@@ -1,0 +1,36 @@
+Title: Multilanguage and Page specific templates - problem
+----
+Date: 2013-01-01 18:22:35
+----
+Solved: 0
+----
+User: frenchyguess
+----
+Text: First of all, Kirby is excellent! Having a lot of fun working with it.
+
+But I'm running into a problem. I've created text files for different projects
+
+02-projects
+
+* 01-project-a
+    * project.en.txt
+    * project.fr.txt
+* 02-project-b
+    * project.en.txt
+    * project.fr.txt
+
+etc.
+
+And I have generic page templates in site/templates :
+  * project.en.php
+  * project.fr.php
+
+And in assets/css/ I have :
+  * project.en.css
+  * project.fr.css
+
+and a script in header.php to add /en/ or /fr/ before assets/css
+
+It works when not in multilanguge, using project.en.php and project.en.css. But if I put it in multilanguage, $page->template() always returns "default". 
+
+Any ideas ???

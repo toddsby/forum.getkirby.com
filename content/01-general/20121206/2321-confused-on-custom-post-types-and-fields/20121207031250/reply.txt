@@ -1,0 +1,30 @@
+User: tysongach
+----
+Date: 2012-12-07 03:12:50
+----
+Text: Ah, to get those URL's, you'll have to do the two page types, then...
+
+Here's the content structure I would do:
+
+    - 01-home
+      - home.txt
+    - 02-about
+      - about.txt
+    - 03-portfolio
+      - lettering (no number, to make it invisible)
+        - 01-lettering-project-name
+          - project.txt
+        - 02-lettering-project-name
+          - project.txt
+        - lettering.txt
+      - type (no number, to make it invisible)
+        - 01-type-project-name
+          - project.txt
+        - 02-type-project-name
+          - project.txt
+        - type.txt
+    - 04-articles
+      - articles.txt
+
+
+You'll then use a php loop in your Portfolio template to pull in your lettering and type projects.

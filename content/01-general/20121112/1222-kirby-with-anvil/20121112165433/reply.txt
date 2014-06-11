@@ -1,0 +1,7 @@
+User: tysongach
+----
+Date: 2012-11-12 16:54:33
+----
+Text: I know what you mean, Anvil’s simplicity is definitely desirable compared to MAMP.
+
+It’s actually not a Kirby thing, Anvil just doesn’t support PHP: <http://anvilformac.com/support>

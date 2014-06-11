@@ -1,0 +1,13 @@
+Title: Kirby toolkit and app framework
+----
+Date: 2013-09-09 22:54:49
+----
+Solved: 0
+----
+User: tolusonaike
+----
+Text: I really like the kirby cms api.I mistakenly discovered the toolkit and stumbled on the app framework through github. Any plans in the near future to expose them some more on this site? Or Maybe give toolkit.getkirby.com its own forum?
+
+Or did i just totally miss the links?
+
+Edit: I would like to move this to "suggestions and feedback" but no way to delete entries.

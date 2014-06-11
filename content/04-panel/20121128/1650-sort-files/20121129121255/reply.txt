@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-11-29 12:12:55
+----
+Text: Yeah, batch uploading and sorting is definitely planned. The problem with sorting is thought that this would only be possible by modifying the filenames and I don't want to mess up existing filenames in the first place.

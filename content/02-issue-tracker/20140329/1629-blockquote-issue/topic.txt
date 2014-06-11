@@ -1,0 +1,42 @@
+Title: Blockquote issue
+----
+Date: 2014-03-29 16:29:16
+----
+Solved: 0
+----
+User: peterbinks
+----
+Text: So im having a little bit of trouble getting blockquotes to parse right. This is what I have on the .txt page
+
+    >Never half ass two things. Whole ass one thing. 
+    - Ron Swanson
+  
+    >Everything Happens So Much
+    - (link: https://twitter.com/Horse_ebooks/status/218439593240956928 text: Horse Ebooks)
+
+
+but the html output comes out to:
+
+    <blockquote>
+    <p>Never half ass two things. Whole ass one thing. <br />
+        - Ron Swanson</p>
+  
+      <p>Everything Happens So Much<br />
+        - <a href="https://twitter.com/Horse_ebooks/status/218439593240956928">Hor     se Ebooks</a></p>
+    </blockquote>
+
+I want to have each quote wrapped in a blockquote tag, and I don't want the p tags at all.
+
+Something Like this:
+
+    <blockquote>
+    Never half ass two things. Whole ass one thing. <br />
+        - Ron Swanson
+    </blockquote
+
+    <blockquote>
+    Everything Happens So Much <br />
+        - <href="https://twitter.com/Horse_ebooks/status/218439593240956928">Hor     se Ebooks</a>
+    </blockquote>
+
+Can anyone tell me what I'm missing?

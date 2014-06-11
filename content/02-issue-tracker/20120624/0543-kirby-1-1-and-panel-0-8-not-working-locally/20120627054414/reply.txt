@@ -1,0 +1,11 @@
+User: nilshendriks
+----
+Date: 2012-06-27 05:44:14
+----
+Text: Hi,
+
+Yes, I used both 1.1 and 0.8 but with an existing site. Just also tried with both new versions as a new site and that works.
+
+So there must be something going on with the existing site and the new files. I havent been able to test it yet but I suspect it has to do with the new htacces file.
+
+I'll do some more tests later.

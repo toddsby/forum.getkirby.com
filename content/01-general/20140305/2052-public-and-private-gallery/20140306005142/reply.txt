@@ -1,0 +1,9 @@
+User: fitzage
+----
+Date: 2014-03-06 00:51:42
+----
+Text: If he doesn't require a password for these hidden galleries, then you can just create folders that aren't visible (don't put a number in front of the folder name) and only pull visible items into the nav.
+
+To make it a hair less accidentally discoverable, you could name these folders with random strings of letters as opposed to the client name or some such.
+
+As far as actually turning that into a gallery, I haven't played with that but there are ways to do it. There's a (link: http://getkirby.com/downloads/snippets text: gallery snippet here) in fact. It does a simple looping of the images in the current page's content folder. You'd have to do any styling yourself. You could use pretty much any javascript-based gallery system, and just feed it the images using the same methods as are in that snippet.

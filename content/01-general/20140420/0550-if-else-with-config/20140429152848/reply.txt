@@ -1,0 +1,50 @@
+User: Crisp_Concepts
+----
+Date: 2014-04-29 15:28:48
+----
+Text: This is a solution I use to use the correct database for each environment.
+
+	/*
+	---------------------------------------
+	Environment
+	---------------------------------------
+	*/
+	if(		str::contains(url::current(),	"qa.website.com")):			c::set('curEnv', 'qa');
+	elseif(	str::contains(url::current(),	"staging.website.com")):	c::set('curEnv', 'staging');
+	elseif(	str::contains(url::current(),	"int.website.com")):		c::set('curEnv', 'int');
+	elseif(	str::contains(url::current(),	"www.website.com")):		c::set('curEnv', 'prod');
+	elseif(	str::contains(url::current(),	"dev.website.local")):		c::set('curEnv', 'dev');
+	endif;
+	
+	
+	/*
+	---------------------------------------
+	MySQL Database Settings
+	---------------------------------------
+	*/
+	if(c::get('curEnv') == "qa"):
+		c::set('db.host',	'');
+		c::set('db.user',	'');
+		c::set('db.password',	'');
+		c::set('db.name',	'');
+	elseif(c::get('curEnv') == "staging"):
+		c::set('db.host',	'');
+		c::set('db.user',	'');
+		c::set('db.password',	'');
+		c::set('db.name',	'');
+	elseif(c::get('curEnv') == "int"):
+		c::set('db.host',	'');
+		c::set('db.user',	'');
+		c::set('db.password',	'');
+		c::set('db.name',	'');
+	elseif(c::get('curEnv') == "prod"):
+		c::set('db.host',	'');
+		c::set('db.user',	'');
+		c::set('db.password',	'');
+		c::set('db.name',	'');
+	elseif(c::get('curEnv') == "dev"):
+		c::set('db.host',	'');
+		c::set('db.user',	'');
+		c::set('db.password',	'');
+		c::set('db.name',	'');
+	endif;

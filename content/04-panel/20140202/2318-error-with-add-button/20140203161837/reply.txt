@@ -1,0 +1,7 @@
+User: tysongach
+----
+Date: 2014-02-03 16:18:37
+----
+Text: Are you using Safari 7?
+
+(link: http://getkirby.com/forum/issue-tracker/topic:1061 text: This forum thread) might help you out, if so.

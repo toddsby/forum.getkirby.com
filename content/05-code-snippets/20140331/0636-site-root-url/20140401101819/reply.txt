@@ -1,0 +1,7 @@
+User: jens_tornell
+----
+Date: 2014-04-01 10:18:19
+----
+Text: I usually do this:
+
+    echo u();

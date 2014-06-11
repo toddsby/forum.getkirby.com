@@ -1,0 +1,43 @@
+User: tysongach
+----
+Date: 2013-04-24 20:08:00
+----
+Text: Gotcha.
+
+Not that CSS (or even HTML) questions aren’t welcome here, but this is the forum for Kirby, which is a CMS. So the bulk of the content you’ll find on here is related to Kirby functionality and PHP stuff, not–so–much CSS.
+
+Kirby is much different from WordPress in that most everything comes ready out–of–box with WordPress, such as adding a tag cloud. I see Kirby as more do–it–yourself.
+
+I would try something like this:
+
+Add a `class` of `tagcloud` to the `ul` element that houses your tag list.
+
+Then add the following CSS:
+
+```css
+
+.tagcloud li {
+  float: left;
+  list-style-type: none;
+  margin: 0 3px 3px 0;
+}
+
+.tagcloud li a {
+  background: #222;
+  border-radius: 20px;
+  display: block;
+  font-size: 13px;
+  height: 20px;
+  line-height: 20px;
+  padding: 0 10px;
+}
+
+```
+
+Here are some resources for you:
+
+(link: http://www.htmlandcssbook.com text: HTML and CSS: Design and Build Websites)
+(link: http://learnlayout.com text: Learn CSS layout)
+(link: http://css-tricks.com text: CSS–Tricks)
+
+Also, take use of the Web Inspector in your browser to ‘look under the hood’ of any website element you may like.

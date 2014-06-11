@@ -1,0 +1,23 @@
+User: plartz
+----
+Date: 2013-02-26 17:22:10
+----
+Text: I think @zinzygeene's problem is how to access to the parent's css. 
+
+If it's always the parent's css, and not the grandparent's, great-grandparent's ..., then you could just use the `parent()` function in your header. Combined with @russbaldwin's suggestion, your code could look like this:
+
+```php
+<?php 
+  
+  echo css('assets/styles/styles.css');
+  
+  $cssURI  = 'assets/css/' . $page->parent()->template() . '.css';
+  $cssRoot = c::get('root') . '/' . $cssURI;
+  
+  if(file_exists($cssRoot)) echo css($cssURI);
+  
+?>
+```
+
+
+**Edit:** Okay, maybe I missunderstood you. You want only the template, not the css, right? Then just name your content text file (or markdown, or whatever) like the parent's one (quick example: parent's template is "project", so your children's content files might be named "project.txt").

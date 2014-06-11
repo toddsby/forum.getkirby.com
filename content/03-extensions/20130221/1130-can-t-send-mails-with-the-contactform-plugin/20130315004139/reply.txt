@@ -1,0 +1,7 @@
+User: BobRockefeller
+----
+Date: 2013-03-15 00:41:39
+----
+Text: I'm seeing the same thing in MAMP running PHP 5.4.4.
+
+Any thoughts?

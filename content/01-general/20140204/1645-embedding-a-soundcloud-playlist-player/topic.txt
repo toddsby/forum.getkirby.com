@@ -1,0 +1,18 @@
+Title: Embedding a soundcloud playlist player.
+----
+Date: 2014-02-04 16:45:51
+----
+Solved: 0
+----
+User: kamptweets
+----
+Text: Hi,
+I want to use kirby to have different soundcloud playlists on different pages. How can that be done? 
+
+What need to be in my template file, and what in the project.txt file? 
+
+Any help would be really appreciated.
+
+Thanks a ton!
+
+K.

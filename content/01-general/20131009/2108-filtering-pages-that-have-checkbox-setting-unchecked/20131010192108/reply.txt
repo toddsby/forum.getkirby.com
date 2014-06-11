@@ -1,0 +1,14 @@
+User: fitzage
+----
+Date: 2013-10-10 19:21:08
+----
+Text: I don't think `filterBy('meta_robots_noindex','on')` actually works. The filterBy is limited, and I don't think that's one of the things it does.
+
+Instead, just do a simple conditional like this:
+
+    <?php foreach($pages as $p): ?>
+    <?php if($p->meta_robots_noindex() == 'on'): ?>
+        Anything with the box checked would be included here, so you would just leave this empty because you don't want them to be displayed.
+    <?php else: ?>
+        Your code for displaying the pages goes here, and the only ones left are the ones that don't have the box checked.
+    <?php endforeach ?>

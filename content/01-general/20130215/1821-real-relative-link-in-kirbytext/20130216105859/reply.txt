@@ -1,0 +1,15 @@
+User: russbaldwin
+----
+Date: 2013-02-16 10:58:59
+----
+Text: Sorry no, I misunderstood, you could use something like this for relative links in KirbyText -- swop [ for (
+```
+[link: folder/subfolder text: link-text]
+```
+
+or Markdown (as is)
+```
+[link-text](folder/subfolder)
+```
+
+[See -- Kirby Text Formatting 101](http://getkirby.com/blog/text-formatting-101)

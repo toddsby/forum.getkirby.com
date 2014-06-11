@@ -1,0 +1,22 @@
+User: Matt_HY
+----
+Date: 2013-05-22 05:36:25
+----
+Text: Sorry about that. Here's the answers to your questions:
+
+1. No, even with the default blueprint, I still can't edit a page.
+2. Yes, I have the main panel folder in the site root and the secondary panel folder (as per the installation instructions) in "site". 
+3. I've added in all of my blueprints (I believe they're correct)
+4. The .htaccess has the following:
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+
+Thanks for the help ;-)

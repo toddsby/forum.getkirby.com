@@ -1,0 +1,19 @@
+Title: Echoing the URL for a thumbnail
+----
+Date: 2013-04-09 21:09:09
+----
+Solved: 1
+----
+User: cdransf
+----
+Text: Hi, I'm building a page that's image / resource intensive and which will be populated by image thumbnails that link to the full size image in a lightbox. Because the page is resource-intensive I would like to use lazy loading in conjunction with the thumbnail plugin.
+
+I just need to use the thumbnail plugin to generate the thumbnails at a specified size and echo the completed image url rather than echoing the completed tag.
+
+Is that possible with the plugin as written? E.g. 
+
+    data-original=“<?php echo $image->url() ?>”
+
+... needs to echo the thumbnail URL rather than the raw image URL.
+
+    <a class="lightbox" href="<?php echo $image->url() ?>"><img data-original=“<?php echo $image->url() ?>” src=“img/placeholder.png” /></a>

@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-04-29 23:45:12
+----
+Text: Well, I was hoping that you could use the PHP to echo the document root into your javascript. Is that not possible? I've done similar things with success.

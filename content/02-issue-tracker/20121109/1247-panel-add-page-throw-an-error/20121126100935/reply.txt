@@ -1,0 +1,9 @@
+User: CalEuanHopkins
+----
+Date: 2012-11-26 10:09:35
+----
+Text: Having this problem too on WAMP setup. I have the URL variable in the config and the subfolder variable setup for the site being in a subfolder titles "kirby" in my localhost, with my .htaccess file reflecting this setup. However, everytime i go to create a new page it just continues to add the content and page title to the error page.
+
+Any advice?
+
+Thanks

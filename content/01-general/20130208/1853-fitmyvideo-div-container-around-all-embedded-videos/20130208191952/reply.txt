@@ -1,0 +1,5 @@
+User: roman_oroco
+----
+Date: 2013-02-08 19:19:52
+----
+Text: @tysongach Is just pull a request for this (link:https://github.com/bastianallgeier/kirbycms/pull/60/files), meanwhile the only way is to change `~/kirby/parsers/kirbytext.php` manually.

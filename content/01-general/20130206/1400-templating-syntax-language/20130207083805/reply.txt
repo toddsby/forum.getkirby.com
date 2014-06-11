@@ -1,0 +1,35 @@
+User: russbaldwin
+----
+Date: 2013-02-07 08:38:05
+----
+Text: True PHP might not be the prettiest, but I guess it also depends on how you write it ;-) 
+
+Kirby has some very nice bits and using less PHP tags is always a good start, neater structured code is also good.
+
+```php
+if ($count > 10) {
+   $number = "high";
+  } else {
+   $number = "low";
+}
+```
+
+Can be written as:
+```php
+$number = $count > 10 ? 'high' : 'low';
+```
+  
+And even these can get shorter if, for example, boolean:
+
+```php
+$is_admin = ($user['permissions'] == ‘admin’ ? true : false);
+```
+  
+is equivalent to:
+  
+```php
+$is_admin = $user['permissions'] == ‘admin’;
+```
+Because the '==' operator returns a boolean.
+
+Functions, classes and some OOP are also available :-)

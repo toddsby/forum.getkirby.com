@@ -1,0 +1,7 @@
+User: AlexK
+----
+Date: 2012-12-10 11:19:25
+----
+Text: Thanks for that "fix". I was pondering how to get from the stored index back to what the selection actually meant at the time.
+
+I realize that a stored index is easier to shuffle around later on, but for my purposes it makes more sense if that doesn't happen.

@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-06-27 09:16:46
+----
+Text: The problem is probably in the htaccess file. I changed the rewrite rules in there, so you definitely need to update that as well. Sorry for the hassle.

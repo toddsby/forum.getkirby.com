@@ -1,0 +1,5 @@
+User: ndrsn
+----
+Date: 2013-09-09 11:23:25
+----
+Text: Try using CHMODD 777 when working locally. It's usually the reason when I get those errors (MAMP).

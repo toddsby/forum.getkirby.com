@@ -1,0 +1,5 @@
+User: atomicbird
+----
+Date: 2013-04-02 05:30:14
+----
+Text: Looks like I wasn't calling session_start in some places. When I can get the code cleaned up I'll get it on github, and probably send a pull request for the extensions repo.

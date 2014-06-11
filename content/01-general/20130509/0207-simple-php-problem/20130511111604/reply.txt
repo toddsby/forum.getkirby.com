@@ -1,0 +1,11 @@
+User: russbaldwin
+----
+Date: 2013-05-11 11:16:04
+----
+Text: One is for pages - so is an array and the other is for a page.
+There did not seem to be a straight UID for a page but I found translatedUID() which seems to do the same thing for this purpose.
+
+View them with:
+```php 
+<?php echo a::show($yourvar) ?>
+```

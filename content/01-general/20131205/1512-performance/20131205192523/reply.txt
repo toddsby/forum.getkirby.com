@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2013-12-05 19:25:23
+----
+Text: Well, that's a good question. I have a Kirby site with hundreds (thousands?) of pages. The blog alone currently has 920 articles.
+
+I don't have any performance problems, although I 1) use Kirby's built-in cache function and 2) have it load balanced across four servers. It was performing fine with only two, and maybe one, but why risk it? ;-)

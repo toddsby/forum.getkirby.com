@@ -1,0 +1,11 @@
+Title: Field change value
+----
+Date: 2014-04-18 17:13:15
+----
+Solved: 0
+----
+User: meszarosrob
+----
+Text: Does anybody have any ideas how to change the value of a defined field in the txt file? I am looking for a PHP code, I don't want to use the panel.
+
+For example if I have a field "X" in the .txt I want to be a able change the value of "X" with submitting a form from frontend.

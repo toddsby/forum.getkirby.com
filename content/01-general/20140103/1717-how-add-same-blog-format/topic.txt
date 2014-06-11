@@ -1,0 +1,15 @@
+Title: how add same blog format
+----
+Date: 2014-01-03 17:17:23
+----
+Solved: 0
+----
+User: peterpolz
+----
+Text: are there infos how to make the same blog format
+http://getkirby.com/blog here
+i want to integrate that into this template
+http://kirby.christianreber.com
+
+thx
+p

@@ -1,0 +1,81 @@
+User: Crisp_Concepts
+----
+Date: 2014-01-18 20:36:25
+----
+Text: I did not get an answer here and unfortunately haven't had time to solve the workaround of the authentication to work off mysql instead of the files. But I thought perhaps this method I developed already for creating account php files via a form would be helpful for someone.
+
+You must have the (link:https://github.com/vladstudio/vladstudio-kirby-smart-submit text:smart-submit extension) installed for this solution.
+
+Note that the die error for the username taken isn't working as intended. It just seems like the form is not responding. So while it does stop the file from being appended/overwritten it will not return the message. If someone has a fix for this please post it!
+
+site/snippets/signup.php ...
+
+	<form id="smart-submit" class="form signup" action="<?= url('smart-submit') ?>?handler=create_account">
+		<input type="text" name="nameFirst" placeholder="Please enter your first name" required>
+		<input type="text" name="nameLast" placeholder="Please enter your last name" required>
+		<input type="text" name="email" placeholder="Please enter your email" required>
+		<input type="text" name="username" placeholder="Please enter your username" required>
+		<input type="password"	name="password" placeholder="Please enter your password" required>
+		<input type="submit" name="submit" value="Create Account" />
+	</form>
+
+
+content/smart-submit/create_account.php ...
+
+	<?php 
+	header('Content-type: application/json');
+	
+	//validate using Kirby toolkit
+	$errors = array();
+	if (!get('nameFirst'))			{ die('{"error":"'.(l::get('error.nameFirst-required')	?: 'Please enter your first name.'			).'"}'); }
+	if (!get('nameLast'))			{ die('{"error":"'.(l::get('error.nameLast-required')		?: 'Please enter your last name.'			).'"}'); }
+	if (!v::email(get('email')))	{ die('{"error":"'.(l::get('error.email-invalid')			?: 'Please enter valid e-mail address.'	).'"}'); }
+	if (!get('username'))			{ die('{"error":"'.(l::get('error.username-required')		?: 'Please enter a username.'				).'"}'); }
+	if (!get('password'))			{ die('{"error":"'.(l::get('error.password-required')		?: 'Please enter a password.'				).'"}'); }
+	
+	//collect data
+		ob_start();
+		$firstName	= get('nameFirst');
+		$lastName	= get('nameLast');
+		$email		= get('email');
+		$username	= get('username');
+		$password	= get('password');
+		$password	= sha1($password);	
+		
+	//create user file contents
+	echo "<?php if(!defined('KIRBY')) exit ?>"; ?>
+	
+	# setup your account credentials here
+	# it's highly recommended to use md5 or sha1 encryption 
+	# for your passwords. read more about encryption in the
+	# docs: http://getkirby.com/docs/panel/accounts
+	
+	firstName:  <?php echo $firstName; ?>
+	
+	lastName:   <?php echo $lastName; ?>
+	
+	email:      <?php echo $email; ?>
+	
+	username:   <?php echo $username; ?>
+	
+	password:   <?php echo $password; ?>
+	
+	group:      <?php if(isset($pin) && $pin == "1248"): echo 'administrator'; else: echo 'subscriber'; endif; ?>
+	
+	
+	
+	<?php
+	
+	//create user file
+		$output		= ob_get_contents();
+		$filename	= "site/accounts/".$username.".php";
+		
+		if(file_exists($filename)):
+			die('{"error":"Username is taken. Please try another one."}');
+		else:
+			f::write($filename, $output);
+			ob_end_clean();
+			die('{"success":"Thank you for signing up, '.addslashes(get('nameFirst')).'."}');
+		endif;
+		
+	?>

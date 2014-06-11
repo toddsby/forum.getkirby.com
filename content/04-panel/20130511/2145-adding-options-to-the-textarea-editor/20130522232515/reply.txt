@@ -1,0 +1,15 @@
+User: NathVallieres
+----
+Date: 2013-05-22 23:25:15
+----
+Text: This works great to add "tag" buttons, however I'm not sure how to add "overlay" buttons such as this:
+
+    'youtube' => '<a href="#form-overlay-youtube" 
+    rel="overlay">' . l::get('form.buttons.youtube') 
+    . '</a>'
+
+I mean, where exactly do I have to create that overlay, there must be some code somewhere generating it but I can't find it! I know there are 2 already: link and email. 
+
+Anyone can help me?
+
+Thanks!

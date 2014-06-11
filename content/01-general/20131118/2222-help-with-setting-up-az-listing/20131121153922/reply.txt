@@ -1,0 +1,12 @@
+User: fitzage
+----
+Date: 2013-11-21 15:39:22
+----
+Text: This might be a little tedious to set up, but the way I picture this is something like this:
+
+1. Have an array with all characters in the alphabet.
+2. Compare that to the first letter of the last name and only link ones that actually have a result (probably just use a PHP string function to grab the first letter of the last name for comparison as you're looping through the names instead of a tag, because that means less work for whoever is entering the names).
+3. Since clicking a letter should show you everybody who's last name begins with that letter, I'd say set up your search results page to look for a URL parameter and pull in all posts where the first letter of the last name matches the letter in that parameter.
+4. The same search results page could also look for the search parameter and perform a full search if that parameter exists instead of the letter parameter.
+
+I tried to find documentation on how to use URL parameters and didn't find it. I'm sure it's on here somewhere, maybe in a blog article. Or maybe it's just a part of some larger documentation piece.

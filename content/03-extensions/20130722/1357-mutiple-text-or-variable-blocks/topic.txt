@@ -1,0 +1,19 @@
+Title: Mutiple text or variable blocks
+----
+Date: 2013-07-22 13:57:58
+----
+Solved: 1
+----
+User: flexmotion
+----
+Text: Hi
+
+I am looking for a way to add multiple "text"/custom variables to a single .txt file.
+
+If I add this in the .txt file:
+
+text: 0
+text: 1
+
+
+the pages $page->text() variable that will get displayed is only text: 1. So some kind of overriding is happening.

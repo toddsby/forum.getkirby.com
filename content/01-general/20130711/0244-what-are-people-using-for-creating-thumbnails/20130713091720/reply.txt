@@ -1,0 +1,9 @@
+User: hoopyfrood
+----
+Date: 2013-07-13 09:17:20
+----
+Text: I think I'm closing in on the issue:
+
+It would appear that the thumb plugin has a tough go with certain types of images including screenshot PNGs and uncompressed Photoshop JPGs... perhaps these images contain large amounts of non-image data?
+
+Does this sound reasonable?

@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-06-06 17:05:23
+----
+Text: I'm not entirely sure what you're getting at. Are you wanting to check for the presence of the field? Or are you wanting to check if the field contains kirbytext?

@@ -1,0 +1,9 @@
+User: sventempo
+----
+Date: 2013-03-20 03:52:04
+----
+Text: I think what I was looking for was dirname(): 
+
+    <?php echo dirname($image->url()); ?>
+
+Thanks for the help. I definitely want to try the thumbs plugin in the future :)

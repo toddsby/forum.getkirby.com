@@ -1,0 +1,17 @@
+User: roman_oroco
+----
+Date: 2012-10-25 23:14:28
+----
+Text: @fitzage Hi, can you try to add `limit: 10` to your blueprints?
+
+```
+# blueprint
+
+title: Blog
+pages: true
+  sort: flip
+  limit: 10
+fields:
+
+...
+```

@@ -1,0 +1,15 @@
+Title: What are people using for creating thumbnails?
+----
+Date: 2013-07-11 02:44:55
+----
+Solved: 1
+----
+User: hoopyfrood
+----
+Text: I'm having no end of trouble with the Kirby thumb plugin. There are some hints in the forums that others are too, so I am assuming this is a reasonably common issue.
+
+What I'd like is something that is pretty much exactly like the the thumb plugin where you specify a source image and a new size for the image. There's caching if the thumbnail has already been created.
+
+-
+
+Sidebar: The issue I'm having with the thumb plugin is that image sizes for smaller images are almost always much larger than the source images themselves. This is particularly the case with png's. Obviously, this defeats the purpose of the plugin. On the forum I have read of some issues with GD and certain PHP versions, but I neither have enough skill with PHP or info about the issues to tackle those on my own.

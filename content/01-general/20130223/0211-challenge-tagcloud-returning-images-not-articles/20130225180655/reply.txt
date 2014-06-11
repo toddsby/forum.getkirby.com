@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-02-25 18:06:55
+----
+Text: Are you using Panel, if so I presume you are using a caption field with pre-defined tags for selection?

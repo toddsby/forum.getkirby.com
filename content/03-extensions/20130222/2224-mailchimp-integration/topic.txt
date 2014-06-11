@@ -1,0 +1,13 @@
+Title: MailChimp Integration
+----
+Date: 2013-02-22 22:24:45
+----
+Solved: 0
+----
+User: tysongach
+----
+Text: Has anyone made (or is making) an integration for Kirby with MailChimp?
+
+Would anyone be interested in one? If so, what would you be looking for this integration to do?
+
+I’m very interested in the idea of having a ‘Send to MailChimp’ button within the Kirby Panel which would send a page’s content over to MailChimp and auto-create a campaign for you.

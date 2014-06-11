@@ -1,0 +1,7 @@
+User: kachunchau
+----
+Date: 2013-01-09 15:33:58
+----
+Text: Would I have to include embed.js and count.js as well in the Disqus snippet?
+
+Edit: Nevermind, I fixed this.

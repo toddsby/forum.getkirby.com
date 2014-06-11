@@ -1,0 +1,18 @@
+Title: Link to file on other site
+----
+Date: 2013-12-29 10:25:33
+----
+Solved: 0
+----
+User: danielkochde
+----
+Text: How it is possible to link to a file from another (internal) site?
+
+F.E. the following instruction on the page pagename/(default.txt):
+
+(file: pagename/subpage/companysecrets.pdf)
+
+should point to the file in:
+01-pagename/01-subpage/content/companysecrets.pdf
+
+For me (file)-links only works for files on the same page.

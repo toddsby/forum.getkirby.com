@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-01-03 17:30:04
+----
+Text: Another solution if you don't particularly care which image from an article shows up as the cover image is to just pull the first image that comes up. That would prevent you from having to name it specifically, or having to enter it in a text field. Depends on how you do things, I guess.

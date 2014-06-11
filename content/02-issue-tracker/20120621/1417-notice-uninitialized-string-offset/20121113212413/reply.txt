@@ -1,0 +1,11 @@
+User: jhercher
+----
+Date: 2012-11-13 21:24:13
+----
+Text: Unfortunately I have the same :(
+It occured after using the upload panel and renaming the file.
+Now, this warning won't go away.  Also I can't login to the panel again... on a blank page it says "headers already sent"
+
+Warning: Cannot modify header information - headers already sent by (output started at /kirby/lib/variables.php:27) in /kirby/lib/kirby.php on line 47
+
+Anything I can do/try? Thanks in advance.

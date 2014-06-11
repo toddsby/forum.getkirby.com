@@ -1,0 +1,9 @@
+User: travVT
+----
+Date: 2013-09-30 16:43:29
+----
+Text: I'm just following up on this post I made about three weeks ago. I've successfully allowed uploads through the panel, which go to a universal document root, however, I'm stuck on the retrieval side. 
+
+For instance, I upload a file and it appears where it is suppose to, in /documents at the root level. But, when you go to the files tab it doesn't retrieve the files from this folder. This makes sense because I haven't made any modifications to the code for this purpose. I'm getting bogged down in the code and I can't seem to locate the exact place to make the modification. 
+
+Any help would be greatly appreciated. Thanks!

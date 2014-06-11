@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2014-03-13 18:07:11
+----
+Text: Well, you have a syntax error in your array. So if that's what you were using, that would explain it. (not sure if an array will work, but you should try adding a single quote after 'about if you didn't already).

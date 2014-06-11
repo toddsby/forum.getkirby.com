@@ -1,0 +1,9 @@
+User: BobRockefeller
+----
+Date: 2013-06-06 02:09:14
+----
+Text: Does the output from phpinfo() contain '--enable-mbstring=all'?
+
+What version of PHP are you running?
+
+Bob

@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-06-18 15:26:23
+----
+Text: You can basically use all the format tags, which come with Kirbytext. I'm going to publish a formatting guide for the forum and also an editing option as soon as possible

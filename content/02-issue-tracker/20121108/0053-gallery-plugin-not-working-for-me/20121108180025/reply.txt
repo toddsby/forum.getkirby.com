@@ -1,0 +1,10 @@
+User: chrstphbach
+----
+Date: 2012-11-08 18:00:25
+----
+Text: Ah I see. Firstly, what you should do is using Markdown syntax in your 'Text' fields to keep it more readable. 
+'## Some funny fish` will eventually end up in an h2 in the html source, so there's no need to use html there. 
+
+In addition to that: You cannot use php code in your txt files. It won't be parsed. What you can do is name your txt file `gallery.txt` and create a template called `gallery.php` that looks exactly as your default template, but you add the `<?php snippet('gallery') ?>` after your `<?php echo $page->text() ?>`. 
+
+Naming the txt file `gallery` will make Kirby load the specially defined `gallery.php` template.

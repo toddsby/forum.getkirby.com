@@ -1,0 +1,19 @@
+User: bastianallgeier
+----
+Date: 2012-07-19 09:46:31
+----
+Text: Sorry for all the hassle with formatting text in the forum :) I will need to optimize that :) For code blocks I've added the Github syntax, which is easier as indenting blocks. 
+
+(image: http://f.cl.ly/items/1k1E2x111g2p3B1n1W41/Screen%20Shot%202012-07-19%20at%2009.41.01.png) 
+
+If you are using pagination for the homepage you could do the following
+
+```
+<?php if($article == $articles->pagination()->data->first()): ?>
+<!-- do something with the very first article -->
+<?php endif ?>
+```
+
+As soon as you apply pagination to a set of pages, the pagination object contains the entire set of pages and by getting the first one of those and comparing it to your first article you can achieve what you are looking for. 
+
+I hope this helps.

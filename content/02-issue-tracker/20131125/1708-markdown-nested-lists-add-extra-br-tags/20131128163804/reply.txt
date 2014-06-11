@@ -1,0 +1,5 @@
+User: AlexK
+----
+Date: 2013-11-28 16:38:04
+----
+Text: That was it! Thanks texnixe. Not sure why that setting was on in the first place. I never use non-Markdown linebreaks.

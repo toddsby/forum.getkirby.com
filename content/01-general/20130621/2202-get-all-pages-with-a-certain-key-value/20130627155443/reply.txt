@@ -1,0 +1,7 @@
+User: eytanbiala
+----
+Date: 2013-06-27 15:54:43
+----
+Text: Yep that was it, thanks!
+
+One more question - this only seems to get top-level pages, is there a way to have the search go recursively through all pages?

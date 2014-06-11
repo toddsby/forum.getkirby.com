@@ -1,0 +1,11 @@
+User: richgcook
+----
+Date: 2013-01-10 22:24:49
+----
+Text: Apologies, I think my original code got cut.
+
+$work = $pages->find('work'); foreach($work->children()->visible() as $project):
+
+This is what I have, throws up an error:
+
+Fatal error: Call to a member function children() on a non-object in ***********/site/templates/list.php on line 13

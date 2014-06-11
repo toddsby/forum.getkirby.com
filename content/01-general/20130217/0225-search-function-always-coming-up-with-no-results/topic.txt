@@ -1,0 +1,11 @@
+Title: Search function always coming up with no results
+----
+Date: 2013-02-17 02:25:39
+----
+Solved: 0
+----
+User: d2k0bler
+----
+Text: It worked fine before, and now that the site is live it isnt working. I checked folder write capabilities. its http://danielortizdesign.com/
+
+for extra info, I'm using shared hosting with godaddy. I appreciate any insight!

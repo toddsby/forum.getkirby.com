@@ -1,0 +1,23 @@
+Title: Articles by time range
+----
+Date: 2013-03-14 09:54:32
+----
+Solved: 0
+----
+User: ignaty
+----
+Text: Hi folks,
+
+Hope you are well and doing some kirby awesomeness.
+
+I am in need to display articles by time range for top stories (top "N" month, top "N" week, top "N" day).
+
+I am using Simple Kirby Like Counter.
+
+It would be nice to have it in a way like website.com/top/top:all and website.com/top/top:month, etc.
+
+Or as separate page website.com/top-all and website.com/top-month, etc.
+
+Any ideas or hints to the right direction?
+
+Thank you!

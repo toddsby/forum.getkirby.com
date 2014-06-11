@@ -1,0 +1,31 @@
+User: bastianallgeier
+----
+Date: 2012-11-27 12:40:24
+----
+Text: @loasca I never tried but it should work in the following way. 
+Kirby supports additional language files, which will only be loaded for the current language. You can add specific language files like this: 
+
+1. add a languages folder to your sites folder
+2. add a language file for each language: 
+
+```
+site/languages/en.php
+site/languages/de.php
+```
+
+In those files you can normally set global language variables like this: 
+
+```
+l::set('myvar', 'my content for var "myvar"');
+
+```
+
+The content of those variables can be used in your snippets and templates with `l::get('myvar')`
+
+So what you can try to do is to put something like
+
+```
+setlocale(LC_ALL, 'en_US');
+```
+
+in those language files.

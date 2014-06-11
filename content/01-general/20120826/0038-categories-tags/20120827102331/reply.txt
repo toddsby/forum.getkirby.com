@@ -1,0 +1,36 @@
+User: bastianallgeier
+----
+Date: 2012-08-27 10:23:31
+----
+Text: Well, you would need to create a little extra code for that. 
+
+Something like: 
+
+```php
+
+function paramURL($key, $value) {
+  
+  global $site;
+
+  $cat = params('category');  
+  $tag = params('tag');  
+
+  if($key == 'tag') $tag = $value;
+  if($key == 'cat') $cat = $value;
+
+  $url = $site->pages()->active()->url();
+
+  if(!empty($tag)) $url .= '/tag:' . urlencode($tag);
+  if(!empty($cat)) $url .= '/cat:' . urlencode($cat);
+
+  return $url;
+
+}
+
+// and you could use it like this:
+
+echo paramURL('cat', 'mycategory');
+echo paramURL('tag', 'mytag');
+
+
+```

@@ -1,0 +1,39 @@
+Title: Multiple Dates in a Blueprint
+----
+Date: 2012-12-05 18:19:08
+----
+Solved: 0
+----
+User: tysongach
+----
+Text: I seem to have issues when having multiple date fields in a blueprint.
+
+The content is for an event. Each event has two dates: a start date and an end date.
+
+In my Event blueprint I use:
+
+    startdate:
+      label: Start Date
+      type: date
+      format: mm/dd/yy
+    enddate:
+      label: End Date
+      type: date
+      format: mm/dd/yy
+
+The blueprint works great in the panel, I get two date selector fields and everything is good.
+
+I add the two dates in my template like so:
+
+    <?php echo $event->startdate('F j, Y') ?>
+
+    <?php echo $event->enddate('F j, Y') ?>
+
+When it refuses to render the proper PHP date format.
+
+I want the date to look like this: January 24, 2013
+But the template will only render: 01/24/2013
+
+When I remove the second date from the blueprint and template, and only have ONE date field, everything works fine.
+
+Is there a bug not allowing two or more dates?

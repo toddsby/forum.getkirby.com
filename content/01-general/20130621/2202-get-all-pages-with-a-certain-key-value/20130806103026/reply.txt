@@ -1,0 +1,10 @@
+User: pixelschupsernw
+----
+Date: 2013-08-06 10:30:26
+----
+Text: Hey there,
+
+did you had any luck finding a solution for your problem?
+I also need kirby to search for a value through all pages (parent-, child- and grandchild pages).
+
+Any help would be appreciated.

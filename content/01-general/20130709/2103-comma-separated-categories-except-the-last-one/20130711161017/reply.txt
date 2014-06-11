@@ -1,0 +1,11 @@
+User: aqeelfikree
+----
+Date: 2013-07-11 16:10:17
+----
+Text: Almost there. Visually it's correct. Two categories separated by a comma, and the last category lacks the comma. All good.
+
+However functionally, the whole thing is just one link, i.e. they're not being split.
+
+The whole of:
+Categoy1, Category2
+is just one link, not two, even though they're properly nested in ul and li

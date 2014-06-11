@@ -1,0 +1,38 @@
+User: bastianallgeier
+----
+Date: 2012-05-25 15:17:01
+----
+Text: Die Suchergebnisse werden aktuell nach der Häufigkeit der Treffer sortiert. Du kannst das aber beliebig ändern, in dem du einfach die Ausgabe nochmal sortierst:
+
+```php
+
+<? 
+
+$search = new search(array(
+  'searchfield' => 'q',
+  'ignore'      => array('blog', 'impressum'),
+  'words'       => true,
+));
+
+$results = $search->results();
+$results = $results->sortBy('title', 'asc');
+$results = $results->paginate(10);
+
+?>
+
+```
+
+Wie du die Ergebnisse am Ende darstellst ist komplett dir überlassen. Jeder Eintrag in $results ist wieder ein vollständiges page object mit allem drum und dran. 
+
+D.h. du kannst auch gesamte Artikel oder Seiten ausgeben. Das hängt nur davon ab, was du im foreach loop an HTML generierst. 
+
+Du kannst z.b. ohne weiteres sowas machen: 
+
+```
+<?php foreach($results as $row): ?>
+<h2><?php echo html($row->title()) ?></h2>
+<?php echo kirbytext($row->text()) ?>
+<?php endforeach ?>
+```
+
+Du musst halt nur aufpassen, dass du da nur Felder benutzt, die auch in jeder Seite vorkommen, oder halt nach dem Vorhandensein von Feldern prüfen.

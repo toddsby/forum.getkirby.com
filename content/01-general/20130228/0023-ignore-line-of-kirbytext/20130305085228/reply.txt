@@ -1,0 +1,13 @@
+User: russbaldwin
+----
+Date: 2013-03-05 08:52:28
+----
+Text: <pre>&#40;code: inventive class: clever&#41;</pre>
+
+It is certainly one way of doing it ;-)
+
+You could also use: 
+```html
+<code>&#40;image: home-page-001.jpg  class: fancybox&#41;</code>
+```
+for smaller inline stuff e.g. <code class="css">&#40;image: home-page-001.jpg  class: fancybox&#41;</code>

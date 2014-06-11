@@ -1,0 +1,7 @@
+User: texnixe
+----
+Date: 2013-08-01 11:16:10
+----
+Text: Hi @mauphie,
+
+do your divs have a width and height assigned?

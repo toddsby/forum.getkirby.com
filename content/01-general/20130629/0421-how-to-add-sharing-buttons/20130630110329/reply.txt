@@ -1,0 +1,10 @@
+User: russbaldwin
+----
+Date: 2013-06-30 11:03:29
+----
+Text: I think you can use your own icons... a quick search on Google finds:
+
++ [Facebook Docs](http://developers.facebook.com/docs/plugins/)
++ [Twitter Rescources](https://twitter.com/about/resources/buttons)
+
+If you look at the code you can just provide simple HTML links with an icon if you prefer.

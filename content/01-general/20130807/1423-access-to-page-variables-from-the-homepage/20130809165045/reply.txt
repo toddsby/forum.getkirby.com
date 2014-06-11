@@ -1,0 +1,9 @@
+User: fitzage
+----
+Date: 2013-08-09 16:50:45
+----
+Text: Hmmm…I think findByUID might return an array, so try adding ->first() to it.
+
+    <?php $featured = $pages->findByUID($page->featured())->first() ?>
+
+(Looking at the one place I've used findByUID on my site, that seems to be what I had to do.)

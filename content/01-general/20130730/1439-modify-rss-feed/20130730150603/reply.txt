@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-07-30 15:06:03
+----
+Text: A few ways I guess, multiple RSS feed code or a single RSS piece of code which loops through your different article types and has differing code for each type. 
+
+Not knowing how your posts are different or what you are trying to show in the RSS it's a bit difficult.

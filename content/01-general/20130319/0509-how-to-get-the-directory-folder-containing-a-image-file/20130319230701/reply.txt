@@ -1,0 +1,11 @@
+User: sventempo
+----
+Date: 2013-03-19 23:07:01
+----
+Text: Hi, thanks for the suggestion. I definitely think that is useful and I might use that on a future page, but I'm not sure it would work for what I'm doing in this particular situation. I want to be able to manually size the images myself, partly because some of the popups might be different images (though I would match them up by filename.) For example, a small picture of a cat (/projects/01-test/cat.jpg) could pop up a large image of a dog (/projects/01-test/large/cat-large.jpg)
+
+There are a couple other reasons I'd like to control it manually (e.g. I might have different sizes, etc.), but that is a main one. 
+
+So I guess I'm just wondering if there's a way through PHP to display the actual folder containing all the materials on page (the actual folder, not the "cleaned up" URL).
+
+Thanks!

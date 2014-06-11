@@ -1,0 +1,22 @@
+User: russbaldwin
+----
+Date: 2013-08-04 09:11:40
+----
+Text: I'm presuming it's this bit? If so what is in `$item->links()` eg is it actually a blank or perhaps something else?
+Line 40
+```php
+<?php elseif($item->links() !=''): ?>
+  <?php foreach($item->links() as $links): ?>
+    <![CDATA[<?php echo $links ?>]]>
+  <?php endforeach ?>
+<?php endif ?>
+```
+
+Also you have two blocks like this also at line 49:
+```php
+<?php if($item->links() !=''): ?>
+   <![CDATA[<a href="<?php echo xml($item->url()) ?>">✚</a>]]>
+<?php endif ?>
+```
+
+Three backticks to start and then 'php' (sans quotes) and three backticks to end for formatted PHP ;-)

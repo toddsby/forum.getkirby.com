@@ -1,0 +1,9 @@
+User: roman_oroco
+----
+Date: 2013-02-07 13:29:25
+----
+Text: @structor Thanks Doru I didn't believe it was so simple.
+Now remains last enigma:
+
+`site.com/articles/category-1/` <- should display all articles in that specific folder.
+`site.com/articles/category-x/` <- and the same for all eventually created subfolders.

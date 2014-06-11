@@ -1,0 +1,20 @@
+User: fitzage
+----
+Date: 2013-06-14 00:55:50
+----
+Text: Yes, I've migrated. No, I haven't done it from Blogger.
+
+The difficulty really depends on what the export format looks like. I did a migration from WordPress and it had issues because the WordPress importer didn't like it and all conversion tools to convert it to something more usable didn't work either. So I had to do some text processing of all the XML tags to convert to a Kirby format.
+
+If you can export into something MT Import format, your life might be much easier because the format is very similar to the format Kirby expects anyway. That way you can probably do less find/replace and focus more on the details.
+
+It appears that Blogger only uses their export format, but you may be able to find something that converts that to a more usable format.
+
+So if you can get it into MT Import format at least, here are some considerations:
+
+1. MT Import uses 5 hyphens between posts instead of 4, so you'll need to do a find/replace for that.
+2. If you're exporting comments, that's going to open up a big can of worms. If you ignore the comments it will be a lot easier.
+3. Basically you need to do as much find/replace stuff as you need to in order to get stuff formatted the way kirby expects.
+4. Once you have all this done, you'll need to create a script that takes the one big text file, splits it up, and puts it in folders based on the url slug.
+
+So yes, it's not easy. I have some Python scripts that do the splitting, and I'm working on a blog post about how to do it, but I'm not sure when I'll have it done.

@@ -1,0 +1,35 @@
+User: dokdeleon
+----
+Date: 2013-06-27 06:04:29
+----
+Text: @russbaldwin, @eytanbiala: i think you missed the $key: using the work by eytanbiala, the $key is "**published**". However he also used the word **published** as a ***value*** for the radio's option. To avoid confusion, maybe use "**status**" as the key, so (i've added everything in the blueprint to make sure :D):
+
+	<?php if(!defined('KIRBY')) exit ?>
+	
+	# default blueprint
+	
+	title: Page
+	pages: true
+	files: true
+	fields:
+	  title: 
+	    label: Title
+	    type:  text
+	  text: 
+	    label: Text
+	    type:  textarea
+	    size:  large
+	  status: 
+	    label: Status
+	    type: radio
+	    options:
+		    published: Published
+		    draft: Draft
+	  	default: draft
+
+then:
+
+	$draftPages = $pages->filterBy('status', 'draft');
+	$publishedPages = $pages->filterBy('status', 'published');
+
+This should work and display all posts with draft chosen on radio button. Note that i used the lowercase for $value, not the "***display value***" which is capitalized.

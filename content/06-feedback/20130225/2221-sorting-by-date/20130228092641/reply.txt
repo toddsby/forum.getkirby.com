@@ -1,0 +1,12 @@
+User: _diondiondion
+----
+Date: 2013-02-28 09:26:41
+----
+Text: Don't have a code example, but I think what you have to do is roughly the following:
+
+- get today's date in a variable
+- get your events using the code plartz posted above
+- loop through your events to check if the date of each event lies in the future compared to your "today" variable. If it's in the future, add 1 to an index variable.
+- Once your loop has reached an event that lies in the past, end the loop and slice your veranstaltungen array at the index number.
+
+After doing that you should be left with all of your future events which you can then output on your homepage.

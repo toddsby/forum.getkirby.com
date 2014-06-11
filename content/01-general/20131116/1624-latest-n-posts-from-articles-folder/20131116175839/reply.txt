@@ -1,0 +1,12 @@
+User: texnixe
+----
+Date: 2013-11-16 17:58:39
+----
+Text: @ndrsn
+
+Just add this to your home.php
+
+    <?php $articles = $pages->find('articles')->children()->limit(n) ?>
+    <?php foreach ($articles as $article): ?>
+            whatever ....
+    <?php endforeach; ?>

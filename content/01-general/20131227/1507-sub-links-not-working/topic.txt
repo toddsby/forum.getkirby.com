@@ -1,0 +1,22 @@
+Title: sub links not working
+----
+Date: 2013-12-27 15:07:28
+----
+Solved: 0
+----
+User: peterpolz
+----
+Text: hi!
+
+thank you for the good kirby tool
+
+one question i installed all pages
+http://apfel.at/kirby/
+but get no access to 
+http://apfel.at/kirby/Willekum/Aktuelles
+
+an ideas why there come nothing
+http://apfel.at/kirby/site/config/config.txt
+
+thx
+peter

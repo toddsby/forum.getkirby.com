@@ -1,0 +1,13 @@
+User: tamaracks
+----
+Date: 2013-09-23 05:10:12
+----
+Text: Update:
+
+Well, I fixed it, though I'm still not sure why it was behaving the way it was.
+
+On a hunch, I thought that maybe the post was in the array, just not in the position where I expected it to be. Instead of flip() I put in sortBy('date','desc') as part of the pages variable in the template and now it shows in the correct order.
+
+The strange thing is that the template has been the way it's been until now, and it's always worked correctly until this post. The folders representing these posts are numbered sequentially. Every other post was in the expected order, except for that one.
+
+Very odd, but at least sortBy got me where I needed to be.

@@ -1,0 +1,9 @@
+Title: Possible to not have a blueprint for a template?
+----
+Date: 2013-06-10 05:30:35
+----
+Solved: 0
+----
+User: warchamp7
+----
+Text: I have things set up where a couple templates are only used in one place each and are specifically tailored for those scenarios. Is there any way to not have a blueprint for those templates?

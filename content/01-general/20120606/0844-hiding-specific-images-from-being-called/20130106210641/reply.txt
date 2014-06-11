@@ -1,0 +1,5 @@
+User: hey_steffen
+----
+Date: 2013-01-06 21:06:41
+----
+Text: Check [this blogbost](http://getkirby.com/blog/1-1-1) ... scroll down to the *filterBy() revamped!* section.

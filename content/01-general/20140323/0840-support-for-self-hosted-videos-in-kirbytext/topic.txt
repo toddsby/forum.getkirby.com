@@ -1,0 +1,50 @@
+Title: Support for self-hosted videos in kirbytext
+----
+Date: 2014-03-23 08:40:13
+----
+Solved: 1
+----
+User: jancbeck
+----
+Text: I'd like to use a screen recording in one of my articles. Strangely I could only find how to embed video content hosted externally (vimeo/youtube) or within the template.
+
+As the text formatting 101 lists for images...
+
+```
+( image: myawesomepicture.jpg)
+```
+
+...and external videos..
+
+```
+
+( youtube: http://www.youtube.com/watch?v=lLuc6rtWkrM)
+
+or 
+
+( vimeo: http://vimeo.com/3432886)
+```
+
+... why can't I have something like this?
+
+```
+(video: myawesomevideo.mp4)
+```
+
+and save that video file in the same folder as my article.txt? 
+
+WordPress has the [Video Shortcode](https://codex.wordpress.org/Video_Shortcode) that allows you to even specify multiple sources or just paste the URL to a video on the line and it will detect and convert it to the mediaelement.js powered player.
+
+I know there is the [Video Snippet](https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/video/video.php) out there. Did somebody implement it so we can use it inside Kirbytext?
+
+Edit1: Found this video tag extension by
+(twitter: Pgruneich) https://gist.github.com/philgruneich/8551473
+
+Edit2: Ok the gist from Phil was not 100% sufficient to my needs. It displayed an error that class kirbytextExtended was already defined and I realized that I already have this [figure element extension](http://getkirby.com/forum/code-snippets/topic:233) running and I would have to merge both tags in one file. 
+But hey, the figure element can be used for videos too and even works great with my template style, so instead I changed the figure tag script to integrate the video [snippet](https://github.com/bastianallgeier/kirbycms-extensions/tree/master/snippets/video).
+
+The result is this gist:
+
+(gist: https://gist.github.com/jancbeck/9723106 file: kirbytext.extended.php)
+
+Edit3: I just noticed that I must have forked the figure extension a long time ago back when it didn't have thumbnail and alignment support.

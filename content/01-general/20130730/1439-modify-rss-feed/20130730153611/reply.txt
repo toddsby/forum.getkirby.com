@@ -1,0 +1,50 @@
+User: Swissendo
+----
+Date: 2013-07-30 15:36:11
+----
+Text: Thank you for the answer.
+
+The main idea would be to have everything inside .postcard show up in the feed. So for the quote article, include the blockquote before the text. For the image article, include the thumbnail before the text. For the link and video articles, show a link to the content before the text.  I tried searching this forum or the tutorials, yet couldn't find any instructions at all to achieve this...
+
+Here are the four different articles I use:
+
+	<article class="quote">
+  		<div class="postcard">
+		    <h1><a href="<?php echo ($article->link()) ?>"><?php echo ($article->title()) ?></a></h1>
+		    <p class="source"><a href="http://<?php echo ($article->source()) ?>"><?php echo ($article->source()) ?></a></p>
+		    <div class="quotes">
+				<a href="<?php echo ($article->link()) ?>"><blockquote><p><?php echo ($article->quote()) ?></p></blockquote></a>
+		    </div>
+		    <?php echo kirbytext($article->text()) ?>
+	    </div>
+	</article> 
+
+	<article class="video">
+		<div class="postcard">
+			<div class="video">
+				<?php echo kirbytext($article->video()) ?>
+			</div>          
+	    	<h1><?php echo ($article->title()) ?></h1>
+	    	<?php echo kirbytext($article->text()) ?>
+   		</div>
+	</article> 
+
+	<article class="link">
+		<div class="postcard">
+			<div class="linkbox">
+			    <h1><a href="<?php echo $article->link(); ?>"><?php echo ($article->title()) ?></a></h1>
+			</div>
+		    <?php echo kirbytext($article->text()) ?>
+	    </div>
+	</article> 
+
+	<article class="image">
+		<div class="postcard">
+			<?php if($article->fimage() !='' && $article->fimage() !='0'): ?>
+			    <?php $image = $article->images()->find( html($article->fimage()) ) ?>
+			    <img src="<?php echo thumb($image, array('width' => 900, 'quality' => 80), false) ?>" >
+			<?php endif ?>
+		    <h1><a href="<?php echo $article->url() ?>"><?php echo ($article->title()) ?></a></h1>
+		    <p><?php echo excerpt($article->text(), 500) ?> <a href="<?php echo $article->url() ?>">weiterlesen »</a></p>
+		</div>
+	</article>

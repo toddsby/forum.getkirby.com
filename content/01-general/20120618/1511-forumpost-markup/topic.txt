@@ -1,0 +1,10 @@
+Title: Forumpost markup?
+----
+Date: 2012-06-18 15:11:25
+----
+Solved: 0
+----
+User: hey_steffen
+----
+Text: Can we use markup in a forumpost?
+(I'am not going to test it.. because I can't preview or delete a post)

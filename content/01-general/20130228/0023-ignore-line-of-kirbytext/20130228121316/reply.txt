@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-02-28 12:13:16
+----
+Text: Also for kirbytext tags, just use a single back-ticks and put a space between the brackets and the text e.g.
+
+`( wikipedia: Twitter text: Lookup Twitter on Wikipedia language: en )`

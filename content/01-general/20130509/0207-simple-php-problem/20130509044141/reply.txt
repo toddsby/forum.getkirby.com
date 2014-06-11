@@ -1,0 +1,7 @@
+User: jesuismaksim
+----
+Date: 2013-05-09 04:41:41
+----
+Text: Try with that line instead of the first one..
+
+	<?php if ( $pages->findByUID('example')->first() ): ?>

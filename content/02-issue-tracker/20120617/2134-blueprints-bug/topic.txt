@@ -1,0 +1,15 @@
+Title: Blueprints bug
+----
+Date: 2012-06-17 21:34:09
+----
+Solved: 0
+----
+User: jesuismaksim
+----
+Text: Kirby 1.1
+Kirby Panel 0.8
+
+Templates blueprints aren't work anymore..
+try many test (even downgrade the Panel to 0.7), the only blueprint working is default.php
+
+Did i miss something ?

@@ -1,0 +1,11 @@
+User: russbaldwin
+----
+Date: 2013-02-17 10:16:02
+----
+Text: I liked mine better ;-) 
+
+(I presume you realised you could just substitute your page array for my 'fake' page array. And although I separated out the multi-array generation from the display code to make it easier to understand, it also means you could use this to create static arrays and even save and load them or generate with cron jobs.)
+
+Seriously, I think maybe the limit would be Kirby and it's ability to cope with many nested large sub-directories. Having said that people are doing this sort of thing, so maybe Bastian could chip in.
+
+In addition this looks like it is going to mainly static, so caching it all will greatly improve things. You are just going to have to try it and see. Other improvements could be external caching, faster web servers, like maybe nginx? Without getting it up and working it is hard to optimise.

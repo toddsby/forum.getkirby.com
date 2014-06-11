@@ -1,0 +1,17 @@
+User: LewisJenkins
+----
+Date: 2013-01-31 15:08:36
+----
+Text: Thanks for your reply.
+
+If I set the following...
+
+     (c::set('subfolder', 'subfolder');
+
+... then all of my urls throughout the entire site become `/subfolder/about-us` - but they should only be `/about-us` - if that makes sense.
+
+Using only a forward slash was recommended here:
+
+http://getkirby.com/forum/general/topic:244
+
+... and it works fine, until I try to install the Panel :(

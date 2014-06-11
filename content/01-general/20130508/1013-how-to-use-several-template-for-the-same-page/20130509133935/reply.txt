@@ -1,0 +1,7 @@
+User: guillaumelobet
+----
+Date: 2013-05-09 13:39:35
+----
+Text: Thanks a lot for the suggestions, I'll try that. 
+
+I would be nice though to be able to select an alternative template for a page (being to switch between two templates for the same page) :).

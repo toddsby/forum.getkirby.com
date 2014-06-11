@@ -1,0 +1,7 @@
+User: _brieche
+----
+Date: 2012-08-27 06:46:49
+----
+Text: OK, I think I figured it out! I just took a look at [this question](http://getkirby.com/forum/general/topic:33) and after judiciously sticking `->flip()` in a couple of key phrases I have a reversed system working to my satisfaction. I'll probably stick with this— unless there's a better/more efficient method I'm missing?
+
+Thanks!

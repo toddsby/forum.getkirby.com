@@ -1,0 +1,7 @@
+User: maerys
+----
+Date: 2013-04-23 17:55:37
+----
+Text: I got the problem, that (when I test the contact form) I am getting the confirmation mail to the sender, but the actual mail to the recipient (i.e. me) doesn't arrive. 
+
+Shouldn't there be 2 mails or am I getting something wrong?

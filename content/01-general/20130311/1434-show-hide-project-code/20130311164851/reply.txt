@@ -1,0 +1,17 @@
+User: zinzygeene
+----
+Date: 2013-03-11 16:48:51
+----
+Text: Yes, that is the plugin I'm using. It works great; the thumbnails toggle the div and it slides down nicely. However, when I use $page:
+
+	<?php echo kirbytext($page->text()) ?>
+
+in the toggled div, I get the text for the page the project thumbnails are on, which is /projects.
+
+When I use
+
+	<?php echo kirbytext($project->text()) ?>
+
+I get the text of the first thumbnail. 
+
+I don't know how to use the code needed for projects.php, and at the same time the code for project.php on this single page. If I were to return all the different divs for all projects separately, there wouldn't be a problem. In that case, I could just create a link and toggled div for each of them. But since I'm using Kirby's php, I get stuck.

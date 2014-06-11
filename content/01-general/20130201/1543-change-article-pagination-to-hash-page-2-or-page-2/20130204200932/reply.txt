@@ -1,0 +1,17 @@
+User: chrisburton
+----
+Date: 2013-02-04 20:09:32
+----
+Text: @bastianallgeier 
+
+    $articles->pagination()->nextPageURL() 
+
+Is it possible to create a relative URL with this because I think I may be able to do it by just throwing in a hash symbol in front?
+
+e.g.
+
+    <a class="r-arrow" href="#<?php echo $articles->pagination()->nextPageURL() ?>"></a>
+
+but I get this as a result
+
+    <a href="http://mysite.com/articles/#http://mysite.com/articles/page:2

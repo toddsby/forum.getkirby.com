@@ -1,0 +1,5 @@
+User: tysongach
+----
+Date: 2012-12-05 19:35:06
+----
+Text: There's also (link: http://github.com/scottjehl/picturefill text: Picturefill) which mimics the (link: http://www.w3.org/community/respimg/wiki/Picture_Element_Proposal text: proposed picture element) using div's.

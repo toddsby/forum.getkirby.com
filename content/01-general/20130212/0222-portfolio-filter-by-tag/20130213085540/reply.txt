@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-02-13 08:55:40
+----
+Text: It might be worth detailing your folder structure and providing just a bit more info?

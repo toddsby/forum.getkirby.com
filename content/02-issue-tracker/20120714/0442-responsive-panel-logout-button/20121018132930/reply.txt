@@ -1,0 +1,20 @@
+User: russbaldwin
+----
+Date: 2012-10-18 13:29:30
+----
+Text: Mmmm, you've added z-index but this causes problems when you view an image in Panel as the 'Logout' button shows through the FancyBox overlay.
+
+In *screen.css*
+
+    .logout {
+    ...
+    z-index: 111111;
+
+and in *screen.mobile.css*
+
+	.logout {
+	....
+	z-index: 2999;  
+
+Anyway setting the z-index to 1 in both solves the problem for me YMMV. 
+All the z-indexes seem a bit strange/arbitary including those in *fancybox.css* ?

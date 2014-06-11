@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2013-07-02 19:32:02
+----
+Text: The underlying issue here is that if you're using the Kirby control panel, it automatically adds all fields even empty ones. And the template thinks the field exists even if it's empty. Hopefully this will be fixed in version 2 so we can be more concise.
+
+If you're not using the panel, and you create a text filed minus specific fields, then the standard check to see if the field exists will work. Right now, though, if you're using the control panel at all, you need to check if the field is empty or not instead.

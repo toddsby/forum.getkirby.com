@@ -1,0 +1,11 @@
+Title: Best or easiest way to export content to another Kirby site
+----
+Date: 2013-10-02 21:54:58
+----
+Solved: 0
+----
+User: ndrsn
+----
+Text: I'm in the middle of a project where, however unlikely it might sound, the best way is to to a fresh install of GetKirby. Including install, design, blueprint, templates etc.
+
+In my case, what I'm most concerned about are the images uploaded and used in each page using the ``( image: pic.png )``. The actual text is straight forward copy/paste but there are *alot* of images to be reuploaded.

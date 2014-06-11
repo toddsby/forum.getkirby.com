@@ -1,0 +1,7 @@
+User: aqeelfikree
+----
+Date: 2012-08-15 20:36:29
+----
+Text: I tried the code. In point #3 content/blog should read as blog/like because we've made the "like" folder inside the "blog" folder so the like.txt should be in the "like" folder.
+
+The bit with the UID -> http://yourdomain.com/blog/like/post:my-awesome-post didn't work for me. I got the same error as going to -> http://yourdomain.com/blog/like  -- Not sure, but I guess something needs to be fixed in the like.php

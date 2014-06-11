@@ -1,0 +1,45 @@
+Title: Unable to upload video file
+----
+Date: 2014-03-10 14:44:23
+----
+Solved: 0
+----
+User: screencuts
+----
+Text: When I try to upload a small (2.4M) video file in the .mp4 format, I get the following error in the upload file popup:
+
+> "The File has not been found"
+
+But the file is most definitely on the drive and is not corrupted. I am able to open it with my video playback software and it runs just fine. 
+
+Does anyone know what's going on here?
+
+**UPDATE** 
+
+I'm getting a series of errors in my php error log that seem relevant: 
+
+> [Mon Mar 10 14:50:08.107147 2014] [:error] [pid 7032] [client 127.0.0.1:37979] PHP Strict Standards:  Non-static method upload::file() should not be called statically in /home/****/Sites/lanningsmith/panel/lib/data.php on line 498, referer: http://lanningsmith.sunny.net/panel/splash/show:files/do:upload-file    
+[Mon Mar 10 14:50:08.107167 2014] [:error] [pid 7032] [client 127.0.0.1:37979] PHP Strict Standards:  Non-static method upload::max_size() should not be called statically in /home/****/Sites/lanningsmith/panel/lib/upload.php on line 11, referer: http://lanningsmith.sunny.net/panel/splash/show:files/do:upload-file    
+[Mon Mar 10 14:50:08.107189 2014] [:error] [pid 7032] [client 127.0.0.1:37979] PHP Strict Standards:  Non-static method upload::mime_to_extension() should not be called statically in /home/****/Sites/lanningsmith/panel/lib/upload.php on line 27, referer: http://lanningsmith.sunny.net/panel/splash/show:files/do:upload-file
+
+**UPDATE 2**
+
+1 - I do not think the above errors are part of the problem as they also appear in the error log when I successfully upload an image. 
+
+2 - I have also now added the mime type 'video/mp4' to the panel config file `/<root>/site/panel/config/config.php`, like so:
+
+     // allowed mime types for file uploads
+    c::set('upload.allowed', array(
+      'image/jpeg', 
+      'image/pjpeg',
+      'image/png',
+      'image/x-png', 
+      'image/gif',
+      'video/mp4',
+      'video/mpeg',
+      'application/pdf',
+      'application/gzip',
+      'application/zip',
+   ));
+
+But this has changed nothing.

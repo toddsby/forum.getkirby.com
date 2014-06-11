@@ -1,0 +1,19 @@
+User: SqueezeOJ
+----
+Date: 2013-11-11 03:50:44
+----
+Text: I'm having the same error and I'd really like to fix it.  Here's the text of my error: 
+
+Fatal error: Class 'contactform' not found in /home/binghamt/public_html/m.binghamtonyoga.com/site/plugins/contactform/contactform.php on line 3
+
+Here's my situation:
+* Running PHP version 5.3.21
+* My snippets folder has two files in it: 
+   (1) contactform.php
+   (2) contactform.mail.php
+* I've created a plugins/contactform folder and tested it two ways:
+   (1) With nothing in it, I get the Fatal Error
+   (2) With copies of both of the snippet files, I get a the same Fatal Error
+* I've added < ?php snippet('contactform') ? > to my template
+
+What have I done wrong?

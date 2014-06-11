@@ -1,0 +1,12 @@
+User: fitzage
+----
+Date: 2013-08-09 19:24:07
+----
+Text: Yes, that's what my code is doing. That's why you're getting two images. :-)
+
+So there are some gotchas with my method:
+
+1. If articles don't always have images, you'll have to add a check to make sure it exists first.
+2. If an article has multiple images, you'll have to have it find the image based on filename or something instead of just finding the first image it comes across. So maybe you could have images called "header.png" or "header.jpg" for that main image, and then the code could look for that specific image instead of looking for just any image.
+
+Now if you want to just link the image from your kirbytext, you can just add a link: blahblah to your kirbytext image declaration.

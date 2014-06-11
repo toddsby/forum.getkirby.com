@@ -1,0 +1,20 @@
+Title: Digital Pacific
+----
+Date: 2013-10-22 13:13:34
+----
+Solved: 0
+----
+User: thomasgreenau
+----
+Text: I'm currently trying to install Kirby on [Digital Pacific](https://www.digitalpacific.com.au).
+
+I've used Kirby in the past without too much trouble but I'm unable to get the install working on Digital Pacific > [My site](http://thomasgreen.com.au/kirby/). It throws a blank white screen.
+
+The only issue on the forum that sounded close, i.e. "blank white screen" was a [Problem with Mac meta files](http://getkirby.com/forum/issue-tracker/topic:32/#post106) but not sure if this is at all related.
+
+I've been able to get the install (V1.1.2) working on a different web host, but not Digital Pacific.
+
+I'm fairly sure this is a hosting issue, I'll report once I hear back from them. Any ideas in the meantime would be appreciated.
+
+Cheers,
+Thomas

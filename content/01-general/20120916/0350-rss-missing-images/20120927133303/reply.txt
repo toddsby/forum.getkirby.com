@@ -1,0 +1,11 @@
+User: bastianallgeier
+----
+Date: 2012-09-27 13:33:03
+----
+Text: The default setting for feeds uses the excerpt function, which automatically generates a short excerpt of the text without any formats or images. Just set 
+
+```php
+'descriptionExcerpt' => false
+```
+
+in the feed template to fix that.

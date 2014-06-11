@@ -1,0 +1,16 @@
+User: russbaldwin
+----
+Date: 2013-10-09 15:38:47
+----
+Text: @timgauthier, what do yo want to pass and how?
+
+Not tested but from the above example:
+
+```php
+snippet(
+ 'mySnippet',array(
+    'something'     => ($funk),
+    'somethingelse' => 'notsofunky'
+ )
+)
+```

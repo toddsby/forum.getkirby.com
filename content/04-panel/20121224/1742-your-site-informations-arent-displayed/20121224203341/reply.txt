@@ -1,0 +1,9 @@
+User: tysongach
+----
+Date: 2012-12-24 20:33:41
+----
+Text: Hi,
+
+Are you talking about the ‘Home’ page of the panel (first page when you login) where it should have general site information Title, Description, Copyright, etc?
+
+The panel pulls this information from the content file `site.txt` in the root of your content file. Is that in place?

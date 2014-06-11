@@ -1,0 +1,11 @@
+Title: Redirect homepage to latest post
+----
+Date: 2014-03-22 02:09:31
+----
+Solved: 1
+----
+User: sulcalibur
+----
+Text: Is there a simple way to redirect the user when you they visit www.yoursite.com to load up the url of the latest post?
+
+Thanks

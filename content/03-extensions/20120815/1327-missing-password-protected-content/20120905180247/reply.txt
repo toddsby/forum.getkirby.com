@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-09-05 18:02:47
+----
+Text: @hrshukla I'm sorry that it's not running great guys. It's a very early inofficial plugin and I never had the chance to test it. I will write an official plugin as soon as possible, but at the moment there's too much client work and upcoming holidays so that won't happen before the beginning of October. I'm really sorry!

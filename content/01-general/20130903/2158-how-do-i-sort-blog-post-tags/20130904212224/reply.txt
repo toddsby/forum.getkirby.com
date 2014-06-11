@@ -1,0 +1,13 @@
+User: aqeelfikree
+----
+Date: 2013-09-04 21:22:24
+----
+Text: Since my tags didn't show up, I reverted back to my original code, but I used the exact code you showed above. The code I'm using is like I showed above, but here's a bit more:
+
+    <?php if ($article->tags() != ''): ?>
+      <ul class="tag">
+        <?php foreach(str::split($article->tags()) as $tag): ?>
+        <li><a href="<?php echo url('tag:' . urlencode($tag)) ?>">&#35;<?php echo $tag; ?></a></li>
+        <?php endforeach ?>
+      </ul>
+    <?php endif ?>

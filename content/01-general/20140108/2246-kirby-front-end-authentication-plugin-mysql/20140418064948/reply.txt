@@ -1,0 +1,7 @@
+User: AngelosThoughts
+----
+Date: 2014-04-18 06:49:48
+----
+Text: Thanks for posting this! This is an awesomely elegant solution to front-end user creation.
+
+I'm going to give this a try and will post back if I find a way to fix the existing user error.

@@ -1,0 +1,5 @@
+User: GeishaOnABike
+----
+Date: 2013-07-04 19:56:00
+----
+Text: I have also made all the instructed changes to the .htaccess and config file but I keep getting the 404 error... What else can I do to troubleshoot?

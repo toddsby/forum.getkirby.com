@@ -1,0 +1,12 @@
+Title: Snippet not working at sub-sub-folder level
+----
+Date: 2013-07-28 15:47:57
+----
+Solved: 0
+----
+User: johnkelleher
+----
+Text: Hi,
+ I have my site working (jkwp.itsligo.ie). However, moving it to local drive, I find that while all references (css/js) at top level pages, they fail on lower levels.
+For example localhost:8888/home works. So does localhost:8888/blog. But localhost:8888/foop201/schedule fails to load the css/js. Debugging shows it's looking at the relative folder assets/css which of course won't work at lower levels.
+I changed the config every which way but no luck. I'm pretty confused with the c::set('url') and c::set('subfolder') settings. Note this does work on my server but not locally - guess this has to do with the root mapping being to the kirby folder on the server while locally, it's in a subfolder.

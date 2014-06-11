@@ -1,0 +1,20 @@
+Title: displaying thumbs in portfolio page
+----
+Date: 2013-02-09 19:55:29
+----
+Solved: 1
+----
+User: d2k0bler
+----
+Text: I'm making a template and trying to create a portfolio page where the images are displayed and they link to the page of each work page.
+
+
+I have that down, but I want to display only an image named thumb.png. As it is, it displays all the images in that work.
+
+here is my image code:
+
+	 <?php foreach($article->images() as $image): ?>
+            										
+	<a href="<?php echo $article->url() ?>"><img src=<?php echo $image->url() ?>"/> </a>
+
+			    <?php endforeach ?>

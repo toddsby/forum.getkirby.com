@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-06-25 10:51:58
+----
+Text: Nice! Thanks for the update. I don't know if you are familiar with Github, but you should really check it out and try to submit your code there instead next time. The forum is ok, of course, but Github is so much better with handling code suggestions :)

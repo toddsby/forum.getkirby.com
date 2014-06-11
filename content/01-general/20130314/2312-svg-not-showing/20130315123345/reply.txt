@@ -1,0 +1,9 @@
+User: russbaldwin
+----
+Date: 2013-03-15 12:33:45
+----
+Text: This works for me, perhaps check rights and routing (.htaccess)
+
+```php
+ <img class="logo1" src="/assets/images/jte.svg" alt="Logo" />
+```

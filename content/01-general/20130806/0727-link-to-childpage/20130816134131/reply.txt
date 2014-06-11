@@ -1,0 +1,8 @@
+User: atimoda
+----
+Date: 2013-08-16 13:41:31
+----
+Text: I think she means to redirect to the first child when clicking on the root menu link.
+
+If that is what you are looking for, then you can make a redirect on the root pages. like this example:
+http://getkirby.com/blog/simple-redirects

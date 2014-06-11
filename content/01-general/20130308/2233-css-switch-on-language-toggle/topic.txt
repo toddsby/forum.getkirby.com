@@ -1,0 +1,19 @@
+Title: CSS switch on language toggle?
+----
+Date: 2013-03-08 22:33:28
+----
+Solved: 1
+----
+User: baderkamal
+----
+Text: I'm trying to switch css files on a language toggle. It doesn't seem to be working. I tried:
+
+    <?php if ($page->content('en')): ?>
+        <?php echo css('assets/styles/foundation.css') ?>
+    <?php elseif($page->content('ar')): ?>
+        <?php echo css('assets/styles/foundationarabic.css') ?>
+    <?php endif ?>
+
+Didn't work. I need to switch css files since English is ltr and Arabic is rtl. I hope there's something I can do. This hole project depends on it. I've looked through the forums/docs/tutorials. Didn't find something relevant.
+
+Thanks.

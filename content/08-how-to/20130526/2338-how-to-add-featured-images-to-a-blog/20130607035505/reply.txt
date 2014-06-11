@@ -1,0 +1,5 @@
+User: piersolenski
+----
+Date: 2013-06-07 03:55:05
+----
+Text: Nice, but how do you stop the featured image from being outputted with all your other images when using $page->images()?

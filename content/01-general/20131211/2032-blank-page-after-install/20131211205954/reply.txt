@@ -1,0 +1,5 @@
+User: eso_austin
+----
+Date: 2013-12-11 20:59:54
+----
+Text: Tried disabling mod_rewrite with no effect.

@@ -1,0 +1,11 @@
+User: russbaldwin
+----
+Date: 2013-12-16 09:12:42
+----
+Text: Not sure I would be messing around with the source ;-)
+How about add a CSS class to the body of your header template based on the project template or some other identifier and then style normally?
+
+Something like
+```php
+<body id="content" class="<?php echo $page->template() ?>" >
+```

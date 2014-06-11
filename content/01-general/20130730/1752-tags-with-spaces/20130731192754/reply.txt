@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-07-31 19:27:54
+----
+Text: You could possibly use some combination of urlencode() and urldecode() for your tags with spaces.

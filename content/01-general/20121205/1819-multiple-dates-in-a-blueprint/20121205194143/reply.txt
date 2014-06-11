@@ -1,0 +1,9 @@
+User: fitzage
+----
+Date: 2012-12-05 19:41:43
+----
+Text: In the templates, Kirby doesn't treat it as a date unless it's the actual field called date.
+
+So you have to wrap it in `strtotime()` and use the php `date` function. Something like this:
+
+    <?php echo date('F j, Y', strtotime($event->enddate())) ?>

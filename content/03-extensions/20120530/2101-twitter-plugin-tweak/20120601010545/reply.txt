@@ -1,0 +1,15 @@
+User: fitzage
+----
+Date: 2012-06-01 01:05:45
+----
+Text: I wish this forum would send notifications or something. I don't know when there's something new. Anyway…
+
+I added this code (already forgot where I got it) to the top of the tweets.php plugin file (inside the opening php tag).
+http://mr.mftz.us/H4RH
+Then, down below where you have the line
+
+'text' => $tweet['text'],
+
+I changed it to
+
+'text' => auto_link_text($tweet['text']),

@@ -1,0 +1,5 @@
+User: ChrisjMartin87
+----
+Date: 2013-10-09 12:27:31
+----
+Text: Pretty much, you need to specify which fields you want to display in your contact form.mail file too!

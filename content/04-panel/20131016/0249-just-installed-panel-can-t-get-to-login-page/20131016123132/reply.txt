@@ -1,0 +1,8 @@
+User: texnixe
+----
+Date: 2013-10-16 12:31:32
+----
+Text: And check if you have two folders named panel now:
+
+- one in your kirby folder (where the index.php is)
+- one in your site folder (that's the one that must contain the accounts folder with your credentials)

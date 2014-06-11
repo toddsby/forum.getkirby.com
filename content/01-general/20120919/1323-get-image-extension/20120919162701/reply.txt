@@ -1,0 +1,15 @@
+User: lulezi
+----
+Date: 2012-09-19 16:27:01
+----
+Text: Just use
+
+```php
+<img src="<?php echo $article->images()->filterBy('name', 'cover')->first()->url(); ?>
+```
+
+instead of
+
+```php
+<img src="<?php echo $article->images()->find('cover.png')->url(); ?>
+```

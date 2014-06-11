@@ -1,0 +1,21 @@
+Title: Where to add contact form spam protection (revised)?
+----
+Date: 2013-03-29 00:26:17
+----
+Solved: 0
+----
+User: atomicbird
+----
+Text: I'm trying to add a simple math-based captcha as described at (link:http://getkirby.com/forum/extensions/topic:167).
+
+I thought the best place to validate the result would be in site/plugins/contactform/contactform.php, in the validate function. I tried adding this:
+
+    if ($self->value('spam') != $_SESSION['capres']) { $self->addInvalid('spam'); }
+
+But I got errors that `$_SESSION` is not defined. I also tried this:
+
+    if ($self->value('spam') != s::get('capres')) { $self->addInvalid('spam'); }
+
+No errors now, but it also rejects every answer whether right or wrong.
+
+What do I need to do to make this check in the validate function? Or is there someplace else that would be better?

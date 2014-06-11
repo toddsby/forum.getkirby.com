@@ -1,0 +1,24 @@
+Title: Change Panel Preview icon 'target' or give option or 'target'
+----
+Date: 2012-10-19 18:05:37
+----
+Solved: 0
+----
+User: russbaldwin
+----
+Text: In Panel, the 'preview' icon/button always opens a **new** window with the previewed page in. I'm suggesting it should open in the same windows (you can always right click to open in a new tab,) or at least have an option where this 'target' could be set. 
+
+Why?
+
+Because if you use ['panelUser' snippet](https://gist.github.com/2851074) to see if a user is logged in and then add an edit icon to your site, you can add to the code provided and set it to edit the page you are on.  If you roughly align the 'edit' icon (on your page) with the 'preview' icon (in panel) it all becomes pretty seamless and you hardly have to move your mouse to toggle between the two states (editing/previewing) :-)
+
+I did this by altering the Panel snippet, 'header.php' 
+Around line (83-ish) remove the '*target="_blank"*', so change: 
+
+    <li class="preview"><a target="_blank" href="<?php echo ourl($page->url()) ?>"><?php echo l::get('tabs.preview') ?></a></li>  
+    
+to
+    
+	<li class="preview"><a href="<?php echo ourl($page->url()) ?>"><?php echo l::get('tabs.preview') ?></a></li>  
+	
+***Note**: this does not alter the behavior of the preview button on Panel site/dashboard. This is obviously set elsewhere and as it does not link to a page for editing, I was happy to leave that as it is.*

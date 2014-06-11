@@ -1,0 +1,8 @@
+User: tillpro
+----
+Date: 2013-06-23 11:12:40
+----
+Text: Hi—
+
+Yes, there is :)
+[`$pages->sortBy($sort='title', $direction='asc')`](http://getkirby.com/docs/variables/pages)

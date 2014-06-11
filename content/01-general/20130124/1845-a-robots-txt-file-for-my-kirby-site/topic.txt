@@ -1,0 +1,30 @@
+Title: A robots.txt file for my Kirby site
+----
+Date: 2013-01-24 18:45:20
+----
+Solved: 0
+----
+User: wordius
+----
+Text: I want to add a robots.txt file for my site, but I’m not sure what to include. Currently I have:
+
+    User-agent: *
+    Disallow: /assets/
+    Disallow: /kirby/
+    Disallow: /site/
+    Disallow: /stylesheets/
+
+    sitemap: http://example.com.sitemap
+
+Should I, or can I, also add stuff like:
+
+    /archive/
+    /tag:/
+
+Not sure whether that last will work, as the URLs look like:
+
+    http:/example.com/tag:tagname
+
+where tagname is a single-word variable.
+
+Any help appreciated.

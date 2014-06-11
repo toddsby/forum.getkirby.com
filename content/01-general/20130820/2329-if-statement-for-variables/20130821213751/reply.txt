@@ -1,0 +1,7 @@
+User: texnixe
+----
+Date: 2013-08-21 21:37:51
+----
+Text: You don't say what the problem is, but try
+
+    <?php if (!empty ($prints )) : ?>

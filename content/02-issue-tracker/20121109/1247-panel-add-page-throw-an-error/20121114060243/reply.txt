@@ -1,0 +1,5 @@
+User: Haustraliaer
+----
+Date: 2012-11-14 06:02:43
+----
+Text: So far I still get the problem after setting rewrite to true/false.. so it's not that.

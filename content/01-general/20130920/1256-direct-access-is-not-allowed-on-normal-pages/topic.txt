@@ -1,0 +1,13 @@
+Title: Direct access is not allowed on normal pages
+----
+Date: 2013-09-20 12:56:04
+----
+Solved: 0
+----
+User: phasenkasper
+----
+Text: Hello,
+currently I'm working on my blog (local). Sometimes I have the problem that if I changed something in the code and switch to the page, i get the message "Direct access is not allowed".
+I call the website normal. If I waited a few minutes, then the site running again.
+
+Lukas

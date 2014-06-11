@@ -1,0 +1,9 @@
+User: roylodder
+----
+Date: 2013-10-25 14:54:39
+----
+Text: Solved it by using 
+
+
+    <?php echo $page->images()->filterBy('title', '*=', '03')->first()->url() ?>
+It's not ideal but it works.

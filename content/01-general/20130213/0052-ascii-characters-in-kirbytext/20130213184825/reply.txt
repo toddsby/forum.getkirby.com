@@ -1,0 +1,7 @@
+User: huhcorp
+----
+Date: 2013-02-13 18:48:25
+----
+Text: Thanks for your reply! I guess I don't understand how this is getting rendered in Kirby. Which character combination do I use, from that page you linked? If I use U+2122, it just returns those characters.
+
+This is the same thing that happens if I use the HTML code that I normally use in my markup.

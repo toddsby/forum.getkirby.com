@@ -1,0 +1,11 @@
+Title: Problem Accessing the Panel
+----
+Date: 2013-09-30 22:57:20
+----
+Solved: 0
+----
+User: rizkysyazuli
+----
+Text: The Kirby panel cannot be opened on my staging server. Chrome gives me a "This webpage has a redirect loop" error when i tried to access it. But, it runs fine on my local machine (with some minor permission issue).
+
+Any ideas?

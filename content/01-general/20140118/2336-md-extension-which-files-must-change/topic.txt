@@ -1,0 +1,15 @@
+Title: md extension; which files must change?
+----
+Date: 2014-01-18 23:36:04
+----
+Solved: 0
+----
+User: gebloom
+----
+Text: When I set file extension in config.php to md
+
+c::set('content.file.extension', 'md');
+
+my whole site went blank, when I changed the extension.
+
+Do I need to change every file with a txt extension to md (e.g., blog.txt, site.txt. page.txt)? Or just files article.text.txt? (If the latter, why did my whole site disappear?)

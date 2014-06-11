@@ -1,0 +1,26 @@
+User: _nilswerner
+----
+Date: 2014-03-21 13:40:22
+----
+Text: I found out I can implement a hack to do something similar to this: when I put something similar to
+
+    <ul class="nav nav-list">
+        <?php foreach($site->pages()->visible() AS $p): ?>
+            <li><a href="<?php echo $p->url() ?>"><?php echo $p->title() ?></a></li>
+        <?php endforeach ?>
+        <?php echo tpl::get('submenu') ?>
+    </ul>
+
+in my `snippets/menu.php` I can then do
+
+    <?php tpl::set('submenu',
+                    snippet('treemenu',array('subpages' => array($page->parent())), true)
+    ); ?>
+
+    <?php snippet('header') ?>
+        <div class="container">
+            <p>This is my body content.</p>
+        </div>
+    <?php snippet('footer') ?>
+
+in my templates.

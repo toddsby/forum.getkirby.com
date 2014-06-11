@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-05-29 12:55:37
+----
+Text: Well, the problem with shortening formatted text is, that you might cut off parts of formatting tags. That's why `str::short` won't help either. There will be definitely an update for this sooner or later. In the meantime you could build your own PHP function for it :)

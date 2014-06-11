@@ -1,0 +1,13 @@
+User: russbaldwin
+----
+Date: 2013-02-18 09:10:07
+----
+Text: One way would be to enable **Markdown Extra** in your *config.php*.
+
+```php
+
+c::set('markdown.extra', true);
+
+```
+
+[And then check out the **Markdown Extra** syntax...](http://michelf.com/projects/php-markdown/extra/)

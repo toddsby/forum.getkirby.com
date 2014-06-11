@@ -1,0 +1,5 @@
+User: DerZyklop
+----
+Date: 2014-05-20 19:01:58
+----
+Text: as mentioned in the (link: http://getkirby.com/forum/extensions/topic:167 text: other thread), someone added a honeypot to the plugin. See: <https://github.com/bastianallgeier/kirbycms-extensions/commit/68ab6508dbb1221cf87cfd63dd25d65aa02f57fc>

@@ -1,0 +1,27 @@
+Title: Check if loop contains articles with date before or after today
+----
+Date: 2013-04-06 19:06:53
+----
+Solved: 1
+----
+User: iamirm
+----
+Text: Hi everyone,
+
+I'm still trying to get the hang of PHP and I'm a little stuck on something.
+
+I'm building an event list for my client and I want to show two separate lists: One with future dates and one with past dates.
+
+My articles (events) are in a folder called 'calendar' and the have a date field.
+
+This is the start of my loop
+     $tourdates = $pages->find('calendar')->children()->visible()->sortBy("date", "asc");
+     foreach($tourdates as $tourdate)
+
+I can check if a date is in the future or in the past within the loop, but I need to check if the loop contains articles with future dates before I run through it so I can show a substitute text if there are no future dates.
+
+Does anybody have an idea how to do this?
+
+Thanks!
+
+Irma

@@ -1,0 +1,23 @@
+User: jolantis
+----
+Date: 2012-07-16 12:07:53
+----
+Text: @bastianallgeier I didn't have time to test it lats week, but it's not completely working the way I would like to with Markdown Extra enabled.
+
+The ‘figure’ and ‘img’ tags also need to be added to the following lines in the markdown.extra.php file:
+
+**Line 1631:**
+`var $block_tags_re = 'p|div|h[1-6]|blockquote|pre|table|dl|ol|ul|address|form|fieldset|iframe|hr|legend|figure';`
+
+**Line 1634:**
+`var $context_block_tags_re = 'script|noscript|math|ins|del|img';`
+
+_Any reason why you didn't add those?_
+
+Possible to add this to the defaults.php by default as well:
+
+`c::set('markdown.extra.blocktags', '...')`
+`c::set('markdown.extra.context.blocktags', '...')`
+
+Thanks,
+J.

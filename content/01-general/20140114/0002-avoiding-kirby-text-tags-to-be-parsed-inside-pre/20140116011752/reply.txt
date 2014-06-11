@@ -1,0 +1,5 @@
+User: JerikoOne
+----
+Date: 2014-01-16 01:17:52
+----
+Text: Just use the character entities instead of actual parentheses to avoid parsing by Kirbytext. You can find them at http://dev.w3.org/html5/html-author/charref. I can't include them here since they will convert to, well, parentheses :-)

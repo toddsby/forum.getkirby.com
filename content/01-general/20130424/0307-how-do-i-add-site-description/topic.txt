@@ -1,0 +1,11 @@
+Title: How do I add Site Description?
+----
+Date: 2013-04-24 03:07:38
+----
+Solved: 1
+----
+User: staroversky
+----
+Text: In wordpress, there is an option to add site description. I can't find how to do this in Kirby.
+
+Please help.

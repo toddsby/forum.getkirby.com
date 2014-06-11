@@ -1,0 +1,9 @@
+Title: Indication of sub folders/content on a panel menu item
+----
+Date: 2012-12-06 17:29:49
+----
+Solved: 0
+----
+User: russbaldwin
+----
+Text: Perhaps an indicator on the menu of an item with sub items in the Panel, to make it clearer that there is more if clicked?

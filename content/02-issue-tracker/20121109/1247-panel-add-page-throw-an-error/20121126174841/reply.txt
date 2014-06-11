@@ -1,0 +1,9 @@
+User: bastianallgeier
+----
+Date: 2012-11-26 17:48:41
+----
+Text: Hey guys, 
+
+I just published a new dev version of the Panel, which could fix this. Would you be so kind to give it a try? 
+
+<https://github.com/bastianallgeier/kirbycms-panel/tree/dev>

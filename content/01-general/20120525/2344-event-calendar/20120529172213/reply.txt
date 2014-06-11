@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2012-05-29 17:22:13
+----
+Text: No rush. I'm contemplating embedding an iframe of a calendar instead, as we have a web app that we use for these things too (although we haven't been using it very well). That would probably work better just because everything would be managed from one place.
+
+But then it wouldn't look as nice as a native calendar, so I might decide to go this route. Any help you can give would be nice, but don't kill yourself over it. :-)

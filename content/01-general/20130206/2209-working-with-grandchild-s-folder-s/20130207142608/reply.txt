@@ -1,0 +1,22 @@
+User: roman_oroco
+----
+Date: 2013-02-07 14:26:08
+----
+Text: @bastianallgeier Exactly what I did:
+```
+[…]
+-01-category
+---category.txt
+-02-category
+---category.txt
+[…]
+```
+But I'm stuck at this code `template/category.php`:
+In fact wen I change `->find('category-1')` it's displays obviously only that category for all. What variable I should use to dynamically display any category with his child articles?
+```php
+<?php $articles = $pages->find('???')
+                        ->children()
+                        ->visible()
+                        ->sortBy('date', 'desc')
+                        ->paginate(5); ?>
+```

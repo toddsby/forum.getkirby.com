@@ -1,0 +1,67 @@
+User: texnixe
+----
+Date: 2013-08-24 19:40:19
+----
+Text: Yes, it is actually quite straightforward.
+
+Suppose you have a tag field in your textfiles called tags, all separated by a comma:
+
+    Tags: tag1, tag2, tag3
+
+Lets further suppose, you have an image-folder in your assets folder or whereever that contains all the icons for the tags. If you name the icons like the tags, you can use the following code:
+
+    <?php 
+	$tags=($page->tags());
+	$tags=explode(',',$tags);
+	$tags=array_map('trim',$tags);
+    ?> 
+    <?php if($page->tags()):?>
+	<ul>
+		<?php foreach($tags as $tag):?>
+			<li><a href=""><img src="http://url/to/iconfolder/<?= ($tag . '.gif') ?>" ></a></li>
+		<?php endforeach?>
+    </ul> 
+    <?php endif?>
+
+Or, if you want a tagcloud on the startpage that comprises tags of articles in different folders:
+
+Put the tagcloud-snippet in the plugins folder
+
+Create a tag_cloud.php snippet
+
+    <? $articles = $pages->find('folder1','folder2');
+       $tags = tagcloud($articles);
+    ?>	
+       <div>
+	  <ul class="article-tags">
+            <? foreach($tags as $tag): ?>
+              <li><a href="link/to/page/that/shows/all/articles/<?= $tag->url() ?>"><img src="http://url/to/iconfolder/<?= ($tag . '.gif') ?>" ></a></li>
+           <? endforeach?>
+         </ul> 
+      </div>
+
+Include the snippet on the index.php
+
+      <? php snippet('tag_cloud')
+
+Create a new hidden folder and in it a page that outputs all articles tagged with the tag in question using the same folders as above:
+
+      <? snippet('header'); ?>
+        <? 
+          $tag = urldecode(param('tag'));
+            if(param('tag'))
+	       $articles=$pages->find('folder1', 'folder2')
+                             ->children()
+                             ->visible()
+                             ->filterBy('tags',$tag,',')
+                             ->sortBy('date')->flip(); 
+        ?>
+        <section >
+          <? foreach($articles as $art):?> 
+            <article>
+              <h1><a href="<?= $art->url()?>"><?= html($art->title())?></a></h1> 
+	      <p><?= excerpt($art->text(),300)?><a href="<?= $art->url()?>">More …</a></p> 
+	    </article> 
+	  <? endforeach?> 
+        </section>
+    <? snippet('footer')?>

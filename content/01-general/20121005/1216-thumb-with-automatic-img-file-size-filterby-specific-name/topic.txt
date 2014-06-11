@@ -1,0 +1,24 @@
+Title: Thumb with automatic img file size filterBy specific name
+----
+Date: 2012-10-05 12:16:22
+----
+Solved: 1
+----
+User: roman_oroco
+----
+Text: It will be super great for us and especially for our clients to put any king of image format *(.jpg, .png, .gif)* to generate thumbs and auto generate img *height* and *width* respecting WC3 standards.
+
+So, there is two codes that I want unify:
+
+This code is limited by file extension but it works for Thumb Plugin:
+```php
+<img src="<?php echo thumb($article->images()->find('thumb.jpg'), array('width' => 300, 'height' => 200, 'crop' => true), false) ?>">
+```
+
+This code search img file by any extension but it doesn't work for Thumb Plugin:
+```php
+<?php $image = $article->images()->filterBy('name', 'thumb') ?>
+<?php if($image): ?>
+  <img src="<?php echo $image->first()->url() ?>"/>
+<?php endif ?>
+```

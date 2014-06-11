@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-03-12 21:20:03
+----
+Text: You can put help text in your blueprints for panel, also make a hidden page in your site with help on?

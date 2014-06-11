@@ -1,0 +1,7 @@
+User: tysongach
+----
+Date: 2014-02-03 16:16:51
+----
+Text: Is this client using Safari 7?
+
+I’m a Safari user myself and noticed this too. Per Bastian’s (link: https://twitter.com/getkirby/status/395521228586635264 text: tweet), you can (link: https://github.com/bastianallgeier/kirbycms-panel/tree/dev text: download the latest Panel version from the dev branch on GitHub) to resolve this, I believe.

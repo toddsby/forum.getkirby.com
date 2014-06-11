@@ -1,0 +1,19 @@
+Title: images->find()->url() breaks if image not present
+----
+Date: 2012-06-06 08:47:34
+----
+Solved: 0
+----
+User: lucpestille
+----
+Text: Firstly, let me say, Kirby is awesome. So quick. So easy.
+
+I've found something that broke while creating my site - using your "build a blog" tutorial and the image embed code, this:
+
+```php
+<?php echo $article->images()->find('decoration.png')->url() ?>
+```
+
+...stops the page from outputting anything further, when it can't find that decoration.png in a directory. Am I using it correctly, is this expected behavour, or a bug?
+
+Thanks,

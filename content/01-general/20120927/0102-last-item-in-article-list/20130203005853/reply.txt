@@ -1,0 +1,16 @@
+User: huhcorp
+----
+Date: 2013-02-03 00:58:53
+----
+Text: I'm doing something similar to find the most recent blog article, to feature it on the home page:
+<pre><code>
+$project = $pages->find('blog')
+$mostrecent = $project->children()
+$last = $mostrecent->last()
+</code></pre>
+How would I target the 2nd to last article? Something like this? I'm not quite there yet...
+<pre><code>
+$project = $pages->find('blog')
+$getkids = $project->children()
+$howmany = $getkids->count()
+</code></pre>

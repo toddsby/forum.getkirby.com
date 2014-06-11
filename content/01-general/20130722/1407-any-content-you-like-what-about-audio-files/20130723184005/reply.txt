@@ -1,0 +1,30 @@
+User: fitzage
+----
+Date: 2013-07-23 18:40:05
+----
+Text: Well, my JPlayer is a little weird because I'm actually just saving my audio files on a separate server with date-based folders and date-based filenames, so then I just construct the link based on the date of the post.
+
+But basically, you just paste in the jplayer code example from their website, and when it asks for the source of the audio file you do something like…
+
+    <?php echo $page->sounds()->first()->url() ?>
+
+In your simpler HTML5 audio example, you would basically stick that where you have `$myfile`.
+
+If you're dealing with a playlist, you would basically generate a list of subpages in kirby and then echo the audio file URLs from those items into the audio player. I've never done that in jplayer, but you would use there sample code and when you get to the point where it wants the list of files for the playlist, you'd do something like this (I'm using the format for just that portion of the JPlayer example that lists the files):
+
+    <?php $audiofiles = $page->children()->visible() ?>
+    <?php foreach ($audiofiles AS $audiofile) : ?>
+        {
+            title:"<?php echo $audiofile->title() ?>",
+            mp3:"<?php echo $audiofile->sounds()->first()->url() ?>",
+        },
+    <? endforeach ?>
+
+Obviously you may need to do some tweaks. I'm not sure if that trailing comma needs to be removed on the last one or not. If it does, you'll have to use PHP to determine the last item in the list and not apply it. There's a thread somewhere on here about that…
+
+Now, the potential issue: If you're using multiple file formats to provide HTML5 compatibility with Firefox by including ogg, `sounds()->first()` won't be enough. You'll have to search explicitly for the mp3 and ogg versions of the files using something like this:
+
+    mp3:"<?php echo $audiofile->sounds()->filterBy('extension', 'mp3')->first()->url() ?>",
+    ogg:"<?php echo $audiofile->sounds()->filterBy('extension', 'ogg')->first()->url() ?>",
+
+That assumes Kirby recognizes ogg as a sound file. If `sounds()` doesn't work, you can just switch to `files()` and that should work fine if you're using file extension to find it anyway.

@@ -1,0 +1,14 @@
+User: lulezi
+----
+Date: 2012-09-10 15:53:41
+----
+Text: Try this:
+
+```php
+
+if($page->hasImages() && $page->images()->count() > 1) {
+  print 'more than 1 image';
+  // gallery
+}
+
+```

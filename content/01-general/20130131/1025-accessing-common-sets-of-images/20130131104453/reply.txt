@@ -1,0 +1,7 @@
+User: plartz
+----
+Date: 2013-01-31 10:44:53
+----
+Text: Just use `$pages->find("the-page-you-want")->images()` (didn't test it, but it should work fine).
+
+Maybe add another invisible site where you put your common files in, e.g. "common-files". Then you just use `$pages->find("common-files")->images()` and read them out just as they were on the actual page.

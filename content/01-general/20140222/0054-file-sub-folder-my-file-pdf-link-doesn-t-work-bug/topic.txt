@@ -1,0 +1,24 @@
+Title: (file: sub/folder/my file.pdf) link doesn't work. Bug?
+----
+Date: 2014-02-22 00:54:19
+----
+Solved: 0
+----
+User: devdatastream
+----
+Text: Hi!
+In `/products/my-product/my-product.txt` I tried to link to a file in another folder with the file having spaces in the name, but that redirects me to the homepage! Any idea why? 
+
+Here's what I tried:
+
+`- (file: service/the-manuals/My manual.pdf text: Manual`
+
+I also tried this without luck:
+
+`- (file: service/the-manuals/My%20manual.pdf text: Manual`
+
+and:
+
+`- (file: 04-service/the-manuals/My%20manual.pdf text: Manual`
+
+PS: Adding the closing paranthesis renders the code instead of showing it. Maybe a bug with this forum?

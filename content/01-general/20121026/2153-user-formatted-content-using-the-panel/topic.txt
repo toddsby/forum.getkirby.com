@@ -1,0 +1,20 @@
+Title: User formatted content using the Panel
+----
+Date: 2012-10-26 21:53:10
+----
+Solved: 0
+----
+User: mattsandersuk
+----
+Text: Hi,
+
+I'm in the process of migrating a site to Kirby from Concrete5. So far it's going really well, incredibly straight forward and much much quicker than before.
+
+But, the one thing that i'm missing from Concrete5 is the ability to format the text using the CMS's built in editor. I'd like to be able to give the end user the ability to make text within a textarea field bold, change font-color etc...
+
+Is there anyway that this functionality can be provided to the end user through the panel. The user will have no knowledge of HTML/CSS.
+
+I've not seen this mentioned by anyone else but i wondered if anyone had any thoughts (even if it's just to say "that's not possible").
+
+Thanks in advance :)
+Matt

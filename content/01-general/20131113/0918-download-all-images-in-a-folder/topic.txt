@@ -1,0 +1,22 @@
+Title: Download all images in a folder
+----
+Date: 2013-11-13 09:18:40
+----
+Solved: 0
+----
+User: pixelbande
+----
+Text: Hi Folks,
+
+does anyone know a trick to implement the following:
+
+- user clicks a link in the FE
+- a .zip-file from all the images contained in the current page's folder is generated and download started
+
+I know there is no
+
+    <?php echo $page->files->create.zip(); ?>
+
+but it would be awesome :)
+
+Thank you for your answers!

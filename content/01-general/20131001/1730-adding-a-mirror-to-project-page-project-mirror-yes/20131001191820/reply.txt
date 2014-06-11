@@ -1,0 +1,14 @@
+User: structor
+----
+Date: 2013-10-01 19:18:20
+----
+Text: Ok, the correct code is:
+
+    <?php if(param('mirror')): ?> 
+	<div class="project-img img-mirror">
+    <?php else: ?> 
+	<div class="project-img">
+    <?php endif ?> 
+
+Now I have the following problem:
+I do not know how to manage this to work with fancybox gallery. The thumbs are flipping, but the real images from the fancybox gallery don't. Any clues?

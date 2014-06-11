@@ -1,0 +1,27 @@
+User: mecrawlings
+----
+Date: 2013-10-21 11:08:42
+----
+Text: I've been using the multi-language functions recently.
+
+How are you going to provide the specific links?
+
+If you provide the link:
+
+`/en/imprint`
+
+Kirby will give you back the en version.
+
+If you provide the link:
+
+`/imprint`
+
+Kirby will give you back the current language version or the default if there is no translation, so if the visitor switched the site to de they get de content, if they switched the site to en, they get en content.
+
+Kirby can also detect the users language based on their browser, this is the:
+
+`c::set('lang.detect', true);`
+
+setting in your config.
+
+Does that not provide what you need?

@@ -1,0 +1,18 @@
+Title: Fatal error: Call to a member function isErrorPage() on a non-object
+----
+Date: 2014-01-14 02:02:27
+----
+Solved: 1
+----
+User: richgcook
+----
+Text: Hi folks,
+
+I use Kirby all the time, on both local and remote development, but recently I'm having an issue. Local version of site works fine, but once I push all the files to my remote server, I get this error:
+
+Fatal error: Call to a member function isErrorPage() on a non-object in /nfs/c10/h03/mnt/141188/domains/dev.rdck.co/html/charlotte-morgan/kirby/lib/site.php on line 97
+
+My other Kirby sites work fine, on the same dev.rdck.co server, so no idea what's going on. Any clues?
+
+Thanks,
+R

@@ -1,0 +1,15 @@
+User: fitzage
+----
+Date: 2012-11-07 15:25:25
+----
+Text: You'll need a loop within a loop. First loop pulling the children, second loop pulling the grandchildren. There's a discussion about this here http://getkirby.com/forum/general/topic:140
+
+My first code example on that page should do the trick:
+
+
+    <?php foreach($page->children() as $child): ?>
+    <!-- do something with the children -->
+        <?php foreach($child->children() as $grandchild): ?>
+        <!-- do something with the grandchildren -->
+        <?php endforeach ?>
+    <?php endforeach ?>

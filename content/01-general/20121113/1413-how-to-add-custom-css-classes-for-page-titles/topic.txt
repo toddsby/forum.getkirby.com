@@ -1,0 +1,25 @@
+Title: How to add custom .css-classes for page-titles?
+----
+Date: 2012-11-13 14:13:36
+----
+Solved: 0
+----
+User: jhercher
+----
+Text: Is there a way to add custom classes to the menue.php, for each list-item? I found that of markdown extra [1]  allows to add custom id-attributes to headers, like this:
+
+        ### my heading ### {#custom-id}
+
+unfortunatly this works only for the contents but not for the menue. 
+
+I would love to add individual classes directly in the corresponding title-tag of my text-documents, i.e.:
+
+       Title: About 	{.css-class-for-about}
+       Text: ...
+
+Any chance to add this into kirby?
+
+Perhaps there is another simple solution I've not found yet, e.g. by customizing site/snippets/menue.php ?!
+
+--
+[1] <http://michelf.ca/projects/php-markdown/extra/>

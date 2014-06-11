@@ -1,0 +1,7 @@
+User: staroversky
+----
+Date: 2013-04-25 14:17:11
+----
+Text: In Wordpress there is an option in the Settings to automatically resize all Images to Large and Medium sizes. I don't necessarily want to resize them but it would be nice to have some kind of setting so that Kirby will automatically recalculate/render images to the width of the body text in the style.css or to a specified dimensions. 
+
+In other words, I was looking for some kind of global setting that will allow me to just post images without specifying width for every single image. After using Wordpress and playing a little bit with Habari, I was left under the impression that if I post an image on my blog, it will be automatically rendered based on the body width.

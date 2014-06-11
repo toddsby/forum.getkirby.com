@@ -1,0 +1,9 @@
+User: fitzage
+----
+Date: 2013-12-11 15:31:02
+----
+Text: Side Note: It's a lot easier to load balance Kirby than to load balance a database-backed system, in my opinion. You're only dealing with web servers, not database servers. Although I'm sure you could set up WordPress in a way that's load balanced, it needs quite a bit more work than with Kirby.
+
+Of course that's the least of my issues with WordPress…
+
+I inherited a project in WordPress that someone else had screwed up. Thankfully, I had good reasons to justify rebuilding it completely in Kirby. I think it may have taken less time than fixing what they screwed up in WordPress.

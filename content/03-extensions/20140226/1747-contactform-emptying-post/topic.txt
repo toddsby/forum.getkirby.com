@@ -1,0 +1,11 @@
+Title: contactform emptying $_POST?
+----
+Date: 2014-02-26 17:47:55
+----
+Solved: 0
+----
+User: hamishtaplin
+----
+Text: So I'm using the contactform extension and trying to add some Mailchimp integration. Upon submission of the form, the $_POST object is empty — if I submit to a different page I get the expected result.
+
+Any idea why this is happening?

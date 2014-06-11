@@ -1,0 +1,17 @@
+User: jens_tornell
+----
+Date: 2014-03-12 08:22:47
+----
+Text: Even if I can get a trailing slash with correct page I want to redirect the page if the slash is missing.
+
+    http://www.test.com/about
+
+...should be redirected to...
+
+    http://www.test.com/about/
+
+I tried this without success (on localhost)...
+
+    RewriteRule ^(.+)/$ http://%{HTTP_HOST}/$1 [R=301,L]
+
+...right before &lt;/ifModule&gt;

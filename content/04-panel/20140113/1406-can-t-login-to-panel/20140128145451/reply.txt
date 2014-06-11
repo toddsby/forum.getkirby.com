@@ -1,0 +1,11 @@
+User: Eugenebicyclist
+----
+Date: 2014-01-28 14:54:51
+----
+Text: Slightly different issue here, I think, but for posterity:
+
+Login wasn't working for me when I used either of the "encrypt" lines in my account file. It worked without encryption.
+
+I had a couple of special characters, i.e., ^ ) #, in the password.
+
+When I removed them and used just alpha-numerical chars in pw, it then started working with encryption turned on.

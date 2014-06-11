@@ -1,0 +1,41 @@
+Title: Google Minify implementation
+----
+Date: 2013-10-08 07:58:37
+----
+Solved: 0
+----
+User: tomek_i
+----
+Text: To reduce HTTP request by minifiying JS and CSS go to https://code.google.com/p/minify/ and download this package. Once extracted you will find a folder called **minify** in it. Upload the whole folder to your website into the root directory. Go to the **plugins** folder of kirbyCMS and create a new file called **minify.php** and add the following content into it:
+
+<code>
+&lt;?php
+require_once('min/utils.php');
+function minifyCSS($files=array()) {
+    $cssUri = Minify_getUri($files); 
+    echo "&lt;link rel=stylesheet href='{$cssUri}'&gt;";
+}
+function minifyJS($files=array()) {
+    $cssUri = Minify_getUri($files); 
+    echo "&lt;script src='{$cssUri}'&gt;&lt;/script&gt;";
+}
+?&gt;
+</code>
+
+DONE!
+## How to use ##
+Here an example how to use it.
+<code>
+minifyCSS(array('assets/css/bootstrap.min.css','assets/css/bootstrap-theme.min.css'));
+</code>
+
+### Output ###
+Minify will output the following:
+<code>
+ &lt;link rel=stylesheet href='/min/b=assets/css&amp;f=bootstrap.min.css,bootstrap-theme.min.css&amp;1380829614'&gt;  
+</code>
+
+
+if you have any comments, questions or improvemnts please let me know. I personally do not like the resulting URL, it would be nice if somebody can rewrite it so it create a physical merged file and links to it.
+
+It would be also nice if kirbyCMS would provide it as an inbuilt feature :-)

@@ -1,0 +1,11 @@
+Title: CriticMarkup in the next version of Kirby?
+----
+Date: 2013-02-14 15:49:58
+----
+Solved: 0
+----
+User: russbaldwin
+----
+Text: It would be brilliant if the next version of Kirby could support [CriticMarkup](http://criticmarkup.com)
+
+"CriticMarkup is a way for authors and editors to track changes to documents in plain text. As with Markdown, small groups of distinctive characters allow you to highlight insertions, deletions, substitutions and comments, all without the overhead of heavy, proprietary office suites."

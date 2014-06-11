@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2012-09-19 18:30:28
+----
+Text: My preferred method for something like this is to have a separate field called excerpt or description or whatever. You can also then make it a little more of an intro if you want, instead of just the first bit of the article. Then you can choose whether or not to include that field on the article page as well.

@@ -1,0 +1,5 @@
+User: timgauthier
+----
+Date: 2013-10-16 22:17:03
+----
+Text: how would you use this to filter by an array. I have a page where a user who is logged in will see a list of products they can click on. These pages all have a field called "productID". I need to figure out how to filter a user who may have multiple ProductID's on their account to show ALL of the different products.

@@ -1,0 +1,7 @@
+User: th451
+----
+Date: 2013-01-25 14:29:45
+----
+Text: Just in case someone will run into similar problems: I got this sorted out, there is an important point to remember when translating rewrite rules from Apache to Lighttpd — the later will not pass query strings by default, they will be just stripped off. You need to  specify explicitly the passing of a query string in your regex. 
+
+More info in Lighttpd Wiki: http://redmine.lighttpd.net/projects/1/wiki/Docs_ModRewrite (bottom of the page)

@@ -1,0 +1,17 @@
+Title: How do you check if a URL or page/template matches certain criteria?
+----
+Date: 2012-11-08 21:04:59
+----
+Solved: 0
+----
+User: matteuszablocki
+----
+Text: Lets say I have a set of snippets. But I only want them to be run on a specific event or when a URL or page or a template matches.
+I found out that you can check if a loaded page's url matches and then execute a snippet:
+
+	<?php if
+	($page->url() == "http://http://test123.dev/a-page");
+	echo snippet('nameofthesnippet');
+	?>
+
+Is there better or fancier way to check URLs or if a certain page or template is loaded?

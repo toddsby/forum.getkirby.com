@@ -1,0 +1,7 @@
+User: tysongach
+----
+Date: 2014-02-25 15:27:25
+----
+Text: @bottle_bohemia - If I’m correctly understanding your needs, you can do this with the [pagesByDate plugin](http://getkirby.com/forum/code-snippets/topic:948) by [@fvsch](https://twitter.com/fvsch).
+
+I just found this yesterday and I whipped up an post archive broken out by year very easily.

@@ -1,0 +1,14 @@
+User: russbaldwin
+----
+Date: 2013-02-17 09:57:05
+----
+Text: Some things to check (in no order)...
+
++ Are you caching the pages?
++ Do you have an error log on your server to show if something is going wrong when you search.
++ Same PHP version (local/remote) and same plugins for it? 
++ Same web server (local/remote)? 
+
+---
+
+This maybe related to ['Search appears broken after updating to 1.1.2'](http://getkirby.com/forum/issue-tracker/topic:348), so maybe worth closing here and adding to there if you think they are the same?

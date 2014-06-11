@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-05-08 19:25:39
+----
+Text: Write a little Panel plugin to format your stuff or if in the main content make a Kirbytext one to match your requirements?

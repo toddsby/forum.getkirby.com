@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-01-25 02:15:08
+----
+Text: When you use ->first() you shouldn't need to use a foreach loop. Try removing the loop and see what happens.

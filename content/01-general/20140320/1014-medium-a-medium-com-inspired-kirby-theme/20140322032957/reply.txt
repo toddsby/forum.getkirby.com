@@ -1,0 +1,7 @@
+User: digisocialnet
+----
+Date: 2014-03-22 03:29:57
+----
+Text: the ajax loading isn't the same.. it should load automatically not on click.
+
+http://tympanus.net/codrops/2013/10/30/medium-style-page-transition/

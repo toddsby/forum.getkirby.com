@@ -1,0 +1,13 @@
+User: bastianallgeier
+----
+Date: 2012-10-15 16:00:11
+----
+Text: Ok, that's good to know :)
+
+You can already develop your own custom form fields for the panel without having to edit the core. Check out a few examples over here: <https://github.com/bastianallgeier/kirbycms-extensions/tree/master/fields>
+
+Custom fields can be added to site/panel/fields, so they don't go into the core panel folder. 
+
+Unfortunately field development is not yet documented, but you can check out the default form fields in panel/fields to get even more information and you can have a look at the form class in panel/lib/form.php. The good thing about this way to extend the panel is that it won't change in the new version, so your extension won't break with updates. 
+
+If you need more help with this, please send me an email: <bastian@getkirby.com>

@@ -1,0 +1,8 @@
+User: russbaldwin
+----
+Date: 2014-02-08 08:49:16
+----
+Text: + Try renaming 'kirbycms-panel-master' to 'panel'
++ This folder should have a 'defaults' folder in it. 
++ Copy that 'defaults' folder to your 'site' folder and rename it to 'panel'. 
++ Setup your accounts in this 'site/panel/accounts' folder.

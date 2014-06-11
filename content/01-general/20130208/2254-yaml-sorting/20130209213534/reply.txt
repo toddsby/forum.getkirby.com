@@ -1,0 +1,13 @@
+User: itisavery
+----
+Date: 2013-02-09 21:35:34
+----
+Text: Nevermind was easy, just found the php usort function and gave up on kirby's sorting.
+
+     <?php $lister = $array['List1'] ?>
+
+     <?php function sortByCompany($a, $b) {
+        return strcmp($a['Company'], $b['Company']);
+     } ?>
+
+     <?php usort($lister, "sortByCompany"); ?>

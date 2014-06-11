@@ -1,0 +1,28 @@
+Title: Multilingual options fields
+----
+Date: 2013-09-10 17:21:29
+----
+Solved: 0
+----
+User: katrynvonfelsen
+----
+Text: Hello!
+
+I would like to know if there is a way in the panel of Kirby to create multilingual fields for predefined options fields like
+* Radio
+* Checkbox
+* Multicheckbox
+* Select
+
+Here is an exemple: if I have a Multicheckbox with those options:
+* Print
+* Web sites
+* Motion
+
+I would like to have a french language equivalent like thoses:
+* Imprimé
+* Sites internet
+* Animation
+
+thank you,
+Catherine

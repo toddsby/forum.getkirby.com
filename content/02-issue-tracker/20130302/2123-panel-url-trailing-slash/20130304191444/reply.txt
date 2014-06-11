@@ -1,0 +1,34 @@
+User: russbaldwin
+----
+Date: 2013-03-04 19:14:44
+----
+Text: Hi Irma, I would only set it in **.htaccess**, *not in both*, so change the **config.php** back...
+
+Assuming the rest of your .htaccess is OK ([the default one is on GitHub](https://github.com/bastianallgeier/kirbycms/blob/master/.htaccess))
+
+I would set this in **.htaccess**
+``` php 
+RewriteBase /test/site
+```
+
+Assuming the rest of your the rest of your config.php is OK ([the default one is on GitHub](https://github.com/bastianallgeier/kirbycms/tree/master/site/config))
+
+I would change this in **site/config.php**:
+```php
+c::set('url', 'http://www.mysite.com/test/site');
+```
+to
+```php
+c::set('url', false);
+```
+
+I would change this...
+```php
+c::set('subfolder', 'test/site');
+```
+to
+```php
+c::set('subfolder', 'false');
+```
+
+Let us know how it goes and mark as solved it fit all works.

@@ -1,0 +1,5 @@
+User: lulezi
+----
+Date: 2012-11-13 10:33:47
+----
+Text: Hmmm, I think I got it: You've linked videos in a textfield of some pages via a `(video:)`-tag (i.e.) and now you wanna get the `$pages`' titles while the `(video:)`-tags are parsed. If this is correct, how are you actually getting the `$pages` containing `(video:)`-tags?

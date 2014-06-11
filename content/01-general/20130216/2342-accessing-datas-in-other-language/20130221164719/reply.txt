@@ -1,0 +1,5 @@
+User: jesuismaksim
+----
+Date: 2013-02-21 16:47:19
+----
+Text: Kirby didnt push (exemple..) the french subtitle of a page if its empty in english, and its better that way. You don't always need the same content in different lang.

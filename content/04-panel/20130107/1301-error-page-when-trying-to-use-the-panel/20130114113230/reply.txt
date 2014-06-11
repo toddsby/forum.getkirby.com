@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-01-14 11:32:30
+----
+Text: Is you .htaccess setup correctly for Panel?

@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-01-28 10:45:56
+----
+Text: It could also be the settings in your .htaccess file? See this post [Panel can't save changes](http://getkirby.com/forum/panel/topic:305)

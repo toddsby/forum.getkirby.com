@@ -1,0 +1,5 @@
+User: roman_oroco
+----
+Date: 2013-03-30 12:27:38
+----
+Text: @moonbeetle Reading Google's guide etc. I think for multi-language your `robots.txt` is always one global file: example.com/robots.txt even if your primary language is example.com/en.

@@ -1,0 +1,25 @@
+Title: Snippets in pages
+----
+Date: 2013-06-27 11:56:48
+----
+Solved: 0
+----
+User: me_arno
+----
+Text: Add code to site/plugins/kirbytext.extended.php
+
+Call snippets in posts with (snippet:bloglist) that will include the snippet bloglist.php where you can loop trough blogposts for example.
+
+	function snippet($params) {
+			
+		$search = $params['snippet'];
+	
+		// define default values for attributes
+		$defaults = array(
+			'class' => '',
+			'text'  => $search
+		);
+
+		return snippet($defaults['text']);
+
+	}

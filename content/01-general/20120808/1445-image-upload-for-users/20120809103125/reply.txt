@@ -1,0 +1,70 @@
+User: bastianallgeier
+----
+Date: 2012-08-09 10:31:25
+----
+Text: You should be able to do the following. Copy panel/lib/upload.php to your site/plugins folder and use the upload plugin in your template like this: 
+
+```
+
+<?php
+
+$upload = upload::file('file', '/path/to/the/upload/directory/{name}.{extension}');
+
+if(get('submit')) {
+
+  if(error($upload)) {
+    echo msg($upload);
+  } else {
+    echo 'your file has been uploaded'
+  }
+  
+}
+
+?>
+
+<!-- 
+
+put your upload form here 
+and make sure to set mulitpart enctype
+
+-->
+
+```
+
+There are a view options available which you can set in your config:
+
+```php
+
+// allowed mime types for file uploads
+c::set('upload.allowed', array(
+  'image/jpeg', 
+  'image/pjpeg',
+  'image/png',
+  'image/x-png', 
+  'image/gif',
+  'application/pdf',
+  'application/gzip',
+  'application/zip',
+));
+
+// this will be set by the php settings by default
+c::set('upload.maxsize', upload::max_size());
+
+// set this to false to return an error on overwriting files
+c::set('upload.overwrite', true)
+
+```
+
+You can also change the default error messages like this: 
+
+```php
+
+l::set('upload.errors.missing-file', 'The file has not been found');
+l::set('upload.errors.file-exists', 'The file exists and cannot be overwritten');
+l::set('upload.errors.invalid-upload', 'The upload failed');
+l::set('upload.errors.too-big', 'The file is too big');
+l::set('upload.errors.invalid-file', 'The file type is not allowed');
+l::set('upload.errors.move-error', 'The file could not be moved to the server');
+l::set('upload.success', 'The file has been uploaded');
+
+```

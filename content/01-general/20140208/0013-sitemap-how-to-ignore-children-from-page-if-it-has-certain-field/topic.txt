@@ -1,0 +1,13 @@
+Title: SITEMAP: How to ignore children from page if it has certain field
+----
+Date: 2014-02-08 00:13:02
+----
+Solved: 1
+----
+User: pgruneich
+----
+Text: Hello. I'm using the [default sitemap](http://getkirby.com/blog/xmlsitemap) and I have this visible page called "folder" which holds several "child" folders. All "child" folders have the same template, but they or have a "text" field or a "docs" field.
+
+I want to **ignore** all "child" from "folder" which HAVE the "docs" field (or that lacks the "text" field) in my sitemap.
+
+Ideas? I don't know how to convert all the children into an array and how to avoid them before generating the sitemap. `findByDir()`, perhaps? I don't know.

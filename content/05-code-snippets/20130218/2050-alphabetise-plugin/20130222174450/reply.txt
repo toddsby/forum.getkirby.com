@@ -1,0 +1,9 @@
+User: StartidiMotori
+----
+Date: 2013-02-22 17:44:50
+----
+Text: Dear Russ,
+
+Like your script, we also had an issue, we added $options['sortdir'] in the plugin script and the problem was solved.
+
+Nice script, thank you for your efforts!

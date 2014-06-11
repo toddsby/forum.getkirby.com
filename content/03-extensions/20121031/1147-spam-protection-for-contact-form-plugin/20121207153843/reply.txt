@@ -1,0 +1,6 @@
+User: iKasch
+----
+Date: 2012-12-07 15:38:43
+----
+Text: I'm not a Fan of Captchas...
+There are better ways, like hidden fields. If those get filled out it can only be Spam since they are hidden and the User would never fill them out.

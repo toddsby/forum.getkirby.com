@@ -1,0 +1,8 @@
+User: russbaldwin
+----
+Date: 2013-08-02 11:46:22
+----
+Text: Have a look at what is in  `$image` and or `$page->images()`
+```php
+<?php echo a::show($image) ?>
+```

@@ -1,0 +1,8 @@
+User: joachimesque
+----
+Date: 2012-11-12 12:04:05
+----
+Text: Thanks @MatteusZablocki!
+In the end I used the link from @chrstphbach. If anyone's interested, here's my kirbytext.extended function :
+
+(gist: https://gist.github.com/4058720)

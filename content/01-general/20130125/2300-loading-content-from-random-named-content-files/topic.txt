@@ -1,0 +1,40 @@
+Title: Loading content from random named content files
+----
+Date: 2013-01-25 23:00:35
+----
+Solved: 0
+----
+User: ralphbert
+----
+Text: Hi,
+
+I wrote a script that scrapes content from several social media sources into randomly named text files which are stored under a certain directory within kirby's "content" folder. The folder structure looks similar to this:
+
+content/
+  socialmedia/
+    12345678.txt
+    23443543.txt
+    66545644.txt
+    ...
+
+The text files are already structured in a key-value fashioned way like:
+
+"created_at: Mon Jan 07 08:52:11 +0000 2013
+
+----
+id: xxx
+
+----
+text: Foobar
+
+----"
+
+I'm now facing the problem how to read this files and displaying their content.
+
+I tried the following:
+$pages->findByDirname("socialmedia")
+but it doesn't fetch me the files and their content.
+
+I only can load them as "files". But how can I access the content when treating them as "file" and not as page?
+
+Thanks for your help!

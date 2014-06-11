@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2014-03-11 17:22:04
+----
+Text: All the info you need is in the [Apache mod_rewrite Docs](https://httpd.apache.org/docs/current/mod/mod_rewrite.html)

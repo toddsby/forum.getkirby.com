@@ -1,0 +1,11 @@
+Title: Event ics file question
+----
+Date: 2012-09-06 21:07:54
+----
+Solved: 0
+----
+User: fitzage
+----
+Text: I found instructions for creating an ics file in PHP. I have event pages, and I'd like to have an ics file be downloadable for each of these events.
+
+What I could do is not have actual individual event pages for these events, but instead have the actual event pages be the ics file, and just list them on an overview page. But if I want to have both event pages and ics pages for each event, how would I create the ics files? Would I have to make duplicate content structures that use the ics template and link to those, or can I pass the data from the main template to the ics template somehow?

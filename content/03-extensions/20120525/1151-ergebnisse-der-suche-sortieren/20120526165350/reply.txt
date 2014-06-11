@@ -1,0 +1,11 @@
+User: ttfan81
+----
+Date: 2012-05-26 16:53:50
+----
+Text: Kommando zurück! Mein Fehler, ich hatte nach der Zeile
+
+'searchfield' => 'q'
+
+nur vergessen dann auch ein Komma einzufügen.
+
+Hätte ich mal deinen gesamten Code kopiert, nicht nur die 2 Zeilen ;)

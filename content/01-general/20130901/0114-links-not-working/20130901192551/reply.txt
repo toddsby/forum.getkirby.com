@@ -1,0 +1,16 @@
+User: warrenbaskin
+----
+Date: 2013-09-01 19:25:51
+----
+Text: Thanks for your help! You lead me in the right direction.
+
+I found my solution here: http://askubuntu.com/questions/48362/how-to-enable-mod-rewrite-in-apache
+<code>  
+    <Directory /var/www/>
+            Options Indexes FollowSymLinks MultiViews
+            # changed from None to FileInfo
+            AllowOverride FileInfo
+            Order allow,deny
+            allow from all
+    </Directory>
+</code>

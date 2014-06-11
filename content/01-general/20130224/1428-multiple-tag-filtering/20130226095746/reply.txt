@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-02-26 09:57:46
+----
+Text: There are a few ways to approach this, either do it live, your data  updates as and when people select things. Or secondly they pre-select their options and then they click 'search' and you go and get there data. Depends of the size and complexity of your dataset.
+
+How are you doing your 'Month' and 'Country' cloud? In some cases it might be better attaching the Date and Country to the actual page rather than a Tag? You could then use 'filterby' or something similar and use the cloud for tags?

@@ -1,0 +1,7 @@
+User: DerZyklop
+----
+Date: 2014-05-20 18:20:48
+----
+Text: @lekkerduidelijk is absolutely right. Thank you!
+
+It is not necessary to edit plugin-files in order to add custom fields!

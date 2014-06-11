@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2012-11-14 07:45:14
+----
+Text: @fitzage example is good, sorry I should have thought about the active class, it was late and I was not thinking as clearly as I should have been.
+
+Another idea (maybe not as good) would be to have the menu images you want in each page section of your website content and then use them directly from your code. (If you name them all the same e.g. menu.png it would be easy.) That way you could use Panel for administering the images?

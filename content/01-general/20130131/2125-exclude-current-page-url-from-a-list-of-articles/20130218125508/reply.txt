@@ -1,0 +1,13 @@
+User: Wordius
+----
+Date: 2013-02-18 12:55:08
+----
+Text: Thanks, Bastian.
+
+That’s a tidier solution: 
+
+    <ul>
+    <?php foreach($pages->find('blog')->children()->visible()->flip()->limit(5)->not($page->uid()) as $article): ?>
+        <li><a href="<?= $article->url() ?>"><?= html($article->title()) ?></a></li>
+    <?php endforeach ?>
+    </ul>

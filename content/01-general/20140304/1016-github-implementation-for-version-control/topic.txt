@@ -1,0 +1,15 @@
+Title: Github implementation for version control?
+----
+Date: 2014-03-04 10:16:42
+----
+Solved: 0
+----
+User: jackylee_90
+----
+Text: Hi, I now have a site up and running fine in hostgator [here](www.jackylee.co)
+
+However I'm wondering if there's a way I can get away from hostgator and use github for hosting my site. I've crawled everywhere on google but found out that pages.github does not support php... 
+
+I would like to find out how to deploy changes / new posts to my kirby site WITHOUT FTP. And preferably also have version control like github... Has anyone out there have a solution for this? I find FTP to be kinda clunky when I have multiple files that needs overwrite.
+
+Cheers!

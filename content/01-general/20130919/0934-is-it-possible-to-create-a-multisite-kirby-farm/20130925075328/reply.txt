@@ -1,0 +1,13 @@
+User: milojennings
+----
+Date: 2013-09-25 07:53:28
+----
+Text: Thanks for all your help. I've made quite a bit of progress today.
+
+Since I'm using an Amazon EC2 instance, I have root access to the server, therefor permissions shouldn't be a hinderance.
+
+The approach that I'm working on now is geared towards each plan room being in a subfolder, automatically generated based on the contents of a YAML file that specifies the paths to content folders in Dropbox. 
+
+Though I like the idea of using virtual hosts, I don't like the idea of having to restart apache when there's a change. My goal is to make it very easy to anyone to add a new Plan Room without impacting anyone elses workflow.
+
+I'll post my progress so far. I think this could be very useful for others. I'm really excited to introduce this to users in my company and see how they work with it.

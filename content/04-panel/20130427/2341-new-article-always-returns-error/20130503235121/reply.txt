@@ -1,0 +1,8 @@
+User: chrisburton
+----
+Date: 2013-05-03 23:51:21
+----
+Text: - It gives an error no matter what template I use.
+- No error logs.
+- .htaccess is correct.
+- Files are correctly created.

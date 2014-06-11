@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-07-04 15:13:57
+----
+Text: If using panel move page from visible to invisible and make sure your menus/search ignore invisible pages. 
+
+Not using Panel, remove the number from the the folder containing the item and make sure your menus/search ignore invisible pages.

@@ -1,0 +1,14 @@
+User: Sulcalibur
+----
+Date: 2014-03-28 11:39:09
+----
+Text: @russbaldwin - Thanks
+
+Update: I'm a muppet! I can't believe the reason for it not working. I'm completely ashamed and only write this up in case anyone else does this (although I doubt it).
+
+I named .htaccess as .htacess
+
+Yep, that was it, a bloody typo. Now I'll get my hat and coat and leave in shame. :/
+
+This is pretty much me -
+![Muppet](http://img2.wikia.nocookie.net/__cb20101230011018/muppet/images/4/44/ErnieComputerNO.jpg)

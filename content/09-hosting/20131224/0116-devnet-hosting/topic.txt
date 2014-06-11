@@ -1,0 +1,21 @@
+Title: devNET hosting
+----
+Date: 2013-12-24 01:16:09
+----
+Solved: 0
+----
+User: k0nsl
+----
+Text: Hi all:
+
+I usually only do hosting via people I know personally or those whom contact me with a project or some such, but I am willing to host kirby based sites on my server, for free.
+It would have to be on 'srv51' in such a case, you can bring your own domain, or use a subdomain provided by me, which will also be benefiting from the services provided by CloudFlare (professional plan). CloudFlare RailGun is also available on 'srv51'.
+Status can be seen here:
+[http://k0nsl.org/ServerStatus/](http://k0nsl.org/ServerStatus/)
+
+If anybody should be interested then I can be reached via [i.am@k0nsl.org](mailto:i.am@k0nsl.org)
+
+Merry Christmas, all!
+
+Faithfully,
+Kuensl

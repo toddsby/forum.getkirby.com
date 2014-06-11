@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-10-15 15:23:40
+----
+Text: @ADRegan it's always a good idea to only search for visible articles. That will also help to publish invisible drafts, which won't appear on the homepage until you put a number in front of the folder name.

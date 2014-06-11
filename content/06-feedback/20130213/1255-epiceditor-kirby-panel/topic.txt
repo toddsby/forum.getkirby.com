@@ -1,0 +1,14 @@
+Title: EpicEditor + Kirby Panel
+----
+Date: 2013-02-13 12:55:01
+----
+Solved: 1
+----
+User: roman_oroco
+----
+Text: A few mounts ago we have some discussions (link:http://getkirby.com/forum/general/topic:160 text: this) and (link:http://getkirby.com/forum/panel/topic:80 text:this too), about text editor in Panel.
+
+One of our ideas is to have (link:http://mouapp.com text:Mou popup: yes) like editor with live preview of your markdown, so recently i discovered (link:http://oscargodson.github.com/EpicEditor/ text:EpicEditor popup: yes) that offer exactly what does Mou.
+
+**UPDATE 1:**
+I mark "solved" this topic cause currently EpicEditor doesn't support mobile devices.

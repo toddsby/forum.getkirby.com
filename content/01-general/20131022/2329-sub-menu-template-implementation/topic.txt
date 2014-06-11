@@ -1,0 +1,39 @@
+Title: Sub Menu template implementation
+----
+Date: 2013-10-22 23:29:37
+----
+Solved: 1
+----
+User: lare2
+----
+Text: I want to add a side menu to my **event.php** template with links to each year page visible under **event-one**.
+Don't know if this can be acomplished by modifing the submenu snippet a little bit.
+My knowledge of PHP is limited.
+
+I would like to use the same **event.php** template for **event-two** and **three** pages 
+which consist of the same, by year, page structure as the **event-one** if possible.
+
+My **content** folder look like this.
+
+
+
+    W:\content
+    ··· 01-about-us
+    ··· 02-events
+        ··· 01-event-one
+            ··· 01-2011
+                ... event.txt
+            ··· 02-2012
+                ... event.txt
+            ··· 03-2013
+                ... event.txt
+        ··· 02-event-two
+        ··· 03-event-three
+        ... events-home.txt
+    ··· error
+    ··· home
+
+
+
+
+Any help would be really apreciated.

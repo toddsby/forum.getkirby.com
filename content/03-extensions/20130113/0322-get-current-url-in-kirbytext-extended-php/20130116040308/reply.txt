@@ -1,0 +1,20 @@
+User: nilshendriks
+----
+Date: 2013-01-16 04:03:08
+----
+Text: Well, I'm just nitpicking here :-) 
+
+I'd like to have a custom tag so instead of having to write this in a text file:
+
+```html
+<img class="someclassname" src="path/image.jpg" alt="somealttext" />
+```
+
+I could use:
+
+```
+(imageclass: someclassname imagename: image.jpg alttext: somealttext)
+```
+Of course a workaround would be to have the path also as an attribute but it would be a bit ugly and it would be nicer if it was automatically added from the folder this text file is in as that is the same folder where the image is.
+
+Also, images still get wrapped in a p element but I guess that is a markdown thing...

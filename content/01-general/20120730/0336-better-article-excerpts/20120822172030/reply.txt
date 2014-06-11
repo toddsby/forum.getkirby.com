@@ -1,0 +1,11 @@
+User: fitzage
+----
+Date: 2012-08-22 17:20:30
+----
+Text: OK, I didn't turn this into a plugin or even combine these two functions, but this is what I did that seems to work. (link: http://www.the-art-of-web.com/php/truncate/ text: I found the scripts here).
+
+(gist: https://gist.github.com/3426689)
+
+Then, because it's several functions, I implemented it like this:
+
+                <?php echo restoreTags(truncateWords(kirbytext($article->text()), 100)) ?>

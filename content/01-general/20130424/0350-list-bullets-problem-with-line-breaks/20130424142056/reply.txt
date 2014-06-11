@@ -1,0 +1,14 @@
+User: staroversky
+----
+Date: 2013-04-24 14:20:56
+----
+Text: The only things that I changed in the original CSS are:
+
+body
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  width: 700px;
+
+Current CSS - http://pastebin.com/UsQPxrCF
+Current Config.php - http://pastebin.com/FX0tMbwb 
+
+I think there is a markdown bug in the original CSS or config that causes no line break after bullets even thought there is one in the original markdown text.

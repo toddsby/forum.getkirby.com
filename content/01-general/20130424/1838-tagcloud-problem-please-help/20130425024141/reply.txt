@@ -1,0 +1,9 @@
+User: staroversky
+----
+Date: 2013-04-25 02:41:41
+----
+Text: Almost works. Here is what it looks like now <http://cl.ly/image/0V2U3N3L1i47>
+
+I see that it should float left according to the `float: left;` but it is right below the main navigation menu.
+
+One more thing, on the official Kirby website, there is a header **Tags** and all the tags are under it. Can you please include it in the code that you suggested?

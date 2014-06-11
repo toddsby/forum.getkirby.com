@@ -1,0 +1,19 @@
+Title: Problem with new Pages
+----
+Date: 2013-03-12 14:54:54
+----
+Solved: 1
+----
+User: manuelheilmeier
+----
+Text: I could use some help with the following Problem: 
+
+When I try to create some pages in the panel, I get this error-msg: "Data could not be saved" above the input-field, but the new page is created in the panel anyways. Though the Directory is not created.
+
+I set the file-permissions to 777 and checked the config and .htaccess settings... Kirby troubleshooting-page shows no error.
+
+Here´s a Screenshot: (link: http://www.imagesocket.com/photos/guest/2587514)
+
+Any Ideas?
+
+Thx, Manuel

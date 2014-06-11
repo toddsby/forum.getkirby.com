@@ -1,0 +1,7 @@
+User: studioshitless
+----
+Date: 2013-10-16 12:29:35
+----
+Text: > Try setting your config.php back to defaults.
+
+I tried that. Same error.

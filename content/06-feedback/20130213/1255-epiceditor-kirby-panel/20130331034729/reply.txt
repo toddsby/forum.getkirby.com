@@ -1,0 +1,17 @@
+User: tillpro
+----
+Date: 2013-03-31 03:47:29
+----
+Text: Hi —
+
+I don’t know whether you know (link:http://iawriter.com text:iA Writer), it’s yet another markdown app. It doesn’t do very much, but some simple things like immediately *highlighting* text.
+I really liked this and found (link:http://codemirror.net text:Codemirror), a syntax highlighting script that supports markdown, too.
+
+It required some hacking, but it works. It would be great if you could just add files into the panel-folder which would be auto-loaded so you don’t need to make any changes to the existing code.
+
+<https://www.dropbox.com/s/6ykku5183wtcs2i/codemirror.mov>
+
+Till
+
+
+// I just remembered it was possible to create custom fields. I’ll try to »outsource« the code to a new field.

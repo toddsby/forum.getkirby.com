@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-05-08 20:55:01
+----
+Text: Something like this `<link rel="stylesheet" type="text/css" href="/assets/css/print.css" media="print" />` and then within that print.css file you can add print-specific CSS. What I usually do is start by hiding nav and such, and you can do that with your divs that you want to hide. Just include "display: none;" for those elements.

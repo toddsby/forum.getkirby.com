@@ -1,0 +1,9 @@
+User: ManuelHeilmeier
+----
+Date: 2013-02-15 20:32:22
+----
+Text: Hey Russ,
+
+I was thinking about any plugin to help with all the kirby objects and methods like referenced in the Kirby CheatSheet over here: http://getkirby.com/content/02-docs/kirby-cheatsheet.pdf
+
+Some autocompletion/macros/snippets would come in handy...

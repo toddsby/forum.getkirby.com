@@ -1,0 +1,19 @@
+Title: Get image extension
+----
+Date: 2012-09-19 13:23:49
+----
+Solved: 0
+----
+User: gielcobben
+----
+Text: Hi, 
+
+I have on the homepage for my projects a cover.png. I show these with the following code:
+
+    		<a href="<?php echo $article->url() ?>"><img src="<?php echo $article->images()->find('cover.png')->url(); ?>" class="hires" /></a>
+
+My problem is that the extension isn't always png. Is there a way to get the extension of the cover image automatically? So it can be cover.gif of cover.png.
+
+Thanks a lot!
+
+Giel

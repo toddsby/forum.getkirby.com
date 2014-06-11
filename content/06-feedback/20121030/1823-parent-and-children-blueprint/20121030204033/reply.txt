@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2012-10-30 20:40:33
+----
+Text: If I understand you correctly, you're talking about the already-existing feature that when you set up a blueprint allows you to tell it what blueprint its children will use.
+
+http://getkirby.com/docs/panel/blueprints/blueprint-variables

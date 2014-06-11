@@ -1,0 +1,5 @@
+User: Gurjeet_Singh
+----
+Date: 2012-07-12 15:20:54
+----
+Text: Setting the thumbs folder, the content folder and everything underneath it to 747 fixed it for me. I can go into the panel and add new pages no problem now. Thank you!

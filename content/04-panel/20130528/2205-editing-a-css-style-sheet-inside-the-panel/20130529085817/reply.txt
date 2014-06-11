@@ -1,0 +1,6 @@
+User: russbaldwin
+----
+Date: 2013-05-29 08:58:17
+----
+Text: Can you get GIT access? 
+However if they won't allow FTP then they might not allow anything so you might not be allowed to change CSS on the fly anyway?

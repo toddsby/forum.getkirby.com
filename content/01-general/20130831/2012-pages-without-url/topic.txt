@@ -1,0 +1,13 @@
+Title: $pages without URL
+----
+Date: 2013-08-31 20:12:55
+----
+Solved: 0
+----
+User: janstieler
+----
+Text: Hi,
+how can I get an output from $pages without the url?
+I need only an array of all articles.
+
+BR

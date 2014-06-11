@@ -1,0 +1,5 @@
+User: iamirm
+----
+Date: 2013-01-31 14:33:39
+----
+Text: I found this, maybe helps you out Katryn (link: https://github.com/bastianallgeier/kirbycms-extensions/tree/master/fields/fileselect)

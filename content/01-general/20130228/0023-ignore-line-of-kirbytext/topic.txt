@@ -1,0 +1,9 @@
+Title: Ignore Line Of kirbytext
+----
+Date: 2013-02-28 00:23:42
+----
+Solved: 1
+----
+User: syropian
+----
+Text: I'm writing a theme for Kirby, and in my example, I'm trying to show how to add a class to an image. Even though I'm using the indentation to make it a code block, it's still outputting a compiled html tag in the pre tag. How can I show a literal kirbytext tag without it compiling? I tried escaping the parentheses with backslashes, but the kirbytext just stripped them out, and proceded to compile it to html.

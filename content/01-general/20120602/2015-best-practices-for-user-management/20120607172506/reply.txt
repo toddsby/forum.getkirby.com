@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-06-07 17:25:06
+----
+Text: You mean some kind of user management for the frontend?

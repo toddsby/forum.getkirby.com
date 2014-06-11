@@ -1,0 +1,20 @@
+Title: Last item in article list
+----
+Date: 2012-09-27 01:02:28
+----
+Solved: 0
+----
+User: fitzage
+----
+Text: I'm trying to get a list of articles and then determine which is the last one so I can not put a comma after it.
+
+So I have something like this:
+
+    <?php $partners = $page->children() ?>
+    <?php $last = end($partners) ?>
+    <?php foreach ($partners AS $partner) : ?>
+        <?php echo $partner->uid() ?>
+        <?php echo ($partner == $last) ? '' : ',' ?>
+    <?php endforeach ?>
+
+But it doesn't work. I used the same method on categories before, but that must have worked because it was already stripped down to an array of just words? Can I strip the $partners array down to just the uid() somehow?

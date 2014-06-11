@@ -1,0 +1,44 @@
+Title: Facebook album -> article gallery
+----
+Date: 2013-10-03 21:20:21
+----
+Solved: 0
+----
+User: structor
+----
+Text: I found this (link:http://zach.lysobey.com/projects/fbalbum text:nice script) on the internet and I adapted a little to kirby.
+Mostly, the script takes an album from a public facebook page and publish it in fancybox style on a kirby page.
+
+Is very simple to install on a kirby site, with just a few modifications:
+
+1. create a snippet with this content:
+   
+	<script type='text/javascript'>
+		$(document).ready(function() {
+			$('#MY_DIV_ID').fbAlbum({
+				'albumID':<?php echo html($page->albumid()) ?>,
+				'callback':	function(){	//code that loads after the album must go here
+					$(".album a").fancybox(); 
+				}
+			});
+		});
+	</script>
+	<div id="MY_DIV_ID"></div>	
+
+2. in jquery.fbAlbum.js, replace the album ID number with
+
+     < ? php echo html ( $ page->albumid()) ? >
+
+3. upload the necessary files on the server
+4. create a kirbytag in your .txt file
+
+    albumid:the ID of thefacebook album
+
+5. to use it in template, just call the snippet
+
+
+here is my example:
+(link:http://www.modstruct.ro/x/i41cex)
+
+
+EDIT: I don't know why the code isn't show, I used four spaces on every codeline

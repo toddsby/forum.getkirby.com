@@ -1,0 +1,9 @@
+User: LibraryofApp
+----
+Date: 2013-02-25 19:25:16
+----
+Text: K, I will try this and report back. 
+
+It's a Library of App! 30,000 images is just the start. What I like about Kirby is that I can easily manage the images themselves in folders locally, then cache the whole enchilada on the server. I only wish I could have Kirby easily read the keywords straight out of the EXIF data of the images, thus negating the need for a separate text file.
+
+FYI- I am not using the panel…yet.

@@ -1,0 +1,22 @@
+Title: Markdown together with HTML Tags
+----
+Date: 2014-02-27 17:06:41
+----
+Solved: 0
+----
+User: stinkstiefel
+----
+Text: Hi, if I use Markdown like ### for a Headline inside auf a HTML Tag it wouldn't run. When I try the same code on this testing site: http://markdown-here.com/livedemo.html then it works. Know anyone a solution or the reason?
+
+e.g. 
+
+
+	<div>
+	
+	### Headline
+	
+	Some Text
+	
+	</div>
+	
+	<?php echo kirbytext($page->text()); ?>

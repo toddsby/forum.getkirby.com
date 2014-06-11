@@ -1,0 +1,55 @@
+Title: Page url with folder numbers and content folder in it
+----
+Date: 2014-01-13 02:10:02
+----
+Solved: 1
+----
+User: fridgewanch
+----
+Text: Hi,
+
+How do I get the url of a page, including, content folder and numbers not omitted?
+
+Example, I have a page structure like this:
+
+    01-home
+    02-projects
+        01-project1
+
+Now I am trying to get the url for 01-project1 in my template. What I want is:
+
+http://localhost:8888/mysite/content/02-projects/01-project1
+
+So the url should include the content folder as well as numbers in front of the folders. So I put this in my template:
+
+    <?php $path = $page->siblings()->find('projects')->children()->find('project1')->url(); ?>
+
+The result:
+
+http://localhost:8888/mysite/projects/project1
+
+Not what I need, the url has omitted the contents folder as well as the numbers in front of the directories.
+
+Now if I find an image inside 01-project1 I get the url structure I need:
+
+    <?php $pathalt = $page->siblings()->find('projects')->children()->find('project1')->images()->first()->url(); ?>
+
+The result:
+
+http://localhost:8888/mysite/content/02-projects/01-project1/project_1.jpg
+
+Now I need to get rid of the last part of the url to get the directory url. So I do this:
+
+    <?php 
+    $dir = explode('/', $pathalt);
+    array_pop($dir);
+    $newpath = implode('/', $dir);
+    ?>
+
+The result:
+
+http://localhost:8888/mysite/content/02-projects/01-project1
+
+So in the end I get the 01-project1 url. But this feels really complex and I think that I am doing it all wrong. So any suggestions of how I can get the url of a page including the content folder and including the numbers without resorting to the above complex solution?
+
+Thanks in advance :)

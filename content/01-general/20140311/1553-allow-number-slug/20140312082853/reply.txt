@@ -1,0 +1,11 @@
+User: jens_tornell
+----
+Date: 2014-03-12 08:28:53
+----
+Text: After some thinking I don't think it has something to do with htaccess. Sure I can make redirects from one URL to another but the main problem is...
+
+    "numbers will automatically be stripped in URLs"
+
+As far as I can see they are not stripped out in the htaccess file. Then they are stripped in the PHP.
+
+The answer to this question is probably to hack the core. Correct me if I'm wrong here.

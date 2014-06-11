@@ -1,0 +1,39 @@
+Title: Newsletter
+----
+Date: 2013-02-28 16:31:23
+----
+Solved: 0
+----
+User: roman_oroco
+----
+Text: Would not be great to have newsletter integrated directly to the Kirby and Panel as well?
+Here's the basic idea for your inspiration:
+
+`~/newsletter/lists/awesome-people/list.txt`
+```
+List: Awesome People
+----
+Subject: Newsletter to Awesome People
+----
+From: newsletter@yourdomain.com
+```
+
+`~/newsletter/subscribers/roman-oroco/subscriber.txt`
+```
+Name: Roman
+----
+Surname: Oroco
+----
+Email: roman-oroco@example.com
+```
+
+`~/newsletter/campaigns/01-my-first-newsletter/campaign.txt`
+```
+List: Awesome People
+----
+Title: My First Newsletter
+----
+Date: February 28, 2013
+----
+Text: Lorem ipsum dolor sit amet.
+```

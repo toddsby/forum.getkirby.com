@@ -1,0 +1,7 @@
+User: vedamart
+----
+Date: 2012-08-13 14:27:24
+----
+Text: Tried. Also switched back to a single config-file. And tried a complete fresh kirby- and panel-installation. Kirby-site works. Panel ({myname.local}/{subfoldername}/panel) allways messages "500 Internal Server Error". Really seems something is broken with my MAMP  ;..(
+Hopefully I'll able to figure it out.
+Thx for the reply.

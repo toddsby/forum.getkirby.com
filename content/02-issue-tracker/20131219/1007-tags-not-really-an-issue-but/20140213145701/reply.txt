@@ -1,0 +1,21 @@
+User: pcalanna
+----
+Date: 2014-02-13 14:57:01
+----
+Text: Hi Jed,
+it does work for me. The *active* class is assigned to multi-word tags when I click on them.
+I had this issue with my blog page and it seems ok now.
+I also had to slightly change the way in which posts are filtered using tags:
+
+from:
+<code>
+<? foreach($pages->find('blog')->children()->visible()->filterBy('tags', param('tag'), ',')->limit(10)->flip() as $p) : ?>
+</code>
+
+to:
+<code>
+<? foreach($pages->find('blog')->children()->visible()->filterBy('tags', urldecode(param('tag')), ',')->limit(10)->flip() as $p) : ?>
+</code>
+
+Hope this helps.
+Pierpaolo

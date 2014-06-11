@@ -1,0 +1,9 @@
+User: joachimesque
+----
+Date: 2013-03-25 21:44:31
+----
+Text: I made one, and am releasing it as a PDF under a CC-by license.
+
+<https://github.com/joachimesque/kirbytext-cheatsheet>
+
+I'm open to all suggestions and ideas!

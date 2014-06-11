@@ -1,0 +1,22 @@
+User: karlnoelle
+----
+Date: 2013-08-01 02:44:39
+----
+Text: Thanks for the reply! I understand your answer but just don't know how to call thumbnails into my menu list items.
+
+Here's my code:
+    <ul>
+    <?php foreach($items AS $item): ?>
+    <li><a<?php echo ($item->isOpen()) ? ' class="active"' : '' ?> href="<?php echo $item->url() ?>"><?php echo html($item->title()) ?></a></li>
+    <?php endforeach ?>            
+    </ul>
+  
+    <ul class="projects-images">
+    <?php foreach($page->images() as $image): ?>
+    <li><?php echo thumb($image, array('width' => 600)) ?></li>
+    <?php endforeach ?>
+    </ul>
+
+The top unordered list is my submenu (just showing text right now) and the bottom unordered list are my thumbnail results.
+
+How can I combine the thumbnail results into the submenu links?

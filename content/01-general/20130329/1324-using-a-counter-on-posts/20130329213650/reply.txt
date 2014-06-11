@@ -1,0 +1,14 @@
+User: russbaldwin
+----
+Date: 2013-03-29 21:36:50
+----
+Text: Number of articles in the articles folder? Not tested.
+
+```php
+<?php $articles = $pages
+    ->find('articles')
+    ->children()
+    ->visible();
+    $count = $articles->count();
+?>
+```

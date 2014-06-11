@@ -1,0 +1,9 @@
+User: texnixe
+----
+Date: 2013-10-16 18:35:40
+----
+Text: This question has probably already been solved, but I think the condition must be something like
+
+    <? if ($page->template() == 'project') : ?>
+        do some stuff
+    <? endif ?>

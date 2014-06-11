@@ -1,0 +1,6 @@
+User: yosua_wisnu
+----
+Date: 2013-12-08 07:02:08
+----
+Text: @BlackForest13
+Can you tell me how to give proper permission to Kirby cms on LAMP?

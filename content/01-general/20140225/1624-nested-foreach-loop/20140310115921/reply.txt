@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2014-03-10 11:59:21
+----
+Text: You should use (string)$subpage->title() to get around this issue. The reason for this is that Kirby uses objects for custom page variables. This has various reasons and sometimes causes problems if you simply need the string value. (string) should always fix this.

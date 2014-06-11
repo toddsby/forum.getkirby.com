@@ -1,0 +1,12 @@
+User: _dixens
+----
+Date: 2013-06-22 10:34:46
+----
+Text: I ran into the same issue (+ accents were not saved and the whole page got blank) and it sure had to do with monochrome specific .htaccess. Note that you don't have to get rid of it, if you don't want to, as only its very first section causes the bug:
+
+<IfModule mod_rewrite.c>
+RewriteCond %{REQUEST_URI} /+[^.]+$
+RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R=301,L]
+</IfModule>
+
+I just commented it out and the whole panel was fully functional again.

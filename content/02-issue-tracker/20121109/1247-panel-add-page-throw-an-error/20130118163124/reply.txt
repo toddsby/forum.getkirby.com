@@ -1,0 +1,5 @@
+User: dokdeleon
+----
+Date: 2013-01-18 16:31:24
+----
+Text: Tried this in EasyPhp 12.0 for windows.. still having the same problem. Tried also using the Kirby Panel v.91 - same error... Guessing it's a Kirby 1.1.1 issue. Did not encounter this on previous versions of Kirby. Not playing nice with windows? Hoping that's not the case.

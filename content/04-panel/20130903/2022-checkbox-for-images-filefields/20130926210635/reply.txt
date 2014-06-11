@@ -1,0 +1,25 @@
+User: s4mbra
+----
+Date: 2013-09-26 21:06:35
+----
+Text: File: /panel/lib/form.php
+Line: 314
+
+// skip unwanted fields
+if(!in_array($field['type'], array('text', 'textarea','multicheckbox','checkbox'))) {
+  unset($fields[$key]);
+}
+
+### Style
+File: /panel/assets/css/screen.css
+Line: (end of document)
+
+.field.multicheckbox ul li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.field.multicheckbox ul li label,
+.field.checkbox label {
+  padding: 7px 5px;
+}

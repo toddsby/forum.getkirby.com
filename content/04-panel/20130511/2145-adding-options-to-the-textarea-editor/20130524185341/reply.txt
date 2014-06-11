@@ -1,0 +1,5 @@
+User: roman_oroco
+----
+Date: 2013-05-24 18:53:41
+----
+Text: @NathVallieres Hi, seems awesome! Please, can you pull a request on (link:https://github.com/bastianallgeier/kirbycms-panel text:GitHub popup:yes)? It will be much more simpler for Kirby folks and Bastian to understand about what you have changed.

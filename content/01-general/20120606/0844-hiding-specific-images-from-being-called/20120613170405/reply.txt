@@ -1,0 +1,18 @@
+User: bastianallgeier
+----
+Date: 2012-06-13 17:04:05
+----
+Text: I normally just go for skipping those in the foreach loop: 
+
+```
+
+<?php foreach($page->images() as $image): ?>
+<?php if(preg_match('/-exclude.jpg/i', $image->filename()) continue; ?>
+
+...
+
+<?php endforeach ?>
+
+```
+
+It's not that elegant, but it works :)

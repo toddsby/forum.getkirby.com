@@ -1,0 +1,18 @@
+User: fitzage
+----
+Date: 2013-06-19 15:58:06
+----
+Text: One way to do it is to use my "latest not future" plugin to make sure you don't have items that are timed for publishing in the future in the list. http://fitzage.com/articles/kirby-plugin-for-latest-non-future-items
+
+But you don't have to do that. The basic is more like this:
+
+    <?php $newsitems = $pages->find('path/to/news')->children()->visible()->sortBy($sort='date', $dir='desc')->limit(3) ?>
+    <ul>
+        <?php foreach ($newsitems AS $news) : ?>
+            <li><a href="<?php echo $news->url() ?>"><?php echo $news->title() ?></a></li>
+        <?php endforeach ?>
+    </ul>
+
+That doesn't include summaries, but you get the idea.
+
+Basically, you use exactly the same code as on your news overview page, but you have to find the correct parent page first. Make sense?

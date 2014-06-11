@@ -1,0 +1,8 @@
+User: angelistudio
+----
+Date: 2013-11-03 00:30:11
+----
+Text: Hi texnixe,
+thanks for your replies.
+I know what you mean, in my code the file has always been named "foto.jpg". I used "01.jpg" only for demonstration purposes. 
+Recap: in my folder there's only one file (foto.jpg) and the code in the php template tries to speak to it, but without luck!

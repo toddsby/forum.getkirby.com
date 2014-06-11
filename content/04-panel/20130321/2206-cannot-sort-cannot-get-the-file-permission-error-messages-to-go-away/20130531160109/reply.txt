@@ -1,0 +1,5 @@
+User: dokdeleon
+----
+Date: 2013-05-31 16:01:09
+----
+Text: same error i'm having. I have it online on a parallels plesk server. I can't create a file from the panel. Are there any settings I have to adjust to make it run on plesk?

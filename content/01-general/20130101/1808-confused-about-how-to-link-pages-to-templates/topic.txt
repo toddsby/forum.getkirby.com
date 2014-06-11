@@ -1,0 +1,21 @@
+Title: Confused about how to link pages to templates
+----
+Date: 2013-01-01 18:08:31
+----
+Solved: 0
+----
+User: moonbeetle
+----
+Text: I remember when I first looked at Kirby a while ago it took me some time to figure out how the relationship between Pages and Templats work. (sorry, but I think the docs could be a little more clearer regarding this). New year, new CMS. I'm taking another look at Kirby and again I'm having trouble with this and I can't seem to remember how I got this Pages <-> Templates going. So to anyone who can explain this to me in a simple way I will be most thankful.
+
+This is what I'm trying to accomplish:
+
+page "Work"
+subpage "Project A"
+subpage "Project B"
+subpage "Project C"
+
+- I need a template for "Work". 
+- I need one template for all the subpages.
+
+So how would I setup the above using Kirby? How can I make Kirby understand that for "Project A" it should use a different template than for "Work". The fact that I can't specify which template to use   is what I'm having most difficulties with.

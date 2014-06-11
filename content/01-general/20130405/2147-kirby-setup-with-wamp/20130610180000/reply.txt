@@ -1,0 +1,11 @@
+User: johnkelleher
+----
+Date: 2013-06-10 18:00:00
+----
+Text: @YeslmAaron - I'm hoping you may be able to throw some light on a similar problem that I have:
+http://getkirby.com/forum/general/topic:694
+
+I'm not using Apache, rather IIS but have the URL Rewrite module installed - it's just I don't know what rules to give it to help Kirby?
+Any help appreciated,
+Thanks,
+J

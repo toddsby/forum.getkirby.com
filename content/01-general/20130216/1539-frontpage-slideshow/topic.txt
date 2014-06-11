@@ -1,0 +1,36 @@
+Title: Frontpage slideshow
+----
+Date: 2013-02-16 15:39:40
+----
+Solved: 1
+----
+User: stimemmerson
+----
+Text: Hello everyone,
+I got the idea to put a slideshow at my frontpage
+like there: (link: http://www.michalchelbin.com text: example)
+
+But there is some problems, that i can´t solve.
+
+I use the Kirby Default Theme and wanted to put the sideshow instead of 
+a text, for this purpose I put into: **kirby/content/home/home.txt**
+following Kirbytext: **(gallery: 01.jpg, 02.jpg, 03.jpg)**
+
+(link: http://farm9.staticflickr.com/8104/8478053993_2fae157df8_o.png text: looks like this)
+
+The images 01.jpg, 02.jpg, 03.jpg are in the same folder: 
+**kirby/content/home/**
+
+Before to do that I have done following procedure: 
+
+copied the code of this gist (link: https://gist.github.com/1711983)
+and placed it in: **site/plugins** and called it **kirbytext.extended.php**
+
+added a new gallery.php snippet in: **site/snippets** with following code 
+
+(image: http://farm9.staticflickr.com/8101/8479219864_7624a1705c_o.png)
+
+but what I got is, all 3 pictures on my frontpage without any slideshow
+(link: http://farm9.staticflickr.com/8241/8478101487_0bc4cc1e9d_o.png text: example)
+
+I am really a noob, please help me..

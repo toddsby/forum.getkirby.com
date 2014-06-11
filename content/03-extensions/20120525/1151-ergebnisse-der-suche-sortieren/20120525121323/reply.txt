@@ -1,0 +1,18 @@
+User: ttfan81
+----
+Date: 2012-05-25 12:13:23
+----
+Text: Achso, und das Ausschließen bestimmter Pages funktioniert leider auch nicht mit diesem Code aus dem Tutorial:
+
+<?php
+
+$search = new search(array(
+  'searchfield' => 'q',
+  'ignore' => array('blog', 'impressum')
+));
+
+$results = $search->results();
+
+?>
+
+Dann bekomme ich immer eine weiße Seite ohne Suchergebnisse.

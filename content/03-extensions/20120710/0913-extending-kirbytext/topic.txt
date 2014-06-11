@@ -1,0 +1,25 @@
+Title: Extending Kirbytext
+----
+Date: 2012-07-10 09:13:26
+----
+Solved: 1
+----
+User: nilshendriks
+----
+Text: On this page http://getkirby.com/blog/kirbytext you explain how to create custom tags.
+
+My questions is: How did you escape the wikipedia custom tag from being executed inside a code block?
+
+```html
+(wikipedia: Twitter)
+```
+
+For me this becomes 
+
+```html
+<a class="wikipedia" href="http://en.wikipedia.org/w/index.php?search=Twitter">Twitter</a>
+```
+
+as code example.
+
+Has the code hightlight plugin been updated? I can't seem to find where it is hosted...

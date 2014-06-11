@@ -1,0 +1,5 @@
+User: plartz
+----
+Date: 2013-01-31 14:56:17
+----
+Text: I'm totally not an expert with .htaccess, but I think you don't have to make a new .htaccess in the root folder. Just setting your subfolder in the config.php (`c::set('subfolder', 'subfolder');`) and changing the RewriteBase in your kirby-.htaccess-file with `RewriteBase /subfolder` (btw, this is explained in the comments in the config.php, just at the subfolders-part) should be enough.

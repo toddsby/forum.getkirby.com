@@ -1,0 +1,13 @@
+User: bechhun
+----
+Date: 2013-09-18 15:23:52
+----
+Text: Hi there,
+
+I just found out how to do it.
+
+I had to add a template with the same name as the blueprint. 
+
+So when I select the page template, it automatically use the right blueprint.
+
+thanks !

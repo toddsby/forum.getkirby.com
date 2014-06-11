@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-02-13 08:51:18
+----
+Text: I'm not sure I have got this, what do the numbers in the second example mean? Are they links to posts? Are you saying that '1' is the next oldest or newest? Sorry a bit confused.
+
+As an aside and it maybe not relevant in your case as I don't think I quite have what you are after... I've always found listing recent posts with their title maybe more effective and perhaps related posts?

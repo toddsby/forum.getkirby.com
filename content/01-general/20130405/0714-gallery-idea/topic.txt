@@ -1,0 +1,21 @@
+Title: Gallery idea
+----
+Date: 2013-04-05 07:14:52
+----
+Solved: 0
+----
+User: cedwardsmedia
+----
+Text: I'm using Fancybox per Bastian's tutorial to make a gallery for my posts. However, I've found that for some posts I have other images, maybe icons or something, that I'd like to include in the body of the post, but not in the gallery itself.
+
+One way I've considered doing this is creating a kirbytext function for the gallery instead of including it in the template. I figured, using this method, I could also create a folder under the content folder called gallery.
+
+content/01-post/article.txt
+content/01-post/img_not_included_in_gallery.jpg
+content/01-post/gallery/images_for_gallery.jpg
+
+The only problem I've run into with this so far is that I'm not sure how I could have the function look inside the gallery directory under the content directory. Kirby seems to ignore anything under the content folder and doesn't count it at part of the images or files for the active post.
+
+I considered perhaps making gallery named ./00-gallery, causing Kirby to consider the gallery to be a child of the active page.
+
+At this point, I've decided my best route is to seek advice and opinions on this. I'm sure I'm overcomplicating it. :P

@@ -1,0 +1,24 @@
+User: roman_oroco
+----
+Date: 2012-10-03 22:59:31
+----
+Text: @bastianallgeier
+With **uid()** tagcloud plugin doesn't work well.
+
+Process:
+1. Open tag "Design" in tagcloud
+2. See result for specific tag
+3. Open some article from result
+
+Kirby show a different url path:
+```
+http://site:8888/tag:Design/article-name
+```
+
+Without **uid()** Kirby show a normal link with "blog/":
+```
+http://site:8888/blog/article-name
+```
+
+Also 301 redirect for eliminate "blog/" it's not awesome for SEO.
+Bastian please tell me if there are any solution ♥

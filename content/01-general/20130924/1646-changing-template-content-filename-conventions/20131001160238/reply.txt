@@ -1,0 +1,6 @@
+User: travVT
+----
+Date: 2013-10-01 16:02:38
+----
+Text: @russbaldwin
+I totally agree with you. If it's just clients using the Panel there really isn't any need to worry about this. :) We all know that Kirby is great, so if you've been using it and don't really need or want semantically meaningful file names then no worries. Keep Calm, Kirby On!

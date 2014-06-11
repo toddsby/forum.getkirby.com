@@ -1,0 +1,12 @@
+Title: Change template after an article is created?
+----
+Date: 2013-09-24 17:30:54
+----
+Solved: 1
+----
+User: janstieler
+----
+Text: Hi,
+normally if I create a new article at the panel I have to choose a template. Is it possible to change the used template later?
+
+BR

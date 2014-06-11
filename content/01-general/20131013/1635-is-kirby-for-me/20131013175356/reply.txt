@@ -1,0 +1,23 @@
+User: texnixe
+----
+Date: 2013-10-13 17:53:56
+----
+Text: Hi Rob,
+
+it's certainly always a bit difficult to give advice on a question like yours if the requirements are not very clear.
+
+Let me just give you a few insights on my personal experience.
+
+I switched from Wordpress to Kirby a couple of months ago and I have never ever regretted it. While Wordpress is definitely a good choice in many cases and offers a lot of add-ons, at least for my own site I felt it to be to much of a good thing, far too much overhead of functionality I didn't really need. 
+
+And as nice as it sometimes is to have all these ready to use templates, as difficult does it get to make any changes if you are more of a designer than a developer.
+
+As far as skills are concerned, I think you need a basic understanding of PHP on top of HTML and CSS, but that is very easy to learn and Bastian's tutorials are really helpful and get you going within a short time. And since you are willing to learn new skills, just go ahead ...
+
+There is a plugin for exporting stuff from Wordpress to Kirby but that didn't work for me because I had to export pages on top of the blog posts (not supported by the exporter) and my posts contained some template-typical shortcuts that of course aren't converted either. The exporter doesn't convert HTML to Markdown either (but that's no problem, you can stick with the HTML for old posts).
+
+So I decided to just copy and paste my content (the number of blog articles was limited so that was ok).
+
+To sum up, I feel that Kirby is a really good choice as long as you don't need to develop highly complicated stuff (eCommerce or highly data intensive apps). Then what you get is a very lightweight CMS that offers you total control over what you're doing and instead of deploying ready made templates you design things exactly how you want them to be. Plus, you can easily add all sort of functionality whenever you want.
+
+Sonja

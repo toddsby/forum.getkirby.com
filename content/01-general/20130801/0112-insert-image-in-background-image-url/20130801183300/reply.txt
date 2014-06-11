@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-08-01 18:33:00
+----
+Text: Maybe try `$image->root()` instead? Seems unlikely, but…

@@ -1,0 +1,7 @@
+Title: Issue Tracker
+
+----
+
+Text: 
+
+Found a bug? Let me know!

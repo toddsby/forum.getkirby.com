@@ -1,0 +1,11 @@
+Title: New install on MAMP, getting errors on subpages
+----
+Date: 2014-04-26 06:23:33
+----
+Solved: 0
+----
+User: crisedwards
+----
+Text: I am brand new to Kirby and am using MAMP. The index page comes up just fine on the demo site, but clicking any of the dynamic links in the menu (about us, projects, contact) gets me an error page. Not running it under any subfolders or anything. Should be easy squeezy. So, what not working?
+
+Thanks!

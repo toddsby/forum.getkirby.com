@@ -1,0 +1,9 @@
+User: fitzage
+----
+Date: 2013-06-25 18:47:45
+----
+Text: You can probably use this plugin, or at least get the info from it to help you do what you need.
+
+(link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/tagcloud/readme.mdown)
+
+I use that plugin to list all my categories and tags.

@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2012-12-30 15:07:15
+----
+Text: I think you can have problems both ways, it is certainly messier if they are in the same folder, but on the other hand deletion is a lot easier. Otherwise you have to delete all the thumbs in the thumbs folder and re-generate the thumbnails you still need. 
+
+Unless there is a better way of doing this, an option to do both would be cool.

@@ -1,0 +1,17 @@
+User: psztrnk
+----
+Date: 2013-06-27 10:04:00
+----
+Text: Hi Russ, thanks for your answer. 
+
+Yes, I also thought that sorting will work anyway, but if I put the date in the blogarticle.txt in dd/mm/yyyy format, eg.
+
+> Date: 26/02/2013
+
+the sorting is messed up. As I modified the date format in every txt to mm/dd/yyyy, like
+
+> Date: 02/26/2013
+
+sorting was all good. Strange, but if this is what it takes, I'll do it this way. :)
+
+Anyway, thanks!

@@ -1,0 +1,3 @@
+Title: New Topic
+----
+Headline: Create a new topic in:

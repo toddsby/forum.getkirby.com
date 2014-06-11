@@ -1,0 +1,16 @@
+Title: Wrong image-url - no 403/404 error
+----
+Date: 2013-07-31 01:04:09
+----
+Solved: 0
+----
+User: d3ddesign
+----
+Text: Hi,
+
+i want to use http://retinajs.com/ for Retina-Images on a Kirby powered website. The problem is: This script check's the servers response to for example "image@2x.jpg". If the response is something else than "HTTP/1.1 200 OK" it do not change the image.jpg to @2x version.
+But Kirby-CMS does a redirect to my homepage if i request a not existing image. So the response is "OK" - and the script change the image to @2x version (that dont exist) and no image is displayed.
+
+How can i change this kirby-behaviour?
+
+Thanks!

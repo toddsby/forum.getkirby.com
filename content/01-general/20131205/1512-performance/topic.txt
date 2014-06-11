@@ -1,0 +1,17 @@
+Title: Performance
+----
+Date: 2013-12-05 15:12:49
+----
+Solved: 0
+----
+User: chrisjmartin87
+----
+Text: I have a project coming up that i want to use Kirby for, the website would be kinda like a business directory holding an advert for more than 500 separate companies. 
+
+I'm curious as to what the performance would be like, Each page would only consist of a few images and few links.
+
+Just for the record there would be no search features on the website so search performance isn't really an issue for users.
+
+Any info would be appreciated,
+
+chris

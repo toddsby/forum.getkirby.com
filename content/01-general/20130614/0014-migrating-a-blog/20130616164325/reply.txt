@@ -1,0 +1,10 @@
+User: tillpro
+----
+Date: 2013-06-16 16:43:25
+----
+Text: Using the Blogger-API you might be able to create the folder structure more easily…
+
+1. Get the Id of your blog: [getByUrl](https://developers.google.com/blogger/docs/3.0/reference/blogs/getByUrl)
+2. Get a list of posts: [list](https://developers.google.com/blogger/docs/3.0/reference/posts/list)
+3. Convert HTML to Markdown (remove any unnecessary HTML-markup added by blogger at first)
+4. Create the folder structure

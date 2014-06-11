@@ -1,0 +1,17 @@
+Title: images not showing
+----
+Date: 2013-10-31 16:59:10
+----
+Solved: 0
+----
+User: angelistudio
+----
+Text: Hi there,
+
+I'm trying to output an image file with no luck; 01.jpg is in my folder and the code in image.php is:
+
+    <?php $image = $page->images()->find('01.jpg') ?>
+    <img src="<?php echo $image->url() ?>" alt="someTitle" />
+
+This is the error: 
+Fatal error:  Call to a member function url() on a non-object

@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-04-05 22:23:03
+----
+Text: Store it in the [session](http://toolkit.getkirby.com/docs/classes/s) or cookies - does it have to be permanent?

@@ -1,0 +1,41 @@
+User: travVT
+----
+Date: 2013-10-03 16:39:55
+----
+Text: Alright everyone, I've revised my approach and I have some happy news! Currently, Kirby takes the custom content file names (about.page.txt, kirby-is-cool.blog.txt, etc) and successfully loads the corresponding template file (page, blog, etc). 
+
+I know, nothing new from above _EXCEPT_ that the Panel will also now load the correct blueprints file for the already created pages. Newly created pages from within the Panel are not named "correctly" yet,  but I'm working on it. I emailed Bastian and he has kind enough to point me in the right direction of where the Panel does its file writing. He also let me know, and it's worth restating, that these modifications will most definitely break in future releases of Kirby.
+
+Back to the code. I decided to scrap my original code, above, and rework it into a smaller function that I could reuse. That function looks like this:
+
+	function intendedTemplate_custom($itName) {
+		// Returns True if $itName Has a Dot and False if it Does Not
+		$nameMightContainDot = strpos($itName, ".");
+		
+		// $itName Does/Does Not Have a Dot
+		if($nameMightContainDot === false):
+			return $itName;
+		else:
+			return substr(strstr($itName, ".", false), 1);	
+		endif;
+	}
+
+Basically, this function replaces 12-14 instances of code:
+
+> $page->intendedTemplate 
+> **becomes** 
+> intendedTemplate_custom($page->intendedTemplate)
+
+> $this->intendedTemplate 
+> **become** 
+> intendedTemplate_custom($this->intendedTemplate)
+
+And, the files involved with the find/replace are:
+
+> kirby/lib/pages.php (7 hits)
+> panel/lib/data.php (5 hits)
+> panel/lib/settings.php (2 hits)
+
+If you have a keen eye you probably noticed I mentioned that the function replaces between 12 and 14 lines of code. That's because I ran into technical issues with line 415 and 432 in the kirby/lib/pages.php file. Leaving them alone seems to cause no issues, but I'd like to "fix" them. I'm hitting a wall with the PHP error I'm receiving, but hopefully soon I'll be over that hurdle.
+
+I welcome any suggestions, thoughts, and code mods/tidying. To preempt a few things, yes, I know I'm modifying/hacking the core code. I'm carefully documenting where I do this and keeping the default/original version commented out. Also, the purpose of all of this is to use semantically meaningful file names. I'm completely aware that this is not something that is necessary or even needed to make Kirby "better." Kirby is great just the way it is and this is something I'm having fun implementing for my own install.

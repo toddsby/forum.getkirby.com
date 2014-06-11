@@ -1,0 +1,37 @@
+User: jolantis
+----
+Date: 2012-07-04 13:52:04
+----
+Text: Today I run into the same issue, but with the `<figure>` element.
+
+This can be remedied by changing the following in the markdown.php and/or markdown.extra.php files:
+
+1. Add **|figure** to `/kirby/parsers/markdown.php` on line 393, like this:
+
+    $block_tags_b_re = 'p|div|h[1-6]|blockquote|pre|table|dl|ol|ul|address|'.
+    'script|noscript|form|fieldset|iframe|math|figure';
+
+2. And if you use _Markdown Extra_ as well, add **|figure** to `/kirby/parsers/markdown.extra.php` on line 416, like this:
+
+    $block_tags_b_re = 'p|div|h[1-6]|blockquote|pre|table|dl|ol|ul|address|'.
+    'script|noscript|form|fieldset|iframe|math|figure';
+
+3. And add **|figure** to `/kirby/parsers/markdown.extra.php` on line 1781, like this:
+
+    var $block_tags_re = 'p|div|h[1-6]|blockquote|pre|table|dl|ol|ul|address|form|fieldset|iframe|hr|legend|figure';
+
+And you can do the same more or less for the `<img>` tag, but I would only add them to the "a" list ($block_tags_a_re), for tags which can be both inline or block-level and will be treated block-level only when the start tag is alone on its line, like this:
+
+4. Add **|img** to `/kirby/parsers/markdown.php` on line 391, like this:
+
+    $block_tags_a_re = 'ins|del|img';
+
+5. And add **|img** to `/kirby/parsers/markdown.extra.php` on line 414, like this:
+
+    $block_tags_a_re = 'ins|del|img';
+
+6. And last add **|img** to `/kirby/parsers/markdown.extra.php` on line 1784, like this:
+
+    var $context_block_tags_re = 'script|noscript|math|ins|del|img';
+
+@Bastian: Would it be a good(?) idea to add this by default to the Kirby included markdown (extra) files? Then you don't have to change add the above every time there's a Kirby (folder) update.

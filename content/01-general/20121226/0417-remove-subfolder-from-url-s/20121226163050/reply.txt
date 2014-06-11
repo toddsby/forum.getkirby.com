@@ -1,0 +1,11 @@
+User: chrisburton
+----
+Date: 2012-12-26 16:30:50
+----
+Text: My subfolder is actually named "v3".
+
+e.g.
+
+http://mysite.com/v3/about
+
+I prefer that it's just http://mysite.com/about. I believe I need a rewrite.

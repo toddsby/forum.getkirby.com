@@ -1,0 +1,9 @@
+Title: Frontend Registration
+----
+Date: 2012-11-12 20:15:18
+----
+Solved: 0
+----
+User: robrainfall
+----
+Text: I am wondering how complicated would be to create a front end registration form? That would basically create the user.txt with name, email and the password hashed…?

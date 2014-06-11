@@ -1,0 +1,32 @@
+Title: Reversing the numbered sorting system?
+----
+Date: 2012-08-27 06:01:58
+----
+Solved: 0
+----
+User: _brieche
+----
+Text: Hi all!
+
+I was wondering if it would be possible to reverse the order in which Kirby reads content, i.e.:
+
+`01-article`: last
+`02-article`: second
+`03-article`: first
+
+instead of 
+
+`01-article`: first
+`02-article`: second
+`03-article`: last
+
+For example, if I wanted to add images to a portfolio folder (in 01-02-03-04 order, the largest number == the most recent), using a `foreach` dependent gallery would display the images in order from least to most recent. I'd like to have the images automatically display in order from most recent to least recent.
+
+Is there some code I can edit (`sort`/`rsort`?) to change the way Kirby reads numbers? Or should I create a new field stating my preferred order in the text file metadata for each object?
+
+I'd love to hear about workarounds or solutions that I might be missing— how do you efficiently add new content (e.g., blog posts, projects)?
+
+Thanks for your help!
+
+Best,
+Gabrielle

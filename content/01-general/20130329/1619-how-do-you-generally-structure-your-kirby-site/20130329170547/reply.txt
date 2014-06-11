@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-03-29 17:05:47
+----
+Text: As few templates/blueprints as I can. The templates are mostly filled with snippets which of course you can set up with variables so they can be pretty flexible. If you think of a page in blocks of things, its a good way to consider snippets/templates and of course CSS and the like.

@@ -1,0 +1,16 @@
+User: bastianallgeier
+----
+Date: 2012-11-02 11:06:47
+----
+Text: Uh, that sounds like a bug! 
+But what I'd suggest anyway is to add an additional number field for such numbers instead, since they sound to be more of a content thing than just for sorting. 
+
+I'd do it somehow like this: 
+
+    title: Project Title
+    ----
+    number: 120
+    ----
+    text: some text
+
+I'm not sure if this is what you are looking for, but it'd make more sense to me. You could also add that number field to your blueprint for the panel, so your clients get an easy way to edit that number without messing around with the title.

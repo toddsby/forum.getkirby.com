@@ -1,0 +1,12 @@
+User: texnixe
+----
+Date: 2013-10-21 10:28:15
+----
+Text: In the menu snippet, you could put a condition within the href attribute:
+
+    <?php foreach($pages->visible() as $p):?>
+        <li>
+           <a <?php echo ($p->isOpen())?' class="active"':''?> href="<?php if($p->uid('xyz')) echo "#"; else echo $p->url()?>">
+                    <?php echo html($p->title())?>
+           </a> 
+        </li>

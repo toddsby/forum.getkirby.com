@@ -1,0 +1,21 @@
+Title: Thumb plugin keeps creating new thumbs for previously generated thumbs?
+----
+Date: 2014-04-10 01:47:15
+----
+Solved: 0
+----
+User: sciascia10
+----
+Text: Hi There,
+
+We've notice that despite there already being a thumb for a particular image, a new thumb is generated when a different visitor browses the site.
+
+Does the thumb plugin not use previously generated thumbnails? 
+
+This is causing major performance issues on our test site as users visiting for the first time have to wait while new thumbs are generated - does this sound correct?
+
+Any help would be much appreciated.
+
+Cheers
+
+Ben

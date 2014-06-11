@@ -1,0 +1,14 @@
+Title: Diable Mousewheel on Maps snippet
+----
+Date: 2013-04-21 00:01:54
+----
+Solved: 0
+----
+User: swenflea
+----
+Text: Hi all,
+
+I'm using the map snippet from the download section and was wondering how I can disable the use of the mousewheel to zoom in and out?
+
+Thanks
+Ben

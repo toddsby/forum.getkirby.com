@@ -1,0 +1,15 @@
+User: fitzage
+----
+Date: 2012-12-10 17:52:41
+----
+Text: We have a field called featured (that's also set up as a checkbox field in the control panel blueprint). The control panel fills it with on when the checkbox is selected, so we use that instead of true/false. Just do a conditional check for that.
+
+    <?php $articles = $pages->find('articles')->children(); ?>
+        <?php foreach ($articles AS $article) : ?>
+            <?php if ($article->featured() == 'on') { ?>
+                <?php echo $article->price(); ?>
+                etc
+            <?php } ?>
+        <?php endforeach ?>
+
+Something along those lines should do it. Obviously you'll need to echo your fields into whatever html you want as you normally would. If the pages in question are children of the homepage you don't have to do the find thing, just do `$page->children()`.

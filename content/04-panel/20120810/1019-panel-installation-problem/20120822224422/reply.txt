@@ -1,0 +1,14 @@
+User: kilmc
+----
+Date: 2012-08-22 22:44:22
+----
+Text: Was this ever resolved. I think I'm having a similar problem.
+
+Panel was working fine until I realised that all the url's on the main kirby install were broken because I was in a subfolder. I updated the config.php file and the .htaccess file. Then the links in the kirby install were fine but I can't get access to the panel.
+
+Is there a chance I'm doing something terribly wrong or does Kirby Panel not yet support being installed in a subfolder.
+
+Thanks 
+
+
+Kil

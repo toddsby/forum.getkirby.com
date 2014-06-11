@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-03-03 19:47:09
+----
+Text: I'm not so sure you can filter by date but you could maybe do partial matches? 
+
+You can do [date maths with mktime](http://www.php.net/manual/en/function.mktime.php) and format them with [strftime](http://www.php.net/manual/en/function.strftime.php).

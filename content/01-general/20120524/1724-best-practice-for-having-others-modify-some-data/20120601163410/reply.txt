@@ -1,0 +1,11 @@
+User: fitzage
+----
+Date: 2012-06-01 16:34:10
+----
+Text: If you want people to actually end up posting to your local staged copy instead of the live server, you could use something like a symbolic link that should sync folders via dropbox even if they're actually outside your Dropbox.
+
+(link: http://lifehacker.com/5154698/sync-files-and-folders-outside-your-my-dropbox-folder)
+
+My current setup has the entire sites for my localhosted sites in Dropbox, so if I want to share a content folder that way, I could easily do it because it's already in dropbox, no symbolic linking required.
+
+If I want other people to post directly to the server, though, I'd have to install dropbox on the server, which my not be possible on my SmartOS-based servers.

@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-07-01 10:15:11
+----
+Text: Indeed, I think currently you can only have one **kirbytext.extended.php** file, but you can put multiple extension in this file -- although I also think this will change with the next version of Kirby.

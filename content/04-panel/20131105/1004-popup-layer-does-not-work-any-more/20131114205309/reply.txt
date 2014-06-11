@@ -1,0 +1,11 @@
+User: simoncvbohm
+----
+Date: 2013-11-14 20:53:09
+----
+Text: I'm experiencing the same thing, on Chrome/Mavericks as well.
+Anyone happen to have an idea why?
+
+———-
+
+Was a bit quick there, there was already a fix for this:
+(link:https://twitter.com/getkirby/status/395521228586635264)

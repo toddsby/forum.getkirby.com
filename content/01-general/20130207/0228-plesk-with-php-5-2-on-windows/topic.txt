@@ -1,0 +1,23 @@
+Title: Plesk with PHP 5.2 on windows
+----
+Date: 2013-02-07 02:28:36
+----
+Solved: 0
+----
+User: kirbyuser
+----
+Text: Hello,
+
+I've just uploaded kirbycms w/panel to my Live test folder and something weird's going on.
+
+The homepage has loaded without any assets - "view source" shows that the URLs have been constructed with https instead of just http.
+
+Clicking on any menu items yield an: Error 101 (net::ERR_CONNECTION_RESET): The connection was reset.
+
+No ssl is required on my web host. ssl is set to 'false' in config.php and everything works fine on my localhost windows machine.
+
+Little help here please?
+
+Thanks,
+
+Des

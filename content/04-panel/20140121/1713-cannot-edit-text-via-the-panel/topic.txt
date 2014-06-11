@@ -1,0 +1,17 @@
+Title: Cannot edit Text via the Panel
+----
+Date: 2014-01-21 17:13:08
+----
+Solved: 1
+----
+User: ipjmartin
+----
+Text: Hi there!
+
+So I have been setting up Kirby for the past few hours. I got past the issues with permissions etc. and got rid of the errors telling me  the permissions were set incorrectly and there was no thumbs directory.
+Anyhow, now it seems as if I can edit my pages' titles, but not the text.
+All options, like title or the info on the home.txt, are showing, except the text option.
+
+Any ideas?
+
+thanks up front! :)

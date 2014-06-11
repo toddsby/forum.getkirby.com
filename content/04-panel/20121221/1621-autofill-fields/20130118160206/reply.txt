@@ -1,0 +1,13 @@
+User: structor
+----
+Date: 2013-01-18 16:02:06
+----
+Text: The date picker already exists in kirby panel.
+I just use the field in blueprint
+    date: 
+      label:  Data
+      type:   date
+      format: dd.mm.yy	
+
+and show it in the page:
+    < ? php echo html($article->date('d.m.y')) ?>

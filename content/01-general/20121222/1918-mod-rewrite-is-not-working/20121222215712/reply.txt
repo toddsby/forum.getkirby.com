@@ -1,0 +1,5 @@
+User: andyn
+----
+Date: 2012-12-22 21:57:12
+----
+Text: Thanks Tyson. I had missed the .htaccess file that comes with the default install. Doh! I went and found that and my problem is resolved – it works great. Thanks for the help.

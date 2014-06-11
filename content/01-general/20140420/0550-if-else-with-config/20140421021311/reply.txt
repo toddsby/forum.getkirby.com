@@ -1,0 +1,5 @@
+User: digisocialnet
+----
+Date: 2014-04-21 02:13:11
+----
+Text: i already have it set up but how do i call it on my template as an if/else statement?

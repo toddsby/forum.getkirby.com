@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2014-05-29 20:30:11
+----
+Text: Yeah, so this has been hashed and rehashed here before. I THINK you can deal with this by turning off auto line breaks in the config. You'll still be able to create paragraphs with double spaces between them, but any single line breaks will have to use <br> tags.
+
+I think that fixes this issue, at least. I could be misremembering.

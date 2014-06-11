@@ -1,0 +1,10 @@
+User: chrisburton
+----
+Date: 2013-12-31 08:26:18
+----
+Text: @graygilmore The only problem with that plugin is that it does not offer social integration. It does not use a database which I think would be more appropriate for comments rather than storing them in a file and I also did not see spam protection.
+
+The only major third party software that this would need to work is [Opauth](http://opauth.org/) and Akismet. I think.
+
+
+Bastian created an example for trying out comments in a write-up of an article. [See here](http://getkirby.com/blog/database). Of course this is a very simple example — nothing I suggested above.

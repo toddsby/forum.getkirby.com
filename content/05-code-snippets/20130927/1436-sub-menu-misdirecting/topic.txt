@@ -1,0 +1,15 @@
+Title: Sub Menu misdirecting
+----
+Date: 2013-09-27 14:36:18
+----
+Solved: 1
+----
+User: timgauthier
+----
+Text: I've got a headache from looking at this, I have a menu (using bootstrap etc) for my pages, it has a dropdown, in that dropdown you have the children pages showing up. This uses code from the various examples of nested menu's that bastian posted. My problem is that when you are on a child page and use the menu, the link to the parent page is incorrect. Example, you click on support > financial, then when on financial you click support, you get set to support/support
+
+I'm not sure what i've done incorrectly, my code is becoming a bit of an unreadible mess, but thats a different issue of learning some best practices.
+
+Here is a gist of my code:
+
+https://gist.github.com/timgauthier/6727917

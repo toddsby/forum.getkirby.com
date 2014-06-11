@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-02-08 08:51:13
+----
+Text: I liked [Matt Wilcox's adaptive images](http://adaptive-images.com/) for that very reason, as it caches images you can sort of pre-create them by visiting pages. 
+
+Also less code in the page, but I guess there are many different ways todo things ;-)

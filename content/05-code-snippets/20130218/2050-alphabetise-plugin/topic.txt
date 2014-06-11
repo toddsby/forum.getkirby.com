@@ -1,0 +1,117 @@
+Title: Alphabetise Plugin
+----
+Date: 2013-02-18 20:50:05
+----
+Solved: 0
+----
+User: russbaldwin
+----
+Text: Because there have been a lot of requests for code in the forums, and quite a bit of code has been confusing people, we decided to release the code as a slightly more universal plugin.
+
+**Some of the related Forum Posts**
++ [List pages, grouped by first letter of title...](http://getkirby.com/forum/general/topic:406)
++ [Tag Index](http://getkirby.com/forum/general/topic:398)
+
+So here is the beta Alphabetise Plugin:
+[Alphabetise Plugin Beta.](https://github.com/shoesforindustry/kirbycms-extensions/tree/master/plugins) 
+*(There is more information in the plugin readme.)*
+
+**The Alphabetise plugin will Alphabetise a given page array or tag array and return it for further processing/display.**
+
+####Example 1: Alphabetical list of child pages using **page title** as the key:
+
+#####A
+
++ Aa page
++ Ab page
+
+---
+
+#####B
+
++ Ba page
++ Bb page
+
+---
+
+#####Template Code
+Call the plugin with your array and key:
+
+```php
+<?php $alphabetise = alphabetise($page->children()->visible()->sortby('title'), array('key' => 'title')); 
+?>
+```
+The first argument you pass is the sorted **page** array you want to *alphabetise*. The second array **key** argument is so you can set what you want to *alphabetise* by. It should be a string like a page 'title'. The 'sortby' and the 'key' should usually be the same.
+
+You then want to loop through the returned results and display them for example:
+
+```php
+<?php foreach($alphabetise as $letter => $items): ?>
+    <h4><?php echo strtoupper($letter) ?></h4>
+	<ul>
+	    <?php foreach($items as $item): ?>
+     	     <li><a href="<?php echo $item->url()?>">
+                 <?php echo $item->title()?>
+                 </a>
+              </li>
+     	   <?php endforeach ?>
+     	</ul>
+    <hr/>
+<?php endforeach ?>
+```
+
+---
+####Example2: Alphabetical list of tags using tag name as the key 
+**You require the tag plugin for this bit to work!** and *'pages'* in this example are the pages you want to get tags for. See the [taglcoud plugin documentation](https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/tagcloud/tagcloud.php) for more information.
+
+#####A
+
++ Aa tag
++ Ab tag
+
+#####B
+
++ Ba tag
++ Bb tag
+
+---
+
+#####Template Code
+Call the plugin with your array and key:
+```php
+<?php $alphabetise = alphabetise(tagcloud(($pages->find('pages')), array('sort' => 'name','sortdir'  => 'asc')), array('key' => 'name')); ?>
+```
+The first argument you pass is the **tagcloud** array you want to *alphabetise*. The second array **key** argument is so you can set what you want to *alphabetise* by. It should be a string like a tag 'name'.
+
+You then want to loop through the returned results and display them for example:
+(Note we are using **$item->name** not *item->title* as tags don't have titles.)
+
+```php
+
+<?php foreach($alphabetise as $letter => $items): ?>
+    <h4><?php echo strtoupper($letter) ?></h4>
+	<ul>
+	    <?php foreach($items as $item): ?>
+     	       <li><a href="<?php echo $item->url()?>">
+                   <?php echo $item->name()?>
+                   </a>
+               </li>
+     	   <?php endforeach ?>
+     	</ul>
+    <hr/>
+<?php endforeach ?>
+
+```
+You can use any valid array element when looping through your results. So for tabs you can use also add **$item->results()** for example, which is the number of items with that tag:
+```php
+<li>
+    <a href="<?php echo $item->url()?>">
+       <?php echo $item->name().' ('.($item->results()).')'?>
+    </a>
+</li>
+```
+---
+
+Let us know what you think and if you have any issues.
+
+Enjoy

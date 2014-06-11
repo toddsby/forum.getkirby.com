@@ -1,0 +1,19 @@
+Title: Filter search results
+----
+Date: 2014-04-10 10:47:33
+----
+Solved: 1
+----
+User: conefreykoedam
+----
+Text: I'm using the search plugin, all works fine.
+But now I want to split out search results for dir-a (printwork) and dir-b (digital).
+Any suggestions how to approach? Thanks!
+
+-search-directory
+--directory-a
+---child-01
+---child-02
+--directory-b
+---child-01
+---child-02

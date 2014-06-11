@@ -1,0 +1,9 @@
+User: tysongach
+----
+Date: 2012-12-30 20:06:47
+----
+Text: Ah, yes...you're pulling articles into a home page or other blog archive page.
+
+I generalized my code by using the `$page` variable, but that's used for the *current page you're on*.
+
+In my code above, just swap `$page` for `$article` since you're using that variable when you loop through to get each article.

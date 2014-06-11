@@ -1,0 +1,11 @@
+Title: Best practices for user management...
+----
+Date: 2012-06-02 20:15:02
+----
+Solved: 0
+----
+User: larsschulz
+----
+Text: I like kirby. Is there any good user management solutions that integrate well? Maybe along the same "less is more" approach that makes kirby so compelling?
+
+Thx for any suggestions...

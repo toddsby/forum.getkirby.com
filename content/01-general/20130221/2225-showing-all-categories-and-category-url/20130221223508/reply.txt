@@ -1,0 +1,9 @@
+User: tysongach
+----
+Date: 2013-02-21 22:35:08
+----
+Text: Hey Nathaniel,
+
+Are you talking about using tags and the (link: http://getkirby.com/blog/tagcloud text: tagcloud plugin)?
+
+Can you provide some example content structure?

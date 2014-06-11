@@ -1,0 +1,6 @@
+User: Fhuery
+----
+Date: 2013-01-21 11:52:45
+----
+Text: Hi Russ,
+It turns out switching to the new XAMPP was the solution. I installed it and Kirby afresh and the error message disappeared. Thanks again for your help.

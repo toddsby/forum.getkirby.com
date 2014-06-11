@@ -1,0 +1,49 @@
+Title: Parent and children blueprint
+----
+Date: 2012-10-30 18:23:52
+----
+Solved: 0
+----
+User: katrynvonfelsen
+----
+Text: ###Hi there!
+
+I am about to make a website for a client and i wanted to vary the layout really easily by using a content templating system…
+
+---
+
+###The concept
+
+In fact it is simply about adding the an option to blueprint that actually limit them to be used only if they are the children of certain parents
+
+---
+
+###In other word:
+
+The **Slide** blueprint would be available under the **Slider** that could only be the child of **project** pages!
+
+---
+
+###Exemple of structure (the one i need for my project)
+
+
+1Page Blueprint
+&nbsp;&nbsp;1.1 Page content layout 1 blueprint
+&nbsp;&nbsp;1.2 Slider Blueprint
+&nbsp;&nbsp;&nbsp;&nbsp;1.2.1 Slide Blueprint
+&nbsp;&nbsp;1.3 Page content layout 3 blueprint
+&nbsp;&nbsp;1.4 Page content layout 4 blueprint
+
+---
+
+###This could be also applied to other contexts as well
+
+1 Client Blueprint
+&nbsp;&nbsp;1.1 Project Blueprint
+&nbsp;&nbsp;&nbsp;&nbsp;1.1.1 Work Blueprint
+
+---
+
+###And if you are too busy
+
+I could work with that with you since i need this!

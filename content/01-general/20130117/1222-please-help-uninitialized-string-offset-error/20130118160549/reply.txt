@@ -1,0 +1,9 @@
+User: Fhuery
+----
+Date: 2013-01-18 16:05:49
+----
+Text: Sorry for the delay, Russ, and thanks for your input. Yes, I am getting this error with the default install code. I only changed this code for URL rewrite on the config.php file in the 'site' folder:
+
+c::set('rewrite', false);
+
+I want to switch to the new XAMPP then give it a shot to see if the error message disappears

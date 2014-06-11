@@ -1,0 +1,13 @@
+Title: Duplicate posts in RSS feed
+----
+Date: 2014-05-04 10:33:05
+----
+Solved: 0
+----
+User: adrianthomas
+----
+Text: When I create blogposts, they often show up multiple times in my RSS feed. I'm guessing this is because they are being posted immediately as soon as I save (which I tend to do a few times).
+
+Is there a way to 'delay' the RSS feed, so it only picks up the final version of the post? Or should I just stop editing my posts 'live'? :)
+
+Thanks!

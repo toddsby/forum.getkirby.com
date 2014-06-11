@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2012-12-26 15:56:13
+----
+Text: Is the homepage of the panel giving you any warnings about missing blueprints? If it is, that takes the place of the site.txt information. Even then, I think there's a tab called "info" that you should be able to click to see that.

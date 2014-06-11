@@ -1,0 +1,13 @@
+User: Wordius
+----
+Date: 2013-02-13 09:16:50
+----
+Text: Sorry, some clarification. The post listing is paginated to show the ten most recent posts on the home page, with ten older posts on each subsequent page. The numbers refer to the page, ‘1’ being the ten most recent posts and the last number – 17 in the example above – being the oldest posts.
+
+It’s confusing the way I’ve done it, because ‘Older’ is next to ‘1’. It would look better like this:
+
+    Newer 1 2 3 4 … 14 15 16 17 Older
+
+Here’s how the navigation shows on page 2 of the blog listing at the moment: http://wordius.com/page:2
+
+Oh, and here’s a site that does exactly what I’m looking for: http://theamazingweb.net/page/2/

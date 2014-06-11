@@ -1,0 +1,46 @@
+User: tysongach
+----
+Date: 2012-10-24 00:35:09
+----
+Text: I'm having similar issues with dates too. My goal is for the dates on my articles to be formatted like this: **October 23, 2012**.
+
+Let me try to break down each scenario and the changes I made in the files:
+
+### Scenario 1
+
+**Blueprint**
+    label: Date
+    type: date
+    format: mm.dd.yyyy
+
+**Panel Shows**
+    10.23.20122012
+
+**Template**
+    $page->date('F j, Y')
+
+**Rendered Page**
+    January 1, 1970
+
+
+### Scenario 2
+
+**Blueprint**
+    label: Date
+    type: date
+    format: mm.dd.yy
+
+**Panel Shows**
+    10.23.2012
+
+**Template**
+    $page->date('F j, Y')
+
+**Rendered Page**
+    January 1, 1970
+
+
+So I'm super lost why the page is rendering January 1, 1970 and why the panel is putting the year twice.
+
+
+_Thanks in advance for any help!_

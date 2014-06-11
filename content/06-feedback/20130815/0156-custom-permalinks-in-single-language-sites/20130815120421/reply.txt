@@ -1,0 +1,5 @@
+User: texnixe
+----
+Date: 2013-08-15 12:04:21
+----
+Text: you may use the URL-Key for all language files including default language, but you are right as regards the parameter name ...

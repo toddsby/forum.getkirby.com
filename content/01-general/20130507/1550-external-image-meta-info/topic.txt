@@ -1,0 +1,15 @@
+Title: External image + meta info
+----
+Date: 2013-05-07 15:50:00
+----
+Solved: 1
+----
+User: hellquist
+----
+Text: Hi. Just checking out Kirby and being very impressed. Point by point it seems simple and/or logical how to do most things I can think of.
+
+One thing that I haven't worked out just yet though is if it would be possible for a content editor to add content which includes an externally linked image (for example from Flickr) AND to be able to add meta data to that image (much like described on http://getkirby.com/docs/media).
+
+I understand how it works if the image (for example 04.jpg) is in the correct folder on the server, and it then picks up the corresponding text file (04.jpg.txt), but how would it be done if the image is not on the server?
+
+Possible?

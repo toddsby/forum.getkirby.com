@@ -1,0 +1,70 @@
+Title: Adding select thumbnails
+----
+Date: 2013-07-28 09:38:50
+----
+Solved: 0
+----
+User: omgitsjkt
+----
+Text: I've managed to combine Masonry with the thumbnail plugin and filterby() to create a grid of "featured" projects in my default.php.
+
+It's all working well: If I add 'tags: pick' to any project's project.txt file, Kirby finds it and creates a thumbnail from the first image in the set. 
+
+(I don't know if this is necessary, but to get Masonry working with the thumbnail plugin, there is an invisible .png that is used in the <img> tag)
+
+Here's the working code:
+
+<pre>
+<code>
+
+
+
+&ltdiv id="featmasonry" class="js-masonry" data-masonry-options='{ "columnWidth": 270, "itemSelector": ".featthumb" }'&gt
+	&ltul&gt
+
+&lt?php foreach($pages-&gtfind('artists')-&gtchildren()-&gtchildren()-&gtfilterby('tags', 'pick', ',') as $pick): ?&gt
+	&ltdiv class="featthumb"&gt
+
+		&lt?php $image = $pick-&gtimages()-&gtfirst()?&gt
+
+		&lt?php $image-&gtfitWidth(250) ?&gt
+			&ltdiv class="thumbImg"&gt
+			&ltli&gt
+				&lta href="&lt?php echo $pick-&gturl() ?&gt" title="&lt?php echo $pick-&gttitle() ?&gt"&gt&ltimg src="/assets/images/img.png" width="&lt?php echo $pick-&gtfiles()-&gtfirst()-&gtwidth() ?&gt" height="&lt?php echo $pick-&gtfiles()-&gtfirst()-&gtheight() ?&gt" alt="&lt?php echo $pick-&gttitle() ?&gt" class="invisible" /&gt&lt?php echo thumb($image, array('width' =&gt 250)) ?&gt&lt/a&gt
+			&lt/li&gt&lt/div&gt
+			&ltdiv class="thumbInfo"&gt&ltp&gt&lt?php echo $pick-&gtptitle ?&gt&lt/p&gt&lt/div&gt
+		
+	&lt/div&gt
+	
+&lt?php endforeach ?&gt
+	&lt/ul&gt
+&lt/div&gt
+</code>
+</pre>
+
+But, there is one more thing I would like to add - the ability to include a <em>second</em> (or third or fourth...) thumbnail from a project - because right now, it's only using the first.
+
+I would also like to be able to do this using meta info via an additional .txt file linked to a particular image. This may not be the easiest way with the code, but I'm building this for a client who will already be editing the meta-.txt files, and I'd like this to be as simple as possible for her.
+
+So, my project folder may look like this:
+
+/01-necklace/
+	01-necklace-red.jpg
+	01-necklace-red.jpg.txt
+	02-necklace-orange.jpg
+	02-necklace-orange.jpg.txt
+	03-necklace-yellow.jpg
+	03-necklace-yellow.jpg.txt
+	04-necklace-green.jpg
+	04-necklace-green.jpg.txt
+	05-necklace-blue.jpg
+	05-necklace-blue.jpg.txt
+	06-necklace-violet.jpg
+	06-necklace-violet.jpg.txt
+	project.txt
+
+If I've included 'tags: pick' in both project.txt and 06-necklace-violet.jpg.txt, they would be displayed as thumbnails in default.php
+
+BONUS: what if I wanted to display only 06-necklace-violet.jpg and not the first image?
+
+any thoughts? Thanks in advance ~ ~

@@ -1,0 +1,27 @@
+Title: Kirbytext: Full-Featured Figure Tag
+----
+Date: 2012-12-19 18:57:19
+----
+Solved: 0
+----
+User: tysongach
+----
+Text: While creating a site built on Kirby, I wanted the images in my articles to have the following attributes:
+
+- Wrapped in a proper figure tag
+- The image inside the figure should be a thumbnail of the original
+- The thumbnail inside the figure should link to the full, original size of the image
+- Option to have a figure caption
+- Option to add a class for alignment (via CSS), e.g. alignleft, or alignright
+
+
+
+So I extended Kirbytext with a custom figure tag. You can use it like this:
+
+    (figure: photo.jpg)
+
+or
+
+    (figure: photo.jpg caption: What a great photo! align: left)
+
+(gist: https://gist.github.com/4338482 file: kirbytext.extended.php)

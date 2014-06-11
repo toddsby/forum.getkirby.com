@@ -1,0 +1,20 @@
+User: russbaldwin
+----
+Date: 2013-04-05 18:09:05
+----
+Text: Some code would be useful? 
+Is this you folder structure?
+
+```html
+gallery
+  gallery.txt
+  paintings
+    paintings.txt
+    2009
+      2009.txt    
+      photo
+        photo.txt
+      drawing
+        drawing.txt
+```
+One problem could be the numeric folder and txt file?

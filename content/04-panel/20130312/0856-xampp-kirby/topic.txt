@@ -1,0 +1,13 @@
+Title: xampp + Kirby
+----
+Date: 2013-03-12 08:56:01
+----
+Solved: 1
+----
+User: _skypieces
+----
+Text: I really want to try out Kirby but I'm having troubles installing it locally with Xampp. I get the successful page that the installation worked but whenever I go to a link (e.g the about us, project page) it redirects me to http://localhost/xampp/
+
+Any ideas?
+
+Thanks :D

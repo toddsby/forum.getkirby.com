@@ -1,0 +1,9 @@
+User: bastianallgeier
+----
+Date: 2013-02-05 10:30:47
+----
+Text: Hey guys, 
+
+that might be just me here in Germany with a latency problem, but I currently worked with a guy, who tried to run a Kirby site on (gs) and the performance wasn't great at all. Would love to hear more from people who use Kirby on (gs). 
+
+It seems that the (dv) seems to be a good choice though.

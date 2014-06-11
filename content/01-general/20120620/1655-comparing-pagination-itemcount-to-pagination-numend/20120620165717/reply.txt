@@ -1,0 +1,5 @@
+User: DanielGenser
+----
+Date: 2012-06-20 16:57:17
+----
+Text: Hmm... tried Markdown code syntax for code blocks (indenting 4 spaces), but the forum still stripped out a bunch from my 'statement in question' in the above post. Sorry. It's line 6 here: <http://codepad.org/2co2CX7A>

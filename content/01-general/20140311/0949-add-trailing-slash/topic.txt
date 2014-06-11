@@ -1,0 +1,17 @@
+Title: Add trailing slash?
+----
+Date: 2014-03-11 09:49:46
+----
+Solved: 1
+----
+User: jens_tornell
+----
+Text: I just started testing Kirby on my localhost today.
+
+How can I add trailing slash to the URLs? I tried config.php and htaccess but no luck so far.
+
+http://www.test.com/about
+
+to
+
+http://www.test.com/about/

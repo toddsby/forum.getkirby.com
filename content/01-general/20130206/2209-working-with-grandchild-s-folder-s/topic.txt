@@ -1,0 +1,35 @@
+Title: Working with grandchild's folder's
+----
+Date: 2013-02-06 22:09:02
+----
+Solved: 1
+----
+User: roman_oroco
+----
+Text: The idea of this content structure is to have more nicer url for articles:
+```
+content
+-01-articles
+--01-category-1
+---01-article-1
+---02-article-2
+--02-category-2
+---01-article-3
+---01-article-4
+```
+Similiar approach is used by Kirby's form:
+
+![Image](http://getkirby.com/content/06-blog/60-the-forum/01.png)
+
+I can't figure out how do display each child articles of current category:
+
+```php
+<?php $articles = $pages->find('???')
+                        ->children()
+                        ->visible()
+                        ->sortBy('date', 'desc')
+                        ->paginate(5); ?>
+```
+1. `site.com/articles/category-1/` — should display all articles in that specific folder.
+
+2. `site.com/articles/category-x/` — same for all eventually created subfolders.

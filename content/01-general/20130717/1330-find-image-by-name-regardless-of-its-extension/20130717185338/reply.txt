@@ -1,0 +1,11 @@
+User: fitzage
+----
+Date: 2013-07-17 18:53:38
+----
+Text: I also have an evolving snippet that will take a passed image title and look for an SVG version (because scalable vector is preferred). If it doesn't find it, it will look for a PNG version instead. It applies a class of "svg" to SVG images, that is used by my script for IE8 that replaces the SVG with the PNG alternative.
+
+It also takes any alt info from the descriptive text file that goes with the image, and you can pass additional classes with the embed.
+
+I'm not sure I'm willing to share this yet, but you can have all kinds of fun with it. :-)
+
+Note: Currently, Kirby doesn't return SVGs as images. You have to use the `files()` function instead.

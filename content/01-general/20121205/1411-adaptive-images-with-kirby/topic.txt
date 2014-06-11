@@ -1,0 +1,15 @@
+Title: Adaptive Images with Kirby
+----
+Date: 2012-12-05 14:11:07
+----
+Solved: 1
+----
+User: roman_oroco
+----
+Text: There is a very nice tool (link:http://adaptive-images.com text:Adaptive Images popup: yes) witch helps to serve a different size of images based on screen sizes. The tool is using a two `adaptive-images.php`, `.htaccess` files. And this little script:
+
+```js
+<script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
+```
+
+Anyone was able to integrate it?

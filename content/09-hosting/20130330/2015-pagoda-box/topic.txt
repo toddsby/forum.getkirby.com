@@ -1,0 +1,11 @@
+Title: Pagoda Box
+----
+Date: 2013-03-30 20:15:39
+----
+Solved: 0
+----
+User: nicholaswyoung
+----
+Text: I'm currently developing several Kirby sites on (link: http://pagodabox.com text: Pagoda Box). I'm very pleased with the results so far. It's speedy, and offers git-based deployment out of the box - which, especially when combined with (link: http://github.com text: GitHub), is incredibly awesome.
+
+While this certainly isn't ideal for everyone, at least give it a try if you're looking for a simple, powerful hosting provider.

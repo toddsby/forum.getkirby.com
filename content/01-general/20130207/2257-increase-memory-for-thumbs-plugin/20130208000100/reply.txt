@@ -1,0 +1,5 @@
+User: roman_oroco
+----
+Date: 2013-02-08 00:01:00
+----
+Text: I solved with changing `memory_limit = 100M` in `php.ini` file. It takes some ~10-15 seconds to generate all images but it's works. I hope for some updates between plugin and Panel which makes those operations in background after uploading image/s.

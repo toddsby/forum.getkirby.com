@@ -1,0 +1,27 @@
+Title: Kirby-Separator vs. PGP-Key-Saparator
+----
+Date: 2013-08-26 11:27:14
+----
+Solved: 0
+----
+User: derzyklop
+----
+Text: I tried to show my PGP-Key on my website. I wanted to have it in a ``<pre>``. But there is a Problem. A PGP-Block begins with a ``-----``. So Kirby mixes this up with his own content-seperator ``----``.
+
+It's hard to show examples in a kirby-text-enabled forum – so here i have some screenshots...
+
+The result of this:
+
+(image: http://f.cl.ly/items/2u343P1T1F293Z2O251o/Bildschirmfoto%202013-08-26%20um%2011.24.40.png)
+
+is that:
+
+(image: http://f.cl.ly/items/461q1W3F0S342m3i0f3e/Bildschirmfoto%202013-08-26%20um%2011.24.53.png)
+
+And this:
+
+(image: http://f.cl.ly/items/413e0N3z2r1j1h1b0d08/Bildschirmfoto%202013-08-26%20um%2011.25.14.png)
+
+will end up like that:
+
+(image: http://f.cl.ly/items/3x0y1S143C241N3l2K0A/Bildschirmfoto%202013-08-26%20um%2011.25.26.png)

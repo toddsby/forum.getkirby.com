@@ -1,0 +1,5 @@
+User: plartz
+----
+Date: 2013-02-05 19:02:58
+----
+Text: I use your solution in another project of mine. The problem with this solution is that you can't add or delete main pages without editing your templates/snippets. Sometimes (like in the project I used it) it's okay or even neccessary to do so, but sometimes – and your content tree looked like that – it is better to stay flexible.

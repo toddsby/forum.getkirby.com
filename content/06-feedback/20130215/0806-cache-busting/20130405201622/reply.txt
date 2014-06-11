@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-04-05 20:16:22
+----
+Text: I looked at the pull request above, and it is basing it on file modification date, which is good. I might have to try that out, but the last thing I need to do is hack more Kirby files making it impossible to upgrade. :-)

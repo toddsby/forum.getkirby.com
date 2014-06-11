@@ -1,0 +1,48 @@
+User: Swissendo
+----
+Date: 2013-08-05 13:44:48
+----
+Text: @russbaldwin I can link you the output as a file, if that helps. I also made some changes to the feed.php, so the problem is currently only visible on `line 23`.
+
+[Feed Output](https://dl.dropboxusercontent.com/u/5846269/view-source%20localhost%20kirby%20blog%20feed.xml)
+[Modified feed.php](https://dl.dropboxusercontent.com/u/5846269/feed.php)
+
+    <item>
+      <title><?php echo xml($item->title()) ?></title>  
+      <link><?php if($item->website() !=''): ?><?php echo xml($item->website()) ?><?php else: ?><?php echo xml($item->url()) ?><?php endif ?></link>
+      <guid><?php echo xml($item->url()) ?></guid>
+      <pubDate><?php echo ($item->date()) ? date('r', $item->date()) : date('r', $item->modified()) ?></pubDate>
+        
+      <?php if(isset($descriptionField)): ?>
+      <?php if(!$descriptionExcerpt): ?>
+      <description>
+      <![CDATA[
+        <?php if($item->quote() !=''): ?>
+          <?php foreach($item->quote() as $quote): ?>
+            <blockquote><?php echo $quote ?></blockquote>
+          <?php endforeach ?>
+        <?php elseif($item->video() != ''): ?>
+            <img src="<?php echo url('assets/images/video.jpg') ?>" />
+        <?php elseif($item->template() == 'link'): ?>
+          <?php foreach($item->website() as $website): ?>
+            <a href="<?php echo xml($item->website()) ?>></a>
+          <?php endforeach ?>
+        <?php elseif($item->fimage() !=''): ?>
+          <?php $image = $item->images()->find( html($item->fimage()) ) ?>
+            <img src="<?php echo thumb($image, array('width' => 900, 'quality' => 70), false) ?>" />
+        <?php elseif($item->template() == 'screenshot'): ?>
+          <?php foreach($item->images() as $image): ?>
+              <img src="<?php echo thumb($image, array('width' => 900, 'quality' => 70), false) ?>" />
+              <p><?php echo ($item->game()) ?> (<?php echo ($item->platform()) ?>, <?php echo ($item->year()) ?>)</p>
+          <?php endforeach ?>
+        <?php endif ?>
+        <?php echo kirbytext($item->{$descriptionField}) ?>
+        <?php if($item->website() !=''): ?>
+            <a href="<?php echo xml($item->url()) ?>">✚</a>
+        <?php endif ?>]]>
+      </description>      
+      <?php else: ?>
+      <description><![CDATA[<?php echo excerpt($item->{$descriptionField}, (isset($descriptionLength)) ? $descriptionLength : 140) ?>]]></description>
+      <?php endif ?>
+      <?php endif ?>
+    </item>

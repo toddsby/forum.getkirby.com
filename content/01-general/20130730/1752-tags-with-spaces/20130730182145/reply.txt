@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-07-30 18:21:45
+----
+Text: You can probably use PHP/JS to strip the spaces or add a dash between them?

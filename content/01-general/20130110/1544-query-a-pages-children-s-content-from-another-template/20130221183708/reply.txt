@@ -1,0 +1,7 @@
+User: itisavery
+----
+Date: 2013-02-21 18:37:08
+----
+Text: Hey i'm not sure if you're still having the problem, but i was running into an identical problem as you. The solution for me was instead of using find('work') to use findbyUID('work') and was being caused because i had multiple languages set up (in case you're in the same boat). After i changed find to findbyUID all my code that was generating the children() error started working.
+
+Not sure if this helps but best of luck.

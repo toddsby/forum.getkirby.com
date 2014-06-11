@@ -1,0 +1,15 @@
+User: Chrisolux
+----
+Date: 2013-07-29 18:03:41
+----
+Text: Thanks for the help… Having trouble getting the code in (can't find a reference that shows what I am missing)…
+
+BUT
+
+Here is the code I am using…(4th code example down in replies)
+
+http://getkirby.com/forum/general/topic:33
+
+Then added (limit 1) to it when it calls the images. Other than  its pretty much verbatim.
+
+Thanks again for helping a noob. :)

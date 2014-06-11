@@ -1,0 +1,5 @@
+User: robrainfall
+----
+Date: 2012-05-16 20:33:15
+----
+Text: i didnt feel alright for me to mix that $_POST with the kirbytool validation :-D

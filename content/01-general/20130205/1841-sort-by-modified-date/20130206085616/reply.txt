@@ -1,0 +1,5 @@
+User: plartz
+----
+Date: 2013-02-06 08:56:16
+----
+Text: I think you have to add an extra field which updates itself with today's date everytime you save the file. Have a look at (link: https://github.com/bastianallgeier/kirbycms-extensions/tree/master/fields/author text: Kirby Panel Author field) and (link: http://getkirby.com/forum/general/topic:98 text: this forum thread), they'll help you.

@@ -1,0 +1,21 @@
+User: hellovolker
+----
+Date: 2013-05-02 09:38:10
+----
+Text: No, to make it a bit more clear , here is my structure:
+
+    parent
+      child1
+      child2
+      child3
+
+Now child2 is open: I want to show a next link to child3 and a prev link to child1.
+
+If child 3 is open: Only show a prev link to child3
+If child 1 is open: Only show a next link to child1
+
+I know I get the current page via `$page` and its siblings via `$page->siblings()`
+
+But how do I get the position of the page itself inside the siblings to get exactly the next/previous sibling?
+
+Offtopic: How do I create an inline code-element here in markdown?

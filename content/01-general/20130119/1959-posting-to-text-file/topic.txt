@@ -1,0 +1,27 @@
+Title: Posting to text file
+----
+Date: 2013-01-19 19:59:11
+----
+Solved: 0
+----
+User: chrisjmartin87
+----
+Text: Maybe a simple problem for some people but i need to find out how i can post to a field within a text file.
+
+For example if i had a text field on my page where i want to type my name and another where i wanted to type a comment, could this then be posted to a text file under certain headings?
+
+     Title: Page title
+     ----
+     Text: Blah Blah Blah
+     ----
+     Name: "Name Here"
+     ----
+     Comment: "Comment here"
+     ----
+     Likes: 4
+
+I managed to get the Like counter working but was unable to strip down the code and get this idea to work from that.
+
+I really want to try and integrate a custom comments field and i would much prefer to do it this way over using Disqus or other 3rd party options.
+
+Cheers people!

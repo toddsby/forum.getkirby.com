@@ -1,0 +1,7 @@
+User: chrisburton
+----
+Date: 2014-01-31 19:11:56
+----
+Text: ###**Update**
+
+Most of the testing is complete. I'm going to rewrite the whole code so it is more efficient and add a couple features that I discussed above. Akismet will probably not be one of them with the initial launch.

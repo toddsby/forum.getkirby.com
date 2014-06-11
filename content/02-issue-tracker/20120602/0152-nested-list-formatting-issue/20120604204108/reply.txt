@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2012-06-04 20:41:08
+----
+Text: So turning off auto-line-break would affect every aspect where it would normally automatically set breaks? It would still leave the paragraph breaks caused by having a blank line, though, right?

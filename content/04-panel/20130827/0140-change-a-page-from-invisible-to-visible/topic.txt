@@ -1,0 +1,17 @@
+Title: Change a page from invisible to visible
+----
+Date: 2013-08-27 01:40:16
+----
+Solved: 1
+----
+User: mustachemcgee
+----
+Text: Is it possible to change whether a page is visible or invisible from the Panel? 
+
+I built my portfolio site with some invisible projects that weren't ready for production at the time. Now the projects are ready to go live, and I'd like to be able to make the project visible without editing the folder via FTP.
+
+The only way I know if doing this is to change the folder name from "my-cool-project" to "01-my-cool-project"
+
+Anyone know of a way to do this without editing via FTP?
+
+Thanks!

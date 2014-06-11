@@ -1,0 +1,9 @@
+User: azharc
+----
+Date: 2013-08-12 02:48:13
+----
+Text: This will be super-easy with (link: https://gist.github.com/bastianallgeier/6175390 text: Kirby 2's API). 
+
+You can have a date field in an invisible page's blueprint. Convert that date to epoch time using strtotime(). And then compare that to server time(). When our generated epoch time exceeds the server's time(), just fire off a $page->make('visible'). 
+
+There are ways to implement it immediately too, but I can't think of a way as elegant.

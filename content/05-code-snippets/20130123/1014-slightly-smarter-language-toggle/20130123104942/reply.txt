@@ -1,0 +1,6 @@
+User: asbiot
+----
+Date: 2013-01-23 10:49:42
+----
+Text: Update:
+Reading my post above, I thought of a solution to the problem that forced me to switch the language context of the visitor to the default language when visiting a part of the website that only exists in the default language. Specifically, I have a download page that makes use of a slightly modified (link: https://github.com/bastianallgeier/kirbycms-extensions/tree/master/snippets/filelist text: standard filelist snippet) (one-line modification filters files by language) and only shows the files that are available in the current language. I removed the go() redirect from the template and am now passing a hard-coded language value (i.e. language = 'de') to the filelist snippet. In this way the language context of the visitor stays the same, e.g. English, and yet the German files are shown (since in that part of the website the content and also the files are only available in German and kirby smoothly falls back on the default language for everything else). When the visitor jumps back to a part of the page that has translated content, it would show up in the language they chose/were in before.

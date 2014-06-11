@@ -1,0 +1,9 @@
+Title: Auto-save drafts of pages
+----
+Date: 2013-02-06 00:34:52
+----
+Solved: 0
+----
+User: eytanbiala
+----
+Text: When working on longer pages through the panel, sometimes the session will timeout, browser closed, etc. It would be awesome to have some sort of auto-save to recover a draft (it could be even be done using the browser's localStorage).

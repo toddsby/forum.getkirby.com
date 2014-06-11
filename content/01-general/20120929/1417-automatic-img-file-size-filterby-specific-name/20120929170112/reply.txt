@@ -1,0 +1,5 @@
+User: lulezi
+----
+Date: 2012-09-29 17:01:12
+----
+Text: For the `src`-attribute, you're calling `$image->first()->url()`. So maybe you should call for `width` `$image->first()->width()` instead of `$image->width()`. Same for height.

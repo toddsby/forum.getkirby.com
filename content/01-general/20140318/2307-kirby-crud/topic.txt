@@ -1,0 +1,9 @@
+Title: Kirby CRUD?
+----
+Date: 2014-03-18 23:07:31
+----
+Solved: 0
+----
+User: artureus
+----
+Text: Is there a CRUD plugin for Kirby out there? I mean, for fast creating and updating items within a list of anything based on txt files.

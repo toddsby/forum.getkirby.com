@@ -1,0 +1,24 @@
+Title: Using a global variable between templates
+----
+Date: 2013-07-12 12:52:46
+----
+Solved: 1
+----
+User: fokusman
+----
+Text: Hi everyone,
+
+i'm currently working on a side project where i want to create a simple product portfolio.
+
+Basically I have 8 main categories and everytime a user clicks on one category he/she is directed to the subfolder "showProducts". 
+
+The template "showProduct" then should read the current selected category from a global variable and requests all data related to this category from db.
+
+As a simple step I would create a subfolder for each category etc. but it would create a big overhead for me. So I decided to create one subfolder showProduct which gets the current selected category and requests the data from a db.
+
+I've tried the "c::set" and "c::get" functions, but that doesn't create a global variable which i can change dynamically. 
+
+Is it possible to have some kind of a global variable?
+Or maybe I can commit a value to the template file ?
+
+Kd and thx for replies :)

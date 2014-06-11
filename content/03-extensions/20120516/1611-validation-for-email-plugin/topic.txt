@@ -1,0 +1,11 @@
+Title: Validation for email plugin
+----
+Date: 2012-05-16 16:11:49
+----
+Solved: 0
+----
+User: robrainfall
+----
+Text: Email plugin makes super easy to send the mail, but does not help out with the form validation, it would be nice to extend or to have a separate addon for that, since contact forms are (almost) on every site :).
+
+It would be nice to see some examples how to validate a form with kirby(toolkit). I know it has some built in validation for string, date, email, etc: http://toolkit.getkirby.com/docs/classes/v, which makes the validation easy when you actually have the data from the input back, but how you deal "kirby-way" with getting the values from the form, etc.

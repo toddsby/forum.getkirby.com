@@ -1,0 +1,11 @@
+Title: Sort by Modified Date
+----
+Date: 2013-02-05 18:41:17
+----
+Solved: 0
+----
+User: tysongach
+----
+Text: Is there a way to sort a list of pages by using `modified()`?
+
+I know I could just add a date field and sort that way, but I would rather it just be automatic and be controlled by when it was last modified.

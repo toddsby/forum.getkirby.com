@@ -1,0 +1,6 @@
+User: _frankallen
+----
+Date: 2014-01-12 12:06:11
+----
+Text: you have do define $productions like:
+$productions = $page->children->visible();

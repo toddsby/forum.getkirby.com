@@ -1,0 +1,19 @@
+Title: Get pages by dates, sort by year/month
+----
+Date: 2013-11-11 13:17:23
+----
+Solved: 0
+----
+User: fvsch
+----
+Text: [pagesByDate - Documentation and code on Github](https://github.com/fvsch/userscripts/tree/master/kirby/bydate)
+
+Function which returns an array of Kirby page objects, or nested arrays when grouping by year or month.
+
+I wrote this function for my templating needs because just using `$pages->sortBy('date','desc')` would return pages with no date metadata, and I wanted to exclude those. Also I needed to write separate lists of posts for each calendar year, so I included that and more in the feature set.
+
+Some nice things it does:
+
+- group by year or year then month;
+- by default, don’t return pages with a date in the future (which kinda enables you to post articles or other content to your site and have them become visible at the given date);
+- give date boundaries, and offset/limit settings, for whatever advanced use you may need.

@@ -1,0 +1,40 @@
+Title: highlight-extension doesn't work!
+----
+Date: 2013-10-22 13:07:24
+----
+Solved: 1
+----
+User: andrelehnert
+----
+Text: I downloaded and installed the Extension Highlight:
+
+<https://github.com/bastianallgeier/kirbycms-extensions/tree/master/plugins/highlight>
+
+All files are in the correct directories on the server.
+But nothing works.
+I wrote
+```php
+	
+function f(){
+ foreach($arr as $item){
+  continue;
+ }
+}
+
+
+
+and on the page it looks as this:
+
+function f(){
+
+                foreach($arr as $item){
+
+                        continue;
+
+                }
+
+        }
+Can anybody help me?
+
+Thank you!
+André

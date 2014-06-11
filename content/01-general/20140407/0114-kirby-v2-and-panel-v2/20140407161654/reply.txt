@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2014-04-07 16:16:54
+----
+Text: Just like any software product, the next major version can require changes to anything you've built on it already. That's nothing new, and it's also not new to have complete information about those changes before the product is actually out. When version 2 comes out, you can decide how much work is required to migrate. I don't really see what the issue is.
+
+As far as the panel, I've completely stopped using it. Not really because of any limitations, although I would have feature requests if I was to keep using. So I won't really comment on it, but it's clear that the new version will be so significantly different that I figured I'd save any feedback at this point until it's ready.

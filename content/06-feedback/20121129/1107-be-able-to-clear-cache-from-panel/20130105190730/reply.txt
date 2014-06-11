@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2013-01-05 19:07:30
+----
+Text: @fitzage if you use git, such a kind of script is the perfect solution!

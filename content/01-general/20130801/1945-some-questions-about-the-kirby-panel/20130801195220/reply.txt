@@ -1,0 +1,14 @@
+User: fitzage
+----
+Date: 2013-08-01 19:52:20
+----
+Text: 1. Yes, you can upload images in the panel. I'm not entirely sure if you can resize them. You can resize them in the templates I think, if necessary.
+
+2. Yes, when you create an article from the panel, it creates the folder and text file for you assuming you have the permissions all correct on the server.
+
+With the current version of the panel, it gets awkward when you have lots of articles in the same folder.
+
+1. Create article, and it gets created as invisible by default.
+2. Drag it to make it visible, and if you have too many articles it just bogs down and doesn't end up in the right spot.
+
+So there are some issues. Hopefully the new panel with Kirby 2 will address those.

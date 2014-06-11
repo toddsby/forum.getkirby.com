@@ -1,0 +1,18 @@
+Title: Problem with findByUID
+----
+Date: 2013-08-13 10:23:08
+----
+Solved: 1
+----
+User: serafsky
+----
+Text: Hello,
+
+I'm working on a multilanguage website.
+Pages don't have the same Title in the different languages so I can't use the find() fonction to get a page.
+So because of this problem I use the findByUID() fonction but this fonction is not very nice to use:
+I tried to get a page with for example $page1=$pages->findByUID('page1') and when I do  $page1->title() it doesn't work. When I try to do $page1->count() it returns 1. If I try with  foreach($page1 as $apage1){ $apage1->url(); } it works.
+
+Why?
+
+Thank you.

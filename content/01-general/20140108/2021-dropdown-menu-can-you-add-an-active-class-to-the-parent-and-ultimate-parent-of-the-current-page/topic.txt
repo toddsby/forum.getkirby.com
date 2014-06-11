@@ -1,0 +1,32 @@
+Title: Dropdown menu - can you add an active class to the parent and ultimate parent of the current page?
+----
+Date: 2014-01-08 20:21:53
+----
+Solved: 1
+----
+User: sciascia10
+----
+Text: Hi There,
+
+I have a dropdown menu where the actual page doesn't display - just it's parent and it's ultimate parent like this:
+```
+|_Home
+|_Shop
+  |_Sheets
+  |_Bedspreads
+|_About
+|_Contact
+```
+But when on a sheet product page for example, I need an active class to appear on "Sheets" and "Shop" so I can indicate to the user where they are in the site.
+
+I've built the menu using the 'Simple nested menu' [here](http://getkirby.com/blog/fun-with-menus) and can see that you find the open item at the root level and it's visible children like this:
+```
+if($root = $pages->findOpen()) {
+  
+  // get visible children for the root item
+  $items = $root->children()->visible();   
+}
+```
+But don't understand how this could be used to display an active class - any pointers would be much appreciated.
+
+Cheers

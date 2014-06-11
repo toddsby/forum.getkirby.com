@@ -1,0 +1,18 @@
+Title: Order pages from a blog based on a given field
+----
+Date: 2013-06-23 11:07:27
+----
+Solved: 0
+----
+User: guillaumelobet
+----
+Text: Is it possible, when calling the different article of a blog using the function:
+
+`$articles = $pages->find('blog')->children()`
+
+to order the pages using the fields of the different article? For instance, if I have a field <author>, would it be possible to display the article order by author name, alphabetically?
+
+Thanks in advance. 
+
+
+PS: I looked a bit in the forum and could not find a answer, but if there is already one, sorry for the duplication...

@@ -1,0 +1,9 @@
+User: BobRockefeller
+----
+Date: 2013-04-07 17:29:46
+----
+Text: I have that same error on my server with PHP v 5.3.21.
+
+Anyone else?
+
+Bob

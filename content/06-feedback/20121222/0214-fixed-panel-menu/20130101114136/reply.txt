@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-01-01 11:41:36
+----
+Text: Mmmm, good idea, but you may well want to remove that request, I think it was done the way it was because of long sub-menus and short content. 
+
+I've just been testing it in Firefox and if you have a long sub-menu (lots of items/pages) and a short (right section) of page 'info entry', then you cannot scroll to the bottom of the sub-menu list if you window is, or cannot be, big enough. Quite a drawback not to be able to edit some of your entries?

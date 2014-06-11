@@ -1,0 +1,62 @@
+Title: Panel Account Rights
+----
+Date: 2012-12-06 14:44:09
+----
+Solved: 0
+----
+User: hellovolker
+----
+Text: Hey there,
+
+I read [on your blog](http://getkirby.com/blog/frontend-authentication) about frontend authentication. But it doesnt seem to be usable for my question.
+
+# Problem
+I would like to have 2 user accounts (that can login to panel):
+
+    - superadmin
+    - editor
+
+superadmin should see the whole backend, editor only the ones I allow him to see. He should also be able to edit some of those files he sees. This is not possible at the moment, am I right?
+
+
+#Suggestion
+
+I suggest to solve that by writing a "rights"-number into the account file:
+
+    username: editor
+    password: yourpassword
+    rights: 2
+
+Rights could be as easy as:
+>0 - hidden
+>1 - see/read
+>2 - write/create
+>3 - edit/update
+>4 - delete/move
+>5 - all rights
+
+So lets say I have the structure
+
+    - home
+    - blog
+     - entry 1
+     - entry 2
+    - contact
+
+superadmin should see it all (like it is now), editor should only **see** the blog and only **edit**/create the subpages of the blog.
+
+Suggest a blueprint like that:
+
+    title: blog
+    pages: true
+    rights: 1
+
+    title: blogentry
+    pages: false
+    rights: 4
+
+
+
+What do you think? Is this possible yet? Will something like that be implemented? What love to see this happen :)
+
+Volker

@@ -1,0 +1,5 @@
+User: tillpro
+----
+Date: 2013-06-18 18:27:56
+----
+Text: Just change the titel in the site info section of the panel.

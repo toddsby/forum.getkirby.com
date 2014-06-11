@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2013-06-04 18:18:01
+----
+Text: I'm not sure there's any way to include html/css/js in the content files.
+
+However, if you want to have a url like /test that just has that stuff in it, you can put it at the root level of your site instead. Just make sure you don't also create a content folder called test, or it won't work as expected.

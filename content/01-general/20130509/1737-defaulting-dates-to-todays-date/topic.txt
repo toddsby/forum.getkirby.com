@@ -1,0 +1,9 @@
+Title: Defaulting dates to today’s date
+----
+Date: 2013-05-09 17:37:53
+----
+Solved: 0
+----
+User: brandondurham
+----
+Text: I'm using the panel and would love for new entries’ date fields to default to “today’s” date. This possible, or do users have to enter manually?

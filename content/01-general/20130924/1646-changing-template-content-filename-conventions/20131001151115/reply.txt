@@ -1,0 +1,25 @@
+User: travVT
+----
+Date: 2013-10-01 15:11:15
+----
+Text: @Texnixe
+I couldn't agree with you more about semantically meaningful file names. I'm going to keep on experimenting in the Panel files to see if I can get that to work as well. Also, if you have code modifications/simplifications please let me know.
+
+@russbaldwin
+You're folder structure makes sense and works just fine. My modification is designed to rename the countless number of "article.txt" or "article.md" files with recognizable names. This solution would rename your example content files to:
+
+	├── 01-london
+	│   ├── london.article.md
+	│   ├── london.jpg
+	│   └── london.jpg.md
+	├── 02-paris
+	│   ├── paris.article.md
+	│   ├── paris.jpg
+	│   └── paris.jpg.md
+	├── 03-manchester
+	│   ├── machester.article.md
+	│   ├── manchester.jpg
+	│   └── manchester.jpg.md
+	└── articles.md
+
+The goal would be to help make things more tidy, clear, and recognizable.

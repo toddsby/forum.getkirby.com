@@ -1,0 +1,21 @@
+Title: Adding Images
+----
+Date: 2013-06-21 20:54:31
+----
+Solved: 0
+----
+User: _pmurphy
+----
+Text: Hi, I'm new to Kirby. Currently having a couple problems... 
+
+I put Kirby on my ftp in a subfolder of my domain and everything seems to work except for when I try to add media to a page.  I've tried different image sizes, naming, and placing them in different folders (trying to add .jpgs in the "home" folder).  They're not showing up anywhere.
+
+Also, I've disabled "mod_rewrite" but do have a .htaccess file on my ftp. I've had trouble with "mod_rewrite" enabled where pages other than "home" not showing up. Not sure what to do with the .htaccess file.  Don't see "RewriteBase" in there, only this:
+
+RewriteEngine on 
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^(.+) - [PT,L]
+RewriteRule ^(.+) index.php
+
+Thanks for the help and forgive my noobness.

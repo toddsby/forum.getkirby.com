@@ -1,0 +1,5 @@
+User: schwabgeo
+----
+Date: 2013-12-19 06:34:42
+----
+Text: This little snippet doesn't seem to be working for me. Can someone explain this a little further. My php skills are very limited.

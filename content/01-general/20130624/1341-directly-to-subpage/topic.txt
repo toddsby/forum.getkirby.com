@@ -1,0 +1,16 @@
+Title: Directly to Subpage
+----
+Date: 2013-06-24 13:41:35
+----
+Solved: 0
+----
+User: koeque
+----
+Text: Hey there!
+
+It's my first few steps with Kirby- it's great stuff so far but I'm already stuck: I want to direct the homepage directly to a subpage. So if someone types in the domain he/she lands on a subpage.
+Also if someone clicks on a link in the main navigation that the user comes directly to the first point of the submenu...
+
+I hope this is easy...
+
+Thanks in advance.

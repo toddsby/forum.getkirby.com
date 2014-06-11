@@ -1,0 +1,11 @@
+Title: camelCase Field Titles
+----
+Date: 2014-02-12 07:30:12
+----
+Solved: 0
+----
+User: twitchdw
+----
+Text: I posted this in the panels forum but figured I would link it over here as well. Yell at me later for not thinking of the Issue Tracker first.
+
+<http://getkirby.com/forum/panel/topic:1089>

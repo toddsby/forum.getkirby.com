@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2013-11-25 19:41:53
+----
+Text: This intrigues me. I generally agree with the approach Kirby takes in comparison to systems that use a templating language that limits what you can do with your PHP, but if jade could be used without sacrificing that flexibility then I'm all ears.
+
+I'm not entirely sure I'm sold on Jade, though, but I've used it on some Node.js projects, and I think I'm getting used to it.

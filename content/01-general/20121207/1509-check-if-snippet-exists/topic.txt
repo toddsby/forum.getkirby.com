@@ -1,0 +1,17 @@
+Title: Check if snippet exists
+----
+Date: 2012-12-07 15:09:55
+----
+Solved: 0
+----
+User: tillpro
+----
+Text: Hello!
+
+Based on this tutorial (http://getkirby.com/blog/one-pager) I built a simple one-page website.
+I was wondering if it’s possible to check wether a certain snippet exists. In the case that there’s no snippet with the specified name, I’d like to include a default snippet (as it’s handled with templates).
+
+Regards
+Till
+
+// I solved the problem by checking for the template of the section and including a snippet with the same name. This makes creating new pages/section easier for the editor because it’s possible to select a custom (existing) template/snippet without having to create it.

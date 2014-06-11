@@ -1,0 +1,16 @@
+User: bastianallgeier
+----
+Date: 2012-07-09 12:24:54
+----
+Text: There are two ways to add images to your content. You can add page-specific images right to your templates: <http://getkirby.com/docs/media> so they will be autoloaded. 
+
+Or you can add them to your content directly via a simple tag: 
+
+```
+(\image: myimage.jpg)
+```
+
+You can read more about it here: 
+<http://getkirby.com/blog/text-formatting-101>
+
+There's the plan to offer a format button for this right in the panel, so you won't need to remember how to write that tag.

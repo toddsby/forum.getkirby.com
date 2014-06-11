@@ -1,0 +1,14 @@
+Title: shuffle once
+----
+Date: 2012-11-01 20:04:28
+----
+Solved: 0
+----
+User: prayasabhinav
+----
+Text: How do I shuffle just once? I am shuffling the home page contents and paginating that, but each time the 'more' link leads to the next page, the contents shuffle again, leading to some pages never showing. 
+
+Is there some fix?
+
+thank you, 
+prayas

@@ -1,0 +1,5 @@
+User: robrainfall
+----
+Date: 2013-01-25 23:56:07
+----
+Text: @asbiot thanks. i couldn't figured out the url rewrite part to work as i wanted. let me know if you have a good idea for that.

@@ -1,0 +1,11 @@
+Title: actual post's .txt file being rendered as $page->files()-first()
+----
+Date: 2013-06-05 11:17:49
+----
+Solved: 0
+----
+User: dokdeleon
+----
+Text: Moved from General:
+
+When displaying a file's url using echo $page->files()->first()->url(), does it really include the .txt file itself (the file where you write down your actual post) as a possible file to be displayed? Shouldn't the text file be automatically excluded from being a file()? Thanks :D

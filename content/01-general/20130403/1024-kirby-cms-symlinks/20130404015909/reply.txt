@@ -1,0 +1,29 @@
+User: bajoelcocotero
+----
+Date: 2013-04-04 01:59:09
+----
+Text: I think the folder structure and the url are better than with the tagcloud, but tagcloud is a good solution too.
+
+url for the post in cateogry-1: 
+
+    mysite.com/blog/category-1/post-title/
+
+url for the post in cateogry-2: 
+
+    mysite.com/blog/category-2/post-title/
+
+Maybe the duplicated content could cause some problems with search indexes but I think this is very common scenario, with other methods has the same problem, look at tagcloud solution:
+
+url for the posts in category 1:
+
+    mysite.com/blog/category:cateogry-1
+
+url for the post in category 1 could be:
+
+    mysite.com/blog/post-title/categroy:category-1
+
+url for the post in category 2 could be:
+
+    mysite.com/blog/post-title/categroy:category-2
+
+Different url same content again...

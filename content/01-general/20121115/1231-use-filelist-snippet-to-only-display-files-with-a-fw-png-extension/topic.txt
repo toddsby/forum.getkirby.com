@@ -1,0 +1,11 @@
+Title: Use Filelist snippet to only display files with a .fw.png extension
+----
+Date: 2012-11-15 12:31:42
+----
+Solved: 0
+----
+User: mattlegresley
+----
+Text: Annoyingly the Fireworks file extension (.png) is the same as my preferred export file type. I'd like to be able to differentiate layered Fireworks .pngs from regular flat .pngs by adding a .fw before the .png extension of the layered Fireworks files.
+
+How can I get the Filelist snippet to recognise this, as it doesn't by default?

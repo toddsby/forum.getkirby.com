@@ -1,0 +1,68 @@
+Title: Trying to make album cover checkbox
+----
+Date: 2013-11-11 17:52:44
+----
+Solved: 0
+----
+User: crisp_concepts
+----
+Text: Hi, I'm trying to create an album cover check box for a gallery/project slideshow on a home page. I've found a way to allow check boxes in file fields, but I seem to be having issues getting the album cover to take on the correct image if the box is checked.
+
+Any help would be greatly appreciated as I've spent time on and off over the last week or so trying to figure this one out.
+
+I feel like I've tried a hundred different things and nothing appears to work. This is my latest failed attempt at what I feel is probably an over complicated method.. it results in the last image always being used.
+
+<pre><code>
+		<?php
+			foreach($pages->findByUID('portfolio')->visible()->children() as $item):
+				if($item->hasImages()):
+				
+				
+				do{
+					foreach($item->images() as $image):
+						if($image->albumcover() == "on"):
+							$image = $item->$image;
+							$albumCover = true;
+						endif;
+					endforeach;
+					
+					if(!(isset($albumCover))):
+						$image = $item->images()->first();
+						$albumCover = true;
+					endif;
+				} while(!(isset($albumCover)));
+		?>
+			<a class="thumb" href="<?php echo $item->url() ?>">
+				<?php echo thumb($image, array('width' => '500', 'height' => '350', 'crop' => true, 'scale' => true)); ?>
+				<span><?php echo $image->caption() ?></span>
+			</a>
+		<?php
+				endif;
+			endforeach;
+		?>
+</code></pre>
+
+
+Here was an earlier attempt.. it results in the first image being used and never seems to set it to the albumcover image.
+
+<pre><code>
+		<?php
+			foreach($pages->findByUID('portfolio')->visible()->children() as $item):
+				if($item->hasImages()):
+				
+					if($item->images()->albumcover() == "on"):
+						$image = $item->images()->albumcover() == "on";
+					else:
+						$image = $item->images()->first();
+					endif
+		?>
+			<a class="thumb" href="<?php echo $item->url() ?>">
+				<?php echo thumb($image, array('width' => 400, 'height' => 300, 'crop' => true)); ?>
+				<span><?php echo $image->caption() ?></span>
+			</a>
+		<?php
+				endif;
+			endforeach;
+		?>
+
+</code></pre>

@@ -1,0 +1,22 @@
+User: tillpro
+----
+Date: 2013-03-30 23:36:13
+----
+Text: I know this topic is already a bit older but I was wondering whether my idea on how to solve your problem is just »too simple« or why no-one else thought about adding subpages?
+
+
+    - socialmedia/
+      - facebook/
+      - twitter/
+      - flickr/
+      - dribble/
+
+-
+
+    foreach($pages->find('socialmedia')->children()):
+      // do stuff here
+    endif;
+
+You could safe this into a snippet.
+
+Till

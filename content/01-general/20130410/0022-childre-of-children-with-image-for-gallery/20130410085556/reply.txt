@@ -1,0 +1,6 @@
+User: structor
+----
+Date: 2013-04-10 08:55:56
+----
+Text: try
+$page->children()->children()

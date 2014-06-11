@@ -1,0 +1,5 @@
+User: joelhousman
+----
+Date: 2013-06-24 22:19:17
+----
+Text: Yes. It actually is 775 and not 755 because of how I have my SSH user in the www-data user group for Panel purposes.

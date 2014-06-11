@@ -1,0 +1,38 @@
+Title: Archive of posts!
+----
+Date: 2014-01-21 21:31:18
+----
+Solved: 0
+----
+User: bottle_bohemia
+----
+Text: Hey everyone!
+
+I need some help. I don't know php *that* well, but am confident enough to understand the basics. 
+
+Part of my site is a photo journal, that has many entires within it's folder. I want to create an archive list that pulls in specific info from the post itself. Make sense?
+
+Similar to the way Medium handle it: [https://medium.com/](https://medium.com/)
+
+Something like this:
+
+    <h4>Year</h4>
+        <ul>
+        <?php foreach() ?>
+            <li>
+                <a>
+                    Post title
+                    Intro text
+                    Date posted
+                </a>
+            </li>
+        <?php endforeach ?> 
+        </ul>
+
+Get the idea?
+
+If anyone would be so kind to point me in the direction of how to build this snippet, or provide some code that I could work from that would be GREAT!
+
+Thanks in advance.
+
+Aaron

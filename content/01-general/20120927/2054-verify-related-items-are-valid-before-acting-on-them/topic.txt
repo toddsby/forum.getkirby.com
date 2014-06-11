@@ -1,0 +1,13 @@
+Title: Verify related items are valid before acting on them
+----
+Date: 2012-09-27 20:54:12
+----
+Solved: 0
+----
+User: fitzage
+----
+Text: I'm using the related pages plugin, and since related items have to be manually typed in, I want to programmatically check that it's actually a valid item before acting on it, since everything breaks if it's not a valid item.
+
+This would also be handy for those times where a related item gets deleted, and we forget all the places it's linked from.
+
+Is there an easy way to do this? I tried checking if the item returned a uid from within the foreach loop, but apparently by that point it's too late.

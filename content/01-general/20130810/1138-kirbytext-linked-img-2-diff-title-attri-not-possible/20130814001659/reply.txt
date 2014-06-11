@@ -1,0 +1,33 @@
+User: fitzage
+----
+Date: 2013-08-14 00:16:59
+----
+Text: It's not working because the `imagelist` thing isn't giving you actual Kirby objects. It's just creating a list of filenames. HOWEVER…
+
+You should be able to take that filename and use it to filter through the page's images and get the actual Kirby objects. Then you should be able to get the title. It should also be a little cleaner overall. So within your `foreach ($imagelistitem  as $image):` you would have something like this instead of what's there now:
+
+    <?php $imageobject = $page->images()->filterBy('title', '*=', $image) ?>
+    <div class="item">
+        <a href="<?php echo $imageobject->url() ?>" title: <?php echo html($imageobject->title()) ?><img src="<?php echo $imageobject->url() ?>" /></a>
+    </div>
+
+Although I guess that would link to only small image, so for your actual link code you may still have to construct the URL manually, but that should work for the image source and title, and also would make those particular items more portable (not dependent on that particular content structure). You could probably also make it easier to actually pull the bigpic without manually constructing it with a full URL without too much trouble. Maybe you could parse the `$imageobject->url()` and deconstruct it, adding in the additional path necessary for the large pics. Or, you could include them in the same folder with the thumbnail versions, and name them differently.
+
+So instead of having a separate big-pic folder, you would have something like:
+
+    dog.jpg
+    dog.jpg.txt
+    dog-big.jpg
+    cat.jpg
+    cat.jpg.txt
+    cat-big.jpg
+
+Then, you can do this:
+
+    <?php $thumbimage = $page->images()->filterBy('title', '*=', $image) ?>
+    <?php $bigassimage = $page->images()->filterBy('title', '*=', $image . '-big') ?>
+    <div class="item">
+        <a href="<?php echo $bigassimage->url() ?>" title: <?php echo html($thumbimage->title()) ?><img src="<?php echo $thumbimage->url() ?>" /></a>
+    </div>
+
+You don't need to include a text description file for the big images, because you'll just use the same info from the thumbnail.

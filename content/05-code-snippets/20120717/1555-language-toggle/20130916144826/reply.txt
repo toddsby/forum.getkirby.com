@@ -1,0 +1,5 @@
+User: texnixe
+----
+Date: 2013-09-16 14:48:26
+----
+Text: The Locale::getDisplayName function is a php function that uses the Locale class. Maybe the problem is due to h the PHP Version you are using. The function requires PHP >= 5.3.0. For details, please refer to the php manual (link:http://php.net/manual/en/locale.getdisplayname.php).

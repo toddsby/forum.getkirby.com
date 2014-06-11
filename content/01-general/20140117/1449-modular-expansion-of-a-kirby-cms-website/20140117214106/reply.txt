@@ -1,0 +1,8 @@
+User: fitzage
+----
+Date: 2014-01-17 21:41:06
+----
+Text: In my experience and opinion, it's a lot easier to start with something simple in Kirby and expand it later than it is with most content management systems.
+
+1. If you have a new type of content, just create a new template that applies to those types of posts with whatever tweaks you need.
+2. If you want to modify the fields on existing content, just add another field to the text file, and echo it in the template (checking to make sure it exists in case you have old content that doesn't have it).

@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2014-05-07 06:05:40
+----
+Text: I've had lots of quirky issues making something visible in the panel in large folders. My solution was to just use the filesystem. :-/

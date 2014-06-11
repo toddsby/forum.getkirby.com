@@ -1,0 +1,7 @@
+User: bastianallgeier
+----
+Date: 2012-06-18 10:51:24
+----
+Text: :D
+
+It's indeed already built-in in Markdown and as well in the `str::email($email, $text)` function. It's of course not a 100% spam-proof solution, but as far as I know it should be good enough to keep off most spam.

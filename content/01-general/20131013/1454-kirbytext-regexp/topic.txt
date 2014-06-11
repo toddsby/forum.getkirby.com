@@ -1,0 +1,37 @@
+Title: Kirbytext & RegExp
+----
+Date: 2013-10-13 14:54:51
+----
+Solved: 0
+----
+User: aaronwolber
+----
+Text: Hi,
+
+I want to make a Grid System that is based on Kirbytext or Markdown. In my head it should look like this:
+
+    (column: 2/1)One column of two(/column)
+    (column: 2/1)One column of two(/column)
+
+or
+
+    (column: 4/1)One column of four(/column)
+    (column: 4/2)Two columns of four(/column)
+    (column: 4/1)One column of four(/column)
+
+and become
+
+    <div class="column_two_one">One column of two</div>
+    <div class="column_two_one">One column of two</div>
+
+or
+
+    <div class="column_four_one">One column of four</div>
+    <div class="column_four_two">Two columns of four</div>
+    <div class="column_four_one">One column of four</div>
+
+With this code you should make different grids with 2, 3, or 4 columns. Now my question: Is it possible to do this with the **kirbytext.extended.php**? I know how to make new tags but in this case you doesn't have just one tag with different attributes but rather two tags in brackets within a long text passage like every normal html code. I found out that I have to use _Regular Expressions_ for this. Theoretically it's the same like _italic_ or **bold** markdown and I also found the position in the **kirbytext.php** (Line 93) but I'm designer and not a programmer, so my skills end here.
+
+Thanks for your help
+
+Aaron

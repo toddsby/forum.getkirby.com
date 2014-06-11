@@ -1,0 +1,37 @@
+Title: If statement for variables
+----
+Date: 2013-08-20 23:29:46
+----
+Solved: 0
+----
+User: richgcook
+----
+Text: Hi folks,
+
+A little stuck...
+
+I have a page set up, which has some children pages. I'm trying to run an if statement on the template file, so if they child pages are visible, then it includes the code... if not... it skips it.
+
+Here is what I have so far...
+
+    <?php $prints = $pages->find('other-publications')->children()->visible(); ?>
+
+    <?php if ( $prints ) : ?>
+
+    <div class="container_12">
+	<div class="grid_12">
+		<h2 class="books-header">Other Publications</h2>
+	</div>
+	<div class="prefix_3 grid_9">
+	<?php foreach ($prints as $print) : ?>
+		<div class="books-each">
+	    	<div class="books-text"><span class="books-title"><?php echo kirbytext($print->title()) ?></span> <?php echo kirbytext($print->text()) ?> </div>
+			<?php foreach($print->images() as $image): ?>
+				<img src="<?php echo $image->url() ?>" data-at2x="<?php echo dirname($image->url()) ?>/@2x/<?php echo $image->name() ?>@2x.<?php echo $image->extension() ?>"/>
+			<?php endforeach; ?>
+		</div>
+	<?php endforeach; ?>
+    </div>
+    </div>
+
+    <?php endif; ?>

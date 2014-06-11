@@ -1,0 +1,56 @@
+User: russbaldwin
+----
+Date: 2013-02-16 09:54:18
+----
+Text: OK, as a test I have setup (Mac - default Apache 2)
+
+```html
+root
+     kirbytest
+               kirby
+                     assets
+                     content
+                     kirby
+                     panel
+                     site
+```
+
+I get to it via 'kirby.dev' because I have setup 'httpd-vhosts.conf' for my webserver:
+
+```apache
+
+<VirtualHost *:80>
+    ServerAdmin email@domain.net
+    DocumentRoot "/Users/YOURUSER/Sites/kirbytest/kirby"
+    ServerName kirby.dev
+    ServerAlias www.kirby.dev
+	<Directory DocumentRoot>
+	    AllowOverride All
+	    Order allow,deny
+	    Allow from all
+	</Directory>
+    ErrorLog "/private/var/log/apache2/kirby.dev-error_log"
+    CustomLog "/private/var/log/apache2/kirby.dev-access_log" common
+</VirtualHost>
+
+```
+And add and entry to my 'hosts' file:
+
+    127.0.0.1	kirby.dev
+
+Then restart my Apache webserver...
+
+I've not changed anything else, default .htaccess from github (which was not in my master zip?) it works OK.
+
+**One thing I did spot is if you copy the Panel folder incorrectly then you can get errors:**
+
+*'... Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace.'*
+
+So... 
+
+1. Copy the 'panel' folder to your 'kirby' folder (/kirbytest/kirby). 
+2. Then go into this 'panel' folder (/kirbytest/kirby/panel) and from inside this 'panel' folder copy the 'defaults' folder (/kirbytest/kirby/panel/defaults) to your 'site' folder (/kirbytest/kirby/site). 
+3. Rename that one (/kirbytest/kirby/site/default) to 'panel' (/kirbytest/kirby/site/panel).  
+4. Setup your accounts stuff in /kirbytest/kirby/site/panel/accounts/
+
+Hope this helps?

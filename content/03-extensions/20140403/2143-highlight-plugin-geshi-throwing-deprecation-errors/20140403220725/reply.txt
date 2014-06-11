@@ -1,0 +1,7 @@
+User: tcervo
+----
+Date: 2014-04-03 22:07:25
+----
+Text: I downloaded the latest version of geshi and replaced what was in the plugins directory. (I only replaced the geshi directory and geshi.php file, keeping them in the plugins/highlight/highlight directory.) No more errors, but also no more syntax highlighting.
+
+Any ideas?

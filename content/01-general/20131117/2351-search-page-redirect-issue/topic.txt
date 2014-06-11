@@ -1,0 +1,28 @@
+Title: Search page redirect issue
+----
+Date: 2013-11-17 23:51:47
+----
+Solved: 0
+----
+User: iamadamjowett
+----
+Text: Hey all,
+
+I have recently enabled multi-language support which is working pretty well [http://formitize.com/en/](http://formitize.com/en/) except for one major thing.
+
+Since enabling it, seaching for a term here http://formitize.com/en/blog in the sidebar is sending the site into a redirect loop if I specify the target page as:
+
+[http://formitize.com/en/search?q=test](http://formitize.com/en/search?q=test)
+
+If I leave it as it was when no language was enabled, and send it here:
+
+[http://formitize.com/search?q=test](http://formitize.com/search?q=test)
+
+It redirects to the homepage (click on a tag to see that functionality).
+
+Anyone encountered this before and have some ideas on how to solve this? It has baffled me all weekend.
+
+Thanks for any help you can provide.
+
+Cheers
+Adam

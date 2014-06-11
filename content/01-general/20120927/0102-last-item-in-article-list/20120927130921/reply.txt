@@ -1,0 +1,16 @@
+User: bastianallgeier
+----
+Date: 2012-09-27 13:09:21
+----
+Text: That's actually very easy :) The built-in "collections" have a first() and last() method, which you can use here. 
+
+```
+<?php $partners = $page->children() ?>
+<?php $last = $partners->last() ?>
+<?php foreach ($partners AS $partner) : ?>
+    <?php echo $partner->uid() ?>
+    <?php echo ($partner === $last) ? '' : ',' ?>
+<?php endforeach ?>
+```
+
+I didn't test it, but it should work.

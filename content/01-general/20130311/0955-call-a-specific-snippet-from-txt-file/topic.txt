@@ -1,0 +1,21 @@
+Title: Call a specific snippet from .txt file
+----
+Date: 2013-03-11 09:55:12
+----
+Solved: 1
+----
+User: structor
+----
+Text: Hi!
+I want to display different snippets (as a side panel) in pages witch have the same template, but I don't know if it's possible.
+I tried this in template.php:
+
+    <?php snippet('kirbytext($page->sidepanel())') ?>
+
+with kirbytext in .txt file:
+
+    Sidepanel:contact-panel
+
+witch I though it would call the contact-panel.php snippet, but it does not work.
+
+anyone have a better idea?

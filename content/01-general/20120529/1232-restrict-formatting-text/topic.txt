@@ -1,0 +1,17 @@
+Title: Restrict formatting text
+----
+Date: 2012-05-29 12:32:18
+----
+Solved: 1
+----
+User: roman_oroco
+----
+Text: It's possible to restrict formatting text?
+
+Something like this:
+```php
+<?php echo kirbytext($article->text(), 400) ?>
+```
+
+Inspiration: Elliot Jay Stocks
+Img: <http://cl.ly/3j3H2a1l3D09431b0c3E>

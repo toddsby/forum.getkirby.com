@@ -1,0 +1,5 @@
+User: obearone
+----
+Date: 2012-07-31 16:09:13
+----
+Text: @kilmc Did you found a way to unwrap the images in your .txt file from the `<p>` tag?

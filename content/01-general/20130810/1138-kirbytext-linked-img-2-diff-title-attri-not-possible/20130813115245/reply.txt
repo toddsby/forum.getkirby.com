@@ -1,0 +1,21 @@
+User: mutchov
+----
+Date: 2013-08-13 11:52:45
+----
+Text: This doesn't help me. Perhaps because I am new to php.
+
+My problem is here. In my script above I´ve:
+
+```php
+title: <?php echo html($page->title()) ?>
+```
+But this doesn't work because it displays the page title!
+```php
+title: <?php echo $image->title() ?>
+```
+This also does not work. I think because of the:
+$imagelist= $page->imagelist();
+...
+foreach ($imagelistitem  as $image):
+
+So how can I read the caption from the txt file when I use the imagelist? (Look above)

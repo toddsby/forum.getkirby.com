@@ -1,0 +1,11 @@
+User: bastianallgeier
+----
+Date: 2012-11-02 11:26:57
+----
+Text: I already started an article about WYSIWYG editors and Kirby before I read this thread and I think I will keep that unpublished for a little longer. It's a difficult question. For me WYSIWYG editors have always been a nightmare. You absolutely loose control as a designer and developer as soon as you let your clients do all sorts of crazy things with those pseudo Word-like editors. There are a few out there, which offer quite nice ways to control formats, but in general they are still a mess and they always bring huge amounts of extra code with them. 
+
+For my own clients I always managed to teach them how to use the most simple Markdown tags. My experience is that clients mostly need like 4 or 5 different formats max. Stuff like bold text, images, links and maybe how to define a list and different kinds of headlines. When I explained the benefits of using simple tags instead of letting them do their own formatting, they never had an issue with getting used to those. 
+
+I think the most important part is to make sure to let the CMS do most of the "structure work". I always try to break down pages into many small sections if possible, so clients never really need to layout/format huge amounts of text. I also got the experience that most clients find updating their site way easier, the more guidance they have and the more they just need to enter plain text.
+
+For the panel though there are really some important missing buttons like you guys already mentioned and I'm working hard to add them asap. I think it also needs some kind of comfortable preview mode like @roman_oroco suggested. All this is on my todo list and I hope I can make it more comfortable for your clients to edit text soon.

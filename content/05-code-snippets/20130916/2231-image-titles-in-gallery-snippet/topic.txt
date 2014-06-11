@@ -1,0 +1,40 @@
+Title: Image titles in Gallery snippet.
+----
+Date: 2013-09-16 22:31:12
+----
+Solved: 0
+----
+User: awarburton
+----
+Text: Hey guys,
+
+So, I love the simplicity of Kirby but I wanted to be able to give each of my images a unique caption that I can show via the title attribute. I thought a while about how I can do this then realised that images have a description field available in their exif data and it's easily editable in iPhoto. All I had to do was figure out how to show it on the page.
+
+The good news is that since version 4.2, PHP has had the [get_exif_data](http://php.net/manual/en/function.exif-read-data.php) function available to do just that! So here's my modification to the gallery snippet that pulls the description from the exif data and shows it as a title attribute (also, using the thumbnail plugin)
+
+    <?php if($page->hasImages()): ?>
+    	<ul class="gallery">
+    	  <?php foreach($page->images() as $image): ?>
+    			<?php
+    			$description = '';
+    			$exif = @exif_read_data($image->url());
+    			if(!$exif === false && array_key_exists('UserComment', $exif)):
+    				$description = trim($exif['UserComment']);		
+    			endif;
+    			?>
+    		  <li>
+    		    <a href="<?php echo $image->url() ?>" rel="group" title="<?php echo $description ?>">
+    					<?php echo thumb($image, array('height' => 180)) ?>
+    				</a>
+    		  </li>
+    	  <?php endforeach ?>
+    	</ul>
+    <?php endif ?>
+
+*this code is free to a good home - please reuse and modify as you wish*
+
+You can see it in action on [this gallery page on my personal blog](http://andywarburton.co.uk/blog/magic-at-disney-paris) by hovering over most of the images or clicking on them to see the lightbox.
+
+I hope this is of use to someone. Enjoy!
+
+Andy

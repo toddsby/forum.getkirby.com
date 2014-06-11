@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2012-11-28 15:01:41
+----
+Text: Now the advanced method would be use the new advanced filtering capability to look for just the name portion of the file and not the extension, so you could use a jpg or png and it wouldn't matter which. Instead of `find('filename.png')` it would be `filterBy('title', '*=', 'filename')` I think.

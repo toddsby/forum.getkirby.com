@@ -1,0 +1,14 @@
+Title: page->parent->children == $page->siblings->visible ?
+----
+Date: 2013-05-07 09:27:48
+----
+Solved: 0
+----
+User: hellovolker
+----
+Text: I wonder if those two are exactly the same?!
+     
+     $p1  = $page->parent()->children()->visible();
+     $p2  = $page->siblings()->visible();
+
+Or does `$p2` not include the open page itself?

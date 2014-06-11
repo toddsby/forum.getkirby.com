@@ -1,0 +1,15 @@
+User: russbaldwin
+----
+Date: 2013-09-28 10:17:16
+----
+Text: I just tried a nested list and it seems to be fine? Maybe check a blank line before and after the list? The actual bullets in the final HTML output will be the browser default or set with CSS.
+
+```html
++ Item 1
++ Item 2
+	+ Item 2a
+		- Item 2a1
+		- Item 2a2
+	- Item 2b
++ Item3
+```

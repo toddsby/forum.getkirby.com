@@ -1,0 +1,16 @@
+User: bastianallgeier
+----
+Date: 2012-05-29 12:52:37
+----
+Text: I have to agree with @joschie that it's better to work with mediaqueries and maybe additional javascript to optimize the same templates for mobile devices. 
+
+If you really need to build a dedicated mobile version, you could change the location of the templates and snippets folders dynamically in your config file: 
+
+```php
+
+c::set('root.templates', c::get('root.site') . '/templates-mobile');
+c::set('root.snippets', c::get('root.site') . '/snippets-mobile');
+
+```
+
+If you combine that with the built-in multi-environment config files: <http://getkirby.com/blog/multi-environment-setup> it should be simple to switch those folders according to the subdomain.

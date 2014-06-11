@@ -1,0 +1,22 @@
+User: russbaldwin
+----
+Date: 2013-01-23 16:44:46
+----
+Text: **OK this is not going to work - see next post below**
+I don't have access to try this at present, but I think you have to pass back the full html stuff as per the example
+
+    return '<p>'.$site->$variable().'</p>';
+
+Assuming the variable, let us say 'email', is in your sites.txt files e.g. 
+
+	----
+	Email: user@domain.com
+	----
+
+This should return 
+
+    <p>user@domain.com</p>
+
+You would have to check it exists in your 'site.txt' when you do the code properly. 
+
+Is this what you were after, I may have missed something, apologies about not being able to test the code, out on the road.

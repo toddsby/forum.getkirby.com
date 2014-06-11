@@ -1,0 +1,33 @@
+Title: Installing kirby on subfolder
+----
+Date: 2013-05-15 14:03:44
+----
+Solved: 0
+----
+User: zetareticoli
+----
+Text: Hi,
+
+I've just downloaded the package and installed on my server via FTP.
+
+I've uploaded kirby files in a new folder: /web.
+
+Then I created a .htaccess file with following rules:
+
+
+> RewriteEngine On
+> RewriteRule ^(.*)$ /web/$1
+
+
+The .htaccess file is located in the root.
+
+Then I modified the config.php:
+
+>c::set('url', 'http://mywebsite.com/web');
+>c::set('subfolder', 'web');
+
+I got a 500 Internal Server Error when loading http://mywebsite.com
+
+Where am I wrong?
+
+Thanks

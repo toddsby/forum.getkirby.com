@@ -1,0 +1,5 @@
+User: azharc
+----
+Date: 2013-08-16 21:58:02
+----
+Text: You could do this very easily by writing tohe code in snippets and then plugging them into a post (link:http://getkirby.com/forum/code-snippets/topic:731 text: like so).

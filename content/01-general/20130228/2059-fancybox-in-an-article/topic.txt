@@ -1,0 +1,15 @@
+Title: Fancybox in an Article.
+----
+Date: 2013-02-28 20:59:55
+----
+Solved: 1
+----
+User: nathaniel_h
+----
+Text: On my article page (link: http://rhinofeed.net/chrome-extension-chime) I have an issue with Fancybox.
+
+This is what's in my article.txt file. (Wish I didn't have to have that div... but that's another issue)
+
+(image: http://rhino.im/g/ePcY.png)
+
+Noticed when you click on the image, the fancybox works fine - it shows the image in a lightbox. But when you close out of the lightbox, the image disappears completely from the article. Anyone else having this issue?

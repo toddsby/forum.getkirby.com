@@ -1,0 +1,9 @@
+User: obearone
+----
+Date: 2013-03-08 08:55:14
+----
+Text: Für alle, welche mit **Hosteurope** eventuelle das gleiche Problem haben... 
+
+Man muss im KIS unter `webhosting>skripte>Standard E-mail Adresse` eine standard Mailadresse hinterlegen, damit das Contactform Plugin von Bastian funktioniert.
+
+... Muss man auch erst mal drauf kommen.

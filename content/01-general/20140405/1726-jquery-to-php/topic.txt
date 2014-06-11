@@ -1,0 +1,36 @@
+Title: Jquery to PHP
+----
+Date: 2014-04-05 17:26:04
+----
+Solved: 0
+----
+User: private_storm
+----
+Text: Hi,
+when I create a Jquery plugin which needs some interaction with form fields and a PHP script (data is posted to the PHP script when the validation is done in Jquery) where is the best place to store my PHP script and how this PHP scripts can be reached using an ajax call?)
+
+Do I need to hardcode the PHP script path or can kirby help me out here?
+
+Normally I would do something like this:
+
+<form method="post" action="somepath/myscript.php" id="myForm">
+
+var $url = $("#myForm").attr('action'); 
+
+$.ajax({
+    url : $url,
+    type: "POST",
+    data : formData,
+    done: function(data, textStatus, jqXHR)
+    {
+
+    },
+    fail: function (jqXHR, textStatus, errorThrown)
+    {
+ 
+    }
+});
+
+So again to wrap it up:
+Where is the best place for own PHP scripts.
+How to find the scripts with help of Kirby so ajax calls can be made?

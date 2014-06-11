@@ -1,0 +1,6 @@
+User: bastianallgeier
+----
+Date: 2012-11-07 10:42:47
+----
+Text: Hey guys, the wait is over!
+Check out: <http://getkirby.com/blog/frontend-authentication>

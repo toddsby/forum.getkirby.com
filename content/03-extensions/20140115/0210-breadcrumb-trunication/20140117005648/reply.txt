@@ -1,0 +1,5 @@
+User: timgauthier
+----
+Date: 2014-01-17 00:56:48
+----
+Text: awesome that worked out. I ended up making a variable to apply the $crumb->title too and then echoing the substr too. Fantastic, that slice was really what I needed though.

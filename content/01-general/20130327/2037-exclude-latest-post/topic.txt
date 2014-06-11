@@ -1,0 +1,19 @@
+Title: Exclude latest post
+----
+Date: 2013-03-27 20:37:28
+----
+Solved: 0
+----
+User: kenyamamoto
+----
+Text: Hey Kirby folks!
+
+On my blogpage i want to show:
+- latest post/article opened
+- a list of titles of the last 5 posts
+
+I managed to list the first post.
+My problem is that i don't know how to exclude the latest post from the list of titles below? can anyone help. Must be so easy but i'm really a beginner.
+
+Thanks in advance!
+K.

@@ -1,0 +1,9 @@
+User: ignaty
+----
+Date: 2012-08-24 09:40:19
+----
+Text: Hi @tues37, you should check - <a href="http://getkirby.com/docs/multi-language">http://getkirby.com/docs/multi-language</a> 
+
+It is easy to do multi language websites with panel
+
+Good luck!

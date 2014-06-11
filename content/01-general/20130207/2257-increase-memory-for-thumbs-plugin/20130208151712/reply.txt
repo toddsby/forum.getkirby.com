@@ -1,0 +1,5 @@
+User: roman_oroco
+----
+Date: 2013-02-08 15:17:12
+----
+Text: @russbaldwin I was also tempted to try Adaptive Images, but it seems to doesn't work on (link: http://adaptive-images.com) page load anyway (link:http://adaptive-images.com/content/images/creepy.jpg text:full image) size.

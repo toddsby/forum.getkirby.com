@@ -1,0 +1,13 @@
+Title: Deprecated: preg_replace()
+----
+Date: 2013-12-06 17:27:55
+----
+Solved: 0
+----
+User: abr4xas
+----
+Text: Hi there,
+
+I was looking at the source code and I clicked the feed url and saw this error
+
+Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /lib/kirby. 2597

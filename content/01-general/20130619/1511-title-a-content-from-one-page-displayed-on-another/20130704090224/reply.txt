@@ -1,0 +1,21 @@
+User: patzuda
+----
+Date: 2013-07-04 09:02:24
+----
+Text: I try to show the calender-plugin events on two sites  (home and event-site)
+On the event site, it works fine for me, but it dosn't on the homepage.
+Here is my code:
+
+//call calendar plugin
+calendar(yaml($page->events()), $options, 'div');
+
+//read entrys form termine.txt
+$events = $pages->find('termine')->children()->visible()
+
+//show events
+foreach ($events AS $event) : 
+...    
+endforeach 
+
+
+Output is: "No entry." - but of cause, in termine.txt there are some events defined...

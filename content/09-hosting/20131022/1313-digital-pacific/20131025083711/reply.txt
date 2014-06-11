@@ -1,0 +1,6 @@
+User: russbaldwin
+----
+Date: 2013-10-25 08:37:11
+----
+Text: No DB needed. 
+Basics, PHP version, what's in your config, .htaccess?

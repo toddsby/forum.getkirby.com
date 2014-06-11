@@ -1,0 +1,81 @@
+Title: Pagination - the children of children of the children
+----
+Date: 2013-02-13 11:33:56
+----
+Solved: 1
+----
+User: wieisdennis
+----
+Text: Dear all,
+
+Hope you can assist me with the following, my structure is as follows. Al the events are stored in the event folder under series as event.txt
+
+events
+
+- maincat1
+-- series1
+--- event1
+--- event2
+--- event3
+--- event4
+-- series2
+--- event1
+--- event2
+--- event3
+etc.
+
+- maincat2
+-- series1
+--- event1
+--- event2
+--- event3
+--- event4
+-- series2
+--- event1
+--- event2
+--- event3
+etc.
+
+- maincat3
+-- series1
+--- event1
+--- event2
+--- event3
+--- event4
+-- series2
+--- event1
+--- event2
+--- event3
+-- series3
+--- event1
+--- event2
+etc.
+
+
+When I want to to show all the events in the main-events page, no problem, it all works, also with the pagination. 
+
+One and other works also [included pagination] when I want to show a certain serie; I made a template for it.
+
+I call them with: <code>articles = $page->children()->visible()->sortBy('date', 'asc')->paginate(10);$pagination = $articles->pagination;$range = 5;	</code>
+
+I also would like to show all series from a certain maincat, this also works, but the pagination partly works:
+- when I query <code> $articles = $page->children()->children()->visible()->sortBy('date', 'asc')->paginate(15);$pagination = $articles->pagination;$range = 5;</code>	
+
+In this test case I have 12 events and it's show the 12 events and also the pagination shows: 12 results, showing 1-12.
+
+When I adjust paginate into 5, I got a blanc page. When I adjust the query into pages, then I recevie al the names of the series-folders on the screen.
+
+What am I doing wrong?
+
+I already searched the forum, looked at topics as http://getkirby.com/forum/general/topic:140 and http://getkirby.com/forum/general/topic:11
+
+
+EDIT:
+From the main-event page I also work with tags, so I alreay can sort on the main categories, but I would also like to have a seperate main-page for the different main-categories, from there I can have also a next query to countries etc.
+
+SOLUTION FOR NOW
+
+I used for the overview pages for the main categories:
+<code>->filterBy('tags', 'Autosport', ',')</code>
+
+I think there is a other solution but it does the job for now

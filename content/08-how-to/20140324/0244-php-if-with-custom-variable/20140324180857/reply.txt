@@ -1,0 +1,11 @@
+User: fitzage
+----
+Date: 2014-03-24 18:08:57
+----
+Text: Your first method would work without the ->TRUE. Just `if($page->client())`.
+
+HOWEVER: the suggested method is more reliable, because it checks whether or not the field is empty, not whether or not it exists. If the field exists and is empty, the method you were attempting would still return true because the field exists. The method @texnixe suggests will be correct whether or not the field exists, if I remember correctly.
+
+If you're building the text files by hand and not including the field at all if there is no client, then `if($page->client())` would work, but if you're using the control panel, it will always include every field that's in the blueprint, even if it's empty. Then you definitely need to use `if($page->client() != '')` so it's probably best to just use that in general to be safe.
+
+I'm hoping this will be a little cleaner in Kirby 2.0, so that you can just use the first, shorter syntax.

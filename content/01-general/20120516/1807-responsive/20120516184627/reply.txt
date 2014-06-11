@@ -1,0 +1,16 @@
+User: robrainfall
+----
+Date: 2012-05-16 18:46:27
+----
+Text: You don't have to change anything in the standard install, if you are using media queries to make a site responsive, it is only css and structuring the right way the html.
+
+You might want to check out a 5 part tutorial on netmagazine:
+
+1) http://www.netmagazine.com/tutorials/build-responsive-site-week-designing-responsively-part-1 
+5) http://www.netmagazine.com/tutorials/build-responsive-site-week-going-further-part-5
+
+see the other parts on the magazine.
+
+It takes you through the whole process.
+
+I hope it will help you.

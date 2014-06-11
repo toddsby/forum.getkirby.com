@@ -1,0 +1,45 @@
+Title: Inline Gallery/Slideshow
+----
+Date: 2012-06-22 21:49:23
+----
+Solved: 0
+----
+User: brtdesign
+----
+Text: Hey guys. It's me again...
+
+I asked this question to Bastian by email which he kindly replied really fast as always.
+ 
+The reasons I am posting here are: 1st because I wasn't able to make it work. 2nd because the answer will stay here for anyone in the future who might be wondering the same.
+
+So, I want to have within my flow of content some slideshows. Bastian sent me these instructions 
+
+```
+Hey Sandro,
+
+check out this Gist: https://gist.github.com/1711983 It's for inline galleries, but it should work as well for your slideshow. 
+Just place that in site/plugins and call it kirbytext.extended.php
+
+You should also add a new gallery.php snippet in site/snippets. Create your slideshow code there. Something like: 
+
+<ul>
+  <?php foreach($images as $image): ?>
+  <li><img src="<?php echo $image->url() ?>" /></li>
+  <?php endforeach ?>
+</ul>
+
+Afterwards all you need to do is to add the Gallery/Slideshow to your text like this: 
+
+(gallery: 01.jpg, 02.jpg, 03.jpg)
+
+If you prefer you can also rename the tag definition. It should be pretty straight forward.
+
+```
+
+
+
+unfortunately, after following these instructions it didn't work and I don't really have the knowledge to understand what's happening.
+
+note: I have that problem with the rewrite on the config file so my urls all go like "/index.php/projects" I don't know if it has anything to do with it ...
+
+Thanks in advanced

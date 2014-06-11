@@ -1,0 +1,7 @@
+User: hellquist
+----
+Date: 2013-05-08 14:46:11
+----
+Text: After research I am concluding it isn't possible. I was mainly looking for ways to avoid having content editors adding (or knowing) HTML, but as Kirby handles the HTML tags I've thrown at it so far I figured I will provide the content editors with snippets in any case (and that would have been true with Wordpress or any of the other alternatives as well).
+
+I basically am building a blog-like site based on Twitters Bootstrap where the majority of the images will be served from Flickr, and thus need to handle adding images from Flickr (in ANY of the standard sizes from Flickr), incl captions/attribution, floated left/right with the text flowing around the image+caption and being able to style it all. :)

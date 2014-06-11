@@ -1,0 +1,25 @@
+User: JanStieler
+----
+Date: 2013-09-26 19:29:06
+----
+Text: Hi,
+I solved it self
+
+	<section id="isotope" class="">
+		<?php foreach($page->children()->visible() as $article): ?>
+		<figure class="tiles no-gutter-left gutter<?php echo html($article->tags()) ?>">
+			<a href="<?php echo $article->url() ?>">
+			<?php $image = $article->images()->find('thumb.gif')  ?>
+				<img src="<?php echo $image->url() ?>" 	class="img-responsive">
+				<figcaption class="caption">
+					<h1><?php echo html($article->title()) ?></h1>
+					<h2><?php echo html($article->subtitle()) ?></h2>
+				</figcaption>
+			</a>
+		</figure>
+	<?php endforeach ?>
+	</section>
+
+But I´m not really shure why my first solution doesn't work.
+
+BR

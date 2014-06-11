@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2012-10-12 18:56:25
+----
+Text: You set up a panel blueprint to tell the panel what fields to use for each template type.
+
+(link: http://getkirby.com/docs/panel/blueprints)

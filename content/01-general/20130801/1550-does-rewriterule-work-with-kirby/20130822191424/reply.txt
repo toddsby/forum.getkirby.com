@@ -1,0 +1,21 @@
+User: svennedy
+----
+Date: 2013-08-22 19:14:24
+----
+Text: Looking for a answer too.
+
+I want to put data to a page link... like:
+
+ event/name
+or 
+ events/23/08/2013 
+
+that should lead me to the event or events page where i
+parse the URL und pull data from the DB.
+
+Is there any way or do i need to use the old parameter way like:
+
+event?name=thename  or  events?date=23.08.2013
+
+
+thanks!

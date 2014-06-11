@@ -1,0 +1,5 @@
+User: lulezi
+----
+Date: 2012-09-22 14:39:27
+----
+Text: Check your PHP installation (use `phpinfo()`): Do you have `mbstring` enabled?

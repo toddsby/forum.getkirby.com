@@ -1,0 +1,9 @@
+User: fitzage
+----
+Date: 2014-03-04 19:11:02
+----
+Text: I use git along with (link: https://github.com/mislav/git-deploy text: git-deploy) for pushing via SSH/SFTP. Allows you to deploy using something like `git push production master`.
+
+You can keep a copy on github as well, but github won't serve it. Or you could bypass github altogether and just use your servers.
+
+You can also have multiple remotes set up with the git-deploy script. I have a staging server that is checked out to the staging branch, so I can do `git push staging staging`. I also have github set up as the default repo, so I push there with `git push origin master` or `git push origin staging` so the branches are there for safe keeping.

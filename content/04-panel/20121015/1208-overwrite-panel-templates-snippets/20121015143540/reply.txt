@@ -1,0 +1,7 @@
+User: bastianallgeier
+----
+Date: 2012-10-15 14:35:40
+----
+Text: Do you want to modify the panel design or implement new features? The problem is that I'm planning to build a new version of the panel which is based on a different framework/structure. The main reason for this is better extendability. So if you invest too much time in modifying the core, it will be impossible to update later. 
+
+If you could describe some more what you want to achieve I might be able to give you some tips how to build that without messing with the core.

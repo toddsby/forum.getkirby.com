@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2013-08-30 19:03:22
+----
+Text: Yeah, the issue here is that the panel blueprint creates all fields, even empty ones. So when you're checking a field, you have to check what's in it, not whether or not it exists.
+
+If you're not using the panel, then you can use your previous method because you're not going to stick empty fields in the text file yourself usually.

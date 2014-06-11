@@ -1,0 +1,7 @@
+User: iamirm
+----
+Date: 2013-04-08 18:53:31
+----
+Text: This is how I fixed it.
+
+(link: http://getkirby.com/forum/general/topic:576)

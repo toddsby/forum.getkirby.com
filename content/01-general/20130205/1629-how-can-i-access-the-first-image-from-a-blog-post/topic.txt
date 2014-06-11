@@ -1,0 +1,27 @@
+Title: How can I access the first image from a blog post?
+----
+Date: 2013-02-05 16:29:34
+----
+Solved: 1
+----
+User: iamirm
+----
+Text: Hi Forum,
+
+I'm working on my first Kirby powered site and I've run into a problem I find difficult to solve.
+
+I have a foreach loop in my blog page:
+
+    foreach($page->children()->visible() as $product):
+
+Then, I try to call the first image with this code:
+
+    <img src="<? echo $product->images()->first()->url() ?>" />
+
+But I get a ***Fatal error*** Call to a member function url() on a non-object in my product template.
+
+Does anybody have any idea what might be going on here?
+
+Thanks!
+
+Irma

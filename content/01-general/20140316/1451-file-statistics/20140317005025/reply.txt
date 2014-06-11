@@ -1,0 +1,5 @@
+User: wilhearts
+----
+Date: 2014-03-17 00:50:25
+----
+Text: I think this can be done with Google Analytics (at least this is what an analytics tool is for, not kirby). Maybe you could look into that and put javascript GA hooks when someone click a photo so it sends an event to Google Analytics ?

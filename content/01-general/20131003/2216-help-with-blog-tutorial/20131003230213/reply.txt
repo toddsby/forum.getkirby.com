@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-10-03 23:02:13
+----
+Text: Yes, you're calling visible articles, but your articles aren't visible. Need to have the number in the folder name to make them visible, or just remove the `->visible()` bit.

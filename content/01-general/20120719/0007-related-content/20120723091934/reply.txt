@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-07-23 09:19:34
+----
+Text: Ah, I know what you mean! I think I should add a scope to it, so you can say that realted items from the field `partners` should be found in the content folder `partners` whereas items from the field `customers` should be found in the content folder `customers` or even in a deeper subfolder. That way your editors would only need to add the folder name for each partner or customer without the entire URI.

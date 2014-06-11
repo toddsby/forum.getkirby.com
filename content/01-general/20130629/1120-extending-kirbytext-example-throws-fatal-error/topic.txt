@@ -1,0 +1,15 @@
+Title: Extending Kirbytext example throws fatal error
+----
+Date: 2013-06-29 11:20:49
+----
+Solved: 1
+----
+User: conefreykoedam
+----
+Text: I'm following (link: http://getkirby.com/blog/kirbytext) to learn about extending Kirbytext.
+
+After saving the exact wikipedia example as kirbytext.extended.php in my site/plugins folder I get this error: 
+
+PHP Fatal error:  Cannot redeclare class kirbytextExtended in --/kirby-cms/site/plugins/kirbytext.extended.php on line 36
+
+local MAMP, php 5.3.14

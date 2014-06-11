@@ -1,0 +1,22 @@
+Title: Default Variable to a snippet
+----
+Date: 2013-10-09 14:49:27
+----
+Solved: 1
+----
+User: timgauthier
+----
+Text: Howdy!
+
+I want to send a variable to a snippet, but I want the snippet to function without this variable. The variable will be a URL path for the logo of my page. Is there a way to set a "else" for the URL? I tried a couple things and I am not quite figuring it out.
+
+    <?php 
+    $logourl = 'assets/images/logo-inverse.png';
+    $logo = $logourl;
+    if ($logotype == false) {
+     $logourl = 'assets/images/logo.png'; 
+    } else 
+     $logourl = 'assets/images/logo-inverse.png';
+    ?>
+
+    <img src="<?php echo url($logourl) ?>" class="logo visible-md visible-lg visible-xs" height="22px" alt="<?php echo html($site->title()) ?>" />

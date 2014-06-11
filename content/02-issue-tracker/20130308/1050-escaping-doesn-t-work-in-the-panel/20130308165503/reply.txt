@@ -1,0 +1,5 @@
+User: plartz
+----
+Date: 2013-03-08 16:55:03
+----
+Text: Ah, sorry, maybe the example wasn't clear enough... basically I just want the number to actually be in the markup, and not getting parsed as an ol-list. But the  in the panel is not working, whereas in the textfile everything works fine.

@@ -1,0 +1,9 @@
+User: tysongach
+----
+Date: 2013-04-25 03:05:52
+----
+Text: If I’m understanding you correctly, you’re wanting the whole tag cloud to be a tall vertical list on the left *just* like how the Kirby blog is?
+
+If so, getkirby.com isn’t the same ‘theme’ that comes with the default Kirby install, so you need to hire a web designer/developer or learn HTML & CSS to do things like this. I made them look like clickable tags for you, but at this point you’re requesting free work ;-)
+
+This forum is more meant for solving issues or helping find a solution to things with Kirby.

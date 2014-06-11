@@ -1,0 +1,5 @@
+User: roman_oroco
+----
+Date: 2013-06-01 11:30:53
+----
+Text: @dokdeleon Hi, I had experience with Plesk + Kirby on (mt) gs everything it works fine, except the (link:/forum/hosting/topic:344 text:poor performance).

@@ -1,0 +1,13 @@
+Title: Joyent
+----
+Date: 2013-02-05 15:32:43
+----
+Solved: 0
+----
+User: fitzage
+----
+Text: I have two low-volume Kirby sites running on one Joyent server with good performance and no issues. Joyent.com is pretty high traffic, and is running on Kirby as well using a load balanced setup between two servers with a Stingray load balancer in front. Performance is good.
+
+Joyent isn't exactly budget hosting, so it's probably more server than most of you guys need. We do now have an extra small option that is only $21.90/month, and is still a high performance virtual dedicated server that should be able to handle a fairly high amount of traffic if you ever need to go beyond the shared hosting that most of you currently use.
+
+Disclaimer: I work for Joyent.

@@ -1,0 +1,13 @@
+User: Swissendo
+----
+Date: 2013-03-09 22:52:16
+----
+Text: Ok, I think I've found the main problem...and sadly, it's not something I'm able to fix. The problem seems to be in the [Like-Snippet](https://gist.github.com/bastianallgeier/3129327) itself, on line 12:
+
+`$post = $pages->find('blog/' . $uid);`
+
+The script is "hardcoded" to the Blog directory, changing this to any other existing directory seems to work, but breaks (of course) the other one(s). The funny thing is that even the Ajax-Call I'm using is hardcoded:
+
+`$.getJSON('blog/like/post;' + currentUID + '', function(r) {`
+
+And once again I have no idea how to make this more flexible (how would I be able to get the directory of an article?). I guess this is what you get for using a "rough" snippet, yet it still drives me mad...

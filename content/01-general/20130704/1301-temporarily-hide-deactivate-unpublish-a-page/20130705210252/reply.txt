@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2013-07-05 21:02:52
+----
+Text: Yeah, the boolean option is the best idea. Determine the default behavior you want (included or not included) then set your template to default to that option, so that you only have to include the field if you're doing the other option.
+
+Downside is the page is still going to be "live" it just won't be linked to from anywhere. So if Google has already indexed it, it's not likely to forget about it.

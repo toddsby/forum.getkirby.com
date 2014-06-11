@@ -1,0 +1,15 @@
+User: tysongach
+----
+Date: 2013-01-06 14:27:36
+----
+Text: Try this:
+
+    <time datetime="<?php echo $article->date('Y-m-d') ?>"><?php echo $article->date('F j, Y') ?></time>
+
+Your content file should look something like this (I’m in the US):
+
+    11/12/2012
+
+That’s what I use and it even validates through the (link: http://html5.validator.nu text: HTML5 Validator). I removed `pubdate` because I never found a proper implementation.
+
+Be sure to check out the (link: http://php.net/manual/en/function.date.php text: PHP Manual) on `date`, which shows what characters return particular values.

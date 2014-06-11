@@ -1,0 +1,11 @@
+Title: Updated to 1.1, hot damn
+----
+Date: 2012-06-21 22:32:44
+----
+Solved: 0
+----
+User: fitzage
+----
+Text: One of the things I hate the most about traditional CMS systems is updating to a new version. WordPress has made this a lot easier with their built-in upgrade features, but ExpressionEngine is still an utter pain.
+
+Kirby is brilliant in this regard, as you all know already. Just thought I'd point out the obvious.

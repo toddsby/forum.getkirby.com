@@ -1,0 +1,7 @@
+User: tysongach
+----
+Date: 2013-01-04 03:36:10
+----
+Text: Have you checked out (link: http://ogp.me text: The Open Graph Protocol)?
+
+Haven’t used it myself, but this might be how you control what data Facebook pulls when your content is shared.

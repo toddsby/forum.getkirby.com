@@ -1,0 +1,11 @@
+Title: Stand-alone search form
+----
+Date: 2012-07-17 15:42:45
+----
+Solved: 0
+----
+User: bastianallgeier
+----
+Text: When you implement a search page with the (link: blog/search text: Kirby search plugin), you probably want to use an additional search form, which is available on every page – in the header or footer for example. 
+
+You can use this: <https://gist.github.com/3121301> as a starting point.

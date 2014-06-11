@@ -1,0 +1,9 @@
+Title: Using panel to move a page up-/down a level?
+----
+Date: 2013-02-19 09:39:06
+----
+Solved: 0
+----
+User: danjessen
+----
+Text: I don't know if the topic says it. It's possible to sort pages, but is it also possible to move a page down / up a level?

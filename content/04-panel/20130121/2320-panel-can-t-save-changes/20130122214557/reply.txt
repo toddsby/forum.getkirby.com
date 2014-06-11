@@ -1,0 +1,9 @@
+User: splfld
+----
+Date: 2013-01-22 21:45:57
+----
+Text: Hi,
+
+thank you very much. Subdirectories are set in .htaccess, but I played a little bit around with my .htaccess file and that did the trick: i was using the .htaccess distributed with monochrome theme and some options in there seem to prevent the panel from saving. I didnt have a closer look yet, but with the normal .htaccess from the kirby master everything works fine.
+
+will let you know if i find out more.

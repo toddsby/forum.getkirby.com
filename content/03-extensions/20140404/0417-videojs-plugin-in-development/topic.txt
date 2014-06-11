@@ -1,0 +1,13 @@
+Title: videojs plugin - in development
+----
+Date: 2014-04-04 04:17:44
+----
+Solved: 0
+----
+User: t94xr
+----
+Text: I'm attempting to develop a plugin (hard with my limited knowledge of php lol) 
+
+If anyone would like to assist me, It would be greatly appreciated!! :)
+
+https://github.com/t94xr/kirbycms-videojs

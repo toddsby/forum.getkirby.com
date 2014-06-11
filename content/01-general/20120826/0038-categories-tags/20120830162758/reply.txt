@@ -1,0 +1,5 @@
+User: roman_oroco
+----
+Date: 2012-08-30 16:27:58
+----
+Text: @bastianallgeier Pushing articles in multilevel pages is a small limitation, I can't assign multiple categories to the same article.

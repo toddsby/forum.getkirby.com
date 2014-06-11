@@ -1,0 +1,5 @@
+User: MrGalaxy9
+----
+Date: 2013-08-26 00:39:15
+----
+Text: Could someone write up a small how-to on getting Kirby running on Pagoda Box? I tried, however I keep encountering the error "Fatal error: Call to a member function isErrorPage() on a non-object in /var/www/kirby/lib/site.php on line 97". I know it probably has something to do with the way my config or Boxfile is. Any help would be appreciated. Thanks!

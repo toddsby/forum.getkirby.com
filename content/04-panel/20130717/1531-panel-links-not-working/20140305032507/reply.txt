@@ -1,0 +1,9 @@
+User: blindpiggy
+----
+Date: 2014-03-05 03:25:07
+----
+Text: I was also having this issue. @RachelTai_ 's fix worked but with a small tweak. The panel package download was in a folder called "kirbycms-panel-master" so the update to .htaccess I made is:
+
+<code>RewriteRule ^kirbycms-panel-master/(.*) kirbycms-panel-master/index.php [L]</code>
+
+I can now edit the site details and each page.

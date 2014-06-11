@@ -1,0 +1,5 @@
+User: schussman
+----
+Date: 2012-09-29 15:50:11
+----
+Text: I just want to register enthusiasm for this functionality-to-be. My use case is probably simpler than even the current plugin provides: I'd like to imitate what I currently get from a posterous site, where access is simply restricted by a single password gate with no users or roles management at all. (On re-reading, this sounds something like the original poster's request, too.)

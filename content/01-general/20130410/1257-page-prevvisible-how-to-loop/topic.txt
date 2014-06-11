@@ -1,0 +1,21 @@
+Title: $page->prevVisible() - how to loop?
+----
+Date: 2013-04-10 12:57:05
+----
+Solved: 0
+----
+User: d3ddesign
+----
+Text: Hello there!
+
+I am coding a portfolio. When you view a project you can browse through all the other projects. Therefore i used this code:
+
+	<?php if($page->hasPrevVisible()): ?>
+	<a href="<?php echo $page->prevVisible()->url() ?>">previous</a>
+	<?php endif ?>
+
+
+This solution works pretty well but now i want to loop this. If you are viewing the last project the link shoult point to the first item, something like:
+> $page->firstVisible()->url()
+
+How do I do that? Thanks!

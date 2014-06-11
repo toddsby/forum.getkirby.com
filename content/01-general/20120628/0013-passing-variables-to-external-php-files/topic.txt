@@ -1,0 +1,15 @@
+Title: Passing variables to external PHP files?
+----
+Date: 2012-06-28 00:13:15
+----
+Solved: 0
+----
+User: scottswany
+----
+Text: I'm trying to create galleries using Juicebox (juicebox.net), but it requires a config file. I can create this dynamically using PHP. Since Kirby blocks most locations, I can let this file live in the /assets directory, but that causes me to lose access to the $page variables which is where I'd like to pass the variables from.
+
+I've looked into creating a plugin, snippet, etc, but I still have to have the javascript gallery access the config file which can only be in the /assets folder.
+
+Anyone have any ideas or know of anyway to pass $page variables to a PHP file that isn't a snippet or plugin?
+
+Thanks!

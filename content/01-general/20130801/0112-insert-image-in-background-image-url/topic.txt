@@ -1,0 +1,20 @@
+Title: Insert image in background-image:url()
+----
+Date: 2013-08-01 01:12:36
+----
+Solved: 0
+----
+User: mauphie
+----
+Text: Hello Kirbians!
+I'm having trouble with the following code:
+
+	<?php if($page->hasImages()): ?>
+	<?php foreach($page->images() as $image): ?>
+	<div style="background-image:url(<?php echo $image->url() ?>)">  </div>
+	<?php endforeach ?>
+	<?php endif ?>
+
+The images do not show up. If I use an img tag inside of the div, the images show up fine. It's just when I try putting it as the background-image:url() that the path seems to break.
+
+I don't know why the path isn't working.Any help would be appreciated! Thanks in advance.

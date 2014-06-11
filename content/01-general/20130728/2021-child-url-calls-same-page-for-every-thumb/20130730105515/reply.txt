@@ -1,0 +1,7 @@
+User: walkerbox
+----
+Date: 2013-07-30 10:55:15
+----
+Text: I'm not sure what the array up top is you are referring to. The code I posted should replace all of the code you posted.
+
+Could you use view source on the page output and post what the result is?

@@ -1,0 +1,9 @@
+User: roman_oroco
+----
+Date: 2012-10-25 23:42:01
+----
+Text: @apolaine Hi, after all have you tried to use the Kirby cache feature? Recently I visit your (link:http://polaine.com/kirbytest/articles/ text:test site) and it seems fast to me.
+
+What hosting do you using? Also do you know if your server hosting has a `SAS Hard Drive`? Thouse are really fast to handle Kirby.
+
+I really need to know if Kirby can handle 500+ articles without problems.

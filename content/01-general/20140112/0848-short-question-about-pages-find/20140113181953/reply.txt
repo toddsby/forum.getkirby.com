@@ -1,0 +1,12 @@
+User: fitzage
+----
+Date: 2014-01-13 18:19:53
+----
+Text: There are a couple of things that could be a problem with the first one. I think the issue is that it's returning an array instead of an individual item, so you just need to add `->first()`.
+
+Like so:
+
+```php
+<?php $productpage = $pages->find($page->product())->first() ?>
+```
+Other potential issue is that `find()` doesn't always work well without a full path, so you could try `findByUID()` instead, which might still need the `->first()` at the end.

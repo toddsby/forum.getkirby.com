@@ -1,0 +1,10 @@
+User: russbaldwin
+----
+Date: 2013-02-11 11:08:46
+----
+Text: It depends on how you set the breaks and your screen size maximum dimension (not browser window size).
+
+Using [this site as a test - the big main image](http://www.andreainsworth.com/)
+
++ On my Mac (1920 x 1200) I get a 1920 x 800 image
++ On my iPad2 (non-retina) I get a 1280 x 533 image

@@ -1,0 +1,5 @@
+User: urgan
+----
+Date: 2014-04-09 22:19:05
+----
+Text: Just to clarify, I don't want to show thumbnails. I want to show the entire post, images and all.

@@ -1,0 +1,9 @@
+Title: BenchMark Kirby CMS
+----
+Date: 2013-02-27 11:25:58
+----
+Solved: 1
+----
+User: russbaldwin
+----
+Text: So how much memory is use by KirbyCMS, we call all do a simple test like [Memory Usage in PHP Frameworks](http://www.laurencegellert.com/2011/06/memory-usage-in-php-frameworks/), but perhaps someone has the time or skill to try the [ php-framework-benchmark](https://github.com/eryx/php-framework-benchmark)?

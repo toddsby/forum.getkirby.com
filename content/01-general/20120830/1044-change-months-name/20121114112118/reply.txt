@@ -1,0 +1,9 @@
+User: loasca
+----
+Date: 2012-11-14 11:21:18
+----
+Text: Thanks Bastian, it works wonders!
+
+Just tried it locally on MAMP and EasyPHP: the former provides translated month names, the latter doesn't (I think it's EasyPHP fault though).
+
+Now, it's there a way to set the _locale_ dinamically when switching language on a multi-language site?

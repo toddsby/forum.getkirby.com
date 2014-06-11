@@ -1,0 +1,7 @@
+User: DanielGenser
+----
+Date: 2012-07-12 11:44:33
+----
+Text: I've implemented the .htaccess modification above, but I have a quick question on this. I have my blog as the home page, so my natural URL schema looks like this: mywebsite.com/home/article-name, where I want the URL to look like this: mywebsite.com/home/article-name. Of course, simply going to mywebsite.com correctly pulls up the blog home page, and going to mywebsite.com/article-name resolves correctly. However the links that my next/back and permalink links generate are mywebsite.com/home/article-name still. How do I prevent that?
+
+Thanks!

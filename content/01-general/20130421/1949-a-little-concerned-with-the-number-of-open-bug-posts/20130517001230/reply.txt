@@ -1,0 +1,11 @@
+User: AlexK
+----
+Date: 2013-05-17 00:12:30
+----
+Text: On the contrary. The complete source is available on GitHub. It is therefor by definition open source. Bastian also charges for it for commercial use.
+
+If you check on GitHub, you will see that issues are being closed all the time. Bastian usually is also active on the forum or there are other users that are able to help out with code snippets. 
+
+As mentioned above and on the blog, Bastian is currently busy on version 2, so yes, it is very actively developed. Also, the current implementation is really stable. I have yet to find a problem I couldn't solve with it.
+
+If all else fails, the code is also really simple—and open source, so fixing things on your own is an option in a pinch.

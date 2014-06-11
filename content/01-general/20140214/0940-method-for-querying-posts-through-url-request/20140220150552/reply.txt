@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2014-02-20 15:05:52
+----
+Text: I haven't analyzed all your code, but you'd probably be farther ahead using the built-in URL parameter method. Check out the "Controlling the filter by URL" section on (link: http://getkirby.com/blog/tagcloud text: this page).
+
+So your URLs would look something like `http://blah.com/category:whatevs` and then to get that value, you just `echo param('category')` or assign it to a variable or whatever you need. To filter based on that you'd do something like `$page->children()->filterBy('categories', param('category'), ',')` or whatever you're dealing with. That particular example will get all children of the current page that have the specific category that's listed in the URL parameter.

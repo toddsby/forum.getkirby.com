@@ -1,0 +1,9 @@
+User: unexpectedsport
+----
+Date: 2013-11-14 21:18:00
+----
+Text: @Lieblingstyp
+
+Hey, thanks so much for your reply. That's an interesting solution. If at all possible, however, I'd like to keep the images in the /detail folder as they are being used in this manner in other sections as detail images.
+
+Is it impossible then to target and loop through a page's specific subfolder?

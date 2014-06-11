@@ -1,0 +1,17 @@
+Title: Displaying thumbnails in project list
+----
+Date: 2014-05-22 13:33:57
+----
+Solved: 1
+----
+User: gintwist
+----
+Text: Greetings!
+
+I'm trying to create a pretty standard portfolio site, where the 'projects' section will list all the thumbnails from each individual project, like a gallery. I don't want to use the thumb plugin and rather create my own. So each of my content projects has images in them: 01.png, 02.png, 03.png, thumb.png. 
+
+How would I list only the thumb.png from each project on the gallery section, and hide it in the individual view.
+
+In case I don't make much sense, here's another kirby site with a a view I want to achieve: http://recollection.com.au/archive
+
+Thanks

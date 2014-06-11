@@ -1,0 +1,16 @@
+Title: Display language variables in another language
+----
+Date: 2013-12-24 08:38:57
+----
+Solved: 0
+----
+User: pavelkozlov
+----
+Text: Hi, I would like to show Default (english) and another language text side by side.  For this purpose I am planning to build a template that in a way repeats itself for 2 langauges, calling field values and variables from the current and the default language. 
+
+I figured out how to call field values from the default language, but got stuck with calling language variables from the default language. 
+
+For example, this will call a variable from the current language:
+< php echo l::get('mybutton')  ?>
+
+Is there a way to call the same variable from the default language (en), if current language is different (i.e. German)?

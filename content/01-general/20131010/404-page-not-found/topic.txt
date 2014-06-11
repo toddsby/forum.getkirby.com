@@ -1,0 +1,13 @@
+Title: 404 Page Not Found
+----
+Date: 2013-10-10 02:45:44
+----
+Solved: 0
+----
+User: rumanamin
+----
+Text: I'm having an issue with my live version of Kirby. It works fine on my local but when I upload to my liver server, the homepage loads fine but the other pages just get a 404 not found error?
+
+I even tried to upload a fresh untouched copy of Kirby to my GoDaddy servers, in the root directory and still get same problem.
+
+Any ideas?!!

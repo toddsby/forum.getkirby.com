@@ -1,0 +1,15 @@
+Title: Responsive.
+----
+Date: 2012-05-16 18:07:40
+----
+Solved: 0
+----
+User: ando_perez
+----
+Text: I'm looking at the simplest (important) way to make my install of Kirby responsive. I have a couple of links from Bastian, to CSS grids and Twitter Bootstrap, but I really need some pointers on where I should start.
+
+I've coded sites, but am a little unsure of what I need to do to change my standard install into a responsive one. After that, I can edit and tinker away happily.
+
+Any help most welcome.
+
+Thanks!

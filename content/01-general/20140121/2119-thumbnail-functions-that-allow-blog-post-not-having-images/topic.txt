@@ -1,0 +1,11 @@
+Title: Thumbnail functions that allow blog post not having images.
+----
+Date: 2014-01-21 21:19:39
+----
+Solved: 1
+----
+User: mzhu11
+----
+Text: I've used thumbnail plugin, but find that if my posts don't have images, I will have PHP error. I know an "if" statement should be used to check if blog has images, but I am not good at PHP. Can anyone share a snippet with such function?
+
+Thanks!

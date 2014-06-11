@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-03-27 08:34:35
+----
+Text: You may find the [Kirby Tookit useful](http://toolkit.getkirby.com/docs/classes/server/get), for more on [SERVER array stuff --see the PHP Manual](http://php.net/manual/en/reserved.variables.server.php).

@@ -1,0 +1,10 @@
+Title: Kirby CMS and Cpanel
+----
+Date: 2013-03-06 15:17:49
+----
+Solved: 0
+----
+User: fhuery
+----
+Text: Hi,
+I sort of have a newbie question. I have a domain with a cpanel backend. Now getting there with a usual website, you would type 'yourdomain.com/cpanel'. I would like to know how to upload my Kirby website on Cpanel and also what to type on the address bar to get to the Kirby panel. Thank you.

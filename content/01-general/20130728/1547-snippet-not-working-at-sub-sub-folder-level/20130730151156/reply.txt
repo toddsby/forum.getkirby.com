@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-07-30 15:11:56
+----
+Text: Try leaving `c::set('url')` and `c::set('subfolder')` as the defaults for both and alter your local .htaccess with `RewriteBase /subfolder`

@@ -1,0 +1,21 @@
+Title: Custom excerpts
+----
+Date: 2013-01-03 15:39:31
+----
+Solved: 1
+----
+User: wordius
+----
+Text: Is it possible to use a custom excerpt?
+
+I’ve been trying to use something similar to that used in Scriptogram, where the excerpt is presented in the document YAML header:
+
+    Title: Doc title
+    ----
+    Date: date
+    ----
+    Excerpt: Some text here
+    ----
+    Text: Some text
+
+But I’m not sure if this is even possible.

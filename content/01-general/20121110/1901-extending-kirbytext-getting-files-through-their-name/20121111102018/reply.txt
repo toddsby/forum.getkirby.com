@@ -1,0 +1,9 @@
+User: chrstphbach
+----
+Date: 2012-11-11 10:20:18
+----
+Text: You might want to check out my extension to create little inline thumbnail galleries. You could use the plugin as it is with just one image or look for the specific part you need in the source code here:
+
+<https://github.com/chbach/kirby-minigallery/blob/master/kirbytext.extended.php>
+
+I think all necessary information should be in there.

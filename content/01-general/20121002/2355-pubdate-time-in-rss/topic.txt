@@ -1,0 +1,23 @@
+Title: pubDate time in RSS
+----
+Date: 2012-10-02 23:55:53
+----
+Solved: 0
+----
+User: marcjenkins
+----
+Text: Hey,
+
+I have followed the blog/RSS guides and it all works except one thing I've noticed. In my RSS feed the pubDate is displayed like so:
+
+Tue, 02 Oct 2012 00:00:00 +0100
+
+Note that there is no time assigned. In the text files I create the date like so: 
+
+Date: 10/02/2012
+
+I don't really want to add a timestamp to each post too. Is there anyway around this?
+
+Cheers
+
+Marc

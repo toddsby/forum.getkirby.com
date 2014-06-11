@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-06-04 10:29:08
+----
+Text: If this is for the front end then the obvious way is visible / invisible from template. Other than that some form of filtering in the template there are lots of ways to do this and plenty of info in the Blog?

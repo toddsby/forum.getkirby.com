@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-05-08 16:33:06
+----
+Text: You can hide things in print style sheets?

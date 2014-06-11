@@ -1,0 +1,12 @@
+Title: Some Text bugs
+----
+Date: 2012-05-17 22:09:19
+----
+Solved: 0
+----
+User: deckfar
+----
+Text: Hello, does anyone have the same issues with text in some browsers (Chrome mostly but also firefox)? It looks like a div came in front or something, it's kind of truncated. I took a screenshot here for it! "http://i.imgur.com/Z2mcj.png". 
+First i tried to load the .css right from the header with the html call but that did not change anything.
+It only appears on the first visit to a website, after one refresh or some browsing the problem disappear.
+PS: Kirby is just a great tool! Thanks!

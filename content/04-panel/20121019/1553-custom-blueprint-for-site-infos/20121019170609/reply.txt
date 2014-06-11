@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-10-19 17:06:09
+----
+Text: The site info definitely needs a blueprint and I have that on my todo list for the next version, but you can already add as many fields to the site.txt as you need (i.e. for the favicon, etc.) The info page in the Panel will automatically recognize those fields and provide text inputs for them.

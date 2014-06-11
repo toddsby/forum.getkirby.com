@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2014-03-22 16:42:45
+----
+Text: I looked briefly at the sitemap plugin, which uses index. It seems that you'd use `$pages->index()` (it appears you don't need $site first), then loop through them as usual, and only display the ones that use the desired template. Pretty much what I mentioned above, but using index.

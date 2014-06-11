@@ -1,0 +1,24 @@
+User: tysongach
+----
+Date: 2012-12-27 17:05:48
+----
+Text: @jonathanbelton:
+
+I found this super confusing the first few times I installed the Panel too.
+
+When the configuration says to rename and move the defaults folder to the `site` folder, it **doesn't** mean the site *root*, it means the folder called `site` that comes with the default Kirby install. So your folders should look something like this:
+
+assets
+content
+index.php
+kirby
+panel (the original panel folder as you downloaded it)
+site
+    → cache
+    → config
+    → panel (**used to be the defaults folder, now called panel and moved under `site`**)
+    → plugins
+    → snippets
+    → templates
+
+Maybe we should nudge Bastian to make this more clear.

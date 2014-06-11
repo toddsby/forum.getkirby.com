@@ -1,0 +1,7 @@
+User: bastianallgeier
+----
+Date: 2012-09-27 22:05:44
+----
+Text: @fitzage did you try the tags field? Even if it is made for tags in the first place you can easily use that to enter related content so you will always be sure to enter the right thing: 
+
+<https://github.com/bastianallgeier/kirbycms-extensions/tree/master/fields>

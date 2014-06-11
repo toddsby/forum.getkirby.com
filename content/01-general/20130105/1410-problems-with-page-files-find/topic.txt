@@ -1,0 +1,22 @@
+Title: Problems with $page->files()->find()
+----
+Date: 2013-01-05 14:10:54
+----
+Solved: 0
+----
+User: macjaeger
+----
+Text: Hiya,
+
+For a slideshow (Juicebox.net) I need the name of a configuration file. The file "config.xml" exists in the slideshow folder, but when I refer to "config.xml" in my template (located in the /site/templates/ folder), I get an error message that the file doesn't exist.
+
+So, I try to get the filename programmatically, something like:
+  configUrl: '<?php $configfile = $page->files()->find('config.xml'); echo $configfile; ?>',
+but that doesn't return the filename but the entire URL (i.e. a href plus description, as literally shown below) of that file in such a way:
+  configUrl: '<a href="http://hostname.com/content/02-slideshows/lipf2008/config.xml">http://hostname.com/content/02-slideshows/lipf2008/config.xml</a>',
+
+Apparently, something is wrong.
+Does anybody have any idea?
+
+Thanks in advance,
+Stephan Jaeger

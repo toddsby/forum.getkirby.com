@@ -1,0 +1,42 @@
+Title: Modular Expansion of a Kirby CMS website
+----
+Date: 2014-01-17 14:49:06
+----
+Solved: 0
+----
+User: j_mes
+----
+Text: Hi,
+
+To start with, I'm a student and I'm looking to develop my portfolio website with Kirby, but I do not have all the pieces of work that I want to display right now. I was thinking about starting a blog with Kirby, then in due time when I have enough examples of my own design work to display, that I could restructure the CMS a bit without changing a lot from it, by expanding it as I go.
+
+I'm looking to do this at the beginning:
+
+### Starting out with
++ 01 - Journal (as frontpage)
++ 02 - About
++ 03 - Contact
+
+
+
+Later on when I'm in a position to expand my portfolio to be online I would like to put it as this structure then, so I'm more curious if this is possible with some rejigging and not too much disruption to the data that would be on the website already.
+
+### Expansion
++ 01 - Frontpage (has a bit of everything)
++ 02 - About
++ 03 - Portfolio
+This to have specific portfolio folders too i.e.
+++ 03.1 - Project 1
+++ 03.2 - Project 2
+++ 03.3 - Project 3
+++ 03.4 - ...
++ 04 - Journal
++ 05 - Contact
+
+
+
+I hope this all makes sense, it does to me but I'm mainly wondering if it's possible to do this without reworking the whole CMS/website completely then?
+
+I look forward to hearing back from you on this.
+
+James

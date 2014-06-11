@@ -1,0 +1,11 @@
+User: tysongach
+----
+Date: 2013-02-05 15:33:22
+----
+Text: Another nudge for this...
+
+After having a live Kirby-driven site for about a month now, I'm realizing how much of a pain it is to keep on top of broken links since everything is manually sorted via the panel.
+
+The site has a list of clients that show alphabetically on the home page. If a client that starts with the letter ‘A’ is placed behind one that starts with ‘T’ in the panel, it will stay that way. But then later, if one realizes the error and then sorts the ‘A’ client to the top where it should be, *all* of the clients’ dirnames down the list change and anything linking to distinct files are broken.
+
+Ultimately, I wish there was a way in the blueprints to **force** subpages to be sorted by dirnames (default), alphabetically and date.

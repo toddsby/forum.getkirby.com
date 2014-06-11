@@ -1,0 +1,5 @@
+User: mvn99
+----
+Date: 2014-05-20 15:18:29
+----
+Text: For anyone interested, I just installed Varnish and was done with it. Now can take approx 40 mio hits per day without error or timeout. Nice.

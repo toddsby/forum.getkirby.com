@@ -1,0 +1,15 @@
+User: sakamies
+----
+Date: 2014-04-03 19:00:07
+----
+Text: I'm not sure attribution really belongs inside the quote, but if you really want it there, you could do something like:
+
+    > Nullam absum lorem ipsum
+    > - Author Name
+
+> Nullam absum lorem ipsum
+> - Author Name
+
+I think you also need to have markdown line breaks set to true in the config for that to work.
+
+    c::set('markdown.breaks', true);

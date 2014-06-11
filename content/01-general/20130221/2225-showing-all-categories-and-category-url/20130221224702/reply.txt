@@ -1,0 +1,5 @@
+User: jesuismaksim
+----
+Date: 2013-02-21 22:47:02
+----
+Text: I did the same few hours ago, you can easily adapt the tagcloud plugin to do what you want ! Simply set options with your field (categories)

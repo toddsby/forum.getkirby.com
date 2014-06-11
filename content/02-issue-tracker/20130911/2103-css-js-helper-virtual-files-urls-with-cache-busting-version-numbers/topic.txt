@@ -1,0 +1,24 @@
+Title: css()/js() helper & "virtual" files (URLs with cache busting version numbers)
+----
+Date: 2013-09-11 21:03:55
+----
+Solved: 0
+----
+User: wiffbi
+----
+Text: To make CSS and JS files cache-friendly (ie. adding long expires headers), I need to add version strings in the URL to bust the HTTP cache. So e.g. 
+
+http://example.com/assets/css/styles.css
+
+should be called like so:
+
+http://example.com/assets/css/styles.123.css
+
+When I use the css()-helper function (css("assets/css/styles.123.css")), this does not work, as css() uses the url()-function, which tries to be a bit too clever and checks if a file exists to not build it as a normal kirby-URL (btw. I have multi-language support enabled). That way, my cache busting URL outputs like so:
+
+http://example.com/de/assets/css/styles.123.css
+
+This of course generates 404.
+
+
+The easy fix is to write the link/script tags as HTML myself, but I like the helpers. :)

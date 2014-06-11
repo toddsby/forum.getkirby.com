@@ -1,0 +1,17 @@
+Title: Echo encrypted e-mail link
+----
+Date: 2013-07-24 15:47:32
+----
+Solved: 0
+----
+User: rappold
+----
+Text: Assuming that I have an e-mail address in my text file like so:
+
+	Email: hello@example.com
+
+Is there a way I can echo an encrypted e-mail link directly in the code, in the same pattern that is used for e.g. YouTube or Vimeo links?
+
+	<?php echo email($about->email()) ?>
+
+I'm creating a list of contact links in the footer and I want to avoid using the kirbytext method, because it wraps the link in `p` tags.

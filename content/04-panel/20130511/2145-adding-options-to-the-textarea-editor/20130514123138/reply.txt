@@ -1,0 +1,38 @@
+User: russbaldwin
+----
+Date: 2013-05-14 12:31:38
+----
+Text: Actually looking at it, I can't see a better way than to alter the code, but it does not seem that hard todo but of course it will break when you next update panel. You can have overlays, like the'email' button or simple text changes like the 'bold' button. I'm going to create a new, and indeed slightly pointless, '***bold-italic***' button. (Also because you have todo more for overlays)
+
++ Add to your site panel blueprint  
+
+```html
+ text: 
+    label: Text
+    type:  textarea
+    buttons: 
+      - h3  
+      - |
+      - bold  
+      - |      
+      - italic
+      - |      
+      - bold-italic     
+  ```
+
++ In the main panel folder (not site) 'panel/languages/en.php' add some stuff to the end of the form buttons...
+
+```php
+'form.buttons.bold-italic' => 'bold-italic',
+'form.buttons.bold-italic.sample' => 'bold-italic text',
+```
+
++ In the main panel folder (not site) 'panel/lib/form.php' add some stuff to the end of the   function buttons($active) $available array ...
+
+```php
+'bold-italic'=>'<a href="bold-italic" rel="tag" data-tag-open="***" data-tag-close="***" data-tag-sample="' . l::get('form.buttons.bold-italic.sample') . '">' . l::get('form.buttons.bold-italic') . '</a>',
+```
+
+And there you have it, a very dapper ***bold-italic*** button...
+
+Use at your own risk, no warranties, it may rain iron men, cats and dogs may start living together etc. ;-)

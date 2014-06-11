@@ -1,0 +1,11 @@
+Title: Kirby CMS is not Wordpress?
+----
+Date: 2013-04-25 09:26:48
+----
+Solved: 0
+----
+User: russbaldwin
+----
+Text: I don't really want to upset anyone here, or indeed speak for Bastian, but in my opinion Kirby CMS is not Wordpress and I do not think it is aimed at the same market.
+
+To get the best out of Kirby you are going to have to understand some PHP, CSS, HTML, Javascript & some server stuff.

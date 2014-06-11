@@ -1,0 +1,9 @@
+User: roobottom
+----
+Date: 2013-03-24 17:26:55
+----
+Text: Think that's probably just a stylistic thing. I'm also after supporting my basic grid in older browsers too.
+
+I'm not sure how CSS could address the issue if the portrait/landscape classes were missing... Anyway, this is all rather off-topic. 
+
+Thanks for your help thus-far though, I think you're right about the routing side of things. I think actually my .htaccess would probably work, but I'm not 100% sure what Kirby does with that information.

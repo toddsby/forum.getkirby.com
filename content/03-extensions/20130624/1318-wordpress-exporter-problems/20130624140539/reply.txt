@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2013-06-24 14:05:39
+----
+Text: Did you also double-check permissions for the folder where articles should be exported to?

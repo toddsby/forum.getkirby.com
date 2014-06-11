@@ -1,0 +1,13 @@
+Title: Video height/width
+----
+Date: 2012-08-17 00:09:05
+----
+Solved: 0
+----
+User: simonscheiber
+----
+Text: I'm using the latest dev build and I somehow get the following error while using the *vimeo tag* without defining height/width (though both are set in the config file): 
+
+<blockquote>Notice: Undefined index: width in ../kirby/parsers/kirbytext.php on line 350</blockquote>
+
+<blockquote>Notice: Undefined index: height in ../kirby/parsers/kirbytext.php on line 351</blockquote>

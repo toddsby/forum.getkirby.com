@@ -1,0 +1,17 @@
+User: texnixe
+----
+Date: 2014-01-11 00:27:02
+----
+Text: It's never easy to answer that sort of question because it really depends on many factors.
+
+The main advantage of Kirby - in my opinion - is that you get a lightweight, flexible and easy to understand and to use CMS that helps you to create the sort of website that you want the way you want it.
+
+While Wordpress and other CMS come with a lot of heavy overweight (like a lot of js-files) that covers all sorts of use cases, Kirby is rather basic in a very positive sense of the word. Its up to you to decide what sort of functionality you want to add to it.
+
+While there are a few "themes" around that you may use - if only as a starting point - the idea is rather to create your own templates. And doing so is not really that difficult with a basic knowledge of PHP and the help of the tutorials on the [Kirby Website](http://getkirby.com).
+
+You can also easily combine Kirby with frameworks like Twitter Bootstrap or Foundation, or use it in conjunction with grid systems like semantic.gs to help you create a responsive website. And of course add all sort of functionality using jquery or whatever.
+
+Having said that, Wordpress certainly has the advantage of having a large community that contributes thousands of plugins that make adding all sort of additional functionality very easy. Certainly a plus if you are not a programmer and want to implement that sort of functionality into your website.
+
+If you don't, Kirby is much easier to adapt to your needs than a system like Wordpress. And since Kirby is free to try you might as well download and install it and follow the tutorials to check if you can make it work.

@@ -1,0 +1,30 @@
+Title: Kirby Pagination 'page:1'
+----
+Date: 2012-10-28 18:01:39
+----
+Solved: 1
+----
+User: roman_oroco
+----
+Text: There is some way to remove or maybe redirect that weird `page:1` from pagination?
+
+Current Kirby result:
+```
+http://site.com/blog/page:1
+http://site.com/blog/page:2
+http://site.com/blog/page:3
+```
+
+Desired correct result:
+```
+http://site.com/blog/
+http://site.com/blog/page:2
+http://site.com/blog/page:3
+```
+
+Or maybe the standard view for *future* Kirby updates:
+```
+http://site.com/blog/
+http://site.com/blog/page/2
+http://site.com/blog/page/3
+```

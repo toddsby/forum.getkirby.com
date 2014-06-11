@@ -1,0 +1,15 @@
+Title: Install issue with custom root folder
+----
+Date: 2012-12-01 07:09:19
+----
+Solved: 0
+----
+User: corvine74
+----
+Text: Hello all, I have the panel installed and it loads but all of the pages that it shows within my site are being link as if they where inside the panel folder.
+
+http://localhost/panel/page instead of http://localhost/page
+
+All of my site files are moved to a "core" folder with content in the base folder.
+
+Do I need to change the $root = dirname(dirname(__FILE__));

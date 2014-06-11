@@ -1,0 +1,14 @@
+Title: Navigation CSS Slash Seperator
+----
+Date: 2013-01-26 06:28:21
+----
+Solved: 1
+----
+User: nathaniel_h
+----
+Text: I'm trying to switch from Wordpress to Kirby. I'm currently testing it out on my seperate domain Rhinofeed.net, but I want to mimict the navigation found on my main website, Rhinofeed.com.
+
+Here's a screenshot:
+http://rhino.im/g/nJ6h.png
+
+I would like slash separators in between each page, but not before and not after the first and last pages. Thanks for your help.

@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2013-01-04 14:31:42
+----
+Text: Well, that thumbnail problem is a bit tricky. I know that the md5 hashes are not great. It was the easiest and most reliable solution though to get this working. Storing thumbnails in the same folder or a subfolder can get messy really quickly. But it might be a good idea to have subfolders in the thumbs folder so that would mirror the structure of the content folder and the names could be unique that way. I will keep that in mind.

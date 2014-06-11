@@ -1,0 +1,6 @@
+User: edusoftdev
+----
+Date: 2014-02-15 14:01:54
+----
+Text: Yah its the file permission and i resolved it.
+make sure that all folders are set to 0755 and your files are set to 0666

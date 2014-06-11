@@ -1,0 +1,13 @@
+User: _PMurphy
+----
+Date: 2013-06-23 23:23:08
+----
+Text: Thanks Tillpro, that part worked. I don't get errors regarding the .htaccess file. My config.php file works with "rewrite, true" now.
+ 
+However, I'm still not seeing the .jpgs I'm placing into any of the content folders.
+
+I'm following the docs/media section, which is a no brainer but for whatever reason it's not working.
+
+I can put .jpg's url in the folder's text file and it shows up but that's kinda kills the whole point of the kirby cms.
+
+hm.

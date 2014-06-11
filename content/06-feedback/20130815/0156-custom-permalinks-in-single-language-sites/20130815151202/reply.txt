@@ -1,0 +1,9 @@
+User: atimoda
+----
+Date: 2013-08-15 15:12:02
+----
+Text: All right, now I can see that you have to activate lang.support to make "URL-Key" work. thanks.
+
+But still, I think it should not be needed to activate lang.support, because that requires to put "/en/" (or whathever other language) in front of every url, even if your website only has one language, which is the most of cases. I think it should not be related with multi-language. it could be a regular feature...
+
+Thanks

@@ -1,0 +1,25 @@
+Title: Embed [snippet] inside of a post?
+----
+Date: 2014-03-13 02:21:24
+----
+Solved: 0
+----
+User: meltajon
+----
+Text: **The Problem**
+
+After a year of using Kirby, I've found that I'm creating a lot more templates and blueprints than should be necessary. Every time, it comes down to the need of putting a snippet in the middle of the page's content.
+
+Example:
+
+Template 1) header snippet, body snippet, footer snippet
+Template 2) header, body1, custom snippet #1, body2, footer
+Template 3) header, body1, custom snippet #2, body2, footer
+
+All of these templates are really the exact same look, with the only exception being the custom snippet in the middle of the content.
+
+**Proposed Solution**
+
+If it were possible to embed a snippet, perhaps like [snippet name="custom1"], this would considerably cut down on the number of templates AND blueprints needed, while opening up a lot more flexibility.
+
+I've tried to think of other possible solutions, but this seems like the most powerful and elegant. Hope you consider this!

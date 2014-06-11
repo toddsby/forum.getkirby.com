@@ -1,0 +1,26 @@
+Title: How to access images in a page's subfolder?
+----
+Date: 2013-11-12 21:58:50
+----
+Solved: 0
+----
+User: unexpectedsport
+----
+Text: Hi all,
+
+I'm working on a Carousel gallery, and trying to figure out how to access all the images in a page's subfolder. So imagine the page is called carousel:
+
+..01-carousel
+....carousel.txt
+..../detail/
+......image1.jpg
+......image2.jpg
+......image3.jpg
+
+I guess what I'm looking for is something like the **$page->images()** function, but targeting only the images in the **/detail** subfolder, not the page's folder. Here is my code so far (working fine with the images in the page folder, but I want only the images in /detail):
+
+	<?php $n=0; foreach($page->images() as $image): $n++; ?>
+	<div class="item<?php if($n==1) echo ' active' ?>">
+		<img src="<?php echo $image->url() ?>" alt="<?php echo html($image->title()) ?>" class="img-responsive" />
+
+Is this possible? Thanks so much for any help you can offer!

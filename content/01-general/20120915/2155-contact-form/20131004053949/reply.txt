@@ -1,0 +1,11 @@
+User: rizkysyazuli
+----
+Date: 2013-10-04 05:39:49
+----
+Text: Hi all,
+
+Is there any specific requirement or something to install/activate for sending with PHP mail function? I'm unable to send any email using this method.
+
+I've tested the plugin using Postmark and it runs just fine. Will try Amazon SES soon. But i prefer to use the (free) native function.
+
+Thx.

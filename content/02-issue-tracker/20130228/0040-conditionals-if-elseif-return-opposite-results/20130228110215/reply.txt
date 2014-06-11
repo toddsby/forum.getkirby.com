@@ -1,0 +1,17 @@
+User: russbaldwin
+----
+Date: 2013-02-28 11:02:15
+----
+Text: The code is not quite right, but also you should check if your *$workshop->category()* is it actually a string, I've added *strval* below, just in case ;-)
+
+Try this, not tested:
+
+```php 
+<?php if(strval($workshop->category()) =='studio') echo "studio" ?>
+```
+
+If you are sure it is a string then this would suffice:
+
+```php 
+<?php if($workshop->category() =='studio') echo "studio" ?>
+```

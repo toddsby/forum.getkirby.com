@@ -1,0 +1,7 @@
+User: psztrnk
+----
+Date: 2013-02-20 20:08:08
+----
+Text: Hi, 
+
+thanks! Tried that before, but it seems to return a UNIX(ish) timestamp (10 digits without separation). I'm running Kirby on localhost (wamp), can this be the problem? Or should I just find a way to convert it to a "human readable" format?

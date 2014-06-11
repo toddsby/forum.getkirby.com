@@ -1,0 +1,6 @@
+User: russbaldwin
+----
+Date: 2013-05-14 08:03:50
+----
+Text: Not sure why you would want to do this, but you can use tagcloud on a set of pages, but your set is empty `find('')`.
+When you have a set just loop through the returned results...

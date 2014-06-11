@@ -1,0 +1,5 @@
+User: danielriversuk
+----
+Date: 2013-11-20 10:56:14
+----
+Text: I will be looking at writing a Event plugin for a project if Kirby is what I finally settle in (which is likely)

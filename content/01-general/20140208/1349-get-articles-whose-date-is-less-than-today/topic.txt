@@ -1,0 +1,10 @@
+Title: get articles whose date is less than today
+----
+Date: 2014-02-08 13:49:41
+----
+Solved: 0
+----
+User: edusoftdev
+----
+Text: A.O.A I have made a site in kirby, i wand to get articles whose date is less than today.
+Actually i have made ecards website in which we can add ecards for upcoming events and they should not appear before there event days.Thanks for reply in advance.

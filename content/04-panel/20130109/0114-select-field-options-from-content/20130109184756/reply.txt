@@ -1,0 +1,12 @@
+User: fitzage
+----
+Date: 2013-01-09 18:47:56
+----
+Text: If I understand correctly, you can set up a blueprint with a "tags" field type, and that will give you a field that auto-completes based on the same field in sibling articles. Like this:
+
+    categories:
+        label: Categories
+        type: tags
+        index: siblings
+
+It wan't give you a select list, but it will let you start typing and then auto-complete.

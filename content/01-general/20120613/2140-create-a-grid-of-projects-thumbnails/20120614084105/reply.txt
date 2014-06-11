@@ -1,0 +1,41 @@
+User: bastianallgeier
+----
+Date: 2012-06-14 08:41:05
+----
+Text: What you need to do is to add a new templates for your projects overview page. So I suppose you got a projects content folder with a projects.txt and many subfolders for each projects with a project.txt in a each subfolder. You would also store all the images for each project in those subfolders. 
+
+So since you got a projects.txt for the main projects page, just add a projects.php template to site/templates. Open that file in your favorite editor and add the following code to create a list of projects with the first image as link: 
+
+```
+  
+<ul>
+  <?php foreach($page->children() as $project): ?>  
+  <li>      
+    <a href="<?php echo $project->url() ?>"><img src="<?php echo $project->images()->first()->url() ?>" alt="<?php echo html($project->title()) ?>" /></a>
+  </li>
+  <?php endforeach ?>  
+</ul>
+
+```
+
+You can easily extend this with more HTML. Maybe you want to show the title below each image or something. You could also change the sorting of projects 
+
+```
+<?php foreach($page->children()->flip() as $project): ?>  
+```
+
+or 
+
+```
+<?php foreach($page->children()->sortBy('title', 'desc') as $project): ?>  
+```
+
+or you can limit the number of projects
+
+```
+<?php foreach($page->children()->limit(10) as $project): ?>  
+```
+
+You could even use the same pagination code, which is used in the blog tutorial: <http://getkirby.com/blog/add-pagination-to-your-blog>
+
+So this could become quite flexible. I hope it helps for a start. Just let me know if you need more instructions :)

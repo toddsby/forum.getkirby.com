@@ -1,0 +1,26 @@
+Title: Extending Kirbytext : getting files through their name
+----
+Date: 2012-11-10 19:01:32
+----
+Solved: 0
+----
+User: joachimesque
+----
+Text: I've been extending kirbytext, because I need a few more tags and shortcut very specific to a typography-heavy, grid-based contents.
+
+All my custom kirbytext tags went OK until I had to work on image tags.
+
+To get this result :
+
+    <a href="a-big-image.png" class="lightbox_reactive aside pull-by-one"><img src="a-pretty-thumbnail.png" /><br />Look, you can click it!</a>
+
+I want to write a kirbytext tag like this :
+
+    (lightboxlink: a-big-image legend:Look, you can click it! class: aside pull-by-one)
+
+The problem is that I don't know :
+
+* how to access to the image url & metadata, with only its name (like I would get with `$file-name()` in a template)
+* how to call the thumbnail url, based on the image name, url or whatever
+
+Thanks in advance !

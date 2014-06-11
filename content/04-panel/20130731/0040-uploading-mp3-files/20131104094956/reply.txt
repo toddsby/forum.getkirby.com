@@ -1,0 +1,11 @@
+User: rappold
+----
+Date: 2013-11-04 09:49:56
+----
+Text: Hey Trav!
+
+Adding the line to the .htaccess file didn't work at first, but then I also added audio/mpeg to both, .htaccess and config-file, and that was it!
+
+Thanks for the hint!
+
+Philipp

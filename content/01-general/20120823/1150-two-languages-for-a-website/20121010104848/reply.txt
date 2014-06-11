@@ -1,0 +1,13 @@
+User: bastianallgeier
+----
+Date: 2012-10-10 10:48:48
+----
+Text: Sorry Simon! I messed that up. 
+
+It should be: 
+
+```php
+$pages->find('uid', 'about-us')->content('en')->title();
+```
+
+I urgently need to document this!! :)

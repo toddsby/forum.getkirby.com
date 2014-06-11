@@ -1,0 +1,5 @@
+User: dokdeleon
+----
+Date: 2013-06-27 06:19:51
+----
+Text: @MatthewOlczak, can you show the code you used to display the image with numbers in the filename? Numbers with text should be ok for any file's filename.

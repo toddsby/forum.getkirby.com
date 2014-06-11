@@ -1,0 +1,30 @@
+User: bastianallgeier
+----
+Date: 2012-08-24 17:08:33
+----
+Text: The problem with my tag tutorial is that it does not handle special characters very well, just because there's a simple missing thing – urldecode()! Check out this example: 
+
+```php
+
+if(param('tag')) {
+
+  $articles = $pages->find('blog')
+                    ->children()
+                    ->visible()
+                    ->filterBy('tags', urldecode(param('tag')), ',')
+                    ->flip()
+                    ->paginate(10);
+
+} else {
+
+  $articles = $pages->find('blog')
+                    ->children()
+                    ->visible()
+                    ->flip()
+                    ->paginate(10);
+
+}
+
+```
+
+This should fix it.

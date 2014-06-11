@@ -1,0 +1,13 @@
+Title: Add new fields in Information Panel
+----
+Date: 2014-04-28 17:28:12
+----
+Solved: 1
+----
+User: kryz_tho
+----
+Text: Can we add fields in the information's Panel?
+I wanted more fields than **Title**, **Author**, **Description**, **Keywords** and **Copyright**.
+Thank's for your help
+
+Edit : sorry I haven't see this topic : http://getkirby.com/forum/panel/topic:965

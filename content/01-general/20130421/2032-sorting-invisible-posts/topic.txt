@@ -1,0 +1,11 @@
+Title: Sorting invisible posts?
+----
+Date: 2013-04-21 20:32:22
+----
+Solved: 0
+----
+User: brandondurham
+----
+Text: I'm working on moving a project into Kirby that resembles a book in that there are "Chapters" instead of blog posts or pages. At the end of each chapter I offer a link to the next. If it's the last chapter that's been posted I instead offer a "Coming soon — Chapter 6: Chapter Name" text. I ma have multiple invisible chapters sitting in the directory, so I'd like to know:
+
+Is there a way to sort the invisible directories and grab just the first one returned?

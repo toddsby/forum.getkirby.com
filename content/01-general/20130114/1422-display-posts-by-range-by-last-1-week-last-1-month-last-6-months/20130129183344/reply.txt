@@ -1,0 +1,11 @@
+User: fitzage
+----
+Date: 2013-01-29 18:33:44
+----
+Text: Currently, you'll have to build it all out yourself with a crapload of PHP conditionals. I imagine if you know what you're doing you could build a plugin.
+
+You'll have to manually compare the current date to the date of the posts, probably after converting both to a format that's easily compared mathematically.
+
+I'm not sure how you would go about doing the links exactly. It might be easiest to pass the desired option in a URL parameter. Like /archive/time:month and then if that URL parameter exists, kick in the correct conditional on the archive template, and if that parameter doesn't exist, just show the entire archive.
+
+I'd give you some sample code, but that's a crapload of code and I haven't tested any of it, so you're on your own. :-)

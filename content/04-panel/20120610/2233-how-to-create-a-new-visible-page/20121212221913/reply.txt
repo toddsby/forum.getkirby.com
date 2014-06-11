@@ -1,0 +1,11 @@
+User: th451
+----
+Date: 2012-12-12 22:19:13
+----
+Text: I'd like to vote for this too, if possible! 
+
+While I agree that there should be a way to first create a page as a draft and then make it live, for me it's quite counter-intuitive to use 'Sort' button for an action that I would describe as 'Publish'. 
+
+What I propose is having two buttons when we edit a page: 'Save as draft' and 'Publish'. It's quite obvious that drafts will be invisible and published pages will be displayed live on site.
+
+P.S. Other than that congratulations on creating a fantastic engine, loving it!

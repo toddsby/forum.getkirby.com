@@ -1,0 +1,9 @@
+User: bastianallgeier
+----
+Date: 2012-07-19 11:39:34
+----
+Text: I couldn't resist and built a plugin for this: 
+
+<http://getkirby.com/blog/related-pages-plugin>
+
+:)

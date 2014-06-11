@@ -1,0 +1,11 @@
+Title: Track TinyURL
+----
+Date: 2013-08-04 20:05:28
+----
+Solved: 0
+----
+User: aqeelfikree
+----
+Text: Using Kirby's TinyURL is a breeze. Is there a way of tracking how many times it was clicked, or say if I incorporate the generated tinyurl in a "tweet this" share button, how can I track how many times it's been shared.
+
+That said, I'm fully aware about bit.ly

@@ -1,0 +1,9 @@
+User: namaless
+----
+Date: 2014-03-13 12:48:22
+----
+Text: @timgauthier Hi, you can explain me what you use? I wanna try to sending email with and without smpt service (_one client send over 6000 emails/month_ lol).
+
+If I can help you I'm happy.
+
+I waiting your reply.

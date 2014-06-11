@@ -1,0 +1,51 @@
+Title: Getting the Panel to work with subfolders
+----
+Date: 2013-01-31 14:15:49
+----
+Solved: 0
+----
+User: lewisjenkins
+----
+Text: Let's say I have a fresh installation of Kirby, in a subfolder:
+
+    root
+        subfolder
+            assets
+            content
+            kirby
+            site
+            index.php
+            .htaccess
+
+I create a new .htaccess in the root:
+
+    RewriteEngine On
+    RewriteRule ^(.*)$ /subfolder/$1
+
+I set the following line in config.php
+
+    c::set('subfolder', '/');
+
+Great - everything works. I can click around the demo site, no problem.
+
+Next, I install the panel:
+
+    root
+    .htaccess <-- (.htaccess added to root)
+        subfolder
+            panel <-- (panel added to subfolder)
+            assets
+            content
+            kirby
+            site
+            index.php
+            .htaccess
+
+I browse to /panel to complete the installation, but get the following error in Chrome ...
+
+    /panel/error
+
+    This web page has a redirect loop
+    The web page at /panel/error has resulted in too many redirects.
+
+I've been banging my head on this one for two hours now... PLEASE HELP :)

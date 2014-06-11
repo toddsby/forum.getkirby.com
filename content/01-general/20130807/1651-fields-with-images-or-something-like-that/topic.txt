@@ -1,0 +1,20 @@
+Title: Fields with images or something like that
+----
+Date: 2013-08-07 16:51:27
+----
+Solved: 1
+----
+User: serafsky
+----
+Text: Hello,
+
+Kirby is very cool! ;)
+
+I want to create a page that can contain two fields with each several images.
+For example:
+All the product pages must have two parts.
+A part with Items images and a part with Components images.
+I want that a default product page has two fields that can be filled in with several images.
+Is it possible or not? and how? :)
+
+Thank you.

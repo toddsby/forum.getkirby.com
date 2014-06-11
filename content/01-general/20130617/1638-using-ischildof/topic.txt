@@ -1,0 +1,25 @@
+Title: Using isChildOf?
+----
+Date: 2013-06-17 16:38:49
+----
+Solved: 0
+----
+User: ignaty
+----
+Text: Hi,
+
+Hope you are well.
+
+I have an category "Work" located at website.com/work/ and want to display something only on children pages of this category.
+
+I guess that best way will be to check if child is really a child of that category using "isChildOf".
+
+So logically I am doing it as:
+
+`<?php if($page->isChildOf('work')): ?>
+ba dum tss
+<?php endif ?>`
+
+but, (there's always butts) nothing is happening.
+
+P.S. I tried to check for right parent name with "<?php echo $page->parent(); ?>" which is displaying full URL to the parent. Is that right?

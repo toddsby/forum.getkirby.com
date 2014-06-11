@@ -1,0 +1,20 @@
+User: ChrisjMartin87
+----
+Date: 2012-12-22 00:58:34
+----
+Text: Hey Lulezi,
+
+
+I have tried the above code but nothing is being returned.
+
+     <?php $projects = $pages->find('audio')->children()->visible() ?>
+     <?php foreach($projects as $project): ?>
+     <li class="item two-thirds column">
+     <a href="<?php echo $project->url() ?>"><?php echo $project->title() ?></a> / 
+     <?php foreach($project->sounds() as $sound) {$path = $sound->url();}?>
+     </li>
+     <?php endforeach ?>
+
+The only other way i have been able to get it to work correctly is by modifying the kirby source files but i'd prefer a way without having to do this if possible.
+
+The above code is correct isnt it?

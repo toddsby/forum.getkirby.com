@@ -1,0 +1,11 @@
+Title: DomainGo (German)
+----
+Date: 2013-02-05 10:27:30
+----
+Solved: 0
+----
+User: bastianallgeier
+----
+Text: The Kirby site is running successfully on a DomainGo shared "Power Paket L" plan. Unfortunately the Kirby forum has been down a couple times for some users, which now seems to be resolved. Besides that I never had any issues. It's really cheap shared hosting so don't expect any fancy bells and whistles, but in my opinion the performance is top notch for the price I pay (3.99 € per month). The only downside is that the entire service is targeted at German clients. 
+
+<http://domaingo.de>

@@ -1,0 +1,8 @@
+User: KirilGichevski
+----
+Date: 2013-08-22 11:05:00
+----
+Text: I am new to kirby and I am really annoyed about the default <p> wrapping tags. So is it a good idea to just comment markdown.php line 474. 
+I know changign the core is always bad idea but what do yout think ?
+I would use some help on this :D 
+Thanks !!!!

@@ -1,0 +1,15 @@
+User: russbaldwin
+----
+Date: 2012-11-13 16:36:20
+----
+Text: Not sure what you are after but you could add a class to a menu snippet, below is a simplified example using the page uid as the class. You probably want a bit more in it than this ;-)
+
+	<nav id="menu" role="navigation">
+	<ul>
+	<?php foreach($pages->visible() AS $p): ?>
+	<li><a href="<?php echo $p->url() ?>" class="<?php echo $p->uid() ?>"><?php echo html($p->title()) ?></a></li>
+	<?php endforeach ?>
+	</ul>
+	</nav>
+
+Another option maybe to put the class on the body if you want to target the whole page?

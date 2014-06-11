@@ -1,0 +1,14 @@
+User: walkerbox
+----
+Date: 2013-08-12 11:29:40
+----
+Text: I went ahead and threw up a quick gist.
+
+<https://gist.github.com/Grotfang/6209423>
+
+Usage would be something like:
+
+    $download = $page->files()->first(); 
+    Download::output($download->root());
+
+This assumes each page will only have one downloadable file associated with it. In your template, you would just need to call the Auth plugin before that. Just don't include any whitespace at the beginning of the file.

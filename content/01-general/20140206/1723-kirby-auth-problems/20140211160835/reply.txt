@@ -1,0 +1,17 @@
+User: kamptweets
+----
+Date: 2014-02-11 16:08:35
+----
+Text: Thanks again. :) 
+
+Well, removing the AUTH folder gives the following error.
+
+Fatal error: Class 'Auth' not found in /www/htdocs/w00586db/tonevariations/site/templates/default.php on line 1
+
+
+That makes sense, since i added the php "firewall" one-liner to my default php (as suggested in the auth setup instructions) which would not work without the auth folder obviously.
+
+If i remove that line from default.php everything works fine.
+
+I may try to configure everything from scratch again. But i think i did that twice already. 
+hmm...

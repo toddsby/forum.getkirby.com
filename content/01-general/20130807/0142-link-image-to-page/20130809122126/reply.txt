@@ -1,0 +1,5 @@
+User: aqeelfikree
+----
+Date: 2013-08-09 12:21:26
+----
+Text: Implementing that did exactly what I thought it would. It reproduced the first image in addition to the image by the post, which means  I got two images, the first clickable and a duplicate. Not what I want.

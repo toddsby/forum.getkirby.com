@@ -1,0 +1,11 @@
+User: staroversky
+----
+Date: 2013-04-25 03:24:27
+----
+Text: Got it. I did not know that the themes were different. I thought that it was just a matter of copying the right code from this website. 
+
+I wonder if the tags function will be better implemented in in Kirby 2 because logically, what the official site has should be easily available in the code.
+
+I'll play around with Kirby a bit more to see if it works for me. 
+
+Thank you for all your help.

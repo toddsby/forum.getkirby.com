@@ -1,0 +1,12 @@
+User: screencuts
+----
+Date: 2014-03-10 19:36:34
+----
+Text: I am not entirely sure what you are asking here. What you've written in terms of assigning the $path_to_file seems about right. What exactly is the problem?
+
+Instead of using `$_SERVER['DOCUMENT_ROOT']`, you could also use Kirby's global variables set in index.php, for example:
+
+    global $rootSite;  // will usually be the same as $_SERVER['DOCUMENT_ROOT'];
+    $path_to_file = $rootSite.'/path/to/file/file.txt';
+
+Look at index.php in the root directory of the site for other such global path variables.

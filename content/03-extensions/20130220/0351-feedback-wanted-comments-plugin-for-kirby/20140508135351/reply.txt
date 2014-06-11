@@ -1,0 +1,5 @@
+User: DerZyklop
+----
+Date: 2014-05-08 13:53:51
+----
+Text: If someone is searching for a comments-plugin version that works with kirby 2 (beta 1), you might want to have a look at <http://der-zyklop.de/blog/kirby-2-beta-1-comments-plugin>

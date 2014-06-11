@@ -1,0 +1,8 @@
+User: russbaldwin
+----
+Date: 2013-02-15 15:50:22
+----
+Text: I am not familiar with this but:
+Does this need a 'like.txt' file to write to? 
+Did you create that as well? 
+Is it writeable?

@@ -1,0 +1,21 @@
+Title: Pass variable in files()->find()
+----
+Date: 2013-07-09 06:38:06
+----
+Solved: 1
+----
+User: jessbordeau
+----
+Text: Hi, 
+
+I am sure I am missing something very simple but when I try to pass a variable in <code>$page->files()->find()</code>, I get the errors: 
+
+<code>Warning: Illegal offset type in isset or empty in /Site/www/kirby/lib/kirby.php on line 156
+Fatal error: Call to a member function url() on a non-object in /Site/www/site/templates/design.php on line 16</code>
+
+My code is like this: 
+
+<code>$thumb = $article->thumb();
+echo $article->files()->find($thumb)->url();</code>
+
+Thanks for the help.

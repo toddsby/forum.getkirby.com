@@ -1,0 +1,5 @@
+User: bytte
+----
+Date: 2013-02-22 10:32:46
+----
+Text: Have you checked the path settings in your settings file and htaccess file as outlined (link: http://getkirby.com/docs/getting-started text: over here in the docs)?

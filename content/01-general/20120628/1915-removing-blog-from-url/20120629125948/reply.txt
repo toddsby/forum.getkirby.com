@@ -1,0 +1,16 @@
+User: bastianallgeier
+----
+Date: 2012-06-29 12:59:48
+----
+Text: Since you set the blog to be your homepage, you already can access your articles without "blog" in the URL. Just give it a try :)
+
+You can add a simple rule to your htaccess (right before the closing </IfModule>):
+
+```
+RedirectMatch 301 ^/blog/(.*)$ /$1
+```
+This will make sure that URLs with blog will be redirected to the blog-less version. 
+
+I hope this helps. 
+
+Cheers, Bastian

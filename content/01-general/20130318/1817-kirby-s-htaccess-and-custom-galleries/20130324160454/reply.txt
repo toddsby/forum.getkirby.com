@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-03-24 16:04:54
+----
+Text: I was thinking about you portrait/landscape and classes for first and last. I was thinking just number the classes with an 'c++index' and then they are unique and you can set the breaks in CSS to make it more flexible and use responsive CSS for when you design needs to change.

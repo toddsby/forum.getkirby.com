@@ -1,0 +1,9 @@
+Title: Sections
+----
+Date: 2014-02-19 17:11:54
+----
+Solved: 1
+----
+User: hamishtaplin
+----
+Text: Just getting started with Kirby and loving it so far. One thing I am wondering is how best to structure my content. I get the impression that all of the 'content' for a page (not assets) has to be in a single markdown file (happy to be corrected there). Therefore, how does one delimit 'sections' within that content? So each page might have a sidebar with a list of stuff in it that would require a title and a list. Would you just prefix the content with 'sidebar_title' and 'sidebar_list' for example?

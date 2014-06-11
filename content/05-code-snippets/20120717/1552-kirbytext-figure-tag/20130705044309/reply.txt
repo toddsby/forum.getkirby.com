@@ -1,0 +1,6 @@
+User: Vagari
+----
+Date: 2013-07-05 04:43:09
+----
+Text: I found the following post to be very helpful. Tweaking the `markdown.extra.php` file.
+[kirbytext with images < p > tag problem](http://getkirby.com/forum/issue-tracker/topic:16)

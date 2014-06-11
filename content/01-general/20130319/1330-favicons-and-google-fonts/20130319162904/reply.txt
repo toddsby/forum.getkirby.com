@@ -1,0 +1,13 @@
+User: tysongach
+----
+Date: 2013-03-19 16:29:04
+----
+Text: Yeah. Here’s what I do:
+
+```php
+
+<link rel="shortcut icon" href="<?= url('assets/img/favicon.ico') ?>">
+
+```
+
+Hope that helps.

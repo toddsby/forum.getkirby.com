@@ -1,0 +1,9 @@
+User: atimoda
+----
+Date: 2013-08-05 17:16:52
+----
+Text: Because the content is dynamic... the data comes from external database.
+
+The best situation for me is to work exacly the way I described... I could do a 301 redirect, but I still prefer to accomplish this by RewriteRule because of simpler URLs, plus all external links and google crawling are actually pointing to these URLs.
+
+Thanks!

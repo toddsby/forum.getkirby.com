@@ -1,0 +1,13 @@
+Title: redirect helper "go()" PHP error, do I need to install Kirby Toolkit?
+----
+Date: 2014-01-16 16:58:28
+----
+Solved: 1
+----
+User: mzhu11
+----
+Text: I need to redirect a subpage to other website such as "http://www.google.com", so I tried go(); function, had an error "Header has been sent by..." Also "go()" is not defined. Do I need the toolkit in order to use this helper?
+
+Anyone can show me an example of successful redirecting? I'm in MAMP environment so far. And how to use kirby toolkit?
+
+Any thoughts will be appreciated!

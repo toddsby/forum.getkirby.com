@@ -1,0 +1,25 @@
+Title: Automatically recalculate images - how to?
+----
+Date: 2013-04-24 01:47:08
+----
+Solved: 1
+----
+User: staroversky
+----
+Text: Please note that I am a complete php noob.
+
+On this page: http://getkirby.com/docs/media
+
+I see this code:
+
+****
+
+	<?php $image = $page->images()->find('01.jpg')->fitWidth(200) ?>
+	
+	<img src="<?php echo $image->url() ?>" width="<?php echo $image->width() ?>" height="<?php echo $image->height() ?>" />
+
+****
+
+I can't figure out where specifically do I insert this code so that all the images that I post on my blog (and pages) will be recalculated just like they are resized in Wordpress? I know that recalculate and resize are different.
+
+Thanks.

@@ -1,0 +1,15 @@
+User: alexwichti
+----
+Date: 2014-01-29 15:05:03
+----
+Text: Hi Guys,
+
+even though this thread is a bit old, I just wanted to contribute a working Web.Config file, since I just needed it for running Kirby on Windows Azure ;-)
+
+See http://pastebin.com/eVicUuYp
+
+What helped me was this little tip: http://blog.mdavies.net/2013/05/25/azure-websites-htaccess-rewrite-web-config/
+-> IIS itself has a tool that converts the .htaccess rules into web.config rules. Quite handy. And worked like a charm!
+
+Greetings
+Alex

@@ -1,0 +1,13 @@
+Title: Dates do not appear in my blogarticle.txt files?
+----
+Date: 2014-04-29 21:21:05
+----
+Solved: 0
+----
+User: djnickburrett
+----
+Text: Dates do not appear in my blogarticle.txt files?
+
+Am I doing something wrong?
+
+https://www.dropbox.com/sh/jgtp8jwxngwiem2/ukBcdi4R2t

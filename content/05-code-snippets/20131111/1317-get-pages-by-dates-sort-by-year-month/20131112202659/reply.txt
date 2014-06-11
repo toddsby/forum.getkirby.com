@@ -1,0 +1,9 @@
+User: fvsch
+----
+Date: 2013-11-12 20:26:59
+----
+Text: I’ve identified one possibly big issue:
+
+If a user of the function uses `'group'=>'year'` or `'group'=>'month'` options, they’ll probably use the relevant template code with nested `foreach` loops. The issue here is that if they misspelled the grouping option or forgot to set it, or any other issue or bug in the function, the function will return an array of page objects. So nested `foreach` will loop on properties and methods of each page object, perhaps with some recursion going on. This generates a lot of bogus HTML and hangs at least the browser, if not PHP itself. *Not good.*
+
+Fix: the next version of `pagesByDate` will return URIs instead of page objects. I’ve amended the function on my side, and the template code examples (it’s just one more line per example), and it works fine and negates this risk.

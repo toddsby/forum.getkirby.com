@@ -1,0 +1,9 @@
+User: danjessen
+----
+Date: 2013-02-28 09:34:15
+----
+Text: there has to be a better way to do this ... not that i don't like the hack, but its a hack :)
+
+Kirby needs a more minimalistic way to extend. I'm not saying I want big and advanced module and plugin support, but some simple way to hook into the request and do some kind of "middleware" plugin and extension would make Kirby my goto CMS for every project :)
+
+And feel free to correct me, if I have missed something in Kirby development. I've not read and used every aspect of Kirby yet.

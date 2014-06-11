@@ -1,0 +1,7 @@
+User: loliism
+----
+Date: 2014-03-20 23:20:36
+----
+Text: If I brush up my PHP I should be able to do it. :)
+
+Most of the galleries that will have to be tracked will be "hidden" pages in Kirby, not to be indexed by search engines, so maybe GA wouldn't be able to keep track of them...? But I'll look into it - if GA can be used it would indeed be a convenient solution.

@@ -1,0 +1,50 @@
+Title: Alterate/skip the same articles in multiple loops
+----
+Date: 2013-03-01 12:46:46
+----
+Solved: 1
+----
+User: roman_oroco
+----
+Text: I have two article loops, the first one is for *featured articles* and the last one is for all *latest articles*. It's possible to "alter/skip" featured articles so they will no longer displayed in latest articles too?
+
+```
+<!-- Featured articles loop -->
+<section class="featured slideshow">
+  <ul>
+    <?php $articles = $pages->find('articles')
+                            ->children()
+                            ->visible()
+                            ->filterBy('featured', 'On')
+                            ->sortBy('date', 'desc')
+                            ->paginate(2); ?>
+
+    <?php foreach($articles as $article): ?>
+    <li>
+      <h1>
+        <a href="<?php echo $article->url() ?>"><?php echo $article->title() ?></a>
+      </h1>
+      <?php echo kirbytext($article->description()) ?>
+    </li>
+    <?php endforeach ?>
+  </ul>
+</section>
+
+<!-- Latest articles loop -->
+<section class="latest">
+  <?php $articles = $pages->find('articles')
+                          ->children()
+                          ->visible()
+                          ->sortBy('date', 'desc')
+                          ->paginate(8); ?>
+
+  <?php foreach($articles as $article): ?>
+  <article class="normal">
+    <h1>
+      <a href="<?php echo $article->url() ?>"><?php echo $article->title() ?></a>
+    </h1>
+    <?php echo kirbytext($article->description()) ?>
+  </article>
+  <?php endforeach ?>
+</section>
+```

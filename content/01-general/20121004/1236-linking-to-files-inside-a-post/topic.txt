@@ -1,0 +1,23 @@
+Title: Linking to files inside a post
+----
+Date: 2012-10-04 12:36:13
+----
+Solved: 0
+----
+User: apolaine
+----
+Text: I've had a search through the docs and forum about this, but couldn't find what I needed, so my apologies if this is an obvious question:
+
+I know I can link to files (e.g. images) inside an article/page folder with the template fields. This works for galleries where you're doing a loop to just bring in all the images in the folder and using the template to hook it in using Kirby's variables.
+
+My question is what the best way to link to files, such as a PDF, is in the body of the post (e.g. with Markdown)? I'd like my structure to be
+
+-- 09-my-article-folder
+----- article.txt
+----- somefile.pdf
+
+I can't simply write in my Markdown a local link to "somefile.pdf" because it doesn't pick up the correct base URL. And even using a URL like "./my-article-folder/somefile.pdf" doesn't work because "my-article-folder" is not a real file path URL (because the real directory is 09-my-article-folder).
+
+At the moment, I solved this by having a downloads folder in the top level of the content folder and linking with "../content/downloads/somefile.pdf" in the Markdown of the post but it would be nicer to have the files associated with the article in the article's folder.
+
+Am I being stupid here or does someone have a suggestion?

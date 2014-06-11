@@ -1,0 +1,35 @@
+Title: trouble with the $pages->findOpen() function
+----
+Date: 2012-11-07 15:28:26
+----
+Solved: 0
+----
+User: lunelson
+----
+Text: I have a page structure like this
+
+```
+01-section-1
+	01-sub_section-1
+	02-sub_section-2
+02-section-1
+	01-sub_section-1
+	02-sub_section-2
+```
+
+and the following code at the beginning of my content snippet
+
+```
+$sections = $site->pages()->visible();
+$current_section = $sections->findOpen();
+$sub_sections = ($current_section) ? $current_section->children()->visible() : false;
+$current_sub_section = $sub_sections->findOpen();
+```
+
+When I set the home page in the `config.php` file to a `section` page it works fine, but if I set the home page to `section/sub_section` I get a PHP error for the last line of the code above, telling me
+
+```
+Fatal error: Call to a member function findOpen() on a non-object
+```
+
+I'm probably missing something here but I can't figure it out...

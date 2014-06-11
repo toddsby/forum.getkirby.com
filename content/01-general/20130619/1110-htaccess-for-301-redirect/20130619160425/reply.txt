@@ -1,0 +1,15 @@
+User: 5w
+----
+Date: 2013-06-19 16:04:25
+----
+Text: @russ,
+
+Thanks for your link. It helped me to figure out the right syntax!
+
+I used the apache directives used in Kirby original.htaccess file as part of my virtualHost settings as it allows some performance gain AND save me from having to set multiple .htaccess
+
+The code I used to redirect my old static site to kirby enabled site is as follow:
+
+    Redirect /folderName/ArticleName   /newFolderNameBasedOnKirbySetup/ArticleName
+
+Hope this helps anyone who may encounter the same problem as me

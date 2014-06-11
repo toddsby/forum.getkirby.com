@@ -1,0 +1,13 @@
+User: bydsply
+----
+Date: 2012-11-02 11:40:41
+----
+Text: Little error,
+
+    return implode("n", $output);
+
+Par :
+
+    return implode("/n", $output);
+
+Yes?

@@ -1,0 +1,8 @@
+User: bastianallgeier
+----
+Date: 2012-10-19 17:16:13
+----
+Text: I just added a fix for that bug to the dev branch on Github: 
+<http://github.com/bastianallgeier/kirbycms-panel/tree/dev>
+
+Just download a new panel version from there and replace your old version to get it working.

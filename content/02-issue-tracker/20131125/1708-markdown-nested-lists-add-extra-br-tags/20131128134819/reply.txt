@@ -1,0 +1,7 @@
+User: AlexK
+----
+Date: 2013-11-28 13:48:19
+----
+Text: I tried to put my Markdown into the [PHP-Markdown Extra Dingus](http://michelf.ca/projects/php-markdown/dingus/) (because I use the Markdown Extra features) and it converts without the extra break tags. Same with normal PHP-Markdown and the official [Daring Fireball Dingus](http://daringfireball.net/projects/markdown/dingus).
+
+So I believe the issue really lies with Kirby or the version of PHP-Markdown Kirby uses.

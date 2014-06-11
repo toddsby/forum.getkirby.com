@@ -1,0 +1,29 @@
+User: roman_oroco
+----
+Date: 2013-03-15 14:19:45
+----
+Text: Well, I'm not sure that I'm doing it right.
+The default Kirby sitemap appears in `http://example.com/en/sitemap.xml` and `http://example.com/it/sitemap.xml` so in header.php there will be a sitemap only for the current language.
+
+It will not be better if there's primary sitemap?
+```php
+<link rel="sitemap" type="application/xml" title="Sitemap" href="<?php echo url('sitemap.xml'); ?>" />
+```
+
+In root folder I've created sitemap.xml
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <sitemap>
+        <loc>http://example.com/en/sitemap.xml</loc>
+    </sitemap>
+
+    <sitemap>
+        <loc>http://example.com/it/sitemap.xml</loc>
+    </sitemap>
+
+</sitemapindex>
+```
+
+What do you think?

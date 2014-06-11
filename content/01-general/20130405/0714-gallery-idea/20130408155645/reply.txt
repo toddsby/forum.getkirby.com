@@ -1,0 +1,5 @@
+User: cedwardsmedia
+----
+Date: 2013-04-08 15:56:45
+----
+Text: I ended up using the code from Bastian's tutorial. Specifically, the code used for multiple galleries. This allowed Kirby to see the gallery folder as a unique gallery.

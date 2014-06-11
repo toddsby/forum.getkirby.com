@@ -1,0 +1,9 @@
+Title: Kirby Troubleshooting: Installed Plugins
+----
+Date: 2014-03-13 13:11:42
+----
+Solved: 0
+----
+User: namaless
+----
+Text: There is not a really bug, I found inside folder `plugins` a file `index.html` I think because can't access to external but I tried and the folders not accessible, so we can delete this file and the list of plugins installed working clean and fine.

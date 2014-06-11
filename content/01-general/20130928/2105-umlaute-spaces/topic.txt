@@ -1,0 +1,26 @@
+Title: umlaute, spaces
+----
+Date: 2013-09-28 21:05:23
+----
+Solved: 1
+----
+User: private_storm
+----
+Text: Hi,
+I've a question regarding german umlauts and spaces in tags or fields.
+
+Is there a way to make them work?
+I mean the problem is when I use spaces in tags e.g.: 
+
+Tags: this is a test
+
+This tag can be display'd but not filtered in other words the url in my case will be converted to:
+
+http://localhost/kirby/tag;this+is+a+test
+
+Which will of course have a destination of a plain white page (that tag does not exist at all)
+
+The same problem exists for me with umlauts if I use them in tags they will not find the article...
+
+regards,
+Marc

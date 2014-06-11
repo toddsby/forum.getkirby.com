@@ -1,0 +1,9 @@
+Title: Dev version problem with find?
+----
+Date: 2012-08-27 18:58:09
+----
+Solved: 0
+----
+User: fitzage
+----
+Text: I tried to use $pages->find('news') to find a set of pages, but it didn't find anything. If I instead do $page->children()->find('news') it finds it. It's a visible page, so $pages->find() should work, right? I'm using $pages->find('articles') in a similar manner on another site that's running the production version of Kirby, and it seems to be working fine.

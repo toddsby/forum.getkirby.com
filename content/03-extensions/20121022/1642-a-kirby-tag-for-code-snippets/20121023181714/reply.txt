@@ -1,0 +1,7 @@
+User: sakamies
+----
+Date: 2012-10-23 18:17:14
+----
+Text: Oh yeah, those, thanks!
+
+Backticks solve the code problem, but I would still like to have tags that may contain colons and parens. I often use parens and colons that are not for code, for example in image captions and such. I have a (\caption:) tag and a caption attribute for (\image:), and those might normally contain colons and parens. Writing something like &lt;p class="caption"&gt;nice things: they are nice (mostly)&lt;/p&gt; is fine, but my text files would be alot cleaner and nicer to write if those cases could be just kirby tags. If anyone's up for a challenge, I'd love to hear ideas on how to do that. :)

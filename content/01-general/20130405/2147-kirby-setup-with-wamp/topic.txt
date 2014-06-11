@@ -1,0 +1,20 @@
+Title: Kirby Setup With WAMP
+----
+Date: 2013-04-05 21:47:53
+----
+Solved: 1
+----
+User: yesimaaron
+----
+Text: Hello all,
+
+Like many others it appears, I am having difficulties getting Kirby set up on my local machine.  I'm using WAMP. I've copied all of the files to my 'www' directory into a 'kirby' folder.  When I visit localhost/kirby the index page shows up fine.  It is when I click the nav links that the problem occurs. 
+"The requested URL /kirby/about-us was not found on this server."
+I've gone through every set-up with the config.php file and .htaccess file that people the tutorials show and none seem to be working.  Any help would be much appreciated!
+
+
+Edit: 
+if i disable the rewrite (c::set('rewrite', false);) then it works fine, just without the pretty urls.  Is there something I need to change in my server setup?
+
+Edit #2:
+And i figured it out. Had to enable the rewrite_module in the apache

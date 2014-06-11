@@ -1,0 +1,15 @@
+User: russbaldwin
+----
+Date: 2013-02-14 11:53:28
+----
+Text: Named or decimal, but decimal is probably safest? (Maybe...)
+
++ HTML Entity (named): &trade; 
+```html 
+&trade;
+```
+
++ HTML Entity (decimal) &#8482;
+```html 
+&#8482;
+```

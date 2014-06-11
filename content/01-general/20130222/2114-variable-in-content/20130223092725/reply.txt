@@ -1,0 +1,11 @@
+User: russbaldwin
+----
+Date: 2013-02-23 09:27:25
+----
+Text: Although this is not quite the same you could do it like this.
+
+You could just use a [site variable in your config](http://getkirby.com/docs/advanced-stuff/custom-config-files)?
+
+Or indeed a [snippet](http://getkirby.com/docs/snippets)?
+
+Last but not least if you are determined to have it in a page, create separate text sections in the template for that page and then use snippets to include those elements in other pages?

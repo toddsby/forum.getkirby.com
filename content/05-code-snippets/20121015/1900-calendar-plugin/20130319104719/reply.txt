@@ -1,0 +1,5 @@
+User: WebOlymp
+----
+Date: 2013-03-19 10:47:19
+----
+Text: Nice plugin - Can you tell me how I can handle it with the Panel? I want to maintain it there.

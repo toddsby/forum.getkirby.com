@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-08-30 16:41:44
+----
+Text: That's a fantastic plugin and I can highly recommend it instead of the Kirby plugin – even if that sounds stupid :) But running a JS version means way less work for your server and has less conflicts with Kirby's cache system.

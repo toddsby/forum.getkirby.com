@@ -1,0 +1,33 @@
+User: matchavez
+----
+Date: 2013-07-09 07:10:48
+----
+Text: Just my 2¢...
+
+If you're trying to post something invisibly, without getting indexed, it sure does sound like something that shouldn't be in production. It's an oxymoron; it needs to be online in a published format, but hidden and not able to be crawled by search engines.
+
+It seems like a problem on the content side. You could also restrict it by IP address:
+
+<?php
+//This function returns True if visitor IP within allowed range.
+//Otherwise it returns False
+function CheckAccess()
+{
+  //allowed IP range start, change it to yours
+  //please note that $toip must be greater than $fromip
+
+  $fromip = '127.0.0.1';
+
+  //allowed IP range end
+
+  $toip = '127.0.0.100';
+
+  $ip = ip2long($_SERVER['REMOTE_ADDR']);
+
+  return ($ip >= ip2long($fromip) && $ip <= ip2long($toip));
+
+}
+
+CONTENT
+
+questionmark>

@@ -1,0 +1,17 @@
+Title: Central Image library with csv meta for images
+----
+Date: 2013-05-03 22:50:14
+----
+Solved: 0
+----
+User: hagatorn
+----
+Text: I love kirby and the release it offers from db but I still want a bit more centralisation of data.  I have a lot of information on a long list of paintings and I don't want to have to create and update lots of single files.
+
+Perhaps using the file based approach we could draw data from a csv file and a folder of images to use throughout the site.
+
+I've already worked out the central gallery but not the metadata.
+
+I started a post on stackoverflow to describe my idea and my progress towards it.
+
+<http://stackoverflow.com/questions/16365193/querying-csv-meta-data-for-an-image-gallery-in-kirby>

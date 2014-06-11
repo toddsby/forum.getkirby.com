@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-07-17 16:57:54
+----
+Text: .htaccess sounds fine, in your site sub-folder do you have the `site\panel` folder and maybe change the name of the `kirbycms-panel` folder to just `panel`?
+
+Maybe change the name of the site subfolder to something less conflicting like test or beta or whatever?

@@ -1,0 +1,7 @@
+User: lunelson
+----
+Date: 2012-11-08 20:33:12
+----
+Text: Hi, thanks for your reply --
+
+but the code works as long as I don't set my home page to a second level page. If I'm on a second level page then `$sub_section` is valid and gives the expected result; but if I set the home page to a sub_section and I'm on that page, the url is simply `/`, and suddenly `$sub_section` doesn't compute. So I'm suspecting that findOpen() might be keying off the url somehow and failing if the url is just `/`.

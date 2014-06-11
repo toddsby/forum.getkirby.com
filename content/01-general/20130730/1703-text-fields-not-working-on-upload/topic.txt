@@ -1,0 +1,11 @@
+Title: Text fields not working on upload?
+----
+Date: 2013-07-30 17:03:07
+----
+Solved: 1
+----
+User: meganraddatz
+----
+Text: This may be a dumb question: 
+I've uploaded a site via FTP. Everything looked fine on localhost, but on the live site, some - but not all - of the kirbytext fields aren't being recognized. (ie instead of the title saying "Contact Us", it says "Title: Contact Us ---- Text: To contact us...")
+I tried it on my own hosting, and it worked fine. Any thoughts?

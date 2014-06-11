@@ -1,0 +1,26 @@
+Title: Distinguish image names
+----
+Date: 2012-11-28 09:23:05
+----
+Solved: 0
+----
+User: lowel
+----
+Text: Hi folks.
+
+I need to grab only one image from a list of uploaded images to use it as a background page and the others as a gallery.
+There will be two kinds of images for each articles: one with an alphabetical name, the others with a numéric name for the gallery.
+
+Is there a simple code to distinguish the image names in order to retrieve the link?
+
+Currently I use this code based on the first image which is not good enough for my purpose (the "first" could be use for the gallery):
+
+    <?php if($page->hasImages()): ?>
+    <img src="<?php echo $page->images()->first()->url(); ?>" alt="-" id="full-bg" />
+    <?php else: ?>
+    <img src="<?php echo $site->url() ;?>/img/default-bg.jpg" alt="-" id="full-bg" />
+    <?php endif ?>
+
+Thanks by advance for your help.
+Cheers,
+Patrick.

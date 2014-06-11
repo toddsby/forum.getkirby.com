@@ -1,0 +1,11 @@
+User: Haustraliaer
+----
+Date: 2012-11-14 02:37:03
+----
+Text: Ah - I've been finding this too.
+
+My URL / subfolder setup has been left to the default settings afaik - and all on my local WAMP server. I'll put it on a live server and do some testing there, as well as messing around with subfolders and with/without SEF links.
+
+I've just made a post in the Panel section of the forum (it was before I found this post). I'll leave it there for now and update if a solution is found, just in case someone else is looking for the problem there.
+
+You really do need a search function on this forum ;)

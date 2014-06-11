@@ -1,0 +1,19 @@
+Title: Panel can't create new content files
+----
+Date: 2014-03-20 13:17:48
+----
+Solved: 0
+----
+User: possible_books
+----
+Text: Hi,
+i am struggling with the panel and the permission management. 
+
+I can edit infos, upload images, but i can't create new pages, apparently it is impossible to create the text files.
+This is the alert: The data could not be added.
+
+The permissions for all folders and files in the content folder are set to 777 with no effect.
+
+I installed kirby on some servers already and never had that problem before...
+
+Matthias

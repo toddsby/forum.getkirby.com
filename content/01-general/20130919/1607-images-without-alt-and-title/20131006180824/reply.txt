@@ -1,0 +1,5 @@
+User: texnixe
+----
+Date: 2013-10-06 18:08:24
+----
+Text: I had the same problem, although I prefer keeping the alt attribute while getting rid of the title. I tried copying the image function (lines 222 - 279 in my copy of kirbytext.php) from kirbytext.php to kirbytext.extended.php and deleted the title (and alt) attributes from $imageAttributes. Seems to work fine and doesn't touch the core files.

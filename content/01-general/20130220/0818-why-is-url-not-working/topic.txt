@@ -1,0 +1,23 @@
+Title: Why is url() not working?
+----
+Date: 2013-02-20 08:18:57
+----
+Solved: 1
+----
+User: wordius
+----
+Text: I want to use `url()` in my templates to save having to make edits once I push them to my server. Here is an example of how I’m using it:
+
+    <a href="<?php url('about') ?>">about</a>
+
+which should link to `example.dev/about`. Clicking the link does nothing. 
+
+My config file has the following setting:
+
+    c::set('url', 'http://example.dev');
+
+and htaccess has:
+
+    RewriteBase /
+
+Any advice appreciated.

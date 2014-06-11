@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2014-02-14 17:36:58
+----
+Text: About Snippets: http://getkirby.com/docs/snippets

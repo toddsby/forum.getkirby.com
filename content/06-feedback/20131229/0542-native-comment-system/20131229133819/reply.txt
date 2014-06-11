@@ -1,0 +1,8 @@
+User: lukasbestle
+----
+Date: 2013-12-29 13:38:19
+----
+Text: Amazing idea!!
+I think that would be a perfect plugin for Kirby, but I wouldn't implement it into the Kirby core.
+
+Does someone have time to code a plugin like that? \*yells into the forum\* :D

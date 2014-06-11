@@ -1,0 +1,16 @@
+User: iamirm
+----
+Date: 2013-03-06 18:39:01
+----
+Text: I did check if there are any images, but the error still occured. It's been a while since this post, but I found a workaround using the thumb plugin.
+
+    <? foreach($page->children()->visible() as $product):
+    if ($product->hasImages()):
+    $image = thumb($product->images()->first(), array('width' => 300), false);?>
+    <img src="<? echo $image ?>" />
+    <? 
+    endif; 
+    endforeach;
+    ?>
+
+Hope this helps anyone.

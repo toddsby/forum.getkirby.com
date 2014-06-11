@@ -1,0 +1,7 @@
+User: jolantis
+----
+Date: 2012-07-05 22:18:39
+----
+Text: Ok, sounds easier than I thought it would be. And by "additionally" you mean instead of kirbytext? Meaning until you add it to kirbytext's core (as an option) it's neither or, right?
+
+Can't wait until this is part of Kirby by default, too! Kirby's getting better and better ;-)

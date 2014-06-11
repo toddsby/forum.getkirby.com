@@ -1,0 +1,19 @@
+Title: Panel can't save changes
+----
+Date: 2013-01-21 23:20:15
+----
+Solved: 0
+----
+User: splfld
+----
+Text: Hi there,
+
+was playing around with the panel lately and like it very much.
+
+Problem is: I can't save changes on most of my sites. I click on save and pwoooff, they just disappear.
+
+Strange thing is I can save changes to my Site Info (which is the site.txt inside the content folder). And I am able to upload and delete Images. Also Kirby does not throw any error messages. So I assume it has nothing to do with rights (which I double and triple and quadruple checked already and even temporarily made the content folder writable for everyone).
+
+Any ideas on that? Im testing kirby in a subfolder, is it possible that this is the reason? Is there a debug option or a log where i can see more details?
+
+anyways, thanks for this wonderful piece of software!

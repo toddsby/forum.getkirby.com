@@ -1,0 +1,38 @@
+User: rhodaminedreams
+----
+Date: 2014-03-17 02:26:43
+----
+Text: Hi,
+I have been trying to do the same thing, implementing a honeypot to the contact form extension.
+
+I simply added a field into my form, and used CSS to position it off the page. Then the extension takes care of the rest as long as the field is mentioned in the options:
+
+$form = new contactform(array(
+'to'       => 'Email <email@email.com>',
+'from'     => 'From <do-not-reply@email.com>',
+'subject'  => 'New website enquiry',
+'goto'     => $page->url() . '/status:thank-you',
+'required' => array('name', 'email'),
+'keep'     => array('name', 'email'),
+'honeypot' => 'verify'
+));
+...
+
+...
+&lt;div class="verify"&gt;
+&lt;label>Verify your email address here if you are not a carbon based lifeform&lt;/label&gt;
+&lt;input class="contactform-input" type="email" name="verify" placeholder="your email" /&gt;
+&lt;/div&gt;
+...
+
+...
+ .verify{
+position: absolute;
+left:-9999em;
+}
+
+If you test the form you can still submit if even if the 'verify' field is filled out, however the PHP prevents the email from sending if the honeypot has been filled out. 
+
+I tested this a number of times by submitting the form with and without the honeypot field filled out, and never once did I receive an email when the honeypot field was filled.
+
+Hope this helps!

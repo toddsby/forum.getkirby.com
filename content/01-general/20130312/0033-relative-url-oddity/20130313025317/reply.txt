@@ -1,0 +1,10 @@
+User: richardhellyer
+----
+Date: 2013-03-13 02:53:17
+----
+Text: @fitzage I tried the markdown plus option and it worked a treat ... Thanks!
+
+Haven't tried just adding a '/' in front (I didn't do that because the site is in a sub directory of the domain, but I'll give it a go)
+
+Cheers
+Richard

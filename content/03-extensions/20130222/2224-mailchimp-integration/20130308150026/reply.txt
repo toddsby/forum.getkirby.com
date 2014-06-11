@@ -1,0 +1,7 @@
+User: iamirm
+----
+Date: 2013-03-08 15:00:26
+----
+Text: Shouldn't it be possible to use RSS to add articles to your newsletter with Mailchimp's RSS to Email feature? You could add a checkbox field "newsletter" to your page and populate a hidden page with just the checked articles.
+
+I haven't done this, but that's what came to mind.

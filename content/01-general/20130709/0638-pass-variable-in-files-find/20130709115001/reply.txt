@@ -1,0 +1,17 @@
+User: jessbordeau
+----
+Date: 2013-07-09 11:50:01
+----
+Text: Hi, thanks for the reply. Actually, my question is not related to the Thumb plugin. Sorry for the confusion, I should have used a different name. What I am trying to achieve is this: 
+
+I have several folders, each of them containing several images. In the project.txt of each folder, I have a field called 'thumb', which contains the name of one image in the folder. For example 'thumb: 01.jpg'. 
+
+I want to pass this field as a variable, so that: 
+
+<code>$article->files()->find($var)->url();</code>
+and <code>$var = $article->thumb();</code> which outputs '01.jpg'.
+
+It works when I use $var = '01.jpg' but not when I pass the name of the image as a variable. I was wondering if  <code>$page->files->find()</code> does not support variable at all or if I am just missing something simple?
+
+Hope this makes more sense, 
+Thanks

@@ -1,0 +1,10 @@
+User: russbaldwin
+----
+Date: 2013-02-22 11:18:22
+----
+Text: Mmmm, I would set the subfolder in your config.php, it should look like this:
+
+```php
+c::set('subfolder', 'yoursubfolder');
+```
+Make sure to just use Kirby's htaccess and not an additional file?

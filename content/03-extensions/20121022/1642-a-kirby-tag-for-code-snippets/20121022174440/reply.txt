@@ -1,0 +1,7 @@
+User: bastianallgeier
+----
+Date: 2012-10-22 17:44:40
+----
+Text: Inline code snippets can be written with those special single quotes. No idea, what they are called :)
+
+	Some text `<link href="sheet.css" media="max-width: 500` more text

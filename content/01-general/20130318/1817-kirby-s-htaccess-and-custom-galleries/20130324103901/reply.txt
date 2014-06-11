@@ -1,0 +1,9 @@
+User: roobottom
+----
+Date: 2013-03-24 10:39:01
+----
+Text: Thanks Russ. That `<section>` should probably be a `<main>`. 
+
+When you say some of this stuff could be in CSS, what do you mean?
+
+I think that Bastian is the only one who can help, but I think he's just become a dad, and is probably pretty busy. I'll keep plugging away at this.

@@ -1,0 +1,13 @@
+User: vis7mac
+----
+Date: 2014-04-08 10:47:17
+----
+Text: If you set the url like this:
+
+```php
+c::set('url', false);
+```
+
+like in the default `config.php`, which will work in most situations, Kirby simply works and you don't have to think about it. :)
+
+When using MAMP Pro 3, there is also a new `xip.io` option, which will use wildcard DNS to automatically route the site to your computer.

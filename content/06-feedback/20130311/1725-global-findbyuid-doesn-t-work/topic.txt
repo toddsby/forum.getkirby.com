@@ -1,0 +1,20 @@
+Title: Global findByUID doesn't work
+----
+Date: 2013-03-11 17:25:33
+----
+Solved: 1
+----
+User: roman_oroco
+----
+Text: ```php
+<div id="global-about">
+  <?php echo kirbytext($pages->findByUID('about')->about()) ?>
+</div>
+```
+
+Result
+```html
+<div id="global-about"> </div>
+```
+
+Note: The reason why I'm not using `$site`, is because currently Panel doesn't support `site` Panel blueprints.

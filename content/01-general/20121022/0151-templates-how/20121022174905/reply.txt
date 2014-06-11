@@ -1,0 +1,11 @@
+User: bastianallgeier
+----
+Date: 2012-10-22 17:49:05
+----
+Text: @h2only Kirby does not have plug and play themes like wordpress, which you just copy into a folder. This has to do with the folder structure of Kirby and the modular approach to content, core and site files. 
+
+This means that you need to copy the different parts of the knowledge base theme and replace existing folders of your clean Kirby installation with them. 
+
+So for the knowledge base theme you need to copy the content folder and replace your existing content folder with it. Then you need to copy the assets folder and replace your existing assets folder. And finally you need to copy the site/plugins, site/snippets and site/templates folders and replace those folders as well. 
+
+I hope this makes it a bit clearer.

@@ -1,0 +1,7 @@
+User: p_mylecharane
+----
+Date: 2013-04-18 05:51:51
+----
+Text: Hey Russ—
+
+Thanks for responding. It turns out I had caching turned on in the config file. Very strong caching indeed...all good now.

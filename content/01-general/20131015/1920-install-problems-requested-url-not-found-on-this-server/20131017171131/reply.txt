@@ -1,0 +1,17 @@
+User: studioshitless
+----
+Date: 2013-10-17 17:11:31
+----
+Text: >it will output an array of all the modules installed:
+
+My hosting service is using suPHP. It cannot query the apache config. They have told me that the module is running and wrote this:
+
+'mod_rewrite will definitely work as long as 'RewriteEngine On' is at the top.'
+
+>what do you have in your .htaccess for rewrite rules
+
+Here's what I had in .htaccess before I turned it off:
+
+AddType application/x-httpd-php5 .html .htm
+RewriteEngine On
+RewriteBase /kirby

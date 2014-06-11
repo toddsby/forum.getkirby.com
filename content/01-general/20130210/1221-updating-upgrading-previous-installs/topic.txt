@@ -1,0 +1,15 @@
+Title: Updating/upgrading previous installs
+----
+Date: 2013-02-10 12:21:58
+----
+Solved: 1
+----
+User: richgcook
+----
+Text: I know there's been a few new pushes to the CMS and the Panel over the past few days and that newer versions are due out too over the next few weeks. 
+
+So, let's say I have some sites live that have used previous versions of Kirby. What's the best way to update these? 
+
+Cheers folks, keep up the AWESOME stuff.
+
+R

@@ -1,0 +1,15 @@
+Title: Extending Kirbytext image tag
+----
+Date: 2014-01-26 15:33:54
+----
+Solved: 0
+----
+User: francescoea
+----
+Text: The image tag "&lpar;image:.... &rpar;" available in the default set of api's of Kirbytext really works great, but I needed a couple of things in addition:
+- I wanted the image to be shown inside a div, to have more control on the result
+- I wanted to add a caption and display it under the image.
+
+So I wrote this little extension to accomplish that, I hope you may find it useful.
+
+(link:http://www.softworkr.com/blog/20140126-extending-kirbytext-image-tag text:Extending Kirbytext image tag)

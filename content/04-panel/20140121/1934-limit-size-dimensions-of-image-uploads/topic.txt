@@ -1,0 +1,17 @@
+Title: Limit Size/Dimensions of Image Uploads
+----
+Date: 2014-01-21 19:34:56
+----
+Solved: 0
+----
+User: tysongach
+----
+Text: Is there a way to put a limit on the size/dimensions of an image being uploaded through the Panel?
+
+If an image above 2000px wide or tall (or some other threshold) is uploaded, it’d be great to have a simple error be thrown that states the image needs to be scaled before uploading.
+
+In most cases, such large images are completely unnecessary and it sometimes chokes the Thumb plugin.
+
+For now I’m limiting the actual file size of an upload via my .htaccess file, but I’m really hoping for a more robust solution that detects actual image dimensions.
+
+I assume it would function somewhat along the lines of: when an image is uploaded, PHP would analyze dimensions against a predefined maximum size (could be set within the site’s panel config file) and if it doesn’t meet the requirements, dump the upload and show an error.

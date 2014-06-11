@@ -1,0 +1,18 @@
+User: roman_oroco
+----
+Date: 2013-03-02 16:59:10
+----
+Text: @russbaldwin Yep I tried but doing so all other featured articles out from slider that has `Featured: On` will be no longer displayed.
+
+Here's another example of desired result:
+```
+<!-- Featured articles loop -->
+featured-article-1
+featured-article-2
+
+<!-- All latest articles loop -->
+article-3
+featured-article-4
+featured-article-5
+article-6
+```

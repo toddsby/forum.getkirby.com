@@ -1,0 +1,28 @@
+Title: Tags: not really an issue, but...
+----
+Date: 2013-12-19 10:07:33
+----
+Solved: 0
+----
+User: pcalanna
+----
+Text: Hi Bastian,
+if I am correct the tagcloud plugin should assign the "active" class to any clicked tag.
+This behavior doesn't apply for tags with multiple words, for example _Stress Management_ (considered as a single tag).
+I believe that this is because spaces are converted in %20 so that the test at *line 49* of the tagcloud plugin doesn't succeed
+
+<code>'isActive' => (param($options['param']) == $t) ? true : false,</code>
+
+In my example the tag _Stress Management_ would be compared with _Stress%20Management_ and consequently fail.
+
+I modified the tagcloud plugin in order to urldecode the param value:
+
+<code>'isActive' => (urldecode(param($options['param'])) == $t) ? true : false,</code>
+
+Now, even multiple words tags get the active class when clicked.
+
+Is it safe to make this change in your code?
+
+Thank you very much for Kirby.
+
+Pierpaolo

@@ -1,0 +1,5 @@
+User: Wordius
+----
+Date: 2013-01-05 12:00:48
+----
+Text: This [thread](http://getkirby.com/forum/issue-tracker/topic:16) has some more suggestions.

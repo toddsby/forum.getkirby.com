@@ -1,0 +1,12 @@
+User: coolrob335
+----
+Date: 2012-12-21 19:20:07
+----
+Text: awesome, thanks for the reply, I didn't realise you could edit fields, I ended up changing `echo html($value);` to 
+    `if(!$value){`
+    `    echo html(date('Y-m-d'));`
+    `} else if($value){`
+    `    echo html($value);`
+    `}`
+and that works perfectly now :D
+(I couldn't seem to get the code blocks working in this reply :( )

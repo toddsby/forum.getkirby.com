@@ -1,0 +1,20 @@
+User: richgcook
+----
+Date: 2013-07-02 10:08:45
+----
+Text: Yes, thank you! I was curious to know if you get 'get' the field... and if it was blank it wouldn't follow. I know this isn't Advanced Custom Fields, but they adopt a simple 'get value', if value is blank then skip. For this they have two options...
+
+    <?php get_the_field(''); ?>
+and
+    <?php the_field(''); ?>
+
+So, to check if the field is empty or not we would write
+
+    <?php if ( get_the_field('') ) : ?>
+      <?php the_field(''); ?>
+    <?php endif; ?>
+
+Anyway, your help has solved this — but something similar to this would be super useful for future releases :)
+
+Many thanks,
+R

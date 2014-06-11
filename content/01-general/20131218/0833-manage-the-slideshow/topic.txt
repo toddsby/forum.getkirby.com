@@ -1,0 +1,17 @@
+Title: manage the slideshow
+----
+Date: 2013-12-18 08:33:28
+----
+Solved: 1
+----
+User: gournis
+----
+Text: Hi all!!!
+
+am pretty new with the coding thing and am looking for a cms easy to learn and easy for the customer to use, and kirby looks fine.
+
+I had a static website build with foundation, that need a cms. 
+http://almanda.gr/demo/
+The user wants to manage the slideshow image and adding text & hyperlink in the slideshow caption
+
+is that possible with the kirby?

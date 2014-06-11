@@ -1,0 +1,27 @@
+Title: Strange image url path issue on remote server
+----
+Date: 2013-04-01 04:22:52
+----
+Solved: 0
+----
+User: nilshendriks
+----
+Text: I'm having this strange issue **only** on a remote server (of a web hosting company):
+
+When I do this:
+
+```php
+<?php echo $image->url() ?>
+```
+
+It returns:
+
+```
+/content03-products01-tarts01-tart1/P5200572.jpg
+```
+
+**the slashes between folder names being stripped.**
+
+So far I don't see a way to fix this. Apart from moving to a different hosting company?
+
+Anyone familiar with an issue like this?

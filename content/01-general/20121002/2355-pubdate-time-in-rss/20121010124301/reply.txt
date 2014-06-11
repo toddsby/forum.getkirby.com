@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-10-10 12:43:01
+----
+Text: If you don't want to assign a time in your date field you can only fake a different time for the article. Maybe 12:00 am or something :)

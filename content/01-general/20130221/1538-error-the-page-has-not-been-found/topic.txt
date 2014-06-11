@@ -1,0 +1,22 @@
+Title: Error - The page has not been found
+----
+Date: 2013-02-21 15:38:07
+----
+Solved: 1
+----
+User: drftmon
+----
+Text: Hi,
+I am having issues with kirby on xampp:
+I put all the kirby stuff inside a folder called blog, inside my root folder.
+When i open my index.php in /blog everything is fine. I copied the index.php
+and put it into my root folder, named it indexy.php, and i get the "page not found error" for the homepage, the menue works fine.
+
+In indexy i changed the paths to /blog/kirby /blog/site and /blog/content
+
+In the config.php i have my url set to 'http://localhost/blog'
+I set the subfolder to 'blog'
+
+When i set troubleshoot to true everything seems fine in indexy and index.
+The strange thing is, when i change the filename from indexy.php to index.php it is working like it should. Can anyone help me with this?
+I just want to have kirby in a subfolder and pull stuff form there into my main site in the root folder.

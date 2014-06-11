@@ -1,0 +1,23 @@
+Title: Panel date field adds extra year
+----
+Date: 2013-12-28 06:07:28
+----
+Solved: 1
+----
+User: treevis
+----
+Text: Hi.
+
+I'm using the panel and am having an issue with date fields. In my blueprints, I have set my date fields to be 'date' and the format to either "yyyy" or "yyyy/mm/dd".
+
+date:
+  label: Date Published
+  type:  date
+  format: yyyy/mm/dd
+
+When I focus the field, a date picker shows up (I think it's the jQuery UI one, not browser native). When I select a date, the year is repeated. For example, if I choose Dec 28, 2013 and format it as "yyyy/mm/dd", the field shows "20132013/12/28" after I select the date.
+
+I see this behavior in both released and dev versions of the panel using Safari 7 (Mavericks) and Chrome. Anyone else see this issue and know of a fix?
+
+Thanks.
+/travis

@@ -1,0 +1,33 @@
+Title: Using a counter on posts
+----
+Date: 2013-03-29 13:24:27
+----
+Solved: 1
+----
+User: theoriginalivor
+----
+Text: Hi on my blog I've got a counter that basically displays a number next the the post i.e second posts will have 'post No. 2' third post will have 'post 3'.
+
+Now its working on the blog page but I'm trying to get it to work on the homepage, however it always shows 1. Any ideas where I've gone wrong? code below..
+
+    <?php 	 $articles = $pages
+		->find('articles')
+		->children()
+		->visible()
+		->flip()
+		->limit(1);
+		 $image = $page->images();
+		$count = $articles->count();
+		//->filterBy('categories', param('category'), ',');
+
+ 		foreach ($articles AS $article) : ?>
+
+		<p class="postnumber"><i class="icon-journal">    </i>Journal No. <?php echo $count; ?> -</p>
+		<h2><a href="<?php echo $article->url() ?>"><?php echo html($article->title()) ?></a></h2>
+		<p class="meta">
+			Posted <?php echo $article->date('F j, Y') ?>.
+			
+		</p>
+		<a href="<?php echo $article->url() ?>">
+		<?php echo thumb($image, array('width' => 200), false) ?>
+		</a>

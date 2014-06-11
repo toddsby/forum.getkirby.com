@@ -1,0 +1,8 @@
+User: _frankallen
+----
+Date: 2014-01-27 09:51:43
+----
+Text: Try not to use a template only. You could use a snippet for you "template".
+(like the feed).
+
+So you can set the content-type in the new snippet.

@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-05-19 12:53:10
+----
+Text: good point! maybe I can add a check if the text is supposed to use kirbytext and then parse it before doing the word count. That would probably give better results

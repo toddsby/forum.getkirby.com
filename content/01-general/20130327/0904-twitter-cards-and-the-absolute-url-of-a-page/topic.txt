@@ -1,0 +1,17 @@
+Title: Twitter cards and the absolute URL of a page
+----
+Date: 2013-03-27 09:04:30
+----
+Solved: 1
+----
+User: wordius
+----
+Text: I’m trying to set up Twitter cards for my blog. The only part that’s giving me a problem is the `twitter:url`. I’m using:
+
+    <meta name="twitter:url" content="<?php echo $page->url() ?>"> 
+
+This returns:
+
+    http://example.com/blog/article-name
+
+But ‘blog’ is always stripped/redirected for pages on my blog. How can I strip ‘blog/’ from the ‘page->url’?

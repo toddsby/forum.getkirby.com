@@ -1,0 +1,11 @@
+Title: A Kirbytext/Markdown Cheatsheet for clients ?
+----
+Date: 2013-03-25 12:01:55
+----
+Solved: 0
+----
+User: joachimesque
+----
+Text: I wonder if the community has come up with a cheatsheet to explain Kirbytext & Markdown to clients… I'm talking about a print-sized PDF or a simple webpage, like this <http://scottboms.com/downloads/documentation/markdown_cheatsheet.pdf>, with Kirbytext stuff, too…
+
+If you got nothing I'll start working on one.

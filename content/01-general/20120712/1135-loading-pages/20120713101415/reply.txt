@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-07-13 10:14:15
+----
+Text: @Gielcobben great that you got it working. Basically Kirby does not limit you in what kind of Javascript plugins you use in addition to your templates. I'm afraid I can't really help you with the implementation of those though, because it's really more Javascript help than Kirby help. I hope you understand.

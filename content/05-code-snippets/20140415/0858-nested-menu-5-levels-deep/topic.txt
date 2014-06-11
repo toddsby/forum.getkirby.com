@@ -1,0 +1,16 @@
+Title: Nested menu 5 levels deep
+----
+Date: 2014-04-15 08:58:15
+----
+Solved: 0
+----
+User: alexcreedy
+----
+Text: Hi,
+
+I'm looking to create a nested menu which is 5 levels deep for a documentation website. My php is very basic, wondering anyone has done this... examples of how to add extra levels of depth to the existing Simple Nested Menu found here -
+http://getkirby.com/blog/fun-with-menus
+
+
+Thanks,
+Alex

@@ -1,0 +1,24 @@
+Title: select field type
+----
+Date: 2012-11-02 15:05:57
+----
+Solved: 0
+----
+User: studiomoniker
+----
+Text: We are looking into using Kirby for our web projects.. looking great so far, but we are running into a little problem.
+
+We're trying to use the select field type in a blueprint:
+
+   medium:
+  	label: Medium
+  	type: select
+  	options:
+  	  apple
+  	  orange
+  	  pear
+  	default: orange
+
+We would expect this to make a dropdown with the three values and to store either 'apple', 'orange' or 'pear' in the text file.. instead it stores the index of the value..
+
+this is fine of course when you only ever edit through the panel.. but what if you also enjoy editing the text files directly.. an index of 1 doesn't tell me anything..

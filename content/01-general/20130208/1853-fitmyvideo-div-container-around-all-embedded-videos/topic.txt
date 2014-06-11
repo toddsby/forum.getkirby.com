@@ -1,0 +1,9 @@
+Title: FitMyVideo Div Container Around all Embedded videos.
+----
+Date: 2013-02-08 18:53:02
+----
+Solved: 1
+----
+User: nathaniel_h
+----
+Text: I'm creating a responsive design, and so I'm using FitMyVideo to automatically resize my videos to the fluid layout I have going on. I need Kirby to automatically insert FitMyVideo-container div around each embedded video. But I would like to still be able to use Kirby Text.

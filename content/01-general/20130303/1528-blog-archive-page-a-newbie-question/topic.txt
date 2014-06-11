@@ -1,0 +1,11 @@
+Title: Blog Archive Page (a newbie question)
+----
+Date: 2013-03-03 15:28:18
+----
+Solved: 0
+----
+User: varometro
+----
+Text: How can i create a simple archive page for my blog? Nothing fancy. Just a list with the post titles and the dates.
+
+Thanx

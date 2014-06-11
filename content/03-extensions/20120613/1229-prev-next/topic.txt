@@ -1,0 +1,12 @@
+Title: Prev/Next
+----
+Date: 2012-06-13 12:29:05
+----
+Solved: 1
+----
+User: simonscheiber
+----
+Text: I was wondering if anybody knows how to exclude the 'error directory' in the PrevNext snippet? 
+
+Thanks, 
+Simon

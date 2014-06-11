@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-01-29 11:22:38
+----
+Text: Sorry, I tried your link and I could not quite see what was wrong? It seemed to be working OK? Not quite what I expected as your links are doing the next page bit in Kirby whilst you could probably use JS to move it in and out with no URL change?

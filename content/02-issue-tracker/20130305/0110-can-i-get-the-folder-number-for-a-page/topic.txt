@@ -1,0 +1,13 @@
+Title: Can I get the folder number for a page?
+----
+Date: 2013-03-05 01:10:59
+----
+Solved: 1
+----
+User: haustraliaer
+----
+Text: Basically I've got an archive of sub-pages - each one with an numerical ID. Originally I created an 'id' field inside each page for the editor to add their own numbers, but as things progressed I realised it might be more efficient / make more sense to just use the folder numbers.
+
+This means there is no confusion between the ordering and the ID - a page will simply take on the number of the position it resides in the list.
+
+It seems there is a way of getting nearly everything under the sun for the $page object except for the actual number of the folder. Is there any way to achieve this?

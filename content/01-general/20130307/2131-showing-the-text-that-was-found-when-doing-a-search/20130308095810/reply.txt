@@ -1,0 +1,13 @@
+User: richardhellyer
+----
+Date: 2013-03-08 09:58:10
+----
+Text: thanks. I hadn't cottoned on to the fact that the return array is essentially an array of page objects.
+
+I see the difficult of excerpting a matching snippet , even if I use 'excerpt' it will likely contain kirbytext or markdown which will make it look wrong to the user.
+
+I like the idea of providing a short description for each page (might be good in the meta tags as well) and then using or excerpting that.
+
+Many thanks
+
+Richard

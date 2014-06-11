@@ -1,0 +1,22 @@
+Title: how to: "add template-specific JS files"
+----
+Date: 2013-09-02 10:52:54
+----
+Solved: 1
+----
+User: timgauthier
+----
+Text: I used the "How to add template-specific CSS files" post to add custom CSS, but now I am trying to post custom JS from a folder, and I can't seem to make that work now. My code:
+
+    <?php
+  
+    $jsURI  = 'assets/js/custom' . $page->template() . '.js';
+    $jsRoot = c::get('root') . '/' . $jsURI;
+  
+    if(file_exists($jsRoot)) echo js($jsURI);
+  
+    ?>
+
+please help! Thank you
+
+Tim

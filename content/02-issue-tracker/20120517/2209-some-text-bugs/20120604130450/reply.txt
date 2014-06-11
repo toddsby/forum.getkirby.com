@@ -1,0 +1,5 @@
+User: fussandfeathers
+----
+Date: 2012-06-04 13:04:50
+----
+Text: I get the same thing as well when I try to use large fonts... Although I am not sure if this is a Kirby bug or my weak CSS skills. In any case, here is another screenshot: pic.twitter.com/mHk5gP8o

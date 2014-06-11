@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-02-17 09:58:43
+----
+Text: You can have multiple blueprints named the same as your templates. I'd leave the default one as a fallback ;-)

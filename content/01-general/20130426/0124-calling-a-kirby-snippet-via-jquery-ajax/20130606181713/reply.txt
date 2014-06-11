@@ -1,0 +1,19 @@
+User: BobRockefeller
+----
+Date: 2013-06-06 18:17:13
+----
+Text: Any more ideas?
+
+I changed my AJAX call to
+
+```
+		jQuery.get('/site/templates/snippetServer.php', function(data) {
+			('#picks').html(data);
+		});
+```
+
+but still get an error
+
+```
+http://www.brp.dev/site/templates/snippetServer.php    301 Moved Permanently    30ms
+```

@@ -1,0 +1,10 @@
+User: studioshitless
+----
+Date: 2013-10-15 20:55:23
+----
+Text: Yes. As in the getting started instructions.
+
+Cut and paste from my config file:
+
+c::set('url', 'http://studioshitless.com/kirby');
+c::set('subfolder', 'kirby');

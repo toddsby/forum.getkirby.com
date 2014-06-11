@@ -1,0 +1,7 @@
+User: bastianallgeier
+----
+Date: 2012-08-21 13:00:39
+----
+Text: @hnrch02 hm, that's weird and hard to tell where the issue is. Sometimes in such cases it's just some spaces at the end of a file. The only way I can help you is if you send me the entire code for your site if that's possible: <bastian@getkirby.com>
+
+(please remove some secret passwords first :)

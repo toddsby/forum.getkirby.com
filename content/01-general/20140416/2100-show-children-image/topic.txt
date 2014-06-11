@@ -1,0 +1,46 @@
+Title: Show children image
+----
+Date: 2014-04-16 21:00:07
+----
+Solved: 0
+----
+User: jolinmasson
+----
+Text: I feel kinda dumb and I’m sure it as already’ve been answered, but I’m unable to integrate any of the answer I’ve found in the forum.
+
+I want to show children’s page main image.
+
+Here is the first test I tried so far:
+
+```php-extra
+    <section class="container">
+      <div class="twelve columns offset-by-two">
+        <div class="projets">
+        <?php $image = $page->children()->images()->find('main.jpg') ?>
+        <?php foreach ($image as $articleimage): ?>
+          <div style="background:url('<?php echo $articleimage->url() ?>');">
+            <a href="<?php echo $page->nextVisible()->url() ?>" class="prochain"></a> 
+          </div>
+        <?php endforeach ?>
+        </div>
+      </div>
+    </section>-->
+```
+
+Here is the second one:
+
+```php-extra
+    <section class="container">
+      <div class="twelve columns offset-by-two">
+        <div class="projets">
+          <?php $image =  $page->children()->visible()->images()->find('main.jpg')?>
+          <?php foreach $image ?>
+            <div style="width: 100px; height: 100px; background:url('<?= php echo $image->url(); ?>');"/>
+              <a href="<?php echo $page->nextVisible()->url() ?>" class="prochain"></a>
+            </div>
+            <? endif ?>
+          <?php endforeach ?>
+        </div>
+      </div>
+    </section>
+```

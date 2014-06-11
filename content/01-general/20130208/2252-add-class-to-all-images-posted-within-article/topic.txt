@@ -1,0 +1,9 @@
+Title: Add class to all images posted within article.
+----
+Date: 2013-02-08 22:52:27
+----
+Solved: 1
+----
+User: nathaniel_h
+----
+Text: Again, for my responsive website, I require responsive images. But not all images I want to be responsive. Only the ones located in the article. Is there any way to automatically add a css class to all images posted within an article with Kirby Text?

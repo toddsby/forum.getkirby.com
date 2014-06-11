@@ -1,0 +1,13 @@
+Title: Using Angular.js inside kirby project
+----
+Date: 2014-02-22 12:03:42
+----
+Solved: 0
+----
+User: artureus
+----
+Text: Has anybody tried using angular.js on a kirby project?
+
+I'm thinking on using the angular search code to filter records after retrieving data from files and display them. But I think I should transform data on files to a JSON file first.
+
+Anybody have been playing with angular and kirby?

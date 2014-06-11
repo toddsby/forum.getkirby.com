@@ -1,0 +1,33 @@
+User: tpnx
+----
+Date: 2014-03-14 17:02:32
+----
+Text: EDIT: fixed it :D
+
+Ahh okay, sorry.
+
+I've got the following blueprint for my page (blogarticle):
+
+	title: Blog-Artikel
+	pages: false
+	files: true
+	fields:
+		title:
+			label: Titel
+			type: text
+		date:
+			label: Datum
+			type: text
+		tags:
+			label: Tags
+			type: text
+		text:
+			label: Text
+			type: textarea
+			size: large
+
+Normally the URL is created from the title (http://domain.com/blog/ {title}). I would like to put the tags with the URL (ex. http://domain.com/blog/{tags}-{title}).
+
+At the moment i do it by hand, but I want the panel to do this job for me. Is there some PHP-magix that can do this?
+
+Cheers

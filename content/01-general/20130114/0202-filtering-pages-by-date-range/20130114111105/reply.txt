@@ -1,0 +1,9 @@
+User: russbaldwin
+----
+Date: 2013-01-14 11:11:05
+----
+Text: Maybe using [filterby - 'Kirby 1.1.1 and Kirby Panel 0.9'](http://getkirby.com/blog/1-1-1)?
+
+I don't think anything else is built in except of course to sort pages in a set by field, something like:
+
+    $pages->sortBy($sort=’date’, $dir=’asc’)

@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-06-25 08:43:57
+----
+Text: Just to be sure, you do know that in order to see the images on your page you need to either use Kirbytext in the content file to show them, or you need to use template code to show them correct?

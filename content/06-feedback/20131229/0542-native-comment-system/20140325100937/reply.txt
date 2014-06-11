@@ -1,0 +1,13 @@
+User: chrisburton
+----
+Date: 2014-03-25 10:09:37
+----
+Text: @dsply_ 
+
+> Sorry, I'm French :)
+
+Awesome! No need to apologize for that. 
+
+> Information on the progress of the plugin?
+
+I'm currently in school but during summer I plan to release this as a premium plugin. At this time I have not worked on it further other than what is shown on my [demo site](http://chrisburton.me/dev).

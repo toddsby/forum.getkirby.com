@@ -1,0 +1,5 @@
+User: screencuts
+----
+Date: 2014-02-17 08:42:16
+----
+Text: I've changed things around a bit, and then the problem seemed to stop. I think that must have been the problem.

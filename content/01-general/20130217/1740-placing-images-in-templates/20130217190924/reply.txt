@@ -1,0 +1,5 @@
+User: brandon_m_cook
+----
+Date: 2013-02-17 19:09:24
+----
+Text: I found very simple solution. I defined a variable for each image with the file path. I then echoed the variable in the location where I wanted the image.

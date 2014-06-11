@@ -1,0 +1,28 @@
+Title: Contact Form Plugin
+----
+Date: 2013-08-24 14:56:28
+----
+Solved: 0
+----
+User: chrisjmartin87
+----
+Text: Hey everyone,
+
+Got a bit of an issue with the contact form plugin.
+
+as part of my form i have a list of checkboxes, when sent this returns only one item instead of whichever items are selected.
+
+Is there anything i'd need to adjust in the plugin itself or something id have to add to my markup?
+
+    <fieldset name="check">
+        <h2>Project Needs</h2>     
+            <ul>
+                <li><input id="option" type="checkbox" name="needs" value="<?php echo $form->htmlValue('needs') ?> Strategy" checked><label for="option">Option</label></li>
+                <li><input id="optiontwo" type="checkbox" name="needs" value="<?php echo $form->htmlValue('needs') ?> Strategy" checked><label for="optiontwo">Optiontwo</label></li>
+                <li><input id="optionthree" type="checkbox" name="needs" value="<?php echo $form->htmlValue('needs') ?> Strategy" checked><label for="optionthree">Optionthree</label></li>
+            </ul>
+    </fieldset> 
+
+Any help would be excellent
+
+Cheers

@@ -1,0 +1,22 @@
+Title: Gimmebar, visual library and Kirby
+----
+Date: 2014-03-09 10:38:29
+----
+Solved: 0
+----
+User: afincato
+----
+Text: Hello,
+I'd like to move my gimmebar library over to a local folder and then on my server with kirby.
+I only have a doubt, and it concerns how to manage the metadata:
+in gimmebar in fact, for each element I added also the title and a short description, if there was any. Then each element was added to a specific category.
+The media files are images, link, text (and video?), so it's almost a sort of tumblr.
+
+What I'm unsure about, at the moment, is to think the best and future proof way to add this metadata to the files (also how to keep everything pretty simple and lo-fi):
+
+* rename the file with the right title, comment it for the description and add it to the right category folder. Then extract all this and make readable the infos in some way to Kirby?
+* create for each new file added to the library, a new .txt or .md file with the correspondent metadata?
+
+
+Thank you in advance,
+André

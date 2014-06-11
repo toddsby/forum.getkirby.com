@@ -1,0 +1,11 @@
+User: screencuts
+----
+Date: 2014-02-23 10:09:53
+----
+Text: @fitzage thanks for the comment! I know it's sort of a complex situation, which I may not have explained as clearly as I could have. 
+
+Basically, what I want to know I think is whether there is a mechanism for modifying the initial $page object, in a template or plugin or wherever. Something similar to WordPress's [query_posts()](http://codex.wordpress.org/Function_Reference/query_posts). 
+
+The scenario that you are describing is a potential solution, true. But the problem is that I think that underneath, from the point of view of KirbyCMS, the system would have failed to find a matching page for the request, and thus the $page object would be an error. 
+
+That's not the worst thing in the world, especially since I'd essentially be creating my own objects to output the code, but as a solution it does not sit well with me. Maybe I'm being a perfectionist, or just misunderstanding things...

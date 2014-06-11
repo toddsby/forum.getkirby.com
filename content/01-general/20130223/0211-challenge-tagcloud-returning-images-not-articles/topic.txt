@@ -1,0 +1,16 @@
+Title: Challenge: TagCloud returning Images, not Articles
+----
+Date: 2013-02-23 02:11:34
+----
+Solved: 0
+----
+User: libraryofapp
+----
+Text: Hi all,
+First time poster! Two part problem! Total Noob!
+
+I am setting up a library of images that each have individual tags in their [image].png.txt files. These images are then part of blog articles that group them by their original source.
+
+I want to create a tag cloud on a separate section of my site (from the blog) where users can click a tag and the site returns all the image thumbnails for that tag. These images do not need to be ordered by blog article.
+
+Doable? I can't quite wrap my head around the tagcloud plugin to know how to hack it into this use case.

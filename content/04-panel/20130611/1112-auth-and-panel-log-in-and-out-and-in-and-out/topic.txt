@@ -1,0 +1,15 @@
+Title: Auth and Panel: log in, and out, and in, and out ...
+----
+Date: 2013-06-11 11:12:10
+----
+Solved: 0
+----
+User: conefreykoedam
+----
+Text: I've got a site behind a global firewall using the Authentication plugin, I'm also using the panel.
+
+When I log into the panel I get logged out of the site, which results into a endless logging in and out if you for example want to edit a page and preview.
+
+Is this expected behaviour or am I missing something, I've done extensive testing with different account settings. 
+
+Thanks for your reply

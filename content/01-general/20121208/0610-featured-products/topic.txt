@@ -1,0 +1,13 @@
+Title: Featured products
+----
+Date: 2012-12-08 06:10:57
+----
+Solved: 0
+----
+User: corvine74
+----
+Text: What would be the best method to create a "Featured Products" filter for the the home page on a site?
+
+Would there be a way to filter by looking for a field name of "Feature" with the value being true or false?
+
+I am wanting to show a thumbnail, excerpt, and price.

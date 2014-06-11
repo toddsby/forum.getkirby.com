@@ -1,0 +1,57 @@
+Title: Display images on blog overview page.
+----
+Date: 2013-02-10 02:06:04
+----
+Solved: 1
+----
+User: roobottom
+----
+Text: Hello. I'm trying to extend kirbytext to give me a figure tag — I realise this has already been done, and with far cleaner code than mine, but I have another problem...
+
+I'm also displaying images where appropriate on the blog overview page (I have a field called "intro" that is displayed on overview).
+
+My question is this: How do I get kirbytext to pull out the image from the correct child folder? At the moment I'm using `url::current` — but that's obviously not going to work.
+
+Here's my code:
+
+```<?php 
+
+class kirbytextExtended extends kirbytext {
+  
+  function __construct($text, $markdown=true) {
+    
+    parent::__construct($text, $markdown);
+    
+    
+    	$this->addTags('figure');
+    	$this->addAttributes('caption');
+                
+  }  
+
+  function figure($params) {
+  
+  	$img = $params['figure'];
+  
+  	$defaults = array(
+      'caption' => ''
+    );
+	  
+	  $options = array_merge($defaults, $params);
+	  
+	  $figcaption = '';
+	  if($options['caption'] == '') {
+	  	$figcaption = '<figcaption><p>'.$options['caption'].'</p></figcaption>';
+	  }
+	  
+	  $url = url::current();
+	  
+
+	  return '<figure><img src="'.$url.$img.'"/><figcaption><p>'.$options['caption'].$figcaption.'</figure>';
+
+  }
+  
+}
+
+?>```
+
+Thanks!

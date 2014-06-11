@@ -1,0 +1,39 @@
+User: obearone
+----
+Date: 2012-07-05 08:53:19
+----
+Text: Hey, would be nice if you found something. :)
+
+This is my home-template:
+
+	<!-- pagenav -->
+	<?php $archive = $pages->find('archive') ?>
+	<ul data-role="pagination">
+		<?php if($archive->hasPrev()): ?>
+			<li class="ui-pagination-prev"><a href="<?php echo $archive->prev()->url() ?>">Prev</a></li>
+		<?php endif ?>
+	
+		<?php if($archive->hasNext()): ?>
+			<li class="ui-pagination-next"><a href="<?php echo $archive->next()->url() ?>">Next</a></li>
+		<?php endif ?>
+	</ul>
+
+	<!-- Show the last post -->
+	<div id="home-post">
+		<!-- Lopp articles -->
+	  	 <?php $post = $pages->find('archive') ?>
+	  	  		<?php foreach($post->children()->visible()->limit(1)as $page): ?>
+		  	
+		  		<!-- load post content -->	  	
+		  		<section class="content blogarticle">
+		  	 		 <article>
+		  	   			 <h1><?php echo html($page->title()) ?></h1>
+		  	   	 		 <?php echo kirbytext($page->text()) ?>
+		  	 	 	 </article>
+		  		</section>	  	
+		  	
+	  	<?php endforeach ?> 
+    </div><!-- #home-post  -->
+    
+ 
+ Thanks again!

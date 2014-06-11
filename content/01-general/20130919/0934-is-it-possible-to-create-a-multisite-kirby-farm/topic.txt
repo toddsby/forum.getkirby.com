@@ -1,0 +1,23 @@
+Title: Is it possible to create a multisite / Kirby farm?
+----
+Date: 2013-09-19 09:34:21
+----
+Solved: 0
+----
+User: milojennings
+----
+Text: I'm trying to build a content management platform for use within my company. The goal is to provide a "plan room" where content can be gathered and displayed for coordination of all the content that's going to go into a client's website.
+
+Every client will need their own separate set of content. Ideally, each of these "sites" would use the same templates & CSS styling. The only thing that needs to change between the "sites" would be the content. 
+
+We only need each of these "sites" or "plan rooms" up and running for a couple months at a time. 
+
+I'm trying to figure out a way to use the same kirby core files, site files, and assets folder for each of these sites. I'm imagining something akin to a WordPress multisite installation where every site on the install uses the WordPress core files, and they can share the same theme.
+
+I've accomplished a very messy version of this that is accomplished through a number of ugly, messy apache redirects.
+
+I'd like to get the panel setup on top of this, but I'm scared to even try at the moment. 
+
+I thought I'd stop and check if what there's a better way to accomplish this. It's pretty tricky to get the URl to be separate from the file system path.
+
+I hope somebody smarter than me reads this and has some awesome ideas. Thanks for your help in advance.

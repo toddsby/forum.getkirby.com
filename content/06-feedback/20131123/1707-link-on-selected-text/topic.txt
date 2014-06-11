@@ -1,0 +1,17 @@
+Title: Link on selected text
+----
+Date: 2013-11-23 17:07:27
+----
+Solved: 0
+----
+User: verde_andrea
+----
+Text: Guys i love Kirby!
+
+By the way this is just a suggestion.
+
+It would be nice to select a text string in a textarea and then, when you click on the "link" button, to find that text in the "link text" field without having to write it again.
+
+It's a small enhancement but it could help some inexpert users.
+
+Can't wait to see what kirby 2 will bring. Thanks.

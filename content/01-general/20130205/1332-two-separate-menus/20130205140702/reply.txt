@@ -1,0 +1,39 @@
+User: LewisJenkins
+----
+Date: 2013-02-05 14:07:02
+----
+Text: Thinking about this further, I could probably do it like this
+
+    content
+        01-home
+        02-web-design
+        03-web-hosting
+        ...
+        06-support
+        07-jobs
+        08-legal
+        ...
+
+And then, call each navigation group using `$pages->offset($offset)` and `$pages->limit($limit)`.
+
+    #Header navigation - returns pages 1 - 6
+
+    <nav class="menu">
+      <ul>
+        <?php foreach($pages->visible()->offset(0)->limit(6) AS $p): ?>
+        <li><a<?php echo ($p->isOpen()) ? ' class="active"' : '' ?> href="<?php echo $p->url() ?>"><?php echo html($p->title()) ?></a></li>
+        <?php endforeach ?>
+      </ul>
+    </nav>
+
+    #Footer navigation - returns pages 7 - 10
+
+    <nav class="menu">
+      <ul>
+        <?php foreach($pages->visible()->offset(6)->limit(4) AS $p): ?>
+        <li><a<?php echo ($p->isOpen()) ? ' class="active"' : '' ?> href="<?php echo $p->url() ?>"><?php echo html($p->title()) ?></a></li>
+        <?php endforeach ?>
+      </ul>
+    </nav>
+
+Maybe there is a more obvious way that I'm missing?

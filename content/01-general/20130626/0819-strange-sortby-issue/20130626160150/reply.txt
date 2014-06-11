@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-06-26 16:01:50
+----
+Text: Do dates have to be in that order? Storing dates in the ISO format yyyy-mm-dd (you can display them how you like) is maybe a better bet? It will always sort correctly even if it isn't a date... I think...

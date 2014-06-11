@@ -1,0 +1,13 @@
+User: wieisdennis
+----
+Date: 2013-03-03 21:09:16
+----
+Text: Thank you Russ, I'm already busy creating the queries for the different time frames, that I think, won't be the problem :-)
+
+But to integrate them in you script, that will be / is the issue ;-)
+
+Besides that, I already integrated select2 ( http://ivaynberg.github.com/select2/ ) in your script for testing purposes. I also want to check http://harvesthq.github.com/chosen/ too.
+
+I adjusted the form action into php self and adjusted the select name="categories"> into select name="categories" onChange="this.form.submit();"> so it automatically loads the next chosen option.
+
+I am also busy to find an easy way to let the multi-filter page loads standard events. One and other is also possible through select2 and java/jquery. I got it almost to work, but the .trigger keeps looping the page and safari getting crazy ;-) I have to get another way.

@@ -1,0 +1,8 @@
+User: roman_oroco
+----
+Date: 2013-05-21 13:12:25
+----
+Text: Maybe put `.htaccess` in `/content/` folder:
+```
+Options -Indexes
+```

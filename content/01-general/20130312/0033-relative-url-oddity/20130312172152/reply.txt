@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2013-03-12 17:21:52
+----
+Text: If you enabled enhanced Markdown (or whatever it's called) in the config, you should be able to use the `(image:` syntax inside an HTML block element.
+
+I'm not sure if this causes any other issues.

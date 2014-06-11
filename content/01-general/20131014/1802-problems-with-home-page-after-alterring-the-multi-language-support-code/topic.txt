@@ -1,0 +1,27 @@
+Title: Problems with Home Page after alterring the multi-language support code.
+----
+Date: 2013-10-14 18:02:14
+----
+Solved: 1
+----
+User: i_am_niklas
+----
+Text: Hi everybody,
+
+I had a beautiful website based on Kirby made by a talented developer. It worked great until I messed it up :-) As the developer is on holiday right now, maybe you guys have a quick idea for me.
+
+The site offers multiple languages, but as the english translation is not quite ready yet, I wanted the language selector in the header to only display one language. Therefore i deleted the 'en' part out of the following line from the config.php. 
+
+
+    c::set('lang.available', array('en', 'de'));
+
+
+Yeah I know that's probably horribly wrong. And yeah I shouldn't have done it. Philipp please forgive me if you read this!
+
+Anyway I noticed that the "Home" page is not displaying it's content anymore. It's just grey. So I changed it back to the way it was before but still it's not displaying anything. The issue occurs in both languages. Every other page works just fine.
+
+Does someone has a hint for me? 
+
+Thanks!
+
+Niklas

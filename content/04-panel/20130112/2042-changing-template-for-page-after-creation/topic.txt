@@ -1,0 +1,12 @@
+Title: Changing template for page after creation
+----
+Date: 2013-01-12 20:42:31
+----
+Solved: 0
+----
+User: richgcook
+----
+Text: Is it possible to change a template assigned to a page after the creation through the Panel?
+
+Many thanks,
+R

@@ -1,0 +1,86 @@
+User: robeno_slachta
+----
+Date: 2014-03-14 12:26:06
+----
+Text: Hi,
+I did something similar, you can check it here <http://www.mantro.net/de/cases> - in right part is "like button"
+Here is script I used:
+
+## likeArticle.php - located in root
+//Open php tag
+if(!isset($_POST['article'])) return;
+$post = json_decode($_POST['article']);
+$dir = 'content/'.$post;
+$likeFile = $dir.'/like.txt';
+
+function vote($likeFile,$likes){
+    if(file_put_contents($likeFile, $likes+1)){
+        $fileContent = file_get_contents($likeFile);
+        $likes = (int) $fileContent;
+        echo $likes;
+    }
+}
+
+if(is_file($likeFile)){
+    $fileContent = file_get_contents($likeFile);
+    $likes = (int) $fileContent;
+    if(gettype($likes)=='integer'){
+        if(!isset($_COOKIE['voted'])){
+            setcookie('voted', $post, time()+(3600*24));
+            vote($likeFile,$likes);
+        }else{
+            $voted = explode(',',$_COOKIE['voted']);
+            if(in_array($post,$voted)){
+                echo $likes;
+            }else{
+                vote($likeFile,$likes);
+                setcookie('voted', $_COOKIE['voted'].','.$post, time()+(3600*24));
+            }
+        }
+    }
+}
+//close php tag
+
+## JavaScript
+function likeArticle(){
+    $('.likeArticle').click(function(event){
+        var article = $(this).attr('data-article');
+        var _this = this;
+        $.ajax({
+            type: "POST",
+            async: false,
+            url: "../likeArticle.php",
+            data: {article: JSON.stringify(article)}
+        })
+        .done(function(response) {
+            $(_this).nextAll('.likeArticleResult').html(response);
+        });
+        event.preventDefault();
+    });
+}
+likeArticle();
+
+## Kirby Snippet
+//open php tag
+$likeFile = $dir.'/like.txt';
+$image = $image->url();
+
+if(is_file($likeFile)){
+    $fileContent = file_get_contents($likeFile);
+    $likes = (int) $fileContent;
+    $dataArticle = str_replace('content/','',$dir);
+    echo '<span class="likeArticle" data-article="'.$dataArticle.'"></span><span class="likeArticleResult">'.$likes.'</span>';
+}else{
+    if(!file_put_contents($likeFile, '0')){
+        echo 'Creating like file failed';
+    }
+}
+//close php tag
+
+
+## Usage
+
+snippet('social', array('dir'=>$article->diruri()))
+
+---
+I hope it is understandable :)

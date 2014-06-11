@@ -1,0 +1,19 @@
+Title: The Comments Issue
+----
+Date: 2013-01-12 13:32:14
+----
+Solved: 0
+----
+User: danst0
+----
+Text: Hi,
+
+I would like to add a comment section to my kirby blog. There are two issues holding me back right now:
+1. There does not be a sanctioned way by disqus to have multiple different comment fields on one page. Since I would like to have the comments directly underneath my posts on my main page that's a bummer.
+2. Even if this would work, I am still not sure about having my comments at some company. Beside the trust issue I really would prefer my comments on my own server.
+
+So my questions:
+Is there anyone who has implemented multiple disqus comments on one page?
+Is there any way I can store my comments on my server?
+
+Daniel

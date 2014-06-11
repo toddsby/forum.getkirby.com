@@ -1,0 +1,15 @@
+User: BobRockefeller
+----
+Date: 2013-03-26 20:13:39
+----
+Text: @russbaldwin
+
+I can see where your example would work because the image links are absolute HTML links.
+
+Mine are markdown relative links like this:
+
+(image: Abys-160x200.jpg)
+
+So it depends on the page they're called from. I'd rather not hard link all my images.
+
+Bob

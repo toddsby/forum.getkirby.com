@@ -1,0 +1,11 @@
+Title: Block access to .txt files and site folder for all but appcache?
+----
+Date: 2013-05-14 15:04:05
+----
+Solved: 0
+----
+User: brandondurham
+----
+Text: I'm working on an application cache manifest file and have a question regarding the .htaccess file and blocking access to certain directories and files. I understand blocking access to your standard user, but how can I still access for the appcache so I can cache these files for offline viewing? Currently when I try to cache I get errors like this:
+
+	Application Cache Error event: Resource fetch failed (-1) https://amemoirproject.com/site/config/config.php

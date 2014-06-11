@@ -1,0 +1,12 @@
+User: rappold
+----
+Date: 2013-09-19 14:24:59
+----
+Text: Add `scrollwheel: false` to this section in the map snippet:
+
+	map = new google.maps.Map(elem, {
+	      zoom : options.zoom,
+	      scrollwheel: false,
+	      center : new google.maps.LatLng(49.46097, 8.49042),
+	      mapTypeId : google.maps.MapTypeId[ options.type ]
+	});

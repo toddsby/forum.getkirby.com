@@ -1,0 +1,13 @@
+User: Swissendo
+----
+Date: 2013-04-19 11:58:22
+----
+Text: I'm not a pro, but I've had the same problem and "fixed" it by using ";" instead of ":" during local developement. So the link looked like this:
+
+    <a href="<?php echo url() ?>blog/category;<?php echo $article->category(); ?>"></a>
+
+It's an annoying fix, since you have to change everything back to ":" as soon as you want to upload the site, but it works. Maybe someone else here has enough experience to find the real root of the problem though...
+
+**EDIT**: Also, I recommend to use urldecode, otherwise you'll run into problems if the topic contains spaces (like "test test"). Should look like this:
+
+    $articles = $page->children()->visible()->filterBy('tags', urldecode(param('tag')), ',')->flip()->paginate(12);

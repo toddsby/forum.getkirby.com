@@ -1,0 +1,13 @@
+Title: Most recent child of all pages
+----
+Date: 2013-03-19 21:34:25
+----
+Solved: 0
+----
+User: robinrendle
+----
+Text: Hi there! I’m new to Kirby so bare with me if this has already been posted elsewhere. 
+
+I’m looking to find a loop that goes through the $pages and grabs the most recent child for a featured section of a site.
+
+Halp?

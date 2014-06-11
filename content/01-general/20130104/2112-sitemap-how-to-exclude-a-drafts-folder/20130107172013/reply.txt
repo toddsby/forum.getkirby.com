@@ -1,0 +1,9 @@
+User: russbaldwin
+----
+Date: 2013-01-07 17:20:13
+----
+Text: I just checked to make sure I had not pasted it wrong, but it looks OK. I've got a test site running the same code and this one *is* ignoring the 'error' folder and hidden sub-folders off 'login' as would be expected.
+
+[http://www.andreainsworth.com/sitemap.php](http://www.andreainsworth.com/sitemap.php)
+
+Can you show me an example?

@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2012-12-26 19:48:01
+----
+Text: Well, if it's happening on the live server but didn't happen on your local computer, it's possible that it's a permissions issue with your content files or just the site.txt file specifically. Does the panel have any trouble accessing any of your other content?

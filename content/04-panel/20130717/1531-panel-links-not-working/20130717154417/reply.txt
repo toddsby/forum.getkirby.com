@@ -1,0 +1,18 @@
+User: RachelTai_
+----
+Date: 2013-07-17 15:44:17
+----
+Text: @russbaldwin my .htaccess file resides in my "site" subfolder where I installed Kirby, outside of kirbycms-panel. Should there be another .htaccess file within the Panel's folder?
+
+To clarify, this is my folder structure:
+
+public_html
+ - site
+   - .htaccess
+   - assets
+   - content
+   - index.php
+   - kirby
+   - kirbycms-panel
+   - site
+   - thumbs

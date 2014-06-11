@@ -1,0 +1,28 @@
+Title: Error when loading the panel for the installation
+----
+Date: 2012-06-26 19:40:01
+----
+Solved: 0
+----
+User: laggoun
+----
+Text: Note: it's a fresh installation, so everything is up to date.
+
+I installed Kirby correctly in a subfolder, and made the right changes in the config.php file:
+
+c::set('url', 'http://localhost:8888/klsoptim');
+c::set('subfolder', 'klsoptim');
+
+and in the .htaccess
+
+RewriteBase /klsoptim
+
+Then I downloaded the panel folder, pasted it in the my subfolder and renamed it.
+
+However, when I try to access it from my browser:
+
+http://localhost:8888/klsoptim
+
+I get the custom error page.
+
+Am I forgetting something ?

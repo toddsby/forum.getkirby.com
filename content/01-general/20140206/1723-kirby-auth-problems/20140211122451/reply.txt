@@ -1,0 +1,12 @@
+User: kamptweets
+----
+Date: 2014-02-11 12:24:51
+----
+Text: Hi, Thanks for having another look! :) 
+
+I am not using any additional plugins, the only change i did was add the soundcloud function to my kirby.extended.php. (like it is in the same file linked above)
+
+
+In my plugins folder there is only a folder "auth", and then that one file kirby.extended.php
+
+or am i missing something?

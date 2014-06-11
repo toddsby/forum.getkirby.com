@@ -1,0 +1,8 @@
+User: russbaldwin
+----
+Date: 2013-02-16 21:44:50
+----
+Text: That is because you set it as the home page which traditionally is the root '/'. 
+
+One way to do this is to set you Kirby code back to 'home', that way you will get your '/work' back and change your home page with a route to 'work'
+[See -- Simple Redirect](http://getkirby.com/blog/simple-redirects)

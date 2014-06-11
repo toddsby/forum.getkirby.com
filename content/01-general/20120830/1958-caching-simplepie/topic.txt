@@ -1,0 +1,11 @@
+Title: Caching Simplepie
+----
+Date: 2012-08-30 19:58:27
+----
+Solved: 0
+----
+User: fitzage
+----
+Text: By default, simplepie requires a hard coded cache directory, which means it will have issues when pushing live. I looked at the tweets directory and it uses c::get('root.cache') to get the cache directory, but I can't seem to implement that in the simplepie plugin, so I probably have no clue what I'm doing.
+
+How can I get my simplepie plugin to recognize what the cache directory is? Or at least to recognize what the root directory of the site is, so I can do a relative directory?

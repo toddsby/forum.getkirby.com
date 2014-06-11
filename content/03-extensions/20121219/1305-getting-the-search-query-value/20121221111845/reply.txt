@@ -1,0 +1,7 @@
+User: nilshendriks
+----
+Date: 2012-12-21 11:18:45
+----
+Text: Ha. Turned out I was messing with the form method set to POST which screws up a few things. 
+
+Looks like I got it to work now :-)

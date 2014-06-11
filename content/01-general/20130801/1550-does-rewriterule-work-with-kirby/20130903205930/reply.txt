@@ -1,0 +1,9 @@
+User: travVT
+----
+Date: 2013-09-03 20:59:30
+----
+Text: Hello Everyone,
+
+I have been struggling with this, creating my own custom redirects, for the past few hours and I've finally found a solution that works for me. The trick is getting the positioning of the code in the HTACCESS file just right. The "goldilocks" spot seemed to be right above the "# make site links work" and right below the "# make panel links work" comments.
+
+Finally, I'm able to RewriteRule to my hearts content within Kirby. I hope this helps you atimoda and svennedy! :)

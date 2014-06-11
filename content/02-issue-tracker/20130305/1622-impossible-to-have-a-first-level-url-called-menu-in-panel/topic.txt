@@ -1,0 +1,17 @@
+Title: Impossible to have a first-level URL called "menu" in panel
+----
+Date: 2013-03-05 16:22:37
+----
+Solved: 0
+----
+User: jchnrd
+----
+Text: Hi,
+
+I'm making a website for a restaurant and I tried to have one of page to have the URL domain.tld/menu/ from the panel.
+
+The modification was made but a but appeared in the interface of the panel. The fields part was hidden and I could only see the black sidebar with my various pages.
+
+Is there somebody having the same issue? Can you produce the same issue?
+
+Thanks!

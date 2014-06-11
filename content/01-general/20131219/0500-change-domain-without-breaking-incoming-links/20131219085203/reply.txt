@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-12-19 08:52:03
+----
+Text: .htaccess (assuming your are on an Apache serve) a recent 24 Ways article maybe a good starting point: See -- [URL Rewriting for the Fearful](http://24ways.org/2013/url-rewriting-for-the-fearful/)

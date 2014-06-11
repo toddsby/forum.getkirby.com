@@ -1,0 +1,11 @@
+User: arlamentis
+----
+Date: 2013-04-13 11:16:18
+----
+Text: Thx a lot =).
+
+I get it to work adding ```title="<?php echo $imaged->title() ?>``` to the template now i just change the name of the picture trough the panel. Just perfect.
+
+```
+<a title="<?php echo $imaged->title() ?>" rel="<?php echo $gallery->uid() ?>" href="<?php echo $image->url() ?>"><?php echo thumb($image, array('width' => 200, 'height' => 200, 'crop' => true)) ?></a>
+```

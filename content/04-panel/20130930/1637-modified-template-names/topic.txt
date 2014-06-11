@@ -1,0 +1,15 @@
+Title: Modified Template Names
+----
+Date: 2013-09-30 16:37:58
+----
+Solved: 1
+----
+User: travvt
+----
+Text: First, apologies if it appears I'm posting the same question in both the general forum and Panel threads. My initial post is located here:
+
+(link: http://getkirby.com/forum/general/topic:874)
+
+My post has "transformed" into a Panel specific question and I was hoping to receive some help/guidance. I've successfully made a small modification to Kirby's code that allows a test.page.txt file to point to the page.php template. This works on the front end, however, the Panel is pulling up the default template file. This makes sense since no modification has been made to the code, however, when I try and find where to make the panel modification I become lost in the various code files.
+
+If anyone has any suggestions/help I'd greatly appreciate it.Thanks!

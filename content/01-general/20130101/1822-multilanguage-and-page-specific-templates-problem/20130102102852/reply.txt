@@ -1,0 +1,7 @@
+User: vis7mac
+----
+Date: 2013-01-02 10:28:52
+----
+Text: Kirby looks for the template `project`, because the language is just an internal information when to render that content file.
+
+You have to use the name `project` for your template and then use [language variables](http://getkirby.com/docs/multi-language/custom-language-variables) to change the appearance.

@@ -1,0 +1,13 @@
+Title: Sitemap for multi-language environment
+----
+Date: 2013-03-14 19:02:30
+----
+Solved: 0
+----
+User: roman_oroco
+----
+Text: Hi kirby users, I have two languages on my Kirby site and it's super important have a sitemap cause there's a lot of content!
+
+Read also (link:http://support.google.com/webmasters/bin/answer.py?hl=en&answer=2620865&topic=2370587&ctx=topic text:Google's multi sitemap Popup: Yes) for multi-language environment.
+
+Someone has some solution for that?

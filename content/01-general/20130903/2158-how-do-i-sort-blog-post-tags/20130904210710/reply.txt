@@ -1,0 +1,7 @@
+User: texnixe
+----
+Date: 2013-09-04 21:07:10
+----
+Text: This is indeed strange, would you mind posting the code as it is now?
+
+What do you get as a result for the array if you use <?php a::show($tags) ?>

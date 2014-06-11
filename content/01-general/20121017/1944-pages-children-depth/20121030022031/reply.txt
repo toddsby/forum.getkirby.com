@@ -1,0 +1,12 @@
+User: prayasabhinav
+----
+Date: 2012-10-30 02:20:31
+----
+Text: Hey again @hey_stephen and @bastianallgeier,
+
+With the children()->children() I am able to fetch the content now. But pagination is still a problem. 
+
+What I am trying to do is the total there should be 5 pages (parent + children + grandchildren), can you please give suggestions for nesting the pagination?
+
+thanks, 
+prayas

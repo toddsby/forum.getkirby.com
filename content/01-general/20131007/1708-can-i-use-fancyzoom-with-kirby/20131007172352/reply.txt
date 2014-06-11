@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2013-10-07 17:23:52
+----
+Text: Probably goes in the body tag? Like so:
+
+    <body onload="setupZoom()">

@@ -1,0 +1,9 @@
+User: tysongach
+----
+Date: 2013-02-08 23:37:20
+----
+Text: Yes, just add a `class: ` attribute to your Kirby Text:
+
+    image: photo.jpg class: float
+
+You can read more about these options here: <http://getkirby.com/blog/text-formatting-101>

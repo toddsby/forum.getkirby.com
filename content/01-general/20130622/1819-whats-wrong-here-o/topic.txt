@@ -1,0 +1,22 @@
+Title: Whats wrong here :o?
+----
+Date: 2013-06-22 18:19:00
+----
+Solved: 0
+----
+User: primitiv_me
+----
+Text: Hello,
+i try to setup a local Kirby Page for testing something before i going to buy Kirby.
+
+But i have a problem and i don´t find a solution :/
+I created a new visible Page and add a .txt file in the folder and created a .php template for this file but it does not work.
+
+Here is a picture
+
+http://i.epvpimg.com/KTNgd.png
+
+Thanks for helping me
+
+Best Regards,
+Sebastian

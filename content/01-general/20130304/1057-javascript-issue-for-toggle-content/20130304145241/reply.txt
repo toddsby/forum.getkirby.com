@@ -1,0 +1,8 @@
+User: guillaumelobet
+----
+Date: 2013-03-04 14:52:41
+----
+Text: Here is all I have in the head:
+
+`<link rel="stylesheet" href="http://localhost:8888/kirby/assets/styles/styles.css" />
+<script src="http://localhost:8888/kirby/assets/js/toggle.js"></script>`

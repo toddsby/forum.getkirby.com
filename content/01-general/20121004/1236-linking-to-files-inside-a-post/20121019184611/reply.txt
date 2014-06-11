@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-10-19 18:46:11
+----
+Text: @apolaine Markdown links work as well, but you need to know the entire path to that file. That's why I added the shortcuts to Kirbytext.

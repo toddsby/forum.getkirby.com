@@ -1,0 +1,9 @@
+User: fitzage
+----
+Date: 2013-02-14 17:26:38
+----
+Text: A quick search found this PHP-based tool http://mr.mftz.us/MujU
+
+And if that's not sufficient, a list on this page of more options: http://mr.mftz.us/Mtxp
+
+Not Kirby specific, but should be easy to implement.

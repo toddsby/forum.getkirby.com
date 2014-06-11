@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2012-10-04 17:26:30
+----
+Text: Per http://getkirby.com/blog/text-formatting-101
+
+(gist: https://gist.github.com/3834390)

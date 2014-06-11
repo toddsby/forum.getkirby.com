@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-02-26 19:11:16
+----
+Text: Check out this for some ideas: [Multi-FilterBy on Page Fields with Form Selection](http://getkirby.com/forum/code-snippets/topic:460)

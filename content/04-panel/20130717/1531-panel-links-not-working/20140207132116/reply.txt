@@ -1,0 +1,7 @@
+User: PaulVintin
+----
+Date: 2014-02-07 13:21:16
+----
+Text: Sorted!
+
+I changed 'RewriteBase /Kirby' to 'RewriteBase /' in the htaccess file.

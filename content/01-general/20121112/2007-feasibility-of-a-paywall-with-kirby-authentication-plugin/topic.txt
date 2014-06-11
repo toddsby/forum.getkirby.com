@@ -1,0 +1,23 @@
+Title: Feasibility of a Paywall with Kirby Authentication Plugin?
+----
+Date: 2012-11-12 20:07:45
+----
+Solved: 0
+----
+User: joachimesque
+----
+Text: As part of a project I'm developing, I will need a sort of paywall. Do you think it would be possible to achieve the paywall-related functions I'd need with a (customized) Kirby Authentication Plugin?
+
+The functions I'd need would be :
+
+* Account creation
+* Authentication : Login/Logout (_already covered with the plugin_)
+* Payment (_through PayPal I guess?_)
+  Upgrade of the account group after payment (_groups are covered_)
+* Limit the availability of pages consumed for a special group (_covered with the custom variables : one is the last active month, the other is the number of pages consumed, reset if last active month is not the current month_)
+
+
+
+What I'm looking for in this thread is not ready-to-work solutions, I'd like to know if anyone thinks it's possible, and how easy/hard you think it would be.
+
+General estimations and guesses are OK!

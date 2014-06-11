@@ -1,0 +1,7 @@
+User: koeque
+----
+Date: 2013-06-24 17:30:19
+----
+Text: Well- I just realized that it's probably the most non-elegant way. Now the titel of the firt submenu point is added to every menu point (even those without a submenu)...
+
+Suggestions?

@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2014-02-13 12:10:00
+----
+Text: It might be your are not calling `kirbytext` but just 'text' - which is required for tags.

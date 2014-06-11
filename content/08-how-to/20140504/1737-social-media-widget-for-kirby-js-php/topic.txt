@@ -1,0 +1,11 @@
+Title: Social Media Widget for Kirby (JS & PHP)
+----
+Date: 2014-05-04 17:37:04
+----
+Solved: 0
+----
+User: digisocialnet
+----
+Text: Tutorial coming soon! 
+
+(image: http://i.imgur.com/zWI9Lji.jpg)

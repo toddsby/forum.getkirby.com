@@ -1,0 +1,8 @@
+User: russbaldwin
+----
+Date: 2014-03-21 15:16:02
+----
+Text: Possibly, but it is usually access rights. 
++ Is it a local web server? 
++ If you create a file manually outside Panel, can you & who owns it with what rights. 
++ Same applies to a file you can edit in Panel, who owns it with what rights.

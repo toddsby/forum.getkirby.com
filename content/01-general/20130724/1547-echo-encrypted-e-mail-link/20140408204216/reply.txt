@@ -1,0 +1,7 @@
+User: ico_
+----
+Date: 2014-04-08 20:42:16
+----
+Text: I think you're looking for this. 
+
+	<?php echo str::email($about->email()) ?>

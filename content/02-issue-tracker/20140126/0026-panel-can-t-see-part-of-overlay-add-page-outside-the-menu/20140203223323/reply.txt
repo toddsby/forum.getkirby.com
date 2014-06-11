@@ -1,0 +1,9 @@
+User: mzhu11
+----
+Date: 2014-02-03 22:33:23
+----
+Text: I have similar issues here, but slightly different. I'm using the latest update and chrome browser, but I can't add or delete pages when I'm on WIFI. I can only do that when I'm having regular internet connections. Anyone ever notice that?
+
+Updates: I removed "overflow:auto". Now it works!!
+
+Thank you for the valuable tip!

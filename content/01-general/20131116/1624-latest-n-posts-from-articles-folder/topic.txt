@@ -1,0 +1,20 @@
+Title: Latest n posts from articles folder
+----
+Date: 2013-11-16 16:24:02
+----
+Solved: 1
+----
+User: ndrsn
+----
+Text: My setup is as follows:
+```
+content
+  01-home
+  02-articles
+    ...
+  ...
+```
+
+In my `home.php` I'd like to get the n latest articles from `02-articles.
+
+I've read through the one-pager tutorial and understand it in theory but I'm having a hard time figuring out on how to use it as it's shown and adapt it to my site.

@@ -1,0 +1,8 @@
+User: ManuelHeilmeier
+----
+Date: 2013-03-12 17:15:09
+----
+Text: Captains Log:
+Just pulled the Site down from my Dev-Server to my local machine and ... well it`s running smoothly over here. Error should be located somewhere in the config.
+
+Doublechecked everything :(

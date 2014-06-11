@@ -1,0 +1,18 @@
+User: tbnv
+----
+Date: 2013-02-28 09:48:01
+----
+Text: I just found the problem. Try this and it won't work.
+
+```
+fields:
+  radiofield: 
+    label: Radio Field
+    type: radio
+    options:
+      yes: Yes
+      no:  No
+    default: no
+```
+
+Using just "yes" and "no" doesn't seem to work. I don't know why, though.

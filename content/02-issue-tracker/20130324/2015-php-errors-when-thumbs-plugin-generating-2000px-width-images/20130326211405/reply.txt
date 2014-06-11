@@ -1,0 +1,5 @@
+User: roman_oroco
+----
+Date: 2013-03-26 21:14:05
+----
+Text: @russbaldwin It's definitely Thumbs plug-in issues cause in WP with PHP 5.4 I haven't this issues even when uploaded DSLR photograph's.

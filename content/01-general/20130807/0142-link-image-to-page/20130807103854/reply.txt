@@ -1,0 +1,10 @@
+User: aqeelfikree
+----
+Date: 2013-08-07 10:38:54
+----
+Text: I'm not sure how or where that can fit in my code, this is what I'm using:
+
+	<?php foreach($articles as $article): ?>
+		<h2><a href="<?php echo $article->url() ?>"><?php echo html($article->title()) ?></a></h2>
+		<?php echo kirbytext($article->text()) ?>
+	<?php endforeach ?>

@@ -1,0 +1,7 @@
+User: rizkysyazuli
+----
+Date: 2013-10-09 06:52:42
+----
+Text: Great! Thx a lot.
+
+Edit: after taking a quick look, seems all i need to do is add the fields i want, then edit those two lines in the plugin file with my custom fields. is that correct?

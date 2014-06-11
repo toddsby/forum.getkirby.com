@@ -1,0 +1,15 @@
+User: roman_oroco
+----
+Date: 2013-03-26 12:18:26
+----
+Text: Or even more:
+
+```php
+<?php if($site->advertising() && $site->advertising() != 'yes') snippet('advertising') ?>
+```
+
+So in `site.txt` if you choose `Yes` kirby will insert `~/snippet/advertising.php`:
+```
+Advertising: Yes
+----
+```

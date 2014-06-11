@@ -1,0 +1,9 @@
+Title: Templating / syntax  language
+----
+Date: 2013-02-06 14:00:27
+----
+Solved: 0
+----
+User: theoriginalivor
+----
+Text: Has anyone had any thoughts or considerations for using a templating language instead of using kirby tags . So for example having EE type syntax i.e {{ }} I guess this more of a question for Bastian.

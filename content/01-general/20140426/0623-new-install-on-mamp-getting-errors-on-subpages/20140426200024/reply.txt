@@ -1,0 +1,5 @@
+User: MeaganChin
+----
+Date: 2014-04-26 20:00:24
+----
+Text: Following the instructions on this page worked for me: http://getkirby.com/blog/mamp

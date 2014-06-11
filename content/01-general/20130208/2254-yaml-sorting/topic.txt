@@ -1,0 +1,114 @@
+Title: YAML sorting
+----
+Date: 2013-02-08 22:54:00
+----
+Solved: 1
+----
+User: itisavery
+----
+Text: Hi,
+
+I'm having a lot of trouble trying to sort a simple array.  I know it should be easy but i can't seem to get it working.
+
+    ----
+	Heading1: Company Name:
+	----
+	Heading2: Booth Number:
+	----
+
+	Exhibitors:
+
+	  List1:
+
+	    - Booth: 100
+	      Company: Teacher
+
+	    - Booth: 200
+	      Company: Aba
+
+	    - Booth: 300
+	      Company: Zabanty 
+
+	    - Booth: 400
+	      Company: Beacher
+
+	    - Booth: 500
+	      Company: Cba 
+
+	    - Booth: 600
+	      Company: Xabanty 
+
+Which makes my array look like:
+    Array
+    (
+        [List1] => Array
+            (
+                [0] => Array
+                    (
+                        [Booth] => 100
+                        [Company] => Teacher
+                    )
+
+                [1] => Array
+                    (
+                        [Booth] => 200
+                        [Company] => Aba
+                    )
+
+                [2] => Array
+                    (
+                        [Booth] => 300
+                        [Company] => Zabanty
+                    )
+
+                [3] => Array
+                    (
+                        [Booth] => 400
+                        [Company] => Beacher
+                    )
+
+                [4] => Array
+                    (
+                        [Booth] => 500
+                        [Company] => Cba
+                    )
+
+                [5] => Array
+                    (
+                        [Booth] => 600
+                        [Company] => Xabanty
+                    )
+
+            )
+
+    )
+
+And my .php template has the following in it:
+
+    <?php $array = yaml($page->exhibitors()) ?>
+	<table id="sched">
+		<thead>
+			<tr>
+				<th scope="col"><?php echo $page->heading1() ?></th>
+				<th scope="col"><?php echo $page->heading2() ?></th>
+			</tr>
+		</thead>
+		<tbody>
+			<?php $lister = $array['List1'] ?>
+			<?php foreach($lister as $list): ?>
+			<tr>
+				<td><?php echo $list['Company'] ?></td>
+				<td><?php echo $list['Booth'] ?></td>
+			</tr>
+			<?php endforeach ?>
+		</tbody>
+	</table>
+
+The above php gives me the list displayed in the ordered i entered it without problem, but i'm trying to get it alphabetically and not sure how to go about doing it.
+
+I've tried variations of this based off the array documentation but php is still very new to me (just gives me errors):
+	
+	<?php $list = $array['List1'] ?>
+	<?php $company = 'Company' ?>
+	<?php a::sort($list, $company, $direction='desc', $method=SORT_REGULAR) ?>
+	<?php echo a::show($list) ?>

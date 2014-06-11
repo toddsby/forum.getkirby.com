@@ -1,0 +1,5 @@
+User: tysongach
+----
+Date: 2013-02-14 05:35:56
+----
+Text: @madebyfolk I have a pull request on GitHub to add the H4, H5 & H6 buttons to the panel: <https://github.com/bastianallgeier/kirbycms-panel/pull/36>

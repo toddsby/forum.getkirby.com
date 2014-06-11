@@ -1,0 +1,36 @@
+User: bastianallgeier
+----
+Date: 2012-07-20 09:34:00
+----
+Text: @fitzage you are thinking way too complicated :) 
+
+Just add two fields to your content file: 
+
+```
+Title: Some title
+----
+Text: Some text
+----
+Partners: 
+- partners/a-related-partner
+- partners/b-related-partner
+----
+Customers: 
+- customers/a-related-customer
+- customers/b-related-customers
+
+```
+
+and in your template: 
+
+```
+
+<?php foreach(related($page->partners() as $partner): ?>
+<!-- list the related partners -->
+<?php endforeach ?>
+
+<?php foreach(related($page->customers() as $customer): ?>
+<!-- list the related customers -->
+<?php endforeach ?>
+
+```

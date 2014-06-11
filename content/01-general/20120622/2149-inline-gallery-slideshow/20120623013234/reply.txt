@@ -1,0 +1,12 @@
+User: brtdesign
+----
+Date: 2012-06-23 01:32:34
+----
+Text: This is probably the biggest monologue...
+So here's a new problem. 
+
+I have each project page and then I have a ajax template to load that content into other page, leaving the actual page as a fallback for noscript. Everything works fine except the sliders. I have exactly the same code except for the name of the variable I use. On the actual projects page I use $page and on the ajax I use $projects which is declared before as being $page->find("projects/").get("id").
+
+I don't understand why it doesn't get the information from the project.txt
+
+Thanks for any help.

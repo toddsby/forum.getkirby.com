@@ -1,0 +1,11 @@
+User: russbaldwin
+----
+Date: 2013-03-03 18:53:14
+----
+Text: I realise that but what were you expecting to filter them on? 
+
+1. You need to have some key you can filter on.
+
+2. Or you compare arrays as I've mentioned. 
+
+I'd have the same mark-up for both 'featured' and normal 'articles' and just have the tag 'featured' set to 'on' or 'off'? Easy then ;-)

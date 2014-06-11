@@ -1,0 +1,5 @@
+User: DevDataStream
+----
+Date: 2014-02-13 12:51:10
+----
+Text: That CSS feature you've in mind won't work for most browsers except bleeding edge. Unless you know a solution to that too (without js). But I really just want to know how that can be done with with Kirby.

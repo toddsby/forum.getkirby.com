@@ -1,0 +1,44 @@
+Title: Get all images from multiple folders at once?
+----
+Date: 2014-01-21 13:59:56
+----
+Solved: 1
+----
+User: kritz911
+----
+Text: Hey there!
+
+I've been stuck at this problem for an hour now, maybe I'm just not seeing it.. Is there a simple way to get all images from multiple subdirectories at once?
+
+So let's say I'm building a photo-blog. On the main page I want a stream of **all** images, sorted by newest first. I also want to be able to filter photos by different categories.
+
+My filestructure is as follows:
+
+(image: http://d.pr/i/dCUM+)
+
+Now, if i simply want to get all images from their subcategories, I would use 2 foreach-loops
+
+    foreach($pages->find('photos')->children()->visible()->shuffle() as $category) {
+        ...
+        foreach($category->images()) {
+            ... echo the image
+        }
+    }
+
+So far so good. The thing is, the images are now ordered by their category, which is obviously what the first foreach-loop does. 
+
+What I'm looking for is something like: 
+
+    foreach($site->allImages()->flip() as $image) {
+        echo $image->url();
+    }
+
+more precisely
+
+    foreach($pages->find('photos')->children->images()->flip() as $image) {
+        echo $image->url();
+    }
+
+Is there a simple way to achieve this?
+
+Thanks in advance!

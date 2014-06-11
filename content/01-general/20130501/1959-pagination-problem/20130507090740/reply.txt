@@ -1,0 +1,33 @@
+User: hellovolker
+----
+Date: 2013-05-07 09:07:40
+----
+Text: Its not working... dont get where I made the mistake:
+
+     <?php
+        $made  = $pages->find('made')->children()->visible();
+        $count = $made->count();
+        $sib   = $made->paginate($count);
+     ?>
+
+     <?php if($sib->pagination()->hasPages()): ?>
+        <div class="sibling-nav cf">
+
+          <?php if($sib->pagination()->hasPrevPage()): ?>
+            <a href="<?=$sib->pagination()->prevPageURL()?>" rel="prev" title="Previous"><</a>
+          <?php endif; ?>
+          
+          <?php if($sib->pagination()->hasNextPage()): ?>
+            <a href="<?=$sib->pagination()->nextPageURL()?>" rel="next" title="Next">></a>
+          <?php endif; ?>
+
+        </div>
+      <?php endif; ?>
+
+Problem:
+`$sib->pagination()->hasPages()` is false?!
+But: 
+     <?php foreach ($sib as $page2) {
+        echo $page2->title();
+      } ?>
+displays everything correctly.

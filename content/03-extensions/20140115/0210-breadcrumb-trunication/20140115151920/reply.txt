@@ -1,0 +1,8 @@
+User: _frankallen
+----
+Date: 2014-01-15 15:19:20
+----
+Text: for only 2 levels, or however how much: <?php foreach($site->breadcrumb()->slice(0,2) AS $crumb): ?>
+to cut a string: https://php.net/manual/en/function.substr.php
+
+let me know, if it works or not.

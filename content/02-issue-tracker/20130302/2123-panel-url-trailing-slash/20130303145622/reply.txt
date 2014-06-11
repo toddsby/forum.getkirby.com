@@ -1,0 +1,7 @@
+User: iamirm
+----
+Date: 2013-03-03 14:56:22
+----
+Text: Thanks Russ. I don't seem to remember where I got my .htaccess from... I think I used the one included in the github download. I did set up the panel like you said in the post. The panel works fine when I add the trailing slash to the url.
+
+I'll post some snippets from my .htaccess and config files later.

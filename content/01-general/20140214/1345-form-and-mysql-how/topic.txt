@@ -1,0 +1,15 @@
+Title: Form and MySQL – How?
+----
+Date: 2014-02-14 13:45:35
+----
+Solved: 1
+----
+User: paulvintin
+----
+Text: I want to add data to a MySQL database using an Ajax form. 
+
+The Ajax loads in a separate php page which handles the data. The form works, the database works but I can't get both to work together. 
+
+It seems I can't use Kirby toolkit classes on the separate php page. If I do, I get a class not found error. They work fine on the pages that make up the website. Is this about scope? Do I have to pass the class to the page? If so, how? Is there a better way of doing this?
+
+Thanks

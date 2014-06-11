@@ -1,0 +1,7 @@
+User: youremartinets
+----
+Date: 2014-04-25 13:04:02
+----
+Text: Yes, that's easy and documented, but the other way is puzzling.
+
+I see now, that you can (link: http://getkirby.com/docs/advanced-stuff/custom-config-files text: set global variables in the config files) and I guess I could make plugins for global functions. I'll see if this works.

@@ -1,0 +1,19 @@
+User: IamAdamJowett
+----
+Date: 2013-11-04 00:42:07
+----
+Text: I am getting much the same behaviour, you can see it live if you go to the contact page using the language link http://formitize.com/en/contact .... where you can see the contact page.
+
+Now go to: http://formitize.com/contact
+
+It redirects back to the homepage. Naturally this was the link before I turned on multi-language support.
+
+My config looks like this:
+
+c::set('lang.support', true);
+c::set('lang.default', 'en');
+c::set('lang.available', array('en', 'nl'));
+c::set('lang.detect', true);
+c::set('lang.locale', false);
+
+Any thoughts to help @mecrawlings and I out?

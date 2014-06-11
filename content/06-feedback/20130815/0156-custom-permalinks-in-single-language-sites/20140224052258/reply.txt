@@ -1,0 +1,5 @@
+User: DevDataStream
+----
+Date: 2014-02-24 05:22:58
+----
+Text: I have seen that it's fixed in kirby2, but it's still in alpha, unfortunately.

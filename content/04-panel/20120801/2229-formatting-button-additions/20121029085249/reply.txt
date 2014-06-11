@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2012-10-29 08:52:49
+----
+Text: I, for one, would like to see a internal website page selector for linking to internal pages (there is a link for http based pages) and maybe some of these be available for file fields as well, so you can say link images to internal pages.

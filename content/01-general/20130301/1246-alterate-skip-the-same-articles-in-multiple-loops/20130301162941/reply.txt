@@ -1,0 +1,14 @@
+User: roman_oroco
+----
+Date: 2013-03-01 16:29:41
+----
+Text: @russbaldwin I update topic, maybe it's helps. So for featured articles in article.txt I have `Featured: On` or `Featured: Off`:
+```
+Title:
+----
+Date:
+----
+Featured: On
+----
+Text:
+```

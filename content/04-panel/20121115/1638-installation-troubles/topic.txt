@@ -1,0 +1,9 @@
+Title: Installation troubles
+----
+Date: 2012-11-15 16:38:04
+----
+Solved: 0
+----
+User: bryandavidk
+----
+Text: Hi, I'm having a little trouble getting the panel to work. This is my set-up: MAMP, latest Kirby version, Coda and Transmit. This is what I've done: 1) Download and unzip panel. 2) Move the whole folder to root "where the index.php is" as directed and changed the folder name to "panel". I renamed the folder myself. 3) Changed permissions on content folder and all folder and files within to "755 for folders and 666 for files" as directed, I did this Transmit > Get Info. Currently, the panel loads up, but everything goes to 404 and I don't get the ability to edit anything. Just the static "overview" information. Thanks in advance!

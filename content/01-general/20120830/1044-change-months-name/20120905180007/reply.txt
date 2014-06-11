@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-09-05 18:00:07
+----
+Text: Steffen is right. You should set the timezone in your config file. If you want to add additional date manipulation features you should add your own plugin. Just put a new php file in site/plugins and add the functions there, which you can then use in any template or snippet.

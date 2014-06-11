@@ -1,0 +1,11 @@
+User: russbaldwin
+----
+Date: 2013-10-18 08:47:41
+----
+Text: You will need more in your .htaccess to make nice URL's work.
+You can download the default [Kirby file from GitHub.](https://github.com/bastianallgeier/kirbycms)
+
+You may well have to add your line to the top of this file:
+`AddType application/x-httpd-php5 .html .htm`
+
+Although I'm not sure why you'd want to process html/htm as PHP? Maybe it is for setting PHP5?

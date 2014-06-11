@@ -1,0 +1,17 @@
+Title: Temporarily hide/deactivate/unpublish a page
+----
+Date: 2013-07-04 13:01:10
+----
+Solved: 0
+----
+User: madeyourday
+----
+Text: Hey guys,
+
+is it possible to temporarily hide/deactivate/unpublish a page with kirby? It shouldn't be shown or included in the search results, sitemap etc.
+
+Since the `Ignore Content Files` don't allow a regular expression we couldn't use them. We also tried using a own template file `unpublished.de.md` to ignore it, but the folder (containing the ignored files) creates a navigation item anyway.
+
+We think a prefix like XX-sitename to deactivate/unpublish a page, would probably be a smart feature. Or is there already another good way?
+
+Thanks!

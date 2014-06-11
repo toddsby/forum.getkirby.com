@@ -1,0 +1,5 @@
+User: maguay
+----
+Date: 2013-02-04 16:46:07
+----
+Text: Thanks for mentioning it, I was looking for an alternate to DreamHost and will be sure to give it a try. FWIW, I just chatted with their support, and they said that shared hosting users can use up to 512Mb of Ram. DreamHost has been killing my site for using 90-120Mb of Ram, so that's quite the difference.

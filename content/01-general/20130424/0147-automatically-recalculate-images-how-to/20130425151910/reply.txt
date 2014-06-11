@@ -1,0 +1,17 @@
+User: tysongach
+----
+Date: 2013-04-25 15:19:10
+----
+Text: With the multi–device world we now live in, scaling images to one size is quickly becoming a thing of the past.
+
+Most of the projects I work on are (link: http://www.abookapart.com/products/responsive-web-design text: responsive), so I need images that scale to fit its container, but that container could be very small or very large depending on the browser viewport.
+
+I always include this little snippet in my stylesheets to do that:
+
+```css
+img {
+  max-width: 100%;
+}
+```
+
+If you just need an image scaled to an exact size, Kirby doesn’t offer a global solution to do that. Though, whenever you add an image to a blog post, just provide width and height attributes in the Kirby Text tag. Read about that here (under the ‘Images’ heading): <http://getkirby.com/blog/text-formatting-101>

@@ -1,0 +1,11 @@
+User: bastianallgeier
+----
+Date: 2013-06-17 10:54:01
+----
+Text: The core of Kirby should have full UTF-8 support and so Cyrillic shouldn't be a problem as far as I know. The tags plugin should work as well, but you might need to change the code, which fetches tags: 
+
+```
+<?php $tag = urldecode(param('tag')) ?>
+```
+
+The reading time plugin is not developed and maintained by me, so I can't say much about it, but if the search plugin fails, I'm happy to help. Maybe send me an email: bastian[at]getkirby[dot]com and I will have a closer look at it.

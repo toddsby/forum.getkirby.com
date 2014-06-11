@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-03-15 14:19:47
+----
+Text: I'm still not sure I understand, but I don't think this is possible. If the field name as also a field in the txt file you could probably do this. Maybe Bastian can chip in here?

@@ -1,0 +1,9 @@
+User: primitiv_me
+----
+Date: 2013-06-22 19:06:05
+----
+Text: Yea i renamed my folders, but that wasn´t the issue.
+The About Me content does not work...
+
+Edit:
+Yea i fixed the issue, but the next question is how can i add a instagram picture page? I want a page who show my instagram pictures - can i do this with kirby :)?

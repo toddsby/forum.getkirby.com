@@ -1,0 +1,16 @@
+Title: Editing a CSS style sheet inside the Panel
+----
+Date: 2013-05-28 22:05:58
+----
+Solved: 0
+----
+User: vlaxmax
+----
+Text: Hi 
+Has someone already tried to extend the panel to include the editing of CSS style sheets?
+Basically the problem we have is we are deploying a site to an environment when we don't have FTP access and we want to speed up the process by editing the CSS online to avoid having to send every update to the webmaster to be uploaded.
+In case it hasn't been done before, a hint on how to implement it would be greatly appreciated :)
+Kirby really rocks!
+Thanks for this great CMS!
+Regards
+Vlad

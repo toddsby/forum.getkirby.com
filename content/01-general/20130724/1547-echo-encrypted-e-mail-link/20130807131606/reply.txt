@@ -1,0 +1,5 @@
+User: rappold
+----
+Date: 2013-08-07 13:16:06
+----
+Text: Yes, I mean outputting an encoded address for spam protection. Just like kirbytext does it.

@@ -1,0 +1,5 @@
+User: GeishaOnABike
+----
+Date: 2013-07-10 08:20:06
+----
+Text: I am writing php version 5.4.10. I changed c::set('rewrite', false); and it works (though I'm not sure why)! Thanks very much.

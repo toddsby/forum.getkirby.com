@@ -1,0 +1,9 @@
+User: russbaldwin
+----
+Date: 2012-12-05 18:56:40
+----
+Text: We are using it on an update to [the photographer, Andre Ainsworths' website](http://www.andreainsworth.com/) which we are moving from another CMS to Kirby. We are mainly using it because some of the photos are huge!
+
+No real integration, put the *ai-cache* folder and their PHP file in the root, their JavaScript in the header and amend the .htaccess appropriately. We added some extra sizes to the PHP file because we wanted to go to max 3000px wide, with some extra breaks.
+
+Seems to work just fine, if you need more let me know, but their docs are good.

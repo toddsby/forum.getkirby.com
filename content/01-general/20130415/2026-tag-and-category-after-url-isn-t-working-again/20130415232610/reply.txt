@@ -1,0 +1,8 @@
+User: cbiskup
+----
+Date: 2013-04-15 23:26:10
+----
+Text: the links you generate are pointing to .net/category:Xyz
+it should be .com/category:Xyz
+
+use .com instead of .net

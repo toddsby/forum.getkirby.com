@@ -1,0 +1,16 @@
+User: richgcook
+----
+Date: 2013-04-09 23:51:20
+----
+Text: Okay, I figured it out.
+
+With the tagcloud, you can't have sortBy, but you can open up an array on the tagcloud and add a few declarations like so:
+
+    $tags = tagcloud($work, array('sort' => 'name','sortdir' => 'desc'));
+
+    <?php foreach($tags as $tag): ?>
+      <li><a <?php if($tag->isActive()) echo ' class="active"' ?> href="<?php echo $tag->url() ?>"><?php echo $tag->name() ?></a></li>
+    <?php endforeach ?>
+
+Thanks,
+R

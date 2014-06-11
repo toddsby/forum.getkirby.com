@@ -1,0 +1,13 @@
+Title: Issue Adding Date to Posts
+----
+Date: 2014-05-11 19:11:45
+----
+Solved: 0
+----
+User: teamensodev
+----
+Text: I have read the directions on the tutorials page on how to add a date to a article, but for some reason it is not working for me. Not sure how to paste code on here so I put it on a hastebin.
+
+[http://hastebin.com/ponewedoni.xml](http://hastebin.com/ponewedoni.xml)
+
+If I use the SomeDate string it will put a date from 1970 on the page, but if I use date it shows nothing at all... not sure what the issue is here. I can't even get it to display any sort of error.

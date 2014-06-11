@@ -1,0 +1,5 @@
+User: roman_oroco
+----
+Date: 2013-05-29 13:51:02
+----
+Text: It’s possible to have FTP access only for `assets` folder.

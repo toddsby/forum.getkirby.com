@@ -1,0 +1,12 @@
+Title: TODO list
+----
+Date: 2013-12-05 09:44:48
+----
+Solved: 0
+----
+User: przemsosnowski
+----
+Text: Is it possible to do a simple Panel TODO list.
+http://jsfiddle.net/A3z4Y/84/
+
+Dynamically adding/removing items. Later saved in YAML

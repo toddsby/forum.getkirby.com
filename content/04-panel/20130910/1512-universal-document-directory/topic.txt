@@ -1,0 +1,9 @@
+Title: Universal Document Directory
+----
+Date: 2013-09-10 15:12:40
+----
+Solved: 0
+----
+User: travvt
+----
+Text: Hey all. I'm working on creating a universal document directory for all of the panel file uploads but I'm hitting a road block. I've been able to successfully modify the /panel/lib/upload.php file so uploads are placed in the /documents directory, however, modifying the code to see the thumbnails, edit them, and delete them has evaded me. I never like to hack core files, but it's some functionality that I really need. Pointers, help, and more would be warmly received. Thanks!

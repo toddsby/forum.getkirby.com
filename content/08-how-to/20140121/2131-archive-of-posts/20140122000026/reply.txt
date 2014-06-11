@@ -1,0 +1,9 @@
+User: fitzage
+----
+Date: 2014-01-22 00:00:26
+----
+Text: The basic blog tutorial should give you most of what you need.
+
+(link: http://getkirby.com/blog/how-to-build-a-blog)
+
+Not sure of a good way to do a year-based archive, though. You'd probably have to manually enter each year (or loop through an array of years) and then compare that to the year from the date fields on the posts.

@@ -1,0 +1,15 @@
+Title: Select field options from content
+----
+Date: 2013-01-09 01:14:05
+----
+Solved: 0
+----
+User: verde_andrea
+----
+Text: Hi,
+
+is there a way to get the options for a select field taken from a list of content?
+
+Let's say i have a list of categories that i want to update from the kirby panel, and the when i create a new article i want a select field with this categories like options. Is this possible?
+
+Thanks e forgive me for my bad English!

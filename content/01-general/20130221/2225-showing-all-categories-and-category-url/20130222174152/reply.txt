@@ -1,0 +1,13 @@
+User: StartidiMotori
+----
+Date: 2013-02-22 17:41:52
+----
+Text: oepz forgot the {. the screen of the phone is small ;-)
+
+Besides that I think want you would like to display, we did something the same, we used the 1st listed code at the fun with menus page, http://getkirby.com/blog/fun-with-menus and also wrapped it in a drop down for several pages. We used it for series, you want to us it for categories.
+
+Maybe you could make a copy of the tagcloud, adjust it to you parameters, in this case categories, save it as catcloud or whatever you like refer to it in your blog.
+
+You could also use the alphabetise plugin http://getkirby.com/forum/code-snippets/topic:419 to display your categories, your visitors can directly see how many articles there are in a certain category 
+
+Good luck!

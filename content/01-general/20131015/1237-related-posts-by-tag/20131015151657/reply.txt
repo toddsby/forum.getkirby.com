@@ -1,0 +1,25 @@
+User: russbaldwin
+----
+Date: 2013-10-15 15:16:57
+----
+Text: You could probably use the Tagcloud and modify the output, but all you need is a `filterBy` on pages?
+
+"`$pages->filterBy($key, $value, $split=false)`
+*filters a set of pages by a key and a value.
+if you pass a splitting character as third arg. it will try to split a single value. ie. a comma sperated list of tags and search within its elements. returns the filtered set of pages.*"
+
+Something like (not tested)
+
+```php
+$filtered = $pages->find('yourarticles')
+->children()
+->filterBy('$key','$value');
+```
+And then loop through the results and output the text and links?
+
+I did some form filtering for someone else ages ago using TagCloud, but it should give you the idea...
++ [Multi-FilterBy on Page Fields with Form Selection](http://getkirby.com/forum/code-snippets/topic:460) 
+and the related 
++ [Individual Multi-FilterBy on Page Fields with Form Selection](http://getkirby.com/forum/code-snippets/topic:471)
+
+Hope it helps

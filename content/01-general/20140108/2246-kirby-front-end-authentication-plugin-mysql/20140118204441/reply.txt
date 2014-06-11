@@ -1,0 +1,41 @@
+User: Crisp_Concepts
+----
+Date: 2014-01-18 20:44:41
+----
+Text: Oh, and if you want to use the same user accounts for the panel as  the authentication, you can update /panel/lib/user.php (forget original line, because I have a few other changes in this file, but search for the comment tag and or variable name and I'm sure you'll find it).
+
+
+    // check for an existing user account file
+    $file = c::get('root.site') . '/accounts/' . $username . '.php';
+
+
+I would recommend also adding a group property to your account files of "subscriber" or "administrator" and checking for that in the user.php file as well if you do this, to prevent all user signup's from having access to the panel.
+
+After
+	$password = get('password');
+	$username = get('username');
+
+Add
+	$group    = 'administrator';
+
+And after
+    // check for matching usernames
+    if(str::lower($account['username']) != str::lower($username)) return array(
+			'status' => 'error',
+			'msg'    => l::get('login.error')
+		); 
+
+Add
+    // check for matching group
+    if(str::lower($account['group']) != str::lower($group)) return array(
+			'status' => 'error',
+			'msg'    => l::get('login.error')
+		);
+
+
+
+Postscript,
+Thanks Bastian for creating this marvelous framework/cms. Can't wait for 2.0!
+
+
+Edit: Found a new issue.. Panel and auth both use cookies and sessions and don't play well together. So if you log in to one, it logs you out of the other. I believe it's due to the session and not the cookies. Looking into a solution but have little experience with cookies.

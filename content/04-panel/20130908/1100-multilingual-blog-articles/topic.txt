@@ -1,0 +1,9 @@
+Title: Multilingual Blog articles
+----
+Date: 2013-09-08 11:00:47
+----
+Solved: 0
+----
+User: nmsdvid
+----
+Text: Hi Forum, I have a little problem with the blog articles after enabling the multilingual feature. So the problem is that now I have to post the blog articles two times, one time for each languages but the blog articles are in just one language. Its there an option to prevent this ? Cheers, David

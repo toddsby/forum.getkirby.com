@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2014-01-29 18:08:35
+----
+Text: Now there isn't really any reason why you CAN'T make it a content folder. Just don't make it visible. But putting it in site.txt makes more sense to me.

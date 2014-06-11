@@ -1,0 +1,11 @@
+User: vis7mac
+----
+Date: 2012-12-04 14:43:57
+----
+Text: Kirby can only handle 2-digit sorting.
+Folders not following that structure are not "public", so you can call them directly over HTTP, but they won't appear in navigations.
+
+This is actually fixable, I can create a pull request when I'm back home. :)
+
+But: Why the hell do you have more than 99 subfolders? A big blog?
+If not, maybe rethink your folder layout and split them up by category or something like that - for example when creating documentation or something like that :).

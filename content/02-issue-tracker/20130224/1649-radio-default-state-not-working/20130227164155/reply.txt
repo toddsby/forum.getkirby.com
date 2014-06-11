@@ -1,0 +1,16 @@
+User: russbaldwin
+----
+Date: 2013-02-27 16:41:55
+----
+Text: Works for me?
+```
+fields:
+  radiofield: 
+    label: My Radio Field
+    type: radio
+    options:
+      firstValue:  Yes please 
+      secondValue: No thanks
+    default: secondValue
+```
+Defaults to 'No thanks'

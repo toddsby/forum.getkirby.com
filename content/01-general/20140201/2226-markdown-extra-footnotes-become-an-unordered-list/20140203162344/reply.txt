@@ -1,0 +1,7 @@
+User: tysongach
+----
+Date: 2014-02-03 16:23:44
+----
+Text: Actually, your HTML output is a proper `ol`, but your CSS is overriding the default styling and changes it to `disc`, which is why they are showing as bullets.
+
+Check out line 32 in `styles.css` which changes all `ol` to a style of `none` (removing any list style), and then on line 287 `article .content ol` is set to `disc`.

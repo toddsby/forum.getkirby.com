@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-07-31 10:21:00
+----
+Text: I've always planned to build a better excerpt function, which recognizes formats, but it turns out to be really complicated. If someone has a suggestion how to solve this, I'd be really thankful for any help!!

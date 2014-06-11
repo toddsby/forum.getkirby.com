@@ -1,0 +1,9 @@
+Title: Dropbox Chooser
+----
+Date: 2013-04-17 04:06:58
+----
+Solved: 0
+----
+User: tysongach
+----
+Text: An integration with (link: https://www.dropbox.com/developers/chooser text: Dropbox Chooser) could be really neat for the Files pane in the Kirby Panel...

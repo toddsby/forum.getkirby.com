@@ -1,0 +1,12 @@
+User: eytanbiala
+----
+Date: 2012-09-22 21:57:51
+----
+Text: I did not have it installed. After installing it, I am now getting this error:
+
+
+[Sun Sep 23 15:46:18 2012] [error] PHP Parse error:  syntax error, unexpected T_FUNCTION in /srv/www/htdocs/help/site/plugins/contactform/contactform.php on line 23
+
+I tried removing the contactform plugin, which leads to this: (link: http://cl.ly/image/2W20222B1r17)
+
+Thanks for your help.

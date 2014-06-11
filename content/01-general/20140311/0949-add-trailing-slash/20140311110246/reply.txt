@@ -1,0 +1,11 @@
+User: jens_tornell
+----
+Date: 2014-03-11 11:02:46
+----
+Text: Seems like I could just add
+
+    DirectorySlash On
+
+and in menus add a slash like this:
+
+    <?php echo $p->url() ?>/

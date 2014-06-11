@@ -1,0 +1,11 @@
+User: zinzygeene
+----
+Date: 2013-02-27 17:07:12
+----
+Text: Haha, I'm sorry guys! I know it sounds quite weird, especially without code samples.
+
+I managed to fix it about a minute ago. I went with the method of renaming subpages, including the blog articles. I rewrote blog.php to include the elements needed for the single pages. Instead of returning the page title (I needed 'Blog Post 1', but nog 'Blog') I added a new textfield called 'singletitle'.
+
+It's a workaround and I'm not completely satisfied, but it works!
+
+Thanks for the tips. You were of great help, even without knowing what I was really talking about.

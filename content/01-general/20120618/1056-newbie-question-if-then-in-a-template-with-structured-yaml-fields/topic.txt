@@ -1,0 +1,34 @@
+Title: Newbie question - if/then in a template with structured YAML fields
+----
+Date: 2012-06-18 10:56:29
+----
+Solved: 0
+----
+User: danielgenser
+----
+Text: I'm building a table of contents page for a bunch of articles. Most of the articles have an article detail page, however some of them don't. (The website is for a periodical that makes some, but not all of it's content available online).
+
+I have the table of contents page rendering just fine using YAML and Bastian's blog article on structured content. My content looks like this:
+
+```
+----
+toc:
+   tocItem1: 
+      Page: 3
+      Article Title: Name of Article
+      URL: path/to/article
+      Author: Name Goes Here
+
+   tocItem2: 
+      Page: 3
+      Article Title: Name of Article
+      URL: path/to/article
+      Author: Name Goes Here
+
+   (and so on)
+----
+```
+
+My template looks like this: http://codepad.org/Ush9jAvv. I know some syntax must be off, for starters, but essentially I'm looking to have an if/else statement that displays a link to the article (the URL field) along with the article name (Article Name field). If the URL field is blank or the URL field doesn't exist, display just the Article Name, not wrapped in an anchor link.
+
+Thanks!

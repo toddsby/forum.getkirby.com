@@ -1,0 +1,17 @@
+Title: Contact form php error
+----
+Date: 2012-10-31 01:21:38
+----
+Solved: 0
+----
+User: scottswany
+----
+Text: I've been using the contact form plugin with no problems until today when I tried to move the site to a new server (Bluehost) and now the site won't load and the error log is saying its:
+
+PHP Parse error:  syntax error, unexpected T_FUNCTION in .../site/plugins/contactform/contactform.php on line 23
+
+Tried replacing the plugin and snippets with a new download, but still getting the issue and I'm not sure what its even referring to.  I have the same thing running on another server with no problems.
+
+Any idea where to start?
+
+Thank you.

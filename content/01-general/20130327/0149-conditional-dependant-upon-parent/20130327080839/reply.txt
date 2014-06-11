@@ -1,0 +1,9 @@
+User: russbaldwin
+----
+Date: 2013-03-27 08:08:39
+----
+Text: Not tested but something like:
+```php
+if($page->parent() == 'what'):
+```
+etc.

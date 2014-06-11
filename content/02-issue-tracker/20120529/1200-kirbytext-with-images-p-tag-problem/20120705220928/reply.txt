@@ -1,0 +1,9 @@
+User: jolantis
+----
+Date: 2012-07-05 22:09:28
+----
+Text: Thanks Bastian, you're welcome :)
+
+And I'll hope it really solves the problem (needs probably some extra testing, but as far as I can see it works for for me) and will become part of the core, because then I don't need to (re)add the above changes every time Kirbyb is updated ;-)
+
+On another note: I didn't get any forum notification about your reply? Is that correct? Would be nice.

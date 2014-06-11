@@ -1,0 +1,7 @@
+User: brtdesign
+----
+Date: 2012-06-14 10:03:37
+----
+Text: worked like a charm. My problem was on the foreach. I didn't remember to use $pages->children().
+
+Thanks again!

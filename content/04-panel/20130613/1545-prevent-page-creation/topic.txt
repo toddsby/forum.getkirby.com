@@ -1,0 +1,17 @@
+Title: Prevent Page Creation
+----
+Date: 2013-06-13 15:45:26
+----
+Solved: 0
+----
+User: sirnovi
+----
+Text: You can forbid subpages altogether with the pages variable, but is there a simple way to forbid the creation of pages as well?
+
+Basically, I want to allow the panel users to edit and delete existing pages but the creation of new pages should be restricted. 
+
+It might be useful to forbid the deletion of pages as well. 
+
+I think this should easily be doable with two new variables. 
+
+What do you think?

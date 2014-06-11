@@ -1,0 +1,9 @@
+User: IamAdamJowett
+----
+Date: 2013-08-16 05:14:23
+----
+Text: Glad to hear I am not the only stalker first of all.
+
+Thanks for the plugin, the only issue I could see with the content being live but not linked to might be with crawling, otherwise it seems like a good solution for sure. I'll give it a run.
+
+Somehow feel cleaner working with Kirby after 12 years of Wordpress dev, very cleansing.

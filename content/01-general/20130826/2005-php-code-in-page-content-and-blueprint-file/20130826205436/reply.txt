@@ -1,0 +1,11 @@
+User: travVT
+----
+Date: 2013-08-26 20:54:36
+----
+Text: Thanks for your speedy response! As far as PHP code in a blueprint file there could be a number of benefits. For example, since you define select (drop-down) options in there it would be great to be able to have that populated dynamically. In my case, I'd like to use PHP to dynamically generate a drop-down of all the employees here at my work.
+
+As far as PHP in the page content, I'm referring to be able to place code directly within the text of a page. Something like PHP echo "Hello World!"
+
+I'm realizing that snippets could be the way to do this, however, I'd still like to know if straight up PHP is possible.
+
+Thanks again for taking the time to respond.

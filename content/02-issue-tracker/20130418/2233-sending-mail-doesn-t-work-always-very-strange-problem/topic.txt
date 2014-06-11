@@ -1,0 +1,82 @@
+Title: Sending mail doesn't work always (very strange problem)
+----
+Date: 2013-04-18 22:33:32
+----
+Solved: 1
+----
+User: plartz
+----
+Text: Hi at all,
+
+first of all: I know that's not directly a kirby-related problem, but nevertheless I hope some of you guys can help me with the strangest problem I've lately got: sending mails from my kirby powered site. I'm using the mail plugin, but the problem wasn't solved when using the `mail()` function directly.
+
+The thing is that some mails get send, some not - but I can't really tell which are sent and which not. Now, first I thought it has something to do with the recipient, but apparently it doesn't – sometimes I get emails, sometimes I don't. Some recipients get the mail always, others only rarely, others never.
+
+Now, after the mysterious beginning here are some facts:
+
+  - It only seems to happen when I send two emails directly one after another (one goes to the client, one to the admin as a copy – don't ask, the client want's it that way). Another function I've got is sending multiple emails in a foreach loop, and afterwards a copy to the admin – that works perfectly. So here are my two snippets:
+
+
+### Works:
+
+```php
+// $receptors is an array with email adresses
+foreach($receptors as $receptor){
+	$send = email(array(
+		"to"      => $receptor,
+		"from"    => $from,
+		"subject" => $subject,
+		"body"    => $body
+	));
+
+	if(error($send)) return $send;
+}
+
+$send = email(array(
+	"to"      => $page->parent()->adminmail(),
+	"from"    => $from,
+	"subject" => $subject,
+	"body"    => $body
+));
+
+if(error($send)) return $send;
+```
+
+### Does (sometimes) not work
+
+```php
+$send = email(array(
+	"to"      => $to,
+	"from"    => $from,
+	"subject" => $subject,
+	"body"    => $body
+));
+	
+if(error($send)) return $send;
+
+$send = email(array(
+	"to"      => $page->parent()->adminmail(),
+	"from"    => $from,
+	"subject" => $subject,
+	"body"    => $body
+));
+	
+if(error($send)) return $send;
+```
+
+I have tried lots of variations, as I said above used the `mail()` function directly – did not work out. And it is always the second mail which causes problems, never the first. But there wasn't anything in my logs, debbuging mode is on, no error message... I'm really confused.
+
+  - Some information about my mail adresses: GMail gets the mails always, iCloud never, all-inkl.com (a german hoster) rarely.
+
+
+
+I. Am. Confused.
+Please help me.
+
+(I really hope this is one of those problems only people who are not trying to solve it for hours can solve, so – here you go, solve it. See you tomorrow.)
+
+**Edit**
+Oh, and it works perfectly on my local machine, but not on the client's server.
+
+**Edit 2**
+And yes, I've also checked my SPAM-Boxes and disabled the spam filter.

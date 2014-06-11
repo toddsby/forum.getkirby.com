@@ -1,0 +1,9 @@
+User: vivanov
+----
+Date: 2013-06-17 15:27:16
+----
+Text: Thank you.
+
+OK, the tags problem is not a big deal as I renamed all my tags to latin. It works that way.
+
+But the search fails. Search the 'дизайн' term returns nothing, although you can clearly see the word in the heading here http://vladislav.tv/articles/apple-design/ (the third word in the sentence). (I know it's all in Russian, but since the problem is all about cyrillic, I can't provide example more suitable for you, sorry.)

@@ -1,0 +1,17 @@
+Title: Thumbnails are cropping
+----
+Date: 2013-07-02 23:50:24
+----
+Solved: 1
+----
+User: hoopyfrood
+----
+Text: I'm presently trying to get the thumbnail plugin working. Using the code below, all of the thumbnails are coming up cropped instead of resized.
+
+    <img class="screenshot" src="<?php echo thumb($image, array('width' => 280), false) ?>" alt="<?php echo $project->title() ?>" />
+
+Any idea why this might be the case?
+
+Note: I am returning the data url instead of the full image tag so that once I get this working I can add support for Retina images. Everything is working fine if I pass true for the third argument, thereby letting the thumbnail plugin create the entire image tag.
+
+Any ideas?

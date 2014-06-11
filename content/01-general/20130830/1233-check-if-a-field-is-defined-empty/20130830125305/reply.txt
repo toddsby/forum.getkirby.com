@@ -1,0 +1,13 @@
+User: texnixe
+----
+Date: 2013-08-30 12:53:05
+----
+Text: I think this just checks if the field exists or not, not if it is empty, so it will always return true.
+
+Just try
+
+    <?php if($person->twitter() != ""): ?>
+      ...
+    <?php endif ?>
+
+Hope that helps.

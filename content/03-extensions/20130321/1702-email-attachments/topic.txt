@@ -1,0 +1,11 @@
+Title: eMail Attachments
+----
+Date: 2013-03-21 17:02:55
+----
+Solved: 0
+----
+User: manuelheilmeier
+----
+Text: Is there any *elegant* way one could send files by using the Mail or the ContactForm-Plugin? 
+
+thx, Manuel

@@ -1,0 +1,15 @@
+Title: Can I use Fancyzoom with Kirby?
+----
+Date: 2013-10-07 17:08:42
+----
+Solved: 0
+----
+User: gustavschmint
+----
+Text: I'd love to be able to use Fancyzoom (http://www.cabel.name/2008/02/fancyzoom-10.html) with Kirby. I'm a total newbie. I've added the code to the template but can't figure out how to do this part of the instruction.
+
+> Add onload="setupZoom()" inside your page's existing body tag.
+
+Any help would be appreciated.
+
+Thanks

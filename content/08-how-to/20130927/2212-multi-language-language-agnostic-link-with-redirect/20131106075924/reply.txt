@@ -1,0 +1,5 @@
+User: IamAdamJowett
+----
+Date: 2013-11-06 07:59:24
+----
+Text: @texnixe thanks for the heads up. I wonder if there is some .htaccess tricks to overcome that ... I can see how it might be done looking for one language, but multiples could be tricky.

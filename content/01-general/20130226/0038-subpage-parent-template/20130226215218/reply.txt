@@ -1,0 +1,19 @@
+User: zinzygeene
+----
+Date: 2013-02-26 21:52:18
+----
+Text: @russbaldwin yes, thank you, that is the tutorial I took a look at before starting, and it works great, except for that one thing.
+
+@plartz *mind is blown*, yes that is the solution! All subpages that I renamed inside their folder now look the same as their parent, except for the blog articles. 
+
+It works great for all subpages that have the same template structure as their parent. However, blogarticle.php has a different structure than blog.php, so when I rename blogarticle.txt to blog.txt, the template structure isn't correct anymore. (I know I can edit the blog.php template, but that doesn't produce what I need.)
+
+Essentially, for the blog articles, I only need the parent CSS. Is that possible?
+
+**Edit**
+Okay, that thing about just needing the parent CSS is not true. I do need the parent template for articles, because that's the only way my active link color will show. I'm using this instead of page titles, and when I add the page title, text and date to blog.php for articles, /blog shows its page title, too. I just need 'Blog' in the menu to have an active link color on blog article pages.
+
+I'm starting to think it's impossible, but I'm not as savvy with PHP as others, so there could be a solution after all.
+
+**Yes, another edit**
+I know it's possible in Wordpress with .current_page_parent, but can Kirby do it?

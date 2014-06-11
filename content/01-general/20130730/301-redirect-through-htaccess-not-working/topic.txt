@@ -1,0 +1,15 @@
+Title: 301 redirect through .htaccess not working?
+----
+Date: 2013-07-30 11:25:52
+----
+Solved: 0
+----
+User: beezerphd
+----
+Text: I'm trying to add a 301 redirect to the .htaccess file as we have a few domains all for the same site and I want to consolidate them into the one. 
+
+When adding in the usual 301 redirect it just redirects everything onto the homepage and nothing else. All inner links no longer work and just redirect to index.php. 
+
+Any ideas on where I could be going wrong?
+
+Thanks in advance.

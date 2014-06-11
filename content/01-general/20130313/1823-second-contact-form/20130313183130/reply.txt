@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-03-13 18:31:30
+----
+Text: I don't see why not and also check out ['Introducing Smart Submit plugin'](http://getkirby.com/forum/extensions/topic:337)

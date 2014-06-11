@@ -1,0 +1,22 @@
+User: bastianallgeier
+----
+Date: 2012-11-29 12:19:31
+----
+Text: I think I can help with this :)
+
+**cache**
+general toggle for caching. This enables/disables caching no matter how the other parameters are set. 
+
+**cache.autoupdate**
+If this is set to true, Kirby will go through all files in your content folder and check if there's a newer version and clear the cache if a newer version exists. Normally this is very fast, but if you have a site with a lot of content and you update it via the panel anyway it makes sense to switch this off. 
+
+**cache.data**
+If this is set to true Kirby will cache the most fundamental site data in a json file. You can switch this on to get a little bit of speed improvement while not caching the entire HTML of all pages. 
+
+**cache.html**
+If this is set to true Kirby will cache the entire html of each page. 
+
+**cache.ignore**
+Add the path of pages you don't want to be cached to this array. The path is the directory path in the content folder without leading numbers. So for example 'projects/my-awesome-project'
+
+I hope this makes it a bit clearer.

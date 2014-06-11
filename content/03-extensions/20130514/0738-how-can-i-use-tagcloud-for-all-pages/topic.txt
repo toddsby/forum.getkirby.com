@@ -1,0 +1,20 @@
+Title: How can I use tagcloud for all pages?
+----
+Date: 2013-05-14 07:38:22
+----
+Solved: 0
+----
+User: markusgiesen
+----
+Text: Hi there, I'm trying to create a tagcloud for all pages, currently I struggle with a few things:
+
+`<?php $tags= tagcloud($pages->find(''), array('limit' => 20)) ?>`
+
+This doesn't seem to work. Is it simply not possible?
+
+Assuming there's a fix for this my next issue is that there's not much documentation on how to return a results list, I think I may be able to borrow this one from the search plugin.
+
+How do I set up a results page for tags outside of a blog?
+
+Many thanks and keep up the good work!
+Markus

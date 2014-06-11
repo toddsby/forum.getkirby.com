@@ -1,0 +1,41 @@
+User: mecrawlings
+----
+Date: 2013-11-04 15:22:03
+----
+Text: Hey
+
+I've re-read your posts and I still think Kirby is doing what it should.
+
+Going to:
+
+example.com/news
+
+will redirect to the home page
+
+going to:
+
+example/com/en/sting
+
+will show english, the default language
+
+example.com/nl/string
+
+will show dutch
+
+You want the default language, say en to be at:
+
+example.com/string
+
+Kirby does not seem to support this - see my other post:
+
+http://getkirby.com/forum/general/topic:907
+
+What we want is to have the option for Kirby to rewrite the default language to remove the language code:
+
+example.com/string
+
+will show english or the default language
+
+Sorry if this is not he answer your looking for - hopefully this can be sorted out in a next version of Kirby?
+
+Remember that if there is no translation file for the current language, Kirby falls back to the default - I am sure this solves the original post?

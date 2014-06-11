@@ -1,0 +1,19 @@
+Title: Can't send mails with the contactform plugin
+----
+Date: 2013-02-21 11:30:24
+----
+Solved: 1
+----
+User: obearone
+----
+Text: Hi!
+
+I've implemented the Contactform Plugin in a page as described by Bastian (link:https://github.com/bastianallgeier/kirbycms-extensions/tree/master/plugins/contactform#contactform-plugin--snippets-alpha text: here popup: yes) 
+I can fill out my form, but if I try to send something the only error I get is: "The email could not be sent. Please try again later."
+
+Anyone an idea? Did I miss something?
+
+I'm running with Hosteurope with PHP Version 5.3.21
+
+Thanks for your help,
+Oli

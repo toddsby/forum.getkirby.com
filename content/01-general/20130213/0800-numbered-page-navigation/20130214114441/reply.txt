@@ -1,0 +1,11 @@
+User: russbaldwin
+----
+Date: 2013-02-14 11:44:41
+----
+Text: I have not tested your code but we use the range(XX) variable to limit the number of entries. An odd number seems best ;-)
+
+It does not always center, just when you have enough either side in your list. If not it just shows the first/end few as I have shown above. I think it works enough.
+
+```php 
+pagination()->range(5)
+```

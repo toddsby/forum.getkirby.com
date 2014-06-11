@@ -1,0 +1,7 @@
+User: walkerbox
+----
+Date: 2013-07-25 22:58:54
+----
+Text: > I had missed the indexOf() method.
+
+Yeah, it doesn't appear in the kirby cheatsheet. It is (naturally) in the source code &mdash; in the obj class, which pages extends.

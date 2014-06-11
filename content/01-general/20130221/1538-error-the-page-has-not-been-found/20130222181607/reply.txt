@@ -1,0 +1,18 @@
+User: drftmon
+----
+Date: 2013-02-22 18:16:07
+----
+Text: I will fiddle around abit with my setup tonight, i already set the subfolder in config.php as stated above and i have a redirection in the htaccess file.
+Maybe the way i want to do it just isnt possible.
+
+Update: I got an answer from Bastian, seems i had a wrong understanding of how to use kirby in general.
+
+"The current version of Kirby depends on the index.php being named index.php. That's why indexy.php breaks the site. 
+
+But in your case you should just put the entire installation into a stuff subfolder. Afterwards you should be able to open your site with 
+http://localhost/stuff where it will be entirely independent from your other site. You might need to adjust the rewrite base in your htaccess though. 
+
+I hope this helps. 
+Cheers, Bastian"
+
+Case closed :P

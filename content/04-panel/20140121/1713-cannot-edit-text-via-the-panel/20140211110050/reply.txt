@@ -1,0 +1,43 @@
+User: iPJMartin
+----
+Date: 2014-02-11 11:00:50
+----
+Text: I am indeed using custom ones that came with a template.
+
+In the case of the portfolio blueprint, it is named "portfolio.php" and the txt file is named "portfolio.txt".
+
+The blueprintfile for the portfolio looks like this:
+
+    <?php snippet('header') ?>
+    <?php snippet('menu') ?>
+    
+    <section class="content portfolio">
+        <h1><?php echo html($page->title()) ?></h1>
+        <span class="text-intro"><?php echo kirbytext($page->text()) ?></span>
+    <div id="masonry">
+      <ul>
+        <?php foreach($page->images() as $pic): ?>
+        <?php $pic->fitWidth(145) ?>
+        <li>
+          <a href="<?php echo $pic->link() ?>" title="<?php echo $pic->title() ?>"><img src="<?php echo $pic->url() ?>" width="<?php echo $pic->width() ?>" height="<?php echo $pic->height() ?>" alt="<?php echo $pic->title() ?>" /></a>
+        </li>
+        <?php endforeach ?>
+      </ul>
+    </div>
+        </section>
+    
+    <script>
+        $(function(){
+          $('#masonry ul').masonry();
+        });
+    </script>
+    
+    <?php snippet('footer') ?>
+
+and the txt file looks like this:
+
+    Title: Portfolio
+    
+    ----
+ 
+    Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae risus dictum, sagittis purus non, porta tortor. Dorta tortor. Donec ut vulputate ante, eget molestie sapien.

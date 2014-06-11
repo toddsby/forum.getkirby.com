@@ -1,0 +1,23 @@
+Title: Using Panel to create a subpage
+----
+Date: 2014-01-10 14:52:55
+----
+Solved: 0
+----
+User: eugenebicyclist
+----
+Text: I think I'm missing something very simple, but I'm not seeing how to create a new file from the Panel that is a subdirectory of a top-level Kirby page.
+
+So I have in my Content folder, a structure like:
+
+- 01-home
+- 02-food
+- events
+    -01-event1
+    -02-event2
+    -03-event3
+- error
+
+When I create a new file in panel it puts it at the main level with "home", "food", etc.
+
+Most of the new files I want to create will be events so I want them to be within the "events" folder. What triggers this? Is this something in how I've set up my blueprints?

@@ -1,0 +1,16 @@
+User: theoriginalivor
+----
+Date: 2013-03-29 16:09:51
+----
+Text: Hey Russ, I only want to show one article on the homepage, so removing the 'limit(1)' would technically work, by showing the numbers depending on how many posts I have.
+
+I've further discovered that when I choose to view only posts with a certain tag, the count changes again to match the amount of posts with that take rather then a global count. Its a little weird to explain but here it goes
+
+Homepage - shows latest posts, count is 1
+Blog page- shows all posts, count = all posts
+tagged page - show post with that tag, count = the amount of posts with that tag.
+
+What it should be is
+Homepage with latest post, count = total number of posts
+
+Hope that makes sense.

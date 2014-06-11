@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2013-08-14 00:19:11
+----
+Text: Yes, `findByUID()` returns an array so when you use it you can just add ->first() to get the first result.
+
+It's possible that you could have multiple pages in different sections of the hierarchy with the same UID. If that's the case, you may have to end up pulling with full path instead of UID.

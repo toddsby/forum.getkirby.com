@@ -1,0 +1,23 @@
+Title: TagCloud Problem - Please Help
+----
+Date: 2013-04-24 18:38:56
+----
+Solved: 0
+----
+User: staroversky
+----
+Text: I have tried to follow the tutorial about setting up tags and the tagcloud pluging.
+
+So far I have:
+
+1. Added the tagcloud.php to the plugin folder
+
+2. Added tagcloud code to my default.php template but I am not sure it is in the right place. This is how it looks - <http://pastebin.com/3vFsBHPT>
+
+Results:
+
+This is how tagcloud looks on my site - <https://dl.dropboxusercontent.com/u/184602/TagCloud%20Problem.jpg>
+
+But this is how it looks on Kirby website - <https://dl.dropboxusercontent.com/u/184602/TagCloud%20Working.jpg>
+
+How do I make tags work just like on Kirby website?

@@ -1,0 +1,20 @@
+User: tillpro
+----
+Date: 2013-03-31 17:31:29
+----
+Text: Hi—
+
+You can simply add new buttons but you will have to modify some files (and you’ll have to do that again every time you update the panel).
+
+In `/kirby/panel/lib/form.php` you’ll find an array of available buttons that looks like this:
+
+    $available = array(
+      'h1'     => '<a href="#h1" rel="tag" data-tag-open="# ">' . l::get('form.buttons.h1') . '</a>',
+      'bold'   => '<a href="#bold" rel="tag" data-tag-open="**" data-tag-close="**" data-tag-sample="' . l::get('form.buttons.bold.sample') . '">' . l::get('form.buttons.bold') . '</a>',
+    );
+
+You can add elements to the array which will appear in the Panel. You can even add custom overlays by modifying the snippet `form.overlays.php` but this will require modifying the `panel.js`, too.
+
+If you need this urgently this might be a solution, but it would be nice to see something implemented, that makes adding buttons easier…
+
+Till

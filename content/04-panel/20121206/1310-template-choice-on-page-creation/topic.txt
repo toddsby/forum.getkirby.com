@@ -1,0 +1,17 @@
+Title: Template Choice on Page Creation
+----
+Date: 2012-12-06 13:10:42
+----
+Solved: 0
+----
+User: sirnovi
+----
+Text: I feel quite stupid for not getting this to work as nobody else seems to have this problem and it all really sounds so simple. 
+
+The Panel Docs state: _"By default the editor can choose, which template to use for new subpages."_
+
+I just don't get this to work. I created a new blueprint in site/panel/blueprints but when creating a new Page I get no option to pick this Template for the new Subpage. 
+
+I changed the default blueprint and added "templates: review" - and fair enough, that template is taken for the creation of new subpages. But without putting it in there I don't see any way to choose it in the panel itself. 
+
+What could I be doing wrong?

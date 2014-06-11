@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-08-18 20:45:49
+----
+Text: I already answered this on Twitter but maybe others got the same question. Markdown does not have this option unfortunately but if you really need to apply custom classes to certain parts of your content you can work with native html and simply add a wrapping div with a class around parts of your content instead. Markdown works great with mixed in HTML.

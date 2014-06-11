@@ -1,0 +1,27 @@
+Title: Can you exclude home from breadcrumbs?
+----
+Date: 2014-02-25 03:17:36
+----
+Solved: 1
+----
+User: sciascia10
+----
+Text: Hi There,
+
+Our crumbs are output like this:
+
+    <div class="crumbs">
+      <small>
+      <?php foreach($site->breadcrumb() as $crumb) : ?>
+        <? if($crumb->isActive()) : ?>
+          <?= html($crumb->title()) ?>
+        <? else : ?>
+          <a href="<?= $crumb->url() ?>"><?= html($crumb->title()) ?></a>&nbsp;/
+        <? endif ?>
+      <?php endforeach ?>
+      </small>
+    </div>
+
+Is there a way to exclude the home page from breadcrumbs?
+
+Cheers

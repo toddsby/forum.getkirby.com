@@ -1,0 +1,10 @@
+User: eytanbiala
+----
+Date: 2013-06-27 04:47:03
+----
+Text: Hi,
+
+The field seems to be working ok - it saves and loads in the panel, and I can open the text files and see the value saved there.
+
+Unfortunately it doesn't seem to change with any variation of case.
+Any other thoughts?

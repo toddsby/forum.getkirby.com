@@ -1,0 +1,8 @@
+User: atimoda
+----
+Date: 2013-09-19 15:38:32
+----
+Text: Trav, do you mind sharing your htaccess code here?
+I still cant make it work this way...
+
+Thanks!

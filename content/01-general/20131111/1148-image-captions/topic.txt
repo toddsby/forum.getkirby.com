@@ -1,0 +1,21 @@
+Title: Image Captions
+----
+Date: 2013-11-11 11:48:31
+----
+Solved: 0
+----
+User: rumanamin
+----
+Text: I read the documentation on how to Add captions to images and it suggests creating a new txt file with the information on it and then referencing it:
+
+	<?php $image = $page->images()->find('01.jpg') ?>
+	<img src="<?php echo $image->url() ?>" alt="<?php echo $image->title() ?>" /> 
+	<p><?php echo $image->caption() ?></p>
+
+That would just display an image with a caption. How would I do that for a blog where I have the image as part of the post using **image: 02.png**
+
+And referenced in my post.php as:
+
+	<?php echo kirbytext($page->text()) ?>
+
+This displays everything in my post.txt including the image, if the image meta information is in a separate txt file how would I display the caption?

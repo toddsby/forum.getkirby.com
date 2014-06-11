@@ -1,0 +1,7 @@
+User: iamirm
+----
+Date: 2013-03-06 18:59:40
+----
+Text: I think I'll stick to what I have now, it's a test version anyway. I'll mark this as solved and if the problem persists when I move it to the live server I'll reopen it.
+
+Thanks for your help!

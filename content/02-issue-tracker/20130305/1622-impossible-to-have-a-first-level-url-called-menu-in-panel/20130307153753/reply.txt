@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-03-07 15:37:53
+----
+Text: I see what you mean, looks like a bug and one for Bastian.
+
+You can of course still show 'menu' in the navigation, just change the URL to something which is not 'menu'.

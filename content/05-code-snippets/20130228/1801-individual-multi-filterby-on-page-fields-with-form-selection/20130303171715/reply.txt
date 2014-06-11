@@ -1,0 +1,23 @@
+User: wieisdennis
+----
+Date: 2013-03-03 17:17:15
+----
+Text: Hello all,
+
+I'm using the multifilterby from Russ, and I would like to integrate an extra option value field.
+
+It's not a standard one, which queries the tagcloud, it's something like this:
+
+<//select>
+<//option>Upcoming events</option>
+<//option>This month</option>
+<//option>Next month</option>
+<//option>Past events</option>
+<///select>
+
+How would I have to integrate this with, for example the upcoming events
+
+
+ //php $postDate = strtotime($article->enddate());
+			//$todaysDate = time() - (time() % 86400);
+				//if ( $postDate >= $todaysDate) : //?>

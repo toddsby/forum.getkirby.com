@@ -1,0 +1,43 @@
+Title: Get all children()
+----
+Date: 2014-04-08 10:42:26
+----
+Solved: 1
+----
+User: cub3
+----
+Text: Hey guys, sorry, for the life of me I can't figure this out..
+
+I'm trying to echo out all children of a container, my folder layout looks like
+
+```
+01-products
+   01-drink
+      scotch.txt
+      vodka.txt
+   02-fruit
+      apple.txt
+   03-dessert
+      chocolate.txt
+```
+
+I'm running
+
+```
+<?php $products = $pages->find('products')->children()->limit(14); ?>
+<?php foreach($products as $test): ?>
+<?php echo html($test->title()) ?>
+<?php endforeach ?>
+```
+
+And all I seem to get is
+
+```
+scotch
+apple
+chocolate
+```
+
+As my output (missing the second item under drink)
+
+Am I missing something blindingly obvious?

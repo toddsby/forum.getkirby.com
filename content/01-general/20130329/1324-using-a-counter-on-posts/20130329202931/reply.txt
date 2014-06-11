@@ -1,0 +1,9 @@
+User: theoriginalivor
+----
+Date: 2013-03-29 20:29:31
+----
+Text: Russ There is a visual reason to why I use it, whether or not people care.
+
+I used your snippet above, but unfortunately can't figure out whats not right.
+
+Chris, yeah I thought that too, so i disabled it, and although that correct to some extent, its still not global.

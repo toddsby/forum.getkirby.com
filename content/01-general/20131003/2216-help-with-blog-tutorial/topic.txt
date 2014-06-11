@@ -1,0 +1,102 @@
+Title: Help with Blog Tutorial
+----
+Date: 2013-10-03 22:16:04
+----
+Solved: 1
+----
+User: squeezeoj
+----
+Text: Hello,
+
+I'm new to Kirby and want to create a blog.  I've tried to follow the "How to build a blog with Kirby" article but I can't seem to get the blog to work.  Can someone help me troubleshoot my setup?
+
+Here's what I've got:
+
+(1) Created several blog-related content pages:
+     (A) /content/04-blog/blog.txt
+     (B) /content/04-blog/article-one/blogarticle.txt
+     (C) /content/04-blog/article-two/blogarticle.txt
+
+(2) Created two template files:
+     (A) /site/templates/blog.php
+     (B) /site/templates/blogarticle.php
+
+**Problem is that when I go to the blog page I only see the blog.txt content and none of the blogarticle content is there.**
+
+
+
+Here's what I put into each of the files mentioned in the article:
+
+**Contents of /content/04-blog/blog.txt File:**
+
+	Title: Blog
+	----
+	Text: This is a nice Demo Blog. 
+	----
+
+
+**Contents of /content/04-blog/article-one/blogarticle.txt File:**
+
+	Title: This is my first Article
+	----
+	Date: 08.12.2011
+	----
+	Text: Hello World!
+	----
+
+
+
+**Contents of /content/04-blog/article-two/blogarticle.txt File:**
+
+	Title: This is my second Article
+	----
+	Date: 10.03.2013
+	----
+	Text: Hello Jupiter!
+	----
+
+
+**Contents of /site/templates/blog.php File:**
+
+	<?php snippet('header') ?>
+	<?php snippet('menu') ?>
+	
+	<section class="content blog">
+	  
+	  <h1><?php echo html($page->title()) ?></h1>
+	  <?php echo kirbytext($page->text()) ?>
+	  
+	  <?php foreach($page->children()->visible()->flip() as $article): ?>
+	  
+	  <article>
+	    <h1><?php echo html($article->title()) ?></h1>
+	    <p><?php echo excerpt($article->text(), 300) ?></p>
+	    <a href="<?php echo $article->url() ?>">Read more…</a>
+	  </article>
+	
+	  <?php endforeach ?>
+	
+	</section>
+	
+	<?php snippet('footer') ?>
+
+
+**Contents of /site/templates/blogarticle.php File:**
+
+	<?php snippet('header') ?>
+	<?php snippet('menu') ?>
+	
+	<section class="content blogarticle">
+	  <article>
+	    <h1><?php echo html($page->title()) ?></h1>
+	    <?php echo kirbytext($page->text()) ?>
+	
+	    <a href="<?php echo url('blog') ?>">Back…</a>
+	
+	  </article>
+	</section>
+	
+	<?php snippet('footer') ?>
+
+
+_THANKS for your help!_

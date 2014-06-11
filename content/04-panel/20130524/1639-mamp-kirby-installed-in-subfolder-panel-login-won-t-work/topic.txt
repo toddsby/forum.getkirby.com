@@ -1,0 +1,19 @@
+Title: MAMP: Kirby installed in Subfolder, Panel Login won't work?!
+----
+Date: 2013-05-24 16:39:13
+----
+Solved: 0
+----
+User: hellgold
+----
+Text: Hello community,
+
+i just discovered kirby by today and i really like it.
+But when trying to install the PANEL on my local MAMP, the installation routine hangs at step 2. Pushing the LOGIN button shows no response?
+
+My folder structure looks like that:
+http://is.gd/GTp8Qq
+
+I installed Kirby the subfolder .../htdocs/kirby/ (http://localhost:8888/kirby/panel/ in the browser). I changed the rewrite base and the config according to that, so the site itself runs perfect. I renamed the admin.php to my desired username and filled in the login data.
+
+What did I maybe wrong? Thanks for your help.

@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2013-10-07 18:16:38
+----
+Text: It's in the header.php snippet if you're using the standard template setup. So that's in /site/snippets instead of /site/templates
+
+You'll notice your default template includes an embed for that snippet.

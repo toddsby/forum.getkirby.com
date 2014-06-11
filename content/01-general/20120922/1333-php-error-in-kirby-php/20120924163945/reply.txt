@@ -1,0 +1,9 @@
+User: eytanbiala
+----
+Date: 2012-09-24 16:39:45
+----
+Text: Yes on this server it is PHP Version 5.2.14.
+
+But on another server I have PHP Version 5.3.15 installed, and I'm seeing the same issue there.
+
+Would you suggest upgrading to the latest PHP, 5.4.x?

@@ -1,0 +1,6 @@
+User: d3ddesign
+----
+Date: 2013-07-31 23:07:28
+----
+Text: There are no relevant lines in my logfiles..
+I will setup a minimal kirby-installation and put a .zip for download here tomorrow - thanks :)

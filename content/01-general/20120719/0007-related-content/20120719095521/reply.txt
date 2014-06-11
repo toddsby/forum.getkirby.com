@@ -1,0 +1,65 @@
+User: bastianallgeier
+----
+Date: 2012-07-19 09:55:21
+----
+Text: Another way is to link pages by their URI.
+
+So for example in the content file for one page you could link to a different page like this: 
+
+```
+Title: Some title
+----
+Text: Some nice text
+----
+related: projects/project-1
+
+```
+
+In your template for that page you can get the related page object like this: 
+
+```
+<?php $related = $pages->find($page->related()) ?>
+
+<?php if($related): ?>
+<h2>Related:</h2>
+<a href="<?php echo $related->url() ?>"><?php echo html($related->title()) ?></a>
+<?php endif ?>
+
+```
+
+You can extend this by adding a list of related pages: 
+
+```
+Title: Some title
+----
+Text: Some nice text
+----
+related: projects/project-1, blog/my-article, contact
+```
+
+…and in your template:
+
+```
+<?php 
+
+// split the string of related uris by comma
+$relatedraw = str::split($page->related());
+$related    = array();
+
+foreach($relatedraw as $r) {
+  // make sure to only add found related pages
+  if($rel = $pages->find($r)) $related[] = $rel;
+}
+
+?>
+
+<?php if(!empty($related)): ?>
+<h2>Related:</h2>
+
+<?php foreach($related as $r): ?>
+<a href="<?php echo $r->url() ?>"><?php echo html($r->title()) ?></a>
+<?php endforeach ?>
+
+<?php endif ?>
+
+```

@@ -1,0 +1,9 @@
+Title: Kirbytext: Tag for deleted text
+----
+Date: 2012-07-17 15:47:10
+----
+Solved: 0
+----
+User: bastianallgeier
+----
+Text: If you want to show deleted (strike-through) text on your pages, you can use the following kirbytext extension: <https://gist.github.com/3039857>

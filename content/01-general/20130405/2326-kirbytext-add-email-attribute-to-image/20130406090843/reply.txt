@@ -1,0 +1,9 @@
+User: russbaldwin
+----
+Date: 2013-04-06 09:08:43
+----
+Text: Not sure if you can with KirbyText, but you can with Markdown...but suffer from a different sort of linking problem where you can't seem to use relative images with Markdown.
+
+```php
+[![](http://path-to-image/my-image.jpg)](mailto:name@domain.tld)
+```

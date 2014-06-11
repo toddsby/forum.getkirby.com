@@ -1,0 +1,9 @@
+User: texnixe
+----
+Date: 2014-04-01 22:47:01
+----
+Text: Für mich sieht der oben angegebene Code:  
+
+    <?php echo $article->images()->first()->url() ?>
+
+völlig richtig aus, nur gibt er halt nur einen Link zu einem Bild aus, nicht das Bild selbst. Dazu müsste der Link ja in einen image-tag eingebettet sein.

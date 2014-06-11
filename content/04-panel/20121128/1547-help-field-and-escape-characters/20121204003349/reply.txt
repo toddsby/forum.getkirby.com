@@ -1,0 +1,9 @@
+User: tysongach
+----
+Date: 2012-12-04 00:33:49
+----
+Text: Looks like I may have figured it out.
+
+You can escape YAML by wrapping your string in double quotes (I think single quotes work too), like this:
+
+    help: "Add images like this → (figure: image.jpg caption: Great photo align: right)"

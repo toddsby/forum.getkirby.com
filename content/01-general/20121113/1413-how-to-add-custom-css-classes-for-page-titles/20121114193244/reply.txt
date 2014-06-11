@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2012-11-14 19:32:44
+----
+Text: The problem with the nth method is that if you rearrange things, you have to change the styles too. If you have a named class, you can rearrange willy nilly.

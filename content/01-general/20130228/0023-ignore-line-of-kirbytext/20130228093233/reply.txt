@@ -1,0 +1,11 @@
+User: _diondiondion
+----
+Date: 2013-02-28 09:32:33
+----
+Text: You should be able to use backtick characters (´´´) to do that.
+
+	´´´
+	(image: picture.jpg class: left)
+	´´´
+
+EDIT: That does not actually work. :(

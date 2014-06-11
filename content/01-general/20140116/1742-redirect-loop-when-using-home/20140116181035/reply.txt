@@ -1,0 +1,9 @@
+User: JerikoOne
+----
+Date: 2014-01-16 18:10:35
+----
+Text: home(); actually redirects to the homepage instead of displaying the link to it. If you include this on every page, e.g. through a header snippet, it will be executed every time you open a page. This will indeed result in a redirect loop. Use
+
+<pre>&lt;?php echo url('/'); ?&gt;</pre>
+
+for displaying a link instead.

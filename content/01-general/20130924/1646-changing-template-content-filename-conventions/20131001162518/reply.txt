@@ -1,0 +1,15 @@
+User: fitzage
+----
+Date: 2013-10-01 16:25:18
+----
+Text: I can definitely see a certain appeal to Kirby only recognizing the last chunk of the filename for use in assigning templates. Might help with searching for things in the Finder, but I don't do that much anyway.
+
+Using a text editor that has fuzzy searching for opening new tabs (or using an add-on like peepopen) solves the problem without having to hack kirby. For example, in Sublime Text 2, it goes something like this:
+
+1. Hit command-t (open new tab by performing a file search)
+2. Type enough characters of any folder in the path to get what you want. So in the example above, just typing london should get you the correct file, even though the file is named article.txt.
+3. If you have a more complex structure and want to narrow it down, it makes it easy to narrow it down with parent folders as well.
+
+This also gives the advantage of not having to type the number first if you have a really long list of folders and need to open something in the middle of it. Like our blog that has over 800 files in it. It's nearly impossible to visually find something, but I can edit a specific item easily enough in Sublime Text with this simple launching technique without having to search in the Finder or whatever. For that example I can type `blo/whatever` to limit it to the blog folder (don't even have to type the g) and the whatever narrows it down to what's in the blog folder. Could even type `log/whatever` since it's fuzzy searching.
+
+Anyway, that gives a little more detail to what I was referring to above.

@@ -1,0 +1,37 @@
+User: tysongach
+----
+Date: 2013-01-05 01:10:41
+----
+Text: Here’s the redirect config I’m using on a live site and haven’t had any issues:
+
+    <IfModule mod_rewrite.c>
+    
+      RewriteEngine on
+    
+      # remove www
+      RewriteCond %{HTTPS} !=on
+      RewriteCond %{HTTP_HOST} ^www.(.+)$ [NC]
+      RewriteRule ^ http://%1%{REQUEST_URI} [R=301,L]
+    
+      RewriteBase /
+    
+      # block text files in the content folder from being accessed directly
+      RewriteRule ^content/(.*).(txt|md|mdown)$ error [R=301,L]
+    
+      # block all files in the site folder from being accessed directly
+      RewriteRule ^site/(.*) error [R=301,L]
+    
+      # block all files in the kirby folder from being accessed directly
+      RewriteRule ^kirby/(.*) error [R=301,L]
+    
+      # make panel links work
+      RewriteCond %{REQUEST_FILENAME} !-f
+      RewriteCond %{REQUEST_FILENAME} !-d
+      RewriteRule ^panel/(.*) panel/index.php [L]
+    
+      # make site links work
+      RewriteCond %{REQUEST_FILENAME} !-f
+      RewriteCond %{REQUEST_FILENAME} !-d
+      RewriteRule ^(.*) index.php [L]
+    
+    </IfModule>

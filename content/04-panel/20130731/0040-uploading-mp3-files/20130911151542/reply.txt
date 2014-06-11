@@ -1,0 +1,13 @@
+User: travVT
+----
+Date: 2013-09-11 15:15:42
+----
+Text: Hello rappold. I experienced the exact scenario you were having, however, I'm happy to say there's a solution! 
+
+1.) In the /site/panel/config/config.php file be sure to add this 'audio/mp3' to the allowed MIME types array.
+
+2.) In your main HTACCESS file insert: AddType audio/mp3 .mp3
+
+Basically, you just needed to tell Apache how to handle this type of file. I hope this helps and keep on, keeping on.
+
+Trav

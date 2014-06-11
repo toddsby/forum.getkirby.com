@@ -1,0 +1,17 @@
+Title: Straightforward post creation from iPhone
+----
+Date: 2013-08-19 13:05:26
+----
+Solved: 0
+----
+User: pgruneich
+----
+Text: I wrote a workflow using Ashes and Pythonista to upload posts effortlessly from the iPhone. It takes the page link, its title and a text selection to create a commentary post, such as those in Daring Fireball.
+
+This must be extremely easy to adapt to your necessities, as you can change it to long articles sent by Drafts or 1Writer. Formatting the article is up to you, what I offer is the model I use.
+
+If you have an iPad, you can tweak the workflow a little bit and change it to a bookmarklet to trigger the action from Safari or Chrome.
+
+This script connects to your FTP and creates a numbered folder accordingly to whatever is next, creates the text file and uploads into it. I have so far not made a script to upload images or other clipboard contents, but it shouldn't be tough.
+
+I hope you enjoy. [The code can be found here](http://philgr.com/blog/Creating-Kirby-posts-from-articles-in-Ashes).

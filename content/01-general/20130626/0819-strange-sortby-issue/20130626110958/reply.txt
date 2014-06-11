@@ -1,0 +1,5 @@
+User: psztrnk
+----
+Date: 2013-06-26 11:09:58
+----
+Text: OK, so dates should be "mm/dd/yyyy" format. Now works perfectly.

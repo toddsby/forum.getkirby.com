@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-03-17 10:07:16
+----
+Text: @plartz would [Markdown extra?](http://michelf.ca/projects/php-markdown/extra/) help?
+
+@Haustraliaer are trying to add a class/id to a Kirbytext extension you are writing? If so the article [Extending Kirbytext](http://getkirby.com/blog/kirbytext) has most of the information I think?

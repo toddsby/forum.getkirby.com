@@ -1,0 +1,9 @@
+Title: Kirby url's
+----
+Date: 2012-06-11 16:08:53
+----
+Solved: 0
+----
+User: roman_oroco
+----
+Text: I discovered that adding any prefix ex. `.html`, `.php`, `.asp` to any url `http://site.com/page`, Kirby maintain that prefix instead of showing 404 error or maybe redirect to the normal link.

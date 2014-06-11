@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-02-16 06:53:56
+----
+Text: Hi Manuel, I see what you mean but I'm afraid I don't think there is one, unless of course someone knows better? Perhaps a good idea for a TextMate Bundle or Sublime plugin if someone is up to the task?

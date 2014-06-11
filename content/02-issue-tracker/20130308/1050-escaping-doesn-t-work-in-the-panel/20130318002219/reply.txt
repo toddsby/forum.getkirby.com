@@ -1,0 +1,21 @@
+User: Haustraliaer
+----
+Date: 2013-03-18 00:22:19
+----
+Text: @russbaldwin no, sorry if I wasn't clear...
+
+I've successfully created an extended tag with the attributes "footnote" and "id". All working fine. **Except**... if I want to include parentheses inside the tag. 
+
+I guess it seems confusing because the error thrown refers to the id attribute not being defined. This is simply because the parentheses I'm trying to add inside the footnote attribute somehow screw up the whole deal.
+
+What I'm really after is a method of escaping these brackets, when I need to use them inside a tag.
+
+After some digging around the forum last night I also found this post: 
+
+(link: http://getkirby.com/forum/general/topic:466)
+
+Here is another post which (I believe) is trying to solve the same problem.. though I don't think there's really a solution yet:
+
+(link: http://getkirby.com/forum/extensions/topic:156/#post552)
+
+So I'm using `&#40;` and `&#40;` as a temporary solution, though I feel that maybe parentheses are not such a great character to use for kirbytext tags and perhaps a less used character, or combination of characters might be more appropriate.

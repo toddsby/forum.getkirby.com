@@ -1,0 +1,34 @@
+User: russbaldwin
+----
+Date: 2013-03-01 15:46:59
+----
+Text: I'm pretty sure it is 
+`
+text/x-markdown
+`
+it is listed on [Shared Mime Info](http://cgit.freedesktop.org/xdg/shared-mime-info/tree/freedesktop.org.xml.in#n5031)
+
+``` 
+<mime-type type="text/x-markdown">
+    <_comment>Markdown document</_comment>
+    <sub-class-of type="text/plain"/>
+    <glob pattern="*.md"/>
+    <glob pattern="*.mkd"/>
+    <glob pattern="*.markdown"/>
+ </mime-type>
+```
+
+I had a look at the mime types in the panel config.php and added 
+`
+text/x-markdown
+`
+
+I also had a look at *function mime_to_extension* in the **panel/lib/upload** file and added:
+
+` 
+'text/x-markdown' => 'md'
+`
+
+No luck, interestingly if you set your default **site/config** file type to *'md'* then you cannot see *'md'* files in the panel file list, even if you add them manually and set rights! However, if you change your default file type in **site/config** to *'txt'*, you can see then see the *'md'* files in panel files.
+
+One for Bastian I think....

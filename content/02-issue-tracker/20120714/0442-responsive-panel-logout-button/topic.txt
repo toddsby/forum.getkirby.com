@@ -1,0 +1,18 @@
+Title: Responsive Panel logout button.
+----
+Date: 2012-07-14 04:42:04
+----
+Solved: 0
+----
+User: dakotalightning
+----
+Text: This is probably a small issue, however the logout button doesn't work.
+
+I don’t know if you fixed this, but the .logout class has no z-index.
+
+[screen.css](https://github.com/bastianallgeier/kirbycms-panel/blob/dev/assets/css/screen.css#L103)
+[screen.mobile.css](https://github.com/bastianallgeier/kirbycms-panel/blob/dev/assets/css/screen.mobile.css#L23)
+
+:) 
+
+Keep up the goo work.

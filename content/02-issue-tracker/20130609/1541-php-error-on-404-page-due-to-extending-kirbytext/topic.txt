@@ -1,0 +1,15 @@
+Title: PHP error on 404 page due to extending kirbytext
+----
+Date: 2013-06-09 15:41:19
+----
+Solved: 0
+----
+User: haustraliaer
+----
+Text: I'm getting an odd error on the error page, which seems to be related to extending kirbytext to a plugin file. The debug output is:
+
+	Cannot modify header information - headers already sent by (output started at /home/web05410/public_html/recollection/site/plugins/kirbytext.extended.php:3) in /home/web05410/public_html/recollection/kirby/lib/site.php on line 199
+
+Only happens on a live server, local WAMP setup is fine.
+
+Anyone know what could be causing this?

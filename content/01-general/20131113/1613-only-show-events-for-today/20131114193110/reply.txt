@@ -1,0 +1,7 @@
+User: ChrisjMartin87
+----
+Date: 2013-11-14 19:31:10
+----
+Text: This would be a good feature, or to extend a little, a plugin that would show an event between two dates so a start date and an expiry date. :)
+
+I'll have a go at making this..

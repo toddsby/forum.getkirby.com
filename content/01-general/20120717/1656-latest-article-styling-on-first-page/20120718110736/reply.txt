@@ -1,0 +1,7 @@
+User: lulezi
+----
+Date: 2012-07-18 11:07:36
+----
+Text: Maybe $list->pagination()->hasPrevPage()
+
+Don't know if I'm getting your point. What do you wanna do exactly?

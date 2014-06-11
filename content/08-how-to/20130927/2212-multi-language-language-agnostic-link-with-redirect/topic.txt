@@ -1,0 +1,13 @@
+Title: Multi-language: language agnostic link with redirect
+----
+Date: 2013-09-27 22:12:44
+----
+Solved: 0
+----
+User: timgauthier
+----
+Text: My personal blog is going to be multi language for a german and english audience, with promotional materials/church slides showing links to specific pages. I'd like to be able to send people to example.com/donate instead of having to specifically say en/donate de/donate
+
+does anyone have a way to make the non language specific URL look at the user language string and auto redirect to the correct page?
+
+Is this even possible?

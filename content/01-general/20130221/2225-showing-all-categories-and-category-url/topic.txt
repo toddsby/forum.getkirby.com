@@ -1,0 +1,12 @@
+Title: Showing all Categories and Category URL
+----
+Date: 2013-02-21 22:25:52
+----
+Solved: 1
+----
+User: nathaniel_h
+----
+Text: I am now formatting all of the post meta information. Is there anyway I can:
+
+a. Get url to particular category
+b. List all categories on categories page (or sidebar)

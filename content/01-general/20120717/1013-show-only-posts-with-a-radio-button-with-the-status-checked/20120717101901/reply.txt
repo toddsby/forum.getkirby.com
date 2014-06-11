@@ -1,0 +1,17 @@
+User: bastianallgeier
+----
+Date: 2012-07-17 10:19:01
+----
+Text: Just add that to the chain you are using in the foreach loop: 
+
+```php
+<?php foreach($portfolio->children()->visible()->filterBy('radio', 'radioyes')->flip()->limit(3) as $img): ?>
+```
+
+That translates to: 
+
+1. take all subfolders of the portfolio folder
+2. only take the visible subfolders
+3. filter the visible subfolders by the radio field with the value radioyes
+4. flip the sort order 
+5. only use the first three of them

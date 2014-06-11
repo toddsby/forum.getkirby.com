@@ -1,0 +1,34 @@
+User: Haustraliaer
+----
+Date: 2012-12-16 03:18:52
+----
+Text: You might need to create a template for it as well - not just a blueprint?
+
+So you should have both:
+
+/site/templates/myTemplate.php
+/site/panel/blueprints/myTemplate.php
+
+If you don't specify a template field in the parent blueprint then you should get a list of all available templates to to choose from when creating a new page...
+
+If you _do_ set the template field like so...
+
+/site/panel/blueprints/myParentTemplate.php
+
+title: Project Page
+pages: true
+template: myTemplate
+
+...it will force any new pages, which I think you've already arrived at.
+
+The only other option I can think of is if you want to only choose from a set of templates - which the documentation specifies to do this:
+
+title: Project Page
+pages: true
+template: 
+  - myTemplate
+  - myOtherTemplate
+  - etc
+
+
+Hope that helps.

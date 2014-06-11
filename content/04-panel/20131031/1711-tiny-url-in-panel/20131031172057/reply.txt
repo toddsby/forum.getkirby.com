@@ -1,0 +1,5 @@
+User: jeredb
+----
+Date: 2013-10-31 17:20:57
+----
+Text: Figured it out: `<?php echo ourl($page->tinyurl()) ?>`

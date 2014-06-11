@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-04-29 09:22:58
+----
+Text: If it is a web server permissions count ;-)
+
+So what are your permissions on the **/content** folder (sub folders), on many 'local' machines you need 755, on some (mostly Mac's using the included Apache server) I have to have 777.

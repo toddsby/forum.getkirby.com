@@ -1,0 +1,11 @@
+Title: Form escaping
+----
+Date: 2012-07-09 01:22:41
+----
+Solved: 0
+----
+User: brtdesign
+----
+Text: Hey guys.
+
+Just wondering. I have a contact form on my website. Since kirby doesn't use databases, do I need to worry about protecting my form against stuff like SQL injections or something like that?

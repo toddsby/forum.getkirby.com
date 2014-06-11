@@ -1,0 +1,15 @@
+User: angelistudio
+----
+Date: 2013-11-02 00:06:58
+----
+Text: Hey texnixe!
+
+The cache is super-cleared and if I add your last code I get the same error.
+Please, take a look:
+http://demo.marcoangeli.net/primopiano/
+
+The img is in the right folder, if I write this code:
+
+    <img src="content/03-facebook/foto.jpg" />
+
+the page looks just fine.

@@ -1,0 +1,18 @@
+Title: Add Youtube Video Below Images?
+----
+Date: 2013-09-12 13:43:15
+----
+Solved: 0
+----
+User: jakestollery
+----
+Text: Hi everyone!
+
+I'm wanting to add a Youtube video into my page, however I want it at a specific location amongst my images. Also I'd love to add a caption to it.
+
+I would like it on this page, http://jakestollery.com/works/merge
+just below the 'E' image (the one with all the hands). Is there a way to specify where you'd like a Youtube video to show, in relation to the order and amongst the images?
+
+Thanks kindly and apologies for being a bother :)
+
+(youtube: http://www.youtube.com/embed/0yO7YpLDiXo)

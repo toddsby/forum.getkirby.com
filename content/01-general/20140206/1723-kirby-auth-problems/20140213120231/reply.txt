@@ -1,0 +1,28 @@
+User: kamptweets
+----
+Date: 2014-02-13 12:02:31
+----
+Text: Hi,
+Thanks for your efforts in helping me out here. :)
+
+my server is running PHP 5.4.
+
+there is no plugin, just the modified kirby.extended.php, the one you used.
+
+its supposed to work with a playlist, here is an example  that should produce an actual playlist (it is working on my end without AUTH) :
+
+project.txt:
+
+<pre><code>
+   Title: Music
+   ----
+   Text: 
+   (soundcloud:https://w.soundcloud.com/player/?  url=https%3A//api.soundcloud.com/playlists/13921885&amp;auto_play=false&amp;hide_related=false&amp;visual=true)
+
+
+</code></pre>
+
+and the corresponding php template 
+project.php
+
+https://www.dropbox.com/s/m7g07j6vwi7mbnp/project.php

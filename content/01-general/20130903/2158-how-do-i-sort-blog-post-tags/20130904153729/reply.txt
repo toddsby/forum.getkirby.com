@@ -1,0 +1,14 @@
+User: texnixe
+----
+Date: 2013-09-04 15:37:29
+----
+Text: You need to sort the array of tags, not the single tag
+
+
+    <?php
+      $tags = str::split($page->tags());
+      sort($tags);
+
+      foreach($tags as $tag): ?>
+         <li><a href="<?php echo url('tag:' . urlencode($tag)) ?>">&#35;<?php echo $tag; ?></a></li>
+     <?php endforeach ?>

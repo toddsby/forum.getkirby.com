@@ -1,0 +1,16 @@
+User: iPJMartin
+----
+Date: 2014-02-10 16:38:30
+----
+Text: Hi Russ, 
+thanks for your reply.
+
+To clarify, I can edit the document's Title (and everything else on the home page, like the logo, author, keywords etc.) but not the Text with the help of the Panel. The Panel doesn't give me a textfield to change the text in a file. 
+
+Here's a screenshot of my Portfolio Page inside of the panel:
+
+https://www.dropbox.com/s/sqv5enb5wzs7sc4/Bildschirmfoto%202014-02-10%20um%2016.29.33.png
+
+There is of course Text in the document, and it is showing on the website, but the panel doesn't give me the option to change it.
+
+As far as the blueprints go, I can select them and - edit the title.

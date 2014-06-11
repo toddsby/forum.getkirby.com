@@ -1,0 +1,5 @@
+User: structor
+----
+Date: 2013-04-05 10:43:04
+----
+Text: maybe Kirby ignores the /gallery folder becouse you did not put a gallery.txt file inside it?

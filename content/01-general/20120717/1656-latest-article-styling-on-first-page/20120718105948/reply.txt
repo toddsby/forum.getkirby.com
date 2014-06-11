@@ -1,0 +1,5 @@
+User: ignaty
+----
+Date: 2012-07-18 10:59:48
+----
+Text: Yes I can use $page->hasPrev() and on else add my id, but how to add it only for 1st page/article in the list?

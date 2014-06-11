@@ -1,0 +1,12 @@
+User: primitiv_me
+----
+Date: 2013-06-24 11:28:14
+----
+Text: Hey,
+it returns 10 Pictures. Is working fine, but im trying now to become 2 Pictures per Row. And its little bit difficult for me because web dev is something new to me. (so im sorry when i ask stupid questions, but i wanna learn it)
+
+http://i.epvpimg.com/uvwZd.png
+
+So you say, i have to do to a different div organization?
+
+Thank you so much for helping me :)

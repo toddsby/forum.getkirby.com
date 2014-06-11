@@ -1,0 +1,44 @@
+User: tysongach
+----
+Date: 2012-12-07 00:44:20
+----
+Text: Hey Chris!
+
+
+I like to think of Kirby as levels, not posts.
+
+You make a panel blueprint for each level by naming the file the same as the content file for that level.
+
+So for Lettering, if you have a content folder with a file named lettering.txt with subpages in that being your individual lettering projects, you'll make a blueprint called lettering.php and probably one called projects.php which control each project.
+
+So you content structure should look something like this:
+
+    - 01-home
+      - home.txt  >  **blueprint is home.php**
+    - 02-lettering
+      - 01-lettering-project-1
+        - project.txt  >  **blueprint is project.php**
+      - 02-lettering-project-2
+        - project.txt  >  **blueprint is project.php**
+      - 03-lettering-project-3
+        - project.txt  >  **blueprint is project.php**
+      - lettering.txt  >  **blueprint is lettering.php**
+    - 03-type
+      - 01-lettering-project-1
+        - project.txt  >  **blueprint is project.php**
+      - 02-lettering-project-2
+        - project.txt  >  **blueprint is project.php**
+      - 03-lettering-project-3
+        - project.txt  >  **blueprint is project.php**
+      - type.txt  >  **blueprint is type.php**
+    - 04-about
+      - about.txt  >  **blueprint is about.php**
+
+
+You can use these fields in your page templates like this:
+
+    <?php echo $page->title() ?>
+    
+    <?php echo $page->typeface() ?>
+    
+    <?php echo $page->art_direction() ?>

@@ -1,0 +1,9 @@
+User: bastianallgeier
+----
+Date: 2012-10-10 10:42:11
+----
+Text: Thanks Matthew for helping out here. 
+
+BTW: You can display kirbytags by escaping them like this: 
+
+(image: http://f.cl.ly/items/3J3I1e0n1k3k0b3q2U3Y/Screen%20Shot%202012-10-10%20at%2010.42.36.png)

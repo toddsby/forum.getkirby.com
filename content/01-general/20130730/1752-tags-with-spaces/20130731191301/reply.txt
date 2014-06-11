@@ -1,0 +1,12 @@
+User: theseason
+----
+Date: 2013-07-31 19:13:01
+----
+Text: Thanks for the help. I will look into those methods.
+
+Another question with tagcloud(); 
+http://getkirby.com/blog/tagcloud
+
+I see where you can sort and modify the array here. How would I go about having it ignore a certain tag?
+
+Thanks again

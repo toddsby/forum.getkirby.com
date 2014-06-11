@@ -1,0 +1,13 @@
+Title: Public and private gallery
+----
+Date: 2014-03-05 20:52:24
+----
+Solved: 1
+----
+User: loliism
+----
+Text: Hi! :)
+
+A client (a professional photographer) has asked me to build him a new website. He isn't very technical, but he likes to upload and manage stuff via FTP, so I immediately thought of file-based CMS's like Kirby.
+
+He wants to be able to upload and show small, sample photos in a public gallery, as well as - and this is the tricky part - be able to upload big images to hidden galleries (only accessible through a special link he can e-mail to the client) where customers can then download the full-sized images. Is this something that can be done in Kirby? I've googled, but I haven't found much info about gallery plugins.

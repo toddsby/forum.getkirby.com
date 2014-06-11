@@ -1,0 +1,14 @@
+User: jesuismaksim
+----
+Date: 2013-03-07 05:32:08
+----
+Text: Since two or more versions, Kirby is more powerful in those cases. You simply have to change the rewrite base in the .htaccess to /kirby
+
+Set *url* and *subfolder* settings to default :
+
+	c::set('url', false);
+	c::set('subfolder', 'false');
+
+You'll probably doesn't need to change the aboves. 
+
+It's what I use and it works fine.

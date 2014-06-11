@@ -1,0 +1,8 @@
+User: chrisgiggles1
+----
+Date: 2013-11-10 07:23:27
+----
+Text: Hey, thanks a lot, this solved my issue!
+
+But a little correction (at least on my install), this is the correct path:
+`<img src="../content/01-parent/01-article/01.png">`

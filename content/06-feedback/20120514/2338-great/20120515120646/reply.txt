@@ -1,0 +1,11 @@
+User: bastianallgeier
+----
+Date: 2012-05-15 12:06:46
+----
+Text: Thanks again guys!! It's great to start the day with such positive feedback :) 
+
+I actually plan to release this, but I still need to polish it some more and provide some docs. This is going to stay a very small, focused solution though. It's based on some simple Kirby content folders for the threads and a tiny database with three tables for topics, posts and users. The rest is all Kirby. Same template system, same snippets, same plugins. In fact you can add this to any Kirby site or build a dedicated forum site with it. 
+
+I will write about it some more in the next days. 
+
+Cheers, Bastian

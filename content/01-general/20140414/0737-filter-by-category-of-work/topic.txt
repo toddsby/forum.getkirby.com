@@ -1,0 +1,22 @@
+Title: filter by category of work
+----
+Date: 2014-04-14 07:37:08
+----
+Solved: 0
+----
+User: null_vier
+----
+Text: Hi,
+I have to update a client-project.
+right now you can see a navigation (text) with all customers. When you click on a customer you see a submenu with the projects, eg. website or brochure.
+
+Now I want a "filter" where I can show all projects from "web" and only show the customers name.
+
+I have no idea how to start.
+
+you can check the website I am writing about here:
+http://heidlmair.com/Arbeiten
+
+thx for your help!
+
+ToM

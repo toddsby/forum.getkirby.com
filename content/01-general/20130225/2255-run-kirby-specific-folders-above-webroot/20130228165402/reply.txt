@@ -1,0 +1,7 @@
+User: roman_oroco
+----
+Date: 2013-02-28 16:54:02
+----
+Text: @russbaldwin I tried without any success…
+`$rootContent = $root . '/content/..';` or `$rootContent = $root . '/content/../..';`
+Maybe it's only my hosting… have no idea.

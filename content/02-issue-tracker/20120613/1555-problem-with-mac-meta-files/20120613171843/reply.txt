@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-06-13 17:18:43
+----
+Text: Ah, damn! This sucks indeed. I'm never confrontend with this on a Mac. That's why I never ran into it. I will see if I can add a general fix for it soon.

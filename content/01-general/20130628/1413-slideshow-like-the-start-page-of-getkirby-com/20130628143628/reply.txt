@@ -1,0 +1,5 @@
+User: nicovanzyl
+----
+Date: 2013-06-28 14:36:28
+----
+Text: You'll need a jquery slider for that. There are tons out there, my personal favourite is orbit by zurb. http://foundation.zurb.com/docs/components/orbit.html

@@ -1,0 +1,19 @@
+User: Sciascia10
+----
+Date: 2014-01-05 15:38:30
+----
+Text: Never mind, turns out I needed to search the full path:
+
+    <?php
+        $gallery = $pages->find('/galleries-shared/hand-wrapped-packaging/');
+    ?>
+
+    <? if($gallery->hasImages()) : ?>
+    <div class="product-gallery">
+      <? foreach($gallery->images() as $image): ?>
+      <a class="fancybox" href="<?= $image->url() ?>">
+        <img class="fancy-thumb" src="<?= thumb($image, array('width' => 79), false) ?>" alt="<?= $image->title() ?>">
+      </a>
+      <? endforeach ?>
+    </div>
+    <? endif ?>

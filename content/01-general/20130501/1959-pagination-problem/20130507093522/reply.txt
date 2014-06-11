@@ -1,0 +1,12 @@
+User: chrstphbach
+----
+Date: 2013-05-07 09:35:22
+----
+Text: You probably want `$count` in this context 
+
+
+    $count = $made->count();
+    $sib   = $made->paginate($count);
+
+
+to be 1 and not the number of entries. hasPages will always be false if you tell Kirby to display every article on the first page.

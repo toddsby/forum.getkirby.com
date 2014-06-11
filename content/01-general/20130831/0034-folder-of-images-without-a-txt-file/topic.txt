@@ -1,0 +1,13 @@
+Title: Folder of images without a *.txt file
+----
+Date: 2013-08-31 00:34:51
+----
+Solved: 0
+----
+User: ryanschmidt
+----
+Text: I created a new template "preview.php" and with it I am loading the first image in the "content/preview/blah" folder. I am not using a *.txt file but if I don't include one then the default.php template file is used rather than the custom one I set up.
+
+How do I set this up so that my "preview.php" template is used without including a ".txt" file in the "content/preview/blah" folder?
+
+Thanks!

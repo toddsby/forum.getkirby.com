@@ -1,0 +1,6 @@
+User: russbaldwin
+----
+Date: 2013-03-11 16:08:36
+----
+Text: `Backticks not 'apostrophes - they slope backwards 
+There is plenty on Blueprints in the [Panel section of the Docs](http://getkirby.com/docs/panel)

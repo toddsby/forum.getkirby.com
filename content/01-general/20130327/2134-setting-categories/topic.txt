@@ -1,0 +1,9 @@
+Title: Setting categories
+----
+Date: 2013-03-27 21:34:30
+----
+Solved: 1
+----
+User: chrisburton
+----
+Text: Is there a way to use `categories` with Kirby? Where/how do I set them? I imagine I have to create a blueprint with possibly a dropdown and just create a list of choices, is that correct?

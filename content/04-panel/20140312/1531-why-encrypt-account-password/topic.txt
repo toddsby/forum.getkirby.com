@@ -1,0 +1,9 @@
+Title: Why encrypt account-password?
+----
+Date: 2014-03-12 15:31:29
+----
+Solved: 0
+----
+User: niorad
+----
+Text: What is the use in encrypting your panel-password, when it can be decrypted just as easily? Is there a way to add a salt?

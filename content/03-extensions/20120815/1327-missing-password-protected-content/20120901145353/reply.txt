@@ -1,0 +1,9 @@
+User: hrshukla
+----
+Date: 2012-09-01 14:53:53
+----
+Text: After ironing out a couple of minor issues, I was able to make it work partially - it now authenticates, but every time I navigate away from that page, and come back to it, or for that matter, even go to another blog page, it asks me for a password again.
+
+Would be really cool if the panel plugin's user login bit could be extended for this functionality. Not sure if that is possible
+
+In the mean time, I will continue to try and make this work.

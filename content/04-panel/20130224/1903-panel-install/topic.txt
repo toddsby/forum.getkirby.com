@@ -1,0 +1,9 @@
+Title: Panel install
+----
+Date: 2013-02-24 19:03:57
+----
+Solved: 0
+----
+User: thibaultmilan
+----
+Text: Really everybody, when you download the files from github for the panel, you don't get all in the `/panel` folder. Maybe make more clear on the installation docs that you must put the files into a `/panel` forlder on your server and not directly in the root folder as it's mentionned.

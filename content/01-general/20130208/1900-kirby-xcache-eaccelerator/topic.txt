@@ -1,0 +1,9 @@
+Title: Kirby + XCache/eAccelerator
+----
+Date: 2013-02-08 19:00:12
+----
+Solved: 1
+----
+User: roman_oroco
+----
+Text: After my (link: http://getkirby.com/forum/general/topic:367 text: last issue) with generating a lot of thumbs I wondered if it's possible to reduce server usage with php extensions like (link: http://xcache.lighttpd.net text: XCache) or (link: http://eaccelerator.net text: eAccelerator). Someone has taken the benefit and it's works well with Kirby?

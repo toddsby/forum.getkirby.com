@@ -1,0 +1,29 @@
+User: structor
+----
+Date: 2013-01-19 15:18:28
+----
+Text: Is it possible to call and show ALL the articles in ONE list (news page) ordered by date?
+
+    news/
+      press/
+        article1
+        article2
+        article3
+        etc...
+      bulletin/
+        article1
+        article2
+        article3
+        etc...
+      events/
+        article1
+        article2
+        article3
+        etc...
+      blog/
+        article1
+        article2
+        article3
+        etc...
+
+Edit: my answer is here: <http://getkirby.com/forum/general/topic:301>

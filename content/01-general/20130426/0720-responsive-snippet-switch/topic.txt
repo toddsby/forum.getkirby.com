@@ -1,0 +1,13 @@
+Title: Responsive snippet switch
+----
+Date: 2013-04-26 07:20:32
+----
+Solved: 1
+----
+User: p_mylecharane
+----
+Text: Hey all—
+
+Just wondering if I can change or load a snippet specifically for smartphone? I want a completely different header functionally. Of course I can do it mostly with css and hiding stuff—just seeing if anyones done this by a conditional statement?
+
+Cheers

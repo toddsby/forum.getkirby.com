@@ -1,0 +1,13 @@
+User: bastianallgeier
+----
+Date: 2012-07-26 15:14:04
+----
+Text: Hey Chris, 
+
+it's even easier than that :)
+
+```
+<?php foreach($page->images()->not('category.jpg') as $image): ?>
+<!-- your html for each image -->
+<?php endforeach ?>
+```

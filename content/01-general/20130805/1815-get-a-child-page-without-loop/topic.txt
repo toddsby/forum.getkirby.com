@@ -1,0 +1,21 @@
+Title: Get a child page without loop
+----
+Date: 2013-08-05 18:15:55
+----
+Solved: 1
+----
+User: stockphotogram
+----
+Text: To find a page, there is a function called
+
+$pages->findByUID()
+
+Is there a function to find a child page? 
+
+I am trying to do something like
+
+if ($pages->findByUID('parent') {
+         get the child page...
+}
+
+It would be much better if it can retrieve a child page by unique ID directly. Thanks.

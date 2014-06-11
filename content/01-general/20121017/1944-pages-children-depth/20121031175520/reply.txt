@@ -1,0 +1,32 @@
+User: fitzage
+----
+Date: 2012-10-31 17:55:20
+----
+Text: I don't know about pagination, but to get children and grandchildren you'll really need a nested foreach loop, I think.
+
+    <?php foreach($page->children() as $child): ?>
+    <!-- do something with the children -->
+        <?php foreach($child->children() as $grandchild): ?>
+        <!-- do something with the grandchildren -->
+        <?php endforeach ?>
+    <?php endforeach ?>
+
+Now what this will do is list them in this order: child1, grandchildren of child1, child2, grandchildren of child2, etc. Makes it easy to set up a hierarchy, but if you want to sort children and grandchildren as if they were at the same level, you'll have to combine the two things into one object.
+
+For that, here's a Pages::merge thing you can do. You'd have to have a variable that lists all the children and another that lists all the grandchildren, and then merge them. Something like this:
+
+    <?php
+        $children = $page->children();
+        $grandchildren = $page->children()->children();
+        $allthechildren = Pages::merge($children, $grandchildren);
+    ?>
+
+Which would then be used normally:
+
+    <?php foreach ($allthechildren as $child) : ?>
+    <!-- do something with the children and grandchildren -->
+    <?php endforeach ?>
+
+If you're using this method, then pagination should be easy. What I did after combining things into one object was create a new variable that has those items sorted, filtered, and paginated the way I want them. You can see I have a type filter in there that uses a URL parameter, and I have them flipped to be reverse order of what the normal date order would be. And then I create my foreach loop from $resources as if it was a normal list of pages.
+
+    <?php $resources = $resourcemerge->filterBy('type', urldecode(param('type')), ',')->flip()->paginate(10); ?>

@@ -1,0 +1,9 @@
+User: russbaldwin
+----
+Date: 2013-07-09 12:41:36
+----
+Text: I don't think you can pass a variable like that, but you can just echo the field if it contains what you want?
+No need to pass as a variable?
+`$article->$thumb()`
+
+I think I still maybe missing something?

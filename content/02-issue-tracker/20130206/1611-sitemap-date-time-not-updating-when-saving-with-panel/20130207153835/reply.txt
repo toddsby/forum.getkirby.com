@@ -1,0 +1,23 @@
+User: roman_oroco
+----
+Date: 2013-02-07 15:38:35
+----
+Text: I have the same issue too.
+
+I simply prints last change on each page `<?php echo $page->modified('c') ?>`, after some changes via Panel the date and time remains the same.
+
+If it's could help I'm using multi-language and:
+
+Plugins:
+- contactform
+- related
+- search
+- thumb
+
+Configs:
+Debug on true
+Cache on false
+
+Ver.
+Kirby 1.1.2
+Panel 0.9.2

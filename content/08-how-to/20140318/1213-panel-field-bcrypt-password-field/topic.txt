@@ -1,0 +1,15 @@
+Title: [Panel Field] bCrypt Password Field
+----
+Date: 2014-03-18 12:13:11
+----
+Solved: 0
+----
+User: wilhearts
+----
+Text: Hey !
+
+In my journey to develop a secure customer area using kirby, this is one of the components that i have developed. This is a simple and user friendly field to hash passwords using the bcrypt algorithm.
+
+[see it on github](https://github.com/iandoe/kirbycms-panel-bcrypt-field)
+
+Cheers :)

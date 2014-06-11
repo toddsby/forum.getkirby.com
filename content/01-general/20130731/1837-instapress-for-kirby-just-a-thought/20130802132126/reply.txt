@@ -1,0 +1,9 @@
+User: aqeelfikree
+----
+Date: 2013-08-02 13:21:26
+----
+Text: I didn't wait for a reply from them. After much searching, trial and error, I managed to do it. I used (link: http://instafeedjs.com title:instafeed.js) and (link: http://fancyapps.com/fancybox/ title:fancybox) and a bunch of customization. I'm very satisfied with the results.
+
+See my (link: http://aqeelfikree.com title:Insta-Feed). I have it in a 2 x 2 formation, but right now it's pulling the only picture I have.
+
+Now I'm definitely sure a clever dev can make a plugin/snippet for this.

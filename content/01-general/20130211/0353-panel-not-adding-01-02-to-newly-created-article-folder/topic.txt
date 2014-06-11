@@ -1,0 +1,13 @@
+Title: Panel not adding "01" "02" to newly created article folder.
+----
+Date: 2013-02-11 03:53:25
+----
+Solved: 0
+----
+User: jadedbagginz
+----
+Text: Hi,.. super noob here :) When I create a new article with the panel it creates the content but does not add the number to the folder automatically and so it does not show up.
+
+Watch quick screencast: http://screencast.com/t/yyoZur10Lfm
+
+Btw loving Kirby!

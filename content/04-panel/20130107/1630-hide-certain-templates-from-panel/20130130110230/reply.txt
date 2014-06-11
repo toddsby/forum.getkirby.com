@@ -1,0 +1,7 @@
+User: plartz
+----
+Date: 2013-01-30 11:02:30
+----
+Text: Definitely a must-have addition when you use the Auth plugin and have got sites like logout/login etc.
+
+Would be great to see and use it soon ;)

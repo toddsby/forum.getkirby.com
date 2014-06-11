@@ -1,0 +1,37 @@
+Title: Safe way to use a form?
+----
+Date: 2013-04-01 19:13:29
+----
+Solved: 0
+----
+User: structor
+----
+Text: Hi!
+I used (link:http://toolkit.getkirby.com/ text:this) example to create a simple form for a guestbook, with the messages stored in a database, but I do not know how safe is using it. If any of you know, please tell me if it's safe to use it.
+
+The code looks like this:
+
+    <?php require_once('kirby/lib/kirby.php');
+	if(get('submit')) {
+    $name = get('name');	
+    $email = get('email');
+    $text = get('text');		
+		if(!v::email($email)) {
+        echo 'Invalid e-mail!';
+		} else {
+        db::insert('message', array(
+		'message_name' => $name,
+		'message_email' => $email,
+		'message_text' => $text	
+		));
+        go('/confirmation');
+		}
+	}
+    ?>
+
+    <form>
+      Name: <input type="text" name="name" /><br /><br />
+      E-mail: <input type="text" name="email" /><br /><br />
+      Text: <input type="text" name="text" />  <br /><br />
+      <input type="submit" name="submit" value="Send" />
+    </form>

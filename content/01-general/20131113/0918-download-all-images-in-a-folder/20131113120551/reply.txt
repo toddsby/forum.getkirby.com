@@ -1,0 +1,5 @@
+User: texnixe
+----
+Date: 2013-11-13 12:05:51
+----
+Text: You might want to have a look at the PHP ZIPARCHIVE class, needs PECL extension installed though.

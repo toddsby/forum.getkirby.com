@@ -1,0 +1,15 @@
+Title: Small FancyBox Galleries inside your text.
+----
+Date: 2012-08-08 22:56:33
+----
+Solved: 0
+----
+User: chrstphbach
+----
+Text: Hey,
+
+I wanted to have some little FancyBox galleries inside my text, so I needed a kirbytext extension. Here's a little snippet which gives you a nice and handy kirbytag to generate some thumbnails which opens the original in a FancyBox if you like.
+
+<https://github.com/chbach/kirby-minigallery>
+
+Guess, it could be improved a little, but this is my first, quick version.

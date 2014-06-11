@@ -1,0 +1,17 @@
+User: roman_oroco
+----
+Date: 2013-03-09 23:59:46
+----
+Text: Try this:
+
+```php
+<?php if (c::get('lang.current') != 'en'): ?>
+
+  <?php echo css('assets/css/style-en.css'); ?>
+
+<?php else: ?>
+
+  <?php echo css('assets/css/style-ar.css'); ?>
+
+<?php endif ?>
+```

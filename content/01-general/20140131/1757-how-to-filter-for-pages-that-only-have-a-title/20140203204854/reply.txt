@@ -1,0 +1,8 @@
+User: asbiot
+----
+Date: 2014-02-03 20:48:54
+----
+Text: Hi, thanks for the reply. That is indeed a possible solution. However, since I have an undetermined number of keys set in this set of pages, I was looking for a way to do something more nifty. Since I haven't had a better idea than what you suggest, I may have to go with that in the end. 
+The other idea is to do some sort of parsing on the page array to get every key-value that is set on the page and then do a logic test on them. I was hoping there was a cool kirby function for it :-)
+
+Thanks for your suggestion.

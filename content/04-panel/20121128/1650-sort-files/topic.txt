@@ -1,0 +1,9 @@
+Title: Sort files
+----
+Date: 2012-11-28 16:50:26
+----
+Solved: 0
+----
+User: codyhamilton
+----
+Text: I love using the panel for Kirby but one thing that I think could really make it perfect would be the ability to sort images I upload in the files tab. Also batch uploads would be great too! Just some thoughts.

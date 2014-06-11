@@ -1,0 +1,5 @@
+User: zslabs
+----
+Date: 2012-12-22 00:47:45
+----
+Text: Thought I'd jump in on this. [Turbolinks](https://github.com/rails/turbolinks) might be a good option as well. There is also a [compiled](https://github.com/epiclabs/turbolinks-js ) version out there. I'm using it on my first Kirby project and is working great so far. Thanks!

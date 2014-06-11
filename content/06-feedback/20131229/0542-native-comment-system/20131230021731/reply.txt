@@ -1,0 +1,9 @@
+User: graygilmore
+----
+Date: 2013-12-30 02:17:31
+----
+Text: +1
+
+Would love to see this. I think a plugin makes sense, definitely doesn't need to be a part of the core (until maybe v2 when blogging on Kirby gets revisited).
+
+Would also be willing to chip on for this one!

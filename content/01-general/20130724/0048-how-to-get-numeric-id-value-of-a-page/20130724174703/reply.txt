@@ -1,0 +1,7 @@
+User: SirNovi
+----
+Date: 2013-07-24 17:47:03
+----
+Text: I was wondering about something similar. I wanted to add classes to the html or body tag - to easily target certain pages with css. 
+
+The Problem with the IDs is (as i see it): they don't really exist. Where would you take them from? There's no Database involved that assigns and stores an ID. The only numbers that are assigned with content come from the sorting which may always change.

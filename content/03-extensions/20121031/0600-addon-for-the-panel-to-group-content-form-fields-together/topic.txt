@@ -1,0 +1,76 @@
+Title: Addon for the panel to group content form fields together
+----
+Date: 2012-10-31 06:00:21
+----
+Solved: 0
+----
+User: katrynvonfelsen
+----
+Text: ###Hi there! 
+
+Just to share a little modification that i made for my needs on the admin panel!
+I modified the load function inside form.php _(inside kirby/panel/lib)_ 
+
+The modification makes now possible to my panel to create grouped fields using this the label "group" inside the blueprint just like this:
+
+    fields:
+      title1: 
+        label: Col 1 Title
+        type:  text
+        group: col1 <== this
+      text1:
+        label: Col 1 Body
+        type:  textarea
+        size:  medium
+        group: col1 <== this
+
+      title2:
+        label: Col 2 Title
+        type:  text
+        group: col2 <== this
+      text2: 
+        label: Col 2 Body
+        type:  textarea
+        size:  medium
+        group: col2 <== this
+
+- - -
+
+### Here is the modified load function code!
+
+    function load() {
+     if(empty($this->fields)) return false;
+    
+     foreach($this->fields AS $field) {
+      if (isset($field["group"])){
+       $pre_output[$field["group"]]["label"] = $field["group"];
+       $pre_output[$field["group"]]["fields"][] = $this->field($field);
+      }else{
+       $pre_output[] = $this->field($field);
+      } 
+     }   
+       
+     $output[] = '<fieldset>';
+     foreach ($pre_output as $po){
+      if (is_array($po)){
+       //print_r($po);
+       $output[] = ' <section id="' . $po["label"] . '" class="group" >';
+       foreach($po["fields"] as $o){
+        $output[] = $o;
+       }
+       $output[] = '</section>';
+      }else{
+       $output[] = '<section class="alone">'.$po.'</section>';
+      }
+     }
+     $output[] = '</fieldset>';
+      
+     return implode("n", $output);
+    }
+
+- - -
+
+The interest for me was to enhance a little bit the interface by grouping field elements that are goint together like in my exemple at the beginning of this post!
+
+Hope someone likes it!
+– Catherine

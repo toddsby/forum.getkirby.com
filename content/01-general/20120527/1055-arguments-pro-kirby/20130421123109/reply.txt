@@ -1,0 +1,10 @@
+User: zavadesign
+----
+Date: 2013-04-21 12:31:09
+----
+Text: An old thread but relevant for discovering Kirby while looking for a simpler CMS to use for small client sites.
+
+I would argue that it's not about Kirby being a replacement for Wordpress, but more about which of the two is the best tool for a particular job. No one CMS is the right tool for every type of website.
+
+Cheers,
+Dave

@@ -1,0 +1,13 @@
+User: bastianallgeier
+----
+Date: 2013-01-04 14:04:58
+----
+Text: Yay! It's awesome that you already figured it out. 
+
+My solution would have been: 
+
+```
+<?php if(file_exists(c::get('root.snippets') . '/mysnippet.php')): ?>
+<!-- do something -->
+<?php endif ?>
+```

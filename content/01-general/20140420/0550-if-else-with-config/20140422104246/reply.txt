@@ -1,0 +1,6 @@
+User: _frankallen
+----
+Date: 2014-04-22 10:42:46
+----
+Text: my last post was only an example how to handle it in configs.
+why couldn't you adapt it to your template files?

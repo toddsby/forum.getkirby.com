@@ -1,0 +1,16 @@
+Title: How does the contentgeneration from this forum work?
+----
+Date: 2013-12-26 16:24:33
+----
+Solved: 0
+----
+User: janstieler
+----
+Text: Hi,
+how is realised the frontend content addition here in the forum.
+I thing about how can I create content directly from the kirby website without the Panel.
+
+Actually I wrote a guestbook which is generating files normal through PHP with fopen, fwrite etc.
+But now I thing about it if there is a smarter way, especially for KirbyCMS.
+
+Greetings

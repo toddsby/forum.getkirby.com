@@ -1,0 +1,5 @@
+User: timgauthier
+----
+Date: 2013-09-04 15:01:32
+----
+Text: when you pull the photos from your $page->images()->visible() i think would fix that (my syntax may be incorrect).

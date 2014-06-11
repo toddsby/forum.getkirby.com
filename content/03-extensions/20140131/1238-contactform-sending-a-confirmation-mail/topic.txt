@@ -1,0 +1,22 @@
+Title: Contactform: Sending a confirmation mail
+----
+Date: 2014-01-31 12:38:46
+----
+Solved: 0
+----
+User: nellifedtke
+----
+Text: Hi,
+
+I am using the standard contactform plugin and I want the form to additionally send a confirmation mail to the sender, can someone help me out? It's probably pretty simple, but I'm not that proficient in PHP ;)
+
+    $form = new contactform(array(
+      'to'       => 'John <john@yourdomain.com>',
+      'from'     => 'Contact Form <contact@yourdomain.com>',
+      'subject'  => 'New contact form request',
+      'goto'     => $page->url() . '/status:thank-you'
+    ));
+
+->  'to'       => 'John <john@yourdomain.com>', + sender's email
+
+Thanks a lot!

@@ -1,0 +1,5 @@
+User: texnixe
+----
+Date: 2013-08-30 12:57:36
+----
+Text: Then I suppose it has to do with the plugin not accepting an array but just a string for input and you probably need to tweak the plugin somewhere ...

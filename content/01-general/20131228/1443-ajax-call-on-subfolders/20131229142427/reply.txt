@@ -1,0 +1,17 @@
+User: j111k000
+----
+Date: 2013-12-29 14:24:27
+----
+Text: Hi, thanks for the suggestion. Got to the right directories with:
+
+
+	->children()->children()
+
+But it somehow it didn't assign the id:s to the links . What did the trick was to add a ->find() before get id. Heres the line, if someones trying to achieve something similar.
+
+
+	$project = $pages->find('projects')->children()->children()-
+	>find(get('id'));
+
+
+Maybe there is a more elegant solution for this, but seems to be working fine for me.

@@ -1,0 +1,20 @@
+User: 674Morris
+----
+Date: 2013-12-24 15:23:56
+----
+Text: Nothing wrong on my xampp server, the issues in above points 1 and 2 are due to a setting in kirby/lib/uri.php line 9
+   
+     c::set('uri.param.separator', (DIRECTORY_SEPARATOR == '/') ? ':' : ';');
+
+ the result is that in this way pagination work and it writes "page;2" in the URL, but category, that in "Baseblog-Kirby-Theme-master", have ":" in the end, don't work.
+
+To fix this on xampp server need to change the above line 9 with:
+
+     c::set('uri.param.separator', (DIRECTORY_SEPARATOR == '/') ? ':' : ':');
+
+In this way "category:" work fine, and also pagination work, writing "page:2"
+
+I am happy that Kirby's code is short, so is easy to found everything.
+
+Maybe this my discovery can help someone that is going crazy with this issue.
+Morris

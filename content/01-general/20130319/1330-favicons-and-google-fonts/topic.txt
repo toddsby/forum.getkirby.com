@@ -1,0 +1,9 @@
+Title: Favicons and Google Fonts
+----
+Date: 2013-03-19 13:30:16
+----
+Solved: 1
+----
+User: fhuery
+----
+Text: Hi. Anyone know how to implement favicons and Google fonts on the php files on Kirby? Thank you

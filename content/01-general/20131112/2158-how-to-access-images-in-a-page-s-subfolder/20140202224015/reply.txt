@@ -1,0 +1,26 @@
+User: fitzage
+----
+Date: 2014-02-02 22:40:15
+----
+Text: You'd need to wrap that in something that loops through the child pages. This might work:
+
+```php
+<?php foreach($page->children()->visible() AS $subpage): ?>
+    <?php foreach($subpage->images() AS $image): ?>
+        <div>
+            <a rel="gallery" href="<?php echo $image->url() ?>"><?php echo thumb($image, array('width' => 250, 'crop' => false)) ?></a>
+        </div>
+    <?php endforeach ?>
+<?php endforeach ?>
+```
+
+That should get all the images from the children of the current page. If you want to get just the first one from each page, it would be a little different. Maybe this:
+
+```php
+<?php foreach($page->children()->visible() AS $subpage): ?>
+    <?php $image = $subpage->images()->first() ?>
+    <div>
+        <a rel="gallery" href="<?php echo $image->url() ?>"><?php echo thumb($image, array('width' => 250, 'crop' => false)) ?></a>
+    </div>
+<?php endforeach ?>
+```

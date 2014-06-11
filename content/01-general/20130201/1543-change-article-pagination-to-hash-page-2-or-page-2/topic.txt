@@ -1,0 +1,9 @@
+Title: Change article pagination to hash (/#page:2 or /!#/page:2)
+----
+Date: 2013-02-01 15:43:34
+----
+Solved: 1
+----
+User: chrisburton
+----
+Text: Instead of having /**page:2**, is it possible to have the URL something like /**#page:2** or even /**!#/page:2** for Ajax reasons?

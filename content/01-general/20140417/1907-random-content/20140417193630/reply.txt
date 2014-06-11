@@ -1,0 +1,13 @@
+User: TimurChe
+----
+Date: 2014-04-17 19:36:30
+----
+Text: Found solution
+
+Just replaced:
+$tokens = str::split($page->greeting());
+
+with:
+$test = str_replace(',', '!!@!',$page->greeting());
+$tokens = str::split(str_replace(':', ',',$test));
+$tokens = str_replace('!!@!', ',',$tokens);

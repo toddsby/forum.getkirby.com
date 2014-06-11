@@ -1,0 +1,11 @@
+User: tysongach
+----
+Date: 2012-12-30 15:39:34
+----
+Text: I have a page with fields for social media links and this works for me:
+
+    <?php echo html($page->twitter()) ?>
+
+Wrapping it in `html()` ensures it outputs valid HTML.
+
+See here for more info: <http://getkirby.com/docs/formatting-text>

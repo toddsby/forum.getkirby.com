@@ -1,0 +1,16 @@
+User: bastianallgeier
+----
+Date: 2012-06-25 10:37:39
+----
+Text: Hey Nils, 
+
+I totally agree. Setting the permissions is tedious. I'm working on improving that. 
+
+In Finder you can open the context window for your content folder with CMD-i and then set permissions to "Read & Write" for all three groups and apply that to enclosed items. 
+
+I feel bad for linking to that here, but Wordpress has an excellent write up about how to change permissions for folders and files: 
+<http://codex.wordpress.org/Changing_File_Permissions> which might help you to change settings on your server. Sometimes 0755 or 0666 is not working and I need to change that in the panel asap. 
+
+As you know it is still a beta and though the panel is pretty stable in all editor parts, the setup is still very much improvable. 
+
+I hope this helps though.

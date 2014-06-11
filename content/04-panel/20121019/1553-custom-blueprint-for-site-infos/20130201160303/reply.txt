@@ -1,0 +1,5 @@
+User: iamirm
+----
+Date: 2013-02-01 16:03:03
+----
+Text: Any news about this yet? It would be great to at least add a textarea for my address field instead of a one-line input field.

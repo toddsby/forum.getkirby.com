@@ -1,0 +1,11 @@
+User: ChrisjMartin87
+----
+Date: 2013-12-11 23:19:26
+----
+Text: ->find('company/news')
+           ->children()
+           ->visible()
+           ->flip()
+           ->limit(5)
+
+I think this should work, untested though. :)

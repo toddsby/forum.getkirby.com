@@ -1,0 +1,9 @@
+Title: On post event for panel
+----
+Date: 2013-04-22 20:45:53
+----
+Solved: 0
+----
+User: adeniszczyc
+----
+Text: Is it possible to bind an event to when a post is published using panel? This would enable me to run a function through PHP each time an article is posted.

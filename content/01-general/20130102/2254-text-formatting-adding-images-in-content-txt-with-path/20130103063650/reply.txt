@@ -1,0 +1,15 @@
+User: onstw23
+----
+Date: 2013-01-03 06:36:50
+----
+Text: if you would put ( image: 001.jpg ) in the content file, not in the template, it would automatically create a correct link.
+
+I have in a specific content file (e.g. tutorial.txt), the following text:
+ 
+You’ll now have (something like) this:
+ ( image: project_start.gif width:725px ) 
+
+Which results in the browser as:
+
+You’ll now have (something like) this:
+ &lt; img src="/content/03-Tutorials/1020-Blackjack_IOS_Part_2/project_start.gif" width="725px" alt="[mydomain]" /&gt;

@@ -1,0 +1,7 @@
+User: iamirm
+----
+Date: 2013-02-05 18:05:24
+----
+Text: I tried that, it gives an invalid argument so I guess it's not an array.
+
+Actually $product->images()->first() returns a link to the correct image url but I have no idea how to just echo the url.

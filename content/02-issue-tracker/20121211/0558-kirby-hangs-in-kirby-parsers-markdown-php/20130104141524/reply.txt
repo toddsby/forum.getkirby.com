@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2013-01-04 14:15:24
+----
+Text: Sorry for the delayed reply but I finally found out that the markdown parser is not ready for PHP 5.4 and above, which sucks big time. I will need to find a solution asap. You should use the latest PHP 5.3 version in the meantime.

@@ -1,0 +1,7 @@
+User: staudi_
+----
+Date: 2013-10-28 09:54:55
+----
+Text: What about this:
+
+    <?php echo $page->Images()->count() ?>

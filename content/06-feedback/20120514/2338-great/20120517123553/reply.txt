@@ -1,0 +1,10 @@
+User: roman_oroco
+----
+Date: 2012-05-17 12:35:53
+----
+Text: I'm strongly recommend for some preset templates, this allows much easer understudying of Kirby's engine. For example:
+- Blog and Project with categories and pagination
+- home with recent blog posts and projects etc.
+- some .js stuff
+
+With love for Kirby ♥

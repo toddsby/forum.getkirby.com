@@ -1,0 +1,15 @@
+User: UnknownGuest
+----
+Date: 2013-11-19 03:12:15
+----
+Text: I'm wondering if I would set it up sort of like a blog with each post being a person, and set up tags for the letters?
+
+i.e. in the content:
+Tag: s (for smith)
+Name: Adam Smith
+
+Then do a function to output the list of A-Z tags on the archives page. 
+
+Does that make sense? Anything that would point me in the right direction would be great. 
+
+I'm happy to pay someone to assist me.

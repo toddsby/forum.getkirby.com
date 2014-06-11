@@ -1,0 +1,7 @@
+User: NathVallieres
+----
+Date: 2013-05-23 17:31:47
+----
+Text: I finally found where and what:
+
+We need to modify `/panel/snippets/form.overlays.php` with `/panel/assets/js/panel.js` to integrate our new overlays. Also consider localizing the new overlay text in your `/panel/languages/xx.php`.

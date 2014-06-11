@@ -1,0 +1,9 @@
+User: BobRockefeller
+----
+Date: 2013-04-26 22:03:34
+----
+Text: @fitzage
+
+That only works in PHP. The AJAX call comes from JavaScript.
+
+Any JavaScript options?

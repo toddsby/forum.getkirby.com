@@ -1,0 +1,7 @@
+User: jackylee_90
+----
+Date: 2014-03-04 21:42:23
+----
+Text: Thanks @fitzage! 
+
+Your way sounds perfect. I am still very new to git so trying to get my head around it, thanks for your response! I'll look into git-deploy :)

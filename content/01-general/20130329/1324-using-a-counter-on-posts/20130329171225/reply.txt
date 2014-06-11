@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-03-29 17:12:25
+----
+Text: You could add another array of the right number of page just for a count, but that seems overkill. Also do people really care about how many posts you have?

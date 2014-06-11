@@ -1,0 +1,25 @@
+Title: Embedding Typekit
+----
+Date: 2013-10-16 18:37:45
+----
+Solved: 1
+----
+User: sasharae
+----
+Text: Hi there!
+
+I am trying to figure out how to correctly embed the Typekit script into my header snippet. I am a newbie to PHP, but I have been enjoying the learning process while using Kirby (which I love so far).
+
+This is the Typekit script:
+
+`<script type="text/javascript" src="//use.typekit.net/zqf7rux.js"></script>
+<script type="text/javascript"> try{Typekit.load();}catch(e){}</script>`
+
+Would I do something like this?
+
+`<?php echo js('//use.typekit.net/zqf7rux.js') ?>
+<?php echo js('try{Typekit.load();}catch(e){}') ?>`
+
+I am not so sure about the second line. If anyone has any advice or tips about an alternative way to do this, I would be very grateful!
+
+Thanks in advance!

@@ -1,0 +1,13 @@
+Title: Linking Contact form to FormToEmail mail script
+----
+Date: 2013-03-21 11:54:05
+----
+Solved: 0
+----
+User: fhuery
+----
+Text: Hi guys.
+I have the classic 'Form To Email' php script and I have placed it within my templates folder. I wanted to link the simple contact form on my contact page (contact.php) to it so I added this:
+`<form action="<?php echo url('FormToEmail') ?>" method="post">`
+
+The thing is that I am getting an error saying the link is broken. How do I correctly link the FormToEmail.php? Thank you

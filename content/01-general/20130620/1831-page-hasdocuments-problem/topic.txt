@@ -1,0 +1,21 @@
+Title: $page->hasDocuments() problem
+----
+Date: 2013-06-20 18:31:15
+----
+Solved: 0
+----
+User: lalalariza
+----
+Text: Hi,
+
+I couldn't find any complete example how to display a list of documents uploaded to one page. Like this it doesn't work:
+
+    <?php if($page->hasDocuments()): ?> 		
+      <ul>
+      <?php foreach($page->documents() as $document): ?> 		
+         <li><a href="<?php echo $document->url() ?>"><?php echo $document->filename() ?></a></li>		
+    <?php endforeach ?>		
+    </ul>		
+    <?php endif ?>
+
+Does anyone know how to do this? Thanks in advance. :)

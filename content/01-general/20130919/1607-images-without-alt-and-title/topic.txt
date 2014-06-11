@@ -1,0 +1,23 @@
+Title: Images without "alt" and "title"?
+----
+Date: 2013-09-19 16:07:53
+----
+Solved: 0
+----
+User: atimoda
+----
+Text: Is it possible to get images without "alt" and "title" attributes?
+
+When you write:
+( image : example.jpg )
+
+It outputs:
+< img src="example.jpg" alt"example" title="example" />
+
+
+I would like to get just:
+< img src="example.jpg" />
+
+
+
+Thanks!

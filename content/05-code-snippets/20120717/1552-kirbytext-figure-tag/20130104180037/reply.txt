@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-01-04 18:00:37
+----
+Text: When I try installing this figure plugin, my entire Kirby install loads as blank pages.

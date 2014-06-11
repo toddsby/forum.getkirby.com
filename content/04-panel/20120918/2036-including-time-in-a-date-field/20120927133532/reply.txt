@@ -1,0 +1,9 @@
+User: bastianallgeier
+----
+Date: 2012-09-27 13:35:32
+----
+Text: Hey guys, 
+
+I'm late to the party, but I'm happy you already fixed it :)
+
+Indeed the datepicker is not able to include the time, which is not so nice. I maybe just add a new field type, which has a date and a time picker. In the meantime your solution should work as expected.

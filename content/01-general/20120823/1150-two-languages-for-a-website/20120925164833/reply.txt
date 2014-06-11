@@ -1,0 +1,7 @@
+User: SimonStuecher
+----
+Date: 2012-09-25 16:48:33
+----
+Text: Another problem, wich is very similar: How do we generate a link to a known page in a specific language?
+
+$pages->findByUID('UID')->url() doesn't work. I guess it is because we have multiple langauges with this UID?

@@ -1,0 +1,11 @@
+User: SirNovi
+----
+Date: 2013-08-01 15:52:44
+----
+Text: But is there a way to combine that with the Auth-Plugin?
+
+I thought about that already but then everybody would need to type the login twice. Once on the kirby-site and then when they want to download sth. 
+Or i leave the Auth Plugin out .. but then everybody could see the file list. 
+
+
+Somehow Kirby has to be able to deliver the files when an authorized user asks for them but forbid access if sbdy tries to access them directly.

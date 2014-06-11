@@ -1,0 +1,5 @@
+User: jchnrd
+----
+Date: 2013-03-31 23:00:21
+----
+Text: Similar bug is created when a page is called "menu". I mentioned it here: http://getkirby.com/forum/issue-tracker/topic:489

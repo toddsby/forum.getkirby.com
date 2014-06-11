@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2012-06-04 21:13:20
+----
+Text: Ooh, maybe I can use this gist embedding functionality I found in the formatting docs:
+
+(gist: https://gist.github.com/2870091)

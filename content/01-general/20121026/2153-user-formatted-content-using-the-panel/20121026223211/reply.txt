@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2012-10-26 22:32:11
+----
+Text: I'm finding out that the built-in panel formatting buttons aren't sufficient for people who are used to wordpress WYSIWYG.
+
+I wonder if it would be possible to implement tinyMCE or something in the control panel. Obviously it would have to generate html instead of kirbytext, so that might create some issues with shortcodes and such, but it might be a better solution for some people.

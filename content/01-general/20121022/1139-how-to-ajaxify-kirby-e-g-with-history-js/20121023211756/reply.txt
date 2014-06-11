@@ -1,0 +1,11 @@
+User: lunelson
+----
+Date: 2012-10-23 21:17:56
+----
+Text: Thanks @bastianallgeier, this looks like exactly what I was missing from being able to make this one work:
+
+https://github.com/lautr/asfar#readme
+
+It offers some code at the bottom for doing a check on the request in PHP, but I see Kirbykit can do better once again ;)
+
+I'll let you know how I get on with it...

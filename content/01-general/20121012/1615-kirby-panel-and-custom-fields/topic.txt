@@ -1,0 +1,9 @@
+Title: Kirby Panel and custom fields
+----
+Date: 2012-10-12 16:15:46
+----
+Solved: 0
+----
+User: briannhinton
+----
+Text: I know we can create custom fields and field types, but can the panel support these? Meaning if were to use Kirby to create an address book where each post was an entry into the book and I added custom fields for the specific parts I wanted to enter, will they show up in the panel?

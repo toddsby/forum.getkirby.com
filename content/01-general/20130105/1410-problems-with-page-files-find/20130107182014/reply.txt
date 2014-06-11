@@ -1,0 +1,13 @@
+User: fitzage
+----
+Date: 2013-01-07 18:20:14
+----
+Text: If you look at the cheat sheet, you can see different options for files. Adding ->filename() to the end of the find should give you the name of the file, but you already have that because that's what you're searching for, so I'm not sure what the point is.
+
+If you're looking for the actual server path instead of the URL you should be able to add ->root() to the end of your find to get the full path.
+
+It's possible that you may need to add a ->first() to the find before you can do that, though, because sometimes finds return an array even if there's only one item. So one of these should work:
+
+    files()->find('config.xml')->root()
+
+    files()->find('config.xml')->first()->root()

@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2013-03-18 13:23:03
+----
+Text: I'm really sorry, but I don't know how to solve this properly at the moment. Kirby's setup for multi-language sites does somehow not make it possible to have pages, which are globally available for all languages. So you always get the /en or /it and thus two sitemaps. But as far as I am informed that should still work for Google, right?

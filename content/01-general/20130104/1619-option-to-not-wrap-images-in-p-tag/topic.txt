@@ -1,0 +1,20 @@
+Title: Option to not wrap images in P tag?
+----
+Date: 2013-01-04 16:19:39
+----
+Solved: 0
+----
+User: jonathanbelton
+----
+Text: Hi,
+
+I'm adding images to posts using:
+
+<pre>
+( - image: 001.jpg alt: alt text - )
+</pre>
+
+But the html outputted is wrapping the image in a p tag. This is problematic for me as I'm using max-width on the p element. Is there any way to have an image added within the content txt but not wrapping p tags around it?
+
+Thanks,
+J

@@ -1,0 +1,16 @@
+Title: Ajax a section of site
+----
+Date: 2013-01-29 10:13:31
+----
+Solved: 1
+----
+User: chrisburton
+----
+Text: What I'd like to do is use Ajax on a **section** of my blog page. So far my setup is the latest 3 blog posts per page. Now, I'd like to have the functionality mimic a <a href="http://www.menucool.com/slider/slider-with-tooltip" target="_blank">slider</a>. When you click on the pagination link (in my case, arrow), the next set of articles slide in replacing the other 3.
+
+I have a stripped down version of my site that I tried implementing Ajax with but for some reason when I initially click on the arrows and then click on another page (about or find), my entire site loads in that section.
+
+Checking IE9, I see that it is appending the entire URL to my URL already in the address bar 
+(e.g. http://chrisburton.me/dev/#/http://chrisburton.me/about)
+
+<a href="http://chrisburton.me/dev" target="_blank">http://chrisburton.me/dev</a>

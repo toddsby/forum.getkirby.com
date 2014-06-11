@@ -1,0 +1,7 @@
+User: MinmlCo
+----
+Date: 2014-05-19 16:36:12
+----
+Text: the website seems to be working fine, possibly not as responsive as it could be but its free after all. nice one!
+
+(link: http://ismywebsiteresponsive.co.uk/?url=http%3A%2F%2Faristotheme.com%2Fdemo%2Fkirby%2Fminiport%2F text: http://ismywebsiteresponsive.co.uk/aristotheme.com/demo/kirby/miniport)

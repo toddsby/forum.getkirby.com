@@ -1,0 +1,33 @@
+Title: Remove duplicates from blog category list
+----
+Date: 2013-06-25 18:23:10
+----
+Solved: 1
+----
+User: huhcorp
+----
+Text: I've used some code from the Baseblog theme to set up Categories on my blog articles, and it's working great. I'm using this code for each article:
+
+```php
+<ul>
+<li>Posted in:</li>
+<?php foreach(str::split($article->categories()) as $category): ?>
+<li><a href="<?php echo url('blog/category:' . urlencode($category)) ?>"><?php echo $category; ?></a></li>
+<?php endforeach ?>
+</ul>		
+```
+
+I want to have an All Categories list in my sidebar. I've got this working as well, but I don't know how to remove the duplicates:
+
+```php
+<ul>
+<?php $inblog = $pages->find('blog') ?>
+<?php foreach($inblog->children()->visible() as $blogarts): ?>
+<?php foreach(str::split($blogarts->categories()) as $category): ?>
+<li><a href="<?php echo url('category:' . urlencode($category)) ?>"><?php echo $category; ?></a></li>
+<?php endforeach ?>
+<?php endforeach ?>
+</ul>
+```
+
+I know my PHP could be written better, but it's working. I can clean it up eventually. I'd just like to remove the duplicates.

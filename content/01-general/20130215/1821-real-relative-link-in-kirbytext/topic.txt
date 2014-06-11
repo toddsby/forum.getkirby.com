@@ -1,0 +1,19 @@
+Title: Real relative link in KirbyText
+----
+Date: 2013-02-15 18:21:42
+----
+Solved: 0
+----
+User: bytte
+----
+Text: Is there a way to write a relative link in KirbyText? I often need to link to a subfolder. In HTML i'd simply write
+
+    <a href="subfolder">text</a>
+
+Or if I had to link to a subfolder in an adjacent folder I'd write:
+
+    <a href="../adjacent/subfolder">text</a>
+
+I don't want to write the full path as seen from the site root. So far that's the only way documented. But I guess I'm missing something here?
+
+    <a href="/blog/articles/subfolder">text</a>

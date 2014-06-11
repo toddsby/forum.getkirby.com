@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2012-10-03 18:32:38
+----
+Text: Presumably you can create whatever folder structure you want. However, to display these items you won't be able to do a simple find('posts')->children() because the actual way to find these posts would be find('posts/2012/09')->children, so you'd need a different lookup for each month. Now you could easily automate this, you'd just need a more complicated template.

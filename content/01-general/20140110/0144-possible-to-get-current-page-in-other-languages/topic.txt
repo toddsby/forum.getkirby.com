@@ -1,0 +1,19 @@
+Title: Possible to get current page in other languages?
+----
+Date: 2014-01-10 01:44:14
+----
+Solved: 1
+----
+User: martinjansson
+----
+Text: Hi
+
+Is it possible to find out the available languages of the current page, and also get a reference to the page object for those pages?
+
+I'm building a site with two languages, Swedish and English, but not all pages will be available in both languages. What I would like to do is to, somewhere on the page, offer a link to the current page in the other language, if available. If not available I would instead like to link to the home page of the page in the other language.
+
+If it is possible, I would also like to be able to get the title of the page in the other language so I could make the link text something like "Read this in English: About the company" when visiting the page "Om företaget" in Swedish, and vice versa.
+
+Is there some way I can do this?
+
+/Martin

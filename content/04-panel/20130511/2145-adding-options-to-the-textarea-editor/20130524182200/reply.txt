@@ -1,0 +1,34 @@
+User: NathVallieres
+----
+Date: 2013-05-24 18:22:00
+----
+Text: I've just updated my files to include these following buttons:
+
+- h4
+- h5
+- h6
+- ul
+- ol
+- hr
+- blockquote
+- code
+- youtube
+- vimeo
+- image
+-
+
+You can get an updated /panel/assets/js/panel.js here:
+<http://pastebin.com/8yjx6Vmy>
+
+You can get the new language entries /panel/languages/en.php here (merge with your current language file):
+<http://pastebin.com/Tta6uKxC>
+
+You can get an updated /panel/snippets/form.overlays.php here:
+<http://pastebin.com/XK2VdvTu>
+
+You can get an updated /panel/lib/form.php here:
+<http://pastebin.com/AjYzNv7r>
+
+Put all those new files in its respective folder and now you can simply add them in your blueprints using the names in the list above.
+
+Be warned that it is not perfect as I encountered limitations with the current panel. If someone updated it or has a better way to do some options, please let me know.

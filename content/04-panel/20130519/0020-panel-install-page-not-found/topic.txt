@@ -1,0 +1,14 @@
+Title: Panel Install - Page Not Found
+----
+Date: 2013-05-19 00:20:39
+----
+Solved: 0
+----
+User: matt_hy
+----
+Text: Hey Guys, 
+
+Just tried installing the panel and after setting up my blueprints (which I presume are correct) anytime I try and click on a page to edit, I get a "Page Not Found" error. I have a feeling it's a ReWrite issue, but I have all of the htaccess configurations set up. 
+
+Any ideas? Thanks in advance. 
+Matt

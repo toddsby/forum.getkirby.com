@@ -1,0 +1,6 @@
+User: roman_oroco
+----
+Date: 2013-06-02 17:12:36
+----
+Text: @dokdeleon What hosting are you using?
+I’ve used the default (mt) Plesk Linux configuration with no FastCGI enabled (anyway Nginx is much better). Maybe try to re-upload all files again, it’s also possible to set permissions for upload—I’m using Sublime Text 2 with (link:http://wbond.net/sublime_packages/sftp text:SFTP plugin popup:yes) it’s amazing.

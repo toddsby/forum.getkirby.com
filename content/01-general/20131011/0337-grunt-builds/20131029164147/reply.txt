@@ -1,0 +1,168 @@
+User: DerZyklop
+----
+Date: 2013-10-29 16:41:47
+----
+Text: I used CodeKit for a long time, but i also needed some more flexibility and functionality.
+
+I use CoffeScript, SASS and a PHP server by grunt.
+
+Im new to this, and i'm sure that there are better ways to do it. My gruntfile is work-in-progress, but maybe it helps you.
+
+So here my Gruntfile.coffee for Kirby:
+
+```
+module.exports = (grunt) ->
+
+  require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks)
+
+  grunt.initConfig
+
+    # load content from the package.json
+    pkg: grunt.file.readJSON('package.json')
+
+
+    # Set up some vars
+    paths:
+      assets: 'assets'
+      coffee: '<%= paths.assets %>/coffee'
+      js: '<%= paths.assets %>/js'
+      sass: '<%= paths.assets %>/sass'
+      sassfilename: 'styles'
+      css: '<%= paths.assets %>/styles'
+    banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' + '<%= grunt.template.today("yyyy-mm-dd") %> */'
+
+
+    # process coffee-files
+    coffee:
+      all:
+        options:
+          join: false
+          bare: true
+        files: [
+          expand: true
+          cwd: '<%= paths.coffee %>'
+          src: ['*.coffee']
+          dest: '<%= paths.coffee %>/pre_js'
+          ext: '.js'
+        ]
+
+    # minify js-files
+    uglify:
+      options:
+        banner: '<%= banner %>'
+      js:
+        files:
+          '<%= paths.js %>/script.min.js': [
+            '<%= paths.coffee %>/pre_js/jquery*.js'
+            '<%= paths.coffee %>/pre_js/*.js'
+          ]
+        options:
+          mangle: false
+
+
+    # process sass-files
+    sass:
+      all:
+        options:
+          compass: true
+          style: 'compressed'
+        files: '<%= paths.sass %>/temp_<%= paths.sassfilename %>.css': '<%= paths.sass %>/<%= paths.sassfilename %>.sass'
+
+    # minify css-files
+    cssmin:
+      options:
+        banner: '<%= banner %>'
+      all:
+        files:
+          '<%= paths.css %>/<%= paths.sassfilename %>.css': [
+            '<%= paths.sass %>/*.css'
+          ]
+
+
+    watch:
+      options:
+        livereload: true
+
+      livereload:
+        files: [
+          '<%= paths.css %>/**/*'
+          '<%= paths.js %>/**/*'
+        ]
+        tasks: ['reload']
+
+      sass:
+        files: ['<%= paths.sass %>/*.sass']
+        tasks: ['sass']
+      css:
+        files: ['<%= paths.sass %>/*.css']
+        tasks: ['cssmin']
+      coffee:
+        files: ['<%= paths.coffee %>/*.coffee']
+        tasks: ['coffee']
+      js:
+        files: [
+          '<%= paths.coffee %>/pre_js/*.js'
+        ]
+        tasks: ['uglify']
+
+      tmpl:
+        files: [
+          'site/templates/*'
+          'site/snippets/*'
+          'site/plugins/*'
+        ]
+        tasks: ['reload']
+
+
+    php:
+      all:
+        options:
+          port: 7007
+          hostname: 'localhost'
+          base: ''
+          keepalive: true
+
+    open:
+      all:
+        path: 'http://<%= php.all.options.hostname %>:<%= php.all.options.port%>'
+
+
+  grunt.registerTask "reload", "reload Chrome on OS X", ->
+    require("child_process").exec("osascript " +
+        "-e 'tell application \"Google Chrome\" " +
+          "to tell the active tab of its first window' " +
+        "-e 'reload' " +
+        "-e 'end tell'")
+
+
+  grunt.registerTask('server', ['open','php'])
+  grunt.registerTask('default', ['reload','watch'])
+
+```
+
+If you are wondering about the strange "reload"-task: 
+It is because `livereload: true` didn't work for me. I don't know why. So, until i fix it the quick'n'dirty self-written task has to do the job.
+
+Ah.. and my package.json looks like this:
+
+```
+{
+  "name": "MyProjectName",
+  "description": "Project by @DerZyklop",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "matchdep": "~0.1.2",
+    "grunt-open": "~0.2.2",
+    "grunt-contrib-watch": "~0.5.2",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-sass": "~0.4.1",
+    "grunt-contrib-compass": "~0.5.0",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-php": "~0.2.0",
+    "grunt-contrib-cssmin": "~0.6.2"
+  }
+}
+```

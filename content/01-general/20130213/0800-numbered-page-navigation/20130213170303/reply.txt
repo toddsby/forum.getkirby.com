@@ -1,0 +1,19 @@
+User: russbaldwin
+----
+Date: 2013-02-13 17:03:03
+----
+Text: I think that could work, with a slightly different bit of code, but is it worth it? I got round it by setting first & prev/next & last arrow buttons and then have the range center around the middle few. The current one in bold and disable the first/prev if you are on the first item and the next/last if you are on the last.
+*Five*
+**|< <<  03 04** *05* **06 07  >> >|**
+
+*Six*
+**|< <<  04 05** *06* **07 08  >> >|**
+
+*First*
+|< <<  01 **02 03 04 05 >> >|**
+
+*Last*
+**|< <<  04 05 06 07** *08*  >> >|
+
+
+Saves space and works as well? I guess you could also show the first and last items in the list if you are not on them, but is it worth it if you have link arrows?

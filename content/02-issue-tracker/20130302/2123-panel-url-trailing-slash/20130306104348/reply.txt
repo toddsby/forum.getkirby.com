@@ -1,0 +1,13 @@
+User: iamirm
+----
+Date: 2013-03-06 10:43:48
+----
+Text: :-)
+
+It is not a local version, it's on a test location on my server.
+
+Root folder structure is:
+
+    root/www/mysite.com/test/site
+
+where the root is mysite.com

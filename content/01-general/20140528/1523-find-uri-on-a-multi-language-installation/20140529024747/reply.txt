@@ -1,0 +1,10 @@
+User: JolinMasson
+----
+Date: 2014-05-29 02:47:47
+----
+Text: It does work, thanks!
+(And as a side note; I just realized that I was trying to call the actual page… There fore, this works as well…
+
+    <?php 
+    $children = $page->children()
+    ?>

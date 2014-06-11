@@ -1,0 +1,5 @@
+User: conefreykoedam
+----
+Date: 2013-07-01 09:53:48
+----
+Text: Ok, you've pointed me in the right direction, I had another plugin with the class kirbytextExtended. I guess plugins that extend kirbytext have to be in one file?

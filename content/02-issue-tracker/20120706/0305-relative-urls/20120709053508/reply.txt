@@ -1,0 +1,19 @@
+User: nilshendriks
+----
+Date: 2012-07-09 05:35:08
+----
+Text: Hiya,
+
+Yes, I use 1.1 but I got it working now (locally).
+
+When using 
+
+c::set('url', '/');
+
+I have to comment out:
+
+c::set('subfolder', '~nils/path/to/sitefolder');
+
+and then it seems to work
+
+:-)

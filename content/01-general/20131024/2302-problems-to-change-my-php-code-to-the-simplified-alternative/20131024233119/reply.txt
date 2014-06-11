@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-10-24 23:31:19
+----
+Text: Hmmm…In my experience, an error like that usually means something didn't get closed properly somewhere, but I'm not seeing it…

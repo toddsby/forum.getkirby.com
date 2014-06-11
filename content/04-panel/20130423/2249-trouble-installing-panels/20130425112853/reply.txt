@@ -1,0 +1,7 @@
+User: CharlesMinxFarq
+----
+Date: 2013-04-25 11:28:53
+----
+Text: I have the correct path set, yeah. Folder structure wise, it's just how it arrives as, I put all of the corresponding files that I downloaded with the panel .zip into each sub folder in the places they were originally found in the kirby installation I downloaded from github.
+
+I'm most likely misinterpreting all of the advice i've seen around and leaping to conclusions, but either way, i'm quite lost with this

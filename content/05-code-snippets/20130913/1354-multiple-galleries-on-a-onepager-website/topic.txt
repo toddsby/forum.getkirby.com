@@ -1,0 +1,59 @@
+Title: Multiple galleries on a "one–pager" website
+----
+Date: 2013-09-13 13:54:44
+----
+Solved: 0
+----
+User: hanslemalin
+----
+Text: Hello,
+I'm trying to have multiple galleries on a "one pager" website.
+I'm adding snippets on the home page (followed the tuto one pager), and I'm looking for the right way to add a multiple-slideshow on a snippet.
+
+I guess it's probably some kind of very basic mistake in the phpcode. (wrong way to call the gallery in the snippet maybe).
+If someone as an advice to help me on this, that would be great.
+Thanks!
+
+Here is an example of what I'm trying to achieve:
+project 1:
+— Slideshow 1.a
+— Slideshow 1.b
+
+Main title of the webSite
+
+project 2:
+— Slideshow 2.a
+— Slideshow 2.b
+
+here is the snippet I'm working on:
+/////////////snippet gallery 1 ////////////
+
+`<?php foreach($page->children() as $gallery): ?>`
+`<div class="gallery">`
+  `<h2><?php echo $gallery->title() ?></h2>`
+ ` <ul>
+    <?php foreach($gallery->images() as $image): ?>
+    <li>
+      <a rel="<?php echo $gallery->uid() ?>" href="<?php echo $image->url() ?>"><?php echo thumb($image, array('width' => 200, 'height' => 200, 'crop' => true)) ?></a>
+    </li>
+    <?php endforeach ?>
+  </ul>`
+`</div>`
+`<?php endforeach ?>`
+
+template of the home page:
+/////////////home page///////////////////
+
+`<section id="projects">`
+ `<h1><?php echo html($data->title()) ?></h1>`
+ `<?php echo kirbytext($data->text()) ?>`
+ `<ul>
+  <?php foreach($data->children()->visible() as $project): ?>
+  <li>
+    <figure>
+     <img src="<?php echo $project->images()->first()->url() ?>" alt="<?php echo html($project->title()) ?>" />
+    </figure>
+  </li>
+  <?php endforeach ?>
+ </ul>`
+`</section>`

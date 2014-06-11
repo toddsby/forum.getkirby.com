@@ -1,0 +1,9 @@
+User: tysongach
+----
+Date: 2013-02-27 15:29:17
+----
+Text: A good example use-case for a repeatable field would be social media links.
+
+Right now in the Panel, you have to define text inputs for *each* social media link. They all have the same elements though, a name (e.g. Twitter), a URL (e.g. twitter.com/tysongach) and maybe an icon too. If in the future, you want to add or remove, you'll have to go to your blueprint for that template and do so.
+
+With repeatable fields, you could define those core elements (name, URL, icon) as a repeatable group, and then the Panel would have an add/remove button next to each of these field groups, allowing you to easily add as many or as little social media links as you want, right in the Panel.

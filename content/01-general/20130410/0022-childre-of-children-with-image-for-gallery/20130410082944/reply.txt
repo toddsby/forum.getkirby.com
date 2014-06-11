@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-04-10 08:29:44
+----
+Text: I'm not entirely sure I know what you want but I think a loop within a loop - find the children and then the children of the children?

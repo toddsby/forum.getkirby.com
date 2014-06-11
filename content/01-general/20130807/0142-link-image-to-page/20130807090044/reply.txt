@@ -1,0 +1,23 @@
+User: azharc
+----
+Date: 2013-08-07 09:00:44
+----
+Text: So if we're in the post listing page template, and each post is a child of this page, and has an image file, you could use the following:
+
+	<!-- Loops through all the children -->
+	<?php foreach($page->children() as $child): ?>
+
+		<!-- Gets the URL of the child page -->
+		<a href="<?php echo $child->url() ?>">
+
+			<!-- Gets the first image of the child page, and its title -->
+			<img src="<?php echo $child->images()->first()->url() ?>" alt="<?php echo $child->images()->first()->name() ?>" />
+
+		</a>
+
+	<?php endforeach ?>
+	<!-- Ends Loop -->
+
+
+There could be a neater way to do this, I'm still new to this myself. 
+If you want, you could set a title for image and use that instead of the name() I stuck in there for the alt tag.

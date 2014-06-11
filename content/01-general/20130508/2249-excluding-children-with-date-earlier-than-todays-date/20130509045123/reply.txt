@@ -1,0 +1,13 @@
+User: jesuismaksim
+----
+Date: 2013-05-09 04:51:23
+----
+Text: First of all, each time I try to use an other name that 'date' for a date field, nothing work.. so try with *date* instead of *expirationdate* and then use this code to loop your logs 
+
+	<? foreach ($articles as $article): ?>
+	<? if ($article->date('Y-m-d') < date('Y-m-d')): ?>
+		< html part... >
+	<? endif ?>
+	< endforeach >
+
+(For your count part, i'm searching ! :P)

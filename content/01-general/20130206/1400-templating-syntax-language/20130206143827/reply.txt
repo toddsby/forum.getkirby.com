@@ -1,0 +1,6 @@
+User: russbaldwin
+----
+Date: 2013-02-06 14:38:27
+----
+Text: I'm not sure why you would want to do this? I like the simplicity of markdown and PHP. Kirby makes it all quite elegant? 
+Is there something you are thinking of ?

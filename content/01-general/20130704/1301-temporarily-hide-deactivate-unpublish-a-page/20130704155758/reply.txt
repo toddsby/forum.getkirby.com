@@ -1,0 +1,5 @@
+User: madeyourday
+----
+Date: 2013-07-04 15:57:58
+----
+Text: We can't ignore all invisible pages (since some are published, but hidden in the menu). So the suggested solution would mean that we'd need to exclude every single page from the search and the xmlsitemap. Thank you anyway, Russ. Seams there is no comfortable solution just yet.

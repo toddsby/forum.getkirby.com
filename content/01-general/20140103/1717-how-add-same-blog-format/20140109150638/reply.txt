@@ -1,0 +1,6 @@
+User: _frankallen
+----
+Date: 2014-01-09 15:06:38
+----
+Text: maybe you should inspect the source code from the kirby blog?
+it's just html and css, not more.

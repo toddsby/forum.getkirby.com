@@ -1,0 +1,49 @@
+User: travVT
+----
+Date: 2013-09-30 18:42:04
+----
+Text: I agree with you Texnixe; modifying the core code is never a good idea. With that said, here's what I modified.
+
+File: /kirby/lib/pages.php
+Location: Line 137 - template function
+
+Replace contents of template() with:
+
+	$name = (!$this->intendedTemplate) ? c::get('tpl.default') : $this->intendedTemplate;
+
+	// Variables
+	$nameDot = strstr($name, ".", false);
+	$nameNoDot = substr($nameDot, 1);
+
+	// Returns True if $name Has a Dot and False if it Does Not
+	$nameMightBeDot = strpos($name, ".");
+
+	// $name Does Not Have a Dot
+	if($nameMightBeDot === false):
+		// Construct the Template File 
+		$file = c::get('root.templates') . '/' . $name . '.php';
+	
+		// Check if the Template File Exists and Go Back to the Fallback
+		if(!file_exists($file)) $name = c::get('tpl.default');
+	
+		return $name;
+
+	// $name Does Have a Dot		
+	else:
+		// Construct the Template File 
+		$file = c::get('root.templates') . '/' . $nameNoDot . '.php';
+	
+		// Check if the Template File Exists and Go Back to the Fallback
+		if(!file_exists($file)) $nameNoDot = c::get('tpl.default');
+	
+		return $nameNoDot;	
+	endif;
+
+This code takes variable $name, text file's name without .txt extension, and removes everything before the remaining dot/period. For example, if you have a text file named "test.page.txt", $name is test.page. Then I remove everything before the dot/period to create variable $nameDot which equals ".page". Finally, I remove the first character of $nameDot to get $nameNoDot which equals "page". From here, you just need to create a template file named "page" and it'll be assigned to any file name that ends in "page.txt".
+
+To help test if things are working, I added this bit of code to the bottom of my "page.php" template files:
+
+	This is the page.php template<br />
+	Kirby thinks this is the <?php echo $page->template() ?>.php template
+
+Reminder, this will not pull up the correct blueprint file in the Panel. I'm trying to track down the right place in the code where I'll need to modify what blueprint file is being called. I'm always open to code suggestions and simplifications, so bring them on. Thanks!

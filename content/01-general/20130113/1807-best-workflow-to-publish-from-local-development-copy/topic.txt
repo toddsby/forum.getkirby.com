@@ -1,0 +1,19 @@
+Title: Best workflow to publish from local development copy
+----
+Date: 2013-01-13 18:07:37
+----
+Solved: 1
+----
+User: alexk
+----
+Text: Hi guys,
+
+I was wondering what everybody here is doing for keeping their server copy in sync with the development version.
+
+I find myself constantly dabbling with the local versions and then when I am happy I obviously need to push those changes to the live version.
+
+With Kirby I could in theory just upload the whole site again, since there are no databases involved. However once a site gets larger that gets painful.
+
+At the moment I am using my FTP client (YummyFTP) to synchronise local and remote copy. A process that I need to start manually by opening the FTP app, navigating to the right folder (or opening the right bookmark if it exists) and pressing sync, then wait, check the sync and press go. It works, but also seems rather tedious.
+
+How is everybody else handling this?

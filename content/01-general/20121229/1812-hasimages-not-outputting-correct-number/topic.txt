@@ -1,0 +1,13 @@
+Title: hasImages() not outputting correct number
+----
+Date: 2012-12-29 18:12:01
+----
+Solved: 1
+----
+User: chrisburton
+----
+Text: I uploaded three images in the panel and echoed out:
+
+    <?php echo $page->hasImages() ?>
+
+and it only outputs "1"

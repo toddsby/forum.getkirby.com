@@ -1,0 +1,19 @@
+User: tillpro
+----
+Date: 2013-06-17 18:23:12
+----
+Text: Hi—
+
+> `$page->isChildOf($obj)`
+> checks if the current page is a child of a 
+> passed page object
+
+Try
+
+~~~~
+<?php
+  if($page->isChildOf($pages->find('work'))) {
+    // …
+  }
+?>
+~~~~

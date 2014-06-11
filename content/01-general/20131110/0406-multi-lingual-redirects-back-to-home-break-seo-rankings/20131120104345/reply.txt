@@ -1,0 +1,9 @@
+User: mecrawlings
+----
+Date: 2013-11-20 10:43:45
+----
+Text: Hi Adam
+
+Have a look at the other post about multi-language stuff - I've built a custom version of Kirby, if you could try it with your site (not in production!) and let me know if it solves your issues - I'd like to ask Bastian what he thinks about making it the default behaviour - assuming it works well!
+
+<https://github.com/mec/kirbycms>

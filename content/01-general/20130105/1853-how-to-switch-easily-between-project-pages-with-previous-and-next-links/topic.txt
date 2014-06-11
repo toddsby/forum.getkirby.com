@@ -1,0 +1,17 @@
+Title: How to switch easily between (project) pages with previous and next links
+----
+Date: 2013-01-05 18:53:04
+----
+Solved: 0
+----
+User: toonvdstruijk
+----
+Text: Hi all,
+
+First a little warning, I'm a newby...(on kirby and PHP)
+
+I'm building a website based upon Bastian's "one-pager" tutorial.
+So far so good, I've build the one-pager, but from the project-thumbnails I go to a specific 'project' page (so this is no One-Pager after all...).
+On this project page I want to be able to go to the next or previous project without going to 'home' first. So I want previous and next links (buttons), but how to accomplish this. I really have no idea... I'm more of a designer then a coder.
+
+Any help would be (very) much appreciated.

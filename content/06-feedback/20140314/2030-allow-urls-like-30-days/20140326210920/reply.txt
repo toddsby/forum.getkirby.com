@@ -1,0 +1,18 @@
+User: jens_tornell
+----
+Date: 2014-03-26 21:09:20
+----
+Text: When adding a number and a minus like...
+
+    30-
+
+Kirby think I want to use this page in a menu and then strip the numbers. The page url will be...
+
+    my-domain/days
+
+It would be great to have an option to keep the url as it is:
+
+    my-domain/30-days
+
+More about visible pages here: http://getkirby.com/docs/content
+"BTW: numbers will automatically be stripped in URLs, so the folder 01-about will get the URL http://yourdomain.com/about"

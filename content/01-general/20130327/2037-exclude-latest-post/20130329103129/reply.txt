@@ -1,0 +1,24 @@
+User: bydsply
+----
+Date: 2013-03-29 10:31:29
+----
+Text: I found this solution as :
+(but I think there are better)
+
+	<?php snippet('header') ?>
+	<?php snippet('menu') ?>
+
+	<section class="content articles">
+	<article>
+	<h1><?php echo html($page->children()->last()->title()) ?></h1>
+	<p><?php echo excerpt($page->children()->last()->text(), 300) ?></p>
+	<a href="<?php echo $page->children()->last()->url() ?>">Read more…</a>
+	</article>
+
+
+	<?php foreach($page->children()->visible()->flip()->slice(1) as $article): ?>
+	<ul><li><a href="<?php echo $article->url() ?>"><h1> <?php echo html($article->title()) ?></h1></a></li></ul>
+	<?php endforeach ?>
+	</section>
+
+	<?php snippet('footer') ?>

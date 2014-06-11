@@ -1,0 +1,9 @@
+Title: Blog in Spanish, accented words are not displayed correctly
+----
+Date: 2014-02-05 16:25:15
+----
+Solved: 0
+----
+User: abr4xas
+----
+Text: how can I change the variables to display accents? I have a blog in Spanish and accented words are not displayed correctly

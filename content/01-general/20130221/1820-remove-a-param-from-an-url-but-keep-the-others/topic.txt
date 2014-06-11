@@ -1,0 +1,20 @@
+Title: Remove a param from an URL, but keep the others
+----
+Date: 2013-02-21 18:20:56
+----
+Solved: 0
+----
+User: jesuismaksim
+----
+Text: The case:
+
+I use params to filter some products like this way :
+
+/products/product-1/grid:list/cat:600-1000
+/products/product-1/grid:list/cat:1000-2000
+
+I want to use a toggle to switch between two grids (list and thumbnails).
+
+I'm looking for the simple way to.. simply.. remove the "/grid:list" part from my url to display the thumbnails grid.
+
+I'm using $parent->url() to redirect users wich is not the best.. I want something clean and if the 'cat' param is set, I want to keep it.

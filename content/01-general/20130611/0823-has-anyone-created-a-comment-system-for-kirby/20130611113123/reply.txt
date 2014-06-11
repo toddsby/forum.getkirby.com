@@ -1,0 +1,5 @@
+User: chrisburton
+----
+Date: 2013-06-11 11:31:23
+----
+Text: @russbaldwin Hey, thanks for letting me know about this. I think I might just create my own. I prefer using a database in this case.

@@ -1,0 +1,9 @@
+Title: How to ajaxify Kirby e.g. with History.js?
+----
+Date: 2012-10-22 11:39:16
+----
+Solved: 0
+----
+User: lunelson
+----
+Text: It would be great if there was a tutorial on how to correctly turn for example, the default installation of Kirby on to an ajaxified site with the URLs looking the same but the content loading via jQuery just in to the content area. History.js seems to promise to do this and I'm just trying to hack my way through it right now. I'll post my results if I'm successful but more experienced coders will probably be able to point to a best practice wrt Kirby that I might not find.

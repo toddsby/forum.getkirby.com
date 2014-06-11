@@ -1,0 +1,17 @@
+Title: How do I eliminate the redundant sub directory?
+----
+Date: 2014-05-18 00:28:28
+----
+Solved: 0
+----
+User: brentrobbins
+----
+Text: I know this title is horrible, but let me explain. I am integrating kirby into an existing site, but I am just wanting to use it for the blog (for example: http://existingsite.com/blog). In the blog directory I have successfully setup the kirby blog, however it's now showing:  http://existingsite.com/blog/blog/example-article-page I would love to figure out how to eliminate the extra "blog". I have added code to the kirby .htaccess which redirects  http://existingsite.com/blog/blog/example-article-page to http://existingsite.com/blog/example-article-page
+
+``RedirectMatch 301 /blog/blog/(.*) blog/$1``
+
+However I would like to properly fix this issue especially since the links still show double blog. 
+
+I have tried tweaking the site/config.php settings, but no luck. I would really appreciate the help.
+
+Thanks.

@@ -1,0 +1,11 @@
+User: bastianallgeier
+----
+Date: 2012-08-30 16:42:56
+----
+Text: I'm using PHP's date function to format dates. If you want to roll your own month names you would have to build something upon the timestamp instead: 
+
+```
+$page->date() 
+```
+
+will give you the unix timestamp. Afterwards you are free to format that with any date formating function you want to use.

@@ -1,0 +1,11 @@
+User: russbaldwin
+----
+Date: 2013-03-02 10:57:30
+----
+Text: If there is only one instructor per workshop, same idea with find and maybe a *filterby*? Take your workshop instructor name variable (name and $workshopInstructor) and use it as a variable to filter the results by the Instructor name.
+
+```php
+->filterby(name,$workshopInstructor)
+```
+
+If there is more than one then I presume it is a comma separated array and then you'd just loop through that finding the detail of each.

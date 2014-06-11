@@ -1,0 +1,48 @@
+User: bastianallgeier
+----
+Date: 2012-08-02 09:47:03
+----
+Text: @dingyi you are trying to access all images of all children at once, which is not possible. you need a nested loop to loop through all children first and than for each child to loop through the images: 
+
+```
+
+<ul class="gallery">
+  <?php foreach($page->children() as $child): ?>
+    <?php foreach($child->images() as $image): ?>
+      <?php $image->fitWidth(320) ?>
+      <li class="item">
+        <a href="<?php echo $image->url() ?>"><img src="<?php echo $image->url() ?>" width="<?php echo $image->width() ?>" height="<?php echo $image->height() ?>" alt="<?php echo $image->name() ?>" /></a>
+      </li>
+    <?php endforeach ?>
+  <?php endforeach ?>
+</ul>
+
+```
+
+If you want to use shuffle on all images you could shuffle the children first and also shuffle the images. Or you could collect all images first and then display them: 
+
+```
+
+<?php
+
+$images = array();
+
+foreach($page->children() as $child) {
+  foreach($child->images() as $image) {
+    $images[] = $image;
+  }
+}
+
+shuffle($images);
+
+?>
+<ul class="gallery">
+  <?php foreach($images as $image): ?>
+    <?php $image->fitWidth(320) ?>
+    <li class="item">
+      <a href="<?php echo $image->url() ?>"><img src="<?php echo $image->url() ?>" width="<?php echo $image->width() ?>" height="<?php echo $image->height() ?>" alt="<?php echo $image->name() ?>" /></a>
+    </li>
+  <?php endforeach ?>
+</ul>
+
+```

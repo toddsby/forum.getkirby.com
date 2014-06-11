@@ -1,0 +1,9 @@
+User: fitzage
+----
+Date: 2012-08-28 03:58:42
+----
+Text: Finally did this using the method of just pulling data into the template instead of creating an importer.
+
+Dropped simplepie into the plugins folder, follow the instructions on the simplepie site for getting started, and it worked perfectly. Had to update the cache path in the simplepie plugin.
+
+One question: how would I set up this cache path so it would look at the directory of the site and just use the cache folder under that instead of having to do an absolute path?

@@ -1,0 +1,19 @@
+Title: How to show a snippet only if the content page exsists
+----
+Date: 2013-09-05 09:47:38
+----
+Solved: 1
+----
+User: timgauthier
+----
+Text: Hey! I am looking to make a Jumbotron from bootstrap on my page, I however only want the snippet to be called if the content for it (an invisible page) exsists
+
+my code is
+
+    <?php 
+    foreach ($pages->findByUID('jumbotron') as $section):
+    snippet($section->uid(), array('data' => $section)); 
+    endforeach
+    ?>
+
+how can I change it to check if the 'jumbotron' UID exists?

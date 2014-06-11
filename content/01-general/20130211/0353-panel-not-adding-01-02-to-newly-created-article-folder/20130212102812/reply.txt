@@ -1,0 +1,5 @@
+User: chrisburton
+----
+Date: 2013-02-12 10:28:12
+----
+Text: To further @tysongach's answer, it's also smarter this way because you wouldn't want your users to see an article you are about to write via the Panel when creating it. It's better to keep it invisible and when finished, use the sort approach to show it on your page.

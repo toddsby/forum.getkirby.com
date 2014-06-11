@@ -1,0 +1,17 @@
+User: bastianallgeier
+----
+Date: 2012-10-10 10:33:59
+----
+Text: Strange stuff! What the panel normally does is to go through all files and check if PHP has write permissions. So it might be that there are just a few missing files somewhere, which are still not writable.
+
+But I just added a way to switch off that message in your config. Get the latest developer version: 
+
+<http://github.com/bastianallgeier/kirbycms-panel/tree/dev>
+
+and go to `site/panel/config/config.php` to set: 
+
+```php
+
+c::set('panel.check', false);
+
+```

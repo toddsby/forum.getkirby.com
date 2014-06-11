@@ -1,0 +1,21 @@
+Title: Redirecting old URL's
+----
+Date: 2013-09-15 02:35:18
+----
+Solved: 1
+----
+User: awarburton
+----
+Text: Hey guys,
+
+Today I was feeling a bit spontaneous and started the move from WordPress to Kirby after getting slowly less and less satisfied with how bloated WP was becoming.
+
+The WordPress migration script didn't work for me (from what I can tell, it was choking on some malformed content and/or the size of my site) but I quickly hacked up a script to process the XML export dump from WordPress and convert it into a bunch of directories and files for Kirby. [My blog](http://andywarburton.co.uk) is now quite happily running on Kirby but I have a bunch of broken links that I would like to fix. (for example the url /2009/07/tickets-booked/ is now /tickets-booked/ under Kirby).
+
+My server is running Nginx and I would like to somehow redirect all of the old URL's to the new ones so that I don't end up with a lot of 404 errors (otherwise I'll have to go through all the posts and find the broken links and fix them manually which will be a nightmare given that I have ten years of posts and hundreds of internal links!)
+
+If anyone can help me fix this, I'll be really happy and ready to dig in and buy my first Kirby license!
+
+Thanks
+
+Andy

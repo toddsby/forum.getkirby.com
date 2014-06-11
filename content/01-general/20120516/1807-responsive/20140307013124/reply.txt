@@ -1,0 +1,7 @@
+User: aaroncalzado
+----
+Date: 2014-03-07 01:31:24
+----
+Text: I'm wondering if there's a way I can utilize a responsive grid system for my portfolio without having to use <div class="xyz"> in the markdown text file?
+
+I just started getting serious about coding my portfolio site, but I can't figure out how to approach implementing a grid system into Kirby.

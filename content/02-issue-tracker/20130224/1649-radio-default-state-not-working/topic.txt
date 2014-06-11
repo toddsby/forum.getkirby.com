@@ -1,0 +1,16 @@
+Title: Radio default state not working
+----
+Date: 2013-02-24 16:49:19
+----
+Solved: 0
+----
+User: tbnv
+----
+Text: Hi,
+
+I created a blueprint where I have a radio (basically yes/no) but the default state doesn't seem to be used at all when I create a new post.
+
+Any idea about how I could solve this?
+
+Thanks,
+Thibaut Ninove

@@ -1,0 +1,17 @@
+Title: Stop direct access to content folder
+----
+Date: 2013-08-28 08:47:08
+----
+Solved: 1
+----
+User: angeloashmore
+----
+Text: The content folder (and its contents) in my Kirby installation is accessible by going to example.com/content. I get the Apache file listing of that folder.
+
+.txt files redirect to /error as defined in the default root .htaccess, but the actual file listing is still there.
+
+Is there a way to stop this? Some kind of .htaccess modification?
+
+I tried searching for a similar problem, but I was unable to find anything.
+
+Thanks!

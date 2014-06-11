@@ -1,0 +1,10 @@
+Title: Simple gallery with pagination
+----
+Date: 2012-07-17 15:51:27
+----
+Solved: 0
+----
+User: bastianallgeier
+----
+Text: This is a simple gallery example with pagination for each image. 
+<https://gist.github.com/3002329>

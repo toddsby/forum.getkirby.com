@@ -1,0 +1,11 @@
+User: _diondiondion
+----
+Date: 2014-01-20 10:50:35
+----
+Text: This should do what you want:
+
+```
+<?php
+header('Location: ' . $page->children()->visible()->first()->url(), true);
+?>
+```

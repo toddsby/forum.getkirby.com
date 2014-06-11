@@ -1,0 +1,9 @@
+Title: Relative links issue with Panel Thumbs
+----
+Date: 2013-05-30 01:11:25
+----
+Solved: 0
+----
+User: roman_oroco
+----
+Text: Kirby relative links `c::set('url', '/');` causing an issue with Panel thumbs wrong urls: `<img src="//thumbs/f58e716e4b0901bd87ae72213187b760.150.150.0.0.100.jpg">`

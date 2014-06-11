@@ -1,0 +1,13 @@
+Title: Auto-Creation of Children
+----
+Date: 2012-12-12 16:00:28
+----
+Solved: 0
+----
+User: tysongach
+----
+Text: I wish I could setup the panel to auto-create a set of children pages when I add a particular new page template.
+
+So for instance, if I add a new project, when I create that project page in the panel, I wish it automatically added Page A, Page B, Page C as children.
+
+Maybe it could be similar to the way we currently define what template the children can be in a blueprint, we could also toggle an auto-creation or something...

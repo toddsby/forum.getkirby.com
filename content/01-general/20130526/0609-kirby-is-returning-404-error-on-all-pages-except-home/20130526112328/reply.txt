@@ -1,0 +1,29 @@
+User: 5w
+----
+Date: 2013-05-26 11:23:28
+----
+Text: Ok, finally I found the culprit! Yay!
+
+### Old Virtualhost setup
+
+
+		<Directory /var/www/test.domain.com>
+			Options FollowSymLinks
+			AllowOverride None
+			Order allow,deny
+			allow from all
+		</Directory>
+
+## The solution
+### NEW - virtualhost setup
+
+		<Directory /var/www/test.domain.com>
+			Options Indexes FollowSymLinks MultiViews
+			AllowOverride All
+			Order allow,deny
+			allow from all
+		</Directory>
+
+
+Notice the first line of code `Options FollowSymLinks` requires additional parameters **Indexes** AND **MultiViews**
+`Options Indexes FollowSymLinks MultiViews`

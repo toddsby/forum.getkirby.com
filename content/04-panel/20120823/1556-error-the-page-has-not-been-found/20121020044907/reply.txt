@@ -1,0 +1,12 @@
+User: quintincarlson
+----
+Date: 2012-10-20 04:49:07
+----
+Text: Hi,
+
+I just started having this issue... I tried the dev builds of Kirby CMS and The Panel. Also checked the .htaccess file. I'm still getting weird Page Could Not Be Found Errors.
+
+Any thoughts? (I'm on MediaTemple (dv) if that helps...)
+
+Thanks
+Quintin

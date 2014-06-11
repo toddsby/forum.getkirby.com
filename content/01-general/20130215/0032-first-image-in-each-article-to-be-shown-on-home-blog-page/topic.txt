@@ -1,0 +1,13 @@
+Title: First image in each article to be shown on home blog page.
+----
+Date: 2013-02-15 00:32:10
+----
+Solved: 1
+----
+User: nathaniel_h
+----
+Text: Maybe I'm trying way too hard to make my website perfect, but here's one other thing I'm attempting to do...
+
+This is the code I have on my blog.php template. This problem with this code, is if there is not an image found in a particular blog post, it stops displaying articles entirely.
+
+    <img src="<?php echo excerpt($article->images()->first()->url()) ?>" />

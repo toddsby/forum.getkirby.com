@@ -1,0 +1,14 @@
+Title: Gallery Code + Each Photo seperate page
+----
+Date: 2014-02-01 01:28:21
+----
+Solved: 0
+----
+User: omfgchris
+----
+Text: Hi
+
+Was wondering for the gallery coding, is there any method of assigning each photo (i have about 300) a seperate page for themselves, for example, .com/gallery/photo1/ - .com/gallery/photo2/ and so on.
+
+Many thanks,
+Chris

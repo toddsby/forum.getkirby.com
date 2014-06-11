@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-05-31 08:26:46
+----
+Text: PHP and some Ajax would work. I'd try and get it working without Ajax first (with page refreshes) and then add that in later.
+
+Check out [the one-pager article](http://getkirby.com/blog/one-pager) and [Fun with Loops](http://getkirby.com/blog/fun-with-loops) for PHP help.

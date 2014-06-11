@@ -1,0 +1,35 @@
+Title: Advanced Sorting
+----
+Date: 2012-10-22 21:51:38
+----
+Solved: 0
+----
+User: tysongach
+----
+Text: Hi all,
+
+I'm trying to figure out how to do some tricky sorting of children pages and having a tough time getting something to work.
+
+The area of the site is for company press and the goal is for the Press page to show a paginated list of all the Press Articles. I need to sort them in a particular order, though:
+
+1. Featured is **on**, _put these in chronological order_
+2. Featured is **off** _and_ article **has text**, _put these in chronological order_
+3. Featured is **off** and article **doesn't** have text, _put these in chronological order_
+
+All of this needs to be paginated.
+
+
+Here's what my pressarticle.txt looks like:
+
+    Title: Deck the halls
+    ----
+    Date: 11.08.2010
+    ----
+    Text: Sample text blah blah blah
+    ----
+    Featured: on
+
+
+I keep getting caught up in a weird mix of the filterBy and sortBy functions and I think I'm over analyzing it.
+
+Any help is greatly appreciated!

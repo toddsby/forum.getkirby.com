@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2013-08-09 19:26:02
+----
+Text: http://getkirby.com/blog/text-formatting-101 has examples of how to link images from within kirbytext.
+
+There's information here about how to search for images based on filename in an extension agnostic fashion: http://getkirby.com/blog/1-1-1 (might also be in the docs, but I'm not sure. It was added in Kirby 1.1.1.)

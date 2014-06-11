@@ -1,0 +1,15 @@
+Title: Infinite Scroll
+----
+Date: 2012-12-11 13:22:51
+----
+Solved: 0
+----
+User: simonscheiber
+----
+Text: Hello everyone, 
+
+I've been trying to get various jQuery infinite scroll plugins going with Kirby. Unfortunately most plugins analyse the link-structure of the first pagination and then just count onwards. This results in an infinite loop, because Kirby returns to the first page if the page number is higher than the total amount of pages. 
+Does anybody know a clever way around this? Every help is appreciated. 
+
+Cheers, 
+Simon

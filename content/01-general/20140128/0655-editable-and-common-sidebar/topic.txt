@@ -1,0 +1,24 @@
+Title: Editable and common sidebar
+----
+Date: 2014-01-28 06:55:07
+----
+Solved: 1
+----
+User: unknownguest
+----
+Text: Hi, 
+
+I'd like to have a sidebar which is editable in the Panel, but is common to all pages on the site (where it's included in the template). 
+
+I can't get my head around how to structure the content folder, templates etc so this works. 
+
+I understand I can create a snippet for the sidebar and include that in the templates, but that would be hard coded. I want to be able to edit the content in the Panel. 
+
+For example, I'd like to have a paragraph or two of "About" text in the sidebar which I can edit from the Panel. 
+
+I thought perhaps I could create a global variable in the site.txt and edit it there, but I'm sure there's a more flexible way...
+
+How would I go about doing this?
+
+Cheers!
+Jed

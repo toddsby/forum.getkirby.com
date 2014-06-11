@@ -1,0 +1,21 @@
+Title: maps snippet
+----
+Date: 2013-12-31 16:45:39
+----
+Solved: 0
+----
+User: peterpolz
+----
+Text: hi!
+
+as described
+How to add Google Maps to your site
+http://getkirby.com/blog/google-maps
+
+id did not work here, did you know why?
+http://www.ml400.net/Willekum/Anreise
+
+wish you a happy new year!
+
+:)
+Peter

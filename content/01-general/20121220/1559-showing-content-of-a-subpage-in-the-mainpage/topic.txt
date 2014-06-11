@@ -1,0 +1,44 @@
+Title: Showing content of a subpage in the mainpage
+----
+Date: 2012-12-20 15:59:44
+----
+Solved: 0
+----
+User: tues37
+----
+Text: Hello there,
+
+I have a site structure like this:
+
+Story
+   The problem
+   The solution
+   The commerzialization
+
+The "Story" page has no content, but have to be there, because the submenu opens with a dropdown menu.
+
+How can I display the content of the first subpage (e.g. "The problem") at the "Story" page? 
+
+Code snippets I use:
+
+  < ? php foreach($pages->visible() AS $p): ?>
+			
+	<li>
+<a< ? php echo ($p->isOpen()) ? ' class="active"' : '' ?> href="<?php echo $p->url() ?>"><?php echo html($p->title()) ?></a>
+< ? php if($p->children()->visible()->count()): ?>
+
+	<ul>
+< ? php foreach($p->children()->visible() AS $item): ?>
+
+<li><a< ? php echo ($item->isOpen()) ? ' class="active"' : '' ?> href="< ? php echo $item->url() ?>">< ? php echo html($item->title()) ?></a></li>
+   < ? php endforeach ?>
+	</ul>
+
+   < ? php endif ?>
+	</li>
+
+< ? php endforeach ?>
+
+And the snippet "treemenu.php" which is for the submenu.
+
+Thank you in advance!

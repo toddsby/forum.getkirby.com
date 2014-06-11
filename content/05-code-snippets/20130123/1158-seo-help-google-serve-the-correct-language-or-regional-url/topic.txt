@@ -1,0 +1,22 @@
+Title: SEO: Help Google serve the correct language or regional URL
+----
+Date: 2013-01-23 11:58:12
+----
+Solved: 0
+----
+User: asbiot
+----
+Text: Below are a few lines that I put into the header snippet of my dual-lingual website after I read an article by google on how to (link: http://support.google.com/webmasters/bin/answer.py?hl=en&answer=189077 text: Help Google serve the correct language or regional URL). 
+This may help with your search engine ranking as it will clearly mark your translated pages as the same content in a different language.
+
+	<?php if ($page->contents()->count() > 1 ): ?>
+	  <?php foreach(c::get('lang.available') as $lang): ?>
+	    <link rel="alternate" hreflang="<?php echo $lang ?>" href="<?php echo $page->url($lang) ?>" />
+	  <?php endforeach ?>
+	<?php endif ?>
+
+Notice:
+I should point out, that while these lines look at the actually available translations for the individual page, once more than one version of the page content is detected, it creates a <link.../> line for all the language translations that you defined in your kirby config file.
+I am hoping Bastian or somebody else will point me to a function (or implement one) that returns the array of language codes (de, en, ...) that a certain page exists in. Something along the lines of $page->contents()->languages(). 
+The snippet should really be improved to only print the <link.../> lines for the available languages (which may be a subset of the languages you defined in the kirby config). 
+I am only working with two languages, so it works nicely for me, but please let me know if you can think of a neat way to do this.

@@ -1,0 +1,11 @@
+User: rappold
+----
+Date: 2013-07-01 16:49:37
+----
+Text: _I just wanted to create a similar topic, but I thought my concern suits this one just as well._
+
+**@russbaldwin** I read this thread a while ago but it didn't really help. What I'm trying to achieve is a simple article layout such as **(link: http://designerfund.com/bridge/day-in-the-life-rdio-ryan-sims/ text: this one)**. Images that span the full container width and a single text column that has some padding on the left and right.
+
+Maybe I'm thinking overly complicated and all I need is input from a different point of view, but how would one achieve something like this, given that images are wrapped in `p` tags?
+
+Is there a way of doing this using clean markup? I want to avoid hacking things together with negative margins or whatsoever.

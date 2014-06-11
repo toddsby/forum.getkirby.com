@@ -1,0 +1,30 @@
+User: russbaldwin
+----
+Date: 2013-06-25 08:34:46
+----
+Text: That is returning an empty array. (You can also use `<?php a::show($variable) ?>` to show stuff. Not sure why.
+
+I'm assuming you've checked the spacing of the blueprint file and it is OK, actually it probably wouldn't work in the Panel if not. 
+```html
+published:
+  label: Visibility
+  type: radio
+  options:
+    published: Published
+    draft: Draft
+  default: published
+```
+I presume also you change the values for the radio button and have them change in your txt file (from Panel)?
+
+Another approach is to maybe try using just a checkbox for Published? It is either published or not. 
+
+However I think it is the array being empty which is the problem, is it case sensitive?? Maybe try:
+```php 
+$privatePage = 
+$pages->visible()->filterBy('published', 'Published');```
+
+or 
+
+```php 
+$privatePage = 
+$pages->visible()->filterBy('draft', 'Draft');```

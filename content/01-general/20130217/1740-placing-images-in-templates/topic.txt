@@ -1,0 +1,11 @@
+Title: Placing images in templates
+----
+Date: 2013-02-17 17:40:52
+----
+Solved: 0
+----
+User: brandon_m_cook
+----
+Text: Hi all, giving kirby a spin for the first time this weekend. I'm looking to add images to one of my page templates. I've read through the gallery of images example that is provided in the docs but is there a way to simply place individual images throughout the template? Or is using an absolute url the best solution?
+
+Thanks in advance

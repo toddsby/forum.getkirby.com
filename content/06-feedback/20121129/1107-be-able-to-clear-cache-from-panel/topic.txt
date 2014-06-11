@@ -1,0 +1,9 @@
+Title: Be able to clear cache from Panel
+----
+Date: 2012-11-29 11:07:53
+----
+Solved: 0
+----
+User: russbaldwin
+----
+Text: If the cache stuff is set in config it would be nice to be able to clear the cache from the panel admin?

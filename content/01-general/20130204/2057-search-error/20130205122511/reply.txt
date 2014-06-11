@@ -1,0 +1,13 @@
+User: plartz
+----
+Date: 2013-02-05 12:25:11
+----
+Text: Maybe it's because nothing was found? I'd add an if-clause right before the foreach-loop:
+
+	<? if($results): ?>
+		<? foreach($results as $result): ?>
+			display your results here...
+		<? endforeach ?>
+	<? else: ?>
+		Nothing was found.
+	<? endif ?>

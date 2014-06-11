@@ -1,0 +1,11 @@
+User: eugeneskopa
+----
+Date: 2014-02-17 20:06:32
+----
+Text: Hello there,
+
+That is possible using PHP function ["filemtime"](http://ch2.php.net/filemtime) which takes in as a parameter the path to the file and returns either a Unix timestamp or FALSE in case of failure.
+
+So in your template you could actually do something like:
+
+    php echo date('date format', filemtime('path to the file'));

@@ -1,0 +1,13 @@
+User: russbaldwin
+----
+Date: 2013-03-23 18:57:16
+----
+Text: I may be missing something here, but a folder structure like below would give you this?
+
+```html
+gallery
+    album-name1
+      file.jpg
+    album-name2
+      file.jpg
+```

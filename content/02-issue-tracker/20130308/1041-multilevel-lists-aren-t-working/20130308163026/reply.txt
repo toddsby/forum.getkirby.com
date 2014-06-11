@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-03-08 16:30:26
+----
+Text: Yes, I asked about this before and was told you currently have to set 'markdown-breaks' to false to fix it.

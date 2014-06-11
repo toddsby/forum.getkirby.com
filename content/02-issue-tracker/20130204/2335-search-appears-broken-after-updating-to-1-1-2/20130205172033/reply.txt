@@ -1,0 +1,7 @@
+User: chrisbowler
+----
+Date: 2013-02-05 17:20:33
+----
+Text: I get no results @bastianallgeier. You can see it in action here: http://chrisbowler.com/search. As I haven't made any changes (that I'm aware of) other than updating the Kirby folder, I'm at a loss for what the cause might be.
+
+As for permissions, what should the files in the templates/snippets/plugins folder be set to? I see a lot of 644 or 755 in my templates folder.

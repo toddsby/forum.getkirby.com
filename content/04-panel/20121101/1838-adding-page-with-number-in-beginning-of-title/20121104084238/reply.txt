@@ -1,0 +1,29 @@
+User: scottswany
+----
+Date: 2012-11-04 08:42:38
+----
+Text: Yep.  The problem is that once the page has been sorted into the 'visible' section and Kirby assigns the appropriate sequential number, you can add numbers to the beginning no problem.  i.e.
+
+01-1000-Broadway-Ave
+
+Its when the first number isn't there, so Kirby assumes that the folder should be sorted as #1000.  i.e.
+
+01-page-one
+02-page-two
+1000-Broadway-Ave
+
+So when you move its location in panel, you end up with:
+
+01-page-one
+02-page-two
+03-Broadway-Ave
+
+And the '1000' is automatically removed. I'll have to look into adding the street number as another field, but that would remove it from URL by default and there are a few cases where there are multiple projects on one street, so you'd get:
+
+01-main-street
+...
+04-main-street
+
+Which would force the project name to be different when adding.
+
+Decisions, decisions.

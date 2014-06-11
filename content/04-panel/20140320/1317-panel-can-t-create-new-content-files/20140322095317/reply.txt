@@ -1,0 +1,18 @@
+User: possible_books
+----
+Date: 2014-03-22 09:53:17
+----
+Text: Hi,
+the server is a remote webserver, run by nearlyfreespeech.net.
+I can create files manually outside the panel, with the owner being the ftp-user.
+The rights of the folders and files are 777, so anyone can access it.
+The owner is as well the ftp-user logging in on the server. I used Transmit to upload and change the access rights.
+
+I'm really not sure what else i can do...
+
+The weird thing is, the panel creates an empty folder when i try to create a new page. This empty folder i can delete via the panel.
+So this doesn't seem to affect folders, only files.
+
+----
+
+Update: Now i am guessing, that the panel can create a folder (which has access rights 755), but can't write into the folder. Which is still weird enough...

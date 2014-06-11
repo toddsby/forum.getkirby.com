@@ -1,0 +1,13 @@
+User: GeoffForster
+----
+Date: 2013-02-16 14:41:49
+----
+Text: Thanks that worked. 
+sites/panel/blueprints/default.php
+
+I made the mistake of changing
+panel/default/blueprints/default.php
+
+I've now deleted the panel/default folder :)
+
+I must read more before diving in I think ...

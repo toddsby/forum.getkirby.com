@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-11-13 14:10:26
+----
+Text: The homepage is not supposed to be a subsection. That might cause the error. You should instead create a invisible home folder in the first level with a home.txt and home.php template and use a redirect there to direct to a subsection.

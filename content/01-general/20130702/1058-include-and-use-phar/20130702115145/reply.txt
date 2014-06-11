@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-07-02 11:51:45
+----
+Text: You have not given us much to go on and it maybe better asking at the Guzzle site since the error occurs in that code, but if it is routing check your.htaccess file?
+
+Also I think it is saying it cannot find the class because it has not loaded? So check why it isn't loading - maybe path maybe rights?

@@ -1,0 +1,20 @@
+Title: why ()) ?
+----
+Date: 2013-02-13 17:31:26
+----
+Solved: 1
+----
+User: gournis
+----
+Text: am play with the default theme and i saw that although the  Site Variables is describe like this :
+
+<?php echo $site->keywords() ?>
+
+in practice why write 
+<?php echo html($site->title()) ?>
+
+my questions is: 
+why we put the html
+why we put the ()) 
+
+thanks for your time

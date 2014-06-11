@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-08-18 20:48:45
+----
+Text: I'm sorry! That's my fault. I just uploaded another dev version, which should fix this.

@@ -1,0 +1,5 @@
+User: jesuismaksim
+----
+Date: 2013-02-18 00:23:02
+----
+Text: @russbaldwin It's a website for a music band, and it needs to be bilingual, but I dont want to 'force' the band to add their dates in French AND English, so if the dates is not completed in French, it will push the datas from the english version. Thats what I mean by "fallback" !

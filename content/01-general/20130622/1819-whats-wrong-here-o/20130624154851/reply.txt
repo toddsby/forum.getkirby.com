@@ -1,0 +1,9 @@
+User: russbaldwin
+----
+Date: 2013-06-24 15:48:51
+----
+Text: Assuming one image per div, in your CSS you could float the `div`'s and clear every second div, to give you two images per line.
+
+[Floatutorial](http://css.maxdesign.com.au/floatutorial/)
+
+I think perhaps people need to be skilled in HTML, PHP, CSS and JS to get the best out of Kirby :-)

@@ -1,0 +1,23 @@
+Title: Find the true path to a url?
+----
+Date: 2013-03-26 19:52:06
+----
+Solved: 0
+----
+User: bobrockefeller
+----
+Text: How would I go about finding the full file system path that Kirby CMS translates into a URL?
+
+For example, on the site I'm working on now, Kirby uses this URL:
+
+http://www.kirby.dev/portfolio/people/thumbnails/ 
+
+to represent this file system path:
+
+/Volumes/Data/Dropbox/SyncedSites/vhosts/www.kirby.dev/content/portfolio/people/thumbnails/
+
+I'd like to feed a utility function the URL and get back the true file system path.
+
+In the end, I want to create files and directories in PHP, so I need the file system path to create them in.
+
+Bob

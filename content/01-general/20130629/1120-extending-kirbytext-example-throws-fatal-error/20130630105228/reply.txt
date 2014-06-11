@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-06-30 10:52:28
+----
+Text: Some code would be good, but how about you are re-declaring the class it as per the error?

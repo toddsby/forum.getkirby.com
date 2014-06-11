@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2014-03-12 17:18:11
+----
+Text: Yeah, I'm not sure if there's any sort of performance hit for that, but I've had to do similar things multiple times, and it doesn't seem to cause any major issues. Enabling caching when you're on production should help with any potential performance issues.

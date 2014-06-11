@@ -1,0 +1,8 @@
+User: hellovolker
+----
+Date: 2012-12-04 16:58:06
+----
+Text: I had this error showing up sometimes as well.
+
+But only when caching wasn't enabled.
+Since it is on - the error was never seen again.

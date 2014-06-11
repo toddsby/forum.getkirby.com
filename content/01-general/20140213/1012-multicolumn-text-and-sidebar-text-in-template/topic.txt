@@ -1,0 +1,36 @@
+Title: Multicolumn Text and Sidebar Text in Template
+----
+Date: 2014-02-13 10:12:55
+----
+Solved: 1
+----
+User: devdatastream
+----
+Text: Hi,
+
+I have a design that has a sidebar on the right and on some pages the main content is spread into two columns. How do I achieve that without javascript?
+
+Sketch:
+(image: http://i.imgur.com/HPMvhXh.png)
+
+```
+Title: Start
+----
+
+Text:
+----
+Column 1 text. Column 1 text. Column 1 text. Column 1 text. 
+Column 2 text. Column 2 text. Column 2 text. Column 2 text. 
+Column 2 text. Column 2 text. Column 2 text. Column 2 text.
+
+Column 2 text. Column 2 text. Column 2 text. Column 2 text. 
+Column 2 text. Column 2 text. Column 2 text. Column 2 text. 
+Column 2 text. Column 2 text. Column 2 text. Column 2 text. 
+
+Sidebar: 
+----
+Sidebar links. Sidebar links. Sidebar links. Sidebar links.
+Sidebar links. Sidebar links. Sidebar links. Sidebar links. 
+Sidebar links. Sidebar links. Sidebar links. Sidebar links. 
+Sidebar links. Sidebar links. Sidebar links. Sidebar links. 
+```

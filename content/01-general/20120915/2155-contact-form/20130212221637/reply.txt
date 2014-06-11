@@ -1,0 +1,27 @@
+User: kukac7
+----
+Date: 2013-02-12 22:16:37
+----
+Text: hi,
+
+i have a problem with the contactform plugin.
+
+i installed and setup.
+after sending the thank you message displays, but the letter did not arrive.
+MAMP on localhost from trying.
+
+here are the settings contactform.php:
+```
+$form = new contactform(array(
+  'to'       => 'kukac7@gmail.com',
+  'from'     => 'Contact Form <contact@yourdomain.com>',
+  'subject'  => 'New contact form request',
+  'goto'     => $page->url() . '/status:thank-you'
+));
+```
+
+what could be wrong?
+
+thanks for your help!
+
+**update**: works on the server.

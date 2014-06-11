@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-11-02 11:13:49
+----
+Text: The syntax works for me as well as long as you omit the "true", which is automatically set by adding sub elements.

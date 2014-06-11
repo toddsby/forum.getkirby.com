@@ -1,0 +1,15 @@
+User: iamirm
+----
+Date: 2013-03-06 18:43:04
+----
+Text: @russbaldwin no only the config.php and .htaccess settings as provided
+
+@roman_oroco actually the structure is
+
+    root
+    -www
+    --mysite.com
+    ---test
+    ----site <-Kirby CMS
+
+I had my config.php set up that way, but for some reason it's not working the way I want it to. Maybe it has something to do with my site being in a subfolder of a subfolder?

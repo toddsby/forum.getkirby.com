@@ -1,0 +1,5 @@
+User: roman_oroco
+----
+Date: 2013-04-05 12:33:53
+----
+Text: @baderkamal Check this pull by @pilchard on github <https://github.com/bastianallgeier/kirbycms/pull/67> works super well.

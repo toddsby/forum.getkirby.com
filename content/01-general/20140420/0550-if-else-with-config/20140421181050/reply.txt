@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2014-04-21 18:10:50
+----
+Text: I think you can just check `$_SERVER['HTTP_HOST']`. If it's localhost, use the local stuff. Or the other way around might be better: if it's the production domain, use the production stuff. Otherwise, the local stuff.

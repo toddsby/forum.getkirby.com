@@ -1,0 +1,9 @@
+Title: Preview link?
+----
+Date: 2013-05-01 23:31:30
+----
+Solved: 0
+----
+User: tvaugh0n
+----
+Text: I need to be able to let other people preview changes before they're made live. I don't need an elaborate permission system, an obfuscated URL would work. I'm thinking that when a change is made to page in the panel those changes can be published or saved as a draft. A draft would have some sort of obfuscated URL. Once the URL has made the rounds and people have approved the changes somehow then the draft can be published. Does that make sense? Is there anything like this in Kirby now? Thanks.

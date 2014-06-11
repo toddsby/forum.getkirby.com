@@ -1,0 +1,11 @@
+User: awarburton
+----
+Date: 2013-09-15 23:57:53
+----
+Text: Hi guys,
+
+I gave one of my sysadmin friends a shout and he helped me work out an Nginx rewrite that would redirect my old WordPress URL's to my Kirby URL's.
+
+I just had to add this one line:
+
+    rewrite  "^/[0-9]{4}/[0-9]{2}/(.*)" /blog/$1 permanent;

@@ -1,0 +1,39 @@
+Title: Display field label
+----
+Date: 2013-08-30 16:28:55
+----
+Solved: 1
+----
+User: sandervdvijver
+----
+Text: I have looked around for an answer to this question, without success.
+
+I have my panel blueprint set up as follows:
+
+	question1:
+		label: What is the meaning of life?
+		type: textarea
+		size: small
+
+And here is the structure in my template file:
+
+	<div id="question1">
+		<div id="question">
+		</div>
+		<div id="answer">
+			<?php echo kirbytext($regisseur->question1()) ?>
+		</div>
+	</div>
+
+I have no problem displaying the value of the question1-field, but what I also want to display is the question itself, i.e. the 'label'. I was thinking of something along these lines (see below), but that would be too easy, I guess :)
+
+	<div id="question1">
+		<div id="question">
+			<?php echo kirbytext($regisseur->question1($label)) ?>
+		</div>
+		<div id="answer">
+			<?php echo kirbytext($regisseur->question1()) ?>
+		</div>
+	</div>
+
+Thanks!

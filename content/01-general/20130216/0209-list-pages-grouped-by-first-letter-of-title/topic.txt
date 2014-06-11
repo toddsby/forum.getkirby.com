@@ -1,0 +1,48 @@
+Title: List pages, grouped by first letter of title
+----
+Date: 2013-02-16 02:09:04
+----
+Solved: 1
+----
+User: paulrobertlloyd
+----
+Text: Hello,
+
+The site I’m building with Kirby contains many pages (eventually thousands in fact, if all goes to plan). I have a set of index pages, and as the site grows, I’d like to group them by the first letter of their title, e.g.:
+
+**A**
+- Abbey Wood
+- Acton
+- Addiscombe Road
+- Adisham
+
+**B**
+- Barking
+- Barnham
+- Battersea Park
+- Battle
+
+Currently, my template mark-up is as follows:
+
+```php
+<section>
+    <h1><?php echo smartypants($page->title()) ?></h1>
+    <?php 
+        $open = $pages->findOpen();
+        $items = ($open) ? $open->children->sortBy('title', 'asc')->visible() : false;
+    ?>
+    <?php if($items && $items->count()): ?>
+    <ul class="stations listing">
+        <?php foreach($items AS $item): ?>
+        <li><a href="<?php echo $item->url() ?>"><?php echo smartypants($item->title()) ?></a></li>
+        <?php endforeach ?>
+    </ul>
+    <?php endif ?>
+</section>
+```
+
+I see no obvious why of getting the intended results. Anybody tried something similar? How might I accomplish this?
+
+Cheers,
+
+Paul

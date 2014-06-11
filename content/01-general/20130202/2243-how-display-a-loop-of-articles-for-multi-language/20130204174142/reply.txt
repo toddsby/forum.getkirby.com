@@ -1,0 +1,20 @@
+User: russbaldwin
+----
+Date: 2013-02-04 17:41:42
+----
+Text: Mmmm, I was stumped until I realised it was the folder that was causing the lack of object error. The names for each folder are different in different languages ;-) So something like this would work.(You should probably tidy this code it up!)
+
+```php
+  <?php if(!$page->url_key()) {
+    $findkey="article";
+  }else{
+    $findkey=$page->url_key();
+  }?>
+  <?php $articles = $pages->find($findkey)
+                          ->children()
+                          ->visible()
+                          ->sortBy('date', 'desc')
+                          ->paginate(5);?>
+```
+
+I see Bastian beat me to it with a better solution :(

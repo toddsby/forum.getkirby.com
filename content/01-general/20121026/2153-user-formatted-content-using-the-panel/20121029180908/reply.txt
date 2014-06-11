@@ -1,0 +1,9 @@
+User: fitzage
+----
+Date: 2012-10-29 18:09:08
+----
+Text: If it were just me, I'd be happy to go sans-control-panel, and markdown all the way. However, since I need other people in the company to post blog articles, I need to make things easy for them so they stop bitching about how much easier WordPress was.
+
+I think part of the problem is that even with the formatting buttons (which don't do everything we need anyway) is that it still inserts stuff in Markdown/Kirbytext which confuses people because they don't want to learn it, no matter how easy it is.
+
+A true editor that does kirbytext on the backend, but displays in wysiwyg on the front end would confuse them less, I think.

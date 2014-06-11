@@ -1,0 +1,51 @@
+User: walkerbox
+----
+Date: 2013-07-29 23:48:56
+----
+Text: `$child->uri()` is being called outside of your `$page->children() as $child` loop, so `$child` merely has the last value assigned to it.
+
+I don't really understand why you shuffle your images array. Do you want your pages in a random order in this list? I would have thought you would want the images to match the links.
+
+The following is what I think you are trying to do:
+
+	<ul>
+		<?php foreach($page->children() as $child) : ?>
+			<li class="item">
+				<a href="<?php echo $child->uri()?>">
+					<?php $image = $child->images()->limit(1); ?>
+					<?php $image->fitWidth(385) ?>
+					<img src="<?php echo $image->url() ?>" width="<?php echo $image->width() ?>" height="<?php echo $image->height() ?>" alt="<?php echo $image->name() ?>" />
+				</a>
+			</li>
+		<?php endforeach; ?>
+	</ul>
+
+The following shuffles the children:
+
+	<ul>
+		<?php foreach($page->children()->shuffle() as $child) : ?>
+			<li class="item">
+				<a href="<?php echo $child->uri()?>">
+					<?php $image = $child->images()->limit(1); ?>
+					<?php $image->fitWidth(385) ?>
+					<img src="<?php echo $image->url() ?>" width="<?php echo $image->width() ?>" height="<?php echo $image->height() ?>" alt="<?php echo $image->name() ?>" />
+				</a>
+			</li>
+		<?php endforeach; ?>
+	</ul>
+
+And the following only includes visible children, as well as shuffling:
+
+	<ul>
+		<?php foreach($page->children()->visible()->shuffle() as $child) : ?>
+			<li class="item">
+				<a href="<?php echo $child->uri()?>">
+					<?php $image = $child->images()->limit(1); ?>
+					<?php $image->fitWidth(385) ?>
+					<img src="<?php echo $image->url() ?>" width="<?php echo $image->width() ?>" height="<?php echo $image->height() ?>" alt="<?php echo $image->name() ?>" />
+				</a>
+			</li>
+		<?php endforeach; ?>
+	</ul>
+
+(Remove the `shuffle()` function if you want to honour the order)

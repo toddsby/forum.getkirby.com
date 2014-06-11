@@ -1,0 +1,13 @@
+Title: Medium - A Medium.com inspired Kirby Theme
+----
+Date: 2014-03-20 10:14:01
+----
+Solved: 0
+----
+User: minmlco
+----
+Text: Available to download from Creative Market.
+
+(link: https://creativemarket.com/minmlco/28570-Kirby-CMS-Medium)
+
+live preview: (link: http://dev.minml.co)

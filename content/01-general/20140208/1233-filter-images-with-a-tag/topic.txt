@@ -1,0 +1,47 @@
+Title: Filter images with a tag?
+----
+Date: 2014-02-08 12:33:31
+----
+Solved: 0
+----
+User: cluelessarian
+----
+Text: Hi. I wanted to create an index page which lists all tags from a certain field. By using the tagcloud plugin, I was able to achieve this without any problems, however, I'd like to "prettify" the output by replacing the placeholder image in my code with an image from a post. So, in addition to displaying the name and the results for a tag, I also want to search through all posts with that tag, pick a random image and output the url of it. Sadly, I have no idea what would be the best way to do this, or if it is even possible, so any help would be really appreciated.
+
+Current code:
+<?php snippet('header') ?>
+
+	<?php
+
+	$photographs = $pages->find('shots');
+	$tags = tagcloud($photographs);
+
+	?>
+
+	<div id="page-wrapper">
+		<div id="content">
+		  <?php foreach($tags as $tag): ?>	  		
+		  	<div class="tagbox">
+				<a href="<?php echo $tag->url() ?>">
+					<img src="http://placehold.it/400x400">
+					<div class="caption-wrapper">
+						<?php echo $tag->name() ?> </br>
+						<?php echo $tag->results() ?> <?php if ($tag->results() == '1'): ?>image<?php else: ?>images<?php endif ?>		        
+					</div>
+				</a>
+		  	</div>
+		  <?php endforeach ?>
+		</div>
+		<?php snippet('footer') ?>
+	<div>
+
+Basic structure:
+
+    content/
+        01-photos/
+            01-title/
+            	photograph.txt
+            	image.jpg
+            02-title/
+            	photograph.txt
+            	image.jpg

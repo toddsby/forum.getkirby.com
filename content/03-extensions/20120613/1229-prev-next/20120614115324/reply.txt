@@ -1,0 +1,6 @@
+User: simonscheiber
+----
+Date: 2012-06-14 11:53:24
+----
+Text: One more question: is it also possible to include sub-directories (i.e. /category-1/sub-category) in the prev/next navigation? 
+Thank you in advance for your help!

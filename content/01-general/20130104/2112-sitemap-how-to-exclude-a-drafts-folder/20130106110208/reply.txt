@@ -1,0 +1,37 @@
+User: russbaldwin
+----
+Date: 2013-01-06 11:02:08
+----
+Text: There is an 'ignore' list option and the code below also does visible children - so making it invisible would also work....maybe not tested.
+
+    <?php
+		$ignore = array('sitemap','error','drafts');
+		// send the right header
+		('Content-type: text/xml; charset="utf-8"');
+		// echo the doctype
+		echo '<?xml version="1.0" encoding="utf-8"?>';
+	?>
+	<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+      <?php foreach($pages->visible() AS $p): ?>
+
+       <?php if(in_array(basename($p->uri()), $ignore)) continue ?>
+
+        <url>
+          <loc><?php echo html($p->url()) ?></loc>
+          <lastmod><?php echo $p->modified('c') ?></lastmod>
+          <priority><?php echo ($p->isHomePage()) ? 1 : number_format(0.9/$p->depth(), 1) ?></priority>
+        </url>
+
+        <?php if($p->children()->visible()->count()): ?>
+          <?php foreach($p->children()->visible() AS $item): ?>
+            <?php if(in_array(basename($item->uri()), $ignore)) continue ?>
+              <url>
+                <loc><?php echo html($item->url()) ?></loc>
+                <lastmod><?php echo $item->modified('c') ?></lastmod>
+                <priority><?php echo number_format(0.9/$item->depth(), 1) ?></priority>
+              </url>
+          <?php endforeach ?>
+        <?php endif ?>
+
+      <?php endforeach ?>
+    </urlset>

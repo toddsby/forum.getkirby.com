@@ -1,0 +1,13 @@
+User: bastianallgeier
+----
+Date: 2012-08-28 17:17:27
+----
+Text: Try this: 
+
+```php
+
+$merged = Pages::merge($firstSetOfPages, $secondSetOfPages, $thirdSetOfPages);
+
+```
+
+You can merge as many sets as you need.

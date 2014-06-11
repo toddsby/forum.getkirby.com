@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-01-14 09:15:52
+----
+Text: Git? I think there is an article on here about using it to push updates to a web server but I cannot find it at present. Anyway there are plenty of articles on the web about this.

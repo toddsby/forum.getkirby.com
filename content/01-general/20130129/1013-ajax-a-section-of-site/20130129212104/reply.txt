@@ -1,0 +1,8 @@
+User: chrisburton
+----
+Date: 2013-01-29 21:21:04
+----
+Text: I downloaded the Ajax plugin from Github. 
+
+
+https://github.com/lautr/asfar

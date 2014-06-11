@@ -1,0 +1,60 @@
+Title: Simple blueprint add - tutorial ?
+----
+Date: 2014-01-27 11:04:12
+----
+Solved: 1
+----
+User: maxc33
+----
+Text: Hi !
+I am trying to understand Kirby and the Panel.
+
+- I have create a new template new-page.php for a page called 'new-page' (folder '04-new-page' & content 'new-page.txt'). Without using panel, this is working fine.
+
+Code : new-page.txt
+
+//Title: New page
+//----
+//Subtitle: le sous titre
+//----
+//Text: Lorem ipsum dolor sit amet, 
+//----
+
+End of code.
+
+
+- Now for using the panel, I have created a specific blueprint for that template in Kirby-test/site/panel/blueprints/new-page.php :
+
+-> Code :
+//<?php if(!defined('KIRBY')) exit ?>
+//
+//# new page blueprint
+//
+//title: New Page
+//pages: false
+//template: new-page
+//files: true
+//fields:
+//  title: 
+//    label: Title
+//    type:  text
+//  subtitle:
+//    label: Subtitle
+//    type:  text
+//  text: 
+//    label: Text
+//    type:  textarea
+//    size:  large
+
+-> End of code.
+
+- I log into the panel fine, but when I try to managed my 'new-page' content I got some errors appearing :
+-> Notice: Undefined variable: css in C:\wamp\www\Kirby-test\panel\lib\form.php on line 160
+-> Warning: implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in C:\wamp\www\Kirby-test\panel\lib\form.php on line 160
+-> Notice: Undefined variable: css in C:\wamp\www\Kirby-test\panel\lib\form.php on line 160
+-> Warning: implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in C:\wamp\www\Kirby-test\panel\lib\form.php on line 160
+
+It seems that the 'title' and 'subtitle' form fields are appearing right... But not the text (textarea field).
+
+What I am doing wrong ?
+Thx by advance, Max.

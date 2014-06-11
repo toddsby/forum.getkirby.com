@@ -1,0 +1,7 @@
+User: bastianallgeier
+----
+Date: 2013-03-08 10:35:55
+----
+Text: I had a similar issue with the Panel recently which was super complicated to debug until I found out that a session could not be started to some restrictions in the PHP.ini, which I unfortunately forgot. 
+
+Could you try to simple add session_start() instead of the Auth::login() function there and see if it throws an error?

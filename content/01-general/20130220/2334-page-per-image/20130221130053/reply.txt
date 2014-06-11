@@ -1,0 +1,15 @@
+User: russbaldwin
+----
+Date: 2013-02-21 13:00:53
+----
+Text: I think Dribble are doing a sort of 'in-situ lightboxy' Javascript effect, because if you turn off JS it doesn't work?
+
++ I seem to remember there are quite a few javascripts for that, although I cannot actually think of any at present.
+
++ One simple way of doing might be to make the image open in a new page with 
+```html 
+target="_blank"
+``` 
+You can also do something similar with KirbyText I believe;-)
+
++ Another option would be to send the image link to another bit of PHP code which displayed the images.

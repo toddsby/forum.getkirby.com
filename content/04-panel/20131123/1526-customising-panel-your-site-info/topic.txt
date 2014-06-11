@@ -1,0 +1,11 @@
+Title: Customising Panel 'Your Site -> Info'
+----
+Date: 2013-11-23 15:26:10
+----
+Solved: 0
+----
+User: qkevinto
+----
+Text: Is it possible to add/customise fields in the 'Your Site -> Info'? I cannot seem the blueprint for this section nor can I find any answers regarding this matter.
+
+Many thanks!

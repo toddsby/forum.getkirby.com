@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-06-13 16:55:44
+----
+Text: This is the default behaviour so you can work on it like on a draft for a while before really launching it. To make it visible, just click sort and drag it to the list of visible pages.

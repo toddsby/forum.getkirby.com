@@ -1,0 +1,17 @@
+Title: Blog in its own folder BUT without /blog/ in the URI
+----
+Date: 2013-10-24 19:39:25
+----
+Solved: 1
+----
+User: yvesluther
+----
+Text: Hi there,
+
+in config.php I could set another folder/directory as my homepage. E.g. with 
+
+    c::set('home', 'home');
+
+Unfortunately this add '/blog/' to all article URIs. Is there a way to have the article subfolders in their own folders but getting rid of the '/blog/'?
+
+Many THX in advance.

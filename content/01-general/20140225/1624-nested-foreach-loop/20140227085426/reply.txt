@@ -1,0 +1,15 @@
+User: screencuts
+----
+Date: 2014-02-27 08:54:26
+----
+Text: I think what may be causing a problem here is something peculiar to kirby and not PHP. You should test this yourself, but basically if you were to run
+
+    var_dump($subpage->title()) 
+
+inside your loop, you would see that  what is returned is not a string. It is some kind of Kirby object, which for some reason PHP has trouble placing in the array. The reason for this confuses me as well, as I don't understand why the array just doesn't accept the whole object, but I've had a similar problem. I see that you are trying to cast the result as a string. I've tried that too with no luck. The only thing that has worked for me is the following:
+
+    $subpages[] = array(
+        'title' => $subpage->title()-> value
+    );
+
+Try that and let us now how it goes...

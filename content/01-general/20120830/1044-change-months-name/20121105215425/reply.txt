@@ -1,0 +1,9 @@
+User: hey_steffen
+----
+Date: 2012-11-05 21:54:25
+----
+Text: You have to specify/set the language to Italian
+
+`setlocale(LC_TIME, 'it_IT')`
+
+I'm not sure if Kirby has predefined config-key for this.

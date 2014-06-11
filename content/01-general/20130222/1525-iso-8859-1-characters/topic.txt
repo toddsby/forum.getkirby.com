@@ -1,0 +1,19 @@
+Title: ISO 8859-1 characters
+----
+Date: 2013-02-22 15:25:46
+----
+Solved: 1
+----
+User: kukac7
+----
+Text: hi,
+
+kirby on the iso 8859-1 characters displayed in the html source markup.
+html character encoding utf-8.
+this is not a problem with seo?
+
+eg.:
+
+![Alt text](http://f.cl.ly/items/0u163f3q3W0p3F0A3Q13/Screen%20Shot%202013-02-22%20at%2015.22.02.png)
+
+thanks for your help!

@@ -1,0 +1,5 @@
+User: jancbeck
+----
+Date: 2013-05-29 15:32:31
+----
+Text: I will look into serving sized down images to desktop machines using adaptive-images.php and try out Thumb Plugin + Picturefull as well. Thank you both!

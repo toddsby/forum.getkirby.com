@@ -1,0 +1,38 @@
+Title: Using else statement inside a foreach loop
+----
+Date: 2013-04-09 12:37:21
+----
+Solved: 0
+----
+User: chrisjmartin87
+----
+Text: Hello guys,
+
+Does anyone know how this could be achieved using a foreach loop?
+
+I'm trying to upload a video to kirby using the panel and this is to be displayed in a section called intro.
+
+However, if there is no video uploaded how would i go about displaying an image that's been uploaded.
+
+This is my code as it stands at the moment:
+
+     <?php foreach ($pages->findByUID('intro') as $intro): ?>
+     <?php if($intro->hasImages()): ?> 
+     <?php foreach($intro->images() as $image): ?>
+
+     <section id="intro" class="intro full">
+
+     <video class="vidbg" preload="auto" autoplay="true" loop="loop" muted volume="0">
+     <source src="" type="video/webm"/>
+     <source src="" type="video/mp4"/>
+     </video> 
+                    
+     <?php endforeach ?>
+     <?php endif?>
+     <?php endforeach ?>
+     </section>
+
+At present this will show me a video if i manually type in the URL but i would prefer to be able to upload either a video or a image and display which ever one is uploaded.
+
+
+Many thanks :)

@@ -1,0 +1,5 @@
+User: plartz
+----
+Date: 2013-03-21 13:36:40
+----
+Text: You have to add another invisible site "FormToEmail" with an empty FormToEmail.txt, you can't just access the template without a site.

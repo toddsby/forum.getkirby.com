@@ -1,0 +1,15 @@
+Title: Custom content on blueprints
+----
+Date: 2013-11-10 11:49:21
+----
+Solved: 0
+----
+User: biccio
+----
+Text: Hi guys,
+As far as I understand, in panel blueprints I can only choose among predefined sets of fields. I'm looking for an elegant solution to output custom content to blueprints and thus to content form.
+Are there some solutions to I achieve this elegantly without messing around with core Kirby code? 
+
+Thx
+
+Fabrizio

@@ -1,0 +1,19 @@
+Title: Tables...
+----
+Date: 2013-10-01 22:32:51
+----
+Solved: 0
+----
+User: visionsined
+----
+Text: We have a need for data tables. We don't want to use HTML tables, because we want it to be readable when viewed as plain text. There are solutions in multimarkdown that work great in our text editors (look great as plain text, and also render as a table in Markdown preview), but they don't work in Kirby, which strips out all the extra spaces.
+
+Is it possible, maybe through a plugin?, to have something like this be rendered as a table?
+
+```
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
+```

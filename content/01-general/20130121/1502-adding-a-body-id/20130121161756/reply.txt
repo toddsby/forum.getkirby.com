@@ -1,0 +1,21 @@
+User: theoriginalivor
+----
+Date: 2013-01-21 16:17:56
+----
+Text: Sorry I thought it was clear. I want it to reflect the navigation,
+
+the <php echo $page->template() ?> is great if all my pages had a template other than default, So i guess basing it on the page title or the the structure of the content folder is best. 
+
+
+
+so the blog for instance including the posts
+
+    <body id="blog">
+
+and the portfolio page would be
+
+    <body id="portfolio">
+
+
+
+Thanks

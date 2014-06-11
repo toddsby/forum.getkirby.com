@@ -1,0 +1,21 @@
+Title: Digital Ocean
+----
+Date: 2013-11-06 05:58:34
+----
+Solved: 1
+----
+User: silasburton
+----
+Text: I have a kirby site running on Digital Ocean on an Ubuntu LAMP stack. It can only successfully load the homepage. All other pages throw the default Apache "not found" page.
+
+It so happens that it's a one-page site, so it's not really a huge problem on the frontend, but the panel isn't working at all and I'd like for the client to be able to access it.
+
+The site works sort of like the "one-pager" tutorial, and the homepage loads without issues, so the system itself is clearly capable of loading all of the content from the different folders.
+
+The default and error templates are just set to redirect back to the homepage to block the other pages from access, since there is only one visible page. This works on my localhost MAMP setup. The panel also works perfectly in MAMP. I haven't edited anything in the config or htaccess files to run in MAMP and haven't needed to. The site isn't running in a subfolder either locally or on the server.
+
+Any URLs that would normally redirect back to home (on MAMP) just throw out 'not found' apache pages when running on the server. Clicking on any of the pages in the panel also throws out the same error.
+
+The server didn't have mod_rewrite turned on at first but I did activate it and using a::show (apache_get_modules()); tells me that it's active. The MAMP setup is running a lot more modules than the server so I'm wondering if there are any more that I need to turn on?
+
+I'm really not good with sysadmin stuff so I'm hoping somebody can help me out here :-)

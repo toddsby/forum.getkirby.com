@@ -1,0 +1,5 @@
+User: Wordius
+----
+Date: 2013-02-13 09:31:05
+----
+Text: Should have added. I list the most recent posts at the bottom of single-post pages. I’m relying on a post’s tags to guide readers to ‘related’ posts, as I’ve yet to figure out a way to show the ‘most recent related’ posts.

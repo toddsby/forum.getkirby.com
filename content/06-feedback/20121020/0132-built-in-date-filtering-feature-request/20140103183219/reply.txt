@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2014-01-03 18:32:19
+----
+Text: I created a plugin that pulls the latest posts that aren't in the future, if that is of any help.
+
+(link: http://fitzage.com/articles/kirby-plugin-for-latest-non-future-items)

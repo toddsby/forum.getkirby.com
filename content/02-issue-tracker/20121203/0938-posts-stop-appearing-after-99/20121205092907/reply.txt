@@ -1,0 +1,13 @@
+User: sashtown
+----
+Date: 2012-12-05 09:29:07
+----
+Text: Additionally to what @vis7mac wrote: If your project is a really huge blog you don't have to worry about the 2-digit sorting. You can fetch your articles with the <code>sortBy</code> method (at least until that problem is fixed). 
+Just like this:
+
+```php
+$articles = $pages->find('blog')
+                  ->children()
+                  ->sortBy('date', 'desc')
+                  ->paginate(10);
+```

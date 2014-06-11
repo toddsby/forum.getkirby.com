@@ -1,0 +1,19 @@
+User: fitzage
+----
+Date: 2013-04-11 23:20:40
+----
+Text: @TyKisha Your gist link doesn't appear to be working.
+
+I've also built a plugin, but this one is designed to pull a specified number of posts either from a specific category, tag, or just in general that are the latest ones excluding any posts that are in the future.
+
+The date format is set for my blog post date format, but you can modify it to fit your needs. Use either a 'category' or 'tag' option to specify a category or tag, and use a 'num' option to specify how many posts to pull, defaulting to only one (giving you the latest, non-future item).
+
+It expects your category field to be called categories, and your tag field to be called tags.
+
+It returns results in what I consider the cleanest way: if you tell it to only return a single item, it returns that item (not an array) so you don't have to loop through to get the one item. If you request it to return multiple items, it will return an array with those items.
+
+Unlike some plugins, you pass it a set of articles, not a parent page. The reason for this is you can apply additional filtering on the set of articles first and then pass it to the plugin for the rest of the procedure.
+
+(link: https://gist.github.com/fitzage/5367242)
+
+(link: http://fitzage.com/articles/kirby-plugin-for-latest-non-future-items text: More detail on usage is available on my blog.)

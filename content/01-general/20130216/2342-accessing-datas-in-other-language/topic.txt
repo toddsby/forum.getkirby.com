@@ -1,0 +1,13 @@
+Title: Accessing datas in other language
+----
+Date: 2013-02-16 23:42:29
+----
+Solved: 1
+----
+User: jesuismaksim
+----
+Text: ###Short story
+
+I need to access English data while the site lang is set to French to create a fallback.
+
+Is there a way to access the same page information in other languages with, by example, $page->url('en') or something else ?

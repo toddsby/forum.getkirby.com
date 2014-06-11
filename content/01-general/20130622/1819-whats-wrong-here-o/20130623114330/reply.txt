@@ -1,0 +1,10 @@
+User: primitiv_me
+----
+Date: 2013-06-23 11:43:30
+----
+Text: Yea,
+finally i got my Access Token and all i need, but now is the problem how to include pictures from the .php file?
+
+I cant find any 'example' on GitHub :(
+
+Someone know how it works?

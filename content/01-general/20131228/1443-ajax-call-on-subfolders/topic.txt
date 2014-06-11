@@ -1,0 +1,31 @@
+Title: Ajax call on subfolders
+----
+Date: 2013-12-28 14:43:56
+----
+Solved: 1
+----
+User: j111k000
+----
+Text: Hi everyone.
+
+I followed Bastians instructions on this thread (link: http://getkirby.com/forum/general/topic:35.) And got everything working fine on one folder, but i can’t figure out how to get the id assigned to the contents of the subfolders. 
+
+So in short this works:
+     $project = $pages->find('projects/' . get('id'));
+
+but i have subfolders in the project folder which should be loaded in with the ajax call. I get a list of the id’s with something like this:
+     $project = $pages->find('projects')->children('' . get('id'));
+
+But the id’s don’t seem to get assigned to the subfolder content links.
+
+Hard coding the path like this:
+     $project = $pages->find(‘projects/subfolder' . get('id'));
+Will get me the right stuff for one subfolder but then i don’t know how to get the content of the others. And hardcoding the path would put me out of the possibility to add more subfolders without having to hardcode the paths.
+
+Is there a solution for this in kirby? Or is it strictly a php issue?
+
+Hope someone can spare a minute to put me in the right direction.
+
+Thans in advance. Really enjoying kirby so far.
+
+Best regards – jesse

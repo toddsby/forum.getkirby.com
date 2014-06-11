@@ -1,0 +1,14 @@
+User: fitzage
+----
+Date: 2013-01-07 18:13:29
+----
+Text: OK, I'm not even entirely sure what this is doing anymore, and I think I borrowed some of the code from another thread here somewhere. But this code is successfully displaying a list of linked tags on my blog articles.
+
+    <?php
+        $count = 0;
+        foreach ($tags = explode(",", $page->tags()) as $tag) {
+            $count++;
+            echo '<a href="'.url().'blog/tag:'.urlencode(trim($tag)).'">'.str_replace('-',' ', $tag).'</a>';
+            if ($count != count($tags)) {echo ',';}
+        }
+    ?>

@@ -1,0 +1,11 @@
+User: russbaldwin
+----
+Date: 2013-03-03 09:32:15
+----
+Text: On of the many problems about handling a newsletter is actually sending out the emails - many hosts won't let you send lots of emails at the same time. You can of course use an email sending services like Amazon SES or indeed something more much sophisticated like MailChimp.
+
+If you go your own route you also have to let the user subscribe and un-subscribe to your newsletter easily: You then need to save and **securely store that subscriber data** (legal requirement in EEC), perhaps using a more secure version of the code in the [Comments Plugin](http://getkirby.com/forum/extensions/topic:427)?
+
+Producing the actual email formats and sending from PHP is not so hard especially as you can use stuff like the Zurb templates.
+
+Plenty of options for someone to have a go at this for Kirby I think...

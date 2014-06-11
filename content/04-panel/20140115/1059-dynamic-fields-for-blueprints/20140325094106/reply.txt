@@ -1,0 +1,11 @@
+User: thatweb
+----
+Date: 2014-03-25 09:41:06
+----
+Text: Hi, 
+
+is there a solution for this?
+
+Thinking of a way to add a field with links to an internal page.
+
+Many Thanks, Tobias

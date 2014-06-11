@@ -1,0 +1,12 @@
+User: russbaldwin
+----
+Date: 2013-07-22 11:03:13
+----
+Text: If you are using pagination there is an `$array->pagination->countItems()`
+Is this what you are after?
+
+You can also get the page you are on
+`$array->pagination->page()`
+
+and the number of pages
+`$array->pagination->countPages()`

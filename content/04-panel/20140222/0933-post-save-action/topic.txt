@@ -1,0 +1,14 @@
+Title: Post-save action
+----
+Date: 2014-02-22 09:33:00
+----
+Solved: 0
+----
+User: puleddu
+----
+Text: Hi all,
+
+I'm building a documentation manager with Kirby and I'd like to make something like a **revision system**, committing every save on a git repository.
+
+Is there a way to attach an action to the *save* function without hacking the code? 
+Does The panel have some **callback functionality** I'm not aware of?

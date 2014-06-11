@@ -1,0 +1,13 @@
+User: crisedwards
+----
+Date: 2014-04-26 22:06:38
+----
+Text: Followed the directions on the MAMP page. Still doesn't work and says I get a redirect loop. Here is a screenshot of the htdocs folder, which is the default root folder in MAMP. 
+
+https://i.imgur.com/fybJGPV.png
+
+I've tried both / and /kirby in the .htaccess file.
+
+Had the same problem when I uploaded the folder to my host server to see if it would run live. Index looked peachy, links went no place.
+
+Thanks for your help!

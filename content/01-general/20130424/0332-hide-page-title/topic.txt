@@ -1,0 +1,11 @@
+Title: Hide Page Title?
+----
+Date: 2013-04-24 03:32:12
+----
+Solved: 1
+----
+User: staroversky
+----
+Text: How can I hide page title of just the pages in the menu and not the ones that will be posted in the blog?
+
+In other words, how can I hide page titles of specific pages? If I delete the actual title of the page in the txt file of the page, the page disappears from the navigation menu.

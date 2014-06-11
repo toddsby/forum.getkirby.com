@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-01-17 13:42:53
+----
+Text: What version of PHP do you have?
+Are you using MAMP? If so what version?
+A little more info is always helpful ;-)

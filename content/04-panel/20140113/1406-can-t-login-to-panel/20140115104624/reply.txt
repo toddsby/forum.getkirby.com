@@ -1,0 +1,7 @@
+User: sammularczyk
+----
+Date: 2014-01-15 10:46:24
+----
+Text: Do you have a plaintext error at the top of the login screen? It could be hard to see if the text is black.
+
+If so, I fixed that issue by updating to the latest version of PHP.

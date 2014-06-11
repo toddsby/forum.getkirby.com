@@ -1,0 +1,22 @@
+Title: Kirby CMS + SymLinks
+----
+Date: 2013-04-03 10:24:33
+----
+Solved: 0
+----
+User: bajoelcocotero
+----
+Text: I don't know if somebody else has used it before, but I just use symbolic links to duplicate posts in different folders and works great! 
+
+If your folder structure is something like:
+
+    blog/
+       01-category 1
+       02-category 2
+       03-category 3
+       04-category 4
+       ...
+
+And do you want a post to be displayed in more than one category, just make a post into a category folder and create symbolic links to the post into the other categories. This way do you have only one real post and this post is showed in his categories and all other categories that has the symbolic link.
+
+I think this is not possible with the panel, but with a PHP Filemanager or by command line is easy to create symlinks.

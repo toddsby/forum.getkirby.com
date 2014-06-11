@@ -1,0 +1,9 @@
+User: ChrisjMartin87
+----
+Date: 2013-12-18 10:22:08
+----
+Text: Yeah, this is possible with kirby.
+
+Its quite simple and straightforward to do.
+
+Read the tutorial's, there is a page dedicated to making a slideshow.

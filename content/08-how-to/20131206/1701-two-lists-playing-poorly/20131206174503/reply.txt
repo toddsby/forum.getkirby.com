@@ -1,0 +1,13 @@
+User: texnixe
+----
+Date: 2013-12-06 17:45:03
+----
+Text: You call the same articles in both instances, i.e.
+
+    $pages->children()->visible()->flip() //as $talk
+    $pages->children()->visible()->flip() //as $article
+
+You should use "find" to get only the articles in the respective folders:
+
+    $pages->find('blog')->children()->visible()->flip()
+    $pages->find('talks')->children()->visible()->flip()

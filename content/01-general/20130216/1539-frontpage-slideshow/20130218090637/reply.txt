@@ -1,0 +1,10 @@
+User: russbaldwin
+----
+Date: 2013-02-18 09:06:37
+----
+Text: Are you loading the Javascript correctly? 
+Do you have the CSS included correctly?
+
+Do you have an example page, some code?
+
+The code you are using does have a pretty good guide and an example?

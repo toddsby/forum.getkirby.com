@@ -1,0 +1,5 @@
+User: dokdeleon
+----
+Date: 2013-02-25 13:16:17
+----
+Text: Maybe something like [dropzone.js](http://www.dropzonejs.com/)?

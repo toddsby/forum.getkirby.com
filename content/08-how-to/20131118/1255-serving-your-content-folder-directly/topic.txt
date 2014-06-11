@@ -1,0 +1,155 @@
+Title: Serving your content folder directly
+----
+Date: 2013-11-18 12:55:36
+----
+Solved: 0
+----
+User: fvsch
+----
+Text: When looking for a static site generator, I wanted to keep text content and related assets (mainly images) together. For instance, when writing a blog post with pictures, use this structure:
+
+    /content/blog/my-article/article.txt
+    /content/blog/my-article/some-image.jpg
+    /content/blog/my-article/another-one.png
+
+Trouble with this was, using Kirby, the URLs for the different elements would be:
+
+    /blog/my-article/
+    /content/blog/my-article/some-image.jpg
+    /content/blog/my-article/another-one.png
+
+Not exactly what I wanted. Of course I understand if people do not care at all, but a) I’m kind of a control freak and b) I have other static content, including HTML pages, which I want Kirby to list as content, while still serving at their original URLs.
+
+So I thought, why not serve /content/ as my DocumentRoot (for those familiar with Apache, which means that when you hit up http://mysite.tld/ Apache serves /content/, and not its parent folder)?
+
+Basically, I wanted a site structure where most things would be static files served directly, and Kirby would process the text/markdown files and some indexes such as list of posts, lists of posts by category, RSS feed.
+
+So I did it. It’s a bit of a hack and there are a few complications to account for. So please don’t use this as a step-by-step tutorial (it’s not), and if you’re uncomfortable writing PHP code and Apache RewriteRules, you should avoid doing anything like this!
+
+### Serving the content folder directly
+
+I moved everything Kirby that’s not content out of the root HTTP folder, and moved all the content in the root HTTP folder (this is on high-grade shared hosting with a lot of control, but it’s doable on most classical shared hosting as well):
+
+    engine/kirby/… # main Kirby folder
+    engine/site/… # Kirby’s "site" folder
+    httpdocs/index.php # Kirby’s root "index.php"
+    httpdocs/home/home.txt
+    httpdocs/some-page/page.txt
+    httpdocs/some-page/a-document.pdf
+    … and so on
+
+(The root for these paths depends on how your hosting is configured. In my case I have an account folder, and I keep each site at `~/sites/<the site's domain>/`, so I have file paths that look like `~/sites/mysite.tld/engine/…` and `~/sites/mysite.tld/httpdocs/…`.)
+
+This means I had to change some values in `index.php`:
+
+    $root = dirname(__FILE__); // this one is unchanged
+    $rootKirby = $root . '/../engine/kirby';
+    $rootSite = $root . '/../engine/site';
+    $rootContent = $root;
+
+And as far as I remember, there’s nothing specific to change in `site/config`.
+
+### Adapt Apache URL rewriting
+
+I had to adapt the URL rewriting, obviously. The core idea here is that:
+
+- we want existing files to be served directly (no Kirby involved);
+- we want to handle folders as Kirby pages.
+
+Here’s what I used:
+
+    DirectorySlash On
+    DirectoryIndex index.html index.php
+    <IfModule mod_rewrite.c>
+    
+    RewriteEngine on
+    RewriteBase /
+    
+    # If we want to block direct access to unprocessed text files
+    # [F] means we return a Forbidden (403) code
+    # RewriteRule ^.*\.(txt|md|mdown)$ - [F,NC]
+    
+    # Make site links work
+    # We serve existing *files* directly in any case.
+    # If the request matches an existing *directory*,
+    # we will process it through Kirby.
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule .* index.php [L]
+    </IfModule>
+
+I’m using DirectorySlash because I want my URLs to look like `/some-category/my-page-url/`. I think it may work without that.
+
+### A note on Kirby “visible” pages
+
+Since I want the folder names to match the page’s URL, I’m not using numerical prefixes for pages (e.g. `01.some-category/03.my-page`). So all pages in my site are seen by Kirby as “invisible”. That’s okay as long as you write your own templates and rely on page metadata to fetch and sort the pages you want to list.
+
+In my case I wanted to fetch content by date and some other subtleties, so I wrote [my own plugin](https://github.com/fvsch/userscripts/tree/master/kirby/bydate) for doing just that. But you can probably manage with what Kirby already offers.
+
+### Static HTML pages and empty directories
+
+I had some static HTML pages that I didn’t want to integrate in my Kirby templates, for instance CSS test pages or minisites ([especially this one](http://fvsch.com/code/remarkdown/)), but I still wanted to list those.
+
+In order to do that, I placed a small `meta.txt` (or `meta.md` if you’re using a `md` extension, and you can use anything other than `meta` by the way) in each folder with static content that I still wanted Kirby to see as a “page”. It could look like this:
+
+    Title: Some Title
+    ----
+    Date: 2011-12-25
+    ----
+    Abstract: Yadda yadda yadda.
+
+If I didn’t do that, the folder would still be listed as a page, but would have a title that’s just the folder name, no date, no other metadata.
+
+One issue I had as well was that the `RewriteRule` for Kirby would happen *before* Apache tries to apply the `DirectoryIndex` directive. So if I had this content:
+
+    httpdocs/some-category/some-static-stuff/index.html
+    httpdocs/some-category/some-static-stuff/other-page.html
+
+When hitting up the `/some-category/some-static-stuff/` URL, it would go through Kirby instead of serving the `index.html` file. Also, Kirby would look for any `.txt` file in the folder, not find any (or find one with no Kirby metadata), and would return a `$page` object with `some-static-stuff` as the title, and no content.
+
+So I rewrote the DirectoryIndex Apache feature using metadata and PHP in my `default.php` template. Like this (`meta.txt`):
+
+    Title: Some Title
+    ----
+    Date: 2011-12-25
+    ----
+    Abstract: Yadda yadda yadda.
+    ----
+    IndexFile: index.html
+
+And that (`default.php`):
+
+    <?
+    $folder = $GLOBALS["rootContent"] . '/' . $page->uri() . '/';
+    $dirIndex = 'index.html';
+    $file = $page->indexfile ? $page->indexfile() : '';
+    if ( $file !== '' && file_exists($folder . $file) ) {
+      include_once($folder . $file);
+    }
+    else if ( file_exists($folder . $dirIndex) ) {
+      include_once($folder . $dirIndex);
+    }
+    else if ( !$page->intendedTemplate ) {
+      include_once('error.php');
+    }
+    // Default case: show our basic page template
+    else {
+      include_once('page.php');
+    }
+    ?>
+
+With this, if I say in metadata that we should show `whatever.html` as the content, and the file doesn’t exist (let’s say I mistyped the file name in `meta.txt`), then we try to show `index.html`, and if there’s no such file and the folder has no text file, I serve an error page. (It’s not perfect though, since we’re still returning a HTTP 200 status. I need to fix that someday.) Finally, if there was a text file, we go through a different template (`page.php`, which looks like what you would have in an ordinary `default.php` template).
+
+(I also did some templating to manage more HTTP error codes — namely 403 and 410 — through Kirby, [outputting custom error pages](https://github.com/bastianallgeier/kirbycms/issues/83).)
+
+### Wrapping up
+
+So it worked fine mostly, though it did require a lot of work. :)
+
+My site is online and I’ve allowed access to text files, so you can see some of the metadata I used:
+
+    fvsch.com/home/home.txt
+    fvsch.com/photos/misc-2013/article.txt
+    fvsch.com/words/information/word.txt
+    fvsch.com/code/base-stylesheet/article.txt
+    fvsch.com/code/remarkdown/meta.txt

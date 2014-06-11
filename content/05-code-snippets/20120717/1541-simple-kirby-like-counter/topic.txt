@@ -1,0 +1,9 @@
+Title: Simple Kirby Like Counter
+----
+Date: 2012-07-17 15:41:14
+----
+Solved: 0
+----
+User: bastianallgeier
+----
+Text: I've created a very simple and rough Kirby Like Counter, which you can use to add a likes-system to your blog posts. Use at your own risk though: <https://gist.github.com/3129327>

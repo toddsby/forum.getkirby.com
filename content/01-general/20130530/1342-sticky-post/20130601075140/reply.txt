@@ -1,0 +1,19 @@
+User: dokdeleon
+----
+Date: 2013-06-01 07:51:40
+----
+Text: Yep, possible.. Haven't tested, but theoretically, this should work through panel's custom field. Maybe make a drop-down of sticky to either ***on*** or ***off*** on the **parent page** of all your posts (this becomes your switch). Then your posts have custom ticker that says this post is the "**sticky post**" (you get to choose which post is the sticky post).
+
+Now on your template that displays posts, first filter out if current page has sticky posts ***on*** or ***off***. If it's on: 
+
+- get the UID of the ***first*** post in your array of posts that has a field "**sticky post**"  - if user accidentally have 2 sticky posts, it'll choose the first one. (hint: `$var = $pages->findBy($key, $value)->first()->uid()`)
+- display the post with the UID (hint: `$pages->findByUID($var)`)
+- display the rest of the posts without the post with UID (hint: `$pages->not($var)`)
+
+Else, display all posts normally chronologically.
+
+Hope this helps. 
+
+Also.. [what did you do here?! O_O](http://getkirby.com/forum/general/topic:675) You broke the forum! hahaha
+
+(shameless plug) Anyway, if anyone here can help me out with my kirby installation on Plesk, that'll be awesome! [Here's the kirby forum link!](http://getkirby.com/forum/general/topic:680)

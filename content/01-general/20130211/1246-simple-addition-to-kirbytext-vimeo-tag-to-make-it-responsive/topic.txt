@@ -1,0 +1,25 @@
+Title: Simple addition to kirbytext vimeo tag to make it responsive
+----
+Date: 2013-02-11 12:46:54
+----
+Solved: 0
+----
+User: bytte
+----
+Text: Hi forum,
+
+I want a small modification to the kirbytext vimeo tag. Basically I want it to output the vimeo code inbetween p tags to make it responsive.
+
+I know I can fairly easy replace line 414 in the kirbytext.php file:
+
+    return '<iframe' . $class . ' src="' . $url . '" width="' . $params['width'] . '" height="' . $params['height'] . '" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>';
+
+To:
+
+    return '<p class="responsive-video"><iframe' . $class . ' src="' . $url . '" width="' . $params['width'] . '" height="' . $params['height'] . '" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></p>';
+
+But that would break things when updating Kirby.
+
+Is there a simple way to make this a plugin so it won't break my site when there's a Kirby update?
+
+Thanks!

@@ -1,0 +1,21 @@
+Title: Add a CSS Class to a <p>-Element in Markdown
+----
+Date: 2012-11-22 22:38:05
+----
+Solved: 0
+----
+User: track02
+----
+Text: Hi, couldnt find anything about this topic in the docs - maybe anyone here can help. 
+
+I want to add a custom class eg. p.intro to the markdown text. 
+i tried (had to strip out brackets)
+    p class="intro" 
+        echo kirbytext($page->text())
+    /p
+
+but it doesnt have an effect. 
+
+p.intro is in the output but directly closed and another p tag below. 
+
+Hope someone has an idea.

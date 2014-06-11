@@ -1,0 +1,11 @@
+Title: Check for a logged in panel user
+----
+Date: 2012-07-17 15:54:53
+----
+Solved: 0
+----
+User: bastianallgeier
+----
+Text: With this function you can check if the current visitor of your site is also a logged in Panel user (admin): <https://gist.github.com/2851074>
+
+You could use this to maybe show a admin menu on the frontend or whatever you have in mind :)

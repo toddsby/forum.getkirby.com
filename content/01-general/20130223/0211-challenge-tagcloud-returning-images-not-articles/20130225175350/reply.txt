@@ -1,0 +1,7 @@
+User: LibraryofApp
+----
+Date: 2013-02-25 17:53:50
+----
+Text: @Russ - I believe you are right, but I didn't know if there was an easy hack to make it look deeper. Your solution makes sense if you are filtering within the page itself. What I need is a way to filter every photo from all pages. In my case, I'm looking at upwards of maybe 30,000 images by the end of the year.
+
+I may just need to break down and have the images indexed in mySQL for the tag cloud. Just what I didn't want to have to do…

@@ -1,0 +1,11 @@
+User: lulezi
+----
+Date: 2012-08-28 14:54:45
+----
+Text: Have a look PHP's (link: http://php.net/function.array-merge.php text: array_merge) function.
+
+``` php
+$merged = array_merge($pages->find('news')->children(), $pages->find('events')->children());
+```
+
+Untested, hope it helps.

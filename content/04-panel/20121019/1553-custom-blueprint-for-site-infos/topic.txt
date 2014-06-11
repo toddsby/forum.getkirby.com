@@ -1,0 +1,20 @@
+Title: Custom Blueprint for Site Infos
+----
+Date: 2012-10-19 15:53:05
+----
+Solved: 0
+----
+User: katrynvonfelsen
+----
+Text: Hi!
+
+Simply a request to makes possible to have a blueprint for sites infos!
+
+Exemple: Being able to add a textarea for links or add a custom logo/favicon, etc.
+
+(image: http://cl.ly/image/0S2s2g2O1o2L/Screen%20Shot%202012-10-19%20at%2014.47.24.png)
+
+Thank you,
+Catherine
+
+PS: Awesome CMS and I can't wait to put my portfolio online with it!

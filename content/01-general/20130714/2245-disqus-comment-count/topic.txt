@@ -1,0 +1,17 @@
+Title: Disqus comment count
+----
+Date: 2013-07-14 22:45:10
+----
+Solved: 1
+----
+User: aqeelfikree
+----
+Text: After following the instructions in a [topic with the same name](http://www.getkirby.com/forum/general/topic:276)
+
+The comment count shows as 0 on my [home page](http://aqeelfikree.com), yet there is 1 comment on the [article](http://aqeelfikree.com/a-third-awesome-article#disqus_thread).
+
+The only two things that I've changed is the shortname, and /blog/
+I've changed the shortname with my shortname, and
+/home/ instead of /blog/ (I'm not sure if I have to do that. I've used home as my home page, not blog)
+
+Has anyone had any luck doing this?

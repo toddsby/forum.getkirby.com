@@ -1,0 +1,9 @@
+Title: Error 404 page is not working for two level deep pages in multi-language
+----
+Date: 2013-03-29 12:43:08
+----
+Solved: 0
+----
+User: roman_oroco
+----
+Text: So this URL: `site.com/en/page/subpage` if I miss-type `site.com/en/page/subpage-miss-typed` this must return to an error 404 page, instead of return to `site.com/en/page/`.

@@ -1,0 +1,15 @@
+Title: Redirect Loop when using Home
+----
+Date: 2014-01-16 17:42:48
+----
+Solved: 0
+----
+User: mauphie
+----
+Text: I've used Kirby before, but I haven't had this problem. I try to use the 
+     <h1 class="title"><a href="<php? home() />">MyTitle</a></h1>
+for my title link. But this time when i try click the link it results in a Redirect Loop.
+
+The only difference from previous Kirby projects is that I am now using Mamp Pro, vs the free version of Mamp. 
+
+I'm at a loss. Any help would be most appreciated!

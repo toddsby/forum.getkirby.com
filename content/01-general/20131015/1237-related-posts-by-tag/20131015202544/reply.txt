@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2013-10-15 20:25:44
+----
+Text: I use a `<? $categories = explode(",", $page->categories()) ?>` at the beginning that creates an array from the tags that are on the current page. It looks like your method will really only work if there is only one tag per page, but I could be wrong.
+
+My implementation after that solves a different problem, though, so it's probably not worth going into.

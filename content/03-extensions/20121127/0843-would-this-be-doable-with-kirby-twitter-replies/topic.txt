@@ -1,0 +1,15 @@
+Title: Would this be doable with Kirby : twitter replies ?
+----
+Date: 2012-11-27 08:43:41
+----
+Solved: 1
+----
+User: jaypegams
+----
+Text: (link: http://getsosimple.com/twitter-replies/ text: twitter replies)
+
+Jason schuller just released this add-on for his so simple theme ! Would be great if it could be done for Kirby ! 
+
+Anyone has an idea on how to achieve this ? I'm no PHP guru unfortunately.
+
+Regards

@@ -1,0 +1,21 @@
+Title: Blockquotes don't render
+----
+Date: 2014-02-06 23:44:12
+----
+Solved: 1
+----
+User: gebloom
+----
+Text: Using either Markdown or html, my blockquotes don't render. They show in page source as blockquotes, but no indentation, no italics. CSS is (unchanged) as below. 
+
+article blockquote {
+    margin: 10px 20px 20px 20px;
+    padding: 0 15px;
+    float: left;
+    font-style: italic;
+    border-left: 10px solid #e5e5e5;
+}
+
+I tried replacing the blockquote ">" MD with html, no change.
+
+I tried, replacing all the MD with html, in the article, no change.

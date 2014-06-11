@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-04-07 15:00:21
+----
+Text: As previously mentioned your search template should be in **site/templates/search.php**
+
+Not sure what else to try, Webserver version? PHP version?

@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2014-03-03 18:14:20
+----
+Text: Change the list of mime types in the panel config file to include what you want. That file is site/panel/config/config.php.

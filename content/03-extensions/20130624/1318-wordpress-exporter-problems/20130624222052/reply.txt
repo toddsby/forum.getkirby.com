@@ -1,0 +1,5 @@
+User: joelhousman
+----
+Date: 2013-06-24 22:20:52
+----
+Text: Just to be sure, I've even tried (briefly) making my entire Kirby folder, and all sub-folders and files all 777. No difference.

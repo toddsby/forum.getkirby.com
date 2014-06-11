@@ -1,0 +1,73 @@
+User: mutchov
+----
+Date: 2013-08-13 10:49:57
+----
+Text: Hi and thanks for reply!
+
+@Azhar: Kirby is new to me and currently I do not use the panel! 
+
+@Fitzage: Yeah thats how I made it before. But I´ve over 200 images. And when I have to change the order I have to rename all the images and txt files. 
+
+What I´ve found this morning is:
+
+http://getkirby.com/forum/extensions/topic:636
+
+With this I can specify the order of images in txt file.
+
+In my case I´ve changed it to:
+
+```php
+<?php $imagelist= $page->imagelist();
+	if ($imagelist != ''){
+		$imagelistitem= explode(", ", $imagelist);
+		foreach ($imagelistitem  as $image): ?>
+
+		<div class="item">
+			<a href="<?php echo url('content/04-portfolio/big-pic/').$image.'.jpg' ?>" title: <?php echo html($page->title()) ?> ><img src="<?php echo url('content/04-portfolio/').$image.'.jpg' ?>" /></a>
+		</div>
+		<?php endforeach ;} ?>
+```
+
+**If I have this 3 pics (and the page txt) for example:**
+```
+- dog.jgp
+- dog.jpg.txt
+- cat.jgp
+- cat.jpg.txt
+- horse.jgp
+- horse.jpg.txt
+- page.txt
+- Folder: big-pic
+Folder big-pic Content:
+- dog.jgp
+- dog.jpg.txt
+- cat.jgp
+- cat.jpg.txt
+- horse.jgp
+- horse.jpg.txt
+```
+
+**dog.jpg.txt (thumb) content:**
+```
+Title: Dog
+----
+Caption-thumb: My Dog at home
+----
+```
+
+**dog.jpg.txt (big-pic) content:**
+```
+Title: Dog
+----
+Caption-big-pic: My Dog at home is running bla bla bla 
+----
+```
+
+
+**page.txt content:**
+```
+Imagelist: cat, horse, dog
+----
+```
+
+**How can I display the captions?** Oh: They have to be a title attribute!!!

@@ -1,0 +1,5 @@
+User: tillpro
+----
+Date: 2013-04-02 16:00:03
+----
+Text: CodeMirror works well with responsive sites. Maybe I’ll create a Panel field out of this, but currently I don’t have time.

@@ -1,0 +1,15 @@
+Title: Auth plugin: keep a record of login actions
+----
+Date: 2013-08-23 14:31:02
+----
+Solved: 0
+----
+User: bytte
+----
+Text: Hi guys, I'm successfully using the Auth plugin to password-protect my Kirby website.
+
+Now I wanted to create a log that tracks when users log in.
+
+Where would I have to start?
+
+Thanks!

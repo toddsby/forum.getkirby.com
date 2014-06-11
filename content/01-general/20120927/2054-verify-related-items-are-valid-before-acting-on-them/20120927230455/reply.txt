@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2012-09-27 23:04:55
+----
+Text: But the tags field would just look for what's already been added to that field before, right? Valid related items may or may not be in that list.

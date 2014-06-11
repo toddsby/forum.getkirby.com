@@ -1,0 +1,15 @@
+Title: Removing "blog" from url?
+----
+Date: 2012-06-28 19:15:48
+----
+Solved: 0
+----
+User: anthonyterrell
+----
+Text: I'm looking for a way to remove "bog" from my url. This most likely has to be done with an .htaccess file.
+
+Currently my site is: http://blog.anthonyterrell.com, though when you view and article it becomes http://blog.anthonyterrell.com/blog/articlename. So it's a bit redundant.
+
+Any ideas?
+
+Thanks!

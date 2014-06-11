@@ -1,0 +1,5 @@
+User: AndrewR_Design
+----
+Date: 2013-02-07 18:42:53
+----
+Text: I tried that. Didn't work :(. I appreciate the effort though! It seems our server is simply not allowing PHP. Which I don't understand but I'll ask about.

@@ -1,0 +1,15 @@
+User: ndrsn
+----
+Date: 2013-01-23 11:01:27
+----
+Text: I think I got the whole topic of this thread wrong (oops), it is working "correctly" but it's actually not what I want. Below is an example what I want the output to become:
+
+      <p>This is a pargraph</p>
+      <img src="image.jpg" alt="" />
+
+Is that possible?
+
+
+Edit: Right now I've disabled the automatic line breaks as suggested in this thread: http://getkirby.com/forum/general/topic:261
+
+Maybe this is something that should be optional in future versions?

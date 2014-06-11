@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-03-11 15:08:16
+----
+Text: I'm not sure if this is a Kirby issue? Perhaps some code and more info?

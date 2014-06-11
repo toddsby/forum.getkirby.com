@@ -1,0 +1,11 @@
+Title: Panel bug with PHP 5.4.4
+----
+Date: 2012-07-31 18:14:57
+----
+Solved: 0
+----
+User: fitzage
+----
+Text: I upgraded MAMP which came with PHP 5.4.4, and I get this error in the panel:
+
+    Non-static method action::sortPages() should not be called statically in file /yada/yada/panel/snippets/pages.php on line 6

@@ -1,0 +1,13 @@
+Title: Blueprint for Page/Aside
+----
+Date: 2012-10-21 06:51:55
+----
+Solved: 0
+----
+User: jackkeller
+----
+Text: I'm new to Kirby, but I'm digging it so far. I have to admit after struggling a bit to get it running in my LEMP environment and finally full steam I really dig the simplicity of Kirby!
+
+I installed the Panel and created some Blueprints and starting rolling but now I'm having issues getting the proper asides into a page, at first I thought they were "Invisible subpages", and I still believe they are but I'm missing something I figure. Does anyone have a solid page on this type of stuff? I checked the [getkirby.com/docs/panel/blueprints](http://getkirby.com/docs/panel/blueprints) page but honestly I didn't get my answer there. I know it's YAML, lol.
+
+I looked and looked for an answer throughout here but didn't get any further so please take it easy on this n00b ;)

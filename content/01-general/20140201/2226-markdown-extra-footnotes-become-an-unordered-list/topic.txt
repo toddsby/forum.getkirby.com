@@ -1,0 +1,13 @@
+Title: Markdown Extra - footnotes become an unordered list
+----
+Date: 2014-02-01 22:26:57
+----
+Solved: 1
+----
+User: gebloom
+----
+Text: I'm using reference text footnotes, and they become an unordered list, rather than numbered footnotes, at the bottom. 
+
+http://gebloom.com/blog/mft
+
+Any idea if I can modify markdown.extra.php to get footnotes to behave?

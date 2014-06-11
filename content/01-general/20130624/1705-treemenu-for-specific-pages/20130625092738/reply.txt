@@ -1,0 +1,15 @@
+User: JonathanMuth
+----
+Date: 2013-06-25 09:27:38
+----
+Text: Thanks for the quick reply.
+
+The solution outlined in the other thread seems to work fine for one tree menu. In my case I am trying to show two tree menus right next to each other.
+
+One of them shows lists all visible pages and their children – this is the menu working fine right now.
+
+	<?php if(!isset($subpages)) $subpages = $site->pages() ?>
+
+The other menu is supposed to show only specific pages and their respective children – that is the one returning the error.
+
+	<?php if(!isset($subpages)) $subpages = $site->$pages->find('boerse') ?>

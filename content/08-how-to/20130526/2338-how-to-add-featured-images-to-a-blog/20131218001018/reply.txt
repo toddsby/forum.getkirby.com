@@ -1,0 +1,13 @@
+User: delphinas
+----
+Date: 2013-12-18 00:10:18
+----
+Text: Thank you for your answer - it works really well. I use this code like this:
+``` php
+<?php
+ // filter out featured images
+$images = $article->images(); 
+?>
+<?php foreach($images->filterBy('title', '*=', 'featured-') as $item): ?>
+           <img src="<?php echo $item->url(); ?>"/>
+   <?php endforeach ?>```

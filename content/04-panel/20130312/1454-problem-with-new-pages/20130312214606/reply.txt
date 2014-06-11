@@ -1,0 +1,15 @@
+User: ManuelHeilmeier
+----
+Date: 2013-03-12 21:46:06
+----
+Text: Ok, just found the solution to my Problem.
+
+My server is running with php "SafeMode On".
+
+Switching it off solves my problem.
+
+You can find the "SafeMode"-Setting in your Webservers php.ini..
+
+Maybe there´s a nicer way of dealing with this Problem.
+
+Manuel

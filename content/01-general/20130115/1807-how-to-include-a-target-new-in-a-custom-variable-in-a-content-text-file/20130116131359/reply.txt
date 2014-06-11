@@ -1,0 +1,17 @@
+User: russbaldwin
+----
+Date: 2013-01-16 13:13:59
+----
+Text: It is Markdown so 4 spaces before code usually works (with line above and below)
+
+```php
+<?php echo "text" ?>
+```
+    
+With KirbyText you can do:
+
+`( link: http://wikipedia.org text: Text popup: yes )`
+
+It's the 'popup: yes' bit.
+
+['Kirby Text Formatting 101'](http://getkirby.com/blog/text-formatting-101) may also be helpful...

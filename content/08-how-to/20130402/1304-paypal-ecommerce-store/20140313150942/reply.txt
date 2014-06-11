@@ -1,0 +1,5 @@
+User: namaless
+----
+Date: 2014-03-13 15:09:42
+----
+Text: **Update:** I working on Kirby Panel and I see the good function for fix your problem, you can use simply `html($content)` to fix.

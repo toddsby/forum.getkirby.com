@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2014-02-03 23:44:18
+----
+Text: Well, you could probably work something out that 1) loops through all the fields on a page and 2) eliminates all the empty ones and 3) determines if there is more than just the title left.
+
+Seems too complicated to me, but that would get you where you want to go.

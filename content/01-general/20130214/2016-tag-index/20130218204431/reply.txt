@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-02-18 20:44:31
+----
+Text: Thank you Nathaniel but it is not necessary and the even better news is there is now a beta Alphabetise Plugin for this:
+
+[Alphabetise Plugin Beta...](https://github.com/shoesforindustry/kirbycms-extensions/tree/master/plugins)

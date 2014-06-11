@@ -1,0 +1,15 @@
+Title: Uninitialized string offset: 0
+----
+Date: 2013-07-24 13:14:42
+----
+Solved: 0
+----
+User: hellovolker
+----
+Text: `Notice: Uninitialized string offset: 0 in kirby/lib/variables.php on line 27`
+
+Im getting this error - when uploading a file (type doesnt seem to matter) and then renaming it. It is all over the page - so quite annoying. 
+
+Setting `c::set('debug', false);` via the config files gets rid of the error - but hiding the error message doesn`t seem to be the best solution ;)
+
+Anyone encountered this error before and can help?

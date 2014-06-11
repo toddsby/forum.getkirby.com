@@ -1,0 +1,22 @@
+User: russbaldwin
+----
+Date: 2014-03-05 12:27:41
+----
+Text: I'm out and about at the moment, but I think you could use something like (obviously this has no error checking):
+
+```php
+...
+
+// site vars define custom tags
+    $this->addTags('site_var');   
+
+...
+
+  function site_var($params) {
+    global $site;
+    $variable = strtolower($params['site_var']);
+    return '<p>* | '. $site->$variable .' | *</p>';
+  }
+
+...
+```

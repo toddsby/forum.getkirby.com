@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2014-05-02 20:29:02
+----
+Text: Pretty sure it's been answered here before, but all you have to do is call the posts by doing `$pages->find('blog')->children()` as opposed to just `$page->children()` that you would do on the parent page.

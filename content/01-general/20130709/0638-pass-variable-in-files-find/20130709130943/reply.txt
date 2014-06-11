@@ -1,0 +1,10 @@
+User: jessbordeau
+----
+Date: 2013-07-09 13:09:43
+----
+Text: Totally agree with you, I initially wanted to display the image with:
+<code>src="$article->url()/$article->$thumb()"</code>
+
+But as this echoes the name of the folder without the prepended number, the paths to the images are wrong. There must be a way to echo the full URL but I cannot seem to find it so I tried this solution instead. Will ask Bastian about the full path. Thanks for the replies :)
+
+EDIT: $article->root() will echo the full path. Problem solved!

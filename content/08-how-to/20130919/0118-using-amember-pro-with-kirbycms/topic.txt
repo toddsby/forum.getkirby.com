@@ -1,0 +1,9 @@
+Title: Using aMember Pro with KirbyCMS
+----
+Date: 2013-09-19 01:18:35
+----
+Solved: 0
+----
+User: timgauthier
+----
+Text: I may be doing a project that involves someone who is currently using wordpress and the aMember Pro software to manage clients who pay for subscriptions that allow them to access video training content. I have not played with aMember at all myself but I'm wondering if this is something any of you guys have had experience with or if anyone knows that it outright wont work. Y'know before I spend too much time trying to invent the wheel.

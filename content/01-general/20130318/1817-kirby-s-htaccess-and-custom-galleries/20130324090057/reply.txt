@@ -1,0 +1,14 @@
+User: russbaldwin
+----
+Date: 2013-03-24 09:00:57
+----
+Text: Whoa, a lot of code.
+I presume you have good reason for not using any of the myriad Javascript photo display stuff?
+
+I'm not sure what is wrong with the URL but currently I don't think Kirby does routing, I think it will in the next version, but Bastian would be better able to adivse on that. 
+
+Sadly I am not and .htaccess master but I think you need the routing side as well to do this? 
+
+Sorry I cannot be more help, recovering from a nasty bout of flu and still a bit fuzzy headed.
+
+p.s. I think `<section>` needs a heading directly after it for the HTML5 outline to be OK. Also some of this stuff could be in CSS?

@@ -1,0 +1,21 @@
+Title: Output first image from page
+----
+Date: 2013-01-25 00:28:39
+----
+Solved: 1
+----
+User: richgcook
+----
+Text: Hi all,
+
+I'm looking to output only the first image of the images uploaded to a page. I know you can do this for files, but wondered if it's possible for images. Didn't seem to work for me - this is what I have:
+
+    <?php foreach($pages->children()->visible() as $project): ?>
+			<div class="sixcol">
+				<ul class="landing-project-list">
+					<?php foreach($project->images()->first() as $image): ?>
+						<li><img src="<?php echo $image->url() ?>" /></li>
+					<?php endforeach ?>
+				</ul>
+			</div>
+     <?php endforeach ?>

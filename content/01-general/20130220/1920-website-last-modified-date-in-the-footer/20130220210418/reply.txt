@@ -1,0 +1,9 @@
+User: psztrnk
+----
+Date: 2013-02-20 21:04:18
+----
+Text: Never mind,
+
+    <?php $moddate=$site->modified(); echo gmdate("d/m/Y", $moddate); ?>
+
+just did the trick. Thanks anyway!

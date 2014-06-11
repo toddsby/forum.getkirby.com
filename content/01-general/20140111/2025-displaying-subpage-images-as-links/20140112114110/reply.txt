@@ -1,0 +1,12 @@
+User: adamwilcox
+----
+Date: 2014-01-12 11:41:10
+----
+Text: Hi,
+Thanks, unfortunately I get this:
+
+Notice: Undefined variable: productions in site/templates/productions.php on line 19 Warning: Invalid argument supplied for foreach() in site/templates/productions.php on line 19
+
+This is my page currently:
+
+http://pastie.org/8625952

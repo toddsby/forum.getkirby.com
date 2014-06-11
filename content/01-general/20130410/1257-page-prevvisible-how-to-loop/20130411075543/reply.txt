@@ -1,0 +1,5 @@
+User: d3ddesign
+----
+Date: 2013-04-11 07:55:43
+----
+Text: Yep, this is exactly how i do it at the moment. But it does not loop..

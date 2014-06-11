@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2014-02-15 09:30:33
+----
+Text: It is probably permissions on the 'content' folders, sub folders or files. Trying increasing them slightly but note you may have to tighten them up when going live. Also worth checking which users have access.
+
+Also worth checking you have your '.htaccess' file correctly installed (it's invisible normally and people sometimes forget to copy it.)

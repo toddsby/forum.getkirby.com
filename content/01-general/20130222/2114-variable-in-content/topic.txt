@@ -1,0 +1,9 @@
+Title: Variable in content
+----
+Date: 2013-02-22 21:14:37
+----
+Solved: 0
+----
+User: gerphimum
+----
+Text: Is there a way to output a site or page value in the content of another page? For instance, I want to talk about how many customers our company has on multiple pages, but I don't want to update every instance when it changes - I just want to update one site variable. How is this accomplished?

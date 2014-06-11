@@ -1,0 +1,13 @@
+User: russbaldwin
+----
+Date: 2013-10-15 13:12:15
+----
+Text: Mmmm, not sure this is the best way to go about this mixing formatting in content? You could of course just use the Markdown Extra stuff and embedded the HTML,
+
+In config set:
+
+```php
+c::set('markdown.extra', true);
+```
+
+But I'd just use CSS?

@@ -1,0 +1,5 @@
+User: lulezi
+----
+Date: 2012-09-26 20:46:49
+----
+Text: Is this the first page from a kirby-pagination? If yes, you could use `$list->pagination()->isFirstPage()` if `$list` is the variable containing the pagination.

@@ -1,0 +1,9 @@
+User: tysongach
+----
+Date: 2013-02-09 22:46:40
+----
+Text: Hmm, works for me.
+
+Make sure there is actually an image titled `thumb.png` within each of your project content folders. Otherwise, it could cause the loop to stop mid-way.
+
+If you're still having issues, please further explain the content structure for your site and what you're trying to do.

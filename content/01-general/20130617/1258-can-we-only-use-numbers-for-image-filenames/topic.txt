@@ -1,0 +1,17 @@
+Title: Can we only use numbers for image filenames?
+----
+Date: 2013-06-17 12:58:22
+----
+Solved: 0
+----
+User: matthewolczak
+----
+Text: The Kirby documentation says that it 'recommends' just using numbers instead of filenames but it seems that images can only have filenames that are numbers. 
+
+I hoped that I would be able to use filenames that were prepended by numbers i.e. 01-filename.jpg
+
+This does not appear to work. Files do not show for me when filenames contain anything more than a number.Is there a way to allow this? I want to use descriptive filenames that will help Google Search monitor the images.
+
+I am not using the Kirby Panel. Does the use of this allow greater control of filenames?
+
+Thanks. Matt

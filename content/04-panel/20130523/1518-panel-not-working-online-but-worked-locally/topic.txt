@@ -1,0 +1,15 @@
+Title: Panel not working online, but worked locally.
+----
+Date: 2013-05-23 15:18:55
+----
+Solved: 1
+----
+User: guillaumelobet
+----
+Text: I just move my Kirby powered website online and the panel, that was working locally, is not working anymore. I got the following error:
+
+``This web page has a redirect loop``
+
+I checked the .htaccess file and every think looks ok. I tried to reinstall the panel from scratch (removed the all folders and download a new one), but I go the same error...
+
+Any ideas why?

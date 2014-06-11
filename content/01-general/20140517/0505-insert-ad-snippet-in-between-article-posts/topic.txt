@@ -1,0 +1,9 @@
+Title: Insert ad snippet in between article posts
+----
+Date: 2014-05-17 05:05:47
+----
+Solved: 1
+----
+User: feint
+----
+Text: I currently have a page which lists 10 articles at a time (with pagination).  Is it possible to insert an ad snippet half way down the list of posts?

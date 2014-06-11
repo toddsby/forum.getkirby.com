@@ -1,0 +1,9 @@
+Title: Language Toggle
+----
+Date: 2012-07-17 15:55:52
+----
+Solved: 0
+----
+User: bastianallgeier
+----
+Text: If you are working on a multi-language site project, you are probably going to need a language toggle: <https://gist.github.com/2835185>

@@ -1,0 +1,11 @@
+User: fitzage
+----
+Date: 2012-06-04 20:34:03
+----
+Text: If you add a Date field to your posts in the format of Date: mm/dd/yyyy, you can easily sort by date.
+
+I did it like this:
+
+<pre>
+<?php foreach($articles->children()->sortBy($sort='date', $direction='desc') as $article): ?>
+</pre>

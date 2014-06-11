@@ -1,0 +1,7 @@
+User: graygilmore
+----
+Date: 2013-12-31 03:11:49
+----
+Text: Following up, it looks like someone attempted this already: [Vladstudio Kirby CMS Comments](http://getkirby.com/forum/extensions/topic:427)
+
+Not sure how much work it needs. Doesn't look like it's been touched since it was originally published.

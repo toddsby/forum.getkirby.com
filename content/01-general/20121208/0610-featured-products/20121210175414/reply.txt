@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2012-12-10 17:54:14
+----
+Text: Oh, I also did articles just because that was what my code that I looked at was. Obviously yours would probably be something like products. And if products is not a top level directory in your structure, it would have to be `find('full/path/to/products')`.

@@ -1,0 +1,8 @@
+User: i_am_niklas
+----
+Date: 2013-10-15 16:56:18
+----
+Text: Oh ok!The Source code comes up with the folloing error:
+
+    <div class="cover" style="background-image: url(
+    Fatal error: Call to a member function url() on a non-object in  /mnt/web7/e3/26/51175326/htdocs/germansurgeryconsulting/site/templates/home.php on line 3

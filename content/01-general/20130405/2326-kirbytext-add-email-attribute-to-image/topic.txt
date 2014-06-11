@@ -1,0 +1,13 @@
+Title: Kirbytext - add email attribute to image?
+----
+Date: 2013-04-05 23:26:01
+----
+Solved: 0
+----
+User: scottswany
+----
+Text: Realized that there isn't any way to specify an email link on an image in Kirbytext.  If you do set "link: mailto:___@.com" it sets the mail to relative to the site which breaks.
+
+Would be great if there was a way to use 'image:' with 'email:'
+
+Thanks!

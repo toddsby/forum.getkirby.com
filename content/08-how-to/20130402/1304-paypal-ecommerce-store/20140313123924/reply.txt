@@ -1,0 +1,12 @@
+User: namaless
+----
+Date: 2014-03-13 12:39:24
+----
+Text: Hello guys, before all thanks for this best flat-file CMS, I thinking to use for my clients, for a moment I wanna testing in local before use in production.
+
+After this the problem for product title is very simple and you have two options:
+
+1. Use `htmlspecialchars` for convert quote to html code.
+2. Use `addslashes` to add a slash.
+
+For a moment I can't try because I working on refactoring this cart plugin with a class and calling some code with static functions (_I don't like use some php code inside templates files_ :P) but if you wanna try and you need a support you can ask here, I really happy to help you ^_^

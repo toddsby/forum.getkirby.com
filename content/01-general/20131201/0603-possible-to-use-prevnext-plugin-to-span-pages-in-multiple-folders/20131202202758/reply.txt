@@ -1,0 +1,17 @@
+User: texnixe
+----
+Date: 2013-12-02 20:27:58
+----
+Text: @unexpectedsport
+
+Hi, I think I got a bit confused and you don't even need the foreach loop.  Here is the code I use for my post switcher:
+
+    <?php
+      $articles = $pages->find('featured', 'archive')->children();
+      $articles = $articles->sortBy('date','time');
+        if($page->_prev($articles)) : ?>
+           <a class="prev" href="<?php echo $page->_prev($articles)->url() ?>"><i class="left"></i></a>
+       <?php endif ?>
+       <?php if($page->_next($articles)): ?> 
+           <a class="next" href="<?php echo $page->_next($articles)->url() ?>"><i class="right"></i></a>
+       <?php  endif ?>

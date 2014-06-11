@@ -1,0 +1,12 @@
+User: hellovolker
+----
+Date: 2014-04-22 15:53:11
+----
+Text: You could define a new config variable in your different config files, like: `c::set('minify',true)`;
+
+Now you can easily check for that in the templates with 
+```
+if (c::get('minify',false)){
+   // load minified css
+}
+```

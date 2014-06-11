@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2013-09-04 19:15:06
+----
+Text: Personally, I would name the featured image with a filename that includes featured. Then I would filter for the featured image, and filter other images to exclude the featured one (if I don't want it included).
+
+This involves a little more template work, but means I don't have to add an extra field to the content file every time.

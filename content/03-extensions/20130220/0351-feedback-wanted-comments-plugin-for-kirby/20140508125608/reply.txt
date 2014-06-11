@@ -1,0 +1,5 @@
+User: DerZyklop
+----
+Date: 2014-05-08 12:56:08
+----
+Text: @axelintu did you managed to build a non-js version? I would appreciate to see that. At least i can't see any reason why this wouldn't be possible, if you remove smart-submit (and with that obviously accept page-reloads).

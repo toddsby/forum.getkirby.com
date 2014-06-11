@@ -1,0 +1,13 @@
+User: bastianallgeier
+----
+Date: 2012-05-29 12:42:13
+----
+Text: Super, dass es jetzt klappt :)
+
+Ein kleiner Tipp. Setze in `site/config/config.php` 
+
+```php
+c::set('debug', true);
+```
+
+Dann bekommst du sinnvolle Fehlermeldungen.

@@ -1,0 +1,7 @@
+User: tysongach
+----
+Date: 2012-12-06 02:35:52
+----
+Text: Yep, I'm the same way. I always wonder if all these conditionals could be easier to do...
+
+At the end of the day, that's what makes a quality CMS integration, is planning for all of those unknowns without restricting the content creators.

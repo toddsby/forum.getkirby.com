@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2012-09-19 19:39:09
+----
+Text: I was trying to figure this out, and didn't see your question earlier. This is exactly what I did. I made the blueprint a text field.
+
+As long as the field is called "date", kirby still treats it as a date on the backend so you can use any PHP date formatting functions. If you call the field something else (like I had to do with events, because I have beginning and ending dates) you'll have to use the php strtotime function to convert it to a date, and then format it using the php date function.

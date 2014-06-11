@@ -1,0 +1,36 @@
+User: russbaldwin
+----
+Date: 2013-01-28 11:12:47
+----
+Text: I have ai-cache as I'm using Adaptive Images responsive images
+
+    User-agent: *
+    Disallow: /ai-cache/
+  
+I have css (stylesheets etc) in assets...
+
+    Disallow: /assets/ 
+
+Then disallow some contents folders I don't want listed...
+
+    Disallow: /content/error/
+    Disallow: /content/login/
+    Disallow: /content/offline/
+    Disallow: /content/sitemap/
+    Disallow: /content/test/
+    Disallow: /content/updates/
+
+The Kirby core and thumbs
+
+    Disallow: /kirby/ 
+    Disallow: /panel/
+    Disallow: /site/
+    Disallow: /thumbs/
+
+
+And of course sitemap
+
+    Sitemap: http://domain.com/sitemap.php
+
+
+As for your other folders, I guess it depends on wether you want them to be read?

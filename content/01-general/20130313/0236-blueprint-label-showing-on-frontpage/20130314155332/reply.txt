@@ -1,0 +1,14 @@
+User: JanStieler
+----
+Date: 2013-03-14 15:53:32
+----
+Text: Hi,
+I have an unsorted list where some adress-fields will be shown and I want to show also in this the fieldlabel inside an span.
+
+	<ul>
+	<li><span>fieldlabel</span>field</li>
+	</ul>
+
+	<ul>
+	<li><span>name</span>max mustermann</li>
+	</ul>

@@ -1,0 +1,30 @@
+User: pixelbande
+----
+Date: 2013-11-25 13:02:18
+----
+Text: Hi!
+
+just as @hennirocks pointed out, also postage and handling is not submitted to PayPal. Well, it WAS ;)
+
+Simple go to
+
+    <tr>
+        <?php $postage = cart_postage($total) ?>
+            <td colspan="2" class="align-right">Postage</td>
+            <td>
+                €<?php printf('%0.2f', $postage) ?>
+            </td>
+    </tr>
+
+in your cart.php and add one line, following the PayPal API. In the end, you´ll have:
+
+    <tr>
+        <?php $postage = cart_postage($total) ?>
+            <td colspan="2" class="align-right">Postage</td>
+            <td>
+                €<?php printf('%0.2f', $postage) ?>
+                <input type="hidden" name="shipping_<?php echo $i ?>" value="<?php printf('%0.2f', $postage) ?>" />
+            </td>
+    </tr>
+
+Have fun!

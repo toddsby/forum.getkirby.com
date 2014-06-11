@@ -1,0 +1,33 @@
+Title: Radio Field With Yes/No Option
+----
+Date: 2012-11-02 16:55:17
+----
+Solved: 0
+----
+User: tysongach
+----
+Text: Can a radio field in a blueprint not have ‘Yes’ or ‘No’ for its labels?
+
+Here’s what I’m trying, but the Panel seems to have issues:
+
+    featured:
+      label: Featured?
+      type: radio
+      options:
+        yes: Yes
+        no: No
+      default: no
+
+Here’s an image of what the Panel renders though: <http://cl.ly/KcHg>
+
+But if I swap out the labels for something else like this:
+
+    featured:
+      label: Featured?
+      type: radio
+      options:
+        yes: Testing 1
+        no: Testing 2
+      default: no
+
+The panel renders it fine: <http://cl.ly/KdZ5>

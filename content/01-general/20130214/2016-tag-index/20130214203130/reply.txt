@@ -1,0 +1,7 @@
+User: tysongach
+----
+Date: 2013-02-14 20:31:30
+----
+Text: Hmm, that’s an interesting challenge. I’m not sure of an immediate solution for a tag list layout like that, maybe someone else will chime in.
+
+In regards to your issue of the tags not properly filtering, could you please post your template code so we can look for any issues?

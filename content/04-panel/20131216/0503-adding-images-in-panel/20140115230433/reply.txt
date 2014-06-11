@@ -1,0 +1,16 @@
+User: sammularczyk
+----
+Date: 2014-01-15 23:04:33
+----
+Text: AFAIK, the only way to do it right now is to
+
+
+- upload the image file to a page's file area
+- embed the image using its filename
+
+
+Within textareas, you can reference images by using the Kirbytext tag:
+
+    (image: myawesomepicture.jpg)
+
+This tag and its options is explained in more detail in [Text Formatting 101](http://getkirby.com/blog/text-formatting-101).

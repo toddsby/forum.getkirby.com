@@ -1,0 +1,5 @@
+User: nathaniel_h
+----
+Date: 2013-03-03 02:52:34
+----
+Text: Adding that "a." in the Javascript solved the issue. It does seem a little strange how Kirby handles classes, maybe a bug like you said. Thanks for your help.

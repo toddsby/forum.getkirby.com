@@ -1,0 +1,18 @@
+Title: Display thumbnails of first image in child folders
+----
+Date: 2013-08-10 01:59:57
+----
+Solved: 1
+----
+User: racheltai_
+----
+Text: This is my site structure:
+
+1. Home
+2. Page A
+-- 2.1 Child A
+-- 2.2 Child B
+-- 2.3 Child C
+(etc.)
+
+On Page A, I would like to display thumbnails of the first image in every child folder. The thumbnails should link to the child pages. How do I do that? I am unfamiliar with PHP so I would appreciate any help.

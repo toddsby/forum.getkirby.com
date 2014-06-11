@@ -1,0 +1,9 @@
+User: wieisdennis
+----
+Date: 2013-02-16 13:36:46
+----
+Text: Dear Geoff,
+
+You can adjust/make blue-print templates in your panel folder, ad a field keywords and or description and you will be able to add/adjust through the panel.
+
+See for example: http://getkirby.com/forum/panel/topic:144

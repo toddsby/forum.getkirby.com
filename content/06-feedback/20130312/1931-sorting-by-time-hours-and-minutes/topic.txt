@@ -1,0 +1,48 @@
+Title: Sorting by Time - Hours and Minutes
+----
+Date: 2013-03-12 19:31:37
+----
+Solved: 0
+----
+User: roman_oroco
+----
+Text: Someone was able to `sortBy('time', 'desc')` with hours and minutes?
+
+I think it's very important, especially if you publish more than one article a day. In fact if using only `sortBy('date', 'desc')` articles that published in the same day is automatically sorted by their titles, which is not so flexible.
+
+article.php
+```php
+<?php $articles = $pages->find('articles')
+                        ->children()
+                        ->visible()
+                        ->sortBy('date', 'desc');
+                        ->sortBy('time', 'desc'); ?>
+
+<?php foreach($articles as $article): ?>
+<article>
+  <h1>
+    <a href="<?php echo $article->url() ?>"><?php echo $article->title() ?></a>
+  </h1>
+</article>
+<?php endforeach ?>
+```
+
+Currently in Panel there's only manual way to put time
+```
+Title:
+
+----
+
+Date: March 12, 2013
+
+----
+
+Time: 07:17 PM
+
+----
+
+Text:
+
+```
+
+**NOTE**: My current solution is to use also: `flip()`

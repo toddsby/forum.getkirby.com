@@ -1,0 +1,5 @@
+User: deckfar
+----
+Date: 2012-05-18 10:43:24
+----
+Text: Yes, i also had the problem while watching the sites who run kirby. Same problem, like the text formatting won't work. One example is one that at first run it didn't take the margin of an image, so the text came near the image. I'll make further screenshots when i'll encounter this again.

@@ -1,0 +1,18 @@
+Title: Image Float Right or Left - Wrap around text
+----
+Date: 2013-04-24 02:52:18
+----
+Solved: 1
+----
+User: staroversky
+----
+Text: I have a few paragraphs of text and I want to wrap the them around an image on the right side. I have tried
+
+**( image: image.png class: float-right)**
+
+floatRight
+float: right
+
+and nothing works. How do I make it work?
+
+Thanks.

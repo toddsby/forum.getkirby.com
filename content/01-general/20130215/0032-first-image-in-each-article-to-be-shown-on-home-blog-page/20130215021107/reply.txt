@@ -1,0 +1,15 @@
+User: tysongach
+----
+Date: 2013-02-15 02:11:07
+----
+Text: No worries, this very common.
+
+You need to check if the object (an image in this case) *exists* first. Try this:
+
+    <?php if($image = $page->images()->first()): ?>
+    <img src="<?php echo $image->url() ?>">
+    <?php endif ?>
+
+Also, I noticed you have an `excerpt()` function in there, which is strictly used to (link: http://getkirby.com/docs/formatting-text text: trim and remove formatting for text). So, no need for that.
+
+Hope this helps you out!

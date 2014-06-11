@@ -1,0 +1,25 @@
+Title: How to hide blog submenu
+----
+Date: 2013-03-04 13:11:19
+----
+Solved: 1
+----
+User: magarciaguerra
+----
+Text: Hello.
+
+I'm trying to move my blog (Wordpress) to Kirby. I've exported all articles with Kirby exporter and everything went ok.
+
+Now I have this problem. I've created this phps like documentation shows:
+blog.php
+blogarticle.php
+
+But I have this problem. I want to hide the list of articles (in the content that exporter gives me, also have a number of folder article). Marked in green in the screenshot.
+
+This is what I have:
+http://magarciaguerra.com/blog.gif
+
+If I delete the folder number, blog.php doesn't show any post.
+
+Thanks a lot
+Miguel :)

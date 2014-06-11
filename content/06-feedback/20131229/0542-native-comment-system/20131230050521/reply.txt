@@ -1,0 +1,10 @@
+User: chrisburton
+----
+Date: 2013-12-30 05:05:21
+----
+Text: Thank you all for supporting this. I agree that it might be better off as a plugin. This keeps the core from being bulky that we all hate Wordpress for and not everyone uses Kirby as a blogging platform.
+
+I have about two weeks before the semester starts. I'll give it a shot but I'm certainly not an expert with PHP. And I really wouldn't want to put something out that has a significant security flaw.
+
+
+An alternative would be if we all contributed to this. Perhaps beginning with a discussion on how to go about this.

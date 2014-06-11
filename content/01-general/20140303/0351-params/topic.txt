@@ -1,0 +1,22 @@
+Title: Params
+----
+Date: 2014-03-03 03:51:40
+----
+Solved: 0
+----
+User: thomasfr
+----
+Text: Hi,
+
+I would like to know how to append parameters to kirby url() object...
+
+Plus I have difficulties retrieving parameters with Params() as explained in article "The mighty mighty uri"
+http://getkirby.com/blog/the-mighty-mighty-uri-object
+
+Does "url rewrite" need to be set to "true" in the config file for this to work?
+
+Any other example or information on the subject would be appreciated.
+
+Thank you,
+
+Thomas

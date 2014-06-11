@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-06-11 08:35:44
+----
+Text: Chris, there is one but it would need a bit of effort on your part to make it work well, it does however work. There is some stuff on it the [Code Snippets](http://getkirby.com/forum/code-snippets) section but it also on Github as [vladstudio-kirby-comments](https://github.com/vladstudio/vladstudio-kirby-comments).
+
+You could use a system **like** Discuss, there are a few, some slightly less ugly... but I'd like to keep my own comments my own.

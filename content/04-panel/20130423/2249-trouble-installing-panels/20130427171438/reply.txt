@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-04-27 17:14:38
+----
+Text: I would have thought Xampp would have all the necessary PHP modules, but I'm not so familiar with the product. Anyway I expect a re-install will fix it :-)

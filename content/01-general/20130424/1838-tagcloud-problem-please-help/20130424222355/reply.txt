@@ -1,0 +1,11 @@
+User: staroversky
+----
+Date: 2013-04-24 22:23:55
+----
+Text: I added the ul element just like in the link you posted and this is how my default.php looks - <http://pastebin.com/pTgNuvr6>
+
+This is the frontend result, 2 black bars for 2 tags - <https://dl.dropboxusercontent.com/u/184602/TagCloudProblem2.jpg>
+
+My style.css - <http://pastebin.com/MYaefbMi>
+
+What is the next step?

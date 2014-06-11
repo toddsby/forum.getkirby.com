@@ -1,0 +1,12 @@
+Title: Is it possible te reorder images in the panel?
+----
+Date: 2013-10-09 10:02:25
+----
+Solved: 0
+----
+User: tixiv
+----
+Text: In the panel, I would like to order the images...
+Is that possible?
+
+Someone knows if it's possible with the next version?

@@ -1,0 +1,125 @@
+/* Reset */
+fieldset {
+  border: 0;
+}
+
+/* Form alert */
+.alert {
+  background: red;
+  padding: .5em 1.5em;
+  margin-bottom: 1.5em;
+  border-radius: 5px;
+}
+.alert p {
+  margin-bottom: 0;
+  font-size: 1.5em;
+  color: #fff;
+}
+
+/* A form field */
+.field {
+  position: relative;
+  margin-bottom: 1.5em;
+}
+.field-with-error .input {
+  border-color: #b3000a;
+}
+.field-with-error .input:focus {
+  border-color: #000;
+}
+.field-with-error .label {
+  color: #b3000a;
+}
+
+/* A simple label */
+.label {
+  font-size: 1.5em;
+  font-weight: 400;
+  display: block;
+  line-height: 1.5em;
+  padding-bottom: .5em;
+}
+.label abbr {
+  color: #8dae28;
+  padding-left: .25em;
+}
+
+.selectbox {
+  width: 100%;
+}
+
+.range {
+  width: 100%;
+}
+
+.input {
+  padding: .5em;
+  font-size: 1em;
+  line-height: 1.5em;
+  font-weight: 400;
+  border: 2px solid #ddd;
+  background: #f5f5f5;
+  width: 100%;
+  display: block;
+}
+.input:focus {
+  outline: 0;
+  border-color: #aaa;
+}
+
+textarea.input {
+  min-height: 30em;
+}
+
+.input-is-readonly {
+  background: #efefef;
+  border-color: #efefef;
+}
+.input-is-readonly:focus {
+  border-color: #efefef;
+}
+
+.input-with-selectbox {
+  line-height: 1em;
+  padding: .75em .5em;
+}
+
+/* A list of inputs */
+.input-list-item {
+  list-style: none;
+  margin-bottom: .5em;
+}
+
+/* A radio input */
+.input-with-radio {
+  overflow: hidden;
+}
+.input-with-radio .radio {
+  float: left;
+  margin: .45em 1em .45em .25em;
+}
+
+/* A checkbox input */
+.input-with-checkbox {
+  overflow: hidden;
+}
+.input-with-checkbox .checkbox {
+  float: left;
+  margin: .5em 1em .5em .25em;
+}
+
+.input-with-fileupload {
+  line-height: 1em;
+  padding: .75em .5em;
+}
+
+/* Form buttons */
+.buttons {
+  margin: .5em 0;
+}
+.buttons .btn-cancel {
+  float: left;
+}
+.buttons .btn-submit {
+  float: right;
+}

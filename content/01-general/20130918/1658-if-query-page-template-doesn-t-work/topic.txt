@@ -1,0 +1,21 @@
+Title: If query $page->template() doesn't work?
+----
+Date: 2013-09-18 16:58:11
+----
+Solved: 0
+----
+User: janstieler
+----
+Text: Hi,
+actually I have for a tessite the standard Kirbytemplate with its content.
+Now I want to load a JS-Script only on a specified template, for this I wrote a if query
+
+	<?php
+	if ($page->projects()) {
+	echo js('assets/js/jquery.jpages.min.js');
+	}
+	?>
+I have created a templatefile with the filename projects.php but it doesn't work.
+How get it work?
+
+BR

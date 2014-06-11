@@ -1,0 +1,95 @@
+Title: [dirty hack] How I hard-coded a calendar to display archives.
+----
+Date: 2013-01-10 13:41:23
+----
+Solved: 0
+----
+User: joachimesque
+----
+Text: This is the latest website I built with Kirby, and by far the most complex/challenging/filled with dirty hacks : __<http://360in365.com/archive/>__. Sorry if you don't read French, it's about my travels around the world.
+
+Today I'd like to share the way I built the calendar on the right-hand side of the navigation pane :
+
+![navigation](http://i.imgur.com/fseeFl.png)
+
+Why do I share it? Because you might have a better, leaner, simpler solution. I'm far from being a PHP guru, but I know the difference between a dirty hack and an elegant solution — mine is a dirty hack. I gotta add, I love Kirby, and this is not a piece to badmouth Bastian and its creations. I'm just relaying how I got around limitations, and opening the discussion so you can tell me what I did right and what's reaaaaaally wrong in my solution.
+
+It all had to do with Date manipulation. I didn't find an easy way to manipulate dates, as I would have in WordPress, but Kirby isn't meant as a blogging tool — even if it's often used as one.
+
+My website is an archive : I want to be able to navigate by day, or by month.
+
+Sadly, I couldn't do a request like this, that would get me all the children of the page named `day`, that are dated from April 2010 :
+
+    $pages()->find("day")->children()->$filterBy($date,{month: 2010-03})
+
+So I had to improvise. Here is my folder list :
+
+    /
+        /01-day/
+            /01-day1/
+            /02-day2/
+            /03-day3/
+            /04-day4/
+        /02-month/
+            /01-2010-march/
+            /02-2010-april/
+
+Each `day` has a day.txt formated like this :
+
+    Title: Day 1
+    ----
+    Datetxt: 26, March 2010
+    ----
+    Content: […]
+
+and each `month` had a month.txt formated like that :
+
+    Title: March 2010
+    ----
+    Id: March 2010, 31
+    ----
+    Content: 
+
+So my `month.php` template fetches all the days this way :
+
+    $month_name = substr($page->id(), 0, -4);
+    $results = $pages->find('day')
+                      ->children()
+                      ->visible()
+                      ->filterBy('datetxt', $month_name, ',')
+                      ->paginate(31);
+
+The calendar part is a little messier, as you can see for yourself :
+
+    <?php
+        $monthsList = $pages->find('month')->children()->visible();
+        foreach($monthsList as $month):
+    ?>
+    <li class="month"><a href="<?php echo $month->url() ?>"><?php echo $month->title() ?></a>
+        <ul>
+    <?php
+        $monthDuration = substr($month->id(), -2, 2);
+        for ($day=1; $day <= $monthDuration; $day++):
+            // constructing the full day name
+            if($day == 1):
+                // 1st day of a month is written "1er" (in French)
+                $fullDayName = strtolower($day . "<sup>er</sup>, " . $month->title());
+            else:
+                // all the other days are the same, thankfully
+                $fullDayName = strtolower($day . ", " . $month->title());
+            endif;
+            // fetching the $dayObject by $fullDayName
+            if ($dayObject = $pages->find('jour')->children()->findBy('datetxt', $fullDayName)):
+    ?>
+            <li><a href="<?php echo $dayObject->url() ?>"><?php echo $day ?></a></li>
+            <?php else: ?>
+            <li><a class="inactive"><?php echo $day ?></a></li>
+            <?php endif ?>
+         <?php endfor ?>
+        </ul>
+    </li>
+    <? endforeach ?>
+
+So yeah. For each day I construct a full date, try to find it, and link to it if it exists. You'll notice that `$monthDuration` is the number of days, and it's the second part of `$id` in `month` pages. 28 for Feb., 31 for March, 30 for April…
+
+So yeah, here's my dirty hack for all to see. How would you have done it in a more elegant way? Is there a better, more legit way of handling dates, in the Kirby core?

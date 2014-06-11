@@ -1,0 +1,19 @@
+Title: Pass a variable to a snippet?
+----
+Date: 2013-06-11 02:48:07
+----
+Solved: 0
+----
+User: bobrockefeller
+----
+Text: Can a variable be passed to a snippet as a param?
+
+When I try something like:
+
+```
+somepage/variable:$pages
+```
+
+The URL ends up with a text dump of the $pages array, not the variable object.
+
+Bob

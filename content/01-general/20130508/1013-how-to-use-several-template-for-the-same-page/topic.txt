@@ -1,0 +1,15 @@
+Title: How to use several template for the same page
+----
+Date: 2013-05-08 10:13:38
+----
+Solved: 1
+----
+User: guillaumelobet
+----
+Text: I would like to have two version of the same page, one for regular display, with some fancy **div** components and so on, and an other, using the same source page, for printing (no fancy stuff, just cleaner text arrangement).
+
+Is it possible to call a different template for the same page (ideally through a "print" button)?
+
+Thanks in advance.
+
+Guillaume

@@ -1,0 +1,15 @@
+Title: Remove subfolder from URL's
+----
+Date: 2012-12-26 04:17:28
+----
+Solved: 1
+----
+User: chrisburton
+----
+Text: I have Kirby installed in a subfolder but would like it to point all my content to the root.
+
+e.g.
+
+I want my subfolder URL (http://mysite.com/subfolder/articles/some-title) to actually point to my root (http://mysite.com/articles/some-title).
+
+Any way to make this happen?

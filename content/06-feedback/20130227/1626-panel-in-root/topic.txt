@@ -1,0 +1,49 @@
+Title: Panel in Root
+----
+Date: 2013-02-27 16:26:30
+----
+Solved: 0
+----
+User: russbaldwin
+----
+Text: It is possible to have Kirby in the root to run multiple website which is neat. Not so neat is Panel, which currently has to be in the website folder. You can move Panel to the root and get it to work by adding a 'panel' folder to the website folder and putting the panels' 'index.php' and change the folders for kirby... Well it works after a fashion as assets don't load and perhaps some other things because of paths. 
+Someone maybe able to think of a way to fix this? Maybe some includes for CSS, JS and other assets in the Panel header snippet?
+
+```
+/kirby
+/webfolder
+          /website
+                  /assets
+                  /content
+                  /index.php
+                  /panel
+                  /site
+/webfolder2
+          /website2
+                  /assets
+                  /content
+                  /index.php
+                  /panel
+                  /site
+                  
+```          
+
+But it would be nice to have (perhaps even rename panel to 'kirby-panel' or indeed make it part of Kirby?)
+
+```
+/kirby
+/panel
+/webfolder
+          /website
+                  /assets
+                  /content
+                  /index.php
+                  /site
+/webfolder2
+          /website2
+                  /assets
+                  /content
+                  /index.php
+                  /site
+                  
+```

@@ -1,0 +1,20 @@
+User: hellovolker
+----
+Date: 2013-01-07 14:01:24
+----
+Text: What about:
+
+Creating a new blog post - and copy the whole text from the last blogpost inside but with the "updatet" text.
+At the end link to the old blogpost.
+Also add a link to the old blogpost, that there exists an updated post.
+
+I don´t think there is another solution when sorting it by date.
+
+**Edit:**
+Maybe there is one:
+Create two date fields inside a blogpost:
+- date
+- update
+On creation both are the same. But when you update something you change the 'update' date.
+
+Now all there is left to do: Sort everything by the 'update' date and not the normal 'date'.

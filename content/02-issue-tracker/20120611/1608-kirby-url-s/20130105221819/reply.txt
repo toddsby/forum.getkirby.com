@@ -1,0 +1,23 @@
+User: me_arno
+----
+Date: 2013-01-05 22:18:19
+----
+Text: I guess this is in the same league.
+
+I've got my blog set up as the home/landingpage.
+
+http://localhost
+
+The articles in the bloglist link to:
+http://localhost/blog/post-title
+
+But are also visible under:
+http://localhost/post-title
+
+Just found another example of that online:
+
+http://aqeelfikree.com/stickermule-dribbble
+
+http://aqeelfikree.com/home/stickermule-dribbble
+
+Gives the same page

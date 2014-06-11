@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-10-29 08:07:41
+----
+Text: You have seen the [PHP Manual page for Date?](http://php.net/manual/en/function.date.php)

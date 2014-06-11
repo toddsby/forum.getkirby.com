@@ -1,0 +1,11 @@
+Title: Kirbytext: Figure Tag
+----
+Date: 2012-07-17 15:52:20
+----
+Solved: 0
+----
+User: bastianallgeier
+----
+Text: This is a nice little Kirbytext extension, which makes it possible to create HTML figure tags with image and caption:
+
+<https://gist.github.com/2924148>

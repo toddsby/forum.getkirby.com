@@ -1,0 +1,25 @@
+User: Sciascia10
+----
+Date: 2014-02-25 23:23:53
+----
+Text: After trial and error, this filters out the home page:
+
+    <?php
+      // filter out home page
+      $crumbs = $site->breadcrumb()->visible()->not('home');
+
+      // only show breadcrumbs if there are pages to display
+      if($crumbs->count() > 0) :
+    ?>
+    <div class="crumbs">
+      <small>
+      <?php foreach($crumbs as $crumb) : ?>
+        <? if($crumb->isActive()) : ?>
+          <?= html($crumb->title()); ?>
+        <? else : ?>
+          <a href="<?= $crumb->url(); ?>"><?= html($crumb->title()); ?></a>&nbsp;/
+        <? endif ?>
+      <?php endforeach ?>
+      </small>
+    </div>
+    <? endif ?>

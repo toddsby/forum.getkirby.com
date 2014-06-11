@@ -1,0 +1,25 @@
+Title: Slider for selected items blog/portfolio
+----
+Date: 2012-08-08 13:45:13
+----
+Solved: 1
+----
+User: roman_oroco
+----
+Text: I'm trying to develop a simple automatic slider with *title* and *excerpt* only for specific pages, example:
+
+```
+Title: This is page
+Slider: On
+Description: Excerpt text
+```
+
+1. Simply writing **Slider: On** will automatically go on slider. (With a specific image like *big-thumb.jpg* or whatever image cropped to specific size for slider)
+
+2. I also thought some idea with a **radio button** with the status 'checked'
+
+3. On WordPress it's possibile assign a specific category for displaying posts on slider, so it's possible on Kirby too?
+
+
+
+I very appreciated any help.

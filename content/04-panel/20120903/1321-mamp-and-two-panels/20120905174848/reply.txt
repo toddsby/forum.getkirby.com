@@ -1,0 +1,10 @@
+User: bastianallgeier
+----
+Date: 2012-09-05 17:48:48
+----
+Text: Did you try the dev versions yet: 
+
+<https://github.com/bastianallgeier/kirbycms/tree/dev>
+<https://github.com/bastianallgeier/kirbycms-panel/tree/dev>
+
+The link problems should be fixed there.

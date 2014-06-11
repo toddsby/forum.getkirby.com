@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-02-23 09:47:29
+----
+Text: It is often quite hard to explain what you mean and the best idea is usually an example of what you want, as you have done :-)
+
+You could maybe do something a bit like this in panel with maybe custom fields with text creation based on some variables in blueprint for a repeating patterns and then maybe some control above the editor?

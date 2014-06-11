@@ -1,0 +1,17 @@
+Title: How to have recent blog posts on home page
+----
+Date: 2014-05-02 12:25:44
+----
+Solved: 0
+----
+User: nikobe
+----
+Text: Hi all
+
+Just starting out with Kirby but need to do this on my freelance site before it goes live.
+
+I have a blog on "site root/03-blog" and some test posts within but need to show the three most recent posts on the home page. How can I pull the recent posts from one level of the site to another, in this case up to the site root and show excepts there.
+
+thanks
+
+nikobe

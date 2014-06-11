@@ -1,0 +1,40 @@
+User: felixdorner
+----
+Date: 2014-05-09 20:34:40
+----
+Text: Hey guys, does it really work? 
+I tried it, but the custom field is not showing in the mail.
+
+My setup:
+
+```php 
+    $form = new contactform(array(
+       'to'       => 'Mail <mail@mail.com>',
+       'from'     => 'Mail <mail@mail.com>',
+       'subject'  => 'Anfrage',
+       'goto'     => $page->url() . '/status:sent',
+       'required' => array('name', 'email', 'item', 'text'),
+       'keep'     => array('name', 'email', 'item', 'text')
+    ));
+```
+
+...and in the contactform.mail.php file it looks like this:
+
+    Hallo,
+
+    hier ist eine neue Nachricht vom Kontakformular:
+
+    Name: {name}
+    ---------
+    Email: {email}
+    ---------
+    Location: {item}
+    ---------
+    Text:  {text}
+
+Name, Email & Text show up as intended, but the location item and the intro text is missing in the mail. Has someone discovered similar problems and solved them? 
+
+I think it is more a trouble with the contactform.mail.php which is not working?
+
+*Edit*
+Solved the issue: Better don't copy the snippets of the plugin in a subfolder.

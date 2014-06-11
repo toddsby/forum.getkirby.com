@@ -1,0 +1,12 @@
+User: _frankallen
+----
+Date: 2014-01-30 08:32:15
+----
+Text: you have to do something like this:
+
+
+	if(param('tag') AND param('tag')!='') {
+		$articles = $page->children()->visible()->filterBy('tags',param('tag'),',')->flip()->paginate(10);
+	} else {
+		$articles = $page->children()->visible()->flip()->paginate(3);
+	}

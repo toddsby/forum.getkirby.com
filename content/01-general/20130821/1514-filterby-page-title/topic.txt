@@ -1,0 +1,30 @@
+Title: FilterBy page title
+----
+Date: 2013-08-21 15:14:49
+----
+Solved: 1
+----
+User: obearone
+----
+Text: Hi Everybody!
+
+I have some pages with persons. Every person hase a checkboxfield with some features i can check. For example:
+	
+	Titel: Jason
+	----
+	sport: soccer, tennis
+	----
+
+Now I have other pages with sports. On this pages I have a snippet taht filters  my persons for their sports like this (That's working very well):
+	
+	 <?php $sport = $pages->findbyUID('persons') ?>
+	 <?php foreach($sport->children()->visible()->filterBy('sport', 'soccer', ',') as $img): ?>
+	 
+Now I'm looking for a way to use my actual page title as a 'value' for filtering. because I don't want to have hundreds of snippets for every sport. Unfortunately this is not working: 
+
+	<?php $sport = $pages->findbyUID('persons') ?>
+	<?php $sitetitle = $page->title() ?>
+	<?php foreach($sport->children()->visible()->filterBy('sport', '$sitetitle', ',') as $img): ?>
+	
+	
+ Anyone an idea how I can solve this?

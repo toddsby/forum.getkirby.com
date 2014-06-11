@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-01-30 11:05:48
+----
+Text: As I said it would appear to be the JS, your site works fine without it. Have you thought about using CSS animation/transformations to slide in your stuff?

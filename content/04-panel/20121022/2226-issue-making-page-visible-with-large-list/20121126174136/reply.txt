@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-11-26 17:41:36
+----
+Text: You are right guys. There's a bug in those settings. It should now be fixed in the latest dev version: <http://github.com/bastianallgeier/kirbycms-panel/tree/dev>

@@ -1,0 +1,11 @@
+Title: Changes to php not writing consistently
+----
+Date: 2013-04-10 03:06:03
+----
+Solved: 1
+----
+User: p_mylecharane
+----
+Text: Hey folks.
+
+I'm having some issues a few weeks into a build where changes are not writing to templates and snippets, but work fine with css and js. Very strange behaviour. There is some randomness though, as changes do write randomly. Was thinking it may have something to do with caching but I've turned it all off and am still having issues. Any ideas?

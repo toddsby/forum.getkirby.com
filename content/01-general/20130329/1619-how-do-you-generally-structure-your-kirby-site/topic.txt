@@ -1,0 +1,15 @@
+Title: How do you generally structure your Kirby site?
+----
+Date: 2013-03-29 16:19:46
+----
+Solved: 0
+----
+User: theoriginalivor
+----
+Text: I'm curious to know how you generally structure your kirby sites.
+
+For instance, do you create a template page with all the html/php code/content sections, then use the panel blueprints to structure the content areas.
+
+or
+
+Do you just use the .txt files and dump all your html and content in there and you maybe two templates.

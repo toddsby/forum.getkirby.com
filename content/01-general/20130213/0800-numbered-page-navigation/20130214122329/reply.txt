@@ -1,0 +1,9 @@
+User: Wordius
+----
+Date: 2013-02-14 12:23:29
+----
+Text: Ah! Okay, I’ve updated the [gist](https://gist.github.com/Wordius/4951468), the output of which is the page navigation at the bottom of the screen grab below. Only 20-odd more posts to publish before we see if how the `range(5)` pans out.
+
+[Screen grab showing Kirby pagination nav](http://d.pr/i/uVXO)
+
+Thanks again for all your help.

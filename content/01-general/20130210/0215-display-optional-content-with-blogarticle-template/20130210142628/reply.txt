@@ -1,0 +1,12 @@
+User: adrianthomas
+----
+Date: 2013-02-10 14:26:28
+----
+Text: You should be able to check for the intro first and then only include the H2 if it exists.
+
+I.e. 
+
+    
+    <?php if ($page->intro() != null): ?>
+	<h2><?php echo html( $page->intro() ) ?></h2>
+    <?php endif ?>

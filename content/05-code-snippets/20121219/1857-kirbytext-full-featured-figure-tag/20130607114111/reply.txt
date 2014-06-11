@@ -1,0 +1,9 @@
+User: conefreykoedam
+----
+Date: 2013-06-07 11:41:11
+----
+Text: Looking good, 
+But: this will wrap the opening figure-tag in paragraph-tags, the figcaption gets wrapped separately in p-tags and last the closing figure-tag gets also wrapped in p-tags.
+
+Any ideas on how to prevent that?
+Thanks!

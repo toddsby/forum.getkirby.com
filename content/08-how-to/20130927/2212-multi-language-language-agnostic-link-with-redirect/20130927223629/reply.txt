@@ -1,0 +1,11 @@
+User: fitzage
+----
+Date: 2013-09-27 22:36:29
+----
+Text: I did some looking into multi-language stuff before, and we never really went ahead with it, and I've forgotten some of the stuff I looked into.
+
+That being said, I think that if you allow the user to select their language from a dropdown or by clicking a link, you could save that selection as a cookie and then use that to determine what fields to show on each page. Then your URLs would be language-agnostic. Then on each page you would have fields for both English and German for each field that you need.
+
+I'm not sure how the normal Kirby multi-language stuff works, but with this you would have one set of content files with fields for multiple languages. If you want to make it scalable, you could probably your fields in away that allows you to pull the language from the cookie and call the fields associated with that language by tagging it onto the beginning of the standard field names.
+
+If you ever expect that you might end up with some non-translated content, you could also put in some conditionals that check if the fields for the user's language have content, and serve the default language (perhaps with an apology) if they're empty.

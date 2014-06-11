@@ -1,0 +1,14 @@
+User: seigiard
+----
+Date: 2013-02-06 14:42:51
+----
+Text: About your problem: don't leave username like «admin», password like «adminpassword» and rename default account file to other.
+
+I have problem on next step: I got login page and cannot log in. After submit I always back to login page.
+
+MacOS 10.6, MAMP Pro, PHP5.4.4
+Fresh Kirby and Panel installed on local address http://kirby.dev
+
+Any ideas?
+
+**Update**: My fault. Name of account file and username in this file must be similar!

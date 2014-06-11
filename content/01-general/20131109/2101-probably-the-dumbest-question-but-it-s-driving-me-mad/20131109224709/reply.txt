@@ -1,0 +1,7 @@
+User: texnixe
+----
+Date: 2013-11-09 22:47:09
+----
+Text: Guess you can only download the complete repo:
+
+On the Github page, click on kirbycms-extensions or on the code symbol which leads you to the main folder where you will see the download link for the  complete extensions folder

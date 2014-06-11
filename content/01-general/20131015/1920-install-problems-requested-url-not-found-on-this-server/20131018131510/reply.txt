@@ -1,0 +1,10 @@
+User: studioshitless
+----
+Date: 2013-10-18 13:15:10
+----
+Text: > if it doesn't work without that first line from
+> your provider's .htaccess, simply copy it back in.
+
+It doesn't work with the provider's line or without it.
+
+Too many redirects....

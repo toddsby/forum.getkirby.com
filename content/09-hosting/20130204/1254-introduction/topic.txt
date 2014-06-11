@@ -1,0 +1,15 @@
+Title: Introduction
+----
+Date: 2013-02-04 12:54:09
+----
+Solved: 0
+----
+User: bastianallgeier
+----
+Text: I collected a few recommendations for great hosting providers and plans on the (link: hosting text: hosting page). But the best way to really share insights and give recommendations is to actively discuss this here IMHO. 
+
+Let's start discussing about different providers and plans and about their performance, reliability, support, etc. 
+
+**I suggest to start new topics for each provider or special hosting plan, so we can keep stuff a bit separated.**
+
+I'm very much looking forward to your thoughts.

@@ -1,0 +1,11 @@
+User: unexpectedsport
+----
+Date: 2014-04-02 18:50:17
+----
+Text: Ok, not sure why I didn't think of this before, but I just tried this: 
+
+	<?php $featured = $pages->find('projects')->children()->filterBy('status', ''); ?>
+
+I basically left the 'status' value blank in quotes. It seems to be working fine… Is there any problem with or downside in doing it this way?
+
+Thanks!

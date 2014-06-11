@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2012-11-02 18:05:45
+----
+Text: The current setup with more buttons and a live preview is probably fine.
+
+It's just that no matter how much you train them, some people still seem to have issues with translating the Markdown into what it represents. Perhaps that's why they aren't developers. :-)

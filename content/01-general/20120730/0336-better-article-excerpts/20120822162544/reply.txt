@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2012-08-22 16:25:44
+----
+Text: Ah, I was just going to ask about this, but I see there's an answer already. I found some PHP code that truncates strings and then attempts to close any open HTML tags that are left. I'll give it a shot and see if it works properly.

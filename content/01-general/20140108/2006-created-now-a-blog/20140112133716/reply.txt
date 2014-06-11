@@ -1,0 +1,11 @@
+User: peterpolz
+----
+Date: 2014-01-12 13:37:16
+----
+Text: i made all of this
+i made a blog.php
+and a
+blogarticle.php
+
+
+but did not work correct

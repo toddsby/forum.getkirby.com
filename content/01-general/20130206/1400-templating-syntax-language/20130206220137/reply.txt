@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2013-02-06 22:01:37
+----
+Text: I used to think I wanted a template language. I came from Expression Engine and I liked it.
+
+However, I've grown to prefer the flexible nature of PHP, despite the ugly syntax. I don't have to do anything weird to get raw PHP into my templates if I want to go beyond what has been built into the template language. If I find a solution to a problem using PHP, I can easily implement it without having to do anything funky.

@@ -1,0 +1,8 @@
+User: berndstrehl
+----
+Date: 2013-07-16 19:24:53
+----
+Text: How is it going?
+I'm very interested in this feature.
+As this missing buttons would be a no-go for using Kirby.
+The clients need the most simple thing they can find :)

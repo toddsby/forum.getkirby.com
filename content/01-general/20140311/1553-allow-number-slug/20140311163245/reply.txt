@@ -1,0 +1,5 @@
+User: jens_tornell
+----
+Date: 2014-03-11 16:32:45
+----
+Text: Is there a general htaccess code to use? Examples?

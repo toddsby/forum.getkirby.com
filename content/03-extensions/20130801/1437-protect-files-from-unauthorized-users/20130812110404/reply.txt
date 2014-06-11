@@ -1,0 +1,9 @@
+User: walkerbox
+----
+Date: 2013-08-12 11:04:04
+----
+Text: I use the Auth plugin quite a lot. In its default state, it can't do what you are asking, no, since no php file is called when you access a file directly. I've never tried what you are asking before, but I can spell out how I would do it.
+
+If you are intent on using the Auth plugin rather than htaccess protection, you would have to modify htaccess to block direct requests, or redirect to a php file when particular file types are called.
+
+In php, it's perfectly possible to send a file across by applying the correct headers. One option would be to create a new page for each file to be downloaded, with a field containing the name of the file. Then, in the template, include the auth functions and simply serve that file. You would need to be clever about handing the different file types, but it's certainly feasible.

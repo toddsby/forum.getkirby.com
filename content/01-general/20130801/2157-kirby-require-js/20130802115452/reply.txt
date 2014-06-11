@@ -1,0 +1,10 @@
+User: russbaldwin
+----
+Date: 2013-08-02 11:54:52
+----
+Text: I'm not familiar with it but what have you tried, why does it not work?
+
+Looks like a standard JS call and then in-line stuff so I presume you have tried something like...
+```php
+<?php echo js('assets/scripts/require.js') ?>
+```

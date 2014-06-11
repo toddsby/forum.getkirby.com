@@ -1,0 +1,5 @@
+User: texnixe
+----
+Date: 2014-03-31 19:20:16
+----
+Text: You can use different config.php files for different server setups as described in this tutorial: [http://getkirby.com/blog/multi-environment-setup](http://getkirby.com/blog/multi-environment-setup)

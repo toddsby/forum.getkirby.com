@@ -1,0 +1,15 @@
+User: hoopyfrood
+----
+Date: 2013-07-11 11:17:17
+----
+Text: Thanks for the info.
+
+The PHP versions:
+Live: 5.4.8
+Dev:5.4.10
+
+I'm experiencing precisely the same problems on both environments.
+
+As for switching PNGs for JPGs: I've tried that. The file size of the thumbs is slightly improved but the same issue is occurring.
+
+I am not in a position to verify this, but some people have mention having issues with the thumb extension but no issues with, say, WordPress image resizing (which uses GD as well).

@@ -1,0 +1,24 @@
+User: russbaldwin
+----
+Date: 2013-07-09 16:18:12
+----
+Text: Sorry, I was being a bit dense (too hot) so you want to use a text field as a variable for use in a find and get the path.
+
+Assuming you want the local uri...and a text file which includes...
+```html
+Fieldtxt: findme.jpg
+```
+try something like
+
+```php
+<?php
+$var= $page->files()
+           ->find($page->fieldtxt
+                       ->value)
+           ->uri();
+?>
+```
+
+$var will be `content/folder/findme.jpg`
+
+Hope I have got it right this time?

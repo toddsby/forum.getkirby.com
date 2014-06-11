@@ -1,0 +1,9 @@
+User: tues37
+----
+Date: 2012-07-05 22:02:15
+----
+Text: Are there any another solutions for the panel problem? I’ve downloaded kirby, everything works fine, but the ../kirby/panel/ generates an error/can’t be find. 
+
+And I already downloaded the files from github, which have to be the latest?
+
+Thanks in advance.

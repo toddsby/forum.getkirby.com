@@ -1,0 +1,23 @@
+Title: Overwrite panel templates/snippets
+----
+Date: 2012-10-15 12:08:34
+----
+Solved: 0
+----
+User: 12hoog
+----
+Text: We are looking for a good method to overwrite the default panel snippets and template. What would be our best option?
+
+The default panel snippets and templates are located in:
+
+Root > Panel > Snippets
+Root > Panel > Templates
+
+We are looking for a method to overwrite them with site specifik templates and snippets when necessary. Normally placing a snippets and template folder like:
+
+Root > Site > Panel > Snippets
+Root > Site > Panel > Templates
+
+would be the normal "Kirby way of working". But that doesn't overwrite the default snippets and templates.
+
+Thanks!

@@ -1,0 +1,9 @@
+User: JanStieler
+----
+Date: 2013-03-03 00:40:57
+----
+Text: Hi,
+I thought also about this. It should be possible to use jQuery Ui for drag and drop but in the next step, php must rename the folder and the txt-files.
+I´m in starting php and actually I have now not really the time to spent in try out.
+
+BR

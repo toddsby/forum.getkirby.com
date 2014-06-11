@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-05-04 17:30:47
+----
+Text: I didn't know you could do that. I just exclude the config.php from git, and put it on the server manually. That seems much easier. :-)

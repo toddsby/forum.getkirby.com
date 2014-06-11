@@ -1,0 +1,56 @@
+User: screencuts
+----
+Date: 2014-02-17 12:17:07
+----
+Text: Another update: I've attempted the following experiment. I created a plugin, which I call at the start of my header snippet. The plugin consists of a class 'categories' that detects whether the url includes a search for a category and then tries to requery teh content and replace the global $pages variable. Here is what I have:
+
+    class categories {
+
+        function __construct() {
+    
+    		global $site;
+    		global $pages;
+    
+    		// Detect via url whether this is a category request
+    		$path = a::first((array)$site->uri()->path()); 
+    		$is_category_request = ( array_search('category', $path) !== false ) ? true : false;
+    
+    		echo 'here';
+    		
+    		if ( $is_category_request ) {
+    
+    			// Get category, which is path element immediately following category
+    			$category = a::get($path, array_search('category', $path)+1);
+    
+    			$new = $site->pages->find('projects')->children();
+    			$new = $new->filterBy('categories', $category);
+    
+                // testing to see that i've returned the correct pages, and the result is that i have
+    			foreach ($new as $page) {
+    				echo $page->title()."<br/>";
+    			}
+    
+    			$site->pages = $new;
+    			$pages = $site->pages;
+    
+    			echo '<br/>';
+                // here i'm testing to see if my attempt too re-assign the global variable $pages has worked. and it has.
+    			foreach ($pages as $page ) {
+    				echo $page->title()."<br/>";
+    			}
+    
+    		}
+		
+	}
+
+So that is the plugin, now in the header snippet I do the following at the very start of the file before I output any html:
+
+    <?php
+      // Handle categories
+      $categories = new categories();
+      foreach ($pages as $page ) {
+            echo $page->title()."<br/>";
+          }
+    ?>
+    
+Here is where I run into trouble because at this point the global variable $page appears *not* to have been re-assigned to my new subset. The output I get here is just the first level of pages in content. This of course is just the beginning of the problem with this experimental code. I think for this to work ultimatley the $site->pages, and the global $pages, and $page variables would all need to be reassigned. In attempting to get closer to that goal, however, I seem not even to be able to reassign the global $pages variable. Am I making a stupid error, or something more fundamental going on?

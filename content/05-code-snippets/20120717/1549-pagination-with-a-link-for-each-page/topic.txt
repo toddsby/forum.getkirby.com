@@ -1,0 +1,9 @@
+Title: Pagination with a link for each page
+----
+Date: 2012-07-17 15:49:53
+----
+Solved: 0
+----
+User: bastianallgeier
+----
+Text: If you want to show a link to each page (with number) in your pagination, you can use this snippet: <https://gist.github.com/695c170c2a4d78d8421e>

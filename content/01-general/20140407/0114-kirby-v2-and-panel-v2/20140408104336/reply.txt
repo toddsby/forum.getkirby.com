@@ -1,0 +1,11 @@
+User: vis7mac
+----
+Date: 2014-04-08 10:43:36
+----
+Text: As far as I can tell from the current source at [GitHub](https://github.com/getkirby/kirby) and from my usage experience with development versions of Kirby 2, nothing will actually change. You will still be able to use your current snippets, templates and plugins.
+There will be a change with the index.php and probably with the .htaccess, but that's it.
+
+The fact that Kirby 2 development is intransparent is not true, the last commit on the v2 repo is 10 days ago.
+There's also no "v2" branch, instead there's a whole new GitHub organization (`getkirby`)
+
+And a final point: If you wouldn't know Kirby 2 will come, would you criticize anything? Kirby 1 works perfectly, and Kirby 2 will be a simple upgrade, why don't we just wait until it is out?

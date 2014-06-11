@@ -1,0 +1,7 @@
+User: texnixe
+----
+Date: 2013-11-11 13:51:45
+----
+Text: Well, easiest is to add the caption directly to the text file;
+
+if you want to keep it in a separate file and call that from your template, you'd have to write some php code to insert the caption whenever an image tag is encountered ...

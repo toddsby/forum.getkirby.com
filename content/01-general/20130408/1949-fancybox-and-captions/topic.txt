@@ -1,0 +1,11 @@
+Title: Fancybox and captions.
+----
+Date: 2013-04-08 19:49:06
+----
+Solved: 1
+----
+User: arlamentis
+----
+Text: Hello everyone,
+
+I would like to know, if there is a way to add different captions to images with the fancybox plugin?

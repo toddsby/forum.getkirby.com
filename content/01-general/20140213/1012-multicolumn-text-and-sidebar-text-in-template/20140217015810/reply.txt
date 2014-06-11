@@ -1,0 +1,6 @@
+User: DevDataStream
+----
+Date: 2014-02-17 01:58:10
+----
+Text: Parametric templates would be more useful though.
+So that the only thing the user has to do is to fill up a field, or not.

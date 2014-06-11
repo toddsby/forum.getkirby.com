@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-01-04 10:58:17
+----
+Text: Difficult, perhaps differences in MAMP? .htaccess, language setting, character sets, PHP version?
+
+I also don't think a colon is allowed in NTFS file names? Maybe this can effect it? [See -- http://msdn.microsoft.com/en-us/library/aa365247%28VS.85%29.aspx](http://msdn.microsoft.com/en-us/library/aa365247%28VS.85%29.aspx)

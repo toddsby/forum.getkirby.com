@@ -1,0 +1,11 @@
+Title: Invisible images
+----
+Date: 2013-08-31 07:28:41
+----
+Solved: 0
+----
+User: omgitsjkt
+----
+Text: Is there a way to make images "visible" and "invisible" by the filename, like different pages? I see that ->images() doesn't bring up anything named 'thumb' - but it pulls everything else in. For reasons that aren't important to say, I need to have a number of images in my folders that won't be displayed.
+
+I'm sure I can run something that looks for any image that has a two-digit-number filename (01.jpg, 02.jpg, ...) and doesn't bother with anything else, but, I'd like to just to say ->images()->visible() - am I missing something?

@@ -1,0 +1,11 @@
+User: jesuismaksim
+----
+Date: 2013-02-21 15:38:47
+----
+Text: In fact I found a better (but not simple for my client) way to do what I want... wrap my list in an object with classes and Javascript does the rest (Bootstrap style)
+
+	<span class="tab-list top">
+	- Item 1
+	- Item 2
+	- Item 2
+	</span>

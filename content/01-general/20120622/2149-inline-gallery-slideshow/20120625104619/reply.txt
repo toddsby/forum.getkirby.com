@@ -1,0 +1,15 @@
+User: bastianallgeier
+----
+Date: 2012-06-25 10:46:19
+----
+Text: Hey Sandro,
+
+sorry for my delayed reply. 
+
+Great that the gallery script works now :)
+
+The second issue might be a typo. It should be:
+
+`$page->find('projects/' . get('id'))`
+
+I hope this helps.

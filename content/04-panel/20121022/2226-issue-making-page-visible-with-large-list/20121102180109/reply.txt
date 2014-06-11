@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2012-11-02 18:01:09
+----
+Text: I'm having exactly the same issue as @tysongach
+
+Kirby 1.1.1, Panel 0.9 I believe.

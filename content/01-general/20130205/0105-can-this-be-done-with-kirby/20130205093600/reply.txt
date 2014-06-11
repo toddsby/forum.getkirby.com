@@ -1,0 +1,5 @@
+User: plartz
+----
+Date: 2013-02-05 09:36:00
+----
+Text: When you're using the Auth-plugin, you can deny (or allow) users by their username/group/whatever. Just have a look at the Auth-plugin Readme, I think there's everything you need to know: <https://github.com/bastianallgeier/kirbycms-extensions/tree/master/plugins/auth>

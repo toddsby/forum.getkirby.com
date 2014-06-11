@@ -1,0 +1,24 @@
+Title: Changing config or site vars dynamically
+----
+Date: 2013-04-05 18:57:55
+----
+Solved: 0
+----
+User: tillpro
+----
+Text: Hi—
+
+I was wondering wether it’s possible to change the content of the site.txt or the config ‘dynamically’.
+I have to save the current time and some other information.
+
+I’d like to do something like this, but it doesn’t seem to work… :(
+
+    if(c::get('lastRequest', false) == false) {
+      c::set('lastRequest', time());
+    }
+
+Any other ideas on how to handle this problem? If not I’ll have to store the information in a separate text file and extract it manually, but I’d prefer a solution using Kirby.
+
+Thanks in advance!
+
+Till

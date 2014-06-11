@@ -1,0 +1,9 @@
+User: roman_oroco
+----
+Date: 2013-02-04 16:35:31
+----
+Text: Just updated Panel 0.9.2 and Kirby 1.1.2.
+Is works now with any parameter: `limit: 5`.
+But the problem 99+ persists :( here's image below:
+
+(image: http://f.cl.ly/items/2x2p111Y2q0p1T1R1K33/Screen%20Shot%202013-02-04%20at%204.32.46%20PM.png)

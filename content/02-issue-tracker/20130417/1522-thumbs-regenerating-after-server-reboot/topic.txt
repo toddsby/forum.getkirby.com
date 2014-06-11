@@ -1,0 +1,9 @@
+Title: Thumbs regenerating after server reboot
+----
+Date: 2013-04-17 15:22:27
+----
+Solved: 0
+----
+User: roman_oroco
+----
+Text: For some reason after I reboot my server Kirby’s Thumbs plugin regenerate all thumbs on website.

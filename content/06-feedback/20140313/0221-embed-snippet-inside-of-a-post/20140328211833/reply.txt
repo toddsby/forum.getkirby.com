@@ -1,0 +1,39 @@
+User: fitzage
+----
+Date: 2014-03-28 21:18:33
+----
+Text: Heck, for now I'll give you what I have so far and maybe you can figure out how to tweak it. I'll work on modifying it later. This all goes in your kirbytext extensions file in `/site/plugins/`. You may want some of the background from (link: http://getkirby.com/blog/kirbytext text: this blog article).
+
+1. This pulls content from a very specific path (easy to change).
+2. It uses the title of the page you're pulling from in an h3 tag, the text field translated by kirbytext, and wraps it all in a div with class of highlight. You can probably also figure out how to easily change that.
+
+So in the add tags section, you'll need to add "module" as a tag (in my example) or call it whatever you want. If you haven't extended kirbytext already, it will look like this:
+
+```php
+$this->addTags('module');
+```
+
+This plugin doesn't require any attributes to be added, just the tag. For making it more flexible, it will probably end up with some attributes, like one to tell it what field to use for the content or some such.
+
+Then you add a function that looks like this:
+
+```php
+function module($params) {
+    global $site;
+
+    $module = 'developers/node/modules/' . $params['module'];
+    $moduleTitle = $site->pages()->find($module)->title();
+    $moduleBody = $site->pages()->find($module)->text();
+    $html = '<div class="highlight">';
+    $html .= '<h3>' . $moduleTitle . '</h3>';
+    $html .= kirbytext($moduleBody);
+    $html .= '</div>';
+
+    return $html;
+
+}
+```
+
+You can see here that you could easily eliminate the surrounding div, title, etc. And also change the path. The way I use this is to just use a kirbytext command of `module: slug`. Because the full path is in there already, that's all you need. However, you could do `module: full/path/slug` and remove the hard-coded path to make it more flexible already.
+
+Of course you need parenthesis before and after `module: slug`, but I forget how to make this forum not translate them, so I won't do that for now. ;-)

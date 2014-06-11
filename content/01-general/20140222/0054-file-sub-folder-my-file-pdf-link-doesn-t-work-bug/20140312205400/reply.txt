@@ -1,0 +1,5 @@
+User: josephschmitt
+----
+Date: 2014-03-12 20:54:00
+----
+Text: For some reason I can't get this to work even with a file in the same directory. When I do (file : myfile.pdf) the URL that is rendered out is /content/01-page/01-subpage/myfile.pdf instead of /page/subpage/myfile.pdf. Any ideas? Never had this problem before until this site I just deployed. Can't figure out what I'm doing differently.

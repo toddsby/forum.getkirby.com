@@ -1,0 +1,17 @@
+User: tysongach
+----
+Date: 2013-01-02 23:31:43
+----
+Text: Hi!
+
+You can do that with `sortBy`:
+
+    <?php
+    
+      $sorted = $page->children->sortBy('rating', 'desc');
+    
+      foreach($sorted as $item):
+    
+    ?>
+
+I’m not sure if you’re sorting blog posts, project or whatever else it could be, so be sure to exchange the `$page` variable with what content you need to pull.

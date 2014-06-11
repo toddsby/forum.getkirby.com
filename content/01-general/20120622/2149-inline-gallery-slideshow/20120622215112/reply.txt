@@ -1,0 +1,7 @@
+User: brtdesign
+----
+Date: 2012-06-22 21:51:12
+----
+Text: Just noticed I have this error 
+Notice: Undefined index: gallery in /Applications/MAMP/htdocs/kirby/site/plugins/kirbytext.extended.php on line 18
+ hope it helps

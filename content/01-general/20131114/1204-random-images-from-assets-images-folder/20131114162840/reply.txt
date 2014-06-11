@@ -1,0 +1,15 @@
+User: mutchov
+----
+Date: 2013-11-14 16:28:40
+----
+Text: Hi and thanks for the reply.
+
+This works fine. But it must be _$page**s**_ not _$page_:
+
+```php
+<?php $image = $pages->find('home')->images()->filterBy('title', '*=', 'header-')->shuffle()->first(); ?>
+```
+
+I will use your workaround.
+
+But I'm curious. So is it not possible to loop(?) through a folder in the assets folder?

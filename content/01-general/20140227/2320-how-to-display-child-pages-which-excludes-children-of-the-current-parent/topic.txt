@@ -1,0 +1,69 @@
+Title: How to display child pages which excludes children of the current parent?
+----
+Date: 2014-02-27 23:20:26
+----
+Solved: 0
+----
+User: sciascia10
+----
+Text: Hi There,
+
+We have a site tree that looks like this:
+
+    |_Shop
+      |_Sheets
+        |_Sheet one
+        |_Sheet two
+      |_Bed spreads
+        |_Bed spread one
+        |_Bed spread two
+      |_Duvet covers
+        |_Duvet cover one
+        |_Duvet cover two
+
+When on sheets, how do we show the child pages of Bed spreads and Duvet covers but exclude the children of the current page, sheets?
+
+At the moment we're doing it like this - but is there a way to exclude the current parent when we grab all visible children at the top of the snippet?
+
+    <?php
+      // grab all children of 'shop'
+      $items = $pages->findByUID('shop')->children()->visible();
+
+      // only output if there are items to display
+      if($items->count() > 0) :
+    ?>
+
+    <div class="box box-filigree">
+      <div class="box-image">
+        <div id="slider-recommended" class="owl-carousel">
+
+        <?php foreach($items as $item) :
+
+          // get all visible children
+          $children = $item->children()->visible();
+
+          // return a boolean to determine if the child will be in an open tree
+          $openChild = $item->isOpen();
+
+            // if child has children & the child is not open
+            if(($children->count() > 0) && (!$openChild)) :
+          ?>
+
+            <? foreach($children as $child) : ?>
+              <? if($child->hasImages()) : $image = $child->images()->first(); ?>
+                <div class="item">
+                  <a href="<?= $child->url(); ?>" alt="<?= $child->title(); ?>"><img src="<?= thumb($image, array('width' => 500), false); ?>" alt="<?= $child->title(); ?>"><h6><?= $child->title(); ?></h6></a>
+                </div>
+              <? endif ?>
+            <?php endforeach ?>
+          <?php endif ?>
+        <?php endforeach ?>
+
+        </div>
+      </div>
+    </div>
+    <?php endif ?>
+
+Also, does Kirby have something like Ultimate Parent which would travel up the tree to one level below the home page? 
+
+That way we won't have to specify the parent and could put this onto any page such as a news category page.

@@ -1,0 +1,5 @@
+User: GeishaOnABike
+----
+Date: 2013-07-07 04:50:14
+----
+Text: @5w Hi there, I am having the same 404 problem with Kirby that you had (only my home page is showing). Currently I'm developing on MAMP so I'm not quite clear how to correct the virtualhost setup (I'm somewhat of a novice). Can you clarify where you are making corrections to your directory? Thanks!

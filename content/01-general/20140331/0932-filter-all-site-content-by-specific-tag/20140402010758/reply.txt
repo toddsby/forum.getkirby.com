@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2014-04-02 01:07:58
+----
+Text: I think you'd use `$pages->index()` to get an index of all the pages. Then maybe you can chain the `filterBy()` onto that.

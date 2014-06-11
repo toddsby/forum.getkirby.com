@@ -1,0 +1,18 @@
+Title: Need help with Contactform plugin for PHP5.2
+----
+Date: 2013-05-13 16:39:32
+----
+Solved: 1
+----
+User: iamirm
+----
+Text: Hi forum,
+
+I was wondering if anybody has succesfully used the contactform plugin on PHP5.2 ? I know it was written for 5.3, and I would rewrite it if I could but I have no idea where to start.
+
+So if there's anybody out there who has rewritten it, I would really like to know.
+
+(link: https://github.com/bastianallgeier/kirbycms-extensions/tree/master/plugins/contactform)
+
+Thanks so much,
+Irma

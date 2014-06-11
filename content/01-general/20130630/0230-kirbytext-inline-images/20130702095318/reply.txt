@@ -1,0 +1,7 @@
+User: rappold
+----
+Date: 2013-07-02 09:53:18
+----
+Text: That indeed makes sense -.-
+
+I kept thinking that both images and text are always stored in _one_ `p` tag. Thanks for getting my mind back on track ;)

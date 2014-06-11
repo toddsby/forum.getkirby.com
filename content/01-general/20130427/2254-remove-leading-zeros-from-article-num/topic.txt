@@ -1,0 +1,18 @@
+Title: Remove leading zeros from $article->num()
+----
+Date: 2013-04-27 22:54:36
+----
+Solved: 1
+----
+User: chrisburton
+----
+Text: Code:
+
+    $article->num()
+
+Result:
+
+    01, 02, 03, 04, 05, 06, 07, 08, 09
+
+
+Is there a way to remove the leading zeros?

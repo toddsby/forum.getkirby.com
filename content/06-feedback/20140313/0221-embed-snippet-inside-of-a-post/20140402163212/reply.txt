@@ -1,0 +1,14 @@
+User: fitzage
+----
+Date: 2014-04-02 16:32:12
+----
+Text: My guess is it's something related to the way the snippets function works. I think you'd have to find a way to load the snippet file into a string instead of using the actual snippet function.
+
+In fact, I just tested with this code and it worked. I did `        $this->addTags('snippet');` and called it by `(snippet: customer-quote)` and then the function looks like this:
+
+```php
+function snippet($params) {
+    $html = file_get_contents($_SERVER["DOCUMENT_ROOT"] . '/site/snippets/' . $params['snippet'] . '.php');
+    return $html;
+}
+```

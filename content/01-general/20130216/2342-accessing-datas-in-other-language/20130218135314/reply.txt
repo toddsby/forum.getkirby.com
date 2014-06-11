@@ -1,0 +1,5 @@
+User: plartz
+----
+Date: 2013-02-18 13:53:14
+----
+Text: I'm not that much into multilingual kirby installations, but I thought kirby automatically detects whether the content is available or not in the selected language – if not, it uses the default language. Correct me if that's wrong – then it might be an suggestion for Bastian! ;)

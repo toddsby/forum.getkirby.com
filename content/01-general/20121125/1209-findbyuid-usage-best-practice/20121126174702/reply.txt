@@ -1,0 +1,11 @@
+User: bastianallgeier
+----
+Date: 2012-11-26 17:47:02
+----
+Text: Hm, normally I agree that findByUID should only return one page unless you add multiple UIDs like this: 
+
+```
+$pages->findByUID('uid1', 'uid2', 'uid3');
+```
+
+Could you post the code and maybe some more info about the filestructure here?

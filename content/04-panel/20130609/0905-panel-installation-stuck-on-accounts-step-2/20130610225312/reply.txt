@@ -1,0 +1,5 @@
+User: dokdeleon
+----
+Date: 2013-06-10 22:53:12
+----
+Text: @netaisllc, maybe try this: `c::set('troubleshoot', true);` on line 301 of your `http://yoursite.com/site/config/config.php`. Go to your home page and you should be able to see your setup and if there's an error, it should show up here.

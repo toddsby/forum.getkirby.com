@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-06-16 08:15:57
+----
+Text: You can use the same PHP but perhaps load elements with a variable via a snippet? Basically when you get to the Ajax bit you are only going to refresh the main part using your sidebar links as triggers with variables.

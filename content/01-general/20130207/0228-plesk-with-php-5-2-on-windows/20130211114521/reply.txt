@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-02-11 11:45:21
+----
+Text: Sorry forget the 'htaccess' stuff, I missed the Windows bit and I am sorry I don't really know a lot about Windows hosting.

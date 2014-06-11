@@ -1,0 +1,11 @@
+Title: tag: and category: after url isn't working again!
+----
+Date: 2013-04-15 20:26:28
+----
+Solved: 0
+----
+User: nathaniel_h
+----
+Text: Refer to this topic: http://getkirby.com/forum/general/topic:440
+
+I spent hours trying to get my tag index to display, along with my categories in the sidebar... they still display, but clicking on any of the links just 404's. Was there something in the new version that messed up the tagcloud plugin?

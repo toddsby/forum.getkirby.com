@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-02-23 08:53:03
+----
+Text: I don't think it would affect anything if you were serving a page as UTF-8. I do not know if it would be as good serving your page as ISO 8859-1? 
+
+We always serve up UTF-8 and I'm not sure you can change Kirby from using it.

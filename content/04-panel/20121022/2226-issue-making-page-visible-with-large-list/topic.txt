@@ -1,0 +1,17 @@
+Title: Issue making page visible with large list
+----
+Date: 2012-10-22 22:26:37
+----
+Solved: 0
+----
+User: fitzage
+----
+Text: We have almost 400 blog articles, which are all in the blog content folder. The user posting the most blog articles insists on using the control panel, and we're having an issue with that.
+
+When she tries to make the blog article visible, the panel gets bogged down (because there are so many items) when you start dragging and ends up dropping it where you don't want it instead of at the top of the list.
+
+Now we don't necessarily need it at the top of the list because everything is displayed by date, but it's a lot easier to manage if the list of items in the panel and the folder are also sorted by date.
+
+I have one idea about how to fix this. In the blueprint I could tag items as a blog or something, and maybe set sort order, and then when I'm editing an article it would have an option to take it live and add it to the top of the list, all with one click.
+
+Does this make sense?

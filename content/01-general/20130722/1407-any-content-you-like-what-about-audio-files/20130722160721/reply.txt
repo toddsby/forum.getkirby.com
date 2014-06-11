@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2013-07-22 16:07:21
+----
+Text: You just need to implement an audio player based on the instructions for that audio player, and then use the standard Kirby functions to feed it the URLs for the audio file.
+
+I do this with JPlayer. If you find an audio player you like, perhaps we can give you more specific help.

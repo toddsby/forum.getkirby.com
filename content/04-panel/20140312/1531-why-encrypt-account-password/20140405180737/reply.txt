@@ -1,0 +1,5 @@
+User: jaktwitch
+----
+Date: 2014-04-05 18:07:37
+----
+Text: Hi. I'm not entirely sure that a password encrypted with sha-1 can be decrypted just as easily, but for the sake of someone reading your files, which one would you rather prefer; plain-text or hashed?

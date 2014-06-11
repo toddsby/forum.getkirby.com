@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2012-08-28 05:17:48
+----
+Text: Ah, yes. If I'd paid attention…
+
+Blank line at the end of my truncate plugin. Sorted.

@@ -1,0 +1,19 @@
+Title: Replace images with @2x version
+----
+Date: 2012-09-13 12:35:24
+----
+Solved: 0
+----
+User: gielcobben
+----
+Text: Hi, 
+
+I'm working on a website that has two different versions. All images on the page have two different sizes. 01.png and 01@2x.png. The following script shows the cover image:
+
+    <img src="<?php echo $article->images()->find('01.png')->url(); ?>" />
+
+But i want to show the 01@2x.png if the page is visited on a retina display. Is there any plugin that can replace all the images on a page with the @2x version?
+
+Thanks,
+
+Giel

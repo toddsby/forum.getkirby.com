@@ -1,0 +1,16 @@
+Title: How do YOU handle updated blog posts?
+----
+Date: 2013-01-07 10:50:34
+----
+Solved: 0
+----
+User: hausschuh
+----
+Text: Hi everybody.
+I have a question for all of you.
+How do you bump an older blog post after it has been updated without modifying the original post date?
+
+#### Example:
+You created a blog post 6 months ago and you have some news on the subject.
+So you edit this post, you might change the headline to [Update]Title.
+How do you get it to show on the first page so everybody sees there's an update - but on the other hand they know you posted the original topic 6 months ago?

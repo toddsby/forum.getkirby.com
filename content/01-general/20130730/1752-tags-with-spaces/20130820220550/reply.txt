@@ -1,0 +1,13 @@
+User: craig_lock
+----
+Date: 2013-08-20 22:05:50
+----
+Text: I'm having issues with this as well. @diogochaves, I tried messing with your code, but couldn't seem to get it to work right. The problem I'm having is that the user creates a tag like "User Interface" and when you click on it, it takes you to <code>/tag:User%20Interface</code> and the projects don't show up, because it's looking for the tag <code>User%20Interface</code>.
+
+What I'm looking to do is the following. 
+
+- User creates tag "User Interface" in panel. 
+- Tag is displayed on front-end as "User Interface" 
+- Tag URL is displayed as 'user-interface" 
+<br />
+Is this possible? Thanks in advance for any help! I've been looking through the docs and forum, but can't seem to pin this one down. There's the code mentioned by diogochaves above, and also bastianallgeier's reply to a similar issue in this comment: <a href="http://getkirby.com/blog/tagcloud#comment-743481630">http://getkirby.com/blog/tagcloud#comment-743481630</a>, but I don't really know the correct way to implement either of these to get the result I'm looking for.

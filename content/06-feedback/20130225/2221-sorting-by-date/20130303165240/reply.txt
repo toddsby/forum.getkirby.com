@@ -1,0 +1,27 @@
+User: wieisdennis
+----
+Date: 2013-03-03 16:52:40
+----
+Text: The below mentioned has worked for me
+
+php foreach($pages as $page):
+php $postDate = strtotime($page->date());
+			$todaysDate = time() - (time() % 86400);
+				if ( $postDate >= $todaysDate) : 
+
+<//here your html>
+
+php endif ?> 
+php endforeach ?>
+
+When you want to show 3 articles/upcoming events, you have to put your limit +1, so in your case at 4
+
+Sorry, but I still don't understand to right markup for code... shame on me!
+
+
+EDIT:
+
+or shorter:
+//php if ($page->date() >= strtotime(date('d.m.Y'))): ?>
+<//here your html>
+php endif ?>

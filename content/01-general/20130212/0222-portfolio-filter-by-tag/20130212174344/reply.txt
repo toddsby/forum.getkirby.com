@@ -1,0 +1,5 @@
+User: d2k0bler
+----
+Date: 2013-02-12 17:43:44
+----
+Text: Thats it, is there supposed to be a separate page created for the results? it returns all the results instead of filtering them

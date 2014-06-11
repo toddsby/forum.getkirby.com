@@ -1,0 +1,27 @@
+User: russbaldwin
+----
+Date: 2013-12-19 08:46:48
+----
+Text: Is your `$articles` variable a paginated array? e.g.
+```php
+<?php
+// Get the array of articles as desired, 
+// format as required and paginate
+$articles = $pages->find('articles')
+                  ->children()
+                  ->visible()
+                  ->flip()
+                  ->paginate(5);
+
+// Then just show the various pagination 
+// elements as an example
+echo 'Page'.
+$articles->pagination->countItems()
+.' Articles - Page '.
+$articles->pagination->page()
+.' of '.
+$articles->pagination->countPages();
+
+?>
+```
+Not tested....

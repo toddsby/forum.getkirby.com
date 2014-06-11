@@ -1,0 +1,13 @@
+Title: Set a menulink to disable
+----
+Date: 2013-10-21 00:37:54
+----
+Solved: 0
+----
+User: janstieler
+----
+Text: Hi,
+is the a possibility to set an menulink to dissabled?
+I want to show the menulink but it should not load any content.
+
+BR

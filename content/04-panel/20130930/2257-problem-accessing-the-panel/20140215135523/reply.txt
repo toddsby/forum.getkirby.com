@@ -1,0 +1,13 @@
+User: edusoftdev
+----
+Date: 2014-02-15 13:55:23
+----
+Text: i do have the same issue at the end it says
+ The page isn't redirecting properly
+<VirtualHost *:80>
+ServerAlias mysite.com *.mysite.com
+    ServerName www.mysite.com
+    DocumentRoot /var/www/html/mysite.com
+    ErrorLog logs/fwc-error_log
+    CustomLog logs/fwc-access_log common
+</VirtualHost>

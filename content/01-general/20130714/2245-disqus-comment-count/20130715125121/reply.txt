@@ -1,0 +1,5 @@
+User: vis7mac
+----
+Date: 2013-07-15 12:51:21
+----
+Text: Try using `home/` instead of `/home/`, because your identifiers are like `home/a-third-awesome-article` without the leading slash.

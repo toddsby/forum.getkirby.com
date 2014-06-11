@@ -1,0 +1,7 @@
+User: bsag
+----
+Date: 2012-09-19 20:34:48
+----
+Text: Excellent - I've just tried this and it seems to work fine. With a TextExpander snippet to insert the current date and time in the correct format, it's not really any more work than using the datepicker :-)
+
+Thanks for the help!

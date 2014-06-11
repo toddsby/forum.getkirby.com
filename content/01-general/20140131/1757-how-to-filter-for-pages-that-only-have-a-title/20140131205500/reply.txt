@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2014-01-31 20:55:00
+----
+Text: I'm not sure you can do that easily, but you can easily check to see if another specific field has any contents. So if you want to just do this for items that have no body content in the text field, you can wrap things in a conditional statement that checks if text is empty or not.

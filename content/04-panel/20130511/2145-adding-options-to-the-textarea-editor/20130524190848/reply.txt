@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2013-05-24 19:08:48
+----
+Text: Ooh, nice. I might have to use those.
+
+I've always wondered why the header tags didn't go above h3 by default, since you likely don't want to use either h1 or h2 within an article (site title is h1, article title is h2).

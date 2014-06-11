@@ -1,0 +1,41 @@
+User: pixelbande
+----
+Date: 2013-11-25 11:33:20
+----
+Text: Hi Folks,
+
+I figured something out relating the editing-cart-problem. The solution works fine on my little Kirby-installation. In the cart.php template, after
+
+    case 'add':
+        if (isset($cart[$id])) {
+            $cart[$id]++;
+        } else {
+            $cart[$id] = 1;
+        }
+        break;
+
+just add
+
+    case 'remove':
+        if (isset($cart[$id])) {
+            $cart[$id]--;
+        } else {
+            $cart[$id] = 1;
+        }
+        break;
+
+Then, in your cart.php replace
+
+    <td><input data-id="<?php echo $product->uid() ?>" data-  quantity="<?php echo $quantity ?>" pattern="[0-9]*"  class="quantity" type="number" name="quantity_<?php echo $i ?>" min="1" value="<?php echo $quantity ?>"> <a href="<?php echo url('shop/cart') ?>?action=delete&amp;id=<?php echo $product->uid() ?>">Remove</a></td>
+
+with
+
+    <td>
+        <input data-id="<?php echo $product->uid() ?>" data-quantity="<?php echo $quantity ?>" pattern="[0-9]*"  class="quantity" type="hidden" name="quantity_<?php echo $i ?>" min="1" value="<?php echo $quantity ?>">
+        <?php echo $quantity ?> piece<?php if ($quantity > 1) echo 's' ?>
+        <a href="<?php echo url('shop/cart') ?>?action=add&amp;id=<?php echo $product->uid() ?>">(more/</a>
+        <a href="<?php echo url('shop/cart') ?>?action=remove&amp;id=<?php echo $product->uid() ?>">less/</a>
+        <a href="<?php echo url('shop/cart') ?>?action=delete&amp;id=<?php echo $product->uid() ?>">remove)</a>
+    </td>
+
+And thanks again for your awesome work, Josh!

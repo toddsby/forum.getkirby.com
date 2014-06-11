@@ -1,0 +1,17 @@
+Title: Magazine website with Kirby
+----
+Date: 2013-01-16 16:55:26
+----
+Solved: 0
+----
+User: roman_oroco
+----
+Text: Dear Kirby users,
+have any of you tried to use Kirby 1.1 for magazine website? I'm talking about thousands of publications per year with photos, videos and many king of topics.
+
+1. In your opinion what are the biggest limitations that we can encounter?
+
+2. What are the benefits that Kirby can give us?
+
+
+*(Lets try to exclude the Panel so we can focus more on Kirby side)*

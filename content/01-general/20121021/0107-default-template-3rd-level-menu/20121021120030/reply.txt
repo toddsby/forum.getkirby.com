@@ -1,0 +1,5 @@
+User: lulezi
+----
+Date: 2012-10-21 12:00:30
+----
+Text: You could take the (link: https://github.com/bastianallgeier/kirbycms-extensions/tree/master/snippets/treemenu text: treemenu snippet) instead of the submenu snippet and then just begin on the 2nd level.

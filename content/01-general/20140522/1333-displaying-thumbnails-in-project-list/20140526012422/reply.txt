@@ -1,0 +1,13 @@
+User: gintwist
+----
+Date: 2014-05-26 01:24:22
+----
+Text: Thank you. I actually found the solution earlier but forgot to get back in here to mark it as solved. 
+
+As for excluding the thumbnail in the individual view, I ended up using this instead: 
+
+`<?php foreach($page->images()->not('thumb.png') as $image): ?>`
+
+Works the same to me, but looks a bit cleaner.
+
+Thanks.

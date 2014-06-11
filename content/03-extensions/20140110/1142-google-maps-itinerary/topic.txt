@@ -1,0 +1,11 @@
+Title: Google maps itinerary
+----
+Date: 2014-01-10 11:42:32
+----
+Solved: 0
+----
+User: cgaraude
+----
+Text: Hello,
+is there a way to display an itinerary with the Google map snippet ?
+Thx in advance.

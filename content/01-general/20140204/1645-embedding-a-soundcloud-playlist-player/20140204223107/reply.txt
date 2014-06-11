@@ -1,0 +1,9 @@
+User: francescoea
+----
+Date: 2014-02-04 22:31:07
+----
+Text: k., take a look to this post on my blog:
+
+(link:http://www.softworkr.com/blog/20140115-extending-kirbytext-embed-facebook-spotify)
+
+It's about how to embed a spotify track, you can start from there to embed soundcloud playlists.

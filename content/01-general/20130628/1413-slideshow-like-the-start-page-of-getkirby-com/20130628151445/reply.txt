@@ -1,0 +1,10 @@
+User: teimaz
+----
+Date: 2013-06-28 15:14:45
+----
+Text: yes, the orbit slideshow is nice. but im not understanding which part i have to put where. 
+so far i did understand i had to give the information in these folders. 
+
+/assets/js/
+/site/snippets
+/site/templates

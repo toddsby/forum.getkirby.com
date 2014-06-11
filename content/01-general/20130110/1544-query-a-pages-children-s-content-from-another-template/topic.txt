@@ -1,0 +1,18 @@
+Title: Query a pages children's content from another template
+----
+Date: 2013-01-10 15:44:08
+----
+Solved: 0
+----
+User: richgcook
+----
+Text: I'm setting up a site with two different views for the same content - a list view and a grid view. I'm wondering (if it's possible) how you can query another page and it's children from a different template.
+
+So far I thought this would work, but hasn't been successful:
+
+<?php $work = $pages->find('work'); foreach($work->children()->visible() as $project): ?>
+
+Any ideas?
+
+Cheers,
+R

@@ -1,0 +1,9 @@
+User: russbaldwin
+----
+Date: 2013-01-14 09:19:01
+----
+Text: What version of PHP is you local MAMP?
+Does it have the same PHP modules?
+Is the Web Server software (Apache or something else) the same?
+
+Could be a lot of things? Perhaps this should be in [Issue Tracker](http://getkirby.com/forum/issue-tracker)

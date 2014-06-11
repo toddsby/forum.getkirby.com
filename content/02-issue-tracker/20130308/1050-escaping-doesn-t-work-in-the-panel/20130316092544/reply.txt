@@ -1,0 +1,27 @@
+User: Haustraliaer
+----
+Date: 2013-03-16 09:25:44
+----
+Text: I too have this problem. Or perhaps something similar...
+
+When using an extended kirbytext tag I cannot have any parenthesis '(' or ')' inside my tags as they are used to open and close the tag itself. Escaping them _should_ work... but doesn't appear to as the OP has also found with his ordered list example.
+
+### Here's my example
+
+I want to create a 'footnote' custom tag, that is styled in a particular way and has id hooks for js etc... But it has to be in-line for the editor so they can place it anywhere in a paragraph. 
+
+So I create a custom kirbytag:
+
+	(footnote: text for my footnote id: 1)
+	
+	(footnote: this one does not work (<- if I add these ->) id: 2)
+	
+	(footnote: this one *should* work [backslash](like so[backslash]) id: 3)
+
+Unfortunately the escape backslashes don't work at all and the following error is thrown:
+
+Notice: Undefined index: id in [site-path]/site/plugins/kirbytext.extended.php on line 19
+
+(line 19 is my custom function)...
+
+Anyone know the solution?

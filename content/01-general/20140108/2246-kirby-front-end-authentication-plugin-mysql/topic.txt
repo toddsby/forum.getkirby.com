@@ -1,0 +1,13 @@
+Title: Kirby Front End Authentication plugin & MySQL
+----
+Date: 2014-01-08 22:46:48
+----
+Solved: 0
+----
+User: crisp_concepts
+----
+Text: Has anybody modified the front end authentication plugin to validate against user information in a MySQL database using kirby toolkit?
+
+I'm not very experienced working with databases and trying to learn. I've managed to create the accounts successfully, but I don't know how to modify auth.php to validate from DB instead of the flat files.
+
+Any fingers in the right direction to resources that could help me figure it out would be appreciated as well. Ill gladly share the results with the community once it's settled.

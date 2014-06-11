@@ -1,0 +1,11 @@
+Title: Panel add-page throw an error
+----
+Date: 2012-11-09 12:47:51
+----
+Solved: 0
+----
+User: loasca
+----
+Text: Hi,
+every time I create a new page from the panel (v0.9), it succeed to create it but redirects me to an error page.
+If I navigate back to the page I just created I can then edit it without problem.

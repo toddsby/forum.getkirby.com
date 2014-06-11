@@ -1,0 +1,5 @@
+User: hey_steffen
+----
+Date: 2012-11-27 16:19:20
+----
+Text: Setting the locale params depends on your OS (win/unix).. for example.. I'm using WAMP (win), so I have to set the 2nd variable to `nl_NL` versus `nld_NLD`. More info at php.net

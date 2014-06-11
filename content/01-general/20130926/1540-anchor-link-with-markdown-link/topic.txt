@@ -1,0 +1,18 @@
+Title: Anchor Link with Markdown (link: ...)?
+----
+Date: 2013-09-26 15:40:27
+----
+Solved: 1
+----
+User: mkeipert
+----
+Text: Hello,
+
+I am building a singlepage with different sections.
+
+Now I have some links from one section to the other via href="#anchor" trying to write it in Markdown with (link: anchor), but I don't get the right html out of it.
+
+How can I get that working? Hope, this question is not too stupid, but by now I have no idea of a solution...
+
+Best,
+Mario

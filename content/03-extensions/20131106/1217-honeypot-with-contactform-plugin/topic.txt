@@ -1,0 +1,41 @@
+Title: Honeypot with Contactform plugin
+----
+Date: 2013-11-06 12:17:43
+----
+Solved: 0
+----
+User: yoseihana
+----
+Text: Hi there!
+
+I'm using the Contactfrom plugin and I've found that a month ago, they was a merge from this request: [68ab650]https://github.com/dweidner/kirbycms-extensions/commit/68ab6508dbb1221cf87cfd63dd25d65aa02f57fc
+
+I thought, yes! I can use something else than the horrible captcha! But the only thing I've found is a new function inside the submission.php and no information for "How to use it" :(
+
+I've tried to use it like this in the contactform.php
+$form = new contactform(array(
+    'to' => 'Anna <email@email.lu>',
+    'from' => 'mail@mail.lu',
+    'subject' => 'New contact ',
+    'goto' => $page->url() . 'status:thank-you',
+    'honeypot' => 'email'
+));
+And in my form:
+&lt;!-- The honeypot field --&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;email&quot; value=&quot;Email&quot;&gt;
+&lt;p class=&quot;contactform-field&lt;?php if ($form-&gt;isError('email')) echo ' error' ?&gt;&quot;&gt;
+                    &lt;label class=&quot;contactform-label&quot; for=&quot;contactform-email&quot;&gt;
+                        &lt;?php if ($form-&gt;isError('email')): ?&gt;
+                            &lt;small&gt;&lt;?php echo l::get('errorEmail'); ?&gt;&lt;/small&gt;
+                        &lt;?php endif ?&gt;
+                    &lt;/label&gt;
+&lt;!-- The current email field --&gt;
+                    &lt;input class=&quot;contactform-input&quot; type=&quot;email&quot; name=&quot;nohoneypotemail&quot; placeholder=&quot;E-mail&quot; data-trigger=&quot;change&quot;
+                           data-required=&quot;true&quot; data-type=&quot;email&quot;&gt;
+                &lt;/p&gt;
+When I submit my form, there is no longer any check for some errors and my form is always submit, but I never receive the email... 
+So in fact, nothing works... :(
+
+I'm not sure if everything seems clear but if you need more informations, let me know!
+
+Thanks for your help!

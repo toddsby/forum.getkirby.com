@@ -1,0 +1,13 @@
+Title: Tree Accordion
+----
+Date: 2013-05-10 14:38:32
+----
+Solved: 0
+----
+User: hagatorn
+----
+Text: I wanted to make a recursive tree style accordion Nav.  It works now using twitter bootstrap.  Would like to work with someone on the js to make elements close on click selectively.  
+
+You can see the accordion in action here on the test-site <http://www.medlargroup.com>
+
+and the code is here: <https://gist.github.com/hagatorn/5554164>

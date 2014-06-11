@@ -1,0 +1,29 @@
+User: fvsch
+----
+Date: 2013-11-03 21:47:19
+----
+Text: There could be one hackish solution:
+
+- if you have many blog articles, wish to publish with URLs such as `domain.tld/article-name/` (without a prefix such as `/blog/` or `/articles/` or whatever before the article’s folder name),
+- and your other content is a fairly limited number of folders,
+
+then you could use URL rewriting to rewrite everything *except* what you know does not belong to the blog part.
+
+Adding to the Kirby default `.htaccess`:
+
+    # Make panel links work
+    ...
+    
+    # Rewrite everything with a filename or base folder
+    # we don't explicitely list, so that it goes to "blog/."
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !^(robots\.txt|\.well-known|assets|static|some-page|some-other-page|something-else)(/|$)
+    RewriteRule ^(.*) /blog/$1 [L]
+    
+    # Make site links work
+    ...
+
+I haven’t tested it, it’s probably buggy! In particular I’m not sure about the flag(s) at the end of the RewriteRule: we want the next RewriteRule (“Make site links work”) to be applied as well.
+
+I’m not exactly sure mod_rewrite can do exactly what I suggest, but it’s worth a try if you’re in the situation I described earlier (and feel comfortable playing with Apache directives).

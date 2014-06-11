@@ -1,0 +1,5 @@
+User: alfredluk
+----
+Date: 2013-01-14 15:17:15
+----
+Text: Resolved by clearing the cache file. Thanks!

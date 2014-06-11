@@ -1,0 +1,22 @@
+User: bastianallgeier
+----
+Date: 2012-07-12 11:54:37
+----
+Text: @DanielGenser right now you probably use `$page->url()` or in a loop probably something like `$article->url()`, right? 
+
+Just change that in your templates to:
+
+```
+<?php echo url($page->uid()) ?>  
+```
+
+or in the loop:
+
+```
+<?php echo url($article->uid()) ?>  
+```
+(or whatever variable name you chose for your loop)
+
+That should give you urls like: 
+
+http://yourdomain.com/your-article

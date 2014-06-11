@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-03-11 16:23:42
+----
+Text: For the second bit he seems to be using [http://papermashup.com/jquery-show-hide-plugin/](http://papermashup.com/jquery-show-hide-plugin/) Javascript

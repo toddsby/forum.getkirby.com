@@ -1,0 +1,15 @@
+User: russbaldwin
+----
+Date: 2013-07-18 16:58:42
+----
+Text: I like it, very simple and a good place to start from. 
+I realise it's a beta but I've spotted some stuff which may help in a brief look...
+
++ Page weight is quite big. Lot of JS, lots of files and http calls. I cannot help thinking at least some of this could be better done with smaller combined JS and CSS3? ;-)
++ 'Search' txt doesn't vanish when I click on it?
++ No hover on small screen menu, just because it is small does not mean it is touch.
++ Not enough room for footer test on small screen.
++ The contact from is not very user-friendly with its' errors or accessible (no labels etc).
++ Probably still needs a bit more typographic styling even though it is a beta?
+
+Hope this helps, keep up the good work!

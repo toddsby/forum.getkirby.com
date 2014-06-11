@@ -1,0 +1,19 @@
+Title: Trouble installing panels
+----
+Date: 2013-04-23 22:49:19
+----
+Solved: 0
+----
+User: charlesminxfarq
+----
+Text: Hey guys
+
+I've recently decided to build my portfolio in kirby, however, when i'm setting up the site on my local server (in XAMPP), I download the files from git, and follow the instructions and place the files in the correct areas in the folders, but when I refresh the page -- I get this error: 
+
+Warning: require_once(C:xampphtdocs/kirby/lib/kirby.php) [function.require-once]: failed to open stream: No such file or directory in C:xampphtdocsgetkirbyindex.php on line 64
+
+Fatal error: require_once() [function.require]: Failed opening required 'C:xampphtdocs/kirby/lib/kirby.php' (include_path='.;C:xamppphpPEAR') in C:xampphtdocsgetkirbyindex.php on line 64
+
+Am I missing something horrifically obvious? 
+
+Cheers in advance!

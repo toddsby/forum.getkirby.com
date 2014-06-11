@@ -1,0 +1,13 @@
+Title: Guestbook in Kirby?
+----
+Date: 2013-11-22 16:16:21
+----
+Solved: 0
+----
+User: janstieler
+----
+Text: Hi,
+I need a guestbook for a Kirbysite.
+Does somthing exist or can someone explain me how i can wrote datas from a formfield in textfile like the normal Kirbycontent from frontend?
+
+BR

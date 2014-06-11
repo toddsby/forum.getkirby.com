@@ -1,0 +1,9 @@
+Title: Is db::insert safe from SQL injections?
+----
+Date: 2014-04-04 14:56:06
+----
+Solved: 0
+----
+User: jens_tornell
+----
+Text: For creating a commenting system MySQL can be of use. Does anyone know if The db::insert is safe from SQL injections?

@@ -1,0 +1,22 @@
+Title: Panel should not generate fields for empty fields
+----
+Date: 2013-03-21 20:41:43
+----
+Solved: 0
+----
+User: fitzage
+----
+Text: Or, when checking for a field, Kirby should return false if it exists but is empty.
+
+Currently, if I have an optional field, editing or creating an entry in the panel creates that field whether it's left empty or not. That means this code:
+
+    <?= ($page->fulltitle()) ? blah : blah ?>
+
+Will return true when in fact it should be false. Meaning I have to instead use this obnoxious code:
+
+    <?= ($page->fulltitle() != "") ? blah : blah ?>
+
+So there are two options for fixes:
+
+1. Make the panel not create these fields in the text file if they're left empty or
+2. Have $page->blah() return false if the field exists but is empty.

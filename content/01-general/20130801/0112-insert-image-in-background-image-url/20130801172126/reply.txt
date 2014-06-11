@@ -1,0 +1,9 @@
+User: mauphie
+----
+Date: 2013-08-01 17:21:26
+----
+Text: Just to clarify, this is from (link: http://www.turnjs.com/ text:Turn.js) that creates a pageflip using html/jquery. I have used this before in non-Kirby projects and it's worked fine.
+
+The div.flipbook is assigned width and height via jquery.
+
+I'm going to keep plugging away at it. It's probably a stupid, little thing that's tripping me up.

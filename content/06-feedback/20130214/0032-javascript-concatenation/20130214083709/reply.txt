@@ -1,0 +1,17 @@
+User: russbaldwin
+----
+Date: 2013-02-14 08:37:09
+----
+Text: Don't think so, so I mostly use [CodeKit](http://incident57.com/codekit/) for this and Less/CSS. If it were to be in a new version then it would need to cope with:
+
++ JS code both in the header, perhaps body and of course footer
++ JS compression and concatenation and perhaps checking?
++ LESS, Compass, SASS and CSS compression, concatenation, checking and the ability to split out stuff if required.
++ Perhaps images compression?  
++ Perhaps other things?
+
+---
+
+They would maybe need version control and cache busting. I like the [HTML5 Boilerplate version/cache busting myself](https://github.com/h5bp/html5-boilerplate/blob/v4.1.0/doc/htaccess.md). 
+
+Indeed this version control and cache busting might provide an easier and more flexible way of doing this in Kirby from pre-compiled JS/CSS ?

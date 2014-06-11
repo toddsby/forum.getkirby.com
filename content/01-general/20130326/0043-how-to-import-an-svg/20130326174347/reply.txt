@@ -1,0 +1,20 @@
+User: russbaldwin
+----
+Date: 2013-03-26 17:43:47
+----
+Text: Assuming a set of folder under 'myFolders', something like:
+
+```php
+<h3>Find svg file types with 'filterBy('extension', 'svg')'<h3> 
+  <ul>
+    <?php foreach($pages->find('myFolders')->children() as $pagelist): ?>
+      <?php foreach($pagelist->files()->filterBy('extension', 'svg') as $svgimage): ?>
+        <li>
+          <img src="<?php echo $svgimage->url() ?>" alt="<?php echo $svgimage->name() ?>" />
+          <?php echo $svgimage->name()?>
+        </li>
+      <?php endforeach ?>
+    <?php endforeach ?>
+  </ul>
+```
+*Long hand for clarity...*

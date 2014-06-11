@@ -1,0 +1,56 @@
+Title: Panel empties content in textarea
+----
+Date: 2013-08-04 21:43:24
+----
+Solved: 0
+----
+User: swissendo
+----
+Text: I'm not shure if this is a bug or just me being stupid, but I have a small problem with the panel: It seems to delete/hide the input of a certain field (`video_ID`). Everything is saved to the .txt, so the post works fine, but as soon as I hit "save" or when I open the post again in the panel, the textfield is empty again. If tried changing it to a textarea, but that didn't help either. Could the problem be the "gibberish" input?
+
+**The blueprint:**
+      # Blueprint for an article (video)
+
+      title: Video
+      pages: false
+      files: true
+      fields:
+        title: 
+          label: Title
+          type: text  
+        video_ID: 
+          label: Video ID
+          type: text 
+          help: Ex. 9beZq5bS10o
+          required: true    
+        video: 
+          label: Website
+          type: radio
+          default: youtube
+          options:
+            youtube: Youtube
+            vimeo: Vimeo
+          required: true
+        text: 
+          label: Text
+          type: textarea
+          size: small
+        date:
+          label: Date
+          type: date
+          format: dd.mm.yy
+          required: true    
+        category:
+          label: Category
+          type: tags
+          index: siblings
+          required: true    
+        tags: 
+          label: Tags
+          type: tags
+          index: siblings
+          lower: true
+        comments: 
+          label: Disqus Comments
+          type: checkbox
+          default: off

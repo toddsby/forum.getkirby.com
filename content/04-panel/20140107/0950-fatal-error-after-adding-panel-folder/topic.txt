@@ -1,0 +1,15 @@
+Title: Fatal Error after adding panel folder
+----
+Date: 2014-01-07 09:50:53
+----
+Solved: 0
+----
+User: nilshendriks
+----
+Text: I added the panel folder (dev tree) to kirbytax version and when I go to localhost/kirbytax to get the installation instructions I get this:
+
+```
+Fatal error: Cannot make non static method uri::raw() static in class paneluri in kirbytax/panel/lib/uri.php on line 15
+```
+
+Anyone any idea?

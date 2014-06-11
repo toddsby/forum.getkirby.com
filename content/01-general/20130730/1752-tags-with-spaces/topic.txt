@@ -1,0 +1,13 @@
+Title: Tags with spaces
+----
+Date: 2013-07-30 17:52:03
+----
+Solved: 0
+----
+User: theseason
+----
+Text: I'm using the tagcloud with success to sort a portfolio. Now, I have a "tag" that is 2 words "annual reports". The space breaks the isotope.js sort.
+
+Is there a way to turn the space into a dash or just remove it? I could put the dash in the tag, but this carries over to the display of the tag on the page. There has to be a way to strip the space, right?
+
+Thanks for your time.

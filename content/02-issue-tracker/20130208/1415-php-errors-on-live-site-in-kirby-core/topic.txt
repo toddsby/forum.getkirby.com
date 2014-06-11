@@ -1,0 +1,25 @@
+Title: PHP errors on live site, in Kirby core
+----
+Date: 2013-02-08 14:15:46
+----
+Solved: 0
+----
+User: grimmweb
+----
+Text: After having placed the site in my client's hosting account, I get errors that I did not get when testing on another hosting server. The site I just uploaded is an exact copy of the error-free one, except the license number and the site URL.
+
+The error I get:
+Uninitialized string offset: 0 in /var/www/vhosts/zowel.eu/httpdocs/kirby/lib/variables.php on line 27
+
+Apart from that, the site works.
+
+After logging into the panel, I get this:
+Notice: Uninitialized string offset: 0 in /var/www/vhosts/zowel.eu/httpdocs/kirby/lib/variables.php on line 27
+Warning: Cannot modify header information - headers already sent by (output started at /var/www/vhosts/zowel.eu/httpdocs/kirby/lib/variables.php:27) in /var/www/vhosts/zowel.eu/httpdocs/kirby/lib/kirby.php on line 47
+
+That's Kirby core, so I did not touch that.
+
+URL of the error-free site: www.simpelcms.nu
+URL of the error-throwing site: www.zowel.eu
+
+Any ideas anyone?

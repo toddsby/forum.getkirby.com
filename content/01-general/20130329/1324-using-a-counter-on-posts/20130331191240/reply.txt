@@ -1,0 +1,9 @@
+User: _diondiondion
+----
+Date: 2013-03-31 19:12:40
+----
+Text: Don't you simply want to number your posts, the same way Kirby numbers visible posts? If so, just use the same number like so:
+
+```
+<?php echo $article->num() ?>
+```

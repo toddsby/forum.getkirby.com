@@ -1,0 +1,21 @@
+User: kamptweets
+----
+Date: 2014-02-05 16:38:51
+----
+Text: Hi, I dont seem to get it to work... it just gets rendered as text.
+Did i do something wrong or is there a typo?
+
+
+here is my php file:
+<a title="kirbytext.extended.php" href="https://www.dropbox.com/s/pdz4hqtbd4qogcv/kirbytext.extended.php">kirbytext.extended.php</a>
+
+And here is how i try to embed it within my project.txt file:
+
+soundcloud:https://soundcloud.com/rap-up-music/sets/little-mix-salute-album
+
+
+are there any php experts that can spot the error?
+I am no coder myself...
+
+thanks a lot!
+K.

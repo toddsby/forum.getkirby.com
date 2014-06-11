@@ -1,0 +1,27 @@
+Title: Return the value and not the key
+----
+Date: 2013-07-15 23:41:42
+----
+Solved: 1
+----
+User: jean_francois
+----
+Text: Hi!
+
+I'm using the Panel and I made a blueprint like this:
+<pre>
+sex:
+  label: Sex
+  type: radio
+  options:
+    firstValue: Male
+    secondValue: Female
+    thirdValue: Other
+  default: secondValue
+</pre>
+
+When, in my template file I use <code>echo $page->sex()</code>, it displays secondValue, and not Female. I want to display "Female" instead of secondValue.
+
+Does someone know how to retrieve the value and not the key ? Same "problem" with a select box.
+
+Thank you!

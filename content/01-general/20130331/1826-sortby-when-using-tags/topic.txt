@@ -1,0 +1,29 @@
+Title: SortBy when using tags
+----
+Date: 2013-03-31 18:26:30
+----
+Solved: 1
+----
+User: richgcook
+----
+Text: Hi folks,
+
+I'm wondering if it's possible to sort a tag list output? I'm using tags as part of my main navigation and need to sort the list items a little better.
+
+Here is what I have so far:
+
+                <div class="menu-nav">
+			<ul>
+			<?php $work = $pages->find('work'); $tags = tagcloud($work); ?>
+			<?php foreach($tags as $tag): ?>
+			<li><a <?php if($tag->isActive()) echo ' class="active"' ?> href="<?php echo $tag->url() ?>"><?php echo $tag->name() ?></a></li>
+			<?php endforeach ?>
+			<?php foreach($pages->visible()->not('work') AS $p): ?>
+			<li><a<?php echo ($p->isOpen()) ? ' class="active"' : '' ?> href="<?php echo $p->url() ?>"><?php echo html($p->title()) ?></a></li>
+			<?php endforeach ?>
+			</ul>
+		</div>
+
+I thought this would work, but it returns an error.
+
+     <?php $work = $pages->find('work')->sortBy('title', 'desc'); $tags = tagcloud($work); ?>

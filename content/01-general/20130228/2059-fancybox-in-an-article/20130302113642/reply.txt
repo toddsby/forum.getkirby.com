@@ -1,0 +1,14 @@
+User: russbaldwin
+----
+Date: 2013-03-02 11:36:42
+----
+Text: Sorry forgot the JS code... something like (not tested) be more specific with an 'a'?
+
+```js
+
+$("a.fancybox").fancybox({
+	padding: 0,
+        ...
+        });
+
+```

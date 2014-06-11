@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2012-12-10 18:06:39
+----
+Text: It's probably because you're using HTML5 elements that IE8 doesn't support. You should be able to easily fix it by adding Google's HTML5 shim for old IE versions.

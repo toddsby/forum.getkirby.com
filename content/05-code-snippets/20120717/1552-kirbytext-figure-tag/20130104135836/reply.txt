@@ -1,0 +1,7 @@
+User: bastianallgeier
+----
+Date: 2013-01-04 13:58:36
+----
+Text: Since the figure tag inherits from the image tag you should be able to do something like: 
+
+(figure: myimage.jpg width: 300 link: this caption: awesome)

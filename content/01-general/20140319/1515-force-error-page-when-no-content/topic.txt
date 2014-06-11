@@ -1,0 +1,17 @@
+Title: Force error page when no content
+----
+Date: 2014-03-19 15:15:18
+----
+Solved: 0
+----
+User: jens_tornell
+----
+Text: I try to force an error page if...
+
+ - ...no content is set on a special content variable.
+ - ...no txt-file is found in the folder.
+ - ...default template is used.
+
+I tried to echo $page->template() in a file in the plugin folder but it was not found. Probably the $page object is created later.
+
+How do I solve this? As a plugin or in the template. When in a template it's already has gone too far I think!?

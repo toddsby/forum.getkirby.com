@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-07-31 18:16:41
+----
+Text: PHP? The [PHP manual](http://php.net/manual/en/index.php) is always a good place to start as is the [Kirby Toolkit Docs](http://toolkit.getkirby.com/docs) check out [str_replace](http://php.net/manual/en/function.str-replace.php).

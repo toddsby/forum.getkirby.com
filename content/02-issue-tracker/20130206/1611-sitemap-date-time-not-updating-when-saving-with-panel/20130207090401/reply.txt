@@ -1,0 +1,70 @@
+User: russbaldwin
+----
+Date: 2013-02-07 09:04:01
+----
+Text: I just checked and it was/is doing it on the previous version of Kirby/Panel as well.
+
+I just updated [this 'Food and Drink' page](http://www.andreainsworth.com/foodanddrink) in Panel (@ Thu, 7 Feb 2013 07:52)
+
+Looking at the file (gallery.md) in FTP gives:
+
+    Modified: Thu, 7 Feb 2013 07:52
+
+
+Using this code, we are hiding some pages, but it is the same with the standard code:
+
+```php
+<?php
+$ignore = array('sitemap','error');
+// send the right header
+header('Content-type: text/xml; charset="utf-8"');
+// echo the doctype
+echo '<?xml version="1.0" encoding="utf-8"?>';
+?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <?php foreach($pages->visible() AS $p): ?>
+   <?php if(in_array(basename($p->uri()), $ignore)) continue ?>
+    <url>
+      <loc><?php echo html($p->url()) ?></loc>
+      <lastmod><?php echo $p->modified('c') ?></lastmod>
+      <priority><?php echo ($p->isHomePage()) ? 1 : number_format(0.9/$p->depth(), 1) ?></priority>
+    </url>
+    <?php if($p->children()->visible()->count()): ?>
+      <?php foreach($p->children()->visible() AS $item): ?>
+        <?php if(in_array(basename($item->uri()), $ignore)) continue ?>
+          <url>
+            <loc><?php echo html($item->url()) ?></loc>
+            <lastmod><?php echo $item->modified('c') ?></lastmod>
+            <priority><?php echo number_format(0.9/$item->depth(), 1) ?></priority>
+          </url>
+      <?php endforeach ?>
+    <?php endif ?>
+  <?php endforeach ?>
+</urlset>
+
+```
+
+So cleared site cache, cleared all browser caches...
+Gives this result in the [site sitemap](http://www.andreainsworth.com/sitemap.php): e.g is has not updated even though the FTP client says it has.
+
+```php
+<url>
+  <loc>http://www.andreainsworth.com/foodanddrink</loc>
+  <lastmod>2013-02-06T14:34:33+00:00</lastmod>
+  <priority>0.9</priority>
+</url>
+```
+
+I then open a [different page's (PR)](http://www.andreainsworth.com/pr) 'gallery.md' file in my FTP client and edit and save it. The [sitemap](http://www.andreainsworth.com/sitemap.php) updates!
+
+```php
+<url>
+  <loc>http://www.andreainsworth.com/pr</loc>
+  <lastmod>2013-02-07T08:09:30+00:00</lastmod>
+  <priority>0.9</priority>
+</url>
+```
+
+I only spotted it because Google seemed to be ignoring some changes... any ideas?

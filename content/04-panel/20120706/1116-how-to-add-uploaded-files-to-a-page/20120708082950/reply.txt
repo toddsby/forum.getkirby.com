@@ -1,0 +1,5 @@
+User: DanielGenser
+----
+Date: 2012-07-08 08:29:50
+----
+Text: Thanks Bastian. I do see that. I can successfully upload a file, however the problem is this – how do I then add it to the content of the page?

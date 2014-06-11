@@ -1,0 +1,11 @@
+Title: Extending Kirbytext to embed Facebook status and Spotify tracks
+----
+Date: 2014-01-15 22:13:18
+----
+Solved: 0
+----
+User: francescoea
+----
+Text: I wrote a couple of extensions about Facebook and Spotify. Hope you may find them useful.
+
+(link:http://softworkr.com/blog/20140115-extending-kirbytext-embed-facebook-spotify text:http://softworkr.com/blog/20140115-extending-kirbytext-embed-facebook-spotify)

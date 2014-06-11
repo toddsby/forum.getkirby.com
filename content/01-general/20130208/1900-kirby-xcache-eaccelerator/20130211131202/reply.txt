@@ -1,0 +1,6 @@
+User: roman_oroco
+----
+Date: 2013-02-11 13:12:02
+----
+Text: @russbaldwin Yeah gzip and cache stuff it's will be done as well.
+Using Adaptive Images clients have to make manually different versions per image, this is not fantastic. Currently there are many CMS's like EE, WordPress, Drupal that do this work really well directly in background even under 64M ram. So I would say it's the plugin and CMS that should definitely improve.

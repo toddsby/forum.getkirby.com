@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2012-08-24 17:25:29
+----
+Text: Excellent.
+
+So for now, I'll have to manually have the Panel user enter their username? Is there any way for me to hack it to auto-fill that with the logged-in user's name?

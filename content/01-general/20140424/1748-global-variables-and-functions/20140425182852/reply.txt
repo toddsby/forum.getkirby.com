@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2014-04-25 18:28:52
+----
+Text: You can add any custom fields you want to your site.txt. Those can be accessed in any template or snippet, and should also be available in functions.
+
+I don't entirely understand what you need to accomplish, but could that be useful?

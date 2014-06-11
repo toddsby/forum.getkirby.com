@@ -1,0 +1,25 @@
+Title: Install problems: requested URL not found on this server
+----
+Date: 2013-10-15 19:20:50
+----
+Solved: 0
+----
+User: studioshitless
+----
+Text: Hi, I'm running a trail of kirby.  I followed the install instructions and get this error when clicking 'about' on the kirby test page:
+
+'The requested URL /kirby/about-us was not found on this server.
+
+I've done everything in the getting started page down to and including adding:
+
+RewriteBase /kirby  to .htaccess
+
+I have checked that rewrite rules are available and on by default with my hosting service. 
+
+I added all the files and folders of the install to a folder named kirby at httpdocs root level.
+
+MY url is:
+
+http://studioshitless.com/kirby
+
+Can anyone advise, please?

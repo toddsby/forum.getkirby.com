@@ -1,0 +1,7 @@
+User: texnixe
+----
+Date: 2014-02-01 23:29:18
+----
+Text: You need to put the image-URL as a source in an image tag
+
+    <img src="<?php echo $images->first()->url() ?>" />

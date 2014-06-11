@@ -1,0 +1,9 @@
+User: russbaldwin
+----
+Date: 2013-01-22 08:54:05
+----
+Text: You can set debug in your config.php. Also worth checking you are set to work in subdirectories and that your .htaccess file is set for this and also that the mod-rewrite stuff and routing is also correct in your .htacdess.
+
+You could try temporarily setting your contents folder and sub folders/files to 777.
+
+What environment are you running in?

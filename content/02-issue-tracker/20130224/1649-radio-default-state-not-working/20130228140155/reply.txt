@@ -1,0 +1,28 @@
+User: roman_oroco
+----
+Date: 2013-02-28 14:01:55
+----
+Text: Doesn't work for me too:
+
+```
+fields:
+  […]
+
+  showcase:
+    label: Showcase
+    type: radio
+    options:
+      firstValue: showcaseOn
+      secondValue: showcaseOff
+    default: secondValue
+    required: true
+    help:
+      en: Lorem ipsum dolor sit amet
+      it: Donec malesuada diam vitae
+
+  […]
+```
+<hr>
+Result:
+(image:http://f.cl.ly/items/2j1Y2c3g3F1r1M2O1P32/kirbycms-radio-default-state-not-working.png)
+<hr>

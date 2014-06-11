@@ -1,0 +1,5 @@
+User: hey_steffen
+----
+Date: 2012-11-03 21:52:34
+----
+Text: **I'm not sure**.. but the only thing I can think of why it's not working is because your fetched pages (articles object) are 'state-less'. Everytime a request is made (show the next page) the script is run again.. and the articles object is shuffled again. There is no mechanism that keeps track of the pages displayed on the previous page.

@@ -1,0 +1,17 @@
+Title: Some themes for Kirby
+----
+Date: 2013-11-18 11:06:56
+----
+Solved: 0
+----
+User: bugsysop
+----
+Text: Just a place to be a reminder for some nice themes not in this site “Themes” page...
+
+**Travelogue**
+A splendid photo theme by Khalid Laouhi.
+
+[Presentation on Khalid's site](http://khalidl.nl/work/travelogue)
+[Sources on Github](https://github.com/khalidl/travelogue)
+
+[![Travelogue](http://i.imgur.com/vUmMl8wl.jpg)](http://i.imgur.com/vUmMl8w.jpg)

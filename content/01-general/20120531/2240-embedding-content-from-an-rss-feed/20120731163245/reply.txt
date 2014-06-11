@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2012-07-31 16:32:45
+----
+Text: Interesting. I'll play with it. Have a little time before I actually start building the site, so this will give me something to do in that time. :-)
+
+In regards to going the importer route, I imagine I could look at your WordPress importer to get an idea on how to manage the creation of articles. Might be a bit over my head still.

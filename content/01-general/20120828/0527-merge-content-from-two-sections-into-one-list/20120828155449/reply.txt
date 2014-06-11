@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2012-08-28 15:54:49
+----
+Text: I tried that, and it didn't seem to work. Maybe I did something wrong.
+
+Actually, if I recall, it told me they weren't arrays.

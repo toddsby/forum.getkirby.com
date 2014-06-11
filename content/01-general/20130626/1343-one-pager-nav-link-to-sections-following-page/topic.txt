@@ -1,0 +1,32 @@
+Title: one-pager nav / Link to sections & following page?
+----
+Date: 2013-06-26 13:43:32
+----
+Solved: 0
+----
+User: mutchov
+----
+Text: Hi,
+
+my site is a one-pager and it has a following page. I´m using Bastians one-pager navigation.
+
+https://gist.github.com/bastianallgeier/4554931
+
+(BTW: How can I show some flawless php code here? Its my first forum entry!)
+
+The navigation has four items: featured, about, contact and portfolio. 
+Structure: content:
+- 01-featured
+- 02-about
+- 03-contact
+- 04-portfolio
+
+Item featured, about, contact are sections rendered by section snippets on the homepage.
+Item portfolio is a following page! 
+
+So it is **not possible to reach the portfolio page with this navigation.** And: When I`m on the portfolio page it is not possible (but it should be) to go/click back to the homepage-sections!
+
+I have no idea how to change Bastians navigation. Has anybody any suggestions?
+
+Thanks, 
+Dan

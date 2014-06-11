@@ -1,0 +1,17 @@
+Title: External links not writing correctly - http://mysite.com/http://linkedsite.com
+----
+Date: 2012-12-29 04:15:49
+----
+Solved: 0
+----
+User: jonathanbelton
+----
+Text: Hi,
+
+I've set up a link like this:
+
+a href="<?php echo url($page->link()) ?>">Visit site</a
+
+Which looks for a Link: in the page text. It's working except that it's bringing my own site url into the link, any idea what I'm doing wrong?
+
+Thanks

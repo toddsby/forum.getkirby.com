@@ -1,0 +1,21 @@
+User: russbaldwin
+----
+Date: 2014-04-30 10:09:16
+----
+Text: Does it work without setting rewrites?
+
+e.g. in your 'config.php' set it to false.
+
+```php 
+/*
+---------------------------------------
+Rewrite URL Setup
+---------------------------------------
+
+Kirby uses apache's mod_rewrite to ...
+
+*/
+
+c::set('rewrite', false);
+
+```

@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2012-07-11 23:23:47
+----
+Text: By "more pages" I mean more than 270. The site is desertspringspca.org. Most pages are all in one us folder under the Sermons section, which I have pagination on but haven't done much else with, and the pages are all pretty small. It's cached, too, of course. I think I have a little over 300 pages in the sermons section.

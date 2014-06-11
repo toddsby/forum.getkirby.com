@@ -1,0 +1,7 @@
+User: sventempo
+----
+Date: 2013-04-07 22:27:44
+----
+Text: @russbaldwin
+
+Yeah, I guess I understand why it does that. I'm just trying to figure out how to target the linked image instead. Could you be more specific about how to "pass the path to the big image?" Thanks, and sorry for my ignorance—I'm pretty new to PHP…

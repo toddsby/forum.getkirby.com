@@ -1,0 +1,19 @@
+Title: Escaping doesn't work in the panel
+----
+Date: 2013-03-08 10:50:32
+----
+Solved: 0
+----
+User: plartz
+----
+Text: Well, the title says everything. Maybe this is one for the panel and for Bastian, but nevertheless – maybe some of you have experienced that before? Well, I tried so much different variations of escaping, but the panel always removes them, so after saving the backslashes aren't there anymore. For example in this case:
+```
+1. Nice subhead
+
+Lorem ipsum, you know that. Long paragraph here.
+
+2. Another nice subhead
+
+Another longgggg text here.
+```
+Of course I don't want this whole text in a ol-list, so I tried to escape the "headings" with the backslash before the number, before the dot, before both... everytime the backslash is away. Manually opening the textfile and saving works, but I (well, especially the client) need it also in the panel to work. Anybody knows a solution for that?

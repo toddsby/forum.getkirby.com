@@ -1,0 +1,11 @@
+User: cedwardsmedia
+----
+Date: 2013-04-07 18:34:04
+----
+Text: Hi Russ,
+
+I see what I did wrong. I overlooked markdown.extra in config.php. So even when I set it on in defaults.php, it was being overwritten by config :P
+
+*insert facepalm here*
+
+I got it working now, I appreciate your response. :)

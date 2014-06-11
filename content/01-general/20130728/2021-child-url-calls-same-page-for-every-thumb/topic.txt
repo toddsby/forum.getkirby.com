@@ -1,0 +1,20 @@
+Title: $child->url() calls same page for every thumb
+----
+Date: 2013-07-28 20:21:44
+----
+Solved: 0
+----
+User: chrisolux
+----
+Text: I have a gallery of thumbnails that pulls the 1st image from child galleries. 
+
+I am trying to link the thumbs to each gallery ("01-gallery" through "04-gallery")…
+
+...
+
+php echo $child->url() 
+...
+
+Every thumb links to the same child "04-gallery" - the last child??
+
+Seems easy enough, but can't make it work…

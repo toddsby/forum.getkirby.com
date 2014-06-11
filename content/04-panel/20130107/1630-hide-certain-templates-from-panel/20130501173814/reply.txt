@@ -1,0 +1,5 @@
+User: tmugford
+----
+Date: 2013-05-01 17:38:14
+----
+Text: I forked the project on GitHub and added a really basic solution to this problem as I needed it myself. I've also proposed the change to the original author, so it's vaguely possible that this might work its way in to a future release.

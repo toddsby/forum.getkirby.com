@@ -1,0 +1,5 @@
+User: alignedleft
+----
+Date: 2013-07-24 02:13:45
+----
+Text: Oh, and since Pagodabox doesn't give you persistent storage, some special treatment for the cache directory may be required.  I haven't researched that yet, but will post an update here once I have.

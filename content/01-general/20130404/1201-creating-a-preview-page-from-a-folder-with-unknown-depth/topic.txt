@@ -1,0 +1,31 @@
+Title: Creating a preview page from a folder with unknown depth
+----
+Date: 2013-04-04 12:01:13
+----
+Solved: 0
+----
+User: possible_books
+----
+Text: Hi.
+I am trying hard to make a preview page of a work-folder with differently deep sublevels of folders. In some of these subfolders, there is a invisible folder named 'preview' which contains just an image to be shown. This would be my hook for the preview page.
+
+Right now, i only got so far as to use the recursive menue code from kirby to get all the folders in a variable p. (this is a recursive snippet, btw)
+
+	<?php if(!isset($subpages)) $subpages = $page->children() ?>
+	<?php foreach($subpages AS $p): ?>
+	<?php 
+		$pchild = $p->children();
+		if($pchild->count() > 0): 
+	?>
+	<?php snippet('previews', array('subpages' => $p->children())) ?>	
+	<?php endif ?>
+	<?php echo $p ?><br>
+	<?php endforeach ?>
+
+This will list all folders within my "Works" folder neatly.
+Now the problem is, how can i filter for the preview folder? As this snippet runs in a foreach loop, my guess is, that i need to filter for the invisible folder somewhere else. 
+What i basically need is an array of visible folders that contain a template called "work", and in these folders i need to look for invisible folders with the name "preview", to show an image inside them, wrapped in a link from the "work"-folder.
+
+i'm pretty stuck at the moment, so any help would be greatly appreciated.
+
+matthias

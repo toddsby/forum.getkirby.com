@@ -1,0 +1,26 @@
+Title: Kirbytext tag to retrieve $site variables?
+----
+Date: 2013-01-22 21:00:53
+----
+Solved: 0
+----
+User: lunelson
+----
+Text: Hey, 
+
+so I'm trying to write a tag that will retrieve `$site` variables, like say an admin's e-mail address. Should work like this:
+
+```markdown
+(site_var: admin-email)
+```
+
+... and I'm following the 'wikipedia' example in the tutorial, but I just don't know what to write on the `return` line. This is as far as I've gotten for that part (I'm following the standard template for the rest of it, it's just the function part that I don't know how to write, so I'm only including that here):
+
+``` php
+function site_var($params) {
+	$variable = $params['site_var'];
+	return $site->$variable(); // this is def. wrong
+}
+```
+
+Any ideas?

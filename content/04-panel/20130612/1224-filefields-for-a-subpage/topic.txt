@@ -1,0 +1,32 @@
+Title: Filefields for a subpage
+----
+Date: 2013-06-12 12:24:39
+----
+Solved: 0
+----
+User: jonheslop
+----
+Text: I want to let people edit file meta through the panel
+But I have a few fields… I can’t get them to show up.
+
+This is my blueprint, but it doesn’t work nor does it work when I don’t indent the filefields line.
+
+	title: Page
+	files: true
+	pages: true
+		limit: 10
+		sort: flip
+		filefields: 
+			title: 
+			  label: Podcast title
+			  type: text
+			 speaker: 
+			   label: Speaker name
+			   type: text
+			 description: 
+			   label: Short description
+			   type: text
+			 date: 
+			   label: Podcast Date
+			   type: text
+		       help: Format - YYYY-MM-DD

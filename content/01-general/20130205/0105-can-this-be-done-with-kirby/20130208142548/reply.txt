@@ -1,0 +1,15 @@
+User: bytte
+----
+Date: 2013-02-08 14:25:48
+----
+Text: Nevermind, I just found out that leaving out the yaml() functions makes the code work:
+
+    <?php
+    
+    $user    = auth::user();
+    $courses = $user->courses();
+    $lessons = $user->lessons();
+    
+    ?>
+
+No idea why or how, but it works. Thanks again!

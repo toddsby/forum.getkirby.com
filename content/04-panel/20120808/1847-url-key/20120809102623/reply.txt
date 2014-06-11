@@ -1,0 +1,12 @@
+User: bastianallgeier
+----
+Date: 2012-08-09 10:26:23
+----
+Text: Normally if you activate multi-language support, the URL field automatically acts like the following: 
+
+1. for the default language it will change the folder name
+2. for translations it will automatically add a url-key field to your text files with translated versions. 
+
+You don't have to define the URL-key field by hand. 
+
+I hope this helps.

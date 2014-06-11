@@ -1,0 +1,11 @@
+Title: Help setting up Kirby on WAMP
+----
+Date: 2013-06-05 03:47:04
+----
+Solved: 0
+----
+User: warchamp7
+----
+Text: I'm trying to get Kirby running locally with WAMP so I can take a look at it and get familiar with it, but I'm running into a problem. When I visit the Kirby index page, it says **Missing mbstring functions**
+
+I've enabled the mbstring extension in WAMP so I'm not really sure what I'm missing. If someone could walk me through getting Kirby running on a fresh WAMP install, I'd appreciate it.

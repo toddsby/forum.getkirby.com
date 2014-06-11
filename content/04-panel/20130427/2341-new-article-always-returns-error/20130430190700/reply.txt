@@ -1,0 +1,7 @@
+User: chrisburton
+----
+Date: 2013-04-30 19:07:00
+----
+Text: Articles have their own template. The homepage has its own template and only a few have the default template (which I may change).
+
+I just tested and it also happens when creating a page.

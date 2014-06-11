@@ -1,0 +1,19 @@
+Title: Problems after installation
+----
+Date: 2013-02-22 02:47:10
+----
+Solved: 1
+----
+User: stimemmerson
+----
+Text: I wanted to see how it will looks like loaded up to server
+and found that it don´t want to work right (
+It seems that kirby can´t load default css (
+and can´t open any project 
+
+What I got
+(image:http://farm9.staticflickr.com/8236/8495716937_41925db2d2_o.jpg)
+
+If I try go one of the links for example **xxx.com/kirby/projects** I get **xxx.com/kirby/error**
+If I run on XAMMP all works fine and I get **http://localhost/kirby/projects**
+what I am doing wrong?!

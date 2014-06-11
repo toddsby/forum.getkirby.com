@@ -1,0 +1,24 @@
+Title: Problems making a new post 'visible' in my 1200+ article blog
+----
+Date: 2014-05-07 01:21:35
+----
+Solved: 0
+----
+User: tcfjr
+----
+Text: I recently converted my 10-year old blog from WordPress to Kirby.  (It actually started as a self-hosted Movable Type blog, then went to self-hosted WordPress about 5 years ago.)
+
+The main blog folder has 1280+ articles, and actually works quite well in Kirby (even Search), with one exception.  When I create a new article in the Panel, then go to Sort, then drag the new article from the Invisible section to the Visible section, then click Ok, I get an error page:
+
+    URL: http://goption.com/panel/blog/show:content/do:edit-pages
+    Body: Error - the page has not been found
+
+This occurs whenever I hit 'Ok' after 'Sort' -- whether I've dragged anything to a new location or not.
+
+I have a subsidiary blog folder specifically for motorcycling posts, with about 300 articles, which shares the same domain and Panel setup as the main blog.  I am able to create and promote new posts in this smaller blog with no problems.
+
+For now, I create the new post in Panel, and then go into my FTP app to rename the new folder with the correct sequence number prefix, but it would be much easier if I could do everything from with Panel.
+
+I took a look through the Panel source code, and couldn't find anything obvious that would affect article sorting when there's a large number of articles.
+
+Any ideas would be appreciated.  Thanks.

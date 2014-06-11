@@ -1,0 +1,20 @@
+Title: Template Engines in Kirby (Jade as an example)
+----
+Date: 2013-08-14 23:51:04
+----
+Solved: 0
+----
+User: juerglehni
+----
+Text: I've recently worked on the possibility to add other templating engines to Kirby, as an alternative to the default PHP templates. As an example, I have added support for Jade through the great jade.php project.
+
+Here the forks of the projects in use:
+
+<https://github.com/lehni/kirbycms>
+<https://github.com/lehni/jade.php>
+
+I've since built a whole project with this system and it has worked extremely well for me. I got to love the simplicity of Jade templates when working in Node.js (and Slim while in Ruby on Rails land), and was missing this approach in Kirby. Adding it turned out to be pretty straight forward!
+
+I hope that my necessary but minimally invasive modifications on Kirby will make it into the core (or something similar that allows me to do the same), so I can offer Jade as a proper plugin.
+
+Please let me know if this is of interest!

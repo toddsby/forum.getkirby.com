@@ -1,0 +1,21 @@
+Title: Different Photo Gallery Types Within Project Page
+----
+Date: 2013-08-16 04:12:32
+----
+Solved: 1
+----
+User: craig_lock
+----
+Text: I'm building out a portfolio site for someone at the moment, and I'm kind of stumped on an issue. On each project page, I have it set so that there are "sub-projects" within a project. So, the project page is for a client, and then there can be multiple projects within that client, for example, 'identity', 'business card', etc. All of these "sub-projects" show at once on the page. 
+
+I have that all working fine, and it pulls in the photos and sub-project info fine. Each sub-project is in it's own folder within the parent project/client folder. My folder structure is like this, for reference: 
+* 01-client
+** 01-identity
+** 02-business-card
+
+
+My issue is that some of these sub-projects need to have image sliders in them, while others are just images listed out. 
+
+Is there any way I can accomplish this, or is it not even doable? Is there some way I can tag a sub-project with "hasSlides" or something, so that I can do an if statement to select which code to run? 
+
+Thanks in advance for any help! I appreciate it.

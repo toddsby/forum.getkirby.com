@@ -1,0 +1,20 @@
+User: texnixe
+----
+Date: 2013-09-04 21:50:13
+----
+Text: Sorry it doesn't work for you. This is the exact code from [my site ](http://www.texniq.de/en/texniq-u/kirby-multilingual-site):
+
+
+    <?
+    $tags=str::split($page->tags());
+    sort($tags);
+
+    if($tags):?> 
+        <span class="separator cf"></span>
+        <ul id="article-tags">
+            <li><span data-icon="&#x46;" aria-hidden="true"></span>         </li> 
+		<? foreach($tags as $tag):?>
+		  <li><a href="<?= $pages->find('tag-results')->url()?>/tag:<?= rawurlencode($tag)?>"><?= $tag?></a><span>|               </span></li> 
+       		<? endforeach?>
+        </ul> 
+    <? endif?>

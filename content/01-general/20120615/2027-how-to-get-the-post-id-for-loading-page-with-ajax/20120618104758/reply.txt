@@ -1,0 +1,42 @@
+User: bastianallgeier
+----
+Date: 2012-06-18 10:47:58
+----
+Text: Great that you managed to solve this. 
+
+I would normally do it like this: 
+
+add a new invisible "ajax" page to the main content folder so you can access it via `http://yourdomain.com/ajax` Actually you can call that however you like, but ajax seems appropriate :)
+
+Add a `ajax.txt` to that folder and a `ajax.php` template to your `site/templates` folder. 
+
+In your `ajax.php` you can simply get the data for the wanted article like this: 
+
+```
+<?php 
+
+$article = $pages->find('blog/' . get('id'));
+
+// if no article could be found for that id…
+if(!$article) die('Invalid article ID');
+
+?>
+
+<h1><?php echo html($article->title()) ?></h1>
+<?php echo kirbytext($article->text()) ?>
+
+```
+
+Now all you have to do is to make sure that you pass the last part of the URI of your article as id in your Ajax call. So in your case the rel attribute for each article should be something like "my-article" if your real URL for the article is http://yourdomain.com/blog/my-article
+
+To get only the last part / identifier of any page in Kirby you can simply use the uid() method of a page object. For example:
+
+```
+rel="<?php echo $page->uid() ?>"
+```
+
+Of course you would also need to adjust the URL in your example:
+
+`<?php echo $_SERVER[HTTP_HOST]; ?>/ajax/`
+
+I hope this helps.

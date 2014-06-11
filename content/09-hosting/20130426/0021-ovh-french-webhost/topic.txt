@@ -1,0 +1,15 @@
+Title: OVH [French webhost]
+----
+Date: 2013-04-26 00:21:14
+----
+Solved: 0
+----
+User: joachimesque
+----
+Text: I've recently installed a couple of Kirby-powered websites on OVH shared servers. One is quite small and fits completely in the *Start10M* plan, the bare bones plan that comes of free with a .com domain name : it's the perfect solution if you don't have a lot of files to host on it (the capacity is 10MB). No SQL database, no subdomain, no fancy options. Just one domain, 10 megs, unlimited traffic, less than 10€.
+
+Then it also works on a *Personal* plan, 2€/month, 25 Gb, one SQL database, unlimited traffic… all's working well.
+
+OVH is based in the North of France, so it's rather well connected with the rest of Europe. Latency times are very good, as is the performance on shared servers. Low price, good enough for small projects. They also have all kinds of cloud/dedicated servers, but I never tried them.
+
+**<http://www.ovh.com/>**

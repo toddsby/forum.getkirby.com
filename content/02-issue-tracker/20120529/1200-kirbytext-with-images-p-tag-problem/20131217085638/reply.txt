@@ -1,0 +1,10 @@
+User: joshkennedy
+----
+Date: 2013-12-17 08:56:38
+----
+Text: A simple solution I've used is with a single line of jQuery:
+
+
+```javascript
+$("p:has(img)").contents().unwrap();
+```

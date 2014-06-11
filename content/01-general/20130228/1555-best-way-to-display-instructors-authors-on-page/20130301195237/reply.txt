@@ -1,0 +1,13 @@
+User: baderkamal
+----
+Date: 2013-03-01 19:52:37
+----
+Text: @russbaldwin That's perfect! Thank you Russ. Appreciate it. I had a hunch it was somewhere along the lines of a 'foreach' and some 'find', but I wasn't sure how to go about it. I'll give @plartz's code another try as well. I used this tweaked version of your example (with some CSS tweaking):
+
+    <?php foreach($pages->find('instructors')->children() as $instructor):?>
+        <img width="80" src="<?php echo $instructor->images()->first()->url() ?>" alt="<?php echo html($instructor->title()) ?>" />
+    <?php endforeach ?>
+
+Here's what it looks like now: (link: http://files.baderkamal.com/image/450n1d2W2v0O)
+
+Just wondering how I'd go about linking the instructors' names from workshop.txt to pull the corresponding images from the instructor's folders.

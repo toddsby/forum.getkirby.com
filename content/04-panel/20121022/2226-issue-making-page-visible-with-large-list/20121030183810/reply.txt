@@ -1,0 +1,7 @@
+User: tysongach
+----
+Date: 2012-10-30 18:38:10
+----
+Text: +1, I find that adjusting ‘Limit’ does nothing.
+
+Bastian, can you confirm the syntax for that? Is it that if you have any sub elements under Pages:, it defaults to ‘true’? So no need to put ‘true’ there any more?

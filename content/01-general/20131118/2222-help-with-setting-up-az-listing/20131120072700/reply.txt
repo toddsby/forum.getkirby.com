@@ -1,0 +1,15 @@
+User: UnknownGuest
+----
+Date: 2013-11-20 07:27:00
+----
+Text: Thanks! I've taken a look and think I might be able to work it out. 
+
+Good idea splitting the first and last name. 
+
+Do you think it'd be possible to output tags which don't have results? I'd like to output all letters A through Z even if they haven't got a person that begins with that letter. And have them styled so it's obvious they don't lead anywhere. 
+
+Does that make sense?
+
+Also, would it be possible to search for only the first character of the name, so it assigns the tag to it? Or would I have to add a tags category for this and then search for tags to output. 
+
+Thanks!

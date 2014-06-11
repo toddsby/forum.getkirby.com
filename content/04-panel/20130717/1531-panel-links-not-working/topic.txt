@@ -1,0 +1,58 @@
+Title: Panel links not working
+----
+Date: 2013-07-17 15:31:21
+----
+Solved: 1
+----
+User: racheltai_
+----
+Text: I have installed Kirby in a subfolder ("site") and Panel appears to have been installed correctly. I can log in and I see the Overview page, but navigating to other areas results in an error page stating "(t)he page has not been found". If it helps, this is my .htaccess file:
+
+    <IfModule mod_rewrite.c>
+
+    RewriteEngine on
+
+    RewriteBase /site
+
+    RewriteRule ^content/(.*)\.(txt|md|mdown)$ error [R=301,L]
+
+    RewriteRule ^site/(.*) error [R=301,L]
+
+    RewriteRule ^kirby/(.*) error [R=301,L]
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^panel/(.*) panel/index.php [L]
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*) index.php [L]
+ 
+    </IfModule>
+
+And my config.php file:
+
+    <?php
+
+    if(!defined('KIRBY')) die('Direct access is not allowed');
+
+    c::set('url', false);
+
+    c::set('subfolder', false);
+
+    c::set('rewrite', true);
+
+    c::set('home', 'home');
+
+    c::set('ssl', false);
+
+    c::set('kirbytext.video.width', 480); 
+    c::set('kirbytext.video.height', 358); 
+
+    c::set('markdown', true);
+    c::set('markdown.breaks', true);
+    c::set('markdown.extra', false);
+
+    c::set('content.file.ignore', array());
+
+Am I doing something wrong?

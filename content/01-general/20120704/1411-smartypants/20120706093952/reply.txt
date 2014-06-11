@@ -1,0 +1,13 @@
+User: bastianallgeier
+----
+Date: 2012-07-06 09:39:52
+----
+Text: I mean additional like: 
+
+```php
+
+<?php echo SmartyPants(kirbytext($page->text())) ?>
+
+```
+
+That should normally work as soon as you add the smartypants class to your site/plugins folder. I haven't tested it yet though.

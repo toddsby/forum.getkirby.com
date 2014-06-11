@@ -1,0 +1,8 @@
+User: chrisburton
+----
+Date: 2013-01-30 16:33:39
+----
+Text: The problem is that Ajax is targeting all anchor links instead of my pagination links.
+
+
+Because I'll probably have many articles, I don't think a CSS solution is the right way to go about it. Thanks anyway.

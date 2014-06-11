@@ -1,0 +1,11 @@
+User: russbaldwin
+----
+Date: 2013-05-29 08:50:26
+----
+Text: It is not only the size, but the quality and format of the image that can affect size of download. The adaptive-images.php can reduce both size, quality and when the size of images changes for download. (So it can also be used to create smaller images on larger screens.)
+
+You could then maybe use thumbnails to create smaller images for links if required.
+
+Downsides are the thumbnails created might not be good enough. You may still need thumbnails for lower/higer-res screens unless you just do one size and scale.
+
+I think that pre-processing the images to the correct, size and quality format is the way to go, especially if the images are the important element of the site, and this includes thumbnails. After all in times gone by you wouldn't have sent your precious negatives to any old photoboth for development would you?

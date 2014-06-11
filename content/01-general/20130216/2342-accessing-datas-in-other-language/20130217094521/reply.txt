@@ -1,0 +1,6 @@
+User: russbaldwin
+----
+Date: 2013-02-17 09:45:21
+----
+Text: Well that is good to know ;-) 
+I'm not sure what you mean by fallback? You can select a default language and of course [Kirby is multi-langauage](http://getkirby.com/docs/multi-language).

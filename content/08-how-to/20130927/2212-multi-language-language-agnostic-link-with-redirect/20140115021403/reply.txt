@@ -1,0 +1,7 @@
+User: timgauthier
+----
+Date: 2014-01-15 02:14:03
+----
+Text: yeah, its a hybrid of the suggestion by @mecrawlings and what you described @depth42. It would be best to allow the individual pages connect you to the correct language page instead of the whole site. deep linking in a language agnostic is important, but so would linking to a specific language. So if i link to example.com/en/a-page it should go to english, but if i go to example.com/a-page then it would auto detect language to give you the correct language option. Also being able to link to example.com/de/a-page would work as well.
+
+I have no idea how this works, so i can't even fathom how easy it is to implement, but that behaviour is the most logical to my mind.

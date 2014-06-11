@@ -1,0 +1,22 @@
+Title: Get dirname rather than article name as link
+----
+Date: 2014-03-20 20:30:53
+----
+Solved: 0
+----
+User: jamesdavidmarch
+----
+Text: Hi all,
+
+In my site, I'm currently using
+<a href="<?php echo $article->url() ?>"></a>
+to link to the relevant article pages, returning a url such as website.com/work/project-firstproject
+
+
+Is there a way to keep the numeric system in the linking, i.e.,
+website.com/work/01-project-firstproject
+
+I'm running this in a PHP loop and it's missing the directories without the numeric part.
+
+
+Much appreciated for any help.

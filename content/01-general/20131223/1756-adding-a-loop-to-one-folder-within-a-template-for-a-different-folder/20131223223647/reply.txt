@@ -1,0 +1,13 @@
+User: fitzage
+----
+Date: 2013-12-23 22:36:47
+----
+Text: Easy part first: for the primary loop, just call visible items and make the one you want to skip invisible.
+
+I'm not quite understanding the other question. I THINK what you're asking is how to call a specific page and make a loop of its children. Easy enough:
+
+```php
+<?php $events = $pages->find('/events')->children()->visible() ?>
+```
+
+Then just loop through the events as normal. Take a look at the cheat sheet. It might help.

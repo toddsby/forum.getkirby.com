@@ -1,0 +1,7 @@
+User: cedwardsmedia
+----
+Date: 2013-04-07 11:16:46
+----
+Text: The code isn't working for me. The search->results array is always empty.
+
+I'm lost because I copied the search plugin exactly from the repo.

@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-04-06 13:29:57
+----
+Text: Not really a Kirby problem, more general web stuff. I'd sanitise your inputs before adding to the db. A quick scout on Google will provide more information and the Kirby Toolkit has some good methods. 
+
+I'd also try and make my form accessible and perhaps fewer `<br/>` :-)

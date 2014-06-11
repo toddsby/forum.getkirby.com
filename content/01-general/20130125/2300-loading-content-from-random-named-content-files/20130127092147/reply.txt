@@ -1,0 +1,9 @@
+User: russbaldwin
+----
+Date: 2013-01-27 09:21:47
+----
+Text: OK, I'm not quite sure what you are trying to achieve here and I am not sure that what you have are really pages as far as Kirby is concerned? 
+
+You could create folders for them and give that the variable name and then give each folder the file 'mytemplate.txt' with your content and process normally as pages? Something like the ['How to build a “one-pager” with Kirby' idea](http://getkirby.com/blog/one-pager) maybe useful for combining these.
+
+Or I guess you could create a template/snippets to read these files and process and display accordingly?

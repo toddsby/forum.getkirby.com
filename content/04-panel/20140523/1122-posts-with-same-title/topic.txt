@@ -1,0 +1,18 @@
+Title: Posts with same title
+----
+Date: 2014-05-23 11:22:10
+----
+Solved: 0
+----
+User: theavangelist
+----
+Text: Hi all,
+
+I've been creating a site which has an events calendar in it.
+To do this I've simply created a content folder for Events, inside are event(s) folders for each event.
+
+The issue I have is that I've got a few recurring events and I'm getting a conflict with not being able to give something the same name twice. 
+
+I.E, I have an event called "This Event" and I need multiple instances of a page called "This Event". I've installed panel and that stops me from creating the page using a title that already exists, but I can of course create them at folder level only if you do this it ignores it.
+
+Does anyone have a suggestion of how I may approach this differently?

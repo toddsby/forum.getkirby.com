@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2012-12-30 14:58:05
+----
+Text: I presume this is because '1' stand for TRUE when testing *hasImages*? Whereas *count* gives you the actual number of images.

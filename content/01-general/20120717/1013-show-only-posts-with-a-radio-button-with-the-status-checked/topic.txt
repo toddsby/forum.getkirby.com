@@ -1,0 +1,26 @@
+Title: Show only posts with a radio button with the status 'checked'.
+----
+Date: 2012-07-17 10:13:05
+----
+Solved: 1
+----
+User: obearone
+----
+Text: Hi,
+I want to feature my last portfolio posts on a page. I'm using this code and it's workin like a charm :)
+
+	<?php $portfolio = $pages->find('portfolio') ?>
+
+  		<?php foreach($portfolio->children()->visible()->flip()->limit(3) as $img): ?>
+  			<article>
+  				<a href="<?php echo $img->url() ?>">
+  					<?php $image = $img->images()->find('01.jpg') ?>
+  					<?php echo thumb($image, array('width' => 300, 'height' => 164, 'crop' => true)) ?> 
+  				</a>
+  				<a href="<?php echo $img->url() ?>">	
+  				  	<h3><?php echo html($img->title()) ?></h3>
+  				</a>
+  			</article>
+  		<?php endforeach ?>
+
+But now I want to show only the posts with a radio button with the status 'checked'. I read in the Kirby Cheat Sheet that i can filter my posts by key, `filterBy('radio','radioyes')` but I'm not shure where to put that in my code… ? :/

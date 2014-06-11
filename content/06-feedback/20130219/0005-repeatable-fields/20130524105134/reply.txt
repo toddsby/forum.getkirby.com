@@ -1,0 +1,18 @@
+User: russbaldwin
+----
+Date: 2013-05-24 10:51:34
+----
+Text: Although you cannot use it with Panel, I use a snippet which contains all the code for all the social media links/icons and other links I might need and then I call them from templates specifying what I need and in what format. It is just an array of links (linksList).
+
+I can call a variety of items, formatted as 'list', 'paragraph', 'button', 'span' or just links.
+
+```php
+snippet('linksList',
+	array(
+	'showLinksFor'=>'skype,linkedin,vcard,tweet',
+	'format=>'list', 
+	'class'=>'class'
+	     )
+       )
+```
+You can (and I do) even put the actual stuff like Skype address in the site.txt ;-)

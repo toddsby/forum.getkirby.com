@@ -1,0 +1,36 @@
+Title: Can't display thumbs when listing pages
+----
+Date: 2014-02-25 01:44:27
+----
+Solved: 1
+----
+User: sciascia10
+----
+Text: Hi There,
+
+I can get the pageList to display the first image from child pages but I can't seem to generate thumbs.
+
+This displays child images:
+
+    <?php foreach($page->children() as $pageList): ?>
+      <h4><a href="<?= $pageList->url(); ?>"><?= $pageList->title(); ?></a></h4>
+
+      <? if($pageList->hasImages()) : ?>
+        <img src="<?= $pageList->images()->first()->url(); ?>" alt="<?= $pageList->images()->first()->name(); ?>"/>
+      <? endif ?>
+    <?php endforeach ?>
+
+
+But when I try to use the thumbs plugin nothing outputs:
+
+    <?php foreach($page->children() as $pageList): ?>
+      <h4><a href="<?= $pageList->url() ?>"><?= $pageList->title(); ?></a></h4>
+
+      <? if($pageList->hasImages()) : ?>
+        <img src="<?= thumb($pageList->images()->first()->url(), array('width' => 200), false); ?>" alt="<?= $pageList->images()->first()->name(); ?>"/>
+      <? endif ?>
+    <?php endforeach ?>
+
+Sorry if this is easy, not sure what I'm doing wrong so any pointers in the right direction would be much appreciated.
+
+Cheers

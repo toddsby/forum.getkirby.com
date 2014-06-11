@@ -1,0 +1,27 @@
+Title: crashing the Search plugin
+----
+Date: 2013-02-28 04:32:56
+----
+Solved: 0
+----
+User: itisavery
+----
+Text: I manage to consistently get the search error when searching for certain keywords:
+"Fatal error: Nesting level too deep - recursive dependency? in /var/www/web/prodsas/htdocs/kirby/lib/kirby.php on line 419"
+
+I managed to hunt down the cause of the error and it was because i had several of my not-visible (but still accessible) pages linking to each other through kirby text (i didn't want them on the menu, but for the user to be able to click in-between them if they had the link).
+
+My kirbytext was this (when i removed it the error went away):
+
+     Exhibitor Links: 
+     ( link: /exhibitors text: Show Info) - 
+     ( link: /exhibitors/forms-downloads text: Forms and Downloads) - 
+     ( link: /exhibitors/insurance text: Insurance Requirements) - 
+     ( link: /exhibitors/hotel-travel text: Hotel and Travel Info)
+
+[i had to add a space inbetween "(" and "link"]
+
+
+The same text was on all 4 pages, and searching the words "exhibitors" and "hotel" would bring up the error. All other search words worked perfectly (ie travel, requirements, insurance, forms, downloads would all bring up the appropriate page).
+
+Is this a bug with the search plugin or am i using kirbytext incorrectly?

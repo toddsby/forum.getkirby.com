@@ -1,0 +1,7 @@
+User: texnixe
+----
+Date: 2013-09-24 12:22:28
+----
+Text: In the end I figured it out myself using the Pagination Object and a little bit of PHP:
+
+[http://www.texniq.de/en/kirby-wiki/split-long-posts-into-pages](http://www.texniq.de/en/kirby-wiki/split-long-posts-into-pages)

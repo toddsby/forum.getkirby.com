@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-08-02 11:49:02
+----
+Text: There is a [pagination snippet](https://github.com/bastianallgeier/kirbycms-extensions/tree/master/snippets/pagination) and lots of info in the forum and [blog](http://getkirby.com/blog/add-pagination-to-your-blog).

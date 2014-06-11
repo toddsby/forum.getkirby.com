@@ -1,0 +1,6 @@
+User: track02
+----
+Date: 2012-11-23 18:54:25
+----
+Text: Thx for the reply, seems to work fine. 
+Thought also about inserting html in markdown, but it looked kind of dirty to me. Hope there will be a better way some day.

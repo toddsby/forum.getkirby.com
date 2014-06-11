@@ -1,0 +1,11 @@
+User: fitzage
+----
+Date: 2013-10-24 23:34:03
+----
+Text: Yeah, you're mixing syntax. Should be:
+
+    <? ecco($item->isOpen(), 'class="active"') ?>
+
+instead of:
+
+    <? ecco($item->isOpen())? 'class="active"' ?>

@@ -1,0 +1,5 @@
+User: CharlesMinxFarq
+----
+Date: 2013-04-27 14:32:07
+----
+Text: Huh, I will try doing a fresh install of xampp, I don't have any additional modules installed in the current version... is there something I needed to install with it?

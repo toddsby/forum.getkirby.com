@@ -1,0 +1,27 @@
+Title: Disqus comment counts
+----
+Date: 2013-01-08 18:08:44
+----
+Solved: 0
+----
+User: kachunchau
+----
+Text: I'm using the Disqus snippet but I can't seem to get the comment counts for it to work.
+
+I've replaced the default script:
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] ||      document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+With the one on the Disqus site:
+
+    (function () {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true; 
+    dsq.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(dsq);
+    }());
+
+But when I do this the comment form doesn't even load at all.

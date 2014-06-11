@@ -1,0 +1,7 @@
+User: euSDB
+----
+Date: 2014-02-18 17:35:18
+----
+Text: Try it with an absolute path, in my case
+
+`<?php echo date("F d Y H:i:s.", filemtime('E:\xampp\htdocs\kirby\content\site.de.txt'));  ?>`

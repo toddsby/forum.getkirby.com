@@ -1,0 +1,7 @@
+User: moonbeetle
+----
+Date: 2013-03-20 01:39:29
+----
+Text: > "changing the PHP settings to a not so 'strict' mode"
+
+Same issue here and would like to know WHICH settings

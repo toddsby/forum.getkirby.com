@@ -1,0 +1,17 @@
+User: fitzage
+----
+Date: 2014-03-03 18:11:10
+----
+Text: I think the rewrite config just lets you remove the index.php.
+
+There are two different things working in that article: URI path segments, and URL parameters. The parameters take the form `param:value`. The article says to access them using a full `$site->uri()->params()`, but I've never done that.
+
+I just use `param('param-name')`. Maybe you'd use the whole `$site->uri()->params()` thing if you need to loop through them or something?
+
+So if your URL is something like `http://foo.com/bar/filter:news` you could get the value of the page parameter like so:
+
+```php
+<?php echo param('filter') ?>
+```
+
+Which would of course echo `news`.

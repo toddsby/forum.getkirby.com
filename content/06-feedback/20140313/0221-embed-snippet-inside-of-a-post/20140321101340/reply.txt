@@ -1,0 +1,11 @@
+User: russbaldwin
+----
+Date: 2014-03-21 10:13:40
+----
+Text: If I'm not mistaken, you could even a drop down list in the panel to select custom snippets
+e.g. 
+snippet1
+snippet2
+snippet3
+
+and then in your template, pump out the text depending on which snippet was selected?

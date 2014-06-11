@@ -1,0 +1,25 @@
+Title: Variables in your content text files
+----
+Date: 2013-01-30 12:16:00
+----
+Solved: 0
+----
+User: plartz
+----
+Text: It would be great to define variables in an extra file (something like vars.php in your site/vars folder) which you could use out of your content text files. Two examples:
+
+### User data
+My protected page content file:
+
+	title: Welcome $username
+
+My output would be something like "Welcome Jakob" ($username is not the panel user, but the one which is logged in on the page – with the Auth plugin).
+
+### Search
+On my search.txt:
+
+	title: Search for $query
+
+My output: "Search for 'dates'"
+
+Of course, I could do that in my templates – but it would be nice to use it just like this, though.

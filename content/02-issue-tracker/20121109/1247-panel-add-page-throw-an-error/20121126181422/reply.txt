@@ -1,0 +1,6 @@
+User: loasca
+----
+Date: 2012-11-26 18:14:22
+----
+Text: Just tried the dev and it fixes the error (on a MAMP setup at least).
+Great!

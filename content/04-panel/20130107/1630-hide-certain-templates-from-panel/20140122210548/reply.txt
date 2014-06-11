@@ -1,0 +1,7 @@
+User: tysongach
+----
+Date: 2014-01-22 21:05:48
+----
+Text: Absolutely. No need to clutter up the Panel with things like sitemap, login, logout, archives, etc. Great idea on possible implementation too (using an underscore)!
+
++1

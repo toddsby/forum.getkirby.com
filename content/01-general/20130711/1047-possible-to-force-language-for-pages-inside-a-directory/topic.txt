@@ -1,0 +1,21 @@
+Title: Possible to force language for pages inside a directory??
+----
+Date: 2013-07-11 10:47:52
+----
+Solved: 1
+----
+User: asbiot
+----
+Text: Hi all,
+I am working with a dual-language site (en + de), and part of the site (one directory) is only available in German. I have a problem when a visitor moves from the English content onto a page that is only available in German.
+Since my default language is German and content will only ever be missing in English, the correct fall-back content is displayed in that situation. However, all the other language-aware elements of the site, such as breadcrumbs, URL etc. still show the English version!
+
+Is there an elegant solution for this?
+Does there exist a way that forces a global language change to a certain language for all pages that are loaded from a directory? For example pages loaded from the directory "de-only" will automatically have lang.current set to "de"?
+
+Alternatively, is there a piece of URL logic, that would act on the name of a folder and force the menu link to that folder and its containing pages to include a parameter that would set the language?
+
+Any other smart ideas to achieve the aforementioned effect?
+
+It would be awesome if one of you could help me out here.
+Cheers.

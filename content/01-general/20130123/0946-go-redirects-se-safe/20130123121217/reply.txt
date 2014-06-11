@@ -1,0 +1,6 @@
+User: asbiot
+----
+Date: 2013-01-23 12:12:17
+----
+Text: Ooops. I just stumbled over the documentation of the go() function, and there it says that one can pass an HTTP status code with the function. I guess this sort of answers my own question.
+Sorry folks.

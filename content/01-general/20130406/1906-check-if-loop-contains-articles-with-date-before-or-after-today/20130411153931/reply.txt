@@ -1,0 +1,9 @@
+User: fitzage
+----
+Date: 2013-04-11 15:39:31
+----
+Text: The method I've been using is to just create the list normally, and then wrap everything inside the foreach in a date check if statement. I'm not sure it's more efficient from a coding or processing standpoint, but just another idea in case you want to use it sometime.
+
+However, I've run into a situation where that doesn't work and I needed exactly the solution you came up with here, and you wrote it before I had to figure it out. So thank you. :-)
+
+For the interested, basically I want to pull just the most recent article but only if it's dated older than the current date/time. My original method won't work well because I'd have to add some additional counting mechanism and it would be clunky. Creating an array of posts as I filter them, though, is perfect. Then I take the most recent one from that array knowing that it meets the requirements.

@@ -1,0 +1,13 @@
+Title: Kirbytext: Thumb Tag
+----
+Date: 2012-07-17 15:48:51
+----
+Solved: 1
+----
+User: bastianallgeier
+----
+Text: By default the thumb plugin can only be used in your templates, but with this kirbytext extension: <https://gist.github.com/3039536> you are able to create thumbnails with a handy kirbytext tag: 
+
+```
+(thumb: myimage.jpg)
+```

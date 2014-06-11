@@ -1,0 +1,38 @@
+Title: Extending KirbyText for Google Prettify
+----
+Date: 2013-02-09 04:47:29
+----
+Solved: 0
+----
+User: zslabs
+----
+Text: Hi all,
+I was looking into the KirbyText parser and noticed the following:
+
+    function code($code) {
+      
+      $code = @$code[1];
+      $lines = explode("n", $code);
+      $first = trim(array_shift($lines));
+      $code  = implode("n", $lines);
+      $code  = trim($code);
+
+      if(function_exists('highlight')) {
+        $result  = '<pre class="highlight ' . $first . '">';
+        $result .= '<code>';
+        $result .= highlight($code, (empty($first)) ? 'php-html' : $first);
+        $result .= '</code>';
+        $result .= '</pre>';
+      } else {
+        $result  = '<pre class="' . $first . '">';
+        $result .= '<code>';
+        $result .= htmlspecialchars($code);
+        $result .= '</code>';
+        $result .= '</pre>';
+      }
+      
+      return $result;
+      
+    }
+
+It looks like this is Kirby's way of adding in the `highlight` class to the `<pre>` tag. Two problems though: I haven't found an example of this KirbyText option (if that's what this is) and --> what I'd like to do is virtually the same thing, but instead of `highlight` have `googleprettify` (with an additional option for a class, like `linenums`). I've found a [.NET](http://blog.dantup.com/2011/05/extending-markdownhelper-markdowndeep-net-to-support-google-codes-prettify-syntax-highlighter) article about extending Markdown in general for this... but doesn't help much here :) Anyone have any pointers/suggestions? Thanks!

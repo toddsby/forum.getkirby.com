@@ -1,0 +1,21 @@
+Title: Does RewriteRule work with Kirby?
+----
+Date: 2013-08-01 15:50:52
+----
+Solved: 0
+----
+User: atimoda
+----
+Text: Hi,
+
+I'm trying to make a simple RewriteRule so my dynamic page can handle the url as parameter without changing url, this way:
+
+when you access:  /events/holidays-camp
+will call the page:  /event/name:holidays-camp
+
+I put this on .htaccess:
+RewriteRule ^events/(.*) /event/name:$1 [L]
+
+But I suppose kirby handles urls in another internal way, because it simple dont work. could anyone help me?
+
+thanks!

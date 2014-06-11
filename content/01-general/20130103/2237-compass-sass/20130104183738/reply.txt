@@ -1,0 +1,9 @@
+User: bradwrage
+----
+Date: 2013-01-04 18:37:38
+----
+Text: This is starting to make sense.  So for me, I have several smaller scss files ie _bits.scss & _typography.scss.  They are imported into my global.scss by @import "typography"; & @import "bits";
+
+In my kirby file structure I am linking to the compiled global.css from codekit, but for some reason I am not seeing the styles from the _bits.scss and _typography.scss.
+
+I very much appreciate the help.

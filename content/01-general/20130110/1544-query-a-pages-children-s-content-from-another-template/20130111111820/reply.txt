@@ -1,0 +1,7 @@
+User: adrianthomas
+----
+Date: 2013-01-11 11:18:20
+----
+Text: I've got similar code that works fine for me too:
+
+    $articles = $pages->find('blog')->children()

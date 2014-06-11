@@ -1,0 +1,8 @@
+User: russbaldwin
+----
+Date: 2013-08-05 15:30:38
+----
+Text: I presume you are talking about this:
+http://localhost/kirby/blog/lorem-ipsum
+It only seems to add this link on the first one? 
+Is it in the actual article?

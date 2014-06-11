@@ -1,0 +1,19 @@
+User: roman_oroco
+----
+Date: 2013-03-14 19:41:23
+----
+Text: I think it should be the only options for any alternate languages and not for the current one, read more on (link:http://support.google.com/webmasters/bin/answer.py?hl=en&answer=189077 text:Google's) guide.
+
+```php
+<html lang="<?php echo c::get('lang.current') ?>">
+```
+
+```php
+<?php if (c::get('lang.current') != 'en'): ?>
+<link rel="alternate" hreflang="en" href="<?php echo $page->url('en') ?>" />
+<?php elseif (c::get('lang.current') != 'fr'): ?>
+<link rel="alternate" hreflang="fr" href="<?php echo $page->url('fr') ?>" />
+<?php else: ?>
+<link rel="alternate" hreflang="de" href="<?php echo $page->url('de') ?>" />
+<?php endif ?>
+```

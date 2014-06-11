@@ -1,0 +1,9 @@
+User: russbaldwin
+----
+Date: 2012-10-29 08:51:40
+----
+Text: Fitzage I cannot help thinking that WYSIWYG is perhaps getting away from the spirit of Kirby and the lovely Markdown ideas? There are of course already minimal buttons and I feel extending these could be the best way forward?
+
+I, for one, would like to see a internal website page selector for linking to internal pages (there is a link for http based pages) and maybe some of these be available for file fields as well, so you can say link images to internal pages.
+
+What sort of things are you after?

@@ -1,0 +1,9 @@
+Title: How to add sharing buttons?
+----
+Date: 2013-06-29 04:21:20
+----
+Solved: 1
+----
+User: pgruneich
+----
+Text: Hello, seems necessary in my country to include discreet sharing buttons, such as Facebook and Twitter, at the bottom of every article. How is it possible? Can I customize the icons to direct to the sharing action or I must use the ones offered by the services?

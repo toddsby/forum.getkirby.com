@@ -1,0 +1,5 @@
+User: ignaty
+----
+Date: 2012-08-13 11:29:46
+----
+Text: The contact form it self is working fine, but limitation to only three fields makes it useless for now.

@@ -1,0 +1,13 @@
+User: staroversky
+----
+Date: 2013-04-25 17:31:46
+----
+Text: max-width is determined by the resolutions of the screen on which the website is being viewed? 
+
+If I use the code above, the images on my site scale out of proportion relative to the template of the site. But if I use something like
+
+     img {
+     max-width: 700px;
+     }
+
+Images are scaled according to the width of my text body width. However, based on what you said above, this is not effective because it is not responsive.

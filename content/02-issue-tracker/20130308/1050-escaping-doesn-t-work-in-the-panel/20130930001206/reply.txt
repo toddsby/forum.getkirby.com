@@ -1,0 +1,7 @@
+User: jaydenseric
+----
+Date: 2013-09-30 00:12:06
+----
+Text: I want the backslashes to stay in my code blocks, but they keep getting stripped out. This is pretty annoying, and embarrassing because I end up displaying incorrect code. I end up editing the text file directly to add them again and FTP it up.
+
+You can see what I mean here (in the SCSS/CSS code blocks): (link: http://jaydenseric.com/blog/fun-with-sass-and-font-icons text: http://jaydenseric.com/blog/fun-with-sass-and-font-icons popup: yes)

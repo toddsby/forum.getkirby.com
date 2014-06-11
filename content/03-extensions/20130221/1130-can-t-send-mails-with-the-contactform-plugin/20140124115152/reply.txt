@@ -1,0 +1,5 @@
+User: lekkerduidelijk
+----
+Date: 2014-01-24 11:51:52
+----
+Text: I ran into the same issue. Make sure the PHP mail() command is working on the host you are running Kirby.

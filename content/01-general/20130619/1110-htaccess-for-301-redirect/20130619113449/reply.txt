@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-06-19 11:34:49
+----
+Text: Not sure I completely understand what you mean but you can set things like this in your [.htaccess file](http://www.htaccessredirect.co.uk/).

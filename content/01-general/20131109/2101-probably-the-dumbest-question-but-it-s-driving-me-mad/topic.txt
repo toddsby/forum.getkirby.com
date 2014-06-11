@@ -1,0 +1,23 @@
+Title: Probably the dumbest question but it's driving me mad.
+----
+Date: 2013-11-09 21:01:31
+----
+Solved: 0
+----
+User: artsydesigny
+----
+Text: Hi. I'm really really really sorry for what is probably going to be a real basic question for almost all of you. But I'm not a developer and not familiar with Github and can't figure something out.
+
+Soooo…
+
+I'm at this page on Github: https://github.com/bastianallgeier/kirbycms-extensions/tree/master/plugins/contactform
+
+Wanting to download the Contact Form plugin.
+
+I have NO IDEA how to download the dang folder! I'm going mad looking for a download folder link or ANYTHING to download this. I've seen other pages with download links but how do I download this folder????
+
+Anyway, I appreciate your help.
+
+Thanks
+
+Rob

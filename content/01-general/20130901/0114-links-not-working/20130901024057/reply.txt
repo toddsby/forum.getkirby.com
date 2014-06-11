@@ -1,0 +1,10 @@
+User: JanStieler
+----
+Date: 2013-09-01 02:40:57
+----
+Text: Hi,
+have you take a look at the config.php?
+Take a look if Rewrite URL Setup ist on true or false and there are also two setups for using subfolders and URL.
+Take also a look what you have set here.
+
+Greetings

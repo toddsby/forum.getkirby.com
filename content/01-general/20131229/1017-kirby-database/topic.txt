@@ -1,0 +1,22 @@
+Title: Kirby Database
+----
+Date: 2013-12-29 10:17:13
+----
+Solved: 1
+----
+User: chrisburton
+----
+Text: I am trying to use the Kirby database classes (i.e. _db::connect_, _db::insert_) for a custom page I have. The page lives inside a subfolder (/dev) along with my Kirby CMS files.
+
+
+Now, how can I use those db classes if the page is not inside the content folder or wherever the page _should_ be?
+
+
+Do I just require the kirby.php file?:
+
+    require_once 'path/to/kirby.php';
+    //do stuff
+
+
+
+<img src="http://f.cl.ly/items/0o2W3N2C0q3R3y104005/Screen%20Shot%202013-12-29%20at%204.14.45%20AM.png" />

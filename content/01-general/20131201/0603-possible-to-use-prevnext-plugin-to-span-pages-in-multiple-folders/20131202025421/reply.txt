@@ -1,0 +1,31 @@
+User: unexpectedsport
+----
+Date: 2013-12-02 02:54:21
+----
+Text: @texnixe
+
+You are my coding angel, thank you so much :)
+
+Sorry it's taking me this long! I am getting closer, though. I wasn't getting any output at first, but then I added some extra parentheses to this part:
+
+	if ($article->hasNextVisible()): ?>
+
+	if ($article->hasPrevVisible()): ?>
+
+Now I am getting some output, but it is outputting **Prev** and **Next** links for each page in the 'featured' and 'archive' folders (rather than one link to the next page and one link to the previous page relative to the current page.) 
+
+Also, it looks like the first and last pages in each folder only have one link (the first pages in each folder have "Next" links and the last pages have "Prev" links. ) That makes me think that it's still not quite ready to jump from the last age in the "featured" folder to the first page in the "archive" folder (and vice versa…) Sorry if that's a little confusing. 
+
+Here is my current code:
+
+	<?php $articles=$pages->find('featured', 'archive')->children(); ?>
+	<?php foreach($articles as $article): 
+		if ($article->hasNextVisible()): ?>
+		    <a href="<?php echo $article->nextVisible()->url() ?>">Next</a>
+	    <?php endif; ?>
+	    <?php if ($article->hasPrevVisible()): ?>
+	        <a href="<?php echo $article->prevVisible()->url() ?>">Prev</a>
+	    <?php endif; ?>
+	<?php endforeach; ?>
+	
+Can you spot any mistakes I'm making here? Again, thanks a million!

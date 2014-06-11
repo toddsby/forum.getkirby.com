@@ -1,0 +1,29 @@
+User: bastianallgeier
+----
+Date: 2012-11-13 13:14:16
+----
+Text: You can just put setlocale in the end of your config file. 
+
+The problem is that the included `$page->date('d.m.Y')` method in Kirby works with PHP's date function. The date function does not recognize the locale settings and it won't give you translated month names, which sucks big time. I haven't thought about this when I started with Kirby. 
+
+There's a workaround though. If you don't pass a format string to the `$page->date()` method you will get a simple UNIX timestamp. You can use that together with PHP's strftime() to format the date. strftime() does recognize the locale settings and will give you translated month names. The format is just a bit different. You can find more about it in PHP's docs: <http://php.net/manual/en/function.strftime.php>
+
+This is how it would look in your template file: 
+
+```php
+<?php echo strftime('%d %B %Y', $page->date()); ?>
+```
+
+This would give you something like:
+
+```
+01 January 2012
+```
+
+or if you set the locale to German for example you would get
+
+```
+01 Januar 2012
+```
+
+I hope this helps.

@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-01-04 18:12:54
+----
+Text: Ah, figured it out by looking at the PHP error log. You're missing your closing parenthesis on line 5.

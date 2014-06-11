@@ -1,0 +1,13 @@
+Title: PLEASE HELP! 'Uninitialized string offset' error
+----
+Date: 2013-01-17 12:22:12
+----
+Solved: 1
+----
+User: fhuery
+----
+Text: Hi! I am getting the following error at the top of my home page when I view it on the browser and I do not know what the problem is:
+
+Notice: Uninitialized string offset: 0 in D:xampphtdocsbastiankirbylibvariables.php on line 27
+
+I have not manipulated the contents of the 'kirby' folder (or the 'variables' php file) in any way.

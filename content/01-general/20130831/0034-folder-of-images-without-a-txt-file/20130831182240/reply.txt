@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-08-31 18:22:40
+----
+Text: It's the preview.txt file that tells kirby to use the preview.php template. I'm not aware of any other way. Why can't you just include an empty txt file?

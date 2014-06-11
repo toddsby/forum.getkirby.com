@@ -1,0 +1,9 @@
+User: tysongach
+----
+Date: 2014-01-22 15:22:57
+----
+Text: Absolutely!
+
+And, basically, that’s what I’m doing now for putting these images on the frontend of the site: I’m using the thumb plugin to scale them down to my desired size for the template.
+
+However, as I mentioned, I’m finding that the Thumb plugin chokes with larger images (around 2500/3000px and up). So when my client uploads super large images, I get notifications of errors on the site.

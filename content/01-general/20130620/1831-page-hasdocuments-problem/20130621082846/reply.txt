@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-06-21 08:28:46
+----
+Text: I'm not sure what you are trying to find, but your code worked for me when I put a PDF in the page folder. I'm not sure what `hasDocuments()` will find, as there are other calls for files, images, videos, sounds etc. 
+
+You may have better luck using `hasFiles()` with perhaps a filter?

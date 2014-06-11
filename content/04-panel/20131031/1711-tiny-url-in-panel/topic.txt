@@ -1,0 +1,9 @@
+Title: Tiny URL in panel
+----
+Date: 2013-10-31 17:11:49
+----
+Solved: 1
+----
+User: jeredb
+----
+Text: I am wondering if I can modify the Panel to include the tiny url of the page that I am editing. I know where to put it `templates\content.php`, I just don't know which object to call (not $page).

@@ -1,0 +1,11 @@
+User: prayasabhinav
+----
+Date: 2012-11-04 00:58:43
+----
+Text: @hey_steffen
+
+yes I understand what you are saying. the loop being 'state-less' - 
+
+so is there someway - maybe jquery, maybe php, maybe in-built kirby to set-up states.
+
+or is it too complex to deal with in a forum?

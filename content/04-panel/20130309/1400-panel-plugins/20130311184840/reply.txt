@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-03-11 18:48:40
+----
+Text: I'm not sure if Batian is thinking about per site Panel plugins... It would be nice if Panel were in the main Kirby folder and it's plugins, fields etc, were per site.

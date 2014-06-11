@@ -1,0 +1,15 @@
+User: LewisJenkins
+----
+Date: 2013-02-05 12:22:56
+----
+Text: @russbaldwin
+
+I just like to separate stuff into folders :)
+
+@bastianallgeier
+
+If I do that, I get `/atest/contact` in my links, instead of `/contact`.
+
+I want Kirby in a subfolder, but I want to access it via `/` - not `/subfolder/`.
+
+Following the instructions I found in another post ( http://getkirby.com/forum/general/topic:244 ) and outlined in my initial post at the top of this page, I can get Kirby running fine using this method. But the Panel doesn't work ... it just goes into a loop of death.

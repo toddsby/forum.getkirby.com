@@ -1,0 +1,16 @@
+Title: A little concerned with the number of open bug posts...
+----
+Date: 2013-04-21 19:49:18
+----
+Solved: 0
+----
+User: zavadesign
+----
+Text: Hey guys,
+
+Am really liking Kirby in my tests so far, but as a paid option for a client I do have a little concern with the number of open bug threads there are. Keep in mind that I'm viewing this from using Kirby as a potential business solution, so reliability is very important for obvious reasons.
+
+Wrong to be concerned?
+
+Cheers,
+Dave

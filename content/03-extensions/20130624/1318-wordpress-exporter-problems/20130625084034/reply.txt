@@ -1,0 +1,6 @@
+User: russbaldwin
+----
+Date: 2013-06-25 08:40:34
+----
+Text: Did this include making the **content** folder and all it sub folders/files 777? Maybe give that a go ;-)
+Is it big? Maybe memory problems? Any other errors in the logs?

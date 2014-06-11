@@ -1,0 +1,11 @@
+User: paulrobertlloyd
+----
+Date: 2013-02-22 00:51:20
+----
+Text: Russ! You’ve gone above and beyond. THANK-YOU!
+
+I’ve spotted a few bugs in the beta, and have filled issues in GitHub.
+
+Thank-you!
+
+Paul

@@ -1,0 +1,9 @@
+Title: Search from every page
+----
+Date: 2012-06-30 11:24:18
+----
+Solved: 1
+----
+User: simonscheiber
+----
+Text: After tinkering with the search plugin for a while, I was wondering if it's possible to add a search field on every page while ending up displaying the results on the 'search results page'?

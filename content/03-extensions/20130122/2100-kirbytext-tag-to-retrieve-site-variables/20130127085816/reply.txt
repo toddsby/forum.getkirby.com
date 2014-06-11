@@ -1,0 +1,27 @@
+User: russbaldwin
+----
+Date: 2013-01-27 08:58:16
+----
+Text: Back at home and having time to run my code above, it was never going to work. Close, but no biscuit or perhaps more accurately in this case, no site object. Oh the dangers of posting code you have not tested, apologies Lu… this should do it.
+
+```php
+    function site_var($params) {
+      global $site;
+      $variable = strtolower($params['site_var']);
+      return '<p>'. $site->$variable .'</p>';
+    }
+```
+
+Called with:
+
+```php
+    (site_var: Email)
+```
+
+will then return, assuming the '**Email**' variable exists in your '**site.txt**' and it is set to '**info@domain.com**':
+
+```html    
+    <p>info@domain.com</p>
+```
+
+Hope this helps, again sorry about any confusion. You may want to check you return something before returning the HTMLified code and then just return nothing if it is empty e.g. the variable does not exist.

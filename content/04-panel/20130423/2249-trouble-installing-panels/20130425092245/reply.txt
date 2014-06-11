@@ -1,0 +1,6 @@
+User: russbaldwin
+----
+Date: 2013-04-25 09:22:45
+----
+Text: So you have the correct path set in your .htaccess files?
+What is your folder structure?

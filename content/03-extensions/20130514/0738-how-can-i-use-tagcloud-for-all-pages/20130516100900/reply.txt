@@ -1,0 +1,23 @@
+User: russbaldwin
+----
+Date: 2013-05-16 10:09:00
+----
+Text: Mmmmm, I just did a quick test and it worked on sub pages for me...
+Not sure what you are trying to achieve here, maybe too early ;-)
+
+What normally happens is say for an 'articles' index page template you have normal display code, but if a `tag:Test`  is set in the URL then the code just list items with those tags. 
+e.g.
+```php
+<?php
+if(param('tag')) {
+...
+} else {
+...
+}
+?>
+```
+
+That all works fine.
+`http://foobar.dev/articles/tag:Test`
+
+If you do this for the whole site, how are you going to filter what to display when `tag:Test` is set or are you just planing on listing links to them? If so you may have to alter the URL with it's path to link to a page/subpage...

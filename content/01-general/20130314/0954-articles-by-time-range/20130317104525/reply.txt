@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-03-17 10:45:25
+----
+Text: I've not used the 'counter' but it looks like it stores json, so you should be able to read it from snippet/template code. Maybe some sort of clever folder structure and/or a combined array? Maybe using a 'filterby()'? Also maybe check out [Categories + Tags](http://getkirby.com/forum/general/topic:99) for some more ideas...

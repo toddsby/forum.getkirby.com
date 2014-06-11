@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-03-23 18:54:39
+----
+Text: You could put them in the assets folder, but you lose some functionality, or you could create your own folder but other issues may occur.
+
+What is the reasoning behind this? Perhaps there is another way?

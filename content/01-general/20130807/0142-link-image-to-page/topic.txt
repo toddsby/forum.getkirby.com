@@ -1,0 +1,9 @@
+Title: Link image to page
+----
+Date: 2013-08-07 01:42:27
+----
+Solved: 1
+----
+User: aqeelfikree
+----
+Text: Just like post titles, in a blog, link to their respective single post page, how can I link an image to the page? So basically clicking an image should have the same behavior as clicking on a post title, knowing that each post has only one image.

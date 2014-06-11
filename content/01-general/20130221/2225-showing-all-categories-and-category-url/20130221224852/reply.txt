@@ -1,0 +1,31 @@
+User: jesuismaksim
+----
+Date: 2013-02-21 22:48:52
+----
+Text: In my case I use
+
+	$categories = tagcloud($pages->active(), array(
+		'param' 	=> 'category',
+		'baseurl'	=> $baseURL
+	));
+	
+	if(param('category')) {
+		$models = $page	->children()
+		                ->visible()
+		                ->filterBy('category', urldecode(param('category')), ',');
+	
+	} else {
+		$models = $page	->children()
+	                    ->visible();
+	}
+
+And then..
+
+
+	<?php foreach($categories as $category): ?>
+	<li<?php if($category->isActive()) echo ' class="active"' ?>>	
+		<a href="<?php echo $category->url() ?>">
+			<?php echo $category->name() ?>
+		</a>
+	</li>
+	<?php endforeach ?>

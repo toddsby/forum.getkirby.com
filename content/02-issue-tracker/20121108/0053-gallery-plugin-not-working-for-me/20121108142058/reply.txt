@@ -1,0 +1,25 @@
+User: RuehlPublishing
+----
+Date: 2012-11-08 14:20:58
+----
+Text: Sure.
+
+This is the snippet I'm using:
+[github gallery snippet](https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/gallery/gallery.php)
+
+My code:
+
+    Title: Drawings
+    ----
+    Description: Some drawings that I make in my free time or in boring
+    meetings.
+    ----
+    Text:
+
+    <h2>Some funny fish</h2>
+
+    I'd like to make a project with these fish one day. Maybe a kids book.
+
+    <?php snippet('gallery') ?>
+
+The snippet is in the site/snippets/ folder.

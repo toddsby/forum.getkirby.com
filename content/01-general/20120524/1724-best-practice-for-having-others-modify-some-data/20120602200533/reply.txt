@@ -1,0 +1,5 @@
+User: larsschulz
+----
+Date: 2012-06-02 20:05:33
+----
+Text: If your clients are on OS X you can provide them with an ftp:// url, incl. username and password. That way they have instant access to a directory in the finder. Most straight forward approach, dropbox is hard to grasp for many people, that are not so savvy... (they are somehow confused by all this local, remote files stuff, let alone git...)

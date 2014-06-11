@@ -1,0 +1,9 @@
+Title: Contact form
+----
+Date: 2012-09-15 21:55:32
+----
+Solved: 0
+----
+User: apolaine
+----
+Text: Before I reinvent the wheel, has anyone made a decent contact form template they want to share? (Or an extension?)

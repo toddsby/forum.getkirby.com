@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2012-10-29 18:10:03
+----
+Text: Yes, that would be nice. Also an option in the panel for the related field, that lets you pick related pages instead of typing the path.

@@ -1,0 +1,20 @@
+Title: find($uri) on a multi-language installation
+----
+Date: 2014-05-28 15:23:09
+----
+Solved: 0
+----
+User: jolinmasson
+----
+Text: Hi, I am trying to get a specific page by $uid. It work on my main language, but won’t show the english page (I setted URL-Key: projects).
+It does work if I remove the URL-Key. Here’s my code.
+
+    <?php $children = $pages->find('projets')->children() ?>
+
+I also tried to set up the same custom key value on both description.
+
+    <?php $children = $pages->findBy('lieninterne', 'projets')->children() ?>
+
+It work with my main language, but not on the english one. Instead, I get this error.
+
+    <b>Fatal error</b>:  Call to a member function children() on a non-object in <b>/Users/jolinm/Dropbox/Projets/Site web personnel/Code/site 1 kirby/site/snippets/projets.php</b> on line <b>6</b><br />

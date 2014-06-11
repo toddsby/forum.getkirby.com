@@ -1,0 +1,7 @@
+User: OMGitsJKT
+----
+Date: 2013-12-17 22:29:52
+----
+Text: My header does already find each page's individual CSS file, that's no problem. Like I said, I'd just like to have the .CSS file added by default alongside project.txt
+
+Perhaps a suggested feature for the next version of the panel. ex:, a field in the blueprints to include certain items upon the creation of a new page. This could be useful for placeholder images or other items as well.

@@ -1,0 +1,7 @@
+User: p_mylecharane
+----
+Date: 2013-04-29 01:33:07
+----
+Text: Thx Russ—
+
+Yeah I ended up just using media queries and a bit of js to help out. Was a completely different approach to the header on phone. Was hoping for an easier solution, but it works fine.

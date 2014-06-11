@@ -1,0 +1,32 @@
+Title: Tagcloud plugin warning
+----
+Date: 2013-12-11 21:27:46
+----
+Solved: 0
+----
+User: sasharae
+----
+Text: Hi there,
+
+I am currently creating a portfolio page on my site and am adapting some code from the Themis theme so that my content shows up as a grid with tag filters. I have run into an issue with the tagcloud plugin — when I navigate to the portfolio page it shows me the following warning:
+
+Fatal error: Call to a member function url() on a non-object on line 12 of the tagcloud.php file
+
+It is pointing to the 'baseurl' line under defaults in this array:
+
+	 // default values
+ 	  $defaults = array(
+	 'limit'    => false,
+	 'field'    => 'tags',
+	 'children' => 'visible',
+	 'baseurl'  => $parent->url(),
+	 'param'    => 'tag',
+	 'sort'     => 'name',
+	 'sortdir'  => 'asc'
+	 );
+
+At the moment I am clueless as to what this indicates. 
+
+I am still a beginner with all of this, and would appreciate your help.
+
+Thank you!

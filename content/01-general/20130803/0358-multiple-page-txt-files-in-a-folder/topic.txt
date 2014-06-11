@@ -1,0 +1,12 @@
+Title: Multiple page *.txt files in a folder?
+----
+Date: 2013-08-03 03:58:37
+----
+Solved: 1
+----
+User: stockphotogram
+----
+Text: Can I save several *.txt files in a single page folder? I would like to save group of variables into individual text files. If this is possible, how I can retrieve the variable from different *.txt files?
+
+
+Thank you.

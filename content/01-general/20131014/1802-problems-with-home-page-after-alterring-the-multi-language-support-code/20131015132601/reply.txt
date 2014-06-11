@@ -1,0 +1,6 @@
+User: i_am_niklas
+----
+Date: 2013-10-15 13:26:01
+----
+Text: Yes everything is there (panel, blog, about,...) except for the home page.
+I'll try to set it to default.

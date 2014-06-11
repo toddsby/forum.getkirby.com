@@ -1,0 +1,7 @@
+User: MinmlCo
+----
+Date: 2014-05-25 01:49:31
+----
+Text: I'd normally use the following:
+
+        <a href="tel: <?php echo $page-tel() ?>"><?php echo $page-tel() ?></a>

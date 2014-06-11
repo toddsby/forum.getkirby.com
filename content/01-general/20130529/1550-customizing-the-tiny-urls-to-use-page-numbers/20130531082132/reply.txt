@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-05-31 08:21:32
+----
+Text: I am probably missing something but I'm not sure why you would want to do this. I don't think short URl's have a semantic meaning, why not just use the built in tiny URL stuff?

@@ -1,0 +1,9 @@
+Title: Forum RSS feed not show 'Solved' topics?
+----
+Date: 2013-02-20 10:34:25
+----
+Solved: 0
+----
+User: russbaldwin
+----
+Text: Would it be a good idea if the forum RSS feed did not show 'Solved' topics? I may not? What are peoples thoughts?

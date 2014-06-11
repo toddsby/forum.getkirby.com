@@ -1,0 +1,27 @@
+User: kukac7
+----
+Date: 2013-02-15 13:15:45
+----
+Text: this solves the problem.
+dogs gallery:
+```
+<?php foreach($page->children->without('cats') as $gallery): ?>
+
+<div class="gallery">
+
+  <h2><?php echo $gallery->title() ?></h2>
+  
+  <ul>
+    <?php foreach($gallery->images() as $image): ?>
+    <li>
+      <a rel="<?php echo $gallery->uid() ?>" href="<?php echo $image->url() ?>"><?php echo thumb($image, array('width' => 200, 'height' => 200, 'crop' => true)) ?></a>
+    </li>
+    <?php endforeach ?>
+  </ul>
+
+</div>
+
+<?php endforeach ?>
+```
+
+same, only the cats galleries.

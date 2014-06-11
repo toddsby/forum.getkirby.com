@@ -1,0 +1,9 @@
+User: jean_francois
+----
+Date: 2013-08-10 16:15:05
+----
+Text: @Chris Looks like a nice workaround, but I can't afford to move the page into a featured folder because the page may be a visible/high traffic page. So when I decide to change the featured page, I had to change the page, location and url.
+
+@fitzage Thanks, done this way I was able to do what I wanted!
+
+Thanks everyone, I made a generic version available [here](https://github.com/jfgoncalves/Kirby-Stuff/tree/master/snippets/featured-page) if anyone needs it!

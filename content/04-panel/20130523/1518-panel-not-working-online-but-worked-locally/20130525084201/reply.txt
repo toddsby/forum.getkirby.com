@@ -1,0 +1,10 @@
+User: russbaldwin
+----
+Date: 2013-05-25 08:42:01
+----
+Text: Are you using mod-rewrite? Check you server supports it, is it Apache 2 / PHP 5.3 or better? Re-check your .htaccess file and maybe list it here - this seems to be an Apache Server routing problme.
+
+Although I don't think it is it, did you change your homepage to blog setup in config.php?
+```php
+c::set('home', 'blog');
+```

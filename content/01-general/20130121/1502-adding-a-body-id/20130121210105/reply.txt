@@ -1,0 +1,9 @@
+User: fitzage
+----
+Date: 2013-01-21 21:01:05
+----
+Text: I'm not seeing anything that precisely answers your question, but if I understand correctly and you want all subpages underneath "contact" to have "contact" as the body ID, and all subpages under "blog" to have "blog" as the body ID, you'd basically do this:
+
+    <body id="<php echo $site->uri()->path()->first() ?>"></body>
+
+Obviously home wouldn't have an id then, so you may want to add a conditional for that.

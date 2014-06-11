@@ -1,0 +1,13 @@
+User: i_cox
+----
+Date: 2013-11-18 20:04:38
+----
+Text: It would be great to have a drag and drop solution to reorder images in the same way that you can reorder pages within the panel.
+
+For now I'm renaming my images so they display in the proper order.
+
+01-image.jpg
+02-image.jpg
+03-image.jpg
+04-image.jpg
+05-image.jpg

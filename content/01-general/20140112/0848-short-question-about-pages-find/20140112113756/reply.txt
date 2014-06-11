@@ -1,0 +1,18 @@
+User: fridgewanch
+----
+Date: 2014-01-12 11:37:56
+----
+Text: After half a day reading through most of the forum I managed to come up with a solution. Does not allow me to pass in a page .txt field contents into "$pages->find()", so I still wonder how that is possible, if it is so.
+
+Anyhow, these two posts helped me sort it all out:
+
+<http://getkirby.com/forum/general/topic:11>
+<http://getkirby.com/forum/general/topic:746>
+
+And what I did was (the folder containing the products is a sibling of my homepage and the product page is a child of the products page):
+
+    <?php 
+
+    $productpage = $page->siblings()->find('products')->children()->find($page->product->value);
+
+    ?>

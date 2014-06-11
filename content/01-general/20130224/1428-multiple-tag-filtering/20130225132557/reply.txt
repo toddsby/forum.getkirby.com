@@ -1,0 +1,15 @@
+User: wieisdennis
+----
+Date: 2013-02-25 13:25:57
+----
+Text: Hi Russ,
+
+The site Isotope I know, I have visited it yesterday, but I'm curious that will do the job in my case, or what also could be, I don't fully understand it.
+
+I don't know for sure, but when I read the above mentioned topic from Fitzage, I got the illusion that something like this could be easliy done by adjusting a parameter/site variable ?? 
+
+I have a sidebar, with several seperate snippets, months, countries and tags. The snippets are all selectbox-menu's, see on http://getkirby.com/blog/fun-with-menus, this with your alpha-counting-plugin integrated :-)
+
+Let's say a visitor picks from the month-selectbox February, all events will be displayed in the main-content during the month February.
+
+If the visitor wants they also should have the option to filter the months-results down on country, or even on city etc. or vice-versa; you alreay understand my point.

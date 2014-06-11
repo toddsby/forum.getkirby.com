@@ -1,0 +1,24 @@
+Title: Best practice for having others modify some data
+----
+Date: 2012-05-24 17:24:56
+----
+Solved: 0
+----
+User: fitzage
+----
+Text: My current flow in ExpressionEngine requires one or two people to add new blog-type entries. Really, they're news items and events, but they're displayed in kind of a blog-type format, whereas the rest of the site is actual pages that nobody but me touches.
+
+To complicate things a little bit, my setup consists of having a staging server and load-balanced production servers. This actual setup should be pretty easy to deploy, but complicates how I handle other people editing content.
+
+I would like, if possible, to have their changes be deployable without me having to touch anything (for when I'm on vacation, etc.)
+
+I see a couple of options:
+1. Use git, and have it automatically deployed when they push changes. However, if they mess something up then the site gets messed up.
+2. Have them access the files directly. This would probably be fine, but since I have load-balanced servers, the files would need to be edited in multiple places.
+3. Have them access the files on the staging server. This would be save, and require editing only in one place, but I would still have to do some sort of push to get from staging to production.
+
+I guess I could give someone else the keys to do a live push, so it doesn't have to be me. I could even script something for the particular user that she could run that would deploy just that one content folder from staging to production. I would combine this with option number 3.
+
+As I was typing this out, I think I decided that maybe setting up a droplet on the user's computer that would copy new "articles" dropped on it to the staging server and then deploy the specific folder on the staging server to production might be the best approach.
+
+Any thoughts on my requirements and best practices?

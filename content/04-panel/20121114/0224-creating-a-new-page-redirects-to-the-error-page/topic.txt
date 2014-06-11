@@ -1,0 +1,15 @@
+Title: Creating a new page redirects to the error page
+----
+Date: 2012-11-14 02:24:29
+----
+Solved: 0
+----
+User: haustraliaer
+----
+Text: Whenever I create a new page in the Kirby Panel, enter a title and hit save - it re-directs me to the 'error' page.
+
+That is to say, not the http://mysite.com/error page, but the http://mysite.com/**panel**/error page. Where you can update the information on your _site's_ error page.
+
+If I click the **Home** button to go back to the main panel screen I can see that my new page was created just fine... but this is definitely irritating (and I wouldn't want to hand over to a client with this happening).
+
+Anyone else find this?

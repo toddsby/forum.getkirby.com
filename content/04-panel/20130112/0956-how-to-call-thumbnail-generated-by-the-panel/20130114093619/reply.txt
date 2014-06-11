@@ -1,0 +1,26 @@
+User: russbaldwin
+----
+Date: 2013-01-14 09:36:19
+----
+Text: I do not think there an auto-thumb generator in Kirby. You can create you own thumbs and access them as usual in the ['Adding Media' docs](http://getkirby.com/docs/media).
+
+	 <?php $image = $page->images()->find('01.jpg') ?>
+    <a href="<?php echo $image->url() ?>"><img src="<?php echo   $image->thumb()->url() ?>" /></a> 
+
+You can of course use the thumb plugin, which shows you how to set thumbnail sizes in the plugin documentation e.g.
+
+
+	<?php thumb($image, array('width' => 200, 'height' => 150)); ?>
+
+or a more extended version:
+
+
+    thumb($image, array(
+      'width'   => 200,
+      'height'  => 200,
+      'quality' => 90,
+      'upscale' => true,
+      'crop'    => true,
+    ));
+
+Is this what you were after?

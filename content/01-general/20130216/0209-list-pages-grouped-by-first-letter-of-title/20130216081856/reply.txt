@@ -1,0 +1,103 @@
+User: russbaldwin
+----
+Date: 2013-02-16 08:18:56
+----
+Text: Hi Paul, I don't have time to make all the pages, so I've used an array here to simulate them and I've split the code out , hopefully to make it clearer. Anyway I think you will get the idea.
+
+```php
+<?php
+//Array to simulate pages - not sorted
+$stations = array("Abbey Wood", 
+               "Addiscombe Road", 
+               "Barking", 
+               "Barnham", 
+               "Acton", 
+               "Battersea Park", 
+               "Adisham",
+               "Dagenham",
+               "Battle");
+               
+//Gets the stuff into a two dimensional array
+foreach ($stations as $station){
+        $temp = explode(' ',$station);
+        $temp = $temp[0];
+        $temp = strtolower($temp); //remove for case sensitive
+        $array[$temp][] = $station;
+}
+foreach ($array as $temp => $station){
+        if (count($station) == 1){
+                $array[substr($temp, 0, 1)][]=$station[0];
+                unset ($array[$temp]);
+        }
+}
+?>
+
+<?php foreach($array as $key => $station): ?>
+  <h3>Alphabetti Spaghetti Stations<h3>
+  <h4><?php echo strtoupper($key) ?></h4>
+  <ul class="stations listing">
+  <?php foreach($station as $stationName): ?>
+      <li><a href="<?php echo 'URL' ?>"><?php echo $stationName ?></a></li>
+  <?php endforeach ?>
+  </ul>
+ <hr/>
+<?php endforeach ?>
+```
+
+Gives you
+
+```html
+    <h3>Alphabetti Spaghetti Stations</h3>
+      
+  <h4>A</h4>
+  <ul class="stations listing">
+        <li><a href="URL">Abbey Wood</a></li>
+        <li><a href="URL">Addiscombe Road</a></li>
+        <li><a href="URL">Acton</a></li>
+        <li><a href="URL">Adisham</a></li>
+    </ul>
+  <hr/>
+  <h4>B</h4>
+  <ul class="stations listing">
+        <li><a href="URL">Barking</a></li>
+        <li><a href="URL">Barnham</a></li>
+        <li><a href="URL">Battersea Park</a></li>
+        <li><a href="URL">Battle</a></li>
+    </ul>
+  <hr/>
+  <h4>D</h4>
+  <ul class="stations listing">
+        <li><a href="URL">Dagenham</a></li>
+    </ul>
+  <hr/>
+```
+
+or
+
+###Alphabetti Spaghetti Stations
+
+####A
+
++ Abbey Wood
++ Addiscombe Road
++ Acton
++ Adisham
+
+---
+
+####B
+
++ Barking
++ Barnham
++ Battersea Park
++ Battle
+
+---
+
+####D
+
++ Dagenham
+
+---
+
+Caveats, it may not be that fast on large arrays. It might not be that efficient and you may want to check out alternatives. You can certainly make it smaller and neater.

@@ -1,0 +1,5 @@
+User: walkerbox
+----
+Date: 2013-07-29 10:49:11
+----
+Text: Could you post more of your code? In particular, include the whole of the loop you are using to iterate through the child galleries.

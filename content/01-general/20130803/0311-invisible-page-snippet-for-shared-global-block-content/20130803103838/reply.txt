@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-08-03 10:38:38
+----
+Text: I quite liked this [MVC idea from Maximilian](http://krausshq.com/posts/custom-post-types-with-views) and [this one about snippets in pages from Arno](http://getkirby.com/forum/code-snippets/topic:731).
+
+Hope this helps.

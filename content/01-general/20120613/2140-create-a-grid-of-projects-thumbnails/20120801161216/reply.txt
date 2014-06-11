@@ -1,0 +1,26 @@
+User: dingyi
+----
+Date: 2012-08-01 16:12:16
+----
+Text: Hi, some problem but for images.
+
+I want to fetch all subfolder's images in home page, but it doesn't work.
+
+Here's the code:
+```
+<ul class="gallery">
+	<?php foreach($page->children()->images() as $image): ?>
+	<?php $image->fitWidth(320) ?>
+	<li class="item">
+		<a href="<?php echo $image->url() ?>"><img src="<?php echo $image->url() ?>" width="<?php echo $image->width() ?>" height="<?php echo $image->height() ?>" alt="<?php echo $image->name() ?>" /></a>
+	</li>
+	<?php endforeach ?>
+</ul>
+```
+It said: Warning: Invalid argument supplied for foreach()...
+I aslo tried shuffle, no luck too.
+```
+$page->children()->images()->shuffle()
+```
+So how can I do this? 
+thanks!

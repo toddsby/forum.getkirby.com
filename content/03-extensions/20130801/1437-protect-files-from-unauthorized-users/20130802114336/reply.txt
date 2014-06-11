@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-08-02 11:43:36
+----
+Text: Simple answer is I don't know as I've not used it, Bastian maybe able to help or have a look at the code yourself and see if it can be adapted.

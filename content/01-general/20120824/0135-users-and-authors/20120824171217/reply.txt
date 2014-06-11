@@ -1,0 +1,27 @@
+User: bastianallgeier
+----
+Date: 2012-08-24 17:12:17
+----
+Text: I got a special field for authors on my todo list, but it's not there yet. 
+
+You can pull account information from the frontend, but it will need some extra code. Something like this should work:
+
+```php
+<?php
+
+$account = c::get('root.site') . '/panel/accounts/' . $page->author() . '.php';
+
+if(file_exists($author)) {
+  $content = f::read($account);
+  $author  = yaml($content);
+
+  // $author will be an associative array with all the info you need. 
+
+} else {
+  $author = false;
+}
+
+?>
+```
+
+You could easily put that into a plugin with its own function so it doesn't get in your way in your templates.

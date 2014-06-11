@@ -1,0 +1,46 @@
+User: iso_zeu
+----
+Date: 2013-06-11 09:23:46
+----
+Text: There's a built-in feature in IIS to import Apache2 mod_rewrite rules:
+[http://www.iis.net/learn/extensions/url-rewrite-module/importing-apache-modrewrite-rules](http://www.iis.net/learn/extensions/url-rewrite-module/importing-apache-modrewrite-rules)
+
+Here's the output I get for the rules shipped with Kirby, I didn't test if it actually works though:
+
+	<rewrite>
+	  <rules>
+	    <!--# block text files in the content folder from being accessed directly-->
+	    <rule name="Importierte Regel 1" stopProcessing="true">
+	      <match url="^content/(.*).(txt|md|mdown)$" ignoreCase="false" />
+	      <action type="Redirect" redirectType="Permanent" url="error" />
+	    </rule>
+	    <!--# block all files in the site folder from being accessed directly-->
+	    <rule name="Importierte Regel 2" stopProcessing="true">
+	      <match url="^site/(.*)" ignoreCase="false" />
+	      <action type="Redirect" redirectType="Permanent" url="error" />
+	    </rule>
+	    <!--# block all files in the kirby folder from being accessed directly-->
+	    <rule name="Importierte Regel 3" stopProcessing="true">
+	      <match url="^kirby/(.*)" ignoreCase="false" />
+	      <action type="Redirect" redirectType="Permanent" url="error" />
+	    </rule>
+	    <rule name="Importierte Regel 4" stopProcessing="true">
+	      <match url="^panel/(.*)" ignoreCase="false" />
+	      <conditions>
+	        <!--# make panel links work-->
+	        <add input="{REQUEST_FILENAME}" matchType="IsFile" ignoreCase="false" negate="true" />
+	        <add input="{REQUEST_FILENAME}" matchType="IsDirectory" ignoreCase="false" negate="true" />
+	      </conditions>
+	      <action type="Rewrite" url="panel/index.php" />
+	    </rule>
+	    <rule name="Importierte Regel 5" stopProcessing="true">
+	      <match url="^(.*)" ignoreCase="false" />
+	      <conditions>
+	        <!--# make site links work-->
+	        <add input="{REQUEST_FILENAME}" matchType="IsFile" ignoreCase="false" negate="true" />
+	        <add input="{REQUEST_FILENAME}" matchType="IsDirectory" ignoreCase="false" negate="true" />
+	      </conditions>
+	      <action type="Rewrite" url="index.php" />
+	    </rule>
+	  </rules>
+	</rewrite>

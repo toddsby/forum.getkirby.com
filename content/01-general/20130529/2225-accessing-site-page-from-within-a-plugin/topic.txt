@@ -1,0 +1,15 @@
+Title: Accessing $site/$page from within a plugin
+----
+Date: 2013-05-29 22:25:10
+----
+Solved: 0
+----
+User: coolrob335
+----
+Text: I am trying to find a way to access the $site (and $page) variable within a plugin, without having to pass it as an argument to the function. 
+
+I have been experimenting and the only way that I could really find is by passing the variable in the function. 
+
+Does anyone have any other ways to get around this, as if the plugin is to be released to the public (which I hope it will be in the future), I don't really want them to have to pass in a variable every time.
+
+(I have just put the plugin on GitHub, it can be found (link: https://github.com/RobBrazier/kirby-getimage text: here) if you want to see the context)

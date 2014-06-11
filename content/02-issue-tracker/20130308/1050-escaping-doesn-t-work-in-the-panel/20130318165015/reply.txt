@@ -1,0 +1,5 @@
+User: plartz
+----
+Date: 2013-03-18 16:50:15
+----
+Text: @russbaldwin no, Markdown Extra doesn't help. It seems like the panel removing the backslash while saving — I still think it's just an annoying bug, and not a feature ;)

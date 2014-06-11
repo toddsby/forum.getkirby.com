@@ -1,0 +1,15 @@
+Title: Default template: 3rd level menu?
+----
+Date: 2012-10-21 01:07:39
+----
+Solved: 0
+----
+User: h2only
+----
+Text: I downloaded the trial of Kirby this afternoon and have been playing with it a little bit... seems quite simple, and maybe even elegant!
+
+One quick question for now:  I have been messing with the default install files, and cannot seem to get a third level of menu to happen.  From what I understand, the sol reads the directory structure, and if there is a numerical value prior to a file or folder name, it is "visible" structurally... I get that.  I also understand how it seems to work for two levels (and have found the appropriate "snippets" that make that happen.
+
+How do I adjust the "submenu" snippet to reflect a 3rd level of menu, and what do I then do with it?
+
+(Note: not a PHP person... I can stumble around in it a bit but am by no means literate)

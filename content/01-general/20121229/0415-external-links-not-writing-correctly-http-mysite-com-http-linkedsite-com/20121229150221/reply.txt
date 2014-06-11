@@ -1,0 +1,9 @@
+User: jonathanbelton
+----
+Date: 2012-12-29 15:02:21
+----
+Text: If anyone else has this problem, I've simplified it by including this in the article text:
+
+<pre>
+openbracket link: http://link.com text: Visit site class: myclass closebracket
+</pre>

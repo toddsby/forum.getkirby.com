@@ -1,0 +1,15 @@
+Title: How to set a value to a key in .txt files?
+----
+Date: 2013-06-03 21:31:17
+----
+Solved: 1
+----
+User: fenixkim
+----
+Text: Hi! I'm new here
+
+I have a download counter in a page, I would to know, How can I write the count value in a key of the *.txt* file of the page?
+
+I don't want to use a **DB**, or create a new file to store the count, I just want to modify the current *.txt* file.
+
+Regards

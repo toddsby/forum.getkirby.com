@@ -1,0 +1,13 @@
+Title: File & Folder Structure for blog
+----
+Date: 2012-09-26 22:35:29
+----
+Solved: 0
+----
+User: apolaine
+----
+Text: So, I'm very nearly a Kirby convert, except for two things. One is whether it's really going to scale well for my blog. I currently have over 690 entries in my Wordpress blog that I've exported over to a Kirby test site and I do notice a lag when the blog page loads using Niklaus Gerber's Monochrome Theme for the blogging. (I don't really want Google to crawl the test page, but if you want to take a look it's at [http://www.polaine.com](http://www.polaine.com) and you can add /kirbytest to the URL.) Niklaus's template only fetches the latest few posts, so I'm not sure why it should slow, unless there is some looping through the entire articles directory first. Maybe it's just my webhost. I read the [Scale?](http://getkirby.com/forum/general/topic:58) thread on this forum, but I'd be interested to hear from others. Perhaps the best option would be to combine Kirby with the blogging part done by something like Scriptogr.am, but maybe that's stupid.
+
+The other issue is the file and folder structure. I love having all my posts as markdown text files on my computer, but I hate the fact that each one is named article.txt, even if they're inside a folder called 10-my-blog-post > article.txt. My question is whether it's necessary to do it that way or whether Kirby could handle a structure that has one directory for the posts and then each post file named like 10-my-blog-post.txt. As far as I can tell from my limited skim through the docs and examples, this isn't going to work because Kirby's templates are based on having the same name as the context text file they are using (i.e., article.php pulls into article.txt content).
+
+Can anyone give me their thoughts on those two issues? I'd really appreciate it.

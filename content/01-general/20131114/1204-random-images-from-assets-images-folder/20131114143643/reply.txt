@@ -1,0 +1,15 @@
+User: Lieblingstyp
+----
+Date: 2013-11-14 14:36:43
+----
+Text: I suggest this workaround:
+
+Upload the images to the content folder of your homepage. Use names like:
+
+> header-banana.jpg
+> header-apple.jpg
+> header-grapefruit-jpg
+
+Now you can user this code to show the images
+
+    <? $image = $page->find('home')->images()->filterBy('title', '*=', 'header-')->shuffle()->first(); ?>

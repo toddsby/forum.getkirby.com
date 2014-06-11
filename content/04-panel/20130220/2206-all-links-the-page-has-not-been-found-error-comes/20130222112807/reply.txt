@@ -1,0 +1,8 @@
+User: russbaldwin
+----
+Date: 2013-02-22 11:28:07
+----
+Text: What is in your .htaccess file?
+What PHP version is your host? 
+Does it support mod_rewite?
+What have you set in your config.php

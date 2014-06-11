@@ -1,0 +1,16 @@
+Title: Pagebreak to split long articles into multiple pages
+----
+Date: 2013-09-03 20:15:11
+----
+Solved: 1
+----
+User: texnixe
+----
+Text: Hi,
+
+I'd like to be able to split long articles into several without having to manually separate the file into multiple content files (like the <-nextpage-> tag in WP or pagebreak in Joomla).
+
+Cannot code that myself, I'm afraid, so does anyone know of a plugin? Or is there a way to do that in Kirby that I have just overlooked?
+
+Cheers
+Sonja

@@ -1,0 +1,9 @@
+User: screencuts
+----
+Date: 2014-02-27 08:59:37
+----
+Text: What I ended up doing is creating a plugin called routes.php. The code there simply tests for certain strings in the path and then resets the $_SERVER['REQUEST_URI'] setting.  @russbaldwin Somewhat equivalent to what you have above. 
+
+I tried to do this within .htaccess as well, but was having a great deal of trouble getting to work. My solution is called routes in part because it reminded me of other frameworks like DjangoCMS and others where you can set up code that handles different URLs differnetly.
+
+Made me wonder if Kirby could use a plugin like that...

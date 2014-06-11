@@ -1,0 +1,9 @@
+User: bastianallgeier
+----
+Date: 2013-01-04 13:52:22
+----
+Text: Sorry for the late reply and thanks for figuring most of it out already. 
+
+I have just a little note. Whenever you feel like you have too much PHP code in your templates you should outsource it to a plugin file. 
+
+Since the plugin system is so minimalistic you can simply drop a php file in your site/plugins folder and add additional functions or classes there. The file will be autoloaded that way and you can use the functions in your templates. In that case you could write a simple check function to compare the start and end date.

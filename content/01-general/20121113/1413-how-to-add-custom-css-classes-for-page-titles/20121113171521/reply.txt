@@ -1,0 +1,11 @@
+User: jhercher
+----
+Date: 2012-11-13 17:15:21
+----
+Text: Thank you for your quick response @russbaldwin + @fitzage !
+
+I like to add css-classes to menue-entries, Because I want to adjust the style each single menue-entry, e.g. to give it an own picture.
+
+They way you add css-classes by page-uid is a neat solution; I could still change the page-title but the page-uid stays the same and my css-rules will still apply.
+
+Thanks again and Best Regards

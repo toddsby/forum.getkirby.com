@@ -1,0 +1,50 @@
+Title: KirbyText: picturefill
+----
+Date: 2013-07-19 11:19:39
+----
+Solved: 0
+----
+User: bytte
+----
+Text: I needed to use Scott Jehl's picturefill script: a javascript polyfill for HTML's picture element. It's basically a way to serve responsive images that works today.
+
+I'm no developer at all, so I made this and it seems to work, but it can probably be approved big time. Feel free to improve and share.
+
+Here's the kirbytext format:
+
+    (picturefill: small.jpg alt: a puppy medium: medium.jpg large: large.jpg extralarge: extralarge.jpg)
+
+Here's the code I used in kirbytext.extended.php
+
+    <?php 
+
+    class kirbytextExtended extends kirbytext {
+  
+        function __construct($text, $markdown=true) {
+    
+        parent::__construct($text, $markdown);
+    
+        // define custom tags
+        $this->addTags('picturefill');
+    
+        // define custom attributes
+        $this->addAttributes('medium');    
+        $this->addAttributes('large');  
+        $this->addAttributes('extralarge');  
+    
+        }  
+
+        // define a function for each new tag you specify  
+  
+        function picturefill($params) {
+            $urlSmall = $this->url($params['picturefill'], $lang = false, $metadata = false);
+            $urlMedium = $this->url($params['medium'], $lang = false, $metadata = false);
+            $urlLarge = $this->url($params['large'], $lang = false, $metadata = false);
+            $urlExtralarge = $this->url($params['extralarge'], $lang = false, $metadata = false);
+
+            return '<span class="' . $params['class'] . '" data-picture data-alt="' . $params['alt'] . '"><span data-src="' . $urlSmall . '"></span><span data-src="' . $urlMedium . '"     data-media="(min-width: 400px)"></span><span data-src="' . $urlLarge . '" data-media="(min-width: 800px)"></span><span data-src="' . $urlExtralarge . '" data-media="(min-width: 1000px)"></span><noscript><img src="' . $urlSmall . '" alt="' . $params['alt'] . '"></noscript></span>';
+        }
+  
+    }
+
+    ?>

@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-10-22 10:19:26
+----
+Text: Could you describe some more where installing the knowledge base theme fails? I assume that you followed the instructions over here: <https://github.com/christianreber/kirbycms-knowledge-base> right?

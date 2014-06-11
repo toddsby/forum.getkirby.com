@@ -1,0 +1,5 @@
+User: seufelipe
+----
+Date: 2013-10-01 16:28:57
+----
+Text: how could i make a thumbnail navigation? you know, instead of having the numbers (line 41 of the gist), have nice little thumbs?

@@ -1,0 +1,22 @@
+Title: main blog homepage and navigate buttons
+----
+Date: 2013-03-05 15:54:45
+----
+Solved: 1
+----
+User: magarciaguerra
+----
+Text: Hello, again.
+
+I've configured blogarticle.php with the entire lastest post of the blog. (Each post is in a visible subfolder with a txt named article.txt).
+
+May be you can give some help.
+
+First of all I've included prevnext extension to this page, but, like It is actually a page (main page of the blog), when I click in 'older posts' button it shows me 'Contact' (previous page) and not previous post.
+I want this:
+1 When somebody arrives to the site, Kirby opens the blog (not the index.php). (got it!)
+2. Blog shows one entire post (not a list of lastest ones). (got it, but I don't know if I've got it in the right way).
+3. Buttons to navigate previous posts, not previous pages. (pending)
+
+Thanks a lot for helping me!
+:-)

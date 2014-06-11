@@ -1,0 +1,5 @@
+User: tbnv
+----
+Date: 2013-03-14 23:22:19
+----
+Text: It's supposed to do that? I don't understand. It should just give the URL of the thumbnail so I can write my own `img` tag, right?

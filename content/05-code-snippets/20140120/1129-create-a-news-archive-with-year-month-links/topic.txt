@@ -1,0 +1,172 @@
+Title: Create a "news" archive with year/month links
+----
+Date: 2014-01-20 11:29:30
+----
+Solved: 0
+----
+User: foamcow
+----
+Text: For a recent project I had to create a "News" section. The usual thing, just a basic chronological set of articles.
+
+The site also required an "archive" with a means to display posts from any given year or month/year.
+
+My solution is below, (also available as a gist (link: https://gist.github.com/fantasticmachine/8508989) ) although the code is not optimised and I can see one issue that I have yet to solve.
+
+First, a set of whacky conditionals that will look for url parameters for the year and month and display pages accordingly. All I'm doing here is grabbing all the pages, looping through them and only outputting if the date field meets the year/month filter criteria.
+
+	<?php 
+		/*
+		Since Kirby doesn't have a means to filter pages by date the following code is a series of conditionals
+		We first look for URL paramters.
+		these take the form of:
+		y:YYYY
+		m:m
+
+		For example;
+
+		/news/y:2013/m:1
+
+		Will return news items from January 2013
+		NOTE: months with a leading 0 (01,02,03 etc) will return an error
+
+		Once we have the year and month we check for their presence and output a modified page heading
+
+		When we output articles we simply check  to see if the article's date contains the appropriate year and month, or year only
+		and only display it if there is a match
+
+		NOTE: I can forsee a potential problem with the pagination here but will need to revisit when there are more articles in place.
+		*/
+
+		$monthArray = array(
+			'',
+			'January',
+			'February',
+			'March',
+			'April',
+			'May',
+			'June',
+			'July',
+			'August',
+			'September',
+			'October',
+			'November',
+			'December'
+			);
+
+		
+		$year = param('y');
+
+		$month = param('m');
+		
+		?>
+
+		<?php
+			if($year && $month):
+				$str = "News from ".$monthArray[$month]." ".$year;
+			elseif ($year):
+				$str = "News from ".$year;
+			else:
+				$str = "Latest news";
+			endif;
+		?>
+		<h2><?php echo $str; ?></h2>
+
+	<?php echo kirbytext($page->bodytext()); ?>
+
+
+	<?php
+
+		$articles = $pages->find('news')->children()->sortBy($sort='date', $dir='desc')->paginate(5);
+		
+		foreach($articles as $article) :
+	?>
+		<?php
+		if($year && $month):
+			if($article->date('Y')==$year && $article->date('m')==$month):
+		?>
+			<article class="story">
+				<h2><?php echo $article->title();?></h2>
+				<datetime date="<?php echo $article->date();?>"><?php echo date('jS F Y',$article->date());?></datetime>
+				<?php echo kirbytext($article->excerpt());?>
+				<a class="readmore" href="<?php echo $article->url();?>">Read more</a>
+			</article>
+		<?php
+			endif;
+
+		elseif($year):
+			if($article->date('Y')==$year):
+		?>
+			<article class="story">
+				<h2><?php echo $article->title();?></h2>
+				<datetime date="<?php echo $article->date();?>"><?php echo date('jS F Y',$article->date());?></datetime>
+				<?php echo kirbytext($article->excerpt());?>
+				<a class="readmore" href="<?php echo $article->url();?>">Read more</a>
+			</article>
+		<?php
+			endif;
+		else:
+		?>
+			<article class="story">
+				<h2><?php echo $article->title();?></h2>
+				<datetime date="<?php echo $article->date();?>"><?php echo date('jS F Y',$article->date());?></datetime>
+				<?php echo kirbytext($article->excerpt());?>
+				<a class="readmore" href="<?php echo $article->url();?>">Read more</a>
+			</article>
+		<?
+		endif;
+		?>
+			
+	<?php
+		endforeach;
+	?>
+
+	<?php if($articles->pagination()->hasPages()): ?>
+	<div class="pagination">  
+
+	   <?php if($articles->pagination()->hasPrevPage()): ?>
+	  <a class="next" href="<?php echo $articles->pagination()->prevPageURL() ?>">&lsaquo; Newer stories</a>
+	  <?php endif ?>
+
+	   <?php if($articles->pagination()->hasNextPage()): ?>
+	  <a class="prev" href="<?php echo $articles->pagination()->nextPageURL() ?>">Older stories &rsaquo;</a>
+	  <?php endif ?>
+
+	</div>
+	<?php endif ?>
+	</article>
+
+
+
+This snippet will create the list of year/month links (for use in a sidebar for example)
+	
+	<?php
+	$archive = array();
+	 
+	$articles = $pages->find('news')
+	                  ->children()
+	                  ->visible()
+	                  ->sortBy($sort='date', $dir='desc');
+	 
+	 
+	foreach($articles as $article):
+	    $archive[] = $article->date('F Y');
+	endforeach;
+	 
+	$dates = array_unique($archive);
+	?>
+	<ul class="archive-list">
+	<?php
+	/*
+	The news.php page checks for the presence of Year and Month parameters in the URL.
+	So for this case I'm creating the links with those parameters
+	*/
+	foreach($dates as $link):
+	?>
+	<li><a href="/news/y:<?php echo date('Y',strtotime($link));?>/m:<?php echo date('n',strtotime($link));?>"><?php echo($link) ?></a></li>
+	<?php
+	endforeach;
+	?>
+	</ul>
+
+
+As I said, this isn't optimised code. It could very probably be improved a great deal. I can also see an issue with the use of pagination since we are grabbing *all* pages but only showing *some* pages. I'm assuming at this stage that the pagination object just counts all of the pages. If I can resolve this I will update the gist and add something here.

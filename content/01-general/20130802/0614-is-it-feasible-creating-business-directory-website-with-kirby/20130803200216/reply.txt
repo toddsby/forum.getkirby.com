@@ -1,0 +1,7 @@
+User: ChrisjMartin87
+----
+Date: 2013-08-03 20:02:16
+----
+Text: Would an easier solution be to create a field of keywords for each entry, on the search results page fetch the keywords instead of an excerpt?
+
+Not the most elegant solution but may just work.

@@ -1,0 +1,5 @@
+User: syropian
+----
+Date: 2014-03-11 16:15:14
+----
+Text: I host my site on a (link:https://www.digitalocean.com text: DigitalOcean) VPS. I have Git installed both locally and on the VPS. What I do initially is SSH into my server, and clone my site's repo. After that all subsequent deploys are done through a bash script I wrote called (link:https://github.com/syropian/slipspace text: Slipspace). It automatically SSH's into your server, cd's into your repo and does a fetch/pull. You can also specify any post-deploy tasks you want to run. Deploys are done on a per-branch basis, so you would do something like `slipspace deploy master`. The script is still a bit of a work in progress, but it's worked quite well for most of my use cases.

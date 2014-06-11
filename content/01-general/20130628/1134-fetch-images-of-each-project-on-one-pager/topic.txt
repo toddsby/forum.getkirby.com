@@ -1,0 +1,13 @@
+Title: Fetch images of each 'project' on one-pager
+----
+Date: 2013-06-28 11:34:32
+----
+Solved: 0
+----
+User: nicovanzyl
+----
+Text: I'm currently building a one-pager site in a similar way to http://getkirby.com/blog/one-pager and I'm having trouble fetching the images of a project for a slider, my file structure is as follows:
+
+04-projects > 01-projectA , 02-projectB etc. > Slides > 01.jpg , 02.jpg etc.
+
+Can anyone tell me how I would fetch all images in the slides folder for each project?

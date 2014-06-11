@@ -1,0 +1,9 @@
+User: Eugenebicyclist
+----
+Date: 2014-01-17 14:52:20
+----
+Text: Ah, that was it. Actually I had both set to true on the blueprint for the event subpages, but I had 'files' set to false on the blueprint for the parent 'events' page. I set them all to 'true'.
+
+Then it let me see "event" in that little select menu to choose what kind of page I want when I create a new page.
+
+Thanks!

@@ -1,0 +1,11 @@
+Title: Kirby CMS + PHP file manager
+----
+Date: 2013-01-10 15:39:37
+----
+Solved: 0
+----
+User: bajoelcocotero
+----
+Text: We love Kirby Panel, but use Kirby CMS with a PHP file manager is a good solution too. We are finishing the first website with Kirby CMS + (link:http://www.file-gator.com/ text:FileGator), we had a very good experience, and the client is very satisfied.
+
+Somebody has used another Kirby CMS + PHP File manager combo?

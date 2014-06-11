@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-03-14 08:42:28
+----
+Text: The instructions are on [it's GitHub](https://github.com/vladstudio/vladstudio-kirby-smart-submit).

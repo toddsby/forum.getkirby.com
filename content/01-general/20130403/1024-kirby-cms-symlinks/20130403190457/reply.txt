@@ -1,0 +1,8 @@
+User: plartz
+----
+Date: 2013-04-03 19:04:57
+----
+Text: I think using tags would be easier, wouldn't it?
+
+- (link: http://getkirby.com/blog/tagcloud)
+- (link: http://getkirby.com/blog/1-0-3)

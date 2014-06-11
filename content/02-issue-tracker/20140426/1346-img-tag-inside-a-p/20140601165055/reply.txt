@@ -1,0 +1,11 @@
+User: afincato
+----
+Date: 2014-06-01 16:50:55
+----
+Text: @texnixe
+I followed your tutorial (I understand, more or less, simple german writing), but it doesn't work for me.
+I created a new php function and called it in the template.php (the one for the articles in which I want the images not to have a p tag wrapped around).
+Did I miss something?
+
+
+Thank you.

@@ -1,0 +1,13 @@
+User: lulezi
+----
+Date: 2012-11-12 19:46:31
+----
+Text: Don't know if I'm getting you right. You can access the global `$site`-var and from it the current `$page` with the following code:
+
+```php
+global $site;
+$pages = $site->pages();
+$page = $pages->active();
+```
+
+Then `$page->title()` would do the job.

@@ -1,0 +1,5 @@
+User: thomasgreenau
+----
+Date: 2014-01-04 00:33:01
+----
+Text: Also, check if cookies are disabled. This will prevent the login from working.

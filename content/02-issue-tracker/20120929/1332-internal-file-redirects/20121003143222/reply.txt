@@ -1,0 +1,11 @@
+User: roman_oroco
+----
+Date: 2012-10-03 14:32:22
+----
+Text: @bastianallgeier
+Yes, everything is set on default.
+Maybe because I put Kirby and Panel in the subdirectory?
+
+```
+http://demo.site.com
+```

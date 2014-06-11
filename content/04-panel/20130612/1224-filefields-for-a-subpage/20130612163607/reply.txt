@@ -1,0 +1,8 @@
+User: russbaldwin
+----
+Date: 2013-06-12 16:36:07
+----
+Text: Spacing has to be exact, two spaces for indentation is what I have found to work.
+
+Also these are **filefields:**, so I think these would only show when you select **Files** and then the **Edit** button?
+Perhaps you wanted to use just **fields:**?

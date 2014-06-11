@@ -1,0 +1,32 @@
+User: katrynvonfelsen
+----
+Date: 2012-10-30 22:47:59
+----
+Text: Hi there!
+
+I looked at this and it is exactly what i wanted!
+
+Regarding to this, i added a property called "type" inside certains blueprints
+
+At the moment i only define it with layout (type: layout)
+
+And in the file header.php _(kirby/panel/snippets/)_, i changed this piece of code at the line 82:
+
+      <li><a<?php echo $panel->show == 'options' ?   ' class="active"' : '' ?> href="<?php echo showurl('options') ?>"><?php echo l::get('tabs.options') ?></a></li>
+
+by this one:
+
+    <?php if($settings->type != "layout") {?>
+      <li><a<?php echo $panel->show == 'options' ?   ' class="active"' : '' ?> href="<?php echo showurl('options') ?>"><?php echo l::get('tabs.options') ?></a></li> 
+    <?php } ?>
+
+So the result is that I can create pages by section called layouts using a structure like this:
+
+    About page
+      Section 1 (Blueprint: layout 3 cols)
+      Section 2 (Blueprint: layout full)
+      Section 3 (Blueprint: layout slider)
+      Section 4 (Blueprint: layout 2 cols)
+
+Cheers,
+— Catherine

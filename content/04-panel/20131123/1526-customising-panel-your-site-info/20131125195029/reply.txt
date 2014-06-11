@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-11-25 19:50:29
+----
+Text: It is possible, because I did it. I'm having trouble figuring out how I did it, though. Did you try just adding extra fields to the site.txt file and see if they show up in the panel?

@@ -1,0 +1,19 @@
+User: joelhousman
+----
+Date: 2013-06-25 10:17:07
+----
+Text: > Did this include making the content folder and all it sub folders/files 777? 
+
+Yes.
+
+> Is it big?
+
+My site has over 2700 posts going back almost 10 years.
+
+> Maybe memory problems?
+
+I am watching the RAM on htop and it isn't maxing out.
+
+> Any other errors in the logs?
+
+No errors in the logs.

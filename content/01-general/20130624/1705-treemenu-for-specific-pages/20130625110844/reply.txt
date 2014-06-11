@@ -1,0 +1,22 @@
+User: russbaldwin
+----
+Date: 2013-06-25 11:08:44
+----
+Text: Is this a submenu for each page? Or am I missing something?
+
+```php
+// find the open/active page on the first level
+$open  = $pages->findOpen();
+$items = ($open) ? $open->children()->visible() : false; 
+$index = 0;
+?>
+<?php if($items && $items->count()): ?>
+
+  <ul>
+    <?php foreach($items AS $item):?> 
+    <li><?php echo html($item->title()) ?></li>
+    <?php endforeach ?>            
+  </ul>
+
+<?php endif ?>
+```

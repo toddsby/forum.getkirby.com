@@ -1,0 +1,7 @@
+User: graygilmore
+----
+Date: 2013-01-14 22:55:33
+----
+Text: The reason why I feel like it's built-in is because when you install The Panel, you're asked to create a /thumbs folder. When you upload media, The Panel generates a thumbnail (I believe it's 100x100) and places it in that folder to display in the backend. 
+
+I was trying to avoid installing a plugin when it looked like The Panel was already doing it.

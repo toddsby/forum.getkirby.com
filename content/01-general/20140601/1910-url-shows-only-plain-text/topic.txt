@@ -1,0 +1,16 @@
+Title: URL shows only plain text
+----
+Date: 2014-06-01 19:10:09
+----
+Solved: 0
+----
+User: leonardbahro
+----
+Text: I tried uploading the files from the latest kirby release (1.1.2-29-g1cd95de) to my server, but it only shows the content of the index.php as plain text.
+http://leonardbahro.com/
+Finding out that my hosting-package at 'hosteurope' doesn't support .htaccess files, but mod_rewrite ist always anabled i tried to edit the config.php to 
+c::set('rewrite', false);
+and set the URL manually, but that didn't help.
+I am not using a subfolder or anything.
+Setting it up on a WAMP-Server is no problem and works fine.
+Hope someone can help :)

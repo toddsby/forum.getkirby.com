@@ -1,0 +1,9 @@
+User: fitzage
+----
+Date: 2013-09-19 15:49:11
+----
+Text: I would keep the core files in a git repository, and have it ignore the content files. Then the content files can either be their own repositories, or just folders or whatever. Then you can easily push changes to the core files to your various server locations without affecting content.
+
+A similar option if you don't want to use git is to set up an rsync script that will sync from wherever your dev copy is up to the various servers.
+
+If everything is on the same server, you could try creating symlinks from one place to another. This might require special Apache configuration, though.

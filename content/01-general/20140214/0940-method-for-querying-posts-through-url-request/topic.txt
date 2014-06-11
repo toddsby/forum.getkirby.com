@@ -1,0 +1,27 @@
+Title: Method for Querying Posts through URL request?
+----
+Date: 2014-02-14 09:40:58
+----
+Solved: 0
+----
+User: screencuts
+----
+Text: Hi,
+I've set up a Category field in a 'Project' blueprint:
+
+    categories:
+        label: Categories
+        type: multicheckbox
+        options: 
+          everybodys: Everybodys'
+          ours: Ours
+          clients: Clients
+        size: small
+
+Now I want to be able to request via a URL request all the projects linked to a specific category. Is there a standard way of querying KirbyCMS to return content based on custom fields? Something like:
+
+    http://mysite.org/?categories=ours
+
+Or does one need to build in such functionality? I'm guessing it needs to be built, but I thought I'd ask first.
+
+Thanks in advance for the help.

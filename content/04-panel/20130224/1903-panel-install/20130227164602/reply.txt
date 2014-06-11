@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-02-27 16:46:02
+----
+Text: Maybe put Panel within Kirby folder and make it work when kirby is in the [root outside the website folder](http://getkirby.com/forum/feedback/topic:465) ;-)

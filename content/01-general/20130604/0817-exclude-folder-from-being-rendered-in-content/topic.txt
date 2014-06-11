@@ -1,0 +1,24 @@
+Title: Exclude folder from being rendered in /content
+----
+Date: 2013-06-04 08:17:52
+----
+Solved: 1
+----
+User: markusgiesen
+----
+Text: Hi there,
+
+does anyone know if / how I can exclude a folder from rendering in the /content folders?
+
+Example:
+
+ > content/01-project-a
+ > content/01-project-b
+ > content/01-project-c
+ > content/test
+ > content/test/test.html
+
+while I'd like all project folders to be rendered I'd like the test folder and it's contents (.html, .css and .js files) to be rendered the usual way. 
+
+What ways are there to do this? 
+Cheers, Markus

@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-01-19 13:32:33
+----
+Text: As it is done by file name, I guess the only way would be to change that, but I don't think this is possible via the Panel.

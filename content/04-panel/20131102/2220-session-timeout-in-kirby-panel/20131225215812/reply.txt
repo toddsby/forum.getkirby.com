@@ -1,0 +1,22 @@
+User: gvork
+----
+Date: 2013-12-25 21:58:12
+----
+Text: It's a 24hour cookie. 
+
+lib/user.php around line 77
+    cookie::set('auth', $token, 60*60*24);
+                s::set($token, $account);
+
+but what goes wrong (I think) is that this cookie is only set on login and never updated. So if you edit something around 24 hours after first login you will be kicked off.
+
+I added the cookie::set call in the checkAuth() function to update the cookie all the time:
+
+...
+    $account['token'] = $token;  // original line
+    cookie::set('auth', $token, 60*60*24*31);
+                s::set($token, $account); // added line
+    return $account; // original line
+        
+
+Dunno if it helps yet.

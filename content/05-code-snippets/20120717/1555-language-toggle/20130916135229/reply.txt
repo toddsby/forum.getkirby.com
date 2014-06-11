@@ -1,0 +1,7 @@
+User: timgauthier
+----
+Date: 2013-09-16 13:52:29
+----
+Text: i'm getting an unknown class error with the Locale::getDisplayName is this similar to the languages folder and files? where I would then name each local in its own language file?
+
+Thanks!

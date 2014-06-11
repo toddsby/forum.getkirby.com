@@ -1,0 +1,10 @@
+User: prayasabhinav
+----
+Date: 2012-10-31 05:03:06
+----
+Text: Sorry for repeated requests, but would really appreciate a reply. 
+
+Is there a way to get both the children and grandchildren in one loop? For the tag and search page also I need this. Otherwise only parents are shown.
+
+thanks!
+prayas

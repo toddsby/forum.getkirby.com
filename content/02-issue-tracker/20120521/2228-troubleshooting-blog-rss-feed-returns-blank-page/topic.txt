@@ -1,0 +1,20 @@
+Title: [Troubleshooting] Blog RSS feed returns blank page
+----
+Date: 2012-05-21 22:28:15
+----
+Solved: 0
+----
+User: y00fie
+----
+Text: First of all, awesome work on this CMS.
+
+So I followed your steps in the tutorial and created a blog. Next, I followed your steps and created a RSS feed for the blog (mydomain.com/kirby/blog). When I navigate to the feed page (mydomain.com/kirby/blog/feed), it just returns a blank page. I'm pretty sure I correctly put the code snippets where they should go.
+
+I tried this on my local Windows XAMPP install and on two different servers with the same results.
+
+Am I missing something? Is there something I should tweak in the code you provided in the tutorial?
+
+
+Note: I wasn't sure where to put this topic. Perhaps you should make some more forum categories?
+
+Any help is greatly appreciated.

@@ -1,0 +1,12 @@
+User: corvine74
+----
+Date: 2014-04-02 01:26:20
+----
+Text: I tried using the `$pages->index()` and loading it into a variable ad then adding `filterBy()` but I get an error.
+
+Same with adding the `filterBy()` directly to `index()`.
+
+    <?php $article = $pages->index();
+        $deals = $article->filterBy('deal', 'yes');
+    ?>
+    Fatal error: Call to a member function filterBy() on a non-object

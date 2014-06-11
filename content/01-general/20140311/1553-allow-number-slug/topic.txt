@@ -1,0 +1,23 @@
+Title: Allow 'number-slug'
+----
+Date: 2014-03-11 15:53:20
+----
+Solved: 0
+----
+User: jens_tornell
+----
+Text: I have an old URL that I want to keep if possible.
+
+It looks like this:
+
+    /30-days/
+    /90-days/
+
+It has nothing to do with my menu (visible or not). Is it possible to keep my URLS or do I need to redirect?
+
+I found out that this seems to be valid:
+
+    /days/30/
+    /days/90/
+
+...but I don't want /days/ to be an archive page and therefor I prefer the first structure.

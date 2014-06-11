@@ -1,0 +1,7 @@
+User: huhcorp
+----
+Date: 2013-02-13 01:11:15
+----
+Text: I agree that it feels like a hack. I'm taking advantage of this to add a class to some of my images (obviously just an option). And I think as kirby matures, a real quick find-replace through all your text files can get rid of this quite easily, when the time comes. But yeah, it's hack-ish:
+
+<code>product: &#60;div class="product"&#62;(image-here)&#60;/div&#62;</code>

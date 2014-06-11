@@ -1,0 +1,17 @@
+User: erow80
+----
+Date: 2013-05-24 21:01:08
+----
+Text: I ended up going with this:
+
+	switch ($page->uid()) {
+	    case 'products-page':
+	        snippet('products');
+	        break;
+	    case 'comapny-page':
+	        snippet('company');
+	        break;
+	    case 'other-page':
+	        snippet('other');
+	        break;
+	}

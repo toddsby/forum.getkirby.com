@@ -1,0 +1,11 @@
+Title: Random content
+----
+Date: 2014-04-17 19:07:38
+----
+Solved: 1
+----
+User: timurche
+----
+Text: Here is a code of "(link: https://gist.github.com/bastianallgeier/1750612 text: Home.php popup: yes)" page 
+
+The greetings are separated by " , ", how do I change " , " to for ex. " : "? So that greeting would be separated by " : ". Any ideas?

@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2012-05-24 17:42:37
+----
+Text: Well, I'm not sure my coworkers WOULD be able to use git, which is part of the problem with that one. I can barely use it myself. :-) I hadn't thought of setting up a git repository just for a specific folder, though. That option could work.

@@ -1,0 +1,5 @@
+User: jesuismaksim
+----
+Date: 2013-03-07 05:13:28
+----
+Text: Miss some information.. but at first sight it seems that 'zepto.js' is missing. Take a look at your script links

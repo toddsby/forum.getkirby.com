@@ -1,0 +1,5 @@
+User: me_arno
+----
+Date: 2013-01-03 20:17:00
+----
+Text: I still got this problem on my wamp even after using the dev version of Panel. On my mac mamp It's not happening.

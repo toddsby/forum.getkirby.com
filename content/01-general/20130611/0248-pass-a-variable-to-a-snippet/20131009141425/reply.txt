@@ -1,0 +1,5 @@
+User: timgauthier
+----
+Date: 2013-10-09 14:14:25
+----
+Text: now how to do this with a default value for the variable?

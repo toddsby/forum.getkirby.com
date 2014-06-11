@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-01-19 13:28:19
+----
+Text: Do you copy across the hidden .htaccess file and make any necessary amendments to this and you config files?

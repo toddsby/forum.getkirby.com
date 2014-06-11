@@ -1,0 +1,5 @@
+User: dokdeleon
+----
+Date: 2013-06-03 15:14:24
+----
+Text: @tinybigstudio, hi.. how were you able to resolve this? Having the same problem. Using plesk running PHP on FastCGI. Thanks

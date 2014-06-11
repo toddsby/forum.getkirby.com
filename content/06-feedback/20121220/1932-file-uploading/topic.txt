@@ -1,0 +1,21 @@
+Title: File Uploading
+----
+Date: 2012-12-20 19:32:06
+----
+Solved: 0
+----
+User: tysongach
+----
+Text: I’d love to see the file uploading process simplified.
+
+Right now the steps to upload a file are:
+
+1. Go to Files tab
+2. Click Upload a new file
+3. Click Choose File
+4. Browse for a file, click Choose
+5. Click Upload
+
+Seems like a lot of redundant steps, to me, as for every Kirby interface button (Upload a new file) there’s another default system button (Choose File) which means/does the same thing.
+
+It’d be super neat to see drag-and-drop brought to the file area. Maybe even drag-and-drop right to the spot in your content text.

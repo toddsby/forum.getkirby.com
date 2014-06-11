@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2014-02-27 18:36:35
+----
+Text: Yeah, so the file function in kirbytext works for files that are in the current folder. In templates, you can link to other files using paths, but I don't think you can in kirbytext, unless you write your own extension to kirbytext.
+
+Not entirely sure why this is, but in most cases it works fine. You could just link to the original page that has the file instead, maybe. Or put the file into the folder where you're linking to it from (which of course doesn't help if you want to link to the same file in multiple places).

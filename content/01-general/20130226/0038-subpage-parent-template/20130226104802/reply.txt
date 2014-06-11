@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-02-26 10:48:02
+----
+Text: There are a few ways todo this I guess, but have you seen [How to add template-specific CSS files](http://getkirby.com/blog/template-css)?

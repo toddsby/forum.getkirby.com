@@ -1,0 +1,22 @@
+Title: playing a soundfile on project page.
+----
+Date: 2014-01-11 11:29:46
+----
+Solved: 0
+----
+User: kamptweets
+----
+Text: Hi, 
+I just discovered Kirby and love it so far.
+
+I am trying to play a wav or mp3 soundfile on a project page.
+It should load when opening the project page.
+the file is within the project folder.
+
+What do i need to add to my project.php file, and what goes into the project.txt file?
+
+In addition would it be possible to have a text link to that file?
+Clicking the word "sound" would play the file again.
+
+Thanks so much!
+D.

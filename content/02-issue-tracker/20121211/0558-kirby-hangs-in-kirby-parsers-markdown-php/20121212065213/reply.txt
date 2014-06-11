@@ -1,0 +1,11 @@
+User: customAnything
+----
+Date: 2012-12-12 06:52:13
+----
+Text: Hi Chris, thanks for your help so far (and I emailed Bastian as you suggested).
+
+> Could be that you need to set the time limit higher
+
+`max_execution_time` is thirty seconds; I am not inclined to raise it.  If something like this takes longer than 30 seconds, it's taking too long and *should* be killed.  (As a side note, I've used markdown on this same machine/setup without problems.)
+
+I just tried this (_same_ copy) under php5.2, and it works fine.  Is anyone aware of any known issues with php5.4?

@@ -1,0 +1,13 @@
+Title: ReCaptcha with Kirby
+----
+Date: 2013-11-04 17:01:16
+----
+Solved: 0
+----
+User: jensweigel_de
+----
+Text: Im just trying to integrate ReCaptcha in Kirby. Is there somebody who can help?
+
+Im stuck at the correct integration of the verify.php (see Instructions here: https://developers.google.com/recaptcha/docs/php?hl=de&csw=1)
+
+Greetings Jens

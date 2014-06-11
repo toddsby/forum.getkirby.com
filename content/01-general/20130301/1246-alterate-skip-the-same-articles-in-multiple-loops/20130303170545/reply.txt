@@ -1,0 +1,6 @@
+User: roman_oroco
+----
+Date: 2013-03-03 17:05:45
+----
+Text: @russbaldwin Thanks for your reply.
+I have a slider for "featured articles" and after slider I have another loop for all articles. The problems is that second loop has the same articles as in the slider for "featured articles", this is like double content and I wanted to prevent this if it's possible.

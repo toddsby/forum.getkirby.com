@@ -1,0 +1,19 @@
+Title: Is a theme/template which looks like this possible?
+----
+Date: 2013-01-21 00:18:51
+----
+Solved: 1
+----
+User: memorion
+----
+Text: Hey,
+
+I'm really new to this stuff, but today I felt the urge to create something on my own and bought Kirby right off the bat (maybe a bit rashly, but.. oh well).
+
+So, my question is whether a design like on http://sirupsen.com/ or http://botalpha.com is possible with Kirby. Basically a layout in which only the part with the blog articles scrollable, while the "about"-whatever part isn't. Or would this be a problem due to the folder structure of Kirby?
+
+If it is possible I'd greatly appreciate some links, which may help me learn the basics to achieve something like this.
+
+Thanks!
+
+/Edit: I just found http://buschfeuerdesign.de/ and http://kulorama.com/ which are both listed as made with Kirby, so I guess it is possible. A heads up on how-to do this would still be appreciated!

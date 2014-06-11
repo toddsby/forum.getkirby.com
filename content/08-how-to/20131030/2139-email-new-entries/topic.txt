@@ -1,0 +1,23 @@
+Title: Email new entries
+----
+Date: 2013-10-30 21:39:19
+----
+Solved: 0
+----
+User: tryitsimple
+----
+Text: Basically I'm trying to setup a local system that will automatically email new entries to evernote.
+
+I want the title of the email to be
+
+the entry title ="Some Title"
+plus
+a specific tag ="Work"
+plus
+a specific notebook ="Somenote"
+equals
+Some Title @Somenote #Work (the email title)
+
+The body of course would be the entry. I'm wondering if anyone has a pre-baked email solution they've set-up. Ideally I will also want it to email a team email address notifying to update their Evernote, and that changes have been made.
+
+I admit I haven't done a lot of research, and it's probably going to be a simple thing, but I like to start a discussion before jumping into research in case I reach a stumbling block.

@@ -1,0 +1,9 @@
+User: russbaldwin
+----
+Date: 2013-06-25 11:13:41
+----
+Text: Also what is the error? I'm guessing try (sans $site)
+
+```php
+<?php if(!isset($subpages)) $subpages = $pages->find('boerse') ?>
+```

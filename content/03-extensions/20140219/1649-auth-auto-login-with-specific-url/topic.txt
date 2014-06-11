@@ -1,0 +1,18 @@
+Title: Auth: Auto login with specific url
+----
+Date: 2014-02-19 16:49:59
+----
+Solved: 0
+----
+User: prop79
+----
+Text: Hello,
+
+is there a way for logging in using the auth plugin without entering data in a form snippet? Yes, it surely sounds odd but I need to find a way for using a Basic DocCheck-Login ([DocCheck Website](http://lounge.doccheck.com/com/services/passwordprotection/)) alongside a default frontend authentication.
+
+The Basic doccheck license secures the protected area of a website only by redirecting the visitor to the landing URL after checking the profession. ([PDF documentation](http://lounge.doccheck.com/fileadmin/user_upload/dc_lounge/pdf/en/DocCheck_Login_Manual_12.3_COM_01.pdf))
+
+I've already tried it without luck using curl. What would be the best way to implement this?
+
+Thanks a lot,
+René

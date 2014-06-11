@@ -1,0 +1,15 @@
+Title: Custom permalinks in single-language sites
+----
+Date: 2013-08-15 01:56:20
+----
+Solved: 0
+----
+User: atimoda
+----
+Text: Would be great if its possible to personalize the permalink of the page in the native language, the same way we current can do in other languages using "URL-Key" parameter.
+
+This is VERY useful many times when you need to make an SEO optimized url, but you dont want your folder structure to be long-named, and also to keep it better organized.
+
+Also, I think the parameter would be better named by "permalink" or "slug". "URL-Key" is a little strange to me... everytime I need to use it, I have to take a look in another page to remember the name...
+
+Thanks :)

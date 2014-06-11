@@ -1,0 +1,7 @@
+User: silasburton
+----
+Date: 2013-11-06 07:01:08
+----
+Text: Had to do more server stuff to allow rewrites even after turning mod_rewrite.
+
+Overall Digital Ocean seems really fast and good but is not for the faint of heart.

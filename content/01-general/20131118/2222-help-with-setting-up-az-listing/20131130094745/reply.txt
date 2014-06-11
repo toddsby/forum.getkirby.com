@@ -1,0 +1,12 @@
+User: UnknownGuest
+----
+Date: 2013-11-30 09:47:45
+----
+Text: Ok am struggling with just getting the tag results. 
+
+Here's a pen of the /people page. 
+http://codepen.io/anon/pen/hyHoF
+
+The letters are appearing, but when I click on one no results get displayed. How do I make the results display when I click on a tag? 
+
+I've read the tutorial on tags and there's nothing there about how to display the results of the tags...

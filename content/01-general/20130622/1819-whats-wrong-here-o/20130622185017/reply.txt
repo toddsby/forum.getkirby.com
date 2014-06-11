@@ -1,0 +1,11 @@
+User: roman_oroco
+----
+Date: 2013-06-22 18:50:17
+----
+Text: @fuke_ya Hi, first of all just name correctly your content folders:
+```
+01-about-me
+02-instagram
+```
+
+Read more at (link: /docs/content).

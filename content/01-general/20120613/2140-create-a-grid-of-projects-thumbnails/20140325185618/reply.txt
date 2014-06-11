@@ -1,0 +1,21 @@
+User: onamatapier
+----
+Date: 2014-03-25 18:56:18
+----
+Text: Hello,
+How would I go about using this alongside the thumb plugin? What I want to do is show the thumbnail rather than full size image. Im totally confused when it comes to php!
+Thanks so much.
+
+Edit -  this is as close as i can get:
+
+
+    <ul>
+    <?php foreach($page->children() as $project): ?> 
+    <li>      
+    <a href="<?php echo $project->url() ?>"><img src="<?php echo thumb($project->images()->first(), array('width' => 280, 'height' => 280, 'crop' => true))?>" alt="<?php echo html($project->title()) ?>" /><?php echo html($project->title()) ?></a>
+    </li>
+    <?php endforeach ?>  
+    </ul>
+
+
+DOUBLE EDIT... I managed to fixit but don't know how to delete this post.

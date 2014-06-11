@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-01-15 09:50:34
+----
+Text: It may well do that but I don't think it exposes it's config programatically. You could dig around in the code (lib - thumb.php?) to find it but then you have the problem when the Panel gets updated.
+
+I'm not sure I see a problem with using the plugin?

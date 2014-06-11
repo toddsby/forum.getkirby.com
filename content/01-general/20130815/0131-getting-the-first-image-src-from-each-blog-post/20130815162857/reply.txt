@@ -1,0 +1,29 @@
+User: walkerbox
+----
+Date: 2013-08-15 16:28:57
+----
+Text: @azharc - good solution.
+
+@ChrisjMartin87 - your end statements are the wrong way round. 
+
+Adapted to the OP's original pastebin:
+
+    <?php foreach($page->children()->visible() as $article): ?>
+        <article class="post preview">
+            <?php if($child->hasImages() : ?>
+                <a href="<?php echo $article->url() ?>" title="<?php echo html($article->title()) ?>" class="article-image">
+                    <img src="<?php echo $article->images()->first()->url() ?>" alt="<?php echo html($article->title()) ?>" />
+                </a>
+            <?php endif; ?>
+            <h1 class="post-title">
+                <a href="<?php echo $article->url() ?>">
+                    <?php echo html($article->title()) ?>
+                </a>
+            </h1>
+            <p>
+                <a href="<?php echo $article->url() ?>">
+                    <?php echo excerpt($article->text(), 300) ?>
+                </a>
+            </p>
+        </article>
+    <?php endforeach ?>

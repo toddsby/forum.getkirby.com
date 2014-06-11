@@ -1,0 +1,15 @@
+Title: Notice: Undefined index in pages.php and files.php
+----
+Date: 2013-01-12 15:26:03
+----
+Solved: 1
+----
+User: alfredluk
+----
+Text: I'm testing Kirby and encountered Notice: Undefined index: ___ in kirby/lib/pages.php and files.php
+
+Nonetheless it runs fine and have no notices in my local MAMP.
+
+PHP version on server is 5.3.10. I'm not sure if it's related to the version. I'm very new to PHP and appreciated if anyone could help.
+
+Thanks!

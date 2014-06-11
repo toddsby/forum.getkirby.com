@@ -1,0 +1,26 @@
+User: russbaldwin
+----
+Date: 2013-03-08 13:30:29
+----
+Text: Or do you mean soemthing like?
+
+```
+###1. Nice subhead  
+Lorem ipsum, you know that. Long paragraph here.
+
+###2. Another nice subhead  
+Another longgggg text here.
+```
+
+###1. Nice subhead  
+Lorem ipsum, you know that. Long paragraph here.
+
+###2. Another nice subhead  
+
+
+```html
+<h3>1. Nice subhead</h3>
+<p>Lorem ipsum, you know that. Long paragraph here.</p>
+<h3>2. Another nice subhead</h3>
+<p>Another longgggg text here.</p>
+```

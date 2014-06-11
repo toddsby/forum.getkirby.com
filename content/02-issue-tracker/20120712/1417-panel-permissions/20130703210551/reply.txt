@@ -1,0 +1,6 @@
+User: mauphie
+----
+Date: 2013-07-03 21:05:51
+----
+Text: I just wanted to put my two cents in as I had the exact same problem as the original poster. My panel worked perfect on localhost, but the permission problem began when I went live.
+As of now, I had to change the Thumbs to 746. I tried to apply 746 to the content folder, as well. but a php error came up. eventually i used 757 on the content folders and that seems to have worked.

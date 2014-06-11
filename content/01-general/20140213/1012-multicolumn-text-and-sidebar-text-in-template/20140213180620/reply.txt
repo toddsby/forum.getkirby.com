@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2014-02-13 18:06:20
+----
+Text: Ah, yes. I didn't notice the content file syntax issue in your first post.
+
+You can still make a sidebar snippet if you need some content to be different, and other content the same, FYI.

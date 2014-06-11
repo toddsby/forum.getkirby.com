@@ -1,0 +1,8 @@
+User: thisislawatts
+----
+Date: 2014-05-27 19:00:37
+----
+Text: That looks really interesting! I hadn't thought about adding this into KirbyText. I did however find a need for a picture() style tag to the template so I put together a plugin based on thumb which handles resizing images.
+
+Just starting out on a project where I will be using it, but check it out on Github be great to get some feedback on it
+https://github.com/thisislawatts/kirbycms-extensions/tree/picture/plugins/picture

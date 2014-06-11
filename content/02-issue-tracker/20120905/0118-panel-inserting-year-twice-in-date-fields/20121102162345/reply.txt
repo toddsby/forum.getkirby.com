@@ -1,0 +1,14 @@
+User: tysongach
+----
+Date: 2012-11-02 16:23:45
+----
+Text: Great, thank you for the clarification Bastian! Just a few nuances with dates and PHP which I didn't know about.
+
+For the record and for anyone else who might need further help:
+
+Blueprint: mm/dd/yy
+Panel Shows: 11/02/2012
+Template: $page->date('F j, Y')
+Rendered Date: November 2, 2012
+
+Thanks again!

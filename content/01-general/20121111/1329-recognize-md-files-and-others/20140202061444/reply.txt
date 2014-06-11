@@ -1,0 +1,5 @@
+User: Pgruneich
+----
+Date: 2014-02-02 06:14:44
+----
+Text: Can it recognize md AND txt?

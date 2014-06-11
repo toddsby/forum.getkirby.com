@@ -1,0 +1,30 @@
+User: paulrobertlloyd
+----
+Date: 2013-02-17 02:20:55
+----
+Text: Hmmm, that code is actually more complicated than it needs to be, and doesn’t work if the last letter isn’t Z.
+
+Here’s what it should be:
+
+```php
+<section>
+    <h1><?php echo smartypants($page->title()) ?></h1>
+    <?php 
+        $items = $pages->findOpen()->children->sortBy('title', 'asc');
+        $curr_letter = '';
+    ?>
+    <?php foreach($items as $item): ?>
+        <?php
+            $this_letter = str::upper(str::substr($item->title(),0,1));
+            if ($this_letter != $curr_letter):
+        ?>
+            <?php if ($this_letter != 'A'): ?></ul><?php endif ?>
+                <h2><?php echo $this_letter ?></h2>
+            <?php $curr_letter = $this_letter; ?>
+            <ul>
+        <?php endif ?>
+        <li><a href="<?php echo $item->url() ?>"><?php echo smartypants($item->title()) ?></a></li>
+    <?php endforeach ?>
+    </ul>
+</section>
+```

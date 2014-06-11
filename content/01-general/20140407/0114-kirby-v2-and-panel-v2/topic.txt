@@ -1,0 +1,28 @@
+Title: Kirby v2 and Panel v2
+----
+Date: 2014-04-07 01:14:32
+----
+Solved: 0
+----
+User: devdatastream
+----
+Text: Hi,
+
+we've all been waiting for a very long time for this and have been dissapointed by the lack of communication with the community about your progress, an ETA and especially the total absense of a roadmap.
+
+### About Kirby
+It's been a pitty to hear that Panel v2 is planned to be seperated from Kirby v2 and may get a seperate price tag. You're creating a hurdle that makes developing anything for Kirby quite unattractive for developers. All of your customers use Kirby v1.x. Now, if someone decided to actually develop serious stuff for Kirby, they would be punished for doing so, if Kirby v2 would be release afterwards. That's because all the work and hours put into developing things for Kirby may become obsolete and incompatible due to the new Kirby. We cannot ever know, without you telling us developers what is planned, what will come, what will change and how we should prepare to change our code for the new release.
+
+### About the Panel
+I was about to create a better panel and have already replaced the content editor with http://epiceditor.com/ , but this couldn't be done in a clean way, because you have no proper way of overriding/replacing plugins. Or in other words, the plugin-system needs more love. There are so many things that can be improved about the Kirby panel, I don't know where to start, but generally speaking I have 5 demmands to a proper CMS Dashboard.
+1. In-Context (visual) Editing Experience (the dashboard must get out of our way)
+2. API Management (to remotely manage content of any type)
+3. Dynamic Link and URL Management (indexed URLs in production should 302 on change)
+4. User Roles, Permissions and Workflows
+5. Global Undo feature and warn about User Errors like 404s, wrong permissions, etc.
+
+*I think many would agree with me, that we'd hate to see something like TinyMCE, which resembles the editing experience casted in the 90s. Yes, Epiceditor alone also ain't a big improvement. *
+
+However, the reasons mentioned above stopped me from going further. You could release a similar panel anyday and put a price tag on it and make it compatible to v1 and v2, while I could only make it compatible to v1. That's because your development process is completely intransparent and not opensource. The last commit to the only public version of your v2 "branch" (don't get why you create a seperate project instead) is about 2 months old and is still incomplete. https://github.com/getkirby-v15/cms
+
+Don't get me wrong, this is honest critics with the goal of making things more transparent and easier for you and us. It's not meant to be bash you, your company or your product in any way.

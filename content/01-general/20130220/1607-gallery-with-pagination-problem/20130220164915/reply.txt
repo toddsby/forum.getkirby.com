@@ -1,0 +1,5 @@
+User: StimEmmerson
+----
+Date: 2013-02-20 16:49:15
+----
+Text: I am sorry it works well with **photography.php** but I need it to work with gallery of the project, witch is in the directory **PHOTOGRAPHY/project-a**, what should I do if I want create a template for **PHOTOGRAPHY/project-a** I can´t simple put some **.php** into my site/templates folder

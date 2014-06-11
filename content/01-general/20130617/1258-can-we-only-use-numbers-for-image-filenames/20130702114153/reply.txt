@@ -1,0 +1,5 @@
+User: MatthewOlczak
+----
+Date: 2013-07-02 11:41:53
+----
+Text: All the images that I was trying to upload had special characters in the file names. It was a '©' that prevented the filename being read and not that it was more than a number. Thanks for the help.

@@ -1,0 +1,19 @@
+Title: return a non template text file inside a content folder
+----
+Date: 2013-04-04 15:09:35
+----
+Solved: 0
+----
+User: brendandawes
+----
+Text: This has me stumped.
+
+I need to allows access to a text file that sits inside a Kirby content folder. If I try and access it like this: http://myserver.com/ping/pong.json it just goes to the default page as there's no template for pong.json
+
+I tried making a pong.json.php template but still no joy.
+
+The file has to be called pong.json as it's being called by an API.
+
+Any ideas?
+
+Cheers.

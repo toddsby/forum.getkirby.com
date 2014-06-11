@@ -1,0 +1,18 @@
+Title: Check if a post has more than one image
+----
+Date: 2012-09-10 14:54:50
+----
+Solved: 0
+----
+User: alexfever
+----
+Text: Hi,
+
+How do I check if a post has more than one image in it's folder?
+
+I wan't to display a gallery if there's more than one image, but if there's only one image it should not activate the gallery.
+
+Any help is much appreciated.
+
+
+Alex

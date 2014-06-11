@@ -1,0 +1,25 @@
+User: coolrob335
+----
+Date: 2013-06-03 10:05:02
+----
+Text: What I use to do this is replace the contents of panel/fields/date/date.php with 
+
+```php
+<?php 
+
+// define the default format if nothing is set
+if(!isset($format)) $format = 'yy-mm-dd'; 
+
+?>
+<input class="input" type="text" data-format="<?php echo html($format) ?>" data-language="<?php echo html($panel->user->language) ?>" name="<?php echo html($name) ?>" value="<?php 
+if(!$value){
+    echo html(date('Y-m-d'));    
+} else if($value){
+    echo html($value);
+}
+?>" />
+```
+
+(or just change the value="" part of your date.php file)
+
+This adds today's date if it isn't already set, but doesn't change it to today's date if it is set.

@@ -1,0 +1,10 @@
+User: verde_andrea
+----
+Date: 2013-01-09 15:36:23
+----
+Text: Yes I understand, thanks for your answer. 
+But what if I want to manage clients and projects in a personal website, and i want to assign projects to clients?
+Everytime I add a new client (with all its felds, let's say name, contacts, etc.) I have to add it to the blueprint, right? 
+So i have to add it two times (one time as article, one as blueprint options).
+I'm just experimenting with Kirby (that I find great!) but maybe it's not the right solution in this case.
+Thanks

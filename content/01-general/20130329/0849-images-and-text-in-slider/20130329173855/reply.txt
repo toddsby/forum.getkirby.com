@@ -1,0 +1,11 @@
+User: conefreykoedam
+----
+Date: 2013-03-29 17:38:55
+----
+Text: I used the exact folder structure as you mentioned. But I might just try again to understand what is going on.
+
+Yep, the carousel was clear done that works fine, using that kind of set up often.
+
+I've tried my 'text and image problem' with Markdown Extra and that works out fine also. But that wraps extra paragraph-tags around my figure-tags, well no big deal I can use div instead.
+
+edit: I see there are some threads about extra p-tags around figure so that might me solved ...

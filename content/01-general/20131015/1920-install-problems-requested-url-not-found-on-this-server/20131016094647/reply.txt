@@ -1,0 +1,11 @@
+User: studioshitless
+----
+Date: 2013-10-16 09:46:47
+----
+Text: >Do you have Apache mod_rewrite enabled?
+
+I said:
+
+'I have checked that rewrite rules are available and on by default with my hosting service.'
+
+Is what you are asking a different question?

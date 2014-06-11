@@ -1,0 +1,18 @@
+User: atimoda
+----
+Date: 2013-08-14 22:20:45
+----
+Text: I would create a simple subtitle field:
+
+<pre>
+Title: My beautiful title
+----
+Subtitle: My subtitle
+----
+</pre>
+
+Then, echo in your template:
+
+<pre>
+if($page->subtitle()): echo $page->subtitle(); endif
+</pre>

@@ -1,0 +1,7 @@
+User: bastianallgeier
+----
+Date: 2012-06-01 13:16:40
+----
+Text: Yep, it's pretty useless right now on the iPhone, but it works great on the iPad. I'm working on a fix for that, but I somehow need to find a good way to handle the sidebar on the iPhone. That's why there's still no iPhone compatible version. 
+
+P.S. I fixed the broken image and removed your second comment. I hope that's ok. I'm also working on an edit mode for posts.

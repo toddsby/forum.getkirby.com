@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-08-27 21:51:23
+----
+Text: It's not possible at this time, but Kirby 2.0 will have a new panel that might make that more flexible.

@@ -1,0 +1,25 @@
+Title: Panel Permissions
+----
+Date: 2012-07-12 14:17:20
+----
+Solved: 0
+----
+User: gurjeet_singh
+----
+Text: Hello,
+
+I have been trying out Kirby and the Panel and so far it all looks impressive. Loving the speed and the minimalism. However, I am having problems in the Panel, I am constantly getting this error:
+
+
+Please fix first!
+Permissions
+The permissions in your content directory are not set properly. Please change the permissions for all folders to 0755 and for all files to 0666
+Thumbnails
+Please add a thumbs directory to the main directory of your site and change its permissions to 0755
+
+
+This means I cannot add new pages or delete pages via the Panel. The pages I have created have been done manually. All permissions have been set correctly. I have tried this online and locally and also had a mate of mine try it on his machine and he encountered the same issue. I have attached an image showing permissions below to show that my permissions are set correctly. We tried this on fresh installs of Kirby 1.1.0 + Panel 0.8.
+
+Image: http://img821.imageshack.us/img821/2118/kirbyc.gif
+
+Can anybody shed any insight into this please?

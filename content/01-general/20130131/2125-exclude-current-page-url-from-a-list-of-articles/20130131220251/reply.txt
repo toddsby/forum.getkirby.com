@@ -1,0 +1,11 @@
+User: fitzage
+----
+Date: 2013-01-31 22:02:51
+----
+Text: Maybe wrap the actual list item in something like:
+
+    <?php if ($page != $article) { ?>
+        Blah Blah
+    <?php } ?>
+
+I haven't tested this, but it might work. Of course then you'd only end up with 2 items, so you may want to include pulling an additional article somehow.

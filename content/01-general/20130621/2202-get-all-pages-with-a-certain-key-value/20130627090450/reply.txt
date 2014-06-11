@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-06-27 09:04:50
+----
+Text: Well spotted @dokdeleon, not sure how I missed that, it works in my version as I of course have different values  ;-) 
+
+Maybe that is why I was subconsciously suggesting a single simple checkbox as the state is Published or DRAFT..

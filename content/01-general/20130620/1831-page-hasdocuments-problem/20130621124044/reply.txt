@@ -1,0 +1,5 @@
+User: lalalariza
+----
+Date: 2013-06-21 12:40:44
+----
+Text: Oh, that's strange. For me it doesn't work, it just doesn't display anything. I'm testing with my local server so maybe I'll just upload the files to the real server and see what happens.

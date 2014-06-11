@@ -1,0 +1,5 @@
+User: eytanbiala
+----
+Date: 2012-10-12 00:54:54
+----
+Text: Thanks! This works nicely, I've added an "Edit" link to each page to make it easier for others to edit content.

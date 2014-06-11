@@ -1,0 +1,7 @@
+User: joachimesque
+----
+Date: 2012-06-17 13:37:22
+----
+Text: I think it already does with Kirbytext, doesn't it?
+
+http://getkirby.com/blog/text-formatting-101 (check "Email Addresses")

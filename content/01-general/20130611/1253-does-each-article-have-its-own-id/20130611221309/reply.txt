@@ -1,0 +1,7 @@
+User: fenixkim
+----
+Date: 2013-06-11 22:13:09
+----
+Text: I prefer the `uid` property but The `hash` property would be useful too.
+
+	$hash = $page->hash();

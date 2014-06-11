@@ -1,0 +1,8 @@
+User: vlaxmax
+----
+Date: 2013-05-29 12:22:59
+----
+Text: Nope no GIT access...
+We already did a test installation and Kirby is working great so they allow writing in the server to the apache user, no problem there.
+I'm toying with the idea of hacking the Panel to include a page prepared with ACE ((link: http://ace.ajax.org/)) and some custom code to do the loading and saving.
+Would be nice to be able to release it as a Plugin but the Documentation is pretty scarce so I don't know if I will be able to do it in a reasonable timeframe.

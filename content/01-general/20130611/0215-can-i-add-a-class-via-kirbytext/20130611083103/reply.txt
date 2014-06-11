@@ -1,0 +1,13 @@
+User: russbaldwin
+----
+Date: 2013-06-11 08:31:03
+----
+Text: You can with, after a fashion, with [PHP Markdown Extra](http://michelf.com/projects/php-markdown/extra/). 
+
+in your config.php
+
+```php
+c::set('markdown.extra', true);
+```
+
+If you need special stuff and are using the panel then why not set up a template with your options and make the changes in CSS?

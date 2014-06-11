@@ -1,0 +1,5 @@
+User: vis7mac
+----
+Date: 2012-12-04 14:48:38
+----
+Text: You actually have to add `audio/mpeg` to the list, because Firefox does not recognize MP3s as `audio/mp3`.

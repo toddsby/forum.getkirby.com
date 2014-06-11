@@ -1,0 +1,17 @@
+User: tillpro
+----
+Date: 2013-06-28 20:25:49
+----
+Text: Hi—
+
+```php
+$projects = $pages->find('projects')->children()->visible();
+
+foreach($projects as $project) {
+  $images = $project->images();
+
+  foreach($images as $image) {
+    // …
+  }
+}
+```

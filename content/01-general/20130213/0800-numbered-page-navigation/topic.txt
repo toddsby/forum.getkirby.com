@@ -1,0 +1,15 @@
+Title: Numbered page navigation
+----
+Date: 2013-02-13 08:00:36
+----
+Solved: 1
+----
+User: wordius
+----
+Text: Is it possible to create a numbered navigation system to display at the base of a paginated post list? For example, I have set up my blog to display ten posts per page. Each list/page is then followed by:
+
+    Older Posts … Newer posts
+
+What I’d like to use is:
+
+    Older 1 2 3 4 … 14 15 16 17 Newer

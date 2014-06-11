@@ -1,0 +1,17 @@
+User: BobRockefeller
+----
+Date: 2013-03-24 18:14:42
+----
+Text: @richardhellyer
+
+I like that solution, too. I'm going to try that.
+
+And on another related subject, images contained in the blog posts using `kirbytext()` don't appear on the blog summary page as they are interpreted relative to the blog post itself.
+
+So [image: myimage.jpg] works fine in the article if my image.jpg is in the same folder as article.md, which it is.
+
+But when the blog summary page grabs that part of the article.md file, it looks for the file in it's own folder, not in article.md's folder.
+
+Is there a trick I'm missing?
+
+Bob

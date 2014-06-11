@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2012-08-15 17:20:31
+----
+Text: I was just thinking yesterday of a similar idea I'd like, but I wanted to require people to enter an email address to enter the content section, and compare that to a list of email addresses on file.

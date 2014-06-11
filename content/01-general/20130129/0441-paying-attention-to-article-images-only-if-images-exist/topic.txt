@@ -1,0 +1,13 @@
+Title: Paying attention to $article->images only if images exist
+----
+Date: 2013-01-29 04:41:35
+----
+Solved: 0
+----
+User: gabekelley
+----
+Text: I know there is probably something like an if statement to solve this problem, but I can't seem to integrate it correctly. I basically want this code to be passed over if there aren't any images in the content folder. Any ideas?
+
+<?php foreach($article->images() as $img): ?>
+  <li><img src="<?php echo $img->url() ?>" /></li>
+  <?php endforeach ?>

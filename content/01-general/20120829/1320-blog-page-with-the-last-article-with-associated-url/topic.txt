@@ -1,0 +1,18 @@
+Title: Blog Page with the last article with associated url
+----
+Date: 2012-08-29 13:20:22
+----
+Solved: 1
+----
+User: roman_oroco
+----
+Text: It's possible to have a blog page that open's automatically the last article with associated url:
+
+Go to:
+```
+http://site.com/blog
+```
+Will open the last article:
+```
+http://site.com/blog/last-article
+```

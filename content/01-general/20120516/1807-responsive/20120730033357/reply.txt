@@ -1,0 +1,9 @@
+User: AnthonyTerrell
+----
+Date: 2012-07-30 03:33:57
+----
+Text: Lately I've been doing a lot of responsive work and have really came to love Foundation: <http://foundation.zurb.com> . I started off with the Skeleton framework and that did just fine for small projects. 
+
+Once I took a peek at Foundation, it has become the framework of choice for all my projects going forward. It has a lot bundled in, or you can choose to not include. Everything from tabs, sliders, modals, navbars. All with just css classes. Definitely worth a look.
+
+Hope this helps someone.

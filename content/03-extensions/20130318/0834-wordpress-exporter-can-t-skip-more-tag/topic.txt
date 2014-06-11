@@ -1,0 +1,9 @@
+Title: Wordpress exporter can't skip more tag
+----
+Date: 2013-03-18 08:34:41
+----
+Solved: 0
+----
+User: aizlewood
+----
+Text: It seems that the exporter stumbles on a Wordpress <!-- more --> tag, meaning that only the summary for each post gets downloaded.

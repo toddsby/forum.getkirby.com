@@ -1,0 +1,20 @@
+User: ndrsn
+----
+Date: 2013-10-01 21:17:04
+----
+Text: Sorry to bring this old thread back to life but I'm having issues with this as well.
+
+I'm using the latest dev branches of both Kirby and the Panel.
+
+I have to templates and blueprints, members.php and member.php.
+
+I'm trying to set that each new page created under members.php can only use member.php as a template.
+
+To do this I've done this in members.php:
+``
+title: Medlemmar
+pages: true
+template: member
+``
+
+But when I try to create a new subpage for Members, which will be Member, I can choose whatever template I want.

@@ -1,0 +1,27 @@
+User: roman_oroco
+----
+Date: 2012-10-25 23:08:43
+----
+Text: Hey guys, actually this code it can be improved for separate the last published article or project. Anyone can help?
+
+Here is example of final HTML result:
+```
+<div id="projects">
+
+  <div class="last">
+    <figure>
+      <img src="image.png" />
+    </figure>
+    <h2>Project 3</h2>
+  </div>
+
+  <div class="list">
+    <h2>Project 2</h2>
+  </div>
+
+  <div class="list">
+    <h2>Project 1</h2>
+  </div>
+
+</div>
+```

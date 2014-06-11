@@ -1,0 +1,19 @@
+Title: Display images from a few select projects on frontpage
+----
+Date: 2013-04-24 06:17:47
+----
+Solved: 1
+----
+User: p_mylecharane
+----
+Text: Hey all.
+
+I'm wanting to display a particular image from only a few select projects on the frontpage. I can get it working to display the image from every project, but I'm wanting to chain just 5 projects as featured. Here's my current code:
+
+    <? foreach($pages->children()->visible()->shuffle()->limit(1) as $project): ?>
+        <figure>
+            <a href="<?= $project->url() ?>"><img class="grayscale" src="<?= $project->files()->find('frontpage.jpg')->url() ?>" alt="<?php echo html($project->title()) ?>" /></a>
+        </figure>
+  <?php endforeach ?>
+
+Any help would be awesome.

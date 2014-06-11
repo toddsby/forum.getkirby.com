@@ -1,0 +1,13 @@
+Title: Operator for not homepage?
+----
+Date: 2013-04-11 13:16:34
+----
+Solved: 0
+----
+User: janstieler
+----
+Text: Hi,
+exist an operator like
+	$page->isNotHomePage()
+
+BR

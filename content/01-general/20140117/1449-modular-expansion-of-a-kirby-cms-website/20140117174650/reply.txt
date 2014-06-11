@@ -1,0 +1,7 @@
+User: texnixe
+----
+Date: 2014-01-17 17:46:50
+----
+Text: Hi James,
+
+I can't see any problem at all. As regards the startpage, you define your "home" page in config.php, so in the beginning, you can set it to "journal", and later on to "frontpage". And extending the site later by adding more folders and subfolders is also no problem, all you probably might have to do is adding some more templates depending on the what and how you want to output your content.

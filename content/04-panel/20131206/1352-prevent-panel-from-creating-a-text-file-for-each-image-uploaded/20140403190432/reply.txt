@@ -1,0 +1,10 @@
+User: me_arno
+----
+Date: 2014-04-03 19:04:32
+----
+Text: If I understand your question correctly you could check your blueprint file for filefields: and remove that part.
+
+filefields:
+  caption:
+    label: Caption
+    type: text

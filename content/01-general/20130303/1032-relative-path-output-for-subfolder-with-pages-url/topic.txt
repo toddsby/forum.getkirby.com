@@ -1,0 +1,32 @@
+Title: Relative path output for subfolder with $pages->url()
+----
+Date: 2013-03-03 10:32:29
+----
+Solved: 0
+----
+User: janstieler
+----
+Text: Hi,
+I use the 
+ 
+	<? if(param('tag')) {
+	$articles = $pages->find('article')
+	->children()
+	->visible()
+	->filterBy('tags', param('tag'), ',')
+	->flip();                            	
+	} else {
+	$articles = $pages->find('article')
+	->children()
+	->visible()
+	->flip();                            	
+	} ?>
+	<?php foreach($articles as $article): ?>
+	<a href="<?php echo $article->url() ?>" rel="ajax" title="<?php echo html($article->title()) ?>">
+
+for getting the URL of the articles but now I need only the subfoldername as relative output.
+As eg. my normal URL is www.foo.bar/foobar/foo, now I need only the relative path to /foo.
+
+Is there a helper or something who can I use?
+
+BR

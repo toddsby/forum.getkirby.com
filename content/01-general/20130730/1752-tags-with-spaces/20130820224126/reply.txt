@@ -1,0 +1,16 @@
+User: craig_lock
+----
+Date: 2013-08-20 22:41:26
+----
+Text: Thanks for the response. That helps, but I'm still confused as to the actual implementation and how I go about it. I'm not fully fluent when it comes to PHP, so some things I have a harder time with than others. I usually do okay, but this one is tougher for me. For my code, I have the following: 
+
+The actual filter code is below. This is just a list of the tags, and when you click one, it shows you the projects tagged with the tag you clicked.
+<a href="https://gist.github.com/craiglock/55a9aba76bf237a33e44">https://gist.github.com/craiglock/55a9aba76bf237a33e44</a>
+
+Not sure if this piece is affected, but this is the grid of projects that shows, and gets filtered when you choose a tag: 
+<a href="https://gist.github.com/craiglock/90b30d97b24649045c59">https://gist.github.com/craiglock/90b30d97b24649045c59</a>
+
+I'm using the tagcloud plugin as well: <a href="https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/tagcloud/tagcloud.php">https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/tagcloud/tagcloud.php</a>.
+
+
+Thanks again. I appreciate the help with this.

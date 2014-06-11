@@ -1,0 +1,27 @@
+Title: Why does children() return set including parent?
+----
+Date: 2014-02-16 10:59:36
+----
+Solved: 0
+----
+User: screencuts
+----
+Text: I have page structure that looks like this:
+
+    projects
+      project1
+      project2
+      project3
+
+When I do the following:
+
+    $projects = $pages->find('projects')->children();
+    foreach ($projects->visible() as $project) {
+      echo $project->title()
+    }
+
+I get output that looks like this: 
+
+    projectsproject1project2project3
+
+that is, it includes the parent. This does not make sense to me. Is this intended, or am I doing something wrong here.

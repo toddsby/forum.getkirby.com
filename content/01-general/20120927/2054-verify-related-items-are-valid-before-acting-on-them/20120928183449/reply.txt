@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2012-09-28 18:34:49
+----
+Text: Yeah, well that's where I was running into trouble. I was trying to see if items in the related list actually exist, and it wasn't working properly for me. Do you have a code snippet that would work for this?

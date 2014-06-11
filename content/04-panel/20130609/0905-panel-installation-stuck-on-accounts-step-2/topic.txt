@@ -1,0 +1,15 @@
+Title: Panel installation - Stuck on accounts (step 2)
+----
+Date: 2013-06-09 09:05:04
+----
+Solved: 0
+----
+User: netaisllc
+----
+Text: What is the expected behavior of clicking the Login button on the step 2 page?
+--- --- ---
+I've installed the panel and double-checked permissions and .htaccess (the latter clearly shows the panel rule entries), but when I click Login, the same page refreshes.  Certainly that's not correct?
+
+There don't seem to be console errors, but the onclick event handler, 'window.location.reload' is puzzling. It seems like that is exactly what is happening.
+
+Any hints?

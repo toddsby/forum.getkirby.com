@@ -1,0 +1,8 @@
+User: GeishaOnABike
+----
+Date: 2013-07-22 08:27:43
+----
+Text: Similarly, I am trying to create a menu with images to represent the links. However, I am having trouble writing code that will find a specific image in each file and display it with the link. Right now, I am trying to search for a jpg file and then display as the img src but that's not working (I included the section of the code that is not working, the rest is standard default menu). Please help! 
+
+img src="<?php <?php foreach($page->files()->findByExtension('jpg') as $image): ?><?php echo $image->url() ?><?php endforeach ?>" height="300px" width="300px" /></a></li>
+    <?php endforeach ?>

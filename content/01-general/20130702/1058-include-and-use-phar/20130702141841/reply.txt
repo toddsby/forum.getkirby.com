@@ -1,0 +1,11 @@
+User: emilien_durand
+----
+Date: 2013-07-02 14:18:41
+----
+Text: found it,
+the problem was one setting in php.ini,
+to use phar, i need to disable detect_unicode
+
+    detect_unicode = Off
+
+thanks for your time

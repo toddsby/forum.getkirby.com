@@ -1,0 +1,27 @@
+Title: Changing Template/Content Filename Conventions
+----
+Date: 2013-09-24 16:46:45
+----
+Solved: 0
+----
+User: travvt
+----
+Text: Hello All,
+
+I'm curious if anyone has experimented with, or been successful in, customizing page content and template file naming conventions. 
+
+Default Behavior in Kirby
+Content file page123.txt uses template page123.php if it exists. Otherwise, page123.txt would use default.php.
+
+Desired Modification
+Content file page123.page.txt would use page.php template if exists. Otherwise, page123.page.txt would use default.php.
+
+There are a few reasons this would be helpful, namely each content file would be named logically after the page. For example: contact.page.txt, about-us.page.txt, and mission.page.txt. By just looking at the file names it's clear which page each of these three files is connected to. 
+
+It's true that the Kirby default would point the above files to the default.php template, however, as a site grows and many different templates start to become needed the filenames start to look the same. For instance, if you have a template for blogs, regular pages, individual contacts, and shop items you're going to have A LOT of files named the same; blog.txt, page.txt, contact.txt, and shop.txt. The only way you could tell the difference between each of these files is by physically looking through the directory structure. However, if a blog post content file was named visiting-nyc.blog.txt you could easily do a file name search for "nyc" or "blog" and see all files with easy to understand file names.
+
+I did search the forum first before posting this and I didn't turn up anything. I'm sorry if I missed something that's already out there!
+
+Thanks,
+
+Trav

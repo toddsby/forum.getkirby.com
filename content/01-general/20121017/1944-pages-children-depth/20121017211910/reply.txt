@@ -1,0 +1,6 @@
+User: hey_steffen
+----
+Date: 2012-10-17 21:19:10
+----
+Text: You have to fetch the children of the children.. of the children.. etc.
+Your 2 levels are the contents of the 1.) parent and 2.) child (of parent)

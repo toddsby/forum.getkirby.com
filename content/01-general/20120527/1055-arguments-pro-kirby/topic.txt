@@ -1,0 +1,18 @@
+Title: Arguments Pro Kirby
+----
+Date: 2012-05-27 10:55:12
+----
+Solved: 0
+----
+User: joschie
+----
+Text: Hi!
+
+A lot of companies use Wordpress as CMS. They say: "its easy to use; its for free and Wordpress have so many plugins...; We use Wordpress all time, we would never change; ..."
+
+I need some big arguments pro Kirby to change the opinion.
+
+Biggest arguments I think are page speed and the file-based system. No longier trouble with databases.
+
+So, thats your biggest arguments pro Kirby?
+I need some more... ;-)

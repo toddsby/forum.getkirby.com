@@ -1,0 +1,17 @@
+Title: Showing index.php in the url
+----
+Date: 2014-03-27 14:57:20
+----
+Solved: 0
+----
+User: sulcalibur
+----
+Text: I've looked over various threads about this and I have followed them and the only way I can get the menu links to work is when it has the www.mysite.com/index.php/about from having `c::set('rewrite', false);` if I set it to true the links are dead.
+
+The .htacess file is in the root directory and the install is in there also, so there are no subdirectories.
+
+This is taking a great deal of time for me and I know it's just a silly mistake. Any help would be great, thank you.
+
+I have uploaded the files on my live server also if this helps - http://sulcalibur.com and I'm running on a Mac with OSX Apache, not MAMP.
+
+I'm using [this default](https://github.com/bastianallgeier/kirbycms/blob/master/.htaccess) .htaccess file and this is my [config.php file](https://gist.github.com/Sulcalibur/61a781120a4e822b5dd2).

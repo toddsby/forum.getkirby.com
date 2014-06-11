@@ -1,0 +1,11 @@
+Title: What's the best way to ensure invisible pages can't be viewed?
+----
+Date: 2013-05-13 21:41:43
+----
+Solved: 0
+----
+User: brandondurham
+----
+Text: I recently re-programmed my site using Kirby. The site is essentially an online book with chapters posted every other Monday. When you reach the last chapter there is a message that says something like, "Up Next: Chapter 9: Quarter After". From this it's easy to guess that the URL for that chapter will be "quarter-after" and just type it into the address bar. You can see a live example [here](https://amemoirproject.com/chapters/shirts-vs-skins) (scroll to the bottom).
+
+Outside of manually obscuring the UID until that chapter is ready to be posted, is there a way to secure that address until it's visible?

@@ -1,0 +1,16 @@
+Title: subdirectory = subdomain
+----
+Date: 2013-01-23 10:36:35
+----
+Solved: 0
+----
+User: robrainfall
+----
+Text: i would like to use kirby for powering a website which would have different sections that are not related to others. the sections would be stored in their own folders and share the same kirby install. but i don't want the users to be access parts by /part instead by entering a subdomain.
+
+like:
+
+domain.com/section1 to be accessible at section1.domain.com
+domain.com/section2 -> section2.domain.com
+
+and kirby installed on the root

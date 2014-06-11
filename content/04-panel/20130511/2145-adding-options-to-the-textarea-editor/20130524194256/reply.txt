@@ -1,0 +1,13 @@
+User: NathVallieres
+----
+Date: 2013-05-24 19:42:56
+----
+Text: @roman_oroco: I'm not familiar with GitHub so I don't know where to create a pull request (though I can see the list). Maybe you could enlighten me?
+
+However, I know Bastian is working on the new panel with more options and better customization, but I wanted them right now so I coded them. Maybe he'll add them, saving him the time to code it. We never know. But I'm pretty sure it'll be helpful to a lot of folks.
+
+@fitzage: Totally agree! I never use H1 and rarely H2 with WYSIWYG so I wanted to keep it that way with Markdown. Though people can still input it with markdown, I am hoping to be able to put a Markdown<->Preview switch so that clients can't see the markdown and thus use only the buttons to style the text.
+
+Or maybe the choice between no preview editor in Markdown (kirbytext) **or** TinyMCE (or CKEditor) with preview/html mode **or** a custom preview/markdown mode. I will probably try to customize Hallo JS, but I'm not sure it'll work the way I want. There are a few bugs in that script. :S
+
+I know it's not perfect and could probably be better (but I have limitations with my PHP skills), so consider it as a "beta" version.

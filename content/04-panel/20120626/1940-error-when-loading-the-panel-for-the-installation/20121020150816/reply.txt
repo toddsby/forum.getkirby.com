@@ -1,0 +1,14 @@
+User: lowel
+----
+Date: 2012-10-20 15:08:16
+----
+Text: Hi folks.
+
+I purchased a license key for Kirby and I got the same problems with the panel.
+
+Following @laggon advices and now... all works fine :D
+
+Thanks Bastian for this very simple and useful CMS.
+
+Cheers,
+Patrick

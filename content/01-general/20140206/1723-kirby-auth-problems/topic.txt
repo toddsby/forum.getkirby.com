@@ -1,0 +1,31 @@
+Title: kirby AUTH problems...
+----
+Date: 2014-02-06 17:23:28
+----
+Solved: 0
+----
+User: kamptweets
+----
+Text: Hi,
+I am pretty sure i followed the exact steps here, 
+https://github.com/bastianallgeier/kirbycms-extensions/tree/master/plugins/auth
+
+and added the line 
+
+<?php Auth::firewall() ?>
+
+To my default.php as outlined in the link above.
+
+
+As soon as i do that, i get the following error:
+
+
+Warning: Cannot modify header information - headers already sent by (output started at /www/htdocs/w00586db/tonevariations/site/plugins/kirby.extended.php:2) in /www/htdocs/w00586db/tonevariations/kirby/lib/kirby.php on line 47
+
+
+
+
+Any ideas whats happening?
+I am no expert on this at all...
+
+Thanks a lot!

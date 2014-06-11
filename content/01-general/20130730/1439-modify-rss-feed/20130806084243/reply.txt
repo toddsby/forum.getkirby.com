@@ -1,0 +1,6 @@
+User: russbaldwin
+----
+Date: 2013-08-06 08:42:43
+----
+Text: Glad you may have found your solution.
+`a::show($item->quote())` just show what's in the variable in a more human readable way so you can just echo it.

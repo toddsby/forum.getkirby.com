@@ -1,0 +1,7 @@
+User: timgauthier
+----
+Date: 2013-10-27 21:34:56
+----
+Text: the problem i am finding is that if you go to a link it doesn't redirect to the proper language, it just redirects to the homepage.
+
+www.youcantwritethat.com/support doesn't go to the en or de pages.

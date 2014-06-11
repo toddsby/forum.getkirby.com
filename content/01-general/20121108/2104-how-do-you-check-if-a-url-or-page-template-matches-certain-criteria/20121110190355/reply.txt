@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2012-11-10 19:03:55
+----
+Text: When I wanted to use an image in a kirby folder as a background image, I said "screw semantics" and implemented inline styling. Doesn't give me an image tag to get rid of or anything, and doesn't require any funkiness. Just use that `<?php echo $bg_image->url() ?>` in a style element instead.

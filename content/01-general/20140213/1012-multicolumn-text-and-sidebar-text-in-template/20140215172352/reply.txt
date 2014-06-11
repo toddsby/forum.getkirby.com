@@ -1,0 +1,12 @@
+User: DevDataStream
+----
+Date: 2014-02-15 17:23:52
+----
+Text: But how do I hide optional html like
+```html
+<div class="column1">
+```, when 
+```php
+<?php echo kirbytext($page-> column1()) ?>
+```
+is empty?

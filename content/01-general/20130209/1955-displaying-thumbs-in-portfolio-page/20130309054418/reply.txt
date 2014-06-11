@@ -1,0 +1,7 @@
+User: kvng
+----
+Date: 2013-03-09 05:44:18
+----
+Text: Thanks for this! 
+
+Worked brilliantly with my masonry x foundation 4 configuration after figuring out where to insert the lines.

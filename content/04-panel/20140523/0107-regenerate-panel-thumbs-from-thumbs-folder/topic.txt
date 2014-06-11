@@ -1,0 +1,11 @@
+Title: Regenerate panel thumbs from 'thumbs' folder
+----
+Date: 2014-05-23 01:07:51
+----
+Solved: 0
+----
+User: p_mylecharane
+----
+Text: Hey folks.
+
+I just sent a site live for a client and somehow deleted the thumbs folder from the main directory. Now all the thumbs in the panel are missing (of course) and i'm needing to regenerate them so that they can have visual recognition of all images. Any ideas?

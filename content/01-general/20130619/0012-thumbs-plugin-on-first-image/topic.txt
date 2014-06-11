@@ -1,0 +1,21 @@
+Title: Thumbs plugin on first image
+----
+Date: 2013-06-19 00:12:24
+----
+Solved: 1
+----
+User: richgcook
+----
+Text: Hi folks,
+
+I'm trying to add the thumbs plugin to a for each loop of images attached to a page, but only retrieving the first.
+
+     <?php foreach($work->images()->first() as $featured_image): ?>
+          <?php echo thumb($featured_image, array('width' => 800)) ?>
+     <?php endforeach ?>
+
+This is what I had previously before adding the thumbs plugin...
+
+     <img src="<?php echo $work->images()->first()->url() ?>" width="<?php echo $work->images()->width() ?>"/>
+
+Any ideas? If I remove the ->first(), it works perfectly but obviously returns all the images; whereas I only need the first.

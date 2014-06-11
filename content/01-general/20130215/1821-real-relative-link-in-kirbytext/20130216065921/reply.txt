@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-02-16 06:59:21
+----
+Text: Is this bit on [Helpers](http://getkirby.com/docs/helpers) helpful?

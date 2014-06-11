@@ -1,0 +1,17 @@
+Title: Possible to filter out multiple images
+----
+Date: 2013-08-28 22:35:03
+----
+Solved: 1
+----
+User: theseason
+----
+Text: Is it possible to fitlerBy multiple images?
+
+I am currently using this line to skip over an image called feature when listing all the images of a project.
+
+$gallery->images()->filterBy('title', '!=', 'featured')
+
+Now, I also need to filter out the thumb.jpg image. Thoughts?
+
+Thanks!

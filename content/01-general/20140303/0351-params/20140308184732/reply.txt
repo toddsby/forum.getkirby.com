@@ -1,0 +1,21 @@
+User: thomasFr
+----
+Date: 2014-03-08 18:47:32
+----
+Text: Strangely enough it does not work for me.
+
+I just put the following line in my default template :
+<?php echo param('img') ?>
+
+at the url "http://localhost:8888/kirby/img:image" 
+-> I get "File not found"
+at the url "http://localhost:8888/kirby/index.php?img:image
+-> No param is printed for the following code "<?php echo param('img') ?>"
+
+Same thing on my host server.
+
+I wonder if there are any known issues... or other tests I could do.
+
+Thank you,
+
+Thomas

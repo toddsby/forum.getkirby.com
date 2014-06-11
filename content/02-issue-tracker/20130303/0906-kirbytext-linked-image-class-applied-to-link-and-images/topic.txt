@@ -1,0 +1,38 @@
+Title: KirbyText linked image class applied to link and images
+----
+Date: 2013-03-03 09:06:43
+----
+Solved: 0
+----
+User: russbaldwin
+----
+Text: If you specify a linked image with KirbyText with a class, the class is applied to the link and the image. This has proved problematic with things like FancyBox and whilst you can get around it, there surely should be a better way of handling this, perhaps separate classes for link and image?
+
+[--Original topic: Fancybox in an Article](http://getkirby.com/forum/general/topic:473)
+
+In the best of both worlds KirbyText should allow for two classes, one for the image and one for the link. It currently only takes the last one you set if I do something like this:
+
+```
+( image: img.jpg  class: myImgClass  alt:AltText link: http://me.com  class: myLinkClass )
+```
+
+```html
+<p>
+<a href="http://me.com" class="myLinkClass">
+<img src="http://img.jpg" class="myLinkClass" 
+title="img"  alt="AltText" />
+</a>
+</p>
+
+```
+
+When what you would like would be something like:
+```html
+<p>
+<a href="http://me.com" class="myLinkClass">
+<img src="http://img.jpg" class="myImgClass" 
+title="img" alt="AltText" />
+</a>
+</p>
+
+```

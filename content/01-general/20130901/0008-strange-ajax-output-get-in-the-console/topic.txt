@@ -1,0 +1,49 @@
+Title: Strange ajax output (GET) in the console.
+----
+Date: 2013-09-01 00:08:38
+----
+Solved: 0
+----
+User: janstieler
+----
+Text: Hi,
+I want to load the site content through ajax.
+I wrote this script
+
+    var mainnav = $('li.mainnav a');
+
+		$.ajaxSetup ({  
+			cache: false  
+		});
+		
+		mainnav.click(function(){
+			var ajaxContent = $('.ajaxContent'),
+				pageToLoad = $(this).attr('href'),
+				ajaxPlaceholder = '<i class="icon-refresh icon-spin icon-4x"></i>', 
+				pageContent;
+			
+			console.log(pageToLoad);
+									
+			$.get(pageToLoad, function(data){
+				pageContent = data;
+				ajaxContent.html(ajaxPlaceholder).load(pageContent, function() {
+					alert('Load was performed.');
+				});
+			}, 'html');
+		return false;
+		});
+
+If i now click the mainmenu link to load an article i got an strange output in the console:
+
+    http://localhost/kirby_textil/projects
+    GET http://localhost/kirby_textil/%3Csection?_=1377986693734 404 (Not Found) 
+
+I havn´t any idea what the second GET is and why its called.
+My mainmenu is the same as and has the same content like in the starttemplate of kirby.
+The Header and Footer i have set to
+
+    <?php if(!r::is_ajax()) snippet('header') ?>
+    <?php if(!r::is_ajax()) snippet('footer') ?>
+that this are not loaded trough the ajax calling.
+
+BR

@@ -1,0 +1,5 @@
+User: _diondiondion
+----
+Date: 2013-11-26 16:59:05
+----
+Text: If it makes sense for your quotes, you could save an image for each quote and add the actual quote as metadata as described (link: http://getkirby.com/docs/media text: here). Images and meta data files all go into the same folder without needing subfolders, but if you don't actually want to show images, that would be quite a hack. ;)

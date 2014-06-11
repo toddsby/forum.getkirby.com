@@ -1,0 +1,16 @@
+Title: How to filter for pages that only have a title?
+----
+Date: 2014-01-31 17:57:21
+----
+Solved: 1
+----
+User: asbiot
+----
+Text: Hi all,
+
+does anyone know of a smart way of filtering for pages that only have the title key-value set?
+In particular I am listing a set of child-pages on a (parent) page, and I would like to only state an unlinked title for pages that hold no further information. 
+Is there such a thing as negative a files()->filterBy() function? 
+
+Looking forwards to your nifty answers,
+Cheers.

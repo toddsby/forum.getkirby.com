@@ -1,0 +1,9 @@
+User: russbaldwin
+----
+Date: 2013-08-03 10:30:53
+----
+Text: Not sure of your exact code, but I cannot immediately think of a reason for this so it might be worth checking if your feed validates?
+
+It could of course just be your feed reader, maybe try a different one.
+
+Let us know.

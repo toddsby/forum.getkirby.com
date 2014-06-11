@@ -1,0 +1,17 @@
+Title: Users and Authors
+----
+Date: 2012-08-24 01:35:31
+----
+Solved: 0
+----
+User: fitzage
+----
+Text: So here's what I would like to do.
+
+1. Have users for the control panel with some custom data stored in the user (like a pretty name, brief bio, and image).
+2. When the user saves an article, an author field gets filled out with their username.
+3. The article page pulls the custom info from the user record based on username and displays it on the page.
+
+So this raises a couple of questions:
+1. Is it possible to have a field that automatically saves the author name to the record when someone creates the record from the control panel, or will the user have to fill in a field manually?
+2. Is it possible to pull information from the panel user records and display it on the site, or do I need to have a separate authors content section where that data comes from?

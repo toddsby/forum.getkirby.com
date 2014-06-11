@@ -1,0 +1,7 @@
+User: bastianallgeier
+----
+Date: 2013-03-19 10:20:37
+----
+Text: Hey, 
+
+you should check out the thumbs plugin instead. That way you could simply store the large images in the content folder and let Kirby generate thumbnails for them on the fly.

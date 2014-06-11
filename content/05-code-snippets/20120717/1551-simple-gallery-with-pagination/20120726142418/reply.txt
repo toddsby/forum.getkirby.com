@@ -1,0 +1,22 @@
+User: bydsply
+----
+Date: 2012-07-26 14:24:18
+----
+Text: I wish not to display "category.jpg"
+
+I do like this? :
+
+```
+<?php foreach($page->images()->limit('category.jpg') as $image): ?>
+```
+
+example:
+
+category.jpg <- Not display
+1.jpg
+2.jpg
+3.jpg
+4.jpg
+5.jpg
+
+Thank! Chris.

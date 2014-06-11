@@ -1,0 +1,12 @@
+User: owzim
+----
+Date: 2014-03-11 15:04:49
+----
+Text: Here's the solution with the Kirby internal parsers:
+
+```						
+$txtArr = variables::fetch("test.txt");		
+$txtObj = new obj($txtArr['data']);
+				
+echo $txtObj->title();
+```

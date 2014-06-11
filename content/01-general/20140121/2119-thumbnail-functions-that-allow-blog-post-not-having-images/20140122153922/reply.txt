@@ -1,0 +1,7 @@
+User: JerikoOne
+----
+Date: 2014-01-22 15:39:22
+----
+Text: <pre class="highlight "><code>&lt;?php if($page->hasImages()):
+echo thumb(...);
+endif; ?&gt;</code></pre>

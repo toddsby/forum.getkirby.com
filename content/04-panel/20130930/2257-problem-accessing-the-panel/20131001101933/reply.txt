@@ -1,0 +1,6 @@
+User: russbaldwin
+----
+Date: 2013-10-01 10:19:33
+----
+Text: .htaccess file copied across? Does it need changing for you remote site?
+Are there difference between local and web server? PHP version?

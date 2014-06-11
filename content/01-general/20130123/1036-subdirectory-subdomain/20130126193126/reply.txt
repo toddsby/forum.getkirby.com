@@ -1,0 +1,5 @@
+User: asbiot
+----
+Date: 2013-01-26 19:31:26
+----
+Text: @robrainfall I just had a good old google on the topic and found a (link: http://www.scriptygoddess.com/archives/2007/06/13/redirect-a-subdomain-to-a-directory-using-htaccess/ text: link on the topic). Let me know if it helps. If it does, then there is a lesson there - Google is your friend ;-)

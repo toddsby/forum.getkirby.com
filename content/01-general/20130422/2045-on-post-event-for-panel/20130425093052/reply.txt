@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-04-25 09:30:52
+----
+Text: Not sure there is at present, but could you not add a patch to the panel with some sort of callback - in PHP or perhaps JS?
+
+Or maybe just wait for the next version... maybe Bastian can advise if this is possible in it?

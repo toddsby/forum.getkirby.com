@@ -1,0 +1,48 @@
+Title: Panel brokes content tree with over 99+ articles
+----
+Date: 2013-02-01 20:31:02
+----
+Solved: 1
+----
+User: roman_oroco
+----
+Text: I been testing Kirby 1.1.1 and Panel 0.9.1 with 125 articles
+
+Content tree
+```
+-content
+--00-home
+--01-articles
+---01-article-1
+---02-article-2
+---[…]
+---125-article-125
+```
+
+Blueprint for articles.php loop
+```
+<?php if(!defined('KIRBY')) exit ?>
+
+# articles blueprint
+
+title: Articles
+pages:
+  sort: flip
+  limit: 10
+  template: article
+files: false
+fields:
+  title: 
+    label: Title
+    type:  text
+```
+
+### Panel displaying not correctly the content tree:
+
+![Kirby Panel - Issue 1](http://f.cl.ly/items/3Y151G060g122b2h3X31/kirby-panel-issue-with-over-99-articles-or-projects-1.png)
+
+### After creating and publishing an article from Panel the hole content tree is broken:
+
+![Kirby Panel - Content Tree - Issue 2](http://f.cl.ly/items/2b1U1o0m1C1h3C262W0X/kirby-panel-issue-with-over-99-articles-or-projects.png)
+
+**Please let me know if someone have a solution!**

@@ -1,0 +1,9 @@
+User: dokdeleon
+----
+Date: 2013-06-01 08:05:56
+----
+Text: I have no clue about *foundation*, but looking at your code, your link to **more** has `href="#"`. Also, this is an array, so i dont think `data-reveal-id` should all be the same as shown here (`myModal`). Am thinking maybe you should put this on href value instead - `<?php echo html($project->url()) ?>`?
+
+Hope this helps. 
+
+(shameless plug) Anyway, if anyone here can help me out with my kirby installation on Plesk, that'll be awesome! Thanks. :D [Here's the kirby forum link!](http://getkirby.com/forum/general/topic:680)

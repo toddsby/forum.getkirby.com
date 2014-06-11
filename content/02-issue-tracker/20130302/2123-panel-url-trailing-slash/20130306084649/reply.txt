@@ -1,0 +1,9 @@
+User: russbaldwin
+----
+Date: 2013-03-06 08:46:49
+----
+Text: Mmmm... 
+
+1. what is you folder structure from root?
+
+2. If it is local how are you setting your domain routing e.g. httd-vhosts?

@@ -1,0 +1,11 @@
+Title: Merge content from two sections into one list?
+----
+Date: 2012-08-28 05:27:59
+----
+Solved: 0
+----
+User: fitzage
+----
+Text: OK, I really do need help this time. Not another false alarm.
+
+I have a news section and an events section that are two separate pages with subpages. I want to pull the last few from each of these into one list on the homepage. How do I do this?

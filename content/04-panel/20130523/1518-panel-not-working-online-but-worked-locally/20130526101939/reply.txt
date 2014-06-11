@@ -1,0 +1,17 @@
+User: guillaumelobet
+----
+Date: 2013-05-26 10:19:39
+----
+Text: OK I found the problem.
+
+In the config.php file, I put :
+
+``c::set('subfolder', '/');``
+
+instead of:
+
+``c::set('subfolder', false);``
+
+Now it is working nicely.
+
+Thanks for you help and sorry for the trouble.

@@ -1,0 +1,13 @@
+Title: Including time in a Date field
+----
+Date: 2012-09-18 20:36:44
+----
+Solved: 0
+----
+User: bsag
+----
+Text: Is it possible to modify the date field to include a time? I'd like to add the time purely for the RSS field, because I've found that weird things happen with feed readers if only the date is included.
+
+What I'd like to use is something like `dd.mm.yy HH:II`, but I couldn't seem to do this when using the date field type in the blueprint and hence the jQuery datepicker. Would the best workaround be to use a textfield for that blueprint field and just enter the date/time manually?
+
+By the way, I LOVE Kirby. I've just set up a site to replace my use of Tumblr and it amazes and delights me at every turn ;-)

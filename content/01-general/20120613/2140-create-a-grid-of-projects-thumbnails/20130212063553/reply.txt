@@ -1,0 +1,14 @@
+User: p_mylecharane
+----
+Date: 2013-02-12 06:35:53
+----
+Text: Ah....didn't dig deep enough into the docs.
+
+So anyone in the future needing some solution here–just use the offset variable like so:
+
+    <?php
+
+    $set = $pages->offset(5);
+    // starting with the sixth element of a set (is equal to $pages-          >slice(5))
+
+    ?>

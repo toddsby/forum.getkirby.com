@@ -1,0 +1,21 @@
+User: vis7mac
+----
+Date: 2012-12-27 08:44:43
+----
+Text: Does the v3 folder contain all your Kirby files? I mean, does the file structure look like that?
+
+```
+v3
+  assets
+  content
+  kirby
+  site
+```
+
+Or like that?
+
+```
+content
+  v3
+    about
+```

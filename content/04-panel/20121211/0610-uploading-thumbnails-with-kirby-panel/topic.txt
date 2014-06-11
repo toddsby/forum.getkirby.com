@@ -1,0 +1,17 @@
+Title: Uploading Thumbnails with Kirby Panel
+----
+Date: 2012-12-11 06:10:53
+----
+Solved: 0
+----
+User: haustraliaer
+----
+Text: I want to use my own thumbnails using the 01.thumb.jpg method so that I can access them via PHP - but the Kirby Panel seems to have no way of letting you upload them.
+
+When I try and upload the above file - it renames it to 01-thumb.jpg and obviously treats it as a regular image, not a thumbnail. 
+
+If I upload manually (drop the thumbnail file into the folder, rather than via the panel) it works fine, except the thumbnail won't show up in the Panel 'files' manager.
+
+I'm aware that Kirby Panel auto generates thumbnails now ... but I don't want to use these for a variety of reasons. 
+
+Is there any way to turn this off and allow for uploading my own thumbnails via the Panel?

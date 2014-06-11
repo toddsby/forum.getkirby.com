@@ -1,0 +1,5 @@
+User: DevDataStream
+----
+Date: 2014-02-22 20:26:24
+----
+Text: Well, you can create json output from all pages with the field called "Related:". Then cache that using LocalStorage and after that the possibilities are endless.

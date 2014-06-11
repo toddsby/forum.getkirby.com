@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-03-13 15:00:03
+----
+Text: I don't think you can with a Panel blueprint, what are you trying to do, there maybe another way to do it?

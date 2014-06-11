@@ -1,0 +1,26 @@
+User: bastianallgeier
+----
+Date: 2012-09-05 18:07:46
+----
+Text: I just found this in the docs: 
+
+```
+$feed = new SimplePie();
+$feed->set_feed_url('http://simplepie.org/blog/feed/');
+$feed->set_cache_location($_SERVER['DOCUMENT_ROOT'] . '/app/cache_files');
+$feed->init();
+...
+```
+
+So it means that you can set the cache location on runtime. In that case you should be able to use c::get('root.cache') to set the cache dir. 
+
+Something like: 
+
+
+```
+$feed->set_cache_location(c::get('root.cache') . '/simplepie');
+```
+
+But you must make sure that the folder exists inside the cache dir and that it is writable. 
+
+I hope this helps.

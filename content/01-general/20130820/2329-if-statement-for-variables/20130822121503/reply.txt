@@ -1,0 +1,9 @@
+User: texnixe
+----
+Date: 2013-08-22 12:15:03
+----
+Text: If you remove the if-statement and the $prints array is empty, you still get all the code including the headline without any content. Suppose that is what @richgcook wants to avoid.
+
+Hm, I tested your code on my test installation (at least as far as I could make it work given my structure is different).
+
+Maybe you can explain what exactly the problem is?

@@ -1,0 +1,9 @@
+User: fitzage
+----
+Date: 2013-12-05 21:09:39
+----
+Text: I use a Riverbed Stingray appliance, which is basically a server that gets all the incoming traffic and then divides it among multiple web servers on the backend. Each of the web servers has an identical copy of the Kirby site, and the Stingray uses the private IP addresses of those servers to divide up the traffic. Each Kirby install has a cache file, and then the Stingray also caches data somehow.
+
+I don't actually deal with the Stingray configs. I let the Ops guys handle that. :-)
+
+It's all running on SmartOS on Joyent servers since we eat our own dog food and joyent.com is the site in question. We use Apache for the actual web servers. Nothing really fancy.

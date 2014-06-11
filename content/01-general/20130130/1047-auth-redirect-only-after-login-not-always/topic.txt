@@ -1,0 +1,33 @@
+Title: Auth: Redirect only after login, not always
+----
+Date: 2013-01-30 10:47:54
+----
+Solved: 0
+----
+User: plartz
+----
+Text: Hey guys,
+
+I'm developing a new site for a club. All members will have their own login data, that they could check some protected data, dates etc. The login formular should be on the homepage ("/"), so after the login I want to redirect the user to another, protected homepage ("/intern"). But if I am logged in and want to visit the homepage ("/")), I'm getting redirected to the protected homepage ("/intern") again. Is it possible to redirect the user only after the login form get's submitted, but if he's visiting the homepage ("/") again, it doesn't?
+
+I don't want to make an extra login page, maybe you have some other guesses/tipps? Thanks a lot!
+
+My home.php template (if you need it):
+
+
+	<? snippet("header") ?>
+    
+	<section class="box">
+        <? $login = Auth::login("/intern") ?>
+        
+        <? if($login): ?>
+        <p class="error">Error :(</p>
+        <? endif ?>
+        <form action="<?=$page->url() ?>#login" method="post" class="login" id="login">
+            <input type="text" name="username" id="username" placeholder="User">
+            <input type="password" name="password" id="password" placeholder="Password">
+            <input type="submit" name="submit" id="submit" value="Login">
+        </form>
+    </section>
+    
+	<? snippet("footer") ?>

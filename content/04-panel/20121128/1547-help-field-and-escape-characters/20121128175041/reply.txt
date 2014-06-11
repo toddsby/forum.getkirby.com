@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2012-11-28 17:50:41
+----
+Text: I think you can enter the HTML entity for your parentheses instead, and that should keep them from being interpreted.

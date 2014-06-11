@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-02-19 12:49:12
+----
+Text: You may want to check out [Extending Kirbytext](http://getkirby.com/blog/kirbytext)
+
+If you are happy can you mark this query as closed?

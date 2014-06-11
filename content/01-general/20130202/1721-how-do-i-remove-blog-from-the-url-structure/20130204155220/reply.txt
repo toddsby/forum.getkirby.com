@@ -1,0 +1,5 @@
+User: sashtown
+----
+Date: 2013-02-04 15:52:20
+----
+Text: You have to add some redirect stuff to your .htaccess. Maybe (link: http://getkirby.com/blog/1-0-5 text: this) will help you.

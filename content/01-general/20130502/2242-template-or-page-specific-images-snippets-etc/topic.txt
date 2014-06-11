@@ -1,0 +1,37 @@
+Title: Template-or-Page-specific images/snippets/etc.
+----
+Date: 2013-05-02 22:42:42
+----
+Solved: 0
+----
+User: erow80
+----
+Text: Hello. I'm looking to do the following:
+
+I have intermediate experience with Kirby and PHP. My site will have about a dozen pages. There will be one default company logo in the menu snippet for things like the homepage and error page, but other pages and groups of pages will use a slightly different logo.
+
+I know how to do this using CSS but I don't think it's the most elegant way. 
+
+I'd prefer to do something like this (code simplified)
+
+	if($page->template('default'))
+	  <img logo-default.svg>
+	elseif($page->template('products'))
+	  <img logo-products.svg>
+	elseif($page-template('company'))
+	  <img logo-company.svg>
+	endif
+
+Or something like this
+
+	if($page->isHomePage() && $page->isErrorPage())
+	  snippet('logo','default')
+	elseif($page->isProductsPage())
+	  snippet('logo','products')
+	elseif($page-isCompanyPage())
+	  snippet('logo','company')
+	endif
+
+---
+
+Thoughts? Thanks.

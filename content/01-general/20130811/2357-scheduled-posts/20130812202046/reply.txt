@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2013-08-12 20:20:46
+----
+Text: You can certainly tell a list view to not display future items, but it takes a little bit of work. I made a plugin a little while ago to make it easier for my needs. http://fitzage.com/articles/kirby-plugin-for-latest-non-future-items
+
+The pages will still technically be live, but with nothing linking to them it shouldn't be a big deal, as long as you make sure every place that could possibly link to them is set to not show future items.

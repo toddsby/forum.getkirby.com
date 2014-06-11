@@ -1,0 +1,22 @@
+Title: printf & sprintf not working with Kirby's localization files
+----
+Date: 2013-05-27 23:31:13
+----
+Solved: 0
+----
+User: nathvallieres
+----
+Text: If we consider that I added this line to the en.php language file:
+`'form.error-max' => 'Maximum characters exceeded (maximum is %d) !'`
+
+I can't seem to get the %d to change to an integer (or even %s to a string) by using the following:
+`<?php printf(l::get('form.email-val'), 100); ?`
+
+Anyone experienced this?
+
+I'd prefer not doing a hack around this problem. I do think it has to do with single quotes, even though I tried replacing them like:
+`"form.error-max" => "Maximum characters exceeded (maximum is %d) !"`
+
+Any solution is welcomed. Thanks.
+
+Nathalie

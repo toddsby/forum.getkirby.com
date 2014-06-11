@@ -1,0 +1,11 @@
+User: bastianallgeier
+----
+Date: 2013-02-05 15:41:01
+----
+Text: Please try with a lowercase variable: 
+
+```
+<?php echo youtube($page->videolink()) ?>
+```
+
+Even if your fieldname is written with a capital V, Kirby will lowercase it.

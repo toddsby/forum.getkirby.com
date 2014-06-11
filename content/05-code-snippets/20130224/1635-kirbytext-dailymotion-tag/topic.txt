@@ -1,0 +1,11 @@
+Title: Kirbytext: Dailymotion tag
+----
+Date: 2013-02-24 16:35:20
+----
+Solved: 0
+----
+User: clementroy
+----
+Text: A new little Kirbytext extension, which makes it possible to embed video from [Dailymotion](http://dailymotion.com/) video platform
+
+(link: https://gist.github.com/ClementRoy/5024129)

@@ -1,0 +1,5 @@
+User: thibaultmilan
+----
+Date: 2013-02-24 19:29:04
+----
+Text: Thx for the fix. All works great with this config file ;)

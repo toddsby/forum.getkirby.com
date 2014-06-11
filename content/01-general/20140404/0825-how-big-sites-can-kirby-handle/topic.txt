@@ -1,0 +1,22 @@
+Title: How big sites can Kirby handle?
+----
+Date: 2014-04-04 08:25:11
+----
+Solved: 0
+----
+User: jens_tornell
+----
+Text: **How many pages on a site can Kirby handle with good result?**
+
+ - I know the length of the txt files matter. Lets say they are about 550 words.
+ - I know that the server matter.
+ - I know that the code inside the PHP matter.
+ - I know there is a cache when needed.
+
+Still it should be able to give a hint of what number of pages Kirby can handle.
+
+100? 1000? 10 000? 100 000? 1 miljon? 10 miljon?
+
+How many pages do YOU have on your Kirby site? With or without cache? How does it go?
+
+I have about 80 pages so far without cache. It goes fine.

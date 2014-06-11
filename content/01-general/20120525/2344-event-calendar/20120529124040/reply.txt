@@ -1,0 +1,22 @@
+User: bastianallgeier
+----
+Date: 2012-05-29 12:40:40
+----
+Text: It's possible but would need a bit of extra work. 
+
+What I would do in general for an events calendar is to add a subfolder for each event like articles in a blog. For repeating events I would add another dedicated "repeating" subfolder, with subfolders for each repeating event. So something like
+
+```
+
+- events
+-- repeating
+--- my-first-repeating-event
+--- my-second-repeating-event
+-- my-first-regular-event
+-- my-second-regular-event 
+
+```
+
+You'd need a bit of PHP trickery to merge them and show them in a calendar or blog view, but it wouldn't be too hard. 
+
+I won't find the time to help you out with code for this in the next days, but if you don't mind waiting for it a bit, I'd be happy to help you out.

@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-03-09 17:31:55
+----
+Text: Not at the moment, but you can add fields, extend Kirbytext and use Blueprints which is quite a bit. What are you trying to do?

@@ -1,0 +1,16 @@
+User: russbaldwin
+----
+Date: 2013-03-15 13:11:58
+----
+Text: I may have misunderstood...
+
+```php
+<?php echo thumb($image, array('width' => 200,'height' => 200,'crop' => true ))?>
+``` 
+
+Gives me:
+
+```html
+<img src="/thumbs/xxxxxxxx.jpg" alt="altext" />
+```              
+Note the alt is also generated.

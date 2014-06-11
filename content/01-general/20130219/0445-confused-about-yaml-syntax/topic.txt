@@ -1,0 +1,25 @@
+Title: confused about yaml syntax
+----
+Date: 2013-02-19 04:45:48
+----
+Solved: 1
+----
+User: richardhellyer
+----
+Text: I started by using the tutorial on the site on using fields but then ran into trouble when i needed a field that ran over several lines
+
+Is the '----' separator a Kirby thing or is it yaml, or maRkdown ? 
+
+If I have a yaml field that spans multiple lines , do I have to use '|'? Why don't I need to use that for eg. Text: ... ?
+
+Thanks
+
+UPDATE. I get it now :-:-) 
+The content of a file is a repeating set of
+   label:
+      stuff 
+   Separator
+
+And that is a Kirby convention using four dashes as the separator
+
+Each bit of 'stuff' is passed to the template through a 'label' method which can then be parsed any way you like ... So for my initial problem it looks like I should use yaml's '|' convention for multi  line  fields

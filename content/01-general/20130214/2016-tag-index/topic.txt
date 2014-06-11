@@ -1,0 +1,11 @@
+Title: Tag Index
+----
+Date: 2013-02-14 20:16:26
+----
+Solved: 1
+----
+User: nathaniel_h
+----
+Text: I'd love to create a Tag Index like so: (link: http://www.premiumpixels.com/tag-index/)
+
+How does one do this with Kirby? I set up the tags via the tutorial. Currently it's just a simple list of all tags. However, as a secondary problem, when clicking on any tags in that list... it changes the url, but does not sort the posts. It displays all posts, whether they include the tag or not. The url also has two forward slashes website.com//tag:weird

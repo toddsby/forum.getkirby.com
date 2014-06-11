@@ -1,0 +1,5 @@
+User: walkerbox
+----
+Date: 2013-07-22 18:04:48
+----
+Text: Is there something wrong with `$page->images()->count()`?

@@ -1,0 +1,36 @@
+User: chrisburton
+----
+Date: 2013-02-05 07:04:02
+----
+Text: This is what I did:
+
+header.php
+
+    <form class="searchform" action="/find" method="get">
+      <input type="text" placeholder="Search…" name="s">
+      <input type="submit" value="Search">
+    </form>
+
+find.php (search.php) in my templates folder
+
+    <?php
+        $search = new search(array(
+          'searchfield' => 's',
+          'ignore' => array('error', 'lettering', 'type', 'find'),
+          'words' => 'true'
+        ));
+        $results = $search->results();
+    ?>
+    <ul>
+      <?php foreach($results as $result): ?>
+
+      <li><a href="<?php echo $result->url() ?>"><?php echo $result->title() ?></a></li>
+      <?php endforeach ?>
+
+    </ul>
+
+On my search page I am getting an error. <em>Warning: Invalid argument supplied for foreach() on line 16</em>.
+
+Line 16
+
+    <?php foreach($results as $result): ?>

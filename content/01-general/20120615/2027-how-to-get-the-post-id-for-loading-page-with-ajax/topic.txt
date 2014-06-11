@@ -1,0 +1,29 @@
+Title: How to get the post id for loading page with ajax
+----
+Date: 2012-06-15 20:27:27
+----
+Solved: 0
+----
+User: brtdesign
+----
+Text: Hey there again.
+I am porting my portfolio from wordpress to kirby and I had my projects loading with ajax.
+
+I was using this code:
+
+
+	$(document).ready(function(){
+	$.ajaxSetup({cache:false});
+	$(".portfolioGrid a").click(function(){
+		var post_id = $(this).attr("rel");
+		$("#resultsContainer").html("loading...");
+		$("#resultsContainer").load("http://<?php echo $_SERVER[HTTP_HOST]; ?>/triqui-ajax/",{id:post_id}).slideDown();
+		return false;
+	});
+});
+
+I got this online somewhere and I had also a template called triqui-ajax. the jquery was getting a variable ( id) from the rel atribute on the link and that was placed there with a built in function that wordpress has.
+
+My question is if there is any way of knowing the ID of a post on kirby so I can load the correct content on the template?
+
+thank you again!

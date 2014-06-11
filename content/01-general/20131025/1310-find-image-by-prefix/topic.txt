@@ -1,0 +1,15 @@
+Title: Find image by prefix
+----
+Date: 2013-10-25 13:10:01
+----
+Solved: 1
+----
+User: roylodder
+----
+Text: Is it possible to show an image by using a prefix instead of the full title?
+
+Current method
+    echo $page->images()->find('03-title.png')->url()
+
+Preferred method
+    echo $page->images()->find('03','*=')->url()

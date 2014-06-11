@@ -1,0 +1,16 @@
+User: aristotheme
+----
+Date: 2014-05-17 21:56:55
+----
+Text: Hi Marc
+
+Yes! Only it works well with phone device.
+I have converted the this theme to Kirby..
+
+Also you can check it from here:
+(link:http://html5up.net/uploads/demos/miniport/ text: Miniport)
+
+But When i have time, i will fix this..
+
+regards
+AristoTheme

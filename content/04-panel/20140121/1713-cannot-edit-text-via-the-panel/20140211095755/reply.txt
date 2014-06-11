@@ -1,0 +1,9 @@
+User: russbaldwin
+----
+Date: 2014-02-11 09:57:55
+----
+Text: It does sound like a Blueprint problem.
++ Are you using the default Blueprint or one of your own?
++ If not the default Blueprint is it named correctly for you txt files?
++ Can you list the Blueprint file here?
++ And list an example of your txt file.

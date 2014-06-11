@@ -1,0 +1,7 @@
+User: LewisJenkins
+----
+Date: 2013-02-01 22:53:06
+----
+Text: `<body class="<?php echo $page->uid(); ?>">`
+
+I think this will also work?

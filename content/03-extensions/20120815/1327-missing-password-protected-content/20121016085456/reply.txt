@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2012-10-16 08:54:56
+----
+Text: Count me in as well, moving from another CMS to Kirby and a login system, where users can login be shown their specific content or indeed more likely their page/sub-folder is desperately required.

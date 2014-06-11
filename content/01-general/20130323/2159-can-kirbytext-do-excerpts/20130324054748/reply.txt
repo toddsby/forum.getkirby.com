@@ -1,0 +1,22 @@
+User: richardhellyer
+----
+Date: 2013-03-24 05:47:48
+----
+Text: I wanted the same thing and in my posts I split my articles into sections like this
+
+       Title:too bar
+       ----
+       Excerpt: lorem ipsum more is lumpem roli sump
+       -----
+       Text: the rest of the article ...
+
+Then in the template loop that lists the articles I used 
+
+         kirbytext($post->excerpt);
+
+ and in the main post template I used
+ 
+         kirbytext($post->excerpt); 
+         kirbytext($post->text);
+
+Richard

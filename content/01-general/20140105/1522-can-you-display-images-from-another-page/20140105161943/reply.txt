@@ -1,0 +1,9 @@
+User: texnixe
+----
+Date: 2014-01-05 16:19:43
+----
+Text: I think your code is still not correct, because instead of using the thumb inside the image tag, you just need to echo
+
+    <?= thumb($image, array('width' => 79)) ?>
+
+This automatically creates an image tag.

@@ -1,0 +1,9 @@
+User: texnixe
+----
+Date: 2013-08-31 10:28:14
+----
+Text: If you want to add html elements depending on the body class, then it wouldn't help to style classes via css.
+
+The HTML document is rendered on the server side before it is send to the client's browser. The javascript stuff, however, is executed on the client side. So, as @fitzage said, there is no way you can determine by php what the javascript does on the client side.
+
+But since the class is assigned to the body via javascript, you could also use javascript again to hide or show the html elements (e.g. by assigning an id) depending on the value of the body class.

@@ -1,0 +1,9 @@
+Title: Adding Images in Panel
+----
+Date: 2013-12-16 05:03:18
+----
+Solved: 0
+----
+User: aabradshaw
+----
+Text: This might work for a client project. The only thing I didn't see was an easy way for clients to add images to blog posts/articles? Can this be done in the panel? Thanks.

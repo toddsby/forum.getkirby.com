@@ -1,0 +1,11 @@
+User: nathaniel_h
+----
+Date: 2013-02-18 05:39:03
+----
+Text: I'm trying to adapt this to create a Tag Index on my website. I thought it would be as simple as changing the beginning part of the code... but I guess not. Any thoughts?
+
+    <?php 
+		$blog = $pages->find('blog');
+        $items = tagcloud($blog);
+        $curr_letter = '';
+    ?>

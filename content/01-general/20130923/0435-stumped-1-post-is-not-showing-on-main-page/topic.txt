@@ -1,0 +1,26 @@
+Title: Stumped: 1 post is not showing on main page
+----
+Date: 2013-09-23 04:35:48
+----
+Solved: 1
+----
+User: tamaracks
+----
+Text: I created a post in my blog yesterday that was a photo post. For some reason, it's not showing in the list on my main page. I really can't figure out why that is happening.
+
+* The post is not hidden, the directory name starts with a number.
+* The posts before and after this post both show as expected.
+* The post is a photo type, which are formatted particularly in the list, the text file is called article.photo.txt, and there is a template for article.photo, but there are other photo posts that display normally within the same list, so I don't think that my problem has to do with that.
+* There are no PHP errors. The post is simply not there in the resulting HTML source.
+
+The blog is located at http://blog.darkglass.org/. The post in question should be located below the "It's no go the rickshaw" post and above the "There are enough assholes on the internet" post, but it doesn't show on that page. The post itself can be seen here: http://blog.darkglass.org/post/2013/current-status. It does show when I view the subfolder containing the post here: http://blog.darkglass.org/post/2013.
+
+The main page uses a different template (blog.php) than the subfolders like 2013 (subblog.php), so it does seem like that might be relevant, but I can't detect any difference between the templates that could explain this behavior. They are pretty much identical, except that the blog template looks for articles two levels down and does a find to restrict it to only the folder that contains all my blog posts:
+$articles = $pages->find('post')->children()->children()->visible()->flip()->paginate(10);
+
+Where the subblog template only looks one level down:
+$articles = $page->children()->visible()->flip()->paginate(20);
+
+The files are structured with one of the top level directories being 01-post and under that directory I have a directory for each year, named like 2013-2013 (because it can't be hidden and have a number for a name). Under each year are the directories that represent each post.
+
+I really can't figure out why one page shows every post except this one, while the other page shows all the posts.

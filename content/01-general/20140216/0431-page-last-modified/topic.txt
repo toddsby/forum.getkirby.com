@@ -1,0 +1,13 @@
+Title: page last modified
+----
+Date: 2014-02-16 04:31:20
+----
+Solved: 1
+----
+User: fridgewanch
+----
+Text: Is it possible to get the date and time for when the content of a page .txt file was last modified?
+
+Would like to automatically echo "Updated on...", if, modification date is greater than publication date on each individual blog post. Something like that.
+
+Thanks

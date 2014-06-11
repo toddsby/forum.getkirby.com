@@ -1,0 +1,10 @@
+User: 75laengengrade
+----
+Date: 2013-07-31 22:27:45
+----
+Text: Hi,
+
+this sounds like it could be solved by adding a rewrite rule, but I would need more input. Could you post the relevant lines of your logfile?
+
+Cheers,
+Uwe

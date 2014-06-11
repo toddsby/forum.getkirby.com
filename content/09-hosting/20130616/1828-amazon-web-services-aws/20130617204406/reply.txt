@@ -1,0 +1,13 @@
+User: isemann
+----
+Date: 2013-06-17 20:44:06
+----
+Text: Thanks Roman,
+
+I feel really out of my depth. Anyway, currently thinking about doing it on EC2 with Elastic IP - either that or using something like the cloud hosting with http://bitnami.com/cloud - they don't have a one-click installer but Erica (the COO) says I can SSH it in.
+
+The website I'm planning to build will be super-simple anyway so I feel like this is overkill but at least I will learn.
+
+Thanks,
+
+Rodney

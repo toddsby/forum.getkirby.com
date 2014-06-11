@@ -1,0 +1,8 @@
+User: conefreykoedam
+----
+Date: 2014-05-27 10:25:48
+----
+Text: Alex, check out the treemenu snippet:
+https://github.com/bastianallgeier/kirbycms-extensions/tree/master/snippets/treemenu
+
+Basically you can go as deep as you like …

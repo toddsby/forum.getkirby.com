@@ -1,0 +1,12 @@
+User: russbaldwin
+----
+Date: 2014-02-13 12:09:06
+----
+Text: Yep, that URL worked for me and I'm running PHP Version 5.4.17
+Can you just try a simple project.php with something like
+
+```php
+
+ <?php echo kirbytext($page->text()) ?>
+
+```

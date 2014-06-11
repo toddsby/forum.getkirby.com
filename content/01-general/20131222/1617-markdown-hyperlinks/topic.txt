@@ -1,0 +1,20 @@
+Title: Markdown hyperlinks
+----
+Date: 2013-12-22 16:17:06
+----
+Solved: 0
+----
+User: swain0
+----
+Text: Hi all
+
+I want to be able to write my own markup in posts as a I go so I am using the markdown variable: markdown($text) to render posts.
+
+I'm finding that when I add the html for links, it's adding onto the end of my URL.
+
+For example: http://www.iwearglasses.net/blog/%E2%80%9Chttp://www.twitter.com/
+
+Has anyone encountered this before or knows how to prevent?
+
+Cheers
+Paul

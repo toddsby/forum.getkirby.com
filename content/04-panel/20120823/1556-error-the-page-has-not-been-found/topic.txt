@@ -1,0 +1,25 @@
+Title: Error: The page has not been found
+----
+Date: 2012-08-23 15:56:22
+----
+Solved: 0
+----
+User: ndrsn
+----
+Text: Kirby is working great, just like it should! So I thought I'd give The Panel a go. 
+
+All the latest files from github (not dev) and having the panel folder in root just gives me this:
+
+`Error: The page has not been found`
+
+I've got it set up like this
+`domain.com/test/`
+
+and
+`domain.com/test/panel`
+
+Image to show this better:
+http://cl.ly/image/2t1E3v222b2N
+
+Regards,
+Dennis

@@ -1,0 +1,37 @@
+Title: $project->sounds() help???
+----
+Date: 2012-12-21 23:34:11
+----
+Solved: 0
+----
+User: chrisjmartin87
+----
+Text: Hey guys,
+
+A little confused about something.
+I have a list of music files that i have created on my homepage using the following code.
+
+     <?php $projects = $pages->find('audio')->children()->visible()->sortBy('date') ?>
+     <?php foreach($projects as $project): ?>
+     <li class="item two-thirds column">
+     <a href="<?php echo $project->url() ?>"><?php echo $project->title() ?></a>
+     </li>
+     <?php endforeach ?>
+
+Using the above code I'm able to generate a list of visible sub-pages from the "audio" page in the panel.
+
+It shows each page as a list item and if i add
+
+     <?php echo $project->sounds() ?>
+
+I can then get a pre-made link to the audio file. 
+
+If i wanted to change this so i can get just the path to the file how could i go about this? I tried
+
+     <?php echo $project->sounds()->path() ?> 
+
+with no success.
+
+If any one can throw some light on this it would go a long way to helping me out.
+
+Cheers

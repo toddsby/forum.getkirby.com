@@ -1,0 +1,29 @@
+User: nilshendriks
+----
+Date: 2013-07-15 06:22:55
+----
+Text: Hello.
+
+Before this week I was using picturefill on my site but since I refreshed the whole thing I've taken it off. Not sure yet if I'll put it back.
+
+Anyway, this is how I used it with Kirby. In a template file where I wanted to show only the first image for that content file/folder I added:
+
+```php
+<? if ($page->hasImages()): ?>
+<?php
+$image = $page->images()->first();
+?>
+<div data-picture data-alt="<?php echo $page->title() ?>">
+    <div data-src="<?php echo thumb($image, array('width' => 440, 'crop' => false), false) ?>"></div>    
+    <div data-src="<?php echo thumb($image, array('width' => 565, 'crop' => false), false) ?>" data-media="(min-width: 481px)"></div>
+    <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+    <noscript><img src="<?php echo thumb($image, array('width' => 440, 'crop' => false), false) ?>" alt="<?php echo $page->title() ?>"></noscript>
+</div>
+<? endif ?>
+```
+
+I had Kirby create thumbnail images of the original large sized image for the different breakpoints.
+
+In the header snippet file there's a request for the picturefill javascript file.
+
+Note that this is just the way I implemented it, not saying it is THE way to do it.

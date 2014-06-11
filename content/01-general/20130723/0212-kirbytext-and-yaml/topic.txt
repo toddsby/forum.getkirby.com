@@ -1,0 +1,22 @@
+Title: kirbytext() and YAML
+----
+Date: 2013-07-23 02:12:06
+----
+Solved: 0
+----
+User: nicholaswyoung
+----
+Text: I'm trying to build a page with several different areas that I loop through in the template. I had hoped to use YAML, but Kirbytext doesn't seem to like YAML multi-line strings.
+
+```
+Specialties:
+
+Advise:
+   title: Advise
+   description: >
+      Listening is a crucial part of storytelling. Sometimes, it's listening to yourself &mdash; and at others, it's absorbing what others say.
+
+      We listen intently, then distill your story into the core elements.
+```
+
+When I add the linebreak, kirbytext outputs a break tag instead of a new paragraph. How can I get around this?

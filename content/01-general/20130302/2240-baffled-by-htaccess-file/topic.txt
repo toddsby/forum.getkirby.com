@@ -1,0 +1,22 @@
+Title: Baffled by HTACCESS file
+----
+Date: 2013-03-02 22:40:49
+----
+Solved: 1
+----
+User: richardhellyer
+----
+Text: This isn't an issue, but something I am trying hard to understand so would appreciate some coaching in how the htaccess file actually works.
+
+In the htaccess file there are these lines:
+
+      # make site links work
+      RewriteCond %{REQUEST_FILENAME} !-f
+      RewriteCond %{REQUEST_FILENAME} !-d
+      RewriteRule ^(.*) index.php [L]
+
+They seem to do the magic that takes a url like 'foo.com/about/team' and magically hands it over the the index.php file with (I presume) the correct query string.
+
+But for the life of me i can't see how this works (but it does!) The main rewrite rule looks like it replaces everything in the url with 'index.php' , so in that case what happens to the '/about/team' part of the url?
+
+Richard

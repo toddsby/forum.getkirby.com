@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-01-14 11:17:31
+----
+Text: Not sure if you can do this in Kirby but you could probably get what you want using [PHP's $_SERVER variables](http://php.net/manual/en/reserved.variables.server.php)?

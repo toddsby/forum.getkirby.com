@@ -1,0 +1,13 @@
+User: russbaldwin
+----
+Date: 2013-03-01 17:15:25
+----
+Text: Something like... (not tested)
+```php
+<?php $articles = $pages->find('articles')
+                          ->children()
+                          ->visible()
+                          ->filterBy('featured', 'Off')
+                          ->sortBy('date', 'desc')
+                          ->paginate(8); ?>
+```

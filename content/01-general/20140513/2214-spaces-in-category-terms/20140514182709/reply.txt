@@ -1,0 +1,9 @@
+User: fitzage
+----
+Date: 2014-05-14 18:27:09
+----
+Text: It's a PHP function. (link: http://getkirby.com/blog/tagcloud text: This article) gives a lot of information about tags in general, if you haven't seen it yet.
+
+In one of the comments he mentions how to handle url decoding of a tag. Basically, wherever it says to use `param('tag')` use `urldecode(param('tag'))` instead.
+
+Same thing for categories. You'd just perhaps use `param('category')` instead of `param('tag')` although you don't necessarily have to.

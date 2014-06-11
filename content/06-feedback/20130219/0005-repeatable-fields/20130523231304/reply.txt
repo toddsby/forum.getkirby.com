@@ -1,0 +1,10 @@
+User: roman_oroco
+----
+Date: 2013-05-23 23:13:04
+----
+Text: @tillpro Valid code:
+```php
+<?php foreach($pages->find('yourpage')->children() as $item): ?>
+  // do stuff here
+<?php endforeach ?>
+```

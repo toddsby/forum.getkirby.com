@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-02-27 14:52:45
+----
+Text: You can fiddle in you **index.php** and change *contents* folder, *site* folder and even the *Kirby* folder for multiple install of same Kirby, but I can't see how to do assests and thumbs.
+
+Plus I'm not sure how panel would cope?

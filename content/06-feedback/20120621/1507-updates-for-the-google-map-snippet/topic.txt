@@ -1,0 +1,11 @@
+Title: Updates for the (Google) map snippet
+----
+Date: 2012-06-21 15:07:48
+----
+Solved: 0
+----
+User: jesuismaksim
+----
+Text: Do you plan to make some updates to this plugins, such multi adresses on one map and possibilities to add map icons (maps.Marker) ?
+
+Some suggestions :)

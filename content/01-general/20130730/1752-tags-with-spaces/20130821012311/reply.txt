@@ -1,0 +1,14 @@
+User: fitzage
+----
+Date: 2013-08-21 01:23:11
+----
+Text: Well, without editing the tagcloud plugin, the spot in your code that you need to adjust would be:
+
+    ->filterBy('tags', param('tag'), ',');
+
+to
+
+    ->filterBy('tags', urldecode(param('tag')), ',');
+
+
+That may not be the only place, but that's the general idea. Everywhere you use param('tag') you need to urldecode it. You could create a variable at the top of the page to hold it and then use that throughout the page.

@@ -1,0 +1,7 @@
+User: OMGitsJKT
+----
+Date: 2014-03-13 17:57:02
+----
+Text: Maybe you could filter by tags?
+
+Or, if the pages you wish to include are using different templates, you could filter them by checking `$page->template()`

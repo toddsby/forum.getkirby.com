@@ -1,0 +1,9 @@
+User: tysongach
+----
+Date: 2012-10-24 05:22:03
+----
+Text: I bet you could easily make the (link: https://github.com/bastianallgeier/kirbycms-extensions/tree/master/plugins/thumb text: Thumb Plugin) work alongside (link: https://github.com/scottjehl/picturefill text: Picturefill).
+
+Picturefull is a shim to make the (link: http://www.w3.org/community/respimg/wiki/Picture_Element_Proposal text: proposed picture element) work now, so you can get those hi res images as well as appropriately sized responsive images.
+
+Haven't tried this yet, but I think it should work.

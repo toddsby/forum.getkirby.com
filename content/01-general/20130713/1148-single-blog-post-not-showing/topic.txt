@@ -1,0 +1,13 @@
+Title: Single blog post not showing
+----
+Date: 2013-07-13 11:48:21
+----
+Solved: 1
+----
+User: aqeelfikree
+----
+Text: My blog with all it's articles is on [aqeelfikree.com](http://aqeelfikree.com/) - when I click on a title to go the article, nothing shows up. The url is correct, but nothing shows up.
+
+I've tried a bunch of stuff, but I can't seem to figure out what's the deal.
+
+Clues anyone?

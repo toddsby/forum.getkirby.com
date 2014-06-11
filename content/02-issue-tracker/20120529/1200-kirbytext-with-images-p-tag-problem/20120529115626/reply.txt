@@ -1,0 +1,20 @@
+User: bastianallgeier
+----
+Date: 2012-05-29 11:56:26
+----
+Text: That's a limitation of Markdown. What you can do is to add image tags without a paragraph break: 
+
+```
+Sometext
+(\image: myimage.jpg)
+
+```
+
+The image will be placed within the previous paragraph then. 
+
+```
+<p>
+Sometext<br />
+<img src="myimage.jpg" />
+</p>
+```

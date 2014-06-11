@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2014-02-11 13:42:29
+----
+Text: I apologise, I may have misread your above error message, my fault.  What happens if your temporarily remove the 'auth' folder. Does it load OK?

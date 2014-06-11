@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-09-27 13:36:55
+----
+Text: @fitzage thanks for the great suggestion. In fact I consider this a way better solution, since it's more transparent to editors than the `<!-- more -->` tag and you are way more flexible to style and handle the output.

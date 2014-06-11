@@ -1,0 +1,7 @@
+User: travVT
+----
+Date: 2013-09-30 16:29:05
+----
+Text: All right. I was able to do a small tweak, for the front-end, that allows for the functionality I described above. This means that a file named test.page.txt will use the page.php template and a page named abc.blog.txt will  use the blog.php template. 
+
+This is great, however, it's not working in the panel. I'm struggling to find where this code lies in the panel's code, so if anyone has any ideas I'd really appreciate the help. Thanks!

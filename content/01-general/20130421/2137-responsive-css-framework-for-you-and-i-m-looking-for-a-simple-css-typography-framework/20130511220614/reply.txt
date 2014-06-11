@@ -1,0 +1,13 @@
+User: JanStieler
+----
+Date: 2013-05-11 22:06:14
+----
+Text: Hi,
+http://typeplate.com/
+https://code.google.com/p/emastic/
+
+Something for a better webtypo
+http://baselinecss.com/
+http://css-tricks.com/typographic-grid/
+
+But Skeleton is a good framework for starting or small websites who is Bootstrap oversized.

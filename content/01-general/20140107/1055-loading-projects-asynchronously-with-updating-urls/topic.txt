@@ -1,0 +1,11 @@
+Title: Loading projects asynchronously, with updating URLs.
+----
+Date: 2014-01-07 10:55:27
+----
+Solved: 0
+----
+User: ico_
+----
+Text: I would like to create a one-pager, but with updating URLs, using some sort of hash router or a framework like Angular.js. Anyway, what I want is to code it so, that the website runs from the homepage and loads pages and projects asynchronously. So let's say I go to `http://www.mysite.com/projects/my-first-project`, I want it to land on the index.php (and *not* on the project page) and then load My First Project asynchronously. 
+
+Any thoughts on this? Thanks!

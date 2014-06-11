@@ -1,0 +1,11 @@
+User: kevincgreene
+----
+Date: 2013-08-30 21:35:30
+----
+Text: Thanks, its a long story, but basically I am assigning a class to the body element based on the time of day via javascript so that I can style the site from daylight to nighttime. I cant seem to find any solution with Google/Stack Overflow but was thinking maybe someone had an idea that would do something like the below in a Kirby template file:
+
+< php if($page-> ***HAS CLASS*** = 'day'): >
+HTML code for day time
+< php else: >
+HTML code for night time
+< php endif  >

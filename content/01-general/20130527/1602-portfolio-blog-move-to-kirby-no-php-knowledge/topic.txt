@@ -1,0 +1,13 @@
+Title: Portfolio + blog move to Kirby (no PHP knowledge)
+----
+Date: 2013-05-27 16:02:02
+----
+Solved: 0
+----
+User: maratnugmanov
+----
+Text: I have my website already up and running. There is no custom PHP in my templates (though it is possible in cms), only proprietary tags.
+But I hate SQL databases - the way you move from one server to another.
+So can I try to use Kirby without PHP knowledge? HTML and CSS skills are good, of course. I'm ready to learn some PHP tricks but not really interested in mastering it.
+
+Also should I buy license for building my own site, or only for clients sites?

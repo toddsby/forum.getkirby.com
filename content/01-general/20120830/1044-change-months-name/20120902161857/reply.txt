@@ -1,0 +1,8 @@
+User: symonium
+----
+Date: 2012-09-02 16:18:57
+----
+Text: In fact, that was for replacing english months name with french ones, without having to change whole Kirby language. Can I do :
+
+$monthName = 'September';
+print substr(strtolower($monthName), 0, 0).'Septembre';

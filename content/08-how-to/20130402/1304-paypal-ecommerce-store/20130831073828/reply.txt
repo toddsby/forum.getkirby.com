@@ -1,0 +1,5 @@
+User: dokdeleon
+----
+Date: 2013-08-31 07:38:28
+----
+Text: The thing we were missing is the javascript which updates the table when the quantity is changed. Going to the kyle bean site, i came across the core.js which has a "cart" function that basically uses ajax to update the values.

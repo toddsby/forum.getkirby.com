@@ -1,0 +1,14 @@
+User: russbaldwin
+----
+Date: 2013-05-27 09:58:12
+----
+Text: All looks fine. Another option would be a multi purpose snippet and pass parameters to the snippet itself?
+```php
+snippet('mysnippet',
+        array(
+        'param1array'=>'a,b,c,v',
+        'param2'=>'stuff', 
+        'param3'=>'morestuff'
+             )
+       )
+```

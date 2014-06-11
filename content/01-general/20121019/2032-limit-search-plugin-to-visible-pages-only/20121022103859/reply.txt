@@ -1,0 +1,19 @@
+User: bastianallgeier
+----
+Date: 2012-10-22 10:38:59
+----
+Text: I've just uploaded a new version of the search plugin, which has a new "include" option: 
+
+```php
+$search  = new search(array(
+  'searchfield' => 'search', 
+  'include'     => 'visible'
+));
+$results = $search->results();
+```
+
+The include option can be set to "visible", "invisible" or "all", which is the default value. 
+
+By setting it to visible, only visible pages will be include in search results – who would have thought that :)
+
+I hope this helps!

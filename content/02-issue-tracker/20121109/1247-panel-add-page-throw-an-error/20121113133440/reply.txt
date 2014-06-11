@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-11-13 13:34:40
+----
+Text: @loasca hm, that's weird! how did you setup your url and subfolder variables in the config file?

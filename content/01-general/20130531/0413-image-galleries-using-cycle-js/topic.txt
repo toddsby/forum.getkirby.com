@@ -1,0 +1,64 @@
+Title: Image Galleries using Cycle.js
+----
+Date: 2013-05-31 04:13:39
+----
+Solved: 0
+----
+User: positionrelativ
+----
+Text: Hi, I'm trying to build is a portfolio site for a graphic designer. 
+
+The folder structure for the site is like this:
+
+    content/
+    	01-music/
+    		01-project/
+    			01-image.jpg
+    			02-image.jpg
+    			03-image.jpg
+    		02-project/
+    			01-image.jpg
+    			02-image.jpg
+    			03-image.jpg
+    	02-logos/
+    		01-project/
+    			01-image.jpg
+    			02-image.jpg
+    			03-image.jpg
+    		02-project/
+    			01-image.jpg
+    			02-image.jpg
+    			03-image.jpg
+    	03-advertising/
+    		01-project/
+    			01-image.jpg
+    			02-image.jpg
+    			03-image.jpg
+    		02-project/
+    			01-image.jpg
+    			02-image.jpg
+    			03-image.jpg
+
+
+
+On music.php, logos.php, and advertising.php I'd like to dynamically pull in one project's contents at a time and allow the user to select a different project to view by clicking different links in a sidebar. I'd like to accomplish this without refreshing the page if possible.
+
+I'm also going to only show one image at a time from each project using the cycle.js plugin, and hide the rest until the user selects previous or next.
+
+Here's the php that I have pieced together so far to retrieve the project images, but currently it only seems to be retrieving the last project in each subfolder:
+
+    <ul class="gallery">
+     <?php foreach($page->children() as $child): ?>
+       <?php foreach($child->images() as $image): ?>
+    
+         <li class="item">
+           <a href="<?php echo $image->url() ?>"><img src="<?php echo $image->url() ?>" width="<?php echo $image->width() ?>" height="<?php echo $image->height() ?>" alt="<?php echo $image->name() ?>" /></a>
+           <p><?php echo $image->name() ?></p>
+         </li>
+       <?php endforeach ?>
+     <?php endforeach ?>
+    </ul>
+
+Should I try and accomplish this using javascript or is there a way to let Kirby handle it? 
+
+Any help is much appreciated! Thanks.

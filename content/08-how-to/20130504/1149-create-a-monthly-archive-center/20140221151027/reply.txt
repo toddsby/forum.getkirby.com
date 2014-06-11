@@ -1,0 +1,33 @@
+User: fabiomacori
+----
+Date: 2014-02-21 15:10:27
+----
+Text: Hello everybody.
+First of all thank you Julien for sharing your idea and solution.
+
+I am trying to implement the code you have suggested, but I am not a web designer neither a developer so I have some problem.
+
+I am trying to do it on my local machine using mamp.
+
+I have created a file called "archive.php" with your code and put it into ../site/templates
+At the same time I have created a page: ../content/04-archive and added a file called archive.txt
+
+Unfortunately I receive: "Fatal error: Call to a member function children() on a non-object in /Users/fabiomacori/Dropbox/Personale/kirby/site/templates/archive.php on line 7"
+
+Even if I delete :
+                          ->children()
+                          ->visible()
+                          ->flip();
+from: <?php
+        $articles = $pages->find('articles')
+                          ->children()
+                          ->visible()
+                          ->flip();
+        $i=1;?>
+I have a fatal error with following string.
+
+Can you help me?
+Thank you for your attention,
+regards (and sorry for my poor english)
+
+Fabio, a newbie

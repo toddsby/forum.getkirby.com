@@ -1,0 +1,5 @@
+User: tillpro
+----
+Date: 2013-03-11 16:02:30
+----
+Text: I know! And I managed to implement image selecting, but I had to edit quite a lot of files and I feel a bit uncomfortable to use it because it might be a little challenge when updating the Panel…

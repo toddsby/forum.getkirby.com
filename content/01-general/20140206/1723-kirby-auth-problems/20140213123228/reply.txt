@@ -1,0 +1,20 @@
+User: kamptweets
+----
+Date: 2014-02-13 12:32:28
+----
+Text: YEAH! i got it: your "just text" comment made me look at the kirby.extended file again... 
+
+i changed:
+
+  function __construct($text, $markdown=true) {
+    
+    parent::__construct($text, $markdown);
+
+to this:
+
+  function __construct($kirbytext, $markdown=true) {
+    
+    parent::__construct($kirbytext, $markdown);
+
+
+Thanks for the suggestion!

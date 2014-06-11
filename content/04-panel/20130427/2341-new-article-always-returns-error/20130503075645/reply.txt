@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-05-03 07:56:45
+----
+Text: What I was trying to say was is it the template? Using the default ones would rule that out. Are you getting any error logs on your webserver?
+
+Also PHP version & PHP modules, is your .htaccess correct, is the Panel correctly installed....

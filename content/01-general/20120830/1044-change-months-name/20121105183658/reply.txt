@@ -1,0 +1,11 @@
+User: loasca
+----
+Date: 2012-11-05 18:36:58
+----
+Text: Hi,
+I changed the timezone config to the following:
+
+    c::set('timezone', 'Europe/Rome');
+
+but I can't manage to have the month name translated to Italian.
+Am I missing something?

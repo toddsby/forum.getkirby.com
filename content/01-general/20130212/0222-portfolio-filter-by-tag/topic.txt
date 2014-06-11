@@ -1,0 +1,34 @@
+Title: portfolio filter by tag
+----
+Date: 2013-02-12 02:22:29
+----
+Solved: 0
+----
+User: d2k0bler
+----
+Text: Im making a portfolio site, and when I try to filter content by tags, all of the "jobs" end up coming up instead of filtering only those "jobs" with the tag.
+
+here is the code I have in my portfolio page named "work":
+
+		if(param('tag')) {
+
+ 		 $articles = $pages->find('work')
+                    ->children()
+                    ->visible()
+                    ->filterBy('tags', param('tag'), ',')
+                    ->flip();
+
+		} else {
+
+ 		 $articles = $pages->find('work')
+                    ->children()
+                    ->visible()
+                    ->flip();
+
+		}
+		?>
+
+
+		<?php if (param('tag')) { ?>
+		    <h1>Work <small>: <?php echo urldecode(param('tag')) ?></small></h1>
+		<?php } ?>

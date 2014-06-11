@@ -1,0 +1,5 @@
+User: staudi_
+----
+Date: 2013-05-20 02:16:19
+----
+Text: I agree. Maybe option to specify default behavior in blueprint.

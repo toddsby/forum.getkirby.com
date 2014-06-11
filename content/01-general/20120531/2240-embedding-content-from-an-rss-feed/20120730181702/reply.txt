@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2012-07-30 18:17:02
+----
+Text: Bastian, do you have any more advanced information about how to integrate simplepie into Kirby? I can probably figure out the basics, but would rather not have to. :-)
+
+I would also like to do something more advanced, if possible. I'd like to pull in content from RSS that actually ends up with distinct URLs for individual items from the RSS feed. The idea is that our wiki will have featured articles in a RSS feed, and then we'd pull these articles into our main site on Kirby automatically. Is something like this possible?

@@ -1,0 +1,7 @@
+User: wilhearts
+----
+Date: 2014-06-02 11:36:56
+----
+Text: Turns out caching was the problem,
+
+had to add the "login", "logout", "extranet" files to cache.ignore array in kirby config, everything back to normal.

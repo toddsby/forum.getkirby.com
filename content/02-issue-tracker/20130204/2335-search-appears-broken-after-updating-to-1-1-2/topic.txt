@@ -1,0 +1,11 @@
+Title: Search appears broken after updating to 1.1.2
+----
+Date: 2013-02-04 23:35:22
+----
+Solved: 0
+----
+User: chrisbowler
+----
+Text: Performed my first update to Kirby today. Unfortunately, my search is no longer working. Apart from uploading the Kirby folder, I made no other changes.
+
+Anyone else having this issue?

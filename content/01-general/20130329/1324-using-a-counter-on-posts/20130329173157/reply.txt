@@ -1,0 +1,5 @@
+User: ChrisjMartin87
+----
+Date: 2013-03-29 17:31:57
+----
+Text: Is it not because the $count = $articles->count(); is counting the available articles, yet you have it limited to one. So every time you open the page with the article it will always show 1.

@@ -1,0 +1,9 @@
+User: bastianallgeier
+----
+Date: 2013-02-07 13:35:50
+----
+Text: Well, if you need a dedicated page for each category, just toss a category.txt into each category folder and create a template for it. 
+
+In that template getting the child articles is easy :)
+
+Hope this helps

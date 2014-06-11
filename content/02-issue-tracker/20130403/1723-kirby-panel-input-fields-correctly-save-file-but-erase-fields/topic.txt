@@ -1,0 +1,57 @@
+Title: Kirby Panel: Input fields correctly save file but erase fields
+----
+Date: 2013-04-03 17:23:11
+----
+Solved: 0
+----
+User: nickjonastic
+----
+Text: I'm saving out the following .txt file from the panel:
+
+```
+Title: New Business
+
+----
+
+Contactname: xx
+
+----
+
+Contactemail: asdf@asdf.com
+
+----
+
+Contactphone: asdf
+```
+
+Using this blueprint:
+
+```
+<?php if(!defined('KIRBY')) exit ?>
+
+# contact person blueprint
+
+title: Contact Person
+pages: false
+files: false
+fields:
+  title:
+    label: Title
+    type:  text
+  contactName:
+    label: Contact Name
+    type:  text
+  contactEmail:
+    label: Contact Email
+    type: text
+    validate: email
+  contactPhone:
+    label: Contact Phone
+    type: text
+```
+
+It saves out the file correctly, however after clicking save all the input fields are erased.  
+
+ALSO, part 2:
+
+When clicking the plus sign to add a page I'd like to have blueprints show up in the dropdown option list, but this one isn't...all folders & files have the right permissions too...

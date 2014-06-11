@@ -1,0 +1,7 @@
+User: richardhellyer
+----
+Date: 2013-02-01 09:05:18
+----
+Text: will do .. thanks. 
+
+Yes, it was my understanding that the BOM wasn't necessary for UTF-8 from what I'd read

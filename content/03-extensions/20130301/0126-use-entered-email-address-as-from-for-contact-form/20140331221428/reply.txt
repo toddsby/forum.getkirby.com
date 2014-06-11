@@ -1,0 +1,16 @@
+User: r_morgenstern
+----
+Date: 2014-03-31 22:14:28
+----
+Text: Thank you Scott. Works for me after some adjustments:
+
+	28	// try to send the email 
+		$this->defaults('submit', function($self) {
+		
+			$to   = $self->option('to');
+			$from = $self->option('from');
+			$email = $self->value('email');
+						
+			if(!$from) $self->option('from', $email);
+      
+	37		// set the email body

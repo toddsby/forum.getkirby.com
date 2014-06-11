@@ -1,0 +1,9 @@
+User: russbaldwin
+----
+Date: 2013-03-13 13:19:00
+----
+Text: Probably because the images are not in the array?
+
+Loop through the articles and inside that loop through the images to get an image array? 
+
+But you may also be able to use something like is used on the ['How to build a “one-pager” with Kirby'](http://getkirby.com/blog/one-pager) or a slightly funky model/view type architecture like in ['Custom post types for Kirby with views'](http://krausshq.com/blog/custom-post-types-with-views)

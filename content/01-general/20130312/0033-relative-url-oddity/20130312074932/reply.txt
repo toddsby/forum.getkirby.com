@@ -1,0 +1,18 @@
+User: russbaldwin
+----
+Date: 2013-03-12 07:49:32
+----
+Text: I don't think it is a brilliant idea to have code in your text files and I would want to add the image to a content page folder if I could?
+
+Having said that it could be possible with embedded PHP
+```html
+<ul>
+<li>
+  <img src="
+    <?php echo url('assets/images/foo.png') ?>
+  "/>
+lorem
+</li>
+</ul>
+``` 
+Another better option might be to set a site variable in your sites text file or perhaps one in you config so you can call it later?

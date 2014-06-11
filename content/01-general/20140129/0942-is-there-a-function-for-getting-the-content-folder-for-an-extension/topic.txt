@@ -1,0 +1,15 @@
+Title: Is there a function for getting the content folder for an extension?
+----
+Date: 2014-01-29 09:42:36
+----
+Solved: 0
+----
+User: janstieler
+----
+Text: Hi,
+I'm writing a little extension for Kirby and now I have to create some files inside the content folder.
+Is there a class or a function to get the content folder automatic?
+
+I want to create it in most cases with Kirby homemade functions and not with own written textcreatings :).
+
+Greetings

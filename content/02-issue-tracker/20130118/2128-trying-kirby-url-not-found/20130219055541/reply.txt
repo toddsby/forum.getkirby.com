@@ -1,0 +1,5 @@
+User: gabekelley
+----
+Date: 2013-02-19 05:55:41
+----
+Text: Im having this same problem. I've copied the .htaccess file and last time I installed I didn't have to make any changes to the config file.

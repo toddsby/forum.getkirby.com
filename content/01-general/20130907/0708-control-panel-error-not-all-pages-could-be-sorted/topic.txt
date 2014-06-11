@@ -1,0 +1,15 @@
+Title: Control Panel Error: Not all pages could be sorted
+----
+Date: 2013-09-07 07:08:23
+----
+Solved: 0
+----
+User: qwertyverse
+----
+Text: Testing Kirby via localhost using XAMPP. The following error is given when trying to sort the visible pages in the control panel. However, sorting sub-sections works fine.
+
+ERROR
+"Not all pages could be sorted"
+
+**Permissions**
+The permissions in your content directory are not set properly. Please change the permissions for all folders to **0755** and for all files to **0666**

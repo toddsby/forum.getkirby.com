@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2012-06-01 15:52:27
+----
+Text: Where by "enable the plugin" I mean enable the auto-linking feature of the plugin.

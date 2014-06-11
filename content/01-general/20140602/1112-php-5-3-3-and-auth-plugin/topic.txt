@@ -1,0 +1,15 @@
+Title: PHP 5.3.3 and Auth Plugin
+----
+Date: 2014-06-02 11:12:44
+----
+Solved: 1
+----
+User: wilhearts
+----
+Text: Can anybody help me on this ?
+
+http://stackoverflow.com/questions/23990954/sessions-in-php-5-3-3-and-kirby
+
+i need serious help, this is a live client website not working and you are my last resort until i make everything from scratch again.
+
+Thanks alot !

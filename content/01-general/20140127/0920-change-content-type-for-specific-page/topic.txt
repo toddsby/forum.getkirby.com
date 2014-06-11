@@ -1,0 +1,15 @@
+Title: Change CONTENT-TYPE for specific page
+----
+Date: 2014-01-27 09:20:14
+----
+Solved: 0
+----
+User: cedwardsmedia
+----
+Text: Hey folks, I'm wanting to generate a dynamic humans.txt file (humanstxt.org) for my site. I want it to be dynamic so that I can fetch the link to the latest post and display the date of the most recent post, thus I need to actually poll Kirby for this.
+
+To achieve this, I created a Kirby template for the file. Within the template, I have php sending the text/plain content type. However, I've noticed, after doing some research, that Kirby.php sends the default content type. Despite trying different things, the browser always follows the content-type sent my Kirby. (I'm guessing Kirby actually sends this header after handling the template.) The problem is, I need a single Kirby page to be sent with a text/plain content-type header rather than text/html.
+
+Anyone know how I can set the content-type for the given page under Kirby?
+
+(Note: The main reason I need to specifically declare the content-type is because Chrome, Safari, Firefox, and every other browser I've tried ignore the line breaks in the text file since they believe they should render them as text/html.)

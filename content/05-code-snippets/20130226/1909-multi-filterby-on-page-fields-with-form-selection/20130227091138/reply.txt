@@ -1,0 +1,11 @@
+User: russbaldwin
+----
+Date: 2013-02-27 09:11:38
+----
+Text: The above code was updated due to several more requests for how to make the selects stay selected and reflect the filter... something like this to replace the above  'option' code (ammended accordingly for each filter)... this if for categories:
+
+```php
+<option value="<?php echo $category->name()?>" 
+ <?php if(($_POST) and (strval($category->name()) == $_POST['categories'])) echo ' selected ="selected" ';?>><?php echo $category->name()?>
+</option>
+```

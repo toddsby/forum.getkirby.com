@@ -1,0 +1,7 @@
+User: PaulVintin
+----
+Date: 2014-02-15 14:07:38
+----
+Text: Thanks for the reply. I wasn't sure of the extent of the normal file system, whether a formhandler.php file in the site somewhere would be covered. The way I did it, obviously not.
+
+I have sorted it though – just have the form handling script on the form page and take the Ajax url ref. out. Easy. But if I had wanted to keep the form handler separates I would have just used normal MySQL queries.

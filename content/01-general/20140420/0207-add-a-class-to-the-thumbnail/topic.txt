@@ -1,0 +1,11 @@
+Title: Add a class to the thumbnail
+----
+Date: 2014-04-20 02:07:53
+----
+Solved: 1
+----
+User: enlifer
+----
+Text: I use auto-generated thumbnails with the help of the thumb plugin.
+
+How can I add a class to the created image?

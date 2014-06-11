@@ -1,0 +1,22 @@
+User: russbaldwin
+----
+Date: 2013-04-07 08:33:34
+----
+Text: I'm not sure you can have numeric folders or txt files? 
+But can nest in trees (not tested)
+
+```php
+<?php $maxdepth=2 ?>
+<?php if(!isset($subpages)) $pages->find('paintings')->children() ?>
+<ul class="myclass">
+  <?php foreach($subpages->visible() AS $p): ?>
+    <li class="depth-<?php echo $p->depth() ?>">
+      <a href="<?php echo $p->url() ?>"><?php echo $p->title() ?></a>
+      <?php if(($p->hasChildren()) and ($p->depth() < $maxdepth)): ?>
+        <?php snippet('treemenu', array('subpages' => $p->children())) ?>
+      <?php endif ?>
+    </li>
+  <?php endforeach ?>
+</ul>
+```
+p.s. Your CSS might be better in the assets folders?

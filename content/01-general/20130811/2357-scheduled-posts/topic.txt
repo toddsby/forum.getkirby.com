@@ -1,0 +1,19 @@
+Title: Scheduled posts
+----
+Date: 2013-08-11 23:57:45
+----
+Solved: 0
+----
+User: iamadamjowett
+----
+Text: Hey guys,
+
+First of all, great work on Kirby, awesome stuff.
+
+We have been so impressed with how it strips back site and content building that we have moved our company sites off Wordpress onto Kirby, but there is one thing that is essential as I have a full time editor who writes the content.
+
+Is it possible to have a "scheduled posts" feature? Has anything been written where you can schedule when a post will be published in a blog area for example?
+
+If nothing has been written, hypothetically, is there any reason Kirby would not be able to cater for this (asking so I don't travel down a dead end road)?
+
+Thanks again.

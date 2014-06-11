@@ -1,0 +1,12 @@
+User: nilshendriks
+----
+Date: 2013-01-18 11:11:42
+----
+Text: Not sure what you mean.
+
+This?
+http://michelf.ca/projects/php-markdown/extra/#header-id
+
+Only seems to work on headings with IDs, not classes like it says it should and doesn't work at all on other elements.
+
+At least not for me.

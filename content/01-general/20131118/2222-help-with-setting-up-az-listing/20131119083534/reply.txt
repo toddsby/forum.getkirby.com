@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-11-19 08:35:34
+----
+Text: All sound like a good idea but I'd split the name into given/first name and family/surname. That way you can have a more flexible sort.
+
+You may also want to have a look at the [Alphabetise Plugin](http://getkirby.com/forum/code-snippets/topic:419) it may or may not be useful but at least will give you some more ideas.

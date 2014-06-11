@@ -1,0 +1,26 @@
+Title: Issues displaying website with Internet Explorer 11 and Opera 20
+----
+Date: 2014-04-30 14:12:29
+----
+Solved: 0
+----
+User: quadoxag
+----
+Text: Hello,
+
+I tried opening a site with IE11 that I'm actually building with Kirby and the slacky theme. Turns out that it displays the site totally wrong. In Opera, Chrome & Firefox it's working (only a little mistake regarding the fonts in Opera). Opera & Chrome share the same engine but somehow it's working perfectly in Chrome.
+
+Tried to google the IE-issue and looked into this forum but haven't found a solution to the problem yet.
+
+I made some screenshots of it:
+
+IE11: https://dl.dropboxusercontent.com/u/1690892/issue_ie.jpg
+Opera: https://dl.dropboxusercontent.com/u/1690892/issue_opera.jpg
+Normal: https://dl.dropboxusercontent.com/u/1690892/normal_ff.jpg
+
+Does anybody know how to fix this problem?
+
+
+Kind regards and many thanks in advance,
+
+Steffen

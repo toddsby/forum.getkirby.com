@@ -1,0 +1,11 @@
+Title: Add pages to panel
+----
+Date: 2013-03-12 01:46:25
+----
+Solved: 0
+----
+User: p_mylecharane
+----
+Text: Hey all—
+
+I'm putting together a style manual and basic how to for clients that i'd like to implement as a page in the panel with a hard coded link possible left aligned from the sort button. It would be a static page like the index with the site info (although no need to be able to edit). Has anyone done this yet? Any ideas or help would be awesome.

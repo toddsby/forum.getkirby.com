@@ -1,0 +1,11 @@
+User: bartvandebiezen
+----
+Date: 2013-02-10 17:46:51
+----
+Text: How can I remove the &lt;p&gt; and &lt;/p&gt;'s? I get the following code:
+
+&lt;p&gt;&lt;figure&gt;&lt;img src="[path]/01.png" title="[title]" alt="[alt]." /&gt;&lt;/p&gt;
+
+&lt;figcaption&gt;[figcaption]&lt;/figcaption&gt;
+
+&lt;p&gt;&lt;/figure>&lt;/p&gt;

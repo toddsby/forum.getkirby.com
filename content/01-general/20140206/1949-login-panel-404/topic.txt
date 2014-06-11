@@ -1,0 +1,17 @@
+Title: Login Panel = 404
+----
+Date: 2014-02-06 19:49:44
+----
+Solved: 0
+----
+User: imtheandylee
+----
+Text: <a href="http://afara.cias.rit.edu/">http://afara.cias.rit.edu/</a>
+
+For some reason whenever I try to login to my site by using the icon in the top right, I am redirected to an error page.
+
+The page that it is supposed to be directing to DOES exist on the server.
+
+Does anybody know why this is happening? I am a designer and not a developer, so I don't really know how to troubleshoot this.
+
+Thanks in advance!

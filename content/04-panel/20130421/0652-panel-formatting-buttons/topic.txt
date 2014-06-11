@@ -1,0 +1,14 @@
+Title: Panel formatting buttons?
+----
+Date: 2013-04-21 06:52:49
+----
+Solved: 1
+----
+User: zavadesign
+----
+Text: Hey guys,
+
+Newbie here and I might just be a dope and missing something obvious, but after installing the panel and all seems to be working fine, I can't work out how to get the text formatting buttons to display on the edit page. Do I need to do something in the code, or am I missing something??
+
+Thanks,
+Dave

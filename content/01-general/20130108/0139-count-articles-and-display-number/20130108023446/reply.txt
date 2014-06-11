@@ -1,0 +1,5 @@
+User: tysongach
+----
+Date: 2013-01-08 02:34:46
+----
+Text: Really? (link: http://caniuse.com/#feat=css-counters text: Can I use...) seems to claim pretty good support.

@@ -1,0 +1,16 @@
+User: ChrisjMartin87
+----
+Date: 2013-01-21 19:58:49
+----
+Text: http://demo.minml.co 
+
+A simple, easy to use theme for Kirby. 
+
+     Dependencies:
+     Jquery Isotope http://isotope.metafizzy.co/
+     SimplecartJS http://simplecartjs.org/
+     Skeleton Framework http://www.getskeleton.com/
+
+This theme was only made quickly so is not yet fully complete but is there for people to use and improve on. The CSS could do with a bit of improvement and will eventually be made responsive with the aid of skeleton, at present it works OK on most browsers up to a certain point.
+
+Any feedback appreciated

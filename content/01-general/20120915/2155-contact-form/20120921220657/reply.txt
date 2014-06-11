@@ -1,0 +1,5 @@
+User: sashtown
+----
+Date: 2012-09-21 22:06:57
+----
+Text: There's a first alpha version of a contact form plugin by Bastian. You'll find it right in the directory of the kirby-extensions on Github: (link: https://github.com/bastianallgeier/kirbycms-extensions/tree/master/plugins/contactform)

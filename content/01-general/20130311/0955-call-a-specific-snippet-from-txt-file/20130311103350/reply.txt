@@ -1,0 +1,9 @@
+User: russbaldwin
+----
+Date: 2013-03-11 10:33:50
+----
+Text: Mmmm, is the text page specific?
+
+If so perhaps have some code in the template that selects for page UID? and display the appropriate snippet in the sidepanel?
+
+Where are these text snippets stored?

@@ -1,0 +1,13 @@
+User: jng5
+----
+Date: 2013-09-17 16:24:38
+----
+Text: You could just write a customer helper function, put it in your `plugins` folder.
+
+I have one that looks like this:
+
+    function kirbytext_no_p($text) {
+      return str_replace(array('<p>', '</p>'), '', kirbytext($text));
+    }
+
+In my case, it's a single image and extreme case. For your case, you'd need to do regex replace to only remove `<p>` tags that surround images.

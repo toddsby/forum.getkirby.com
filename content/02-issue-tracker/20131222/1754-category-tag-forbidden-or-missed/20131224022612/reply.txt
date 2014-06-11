@@ -1,0 +1,23 @@
+User: 674Morris
+----
+Date: 2013-12-24 02:26:12
+----
+Text: I have found a solution about the issues of point 1 and 2.
+In  blog.php file  inside theme "Baseblog-Kirby-Theme-master"
+
+in lines:
+66
+83
+99
+
+I have replaced 
+'category:'
+
+with
+'category;'
+
+the difference is in ":" that have to become ";"
+
+I don't know why, but now it work, I think there is some issue in my xampp server.
+
+Some suggestion to fix point 3?

@@ -1,0 +1,24 @@
+Title: Introducing Amazon SES mini-plugin
+----
+Date: 2013-02-04 09:53:56
+----
+Solved: 0
+----
+User: vladstudio
+----
+Text: I'm digging Kirby more and more :-)
+
+I just spent a day pulling my hair out, trying to make email plugin work - it's been working on local machine but not in production :-( In the end, I decided to give up and make a Kirby plugin from a PHP class I used before. Hence:
+
+<https://github.com/vladstudio/vladstudio-kirby-amazon-ses>
+
+... which, mysteriously, worked. 
+
+Uses the same config as email plugin:
+
+    c::set('email.use', 'amazon');
+    c::set('email.amazon.key', 'Your Amazon SES Key');
+    c::set('email.amazon.secret', 'Your Amazon SES Secret');
+
+Based entirely on SES PHP class * Copyright (c) 2011, Dan Myers.
+Which is in turn based on Donovan Schonknecht's Amazon S3 PHP class.

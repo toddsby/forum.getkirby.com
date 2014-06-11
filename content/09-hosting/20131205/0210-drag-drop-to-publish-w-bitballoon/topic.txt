@@ -1,0 +1,24 @@
+Title: Drag & Drop to Publish w/ BitBalloon
+----
+Date: 2013-12-05 02:10:20
+----
+Solved: 0
+----
+User: ruemic
+----
+Text: Hey guys, 
+
+I highly recommend you host your sites on BitBalloon, it's literally tailor made to host Kirby sites. Instead of FTP, you just drag & drop   your site folder onto BitBalloon.com and its live in seconds.
+
+Beyond the one-step publishing, BitBalloon also optimizes your code and images for performance and will "automagically" make any web forms in your site work, complete with a submissions database and email notifications!
+
+If drag & drop doesn't fit with your workflow, there's also an API and command line interface, so you can just do 'gem install bitballoon' and publish from the terminal with 'bitballoon deploy'
+
+You can try it our for free, even without creating account. And at $5/month, I think you'll find that it pretty much blows your other options like shared hosting or a VPS out of the water in terms of price/performance/usability.
+
+I'm a co-founder at BitBalloon and the team here would really love to hear about your experience if you do deploy your Kirby site to Bitballoon!
+
+You can reach us through the Olark chat in the bottom right of [https://www.bitballoon.com](https://www.bitballoon.com)
+
+Cheers,
+~ Michael Ruescher

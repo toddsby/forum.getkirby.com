@@ -1,0 +1,13 @@
+Title: Calendar plugin
+----
+Date: 2012-10-15 19:00:43
+----
+Solved: 0
+----
+User: chrstphbach
+----
+Text: We, (link: http://the-inspired-ones.de text: the Inspired Ones), created a little plugin to display a customizable YAML input as a calendar, because we needed such in one of our projects. You can see/fork/get it here: <https://github.com/mzur/kirby-calendar-plugin>
+
+All installation and usage details are provided in the readme. You can use/modify it as you like. Feel free to fork it and send a pull request!
+
+-- Christoph

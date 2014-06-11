@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-11-13 13:00:29
+----
+Text: Actually this shouldn't be too difficult. You need strong validation of course and you would need write permissions to the accounts folder. I can't build something like that at the moment, but anybody with enough PHP skills should be able to do that pretty quickly.

@@ -1,0 +1,11 @@
+User: texnixe
+----
+Date: 2013-08-26 20:38:18
+----
+Text: I must admit that I don't quite understand your question. What exactly do you want to achieve?
+
+The blueprint files define the structure of your content files, i.e defining the fields that you want to include in your content files. The blueprint files use YAML syntax, not php.
+
+As to the page content, do you mean how to include code in the textfiles or how to use php to display your content in the template files?
+
+Anyhow, there are quite a few great tutorials on getkirby.com that should get you going ...

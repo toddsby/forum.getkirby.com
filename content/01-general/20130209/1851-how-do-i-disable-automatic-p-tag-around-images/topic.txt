@@ -1,0 +1,13 @@
+Title: How do I disable automatic P tag around images?
+----
+Date: 2013-02-09 18:51:52
+----
+Solved: 0
+----
+User: nathaniel_h
+----
+Text: Argh! Another thing related to resizing images. It appears Kirby automatically wraps all img tags with p tags. I have special styling on all of my paragraphs, which I don't want to apply to my images, but since all of my images get automatically wrapped in p tags the style gets applied. (max-width, by the way) Is there any way to have no p tags wrapped around images automatically?
+
+edit: Disabling line breaks in the config file doesn't work either.
+
+One of the "solutions" is to wrap a plain html img tag in a div. I really hope that's not the case

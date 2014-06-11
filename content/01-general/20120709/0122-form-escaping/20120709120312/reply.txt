@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-07-09 12:03:12
+----
+Text: Well, that depends on your contact form. I don't know which script your are using and if it is connecting to a db or just sending an email, but input validation is a must in any case. Otherwise you are running into security issues. That's system independent :)

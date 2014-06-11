@@ -1,0 +1,46 @@
+User: russbaldwin
+----
+Date: 2013-03-01 16:23:49
+----
+Text: Although Kirby works out-of-the-box, if you want to do some more complex stuff, you are going to need some PHP,HTML,CSS and probably Javascript skills.
+
+Good news is Kirby makes quite a bit of the PHP stuff easy ;-)
+
+Assuming something like the layout below and only one image per instructor as we are only pulling out the first (you can do it other ways.)
+```
+- content
+    - instructors
+        - 01-instructor
+           - instructor.txt
+           - instructor.jpg
+        - 02-instructor
+           - instructor.txt
+           - instructor.jpg   
+```
+
+Then some template code maybe something like:
+
+```php
+<h3>Image loop of Instructors children - 
+getting first image in Instructor child folder<h3>
+  <ul><!-- Start of list -->
+   <!-- Get instructors children pages
+        & put it in $instructor -->
+   <?php foreach($pages->find('instructors')
+                        ->children()
+                        as $instructor):?>
+
+   <!-- Loop through $instructor making a list out of 
+        instructor images and title -->
+   <li>
+    <img src="<?php echo $instructor->images()
+                                    ->first()
+                                    ->url() ?>" 
+       alt="<?php echo html($instructor->title()) ?>" />
+    <br/>
+    <?php echo html($instructor->title()) ?>
+   </li>
+ <?php endforeach ?>
+</ul><!-- End of list -->
+```
+How does that sound?

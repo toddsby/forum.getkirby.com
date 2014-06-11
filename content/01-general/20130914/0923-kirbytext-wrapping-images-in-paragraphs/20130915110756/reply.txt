@@ -1,0 +1,11 @@
+User: texnixe
+----
+Date: 2013-09-15 11:07:56
+----
+Text: The problem is not only inherent in Kirby but other CMS as well. There are some solutions out for Wordpress using a preg_replace pattern that might be adapted to work with Kirby.
+
+The easiest solution at the moment is to wrap the image in a div, even if that means using html-tags within the markdown document. Sometimes that can't be avoided anyway, especially if you need to use classes with paragraphs etc.
+
+Another workaround is to remove the p tags around images using the jQuery unwrap() function.
+
+But I hope the problem will be addressed in Kirby 2.0

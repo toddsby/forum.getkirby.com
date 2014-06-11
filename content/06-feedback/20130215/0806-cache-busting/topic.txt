@@ -1,0 +1,25 @@
+Title: Cache Busting
+----
+Date: 2013-02-15 08:06:39
+----
+Solved: 0
+----
+User: russbaldwin
+----
+Text: It would be nice if the next version of Kirby can have the option of this cache busting.
+
+Problem: How to cache bust when a user has downloaded your assets and you have set a far future time in your .htaccess?
+
+If you change stuff, maybe some CSS or JS it might not be updated.
+
+However, there seems to be a simple cache busting technique in the [HTML5 Boiler Plate](https://github.com/h5bp/html5-boilerplate/blob/v4.1.0/doc/htaccess.md)
+
+It suggests just by adding say a timestamp (for example) to your asset file link, coupled with a bit of .htaccess magic, you can bust the cache and serve updated files. 
+
+You do not have to rename the resource on the filesystem. All you have to do is add the timestamp number to the filename in your HTML source/PHP code and the modified .htaccess directive will serve up the proper file. 
+
+So if you update the file and have this system use the timestamp, it will change ;-) 
+
+It could of course be used for all assets, JS, CSS, Images etc.
+
+It all looks pretty good to me...although I have not tried it with Kirby CMS yet.

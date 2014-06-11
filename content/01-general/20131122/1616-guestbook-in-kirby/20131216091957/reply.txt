@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-12-16 09:19:57
+----
+Text: For ease of use you may have to create a database solution, there is much help for this is the [Kirby Toolkit](http://toolkit.getkirby.com/).
+
+Another way might be to have and email form to send and then add manually via Panel. You are going to have to edit anyway because of spam. This is what we are doing on [Susan Hall's quotes](http://susanhall.shoesforindustry.net/about/quotes) - sort of like a guest book :-) I guess it depends on frequency and a lot of this stuff seems to have moved into social media?

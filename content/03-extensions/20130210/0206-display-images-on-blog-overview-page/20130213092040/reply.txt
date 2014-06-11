@@ -1,0 +1,18 @@
+User: russbaldwin
+----
+Date: 2013-02-13 09:20:40
+----
+Text: I'm not quite clear what you mean here? The Kirby tags are for inserting (usually single items) into some text... What you seem to be after is a array of child pages with their images? Presumably a specific image in each child folder? 
+
+The code below list the first image in each visible child page, sorry if I have mis-understood (I think I may have).
+
+```php
+<h3>Image loop of Children - getting first image in child folder<h3>
+   <?php foreach($page->children()->visible() as $image): ?>
+     <figure>
+        <img src="<?php echo $image->images()->first()->url() ?>" alt="<?php echo html($image->title()) ?>" />
+        <figcaption><?php echo html($image->title()) ?></figcaption>
+     </figure>
+     <br/>
+   <?php endforeach ?>
+```

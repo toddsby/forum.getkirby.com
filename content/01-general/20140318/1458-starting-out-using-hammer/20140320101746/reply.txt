@@ -1,0 +1,5 @@
+User: ChrisjMartin87
+----
+Date: 2014-03-20 10:17:46
+----
+Text: The way i taught myself to use and understand Kirby was to download existing themes and deconstruct them. I had virtually no understanding of PHP whatsoever and doing it this way really helped me as i could see how everything fitted together.

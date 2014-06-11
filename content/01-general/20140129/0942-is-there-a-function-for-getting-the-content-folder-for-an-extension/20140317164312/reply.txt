@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2014-03-17 16:43:12
+----
+Text: I'm not sure if plugins work the same way, but in kirbytext extensions you need the line `global $site;` at the beginning to access that info.

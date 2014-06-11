@@ -1,0 +1,22 @@
+Title: if / else
+----
+Date: 2014-05-25 18:47:55
+----
+Solved: 1
+----
+User: jolinmasson
+----
+Text: Hi, I’m trying to create an if/else statement, but not sure about the syntax. Any help would be gladly welcomed!
+
+    <?php if($page->hasNextVisible()): ?>
+    <?php $nextfeatured = $page->next()->images()->find('main.jpg'); ?>
+    <div class="container">
+    –
+    </div>
+
+    <?php else: ?>
+    <?php $nextfeatured = $pages->first()->images()->find('main.jpg'); ?>
+    <div class="container">
+    –
+    </div>
+    <?php endif ?>

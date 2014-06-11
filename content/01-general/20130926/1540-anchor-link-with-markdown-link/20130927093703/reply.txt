@@ -1,0 +1,12 @@
+User: mkeipert
+----
+Date: 2013-09-27 09:37:03
+----
+Text: Okay, I have solved the problem - the link is working fine, when writing it like this:
+
+MD: index.php#anchor
+HTML: http://domain.com/index.php#anchor
+
+To get it scrolled via the default jQuery-Scroll-Solution, it would be great to have relative links with the domain. Is this possible? No matter what I do in Markdown, I always get the absolute path to the link...
+
+I now have built a workaround in the javascript, so that the scrolling is working fine...

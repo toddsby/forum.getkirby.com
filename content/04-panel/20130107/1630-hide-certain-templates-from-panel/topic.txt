@@ -1,0 +1,13 @@
+Title: Hide Certain Templates from Panel
+----
+Date: 2013-01-07 16:30:50
+----
+Solved: 0
+----
+User: kilmc
+----
+Text: Not sure if this is possible at the moment but certainly would be nice as a feature. Some of my page templates don't really require a blueprint, nor are they useful to be created via the panel so I'm getting a much longer list when I go to create an item or sub-item.
+
+It would be great to be able to limit that list to only the templates I use for content creation. I was envisioning something like _blog.php vs. blogarticle.php.
+
+Thanks

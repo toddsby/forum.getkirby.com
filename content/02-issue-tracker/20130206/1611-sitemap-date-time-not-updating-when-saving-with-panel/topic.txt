@@ -1,0 +1,17 @@
+Title: Sitemap date/time NOT updating when saving with Panel
+----
+Date: 2013-02-06 16:11:06
+----
+Solved: 0
+----
+User: russbaldwin
+----
+Text: Is anyone else having problem with a sitemap not updating when saved from Panel? 
+
+Everything saves OK, but sitemap does not pick up the changes in date/time. If I manually open the '.md' file (we use the .md extension) in an FTP client then save it sitemap updates the date/time. 
+
+No cache, or anything else, does the same on two servers? Latest Kirby/Panel all browsers caches cleared. Standard sitemap.php code.
+
+Interestingly the date/time is set correctly when you save from panel.
+
+Any ideas?

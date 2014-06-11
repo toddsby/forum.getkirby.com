@@ -1,0 +1,14 @@
+User: Lieblingstyp
+----
+Date: 2013-11-26 02:02:51
+----
+Text: There you go
+
+    <?php $lastarticle = $pages->find('journal')
+                          ->children()
+                          ->visible()
+                          ->offset(1)
+    ?>
+
+
+:-)

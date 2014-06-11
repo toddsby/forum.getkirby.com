@@ -1,0 +1,15 @@
+User: hellovolker
+----
+Date: 2013-05-07 09:46:39
+----
+Text: Mh `$count = 1` doesn't solve it.
+
+I am not displaying every article on the first page - I am already on a subpage and now want the link to the previous and next **sibling**
+
+
+     parent
+       child1
+       child2 <- lets say this one is open
+       child3
+
+Now on child2 there should be a link to child3 and child1...

@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-09-28 09:32:54
+----
+Text: yes, that's true! there's no validation going on, so you might smuggle in some invalid pages. But that shouldn't be a problem at all since you can check for existing related pages in your template and skip the invalid ones.

@@ -1,0 +1,33 @@
+User: bastianallgeier
+----
+Date: 2012-07-31 10:26:38
+----
+Text: You should be able to put simplepie into the plugins folder and auto-include it from there. If not you can put it in its own folder in the site folder for example and include it like this: 
+
+```php
+<?php require(c::get('root.site') . '/simpelpie/simpelpie.php') ?>
+```
+
+To achieve what you are looking for with the RSS feed you would either have to write an importer, which actually creates Kirby content folders and text files for RSS feed items – maybe initialized from a cron job. Or you could work directly with SimplePie from within a dedicated template. In that case you could build individual URLs for each item in the feed with params in the url: 
+
+```
+http://yourdomain.com/from-the-feed/item:some-hash-or-id-for-the-item
+```
+
+In the template for the "from-the-feed" page you would than react on that item param: 
+
+```php
+
+<?php
+
+if($itemUID = param('item')) {
+  // do something with the item here
+} else {
+  // display the entire feed for example
+}
+
+?>
+
+```
+
+This is very rough, but I hope it gives you an idea how to get started.

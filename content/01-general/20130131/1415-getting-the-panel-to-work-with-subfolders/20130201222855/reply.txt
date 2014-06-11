@@ -1,0 +1,5 @@
+User: chrisburton
+----
+Date: 2013-02-01 22:28:55
+----
+Text: I have a solution for this, it requires an additional htaccess file that Bastian provided me with a while back. Looking for it now.

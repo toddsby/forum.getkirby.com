@@ -1,0 +1,11 @@
+User: jhercher
+----
+Date: 2012-11-13 21:47:21
+----
+Text: Ok, my fault
+
+I added sth. like
+              file:1
+into my text. But thats not the correct syntax to embedd images, as described (link:http://getkirby.com/blog/text-formatting-101 text:here).
+
+Hope this helps anyone else...

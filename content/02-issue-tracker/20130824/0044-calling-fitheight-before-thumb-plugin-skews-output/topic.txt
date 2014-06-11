@@ -1,0 +1,21 @@
+Title: Calling fitHeight() before thumb() plugin skews output
+----
+Date: 2013-08-24 00:44:11
+----
+Solved: 0
+----
+User: scottswany
+----
+Text: I'm using the thumb plugin to general a picturefill output and need to get the resized dimension of the image.
+
+If I use:
+
+    <span data-width="<?php echo $i->fitHeight(500)->width() ?>">
+        <span data-src="<?php echo $i->thumb(...) ?>"></span>
+    </span>
+
+The output thumb image is cropped to the 500 height set by fitHeight regardless of what height I use thumb() to generate.  From what I can find though, this should only calculate and not alter the dimensions.
+
+Hopefully I'm overlooking something.
+
+Thanks!

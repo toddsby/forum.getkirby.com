@@ -1,0 +1,7 @@
+User: GeishaOnABike
+----
+Date: 2013-07-09 08:53:09
+----
+Text: My config is set up per Bastian's instructions, and the mod_rewrite section is set to c::set('rewrite', true);. I've looked at .htaccess, there is not much I can change in that file but what should I be looking for? Sorry if these questions are very simple. 
+
+I'm not quite sure what version of php I am using, I am just using the code that is provided in kirby's downloadable version and when it comes time to making the site go live, uploading files onto ftp.

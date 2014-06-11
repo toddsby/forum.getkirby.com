@@ -1,0 +1,7 @@
+User: loliism
+----
+Date: 2014-03-06 10:12:43
+----
+Text: Thank you for your reply!
+
+That sounds good. I don't know what host he is using, but I trust there is some way to prevent search engines from indexing hidden folders in Kirby?

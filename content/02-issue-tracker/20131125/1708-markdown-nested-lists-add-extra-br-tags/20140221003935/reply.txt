@@ -1,0 +1,11 @@
+User: Vagari
+----
+Date: 2014-02-21 00:39:35
+----
+Text: Double thanks @texnixe. I was trying to make my quotes a little easier to read in the Markdown and something like...
+
+    > It is an old maxim of mine that when you have excluded
+    > the impossible, whatever remains, however improbable,
+    > must be the truth.
+
+...was producing extra line breaks. Considering line breaks can be forced with a double space on the end I'm surprised the default behavior is to have `markdown.breaks` set to `true`.

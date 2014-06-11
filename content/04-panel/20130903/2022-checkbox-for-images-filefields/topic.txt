@@ -1,0 +1,13 @@
+Title: Checkbox for images filefields
+----
+Date: 2013-09-03 20:22:21
+----
+Solved: 0
+----
+User: verde_andrea
+----
+Text: Hello! 
+
+I know that you can use only text and textarea fields with files but i was thinking if it could be possible to add also checkboxes to the filefields, maybe editing some panel core files.
+
+Thanks for your help.

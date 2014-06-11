@@ -1,0 +1,5 @@
+User: arlamentis
+----
+Date: 2013-04-10 22:56:45
+----
+Text: Something that look like the caption in the files section of the panel.

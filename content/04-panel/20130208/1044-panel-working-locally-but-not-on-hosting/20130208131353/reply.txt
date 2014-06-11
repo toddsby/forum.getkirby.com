@@ -1,0 +1,5 @@
+User: theoriginalivor
+----
+Date: 2013-02-08 13:13:53
+----
+Text: Hosting doesn't support .htaccess (stupid i know). Permission on folders are correct.

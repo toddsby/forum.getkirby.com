@@ -1,0 +1,7 @@
+User: jesuismaksim
+----
+Date: 2013-03-07 05:18:53
+----
+Text: In fact the cPanel part is usually manage by your hosting. Kirby is not supposed to affect your cPanel. 
+
+To access the Kirby Panel type yourdomain.com/panel (read the (link: http://getkirby.com/docs/panel text: docs) Fully filled by Bastian.

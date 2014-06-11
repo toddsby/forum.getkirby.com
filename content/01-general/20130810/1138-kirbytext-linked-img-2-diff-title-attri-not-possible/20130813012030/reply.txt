@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2013-08-13 01:20:30
+----
+Text: Personally, I'd go even farther and not put any info about the images in the main content file. Use descriptive text files for the images, and pull the content from there automatically into the template. Put whatever fields in those text files that you need (examples under the "Adding meta info to your files and images" header on (link: http://getkirby.com/docs/media text: this page).)
+
+Then everything is pulled programmatically in the template, and if you need to remove an image or swap one you can easily do that just by deleting the image and its descriptive text file.

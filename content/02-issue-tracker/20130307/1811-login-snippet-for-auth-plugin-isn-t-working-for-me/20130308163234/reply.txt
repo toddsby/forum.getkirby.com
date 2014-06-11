@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-03-08 16:32:34
+----
+Text: Yeah. I get a nicely rendered page, no errors, as long as the `Auth::login()` isn't there.

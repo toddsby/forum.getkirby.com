@@ -1,0 +1,7 @@
+User: JanStieler
+----
+Date: 2013-09-24 17:01:32
+----
+Text: Hi,
+I do it short, this should help you if I have understood you right :).
+[http://getkirby.com/blog/custom-post-types](http://getkirby.com/blog/custom-post-types)

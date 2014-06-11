@@ -1,0 +1,13 @@
+Title: iPhone compatibility
+----
+Date: 2012-06-01 12:21:05
+----
+Solved: 0
+----
+User: alexk
+----
+Text: Hi Bastian,
+
+I was under the impression, that the Panel works with iOS, but when I try to use it via, my iPhone, the interface is basically unusable. See attached screenshot. I have not tried it with the iPad yet, but I usually don't have that with me when I'm on the road.
+
+(image: https://p.twimg.com/AuTAJl-CAAAmYdN.jpg:large)

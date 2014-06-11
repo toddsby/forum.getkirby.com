@@ -1,0 +1,27 @@
+Title: Problems with blueprint
+----
+Date: 2013-03-31 21:40:39
+----
+Solved: 1
+----
+User: janstieler
+----
+Text: Hi folk,
+I have an strange problem with a blueprint.
+On the panelpage i got this errormessage:
+
+	Notice: Undefined variable: css in /Applications/XAMPP/xamppfiles/htdocs/comiccol/panel/lib/form.php on line 160
+	
+	Warning: implode() [function.implode]: Invalid arguments passed in /Applications/XAMPP/xamppfiles/htdocs/comiccol/panel/lib/form.php on line 160
+	
+	Notice: Undefined variable: css in /Applications/XAMPP/xamppfiles/htdocs/comiccol/panel/lib/form.php on line 160
+
+	Warning: implode() [function.implode]: Invalid arguments passed in /Applications/XAMPP/xamppfiles/htdocs/comiccol/panel/lib/form.php on line 160
+
+	Warning: mb_substr() expects parameter 1 to be string, array given in /Applications/XAMPP/xamppfiles/htdocs/comiccol/kirby/lib/kirby.php on line 2913
+
+The blueprint has 23 textfields. Could it be that this is the problem?
+
+Here also my blueprint-file: (link: http://www.janstieler.de/blueprint.txt text: blueprint.txt)
+
+BR

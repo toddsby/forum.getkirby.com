@@ -1,0 +1,16 @@
+User: JanStieler
+----
+Date: 2013-12-26 16:03:04
+----
+Text: Hi,
+can you use jQuery?
+With this it is really easy to ajaxify you website.
+Here some jqueryfunctions: .load, .get, .ajax
+You can find this here: [jQuery API](http://api.jquery.com/)
+
+Here is a good tutorial for jquery ajax:
+[Tutsplus jQuery Ajax tutorial](http://net.tutsplus.com/tutorials/javascript-ajax/5-ways-to-make-ajax-calls-with-jquery/)
+
+And from the Kirby toolkit you can use [r::is_ajax()](http://toolkit.getkirby.com/docs/classes/r/is_ajax) to load code only when its loaded as ajax or the opposite [!r::is_ajax()](http://toolkit.getkirby.com/docs/classes/r/is_ajax).
+
+BR

@@ -1,0 +1,5 @@
+User: tillpro
+----
+Date: 2013-10-22 15:25:17
+----
+Text: You could simply create an RSS-Feed from your kirby site/blog and use <http://ifttt.com/>

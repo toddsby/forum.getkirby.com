@@ -1,0 +1,5 @@
+User: jesuismaksim
+----
+Date: 2012-10-20 00:32:39
+----
+Text: Maybe set up a lil' plugin or extension using yaml ? Could be nice and useful

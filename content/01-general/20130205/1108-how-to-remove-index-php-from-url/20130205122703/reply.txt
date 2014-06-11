@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-02-05 12:27:03
+----
+Text: Also check you uploaded the .htaccess file and it is correct and check you PHP version and that it has the necessary rewrite parts.

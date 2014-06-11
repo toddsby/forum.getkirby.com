@@ -1,0 +1,17 @@
+Title: Protect Files from unauthorized users
+----
+Date: 2013-08-01 14:37:57
+----
+Solved: 0
+----
+User: sirnovi
+----
+Text: Hello everybody, 
+
+I was experimenting with the Auth plugin and am now struggling with the issue of file protection. 
+
+My possible Client wishes to offer a password protected area where students can find downloads. 
+
+Now I was wondering if there was a feasible way to protect these files from direct access. 
+
+Any Ideas?

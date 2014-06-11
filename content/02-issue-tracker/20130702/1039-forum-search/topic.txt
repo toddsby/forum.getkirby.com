@@ -1,0 +1,9 @@
+Title: Forum search
+----
+Date: 2013-07-02 10:39:37
+----
+Solved: 0
+----
+User: richgcook
+----
+Text: It doesn't look like the forum search is working...

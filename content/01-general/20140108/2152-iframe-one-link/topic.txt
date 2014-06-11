@@ -1,0 +1,18 @@
+Title: iframe one link
+----
+Date: 2014-01-08 21:52:55
+----
+Solved: 0
+----
+User: peterpolz
+----
+Text: hi!
+
+is it possible to
+##iframe src="http://www.w3schools.com"></iframe##
+
+one link?
+
+thank you
+regards
+Peter

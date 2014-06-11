@@ -1,0 +1,27 @@
+User: roman_oroco
+----
+Date: 2013-04-05 12:25:17
+----
+Text: Yes, here is some example:
+
+Content structure:
+```
+/content/
+-/01-home/
+--home.txt
+-/02-about-the-company/
+--template-1.txt
+-/03-whats-our-aim/
+--template-1.txt
+-/04-projects/
+--projects.txt
+```
+`template-1.php` can also be `default.php`.
+
+Templates:
+```
+home.php
+template-1.php
+projects.php
+default.php
+```

@@ -1,0 +1,5 @@
+User: tysongach
+----
+Date: 2013-02-23 05:27:48
+----
+Text: I haven’t personally used it, but this (link: https://github.com/bastianallgeier/kirbycms-extensions/tree/master/plugins/highlight text: Highlight Plugin) should do the trick.

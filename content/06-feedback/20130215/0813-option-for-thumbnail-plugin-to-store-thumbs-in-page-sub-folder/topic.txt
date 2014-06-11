@@ -1,0 +1,24 @@
+Title: Option for Thumbnail Plugin to store thumbs in page sub-folder
+----
+Date: 2013-02-15 08:13:01
+----
+Solved: 0
+----
+User: russbaldwin
+----
+Text: It would be nice for the Thumbnail Plugin to have the option to store the thumbnail images in a sub folder of the page, rather than a central thumbs directory. 
+
+```html
+page
+    page.txt
+    image1.jpg
+    image2.jpg
+    thumbs
+        0d419e4cd2cc58525a494cf7befb0a80.200.200.false.1.75.jpg
+        1cc2e4384eff6f36bd8f815501bacc0c.200.200.false.1.75.jpg
+
+```
+
+It has caused some problems for us with sites with many generated thumbnails, when we remove a page we have to remove the whole 'thumbs' folder and re-visit the page to re-populate the thumbs images cache. Otherwise we end up with an ever expanding and maybe getting slower, thumbs cache? 
+
+p.s. Some nicer thumb naming would be cool and perhaps [cache busting?](http://getkirby.com/forum/feedback/topic:400)

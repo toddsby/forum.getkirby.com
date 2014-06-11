@@ -1,0 +1,20 @@
+Title: Escaping parentheses
+----
+Date: 2013-04-14 19:03:33
+----
+Solved: 0
+----
+User: kuschelpixel
+----
+Text: Hello, this is a newbie question.
+Tried to find a working solution in this forum, but to no effect ;-((
+
+Problem is:
+I would like to set a link to an expression like this.
+<starting>Johann Wolfgang von Goethe (1749-1832)</starting> (including the biographical data in parentheses) should be within the link which is not as simple as one should think. Or at least, as I thought ...
+
+I tried (, I tried &#40;, I tried ''', I tried ```
+
+The results were interesting but not really what I had in mind.
+
+Maybe I'm blinded with parentheses now. Anyone can help?

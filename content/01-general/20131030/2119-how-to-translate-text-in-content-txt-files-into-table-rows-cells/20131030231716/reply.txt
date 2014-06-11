@@ -1,0 +1,9 @@
+User: texnixe
+----
+Date: 2013-10-30 23:17:16
+----
+Text: I'd like to point you to using yaml in the text files, so that for each exhibition you can put all the details like exhibition name, place etc. and then call all these details in the rows and cells of your template
+
+Have a look at the tutorial on [structured field content](http://getkirby.com/blog/structured-field-content) for more details
+
+But keep in mind that if you want to display your content on mobile devices, a table doesn't adjust well in responsive design

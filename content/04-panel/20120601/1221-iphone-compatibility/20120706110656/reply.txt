@@ -1,0 +1,7 @@
+User: DanielGenser
+----
+Date: 2012-07-06 11:06:56
+----
+Text: Bastian, just a humble suggestion in how to treat the sidebar at handheld mobile sizes…
+
+You collapse the two-column layout into one column. The top bar could then be where the 'new page', 'home' and 'back' buttons could live, along with a drawer-style pull down to see the visible/invisible page listing, along with the sort button. Alternatively, the page listing could be invoked into it's own full screen overlay (not a drawer), with 'sort' toggling the sheet into a draggable list with a 'done' button.

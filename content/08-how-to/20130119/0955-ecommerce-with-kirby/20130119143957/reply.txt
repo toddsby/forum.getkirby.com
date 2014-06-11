@@ -1,0 +1,7 @@
+User: ChrisjMartin87
+----
+Date: 2013-01-19 14:39:57
+----
+Text: I have managed to make a simple eCommerce store using Kirby, Jquery isotope and SimplecartJS. I cant put it online as I haven't bought a licence.
+
+Follow me on twitter and I'll send you the source files :)

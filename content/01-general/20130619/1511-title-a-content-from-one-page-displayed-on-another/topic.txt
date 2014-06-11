@@ -1,0 +1,15 @@
+Title: Title a content from one page displayed on another...
+----
+Date: 2013-06-19 15:11:13
+----
+Solved: 0
+----
+User: photowatts
+----
+Text: I'm wondering how I would go about pulling the title and content from one page and displaying it on another non-related page.  I have a news page, which is displaying summaries and links to news articles (blog style), which are descendants of the news page.  What I'd like to do is also display a news feed - say the three most recent articles - on the home-page.  Any ideas?
+
+P.S. - I was not able to find a suitable answer by searching the forum.
+
+Thanks,
+
+Chris

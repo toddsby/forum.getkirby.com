@@ -1,0 +1,7 @@
+User: mikehargreaves
+----
+Date: 2012-05-30 03:20:19
+----
+Text: Bastion, maybe Fitzage's requirement isn't so "special" — I need to do the same thing. 
+
+I was wondering if it's possible to keep 'master' copies of the content .txt files on Dropbox (where everyone can edit them easily enough), and redirect Kirby from its content folders to Dropbox?

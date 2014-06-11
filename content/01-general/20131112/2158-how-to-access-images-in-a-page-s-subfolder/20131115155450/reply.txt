@@ -1,0 +1,10 @@
+User: fitzage
+----
+Date: 2013-11-15 15:54:50
+----
+Text: Yes, but you have to treat the detail folder as a page. So just find the detail subfolder as page, and then loop through its images.
+
+    <?php $imagepage = $pages->find('carousel/detail') ?>
+    <?php $images = $imagepage->images() ?>
+
+And so on, or some such.

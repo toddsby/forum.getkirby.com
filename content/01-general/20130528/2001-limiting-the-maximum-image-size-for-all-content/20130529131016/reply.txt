@@ -1,0 +1,10 @@
+User: roman_oroco
+----
+Date: 2013-05-29 13:10:16
+----
+Text: There’s solution using (link: /blog/thumb-plugin text:Thumb Plugin) to generate different sizes and serving responsively with (link:https://github.com/scottjehl/picturefill text:Picturefill popup:yes) which supports also HiDPI.
+
+Unfortunately Thumb Plugin has some issues to know:
+- (link: /forum/issue-tracker/topic:657)
+- (link: /forum/issue-tracker/topic:596)
+- (link: /forum/issue-tracker/topic:539)

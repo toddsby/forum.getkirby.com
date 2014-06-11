@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-04-05 18:18:17
+----
+Text: Mac's seem to need 777 on content in the default Apache servers. Obviously you need to change this for production, but many hosts do it automatically and set to 755 or something, check though!

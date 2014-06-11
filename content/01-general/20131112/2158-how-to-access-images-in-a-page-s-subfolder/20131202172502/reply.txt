@@ -1,0 +1,14 @@
+User: fitzage
+----
+Date: 2013-12-02 17:25:02
+----
+Text: FindByUID may only work for items that are unique across the entire site. What you could do is construct a variable and just use find.
+
+    <?php $detailpath = $site->uri()->path() . '/detail' ?>
+    <?php $imagepage = $pages->find($detailpath) ?>
+
+That might work.
+
+Or what could be really simple is that I didn't assign the page to a variable using the findByUID method, but my instinct is that findByUID only works across all pages and requires a unique value.
+
+Alternatively, if the detail page doesn't actually have to be hidden, you could just make it visible and use 00 as the prefix number so it's always at the top. You could probably easily exclude it when listing any other subpages by just wrapping subpages in a loop that checks if the page is the detail page, or that just gets all but the first result.

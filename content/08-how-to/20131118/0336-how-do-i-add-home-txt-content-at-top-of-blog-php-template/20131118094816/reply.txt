@@ -1,0 +1,12 @@
+User: texnixe
+----
+Date: 2013-11-18 09:48:16
+----
+Text: You can address a single page by using the find command:
+    
+    <?php $content_home = $pages->find('home') ?>
+    <h1><?php echo $content_home->title() ?></h1>
+    <p><?php echo kirbytext($content_home->text()) ?></p>
+
+
+or whatever it is you want to output

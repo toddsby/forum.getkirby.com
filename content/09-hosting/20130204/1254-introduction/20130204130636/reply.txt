@@ -1,0 +1,5 @@
+User: dezinezync
+----
+Date: 2013-02-04 13:06:36
+----
+Text: Just a quick note for the Hosting page: phpfog has been retired. You should replace it with Appfog. Tried and test. :)

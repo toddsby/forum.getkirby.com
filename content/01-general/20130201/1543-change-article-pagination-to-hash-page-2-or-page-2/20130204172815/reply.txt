@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2013-02-04 17:28:15
+----
+Text: Unfortunately this isn't possible so far. You would need to build something yourself with the slice method. I will keep that in mind for the next version though because it seems to be legit to have that option.

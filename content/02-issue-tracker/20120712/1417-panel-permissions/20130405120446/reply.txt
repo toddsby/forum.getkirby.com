@@ -1,0 +1,12 @@
+User: normanrosner
+----
+Date: 2013-04-05 12:04:46
+----
+Text: I also have problems with permissions. I tried every combination of permissions. The most I get is to create pages (folders) from the panel. After the folder is created the panel can't write the actual content of the page ("The data could not be added"). I also brutally set the permissions to 777 and even that didn't work.
+
+Right now I don't have a clue what to do.
+My current development setup is a simple ubuntu box with apache2/php5. The box is setup with vagrant and the actual source folder is shared with the guest system. Just so you know.
+
+If I can't get the panel to work probably it's a blocker and I can't use kirby for this project and have to switch to something else. That would be sad because so far I really like kirby.
+
+So any help would be appreciated.

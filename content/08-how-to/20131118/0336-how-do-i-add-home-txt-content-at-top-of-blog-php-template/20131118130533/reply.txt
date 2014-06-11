@@ -1,0 +1,5 @@
+User: ArtsyDesigny
+----
+Date: 2013-11-18 13:05:33
+----
+Text: It worked. at first I got a syntax error on the third line. Looking at it I guesses I needed one more closing bracket at the end, that did the trick. Thanks a bunch!

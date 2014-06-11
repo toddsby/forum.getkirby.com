@@ -1,0 +1,20 @@
+Title: Load Content Via Ajax
+----
+Date: 2013-12-22 07:01:29
+----
+Solved: 0
+----
+User: useaconcept
+----
+Text: Hello Everyone,
+
+First, I've done my Forum/Google search and couldn't find anything to help get me started so I'm coming here for help.
+
+I've created a blog and I would like to use Ajax to load the contents of the blog post within the main archive page instead of having the blog post go to a new page.
+
+Basically, I want to click on the link/excerpt and have that expand and have the full content of the post load.
+
+Any help would be greatly appreciated.
+
+Regards,
+Gary

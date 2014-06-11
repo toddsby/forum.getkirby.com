@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-07-06 09:37:57
+----
+Text: I've uploaded a newer version to the Github dev branch for the panel: https://github.com/bastianallgeier/kirbycms-panel/tree/dev I'm releasing intermediate versions there, before they are going to be in the next release. I hope this helps.

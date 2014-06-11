@@ -1,0 +1,17 @@
+User: staroversky
+----
+Date: 2013-04-25 00:42:46
+----
+Text: I also learned something about hot GitHub works. Thanks.
+
+I removed line 7 the extra < ul > and the only thing that changed from the screenshot I posted before, is that the black tag lines moved a little bit to the left.
+
+This is what default.php looks like - <http://pastebin.com/R7HmLmdq>
+
+This is how it actually looks - <https://dl.dropboxusercontent.com/u/184602/TagCloudProblem3.jpg>
+
+By the way, how do you make < ul > gray as if it was code? I only see how to use tab spaces for the actual code but not a few symbosl within text.
+
+I just need to figure out how to make tags working and create a mailchimp code insert newsletter subscription on the side above the tag clouds.
+
+Once I achieve this, I can move my site from Wordpress to Kirby and start learning HTML and CSS step by step. At the moment, I rely on trial and error approach and community help.

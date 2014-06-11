@@ -1,0 +1,17 @@
+Title: Disqus comment threads show as 'Untitled'
+----
+Date: 2013-02-20 17:00:27
+----
+Solved: 0
+----
+User: bl2nk
+----
+Text: Somehow the disqus snippet is broken for me.
+
+I've looked at the snippet and also tried to set the `disqus_title` to `$page->title()` to make it work. All my comment threads show as 'Untitled' on disqus. (link: http://d.pr/i/dat8 text: Just take a look at this screenshot)
+
+    <? snippet('disqus', array('disqus_shortname' => 'my_shortname','disqus_title' => '$page->title()')) ?>
+
+This is not the way it should be and I can't find the solution.
+
+Thanks to anyone who looks into this!

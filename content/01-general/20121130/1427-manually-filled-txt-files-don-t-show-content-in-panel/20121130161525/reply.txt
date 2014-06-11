@@ -1,0 +1,7 @@
+User: SirNovi
+----
+Date: 2012-11-30 16:15:25
+----
+Text: The standard blueprint should be sufficient because i only those two field that are in the standard template and standard .txt-Files - With a title and text. 
+
+The panel works fine as soon as i enter the text via the panel. And it got the title correct directly.

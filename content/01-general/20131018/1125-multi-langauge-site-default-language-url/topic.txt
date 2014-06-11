@@ -1,0 +1,33 @@
+Title: Multi-Langauge Site Default Language URL
+----
+Date: 2013-10-18 11:25:09
+----
+Solved: 1
+----
+User: mecrawlings
+----
+Text: Hi, I'm building a prototype of a multi-language site with Kirby and I would really like the default language to not show in the URL.
+
+So:
+
+example.com/en/page
+
+becomes
+
+example.com/page
+
+and the other languages remain:
+
+example.com/fr/page
+example.com/dr/page
+etc
+
+I've tried rewrite rules but I get stuck in a redirect loop as I think Kirby is redirecting to the default language again!
+
+Bastian, ideally I would have this as an option in the config file, something like:
+
+`c::set('lang.default.hidden', true);`
+
+Any thoughts?
+
+Thanks!

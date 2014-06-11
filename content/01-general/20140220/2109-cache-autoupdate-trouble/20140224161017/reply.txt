@@ -1,0 +1,5 @@
+User: travVT
+----
+Date: 2014-02-24 16:10:17
+----
+Text: A note of clarification: removing all of the files from the cache does, as expected, cause pages to be re-cached as they're visited. Proof again that the initial caching of a page is working. I'd hate to turn off caching all together, since there is a considerable performance boost, but I can't keep it running if updates are never, well, updated. :)

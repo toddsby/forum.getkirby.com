@@ -1,0 +1,56 @@
+Title: Confused on Custom Post Types and Fields
+----
+Date: 2012-12-06 23:21:22
+----
+Solved: 0
+----
+User: chrisburton
+----
+Text: I have two Custom Post Types.
+  - Lettering
+  - Type
+
+Each Custom Post Type will have invisible subpages that I'll name after clients.
+e.g.
+  - Google (Lettering)
+  - Yahoo (Type)
+  - Facebook (Type)
+
+This is to have my URL's appear organized like so:   
+  - *mysite.com/lettering/google*
+  - *mysite.com/type/yahoo*
+
+My question is how do I display my Custom Fields in the Panel *only* to those subpages and not on the main Custom Post Type (Lettering, Type)? Also, how/where do I echo out the fields?
+
+    <?php if(!defined('KIRBY')) exit ?>
+
+    # sidebar blueprint
+
+    title: Meta
+    pages: 
+      template:
+        - type
+        - lettering
+    files: true
+    fields:
+      description:
+        label: Description
+        type: textarea
+        size: medium
+        buttons: 
+          - h1
+          - h2
+          - h3
+          - bold
+          - italic
+          - email
+          - link
+      client:
+        label: Client
+        type: text
+      art_direction:
+        label: Art Direction
+        type: text
+      typeface:
+        label: Typeface
+        type: text

@@ -1,0 +1,16 @@
+Title: Including images in sitemap
+----
+Date: 2013-09-15 22:01:15
+----
+Solved: 1
+----
+User: structor
+----
+Text: Hi there!
+
+Have anybody know about how to include images in sitemap?
+
+If an article page has images, it will be useful to let search engines know about them.
+
+Thank you!
+Structor

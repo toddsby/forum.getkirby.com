@@ -1,0 +1,13 @@
+User: walkerbox
+----
+Date: 2013-09-15 13:30:57
+----
+Text: How about:
+
+    css("assets/css/styles.css?v=123")
+
+In my blog, I use:
+
+    <?php echo css('assets/styles/styles.css?v=' . $site->version()) ?>
+
+Version is a site variable I update whenever I push a change that affects presentation.

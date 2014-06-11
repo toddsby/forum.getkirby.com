@@ -1,0 +1,14 @@
+Title: PHP Error in Kirby.php
+----
+Date: 2012-09-22 13:33:22
+----
+Solved: 0
+----
+User: eytanbiala
+----
+Text: PHP Fatal error:  Call to undefined function mb_strtoupper() in /srv/www/htdocs/help/kirby/lib/kirby.php on line 2907
+
+
+Any suggestions would be appreciated.
+
+Thanks.

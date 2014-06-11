@@ -1,0 +1,19 @@
+Title: ASCII characters in kirbytext
+----
+Date: 2013-02-13 00:52:14
+----
+Solved: 1
+----
+User: huhcorp
+----
+Text: If this is in my txt file:
+
+title: Acme Industries (ascii symbol for trademark)
+
+And this is in my markup:
+
+<code>&#60;h1&#62;&#60;?php echo html( $page-&#62;title() ) ?&#62;&#60;/h1&#62;</code>
+
+The ASCII characters are rendered, instead of the trademark symbol. How is this accomplished correctly?
+
+Thanks!

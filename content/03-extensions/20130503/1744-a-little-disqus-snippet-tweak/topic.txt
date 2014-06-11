@@ -1,0 +1,25 @@
+Title: A little Disqus snippet tweak
+----
+Date: 2013-05-03 17:44:19
+----
+Solved: 0
+----
+User: fitzage
+----
+Text: The Disqus snippet is nice, but it has a little bit of an issue if you ever run the site locally or in a staging environment.
+
+What happens is you end up feeding the URL of whatever version of a page is opened first to Disqus. So that could be localhost/whatever or staging.yourmom.com/whatever instead of actualdomain.com/whatever. The issue is that Disqus will then send out email notifications with your staging or localhost URL instead of the canonical URL.
+
+So I found a very easy way to fix this. Disqus recommends using a different shortname for staging as opposed to production. You basically add another site in Disqus as a placeholder for your local and staging stuff. So then how do you set this per-site in the Disqus snippet?
+
+The method I used was the config.php file. Since this is different depending on whether you're on local, staging, or production, it's a good place for it. Even better is that you can include a default option when you call the config variable, so you don't have to actually add this config variable to all the sites, just the ones that are different from the default. So the method I used was to make the default my staging Disqus account then I only had to add a config variable on production.
+
+So in `/site/config/config.php` you add this:
+
+    c::set('disqus-shortname', 'yourshortname');
+
+Then you call the snippet like this:
+
+    snippet('disqus', array('disqus_shortname' => c::get('disqus-shortname', 'defaultshortname')));
+
+So then if you have a shortname in the config.php, it will be used in the Disqus snippet. If you don't, it will use whatever you entered for the default.

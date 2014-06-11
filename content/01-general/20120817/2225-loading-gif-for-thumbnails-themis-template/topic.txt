@@ -1,0 +1,11 @@
+Title: Loading gif for thumbnails Themis Template
+----
+Date: 2012-08-17 22:25:35
+----
+Solved: 0
+----
+User: codyhamilton
+----
+Text: Anyone have any tips on how to make a loader show while the thumbnails load in the Themis Template?
+
+I am running a modified version of it and would love to make it look that much nicer while the thumbnails load.

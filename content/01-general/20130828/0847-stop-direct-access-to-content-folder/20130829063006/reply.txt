@@ -1,0 +1,9 @@
+User: AngeloAshmore
+----
+Date: 2013-08-29 06:30:06
+----
+Text: Adding "Options -Indexes" to the .htaccess file fixed it! Now rather than listing the directory, it shows the error page.
+
+Thank you!
+
+FYI, yes, I have a site.txt file in my content folder.

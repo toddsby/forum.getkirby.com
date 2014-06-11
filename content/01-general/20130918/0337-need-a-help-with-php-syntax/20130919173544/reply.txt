@@ -1,0 +1,15 @@
+User: JanStieler
+----
+Date: 2013-09-19 17:35:44
+----
+Text: Hi,
+I have to use brackets:
+
+	<?php
+	if(!r::is_ajax())
+	{
+	snippet('header');
+	snippet('menu');
+	echo '<h1>'.html($article->title()).'</h1>';
+	}
+	?>

@@ -1,0 +1,9 @@
+User: texnixe
+----
+Date: 2013-10-16 14:37:11
+----
+Text: Put this line anywhere in a snipppet or template, it will output an array of all the modules installed:
+ 
+    <?php a::show (apache_get_modules());?>
+
+then look for mod_rewrite

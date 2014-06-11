@@ -1,0 +1,23 @@
+User: plartz
+----
+Date: 2013-03-24 13:34:54
+----
+Text: I'm using the same solution as @richardhellyer for news systems. Advantage is that you can also serve a total different text/content, e.g. some more links, a simple list, table of contents, or just an summary of the text. It is often more useful then an excerpt.
+
+@BobRockefeller just wrap your code with three backticks (assuming that the following apostrophes are backticks, so that you can see what I mean) and write the language right after the open backticks:
+
+'''php
+&lt;?php
+// Echo hi
+echo "hi";
+?&gt;
+'''
+
+You'll get:
+
+```php
+<?php
+// Echo hi
+echo "hi";
+?>
+```

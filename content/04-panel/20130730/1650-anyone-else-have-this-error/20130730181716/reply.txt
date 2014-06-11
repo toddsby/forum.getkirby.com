@@ -1,0 +1,6 @@
+User: russbaldwin
+----
+Date: 2013-07-30 18:17:16
+----
+Text: Possibly PHP config or just access rights?
+A quick search in Google brings up lots of suggestions.

@@ -1,0 +1,31 @@
+Title: Email Plugin + Postmark: Sending mails twice
+----
+Date: 2013-06-29 18:57:24
+----
+Solved: 1
+----
+User: 73inches
+----
+Text: I'm using the (link: https://github.com/bastianallgeier/kirbycms-extensions/tree/master/plugins/email text: Email Plugin) to turn some forms into mails using (link: https://postmarkapp.com text: Postmark). My problem is that every query seems to be done twice as I'm receiving every mail twice.
+
+I've just added these two lines in my config.php:
+
+```php
+c::set('email.use', 'postmark');
+c::set('email.postmark.key', 'my key');
+```
+
+And my template I'm testing with looks like this:
+
+```php
+<?php 
+	$send = email(array(
+		'to'      => 'Marcel Böttcher <boettcher@uiux.de>',
+		'from'    => 'Post Office <postoffice@uiux.de>',
+		'subject' => 'Subject',
+		'body'    => 'Some lines...'
+	));
+?>
+```
+
+Does anybody have an idea what's going wrong here or how to debug this?

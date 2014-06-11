@@ -1,0 +1,16 @@
+Title: DB mimicking - Want a central image meta csv and image folder?
+----
+Date: 2013-05-10 15:00:35
+----
+Solved: 0
+----
+User: hagatorn
+----
+Text: Got this to work on my test site,
+
+<http://www.medlargroup.com>
+
+The exact code I used is here, if anyone is interested I could help explain how to adapt it to there project as far as I'm able.
+<https://gist.github.com/hagatorn/5554230>
+
+Have been very happy as it makes it much quicker to create a page, to reuse images throughout a site and edit meta.

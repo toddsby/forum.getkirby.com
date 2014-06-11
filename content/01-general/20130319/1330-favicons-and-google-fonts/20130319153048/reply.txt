@@ -1,0 +1,15 @@
+User: tysongach
+----
+Date: 2013-03-19 15:30:48
+----
+Text: So you’re trying to add a favicon and the Google Fonts code to your templates?
+
+You can do that just as you would when building a vanilla HTML file.
+
+I’m not sure what your level of PHP knowledge is, but PHP is just (link: http://www.php.net/manual/en/faq.general.php#faq.general.what text: an HTML-embedded scripting language). Meaning, you’re PHP tags just sit inside all your normal HTML.
+
+With most templates, the `<head>` element—which is where your favicon and Google Fonts code should go—can be found in a snippet file usually called `header.php`.
+
+**Edit**: Just saw your post that went up minutes before this.
+
+No need to transform that `<link>` element into PHP. The CSS one your outputting is just a helper that’s built-in to Kirby.

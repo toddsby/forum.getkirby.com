@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-07-04 16:50:15
+----
+Text: Add to the txt files a boolean e.g. hide: 1/0 then filter on that in your menu/search ;-)
+
+To make it easier for hidding/unhidding add a blueprint to your panel.

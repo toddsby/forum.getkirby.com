@@ -1,0 +1,5 @@
+User: tysongach
+----
+Date: 2013-03-04 14:23:42
+----
+Text: If you’re interested in learning more about .htaccess, I recommend reading (link: http://htaccessbook.com text: .htaccess made easy). It’s a great resource...

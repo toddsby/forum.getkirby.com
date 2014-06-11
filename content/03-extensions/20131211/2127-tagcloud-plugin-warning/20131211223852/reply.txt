@@ -1,0 +1,33 @@
+User: sasharae
+----
+Date: 2013-12-11 22:38:52
+----
+Text: Okay, so the tagcloud plugin error has been resolved, because I changed $pages->find('**articles**') to $pages->find('**blog**') here:
+
+	<?php
+
+	$blog = $pages->find('blog');
+	$tags = tagcloud($blog);
+
+	?>
+
+Now there is a problem on my portfolio.php page on line 32 which refers to the second instance of **->children()** under **} else {**:
+
+	<?php if(param('tag')) {
+		
+	$articles = $pages->find('articles')
+	->children()
+	->visible()
+	->filterBy('tags', param('tag'), ',')
+	->flip();                            
+		
+	} else {
+		
+	$articles = $pages->find('articles')
+	->children()
+	->visible()
+	->flip();                            
+		
+	} ?>
+
+Should I be replacing *articles* with *blog* again?

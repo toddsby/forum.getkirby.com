@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2012-08-22 01:28:49
+----
+Text: I'm having the same problem, and I'm confused. What exactly am I supposed to download to fix it?
+
+Also, I'm pretty sure I'm not using a dev version of kirby.

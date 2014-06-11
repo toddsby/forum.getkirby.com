@@ -1,0 +1,11 @@
+Title: Spam protection for contact form plugin?
+----
+Date: 2012-10-31 11:47:16
+----
+Solved: 0
+----
+User: laurilii
+----
+Text: Hey,
+
+Has anyone come up with any spam protection methods for the contact form plugin (math quiz or honeypot perhaps)?

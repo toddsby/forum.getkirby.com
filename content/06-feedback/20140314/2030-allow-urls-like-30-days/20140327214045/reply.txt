@@ -1,0 +1,16 @@
+User: jens_tornell
+----
+Date: 2014-03-27 21:40:45
+----
+Text: @fitzage That is actually a really clever workaround to this problem. That just saved part of my structure on my site. Great thanks!
+
+I however still think it would be great to be able to disable visible pages in the settings, to make these kinds of urls easier to manage in the folder structure.
+
+I tried some other cases that did not work:
+
+ - 0-30-days
+ - 1-31-days
+
+See the pattern? The first has "0-" two times and the next has "1-" two times. So watch out for similar numbers if using this method.
+
+Other solutions are welcome if any.

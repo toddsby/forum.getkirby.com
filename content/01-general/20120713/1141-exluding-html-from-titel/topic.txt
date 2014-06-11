@@ -1,0 +1,21 @@
+Title: Exluding HTML from titel
+----
+Date: 2012-07-13 11:41:47
+----
+Solved: 0
+----
+User: obearone
+----
+Text: Hi!
+I'm using this markup in my `.txt` file to modify my titel headline in my template:
+
+	Title:
+	<span class="slabtext"> Zoll pass auf!</span>
+	<span class="slabtext"> Gefährliches Spielzeug aus Asien und china</span>
+	<span class="slabtext"> china</span>
+	----
+    
+ 
+ Unfortunately on other places in my side I don't want to have the HTML markup visible. Is there a way to exlude it from my php-tag? 
+ 
+ Thanks, Oli

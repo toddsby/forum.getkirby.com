@@ -1,0 +1,23 @@
+Title: Markdown nested lists add extra </br> tags
+----
+Date: 2013-11-25 17:08:36
+----
+Solved: 1
+----
+User: alexk
+----
+Text: I have an issue where Kirby/Markdown adds extra unwanted </br> tags into my nested lists. The issue can be seem in the first nested list on [this page](http://blog.alexanderkucera.com/blog/assembling_a_vfx_camera_kit).
+
+The actual Markdown file is formatted like this:
+
+    The goal is to build a kit that works well in four different situations:
+    
+    * Professional:  
+    	* Set photography (making reference photos, shooting textures, making set HDRis, etc.)
+    	* Panorama photography (HDRi and normal panoramas)
+    * Personal:  
+    	* Since I am a rather new dad (boy, 10 months) I will use the camera for child photography. He is already a speedy little guy and I only see this getting more intense as time moves on.
+    	* Also, we own three ferrets who are even speedier.
+    
+
+Any ideas?

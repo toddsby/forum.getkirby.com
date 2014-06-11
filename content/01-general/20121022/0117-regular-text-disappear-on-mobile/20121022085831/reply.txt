@@ -1,0 +1,26 @@
+User: russbaldwin
+----
+Date: 2012-10-22 08:58:31
+----
+Text: Not sure if this would be a Kirby problem? 
+Can you turn off CSS styles in your Android browser, do you see the p tags? If so probably browser/css and maybe HTML structure related?
+
+1. Likely not the problem but it is always worth checking for valid code before investigating possible CSS problems. On validating html on the link you sent:
+
+
+		Error Line 52, Column 4: No p element in scope but a p end tag seen.
+
+
+2. Also try removing the font stuff and just go with generic fonts (available on adroid?) in your CSS?
+  
+
+Maybe try some CSS something like:
+
+	html {
+		font-size: 100%; /* 1 */
+		-webkit-text-size-adjust: 100%; /* 2 */
+		-ms-text-size-adjust: 100%; /* 2 */
+		font-family: sans-serif;
+		}
+  
+I have no android and my emulator seems to have gone on the blink, so a bit stuck on checking any of this.

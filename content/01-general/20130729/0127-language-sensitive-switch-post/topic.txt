@@ -1,0 +1,15 @@
+Title: Language Sensitive Switch Post?
+----
+Date: 2013-07-29 01:27:16
+----
+Solved: 1
+----
+User: texnixe
+----
+Text: I have a multi-language site with a blog that filters articles by language, i.e. the German blog lists German articles and the English one translated articles only.
+
+I also managed to get the pagination problem fixed, as explained here:(link: http://www.texniq.de/en/texniq-u/kirby-multilingual-site).
+
+However, I cannot get the switch post navigation to ignore the German articles on the English blog, the $page->hasPrev method will find and link to the default language articles...
+
+Any ideas?

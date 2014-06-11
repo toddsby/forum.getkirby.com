@@ -1,0 +1,5 @@
+User: JerikoOne
+----
+Date: 2014-01-16 01:15:35
+----
+Text: $page->diruri (careful, no parentheses here!) gives you the relative path. Prepend your domain and you're good to go.

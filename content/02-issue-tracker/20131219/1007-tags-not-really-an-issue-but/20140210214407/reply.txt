@@ -1,0 +1,14 @@
+User: UnknownGuest
+----
+Date: 2014-02-10 21:44:07
+----
+Text: Hi Pierpaolo, 
+
+I have just run into the exact same issue. I modified line 49 of the tag cloud plugin as per your suggested code, but it didn't work. Is there anything else I would need to do, or did this work for you? 
+
+Any help would be greatly appreciated! 
+
+Bastian, is there a fix for this?
+
+Cheers
+Jed

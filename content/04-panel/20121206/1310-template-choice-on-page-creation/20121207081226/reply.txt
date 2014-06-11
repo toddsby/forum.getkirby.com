@@ -1,0 +1,5 @@
+User: brianwik
+----
+Date: 2012-12-07 08:12:26
+----
+Text: OK I figured my problem out .. I had to set that on the parent blueprint not on the current blueprint ... hope this helps anyone else

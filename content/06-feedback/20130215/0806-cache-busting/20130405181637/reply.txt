@@ -1,0 +1,6 @@
+User: russbaldwin
+----
+Date: 2013-04-05 18:16:37
+----
+Text: Looks like the HTML5 Boilerplate one? If so you change the file name in the template, maybe with a date stamp or something logical and the file is then cache busted. You don't have to actually change the name of the file itself, just the calling code. 
+Neat...

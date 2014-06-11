@@ -1,0 +1,9 @@
+Title: E-Mail Encoder
+----
+Date: 2012-06-16 14:28:14
+----
+Solved: 0
+----
+User: pixelbande
+----
+Text: Hi Bastian, would´t it be nice if Kirby encoded E-mails automatically  (something like http://www.wbwip.com/wbw/emailencoder.html) in order to reduce potential spamming?

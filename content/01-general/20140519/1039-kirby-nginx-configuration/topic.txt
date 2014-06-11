@@ -1,0 +1,17 @@
+Title: Kirby + nginx configuration
+----
+Date: 2014-05-19 10:39:32
+----
+Solved: 0
+----
+User: mvn99
+----
+Text: Hi,
+
+Im optimising my Kirby installation on nginx and ubuntu.
+
+I use php5-fpm, and have tried with both microcaching enabled and disabled, however when testing my kirby installation through blitz.io, it seems like there is no caching or anything going on. When the processors of my VPS hit 100%, the response time spikes greatly (700ms), then slowly starts dropping and timeouts start climbing. Interestingly enough I have a wordpress install on the same box and that has no issues whatsoever.
+
+I'd rather not install Varnish, however what can I do to 'optimise' the nginx+kirby configuration?
+
+Thanks

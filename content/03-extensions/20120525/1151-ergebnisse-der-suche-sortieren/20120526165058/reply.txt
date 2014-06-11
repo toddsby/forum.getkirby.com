@@ -1,0 +1,9 @@
+User: ttfan81
+----
+Date: 2012-05-26 16:50:58
+----
+Text: Danke schon mal für die Rückmeldung und die ausführliche Antwort. Mein Problem bleibt aber bestehen. Sobald ich irgendeine weitere Option für die Suche in die search.php einbaue, zum Beispiel:
+
+'ignore'      => array('blog', 'impressum'),
+
+bekomme ich nur noch eine weiße Seite angezeigt!

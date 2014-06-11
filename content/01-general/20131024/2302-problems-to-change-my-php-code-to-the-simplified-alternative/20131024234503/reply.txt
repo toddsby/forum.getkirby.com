@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-10-24 23:45:03
+----
+Text: Well, there's only one comma in there, and according to the ecco syntax on that article, it's supposed to be there. Paste your new code?

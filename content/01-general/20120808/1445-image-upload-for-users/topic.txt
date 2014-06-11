@@ -1,0 +1,13 @@
+Title: Image upload for users
+----
+Date: 2012-08-08 14:45:04
+----
+Solved: 0
+----
+User: alexk
+----
+Text: Hi guys,
+
+I am doing a little photo gallery for a friend and he asked if it were possible to have his friends upload images to him as well. Ideally, I'd like to integrate it into his Kirby photo site.
+
+Any ideas on how to best implement this? I think there is no upload plugin for Kirby yet. Could I maybe repurpose the upload functions from the panel for this? Or any other PHP uploaders that you have tried and can recommend?

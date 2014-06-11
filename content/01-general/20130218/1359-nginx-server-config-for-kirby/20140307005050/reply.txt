@@ -1,0 +1,6 @@
+User: logcasa
+----
+Date: 2014-03-07 00:50:50
+----
+Text: here is my nginx configuration. https://gist.github.com/ramv/9402198
+I used http://winginx.com/en/htaccess to convert the .htaccess configuation to NGINX format.

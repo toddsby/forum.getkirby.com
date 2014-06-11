@@ -1,0 +1,17 @@
+Title: Links with accent letters doesn't work
+----
+Date: 2012-10-10 18:12:30
+----
+Solved: 1
+----
+User: roman_oroco
+----
+Text: The links with accent letters does not appear.
+```
+Special Thanks to (link: http://site.com/ text: Michèle Montagne)
+```
+
+HTML result:
+```
+<p>Special Thanks to <a href="http://site.com/"></a></p>
+```

@@ -1,0 +1,13 @@
+User: russbaldwin
+----
+Date: 2013-03-03 19:41:04
+----
+Text: Something like:
+
+```php
+<?php $firstimage = $page->images()
+                         ->first()?>
+
+<img src="<?php echo $firstimage->url() ?>" 
+     alt="<?php echo $firstimage->title()?>" />
+```

@@ -1,0 +1,17 @@
+Title: How to set thumbnails for projects like this
+----
+Date: 2013-02-20 17:52:59
+----
+Solved: 0
+----
+User: stimemmerson
+----
+Text: I just tried to set thumbnails with linktext under it instead of "Project a-b-c"
+
+(image:http://farm9.staticflickr.com/8381/8491774693_581b57ae9e_o.jpg)
+
+Tried this code, but it don´t really works:
+
+<pre>&lt;?php foreach($page-&gt;children()-&gt;visible()-&gt;flip() as $project): ?&gt;
+  &lt;a href=&quot;&lt;?php echo $project-&gt;url() ?&gt;&quot;&gt;&lt;img src=&quot;&lt;?php echo $project-&gt;images()-&gt;find(&#39;thumb.png&#39;)-&gt;url() ?&gt;&quot;&gt;&lt;/a&gt;
+&lt;?php endforeach ?&gt;</pre>

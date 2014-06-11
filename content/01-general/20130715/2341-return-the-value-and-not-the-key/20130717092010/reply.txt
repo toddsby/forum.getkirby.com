@@ -1,0 +1,17 @@
+User: russbaldwin
+----
+Date: 2013-07-17 09:20:10
+----
+Text: I had a look but could not immediately see the value to set. I was presuming `$page->sex()->value()` or `$page->sex()->text()` but I cannot see the variable required. Perhaps a bug...
+
+Anyway one way would be to do this ;-)
+```html
+  sex:
+    label: Sex
+    type: radio
+    options:
+      Male: Male
+      Female: Female
+      Other: Other
+    default: Female
+```

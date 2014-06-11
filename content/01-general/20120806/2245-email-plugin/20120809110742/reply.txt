@@ -1,0 +1,7 @@
+User: bastianallgeier
+----
+Date: 2012-08-09 11:07:42
+----
+Text: I've just published the alpha version of a contact form plugin. I hope this helps: 
+
+<https://github.com/bastianallgeier/kirbycms-extensions/tree/dev/plugins/contactform>

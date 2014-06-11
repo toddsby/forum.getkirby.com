@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2012-09-05 20:42:14
+----
+Text: Ah, OK. That should work. I was looking for a way to set it in the simplepie plugin file, but this should do the trick. Thanks.

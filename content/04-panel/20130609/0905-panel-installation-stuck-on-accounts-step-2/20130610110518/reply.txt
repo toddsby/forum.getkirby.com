@@ -1,0 +1,14 @@
+User: dokdeleon
+----
+Date: 2013-06-10 11:05:18
+----
+Text: @netaisllc, hi. You should be able to see a login box once you've completed (and followed closely) the instructions from the page. 
+
+Just a few checklist, see if these are done:
+
+- The kirby panel folder (previously named **kirbycms-panel**) you added in the root of your site, were you able to rename it to **panel**? 
+- Were you able to *copy* the **default** folder inside the kirby panel folder and pasted it inside `http://yoursite.com/site` and renamed it to **panel**? 
+- Did you change the file under `http://yoursite.com/site/panel/accounts/` to have your login details? And were you able to change its filename to your username?
+
+----
+If after these, you're still in the same **step 2** page, then you might want to consider retracing your steps when you first installed kirby. :D

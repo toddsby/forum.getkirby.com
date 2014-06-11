@@ -1,0 +1,38 @@
+Title: Footer snippet disappearing
+----
+Date: 2014-06-02 01:02:47
+----
+Solved: 1
+----
+User: peterpham_
+----
+Text: I am creating a portfolio page which calls the subpages for each project, and the first image from the sub page. 
+
+However my footer is disappearing after I've built the portfolio page PHP. 
+
+Can someone please shed some light?
+
+	<?php snippet('header') ?>
+	<?php snippet('menu') ?>
+	
+	<div class="container projects content">
+		<ul>
+			<?php $children = $page->children() ?>
+			<?php foreach($children as $child): ?>
+			<?php $projectimage = $child->images()->first() ?>
+						
+				<a href="<?php echo $child->url() ?>"> 
+					<li class="col-3">
+							<img src="<?php echo $projectimage->url() ?>" />
+						<span class="col-6">
+							<h1><?php html($child->title()) ?></h1>
+							<?php kirbytext($child->text()) ?>
+						</span>
+					</li>
+				</a>
+						
+			<?php endforeach ?>
+		</ul>
+	</div>
+	
+	<?php snippet('footer') ?>

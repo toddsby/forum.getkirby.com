@@ -1,0 +1,9 @@
+User: chrisburton
+----
+Date: 2013-12-31 12:41:03
+----
+Text: @structor My apologies for communicating otherwise. I didn't see the spam protection after looking through it on github. Thank you for correcting me.
+
+And yes, the whole goal for this comment system is to be as simple as possible. However, I am sure it will not be as simple as drag and dropping it into the plugins folder. The user will have to register for api keys on Facebook and Twitter and insert them into the file(s). There also might be a requirement to grab your own set of keys for Akismet as well.
+
+I emailed Bastian to see if he would mind releasing his code from the forum comments. This might help get things moving along quicker but I'm still waiting to hear back.

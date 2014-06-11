@@ -1,0 +1,24 @@
+User: russbaldwin
+----
+Date: 2013-02-25 15:34:18
+----
+Text: I am not sure, but doesn't the tagcloud plugin look at pages rather than images? So I'm not sure if you can do it for this...I could be wrong ;-)
+
+One way to get the tags from image is using a 'filterby':
+
+```php
+<h3>Image Tags - filter by Image Tag</h3> 
+    
+<?php $tagcloud = $page->images()->filterBy('tags', 'MyTagToFilterBy', ',')?>
+
+<ul>
+  <?php foreach($tagcloud as $tag): ?>
+    <li><?php echo 'Image Name: '.$tag->title()."<br/>".
+         'Image URL: '.$tag->url()."<br/>".
+         'Image all tags: '.$tag->tags()
+        ?>
+    </li>
+  <?php endforeach ?>
+</ul>	
+
+```

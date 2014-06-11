@@ -1,0 +1,13 @@
+User: JanStieler
+----
+Date: 2013-03-01 12:15:26
+----
+Text: Hi,
+thanks for this. Now I have found out that my mistake was.
+I haven´t call the array in the if-query at the options.
+
+> Sadly the formatting of the select boxes in Panel are not so good, but you can play with that ;-)
+
+For this I have generate me an snippet with the (link: http://harvesthq.github.com/chosen/ text: jQuery Plugin Chosen).
+
+Greetz

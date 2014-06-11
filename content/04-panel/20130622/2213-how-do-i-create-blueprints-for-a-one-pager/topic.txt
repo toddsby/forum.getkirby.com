@@ -1,0 +1,17 @@
+Title: How do I create blueprints for a 'one pager'?
+----
+Date: 2013-06-22 22:13:03
+----
+Solved: 1
+----
+User: sandervdvijver
+----
+Text: I have used the instructions in the [blog post](http://getkirby.com/blog/one-pager) from this website to create a 'one page' website.
+
+I am installing the panel now, and notice that I don't seem to have the possibility to create blueprints for my separate pages, because they have no corresponding template file – as they are being called in the 'main' home.php template file as snippets.
+
+Any help is greatly appreciated!
+
+EDIT: Solved. Just made 'placeholder' templates (that are not necessarily being used) and took it from there
+
+EDIT: Didn't even need the placeholder templates. Ignore this topic altogether

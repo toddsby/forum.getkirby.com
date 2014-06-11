@@ -1,0 +1,11 @@
+User: loliism
+----
+Date: 2014-03-23 20:31:33
+----
+Text: Okay, I have written some PHP so that the page looks up the visitor's ip-number using $_SERVER['REMOTE_ADDR'], and writes it to the images' meta files. If no meta files exist new ones are automatically created.
+
+It works OK, but recording the ip-number of anyone who looks at the thumbnails in the gallery may be a bit of an over-kill, so I'm thinking of only recording the ip-numbers of people who actually click to download the full-sized (original) images instead.
+
+However, in order to do that I guess I'll have to move the ip-recording code from the gallery template and move it to some sort of "download file X"-file that is only run when the visitor clicks the image download link. As I don't want to use JavaScript, I'm thinking of using this: [Serve a file for download without providing the direct link](http://serverfault.com/questions/316814/php-serve-a-file-for-download-without-providing-the-direct-link).
+
+*EDIT: Never mind, the client has changed his mind about the whole implementation... Thanks for your help anyway.*

@@ -1,0 +1,21 @@
+User: roobottom
+----
+Date: 2013-03-25 11:21:53
+----
+Text: -- SOLVED --
+
+Just an update to say that Bastian pointed out that Kirby does URL parameters that are much nicer than `_GET` variables. From his solution:
+
+```
+$image = param('image');
+
+if($image) {
+  // show the single image
+} else {
+ // show the entire gallery
+}
+```
+
+You can then use the URL `/gallery/album-name/image:01.jpg`
+
+Brilliant.

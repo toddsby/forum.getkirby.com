@@ -1,0 +1,23 @@
+Title: Kirby's .htaccess and custom galleries
+----
+Date: 2013-03-18 18:17:34
+----
+Solved: 1
+----
+User: roobottom
+----
+Text: Hello!
+
+I'm creating a gallery.
+
+The template for my album displays all the files in the folder, unless it receives a `GET` variable (which switches the page into 'single item' mode), like this:
+
+`mysite.com/gallery/album-name/?p=file.jpg`
+
+My question is this: Can I add something to Kirby's .htaccess to allow me to use a URL like this:
+
+`mysite.com/gallery/album-name/file.jpg`
+
+Please forgive me if this is a silly question, To me .htaccess is strange voodoo indeed.
+
+Many thanks,

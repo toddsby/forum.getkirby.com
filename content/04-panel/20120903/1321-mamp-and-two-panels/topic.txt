@@ -1,0 +1,15 @@
+Title: MAMP and two panels
+----
+Date: 2012-09-03 13:21:01
+----
+Solved: 0
+----
+User: tues37
+----
+Text: I’m running two kirby-installations and when I want to edit a site in one panel (the newer one) kirby sents me back to the login page of the first panel.
+
+Anyone got suggestions?
+
+EDIT:
+
+Ok, I solved it, there is an answer for everything: http://getkirby.com/blog/mamp

@@ -1,0 +1,15 @@
+Title: Templates... how?
+----
+Date: 2012-10-22 01:51:50
+----
+Solved: 0
+----
+User: h2only
+----
+Text: So I installed the default Kirby package... no real problems there.
+
+Now I would like change to the "knowledge base" templating system... but I am getting lost, I'm afraid.  
+
+Can someone give me a more precise step-by-step than what I have found in the blog (that one seems to be missing some steps)
+
+Thanks!

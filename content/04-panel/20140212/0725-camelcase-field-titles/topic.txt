@@ -1,0 +1,11 @@
+Title: camelCase Field Titles
+----
+Date: 2014-02-12 07:25:55
+----
+Solved: 0
+----
+User: twitchdw
+----
+Text: There is a bug thats close I found <http://getkirby.com/forum/general/topic:814/#post2735>
+
+However I found that using camelCase at all for the field title causes issues with the panel being able to read back from the .txt file. Took me a while to figure out why. I was trying to name my titles in the same way as I would be using them to generate data based on <schema.org>.

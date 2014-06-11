@@ -1,0 +1,11 @@
+Title: Limit Search Plugin to visible pages only?
+----
+Date: 2012-10-19 20:32:20
+----
+Solved: 1
+----
+User: russbaldwin
+----
+Text: Apologies if this has been covered before, I've had a look through but could not see anything. 
+
+Is it possible, using the Search Plugin, to limit the search to visible pages only?

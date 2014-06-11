@@ -1,0 +1,142 @@
+User: russbaldwin
+----
+Date: 2013-02-18 12:10:01
+----
+Text: Sorry Paul, perhaps I should have been clearer about pages rather than an array, you can do something like this:
+
+I created a folder called **stations** and then some childen **station** pages. I even gave them a tag / or not for *Disabled Access*...
+for the children **station** pages
+
+```kirbytext
+Title: Barking
+----
+Tags: Disabled Access
+----
+Text: Barking
+
+```
+
+Then code for **stations** page
+
+```php
+<?php 
+ //Gets pages - you can do more filtering, but we are going to sort later
+ $stations = $page->children()->visible(); 
+  
+//Gets the stuff into a two dimensional array
+foreach ($stations as $station){
+        $temp = explode(' ',$station->title());
+        $temp = $temp[0];
+        $temp = strtolower($temp); //remove for case sensitive
+        $array[$temp][] = $station;
+}
+    
+foreach ($array as $temp => $station){
+        if (count($station) == 1){
+                $array[substr($temp, 0, 1)][]=$station[0];
+                unset ($array[$temp]);
+        }
+}
+?>
+
+<h3>Alphabetti Spaghetti Stations</h3>
+
+<?php foreach($array as $key => $station): ?>
+  <h4><?php echo strtoupper($key) ?></h4>
+  <ul class="stations listing">
+  <?php foreach($station as $stationName): ?>
+      <li><a href="<?php echo $stationName->url()?>"><?php echo $stationName->title() ?></a> <?php echo $stationName->tags() ?></li>
+  <?php endforeach ?>
+  </ul>
+ <hr/>
+<?php endforeach ?>
+
+```
+
+Which gives you:
+
+```html
+<h3>Alphabetti Spaghetti Stations</h3>
+
+        <h4>A</h4>
+    <ul class="stations listing">
+              <li><a href="stations/abbey-wood">Abbey Wood</a> Disabled Access</li>
+              <li><a href="stations/addiscombe-road">Addiscombe Road</a> Disabled Access</li>
+              <li><a href="stations/acton">Acton</a> </li>
+          </ul>
+   <hr/>
+        <h4>B</h4>
+    <ul class="stations listing">
+              <li><a href="stations/barking">Barking</a> Disabled Access</li>
+              <li><a href="stations/barnham">Barnham</a> </li>
+              <li><a href="stations/battersea-park">Battersea Park</a> </li>
+          </ul>
+   <hr/>
+        <h4>C</h4>
+    <ul class="stations listing">
+              <li><a href="stations/camden">Camden</a> Disabled Access</li>
+          </ul>
+   <hr/>
+        <h4>D</h4>
+    <ul class="stations listing">
+              <li><a href="stations/dagenham">Dagenham</a> </li>
+          </ul>
+   <hr/>
+        <h4>M</h4>
+    <ul class="stations listing">
+              <li><a href="stations/manchester">Manchester</a> Disabled Access</li>
+          </ul>
+   <hr/>
+```
+
+or 
+
+### Alphabetti Spaghetti Stations
+
+#### A
+
+*   Abbey Wood Disabled Access
+*   Addiscombe Road Disabled Access
+*   Acton
+
+---
+
+#### B
+
+*   Barking Disabled Access
+*   Barnham
+*   Battersea Park
+
+---
+
+#### C
+
+*   Camden Disabled Access
+    
+
+---
+
+#### D
+
+*   Dagenham
+
+---
+
+#### M
+
+*   Manchester Disabled Access
+    
+
+---
+
+note the line:
+
+```php
+ $temp = explode(' ',$station->title());
+```
+
+try changing it to...
+
+```php
+ $temp = explode(' ',$station->tags());
+```

@@ -1,0 +1,27 @@
+User: bastianallgeier
+----
+Date: 2012-10-10 10:22:45
+----
+Text: Hey Tobias, 
+
+you can try two things. 
+
+Replace 
+
+```php
+if($uri && is_file(c::get('root') . '/' . $uri)) {
+return $baseUrl . '/' . $uri;
+}
+```
+
+with 
+
+```php
+if($uri && @is_file(c::get('root') . '/' . $uri)) {
+return $baseUrl . '/' . $uri;
+}
+```
+
+and check if the frontend is still broken. 
+
+If that doesn't fix it you need to change the open base dir restriction on your server to make sure that all files within the root of your site can be accessed by PHP.

@@ -1,0 +1,9 @@
+User: sventempo
+----
+Date: 2013-03-19 23:10:32
+----
+Text: I think what I'm basically looking to do is get this:
+
+    <?php echo $image->url(); ?>
+
+But back one level, so rather than having the actual file in the URL, just have the folder it's contained in :)

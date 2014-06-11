@@ -1,0 +1,13 @@
+Title: PHP to edit variables in .txt files
+----
+Date: 2014-01-14 05:21:31
+----
+Solved: 0
+----
+User: omgitsjkt
+----
+Text: Is there a way in the Kirby API to edit variables stored in a page's .txt files?
+
+Right now I'm writing a short script that changes the inventory of an item after a purchase, via a XML data feed, that does some string searching and replacement - not a huge task or problem, but, the neater side of me would like to dig into this using Kirby.
+
+Any thoughts?

@@ -1,0 +1,15 @@
+Title: Error on site with multilanguage support?
+----
+Date: 2012-10-16 12:06:00
+----
+Solved: 0
+----
+User: tues37
+----
+Text: Hey,
+
+I tried to upload the kirby cmsto www.biomagnetik.com and the  language support is true, there is no subfolder and rewrite url is true. The site directs to www.biomagnetik.com/de 
+
+When I turn off rewrite, it works, but there are ugly urls like /de/index.php.
+
+Does anyone know a solution for that issue?

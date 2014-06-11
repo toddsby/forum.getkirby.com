@@ -1,0 +1,23 @@
+Title: How to add link from .txt file
+----
+Date: 2013-03-25 21:23:46
+----
+Solved: 1
+----
+User: bradwrage
+----
+Text: Hi There,
+I am using a basic structure of the following.  So far I am able to pull in title but having trouble with text and link.
+
+When I use php echo html($font->text()) ?> it spits out both the text and the link from the file... when I only want the text.
+
+I have also been unsuccessful in pulling the link alone.
+ href="php echo html($font->link()) ?>">Buy
+
+Title: MyTitle
+
+Text: lorem ipsum ...
+
+Link:  http:www.#
+
+Any help is appreciated.

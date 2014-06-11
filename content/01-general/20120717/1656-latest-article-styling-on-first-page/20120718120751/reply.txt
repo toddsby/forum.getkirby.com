@@ -1,0 +1,10 @@
+User: lulezi
+----
+Date: 2012-07-18 12:07:51
+----
+Text: Indent your code by one tab to have it displayed.
+
+I guess with page 1 and page 2 you mean the pages from the pagination, is this correct? Maybe something like this would work:
+
+    if(!$list->pagination()->hasPrevPage() && !$page->hasPrev())
+      print ' class="first"';

@@ -1,0 +1,19 @@
+Title: kirby hangs in kirby/parsers/markdown.php?
+----
+Date: 2012-12-11 05:58:56
+----
+Solved: 0
+----
+User: customanything
+----
+Text: Hi,
+
+First time using kirby.  It hangs halfway through the home page.
+
+    Fatal error: Maximum execution time of 30 seconds exceeded in [...]/kirby/parsers/markdown.php on line 372
+
+That's in the middle of `preg_replace_callback` inside the function `hashHTMLBlocks`.  This is a clean copy of v.1.1.1; I'm running it on apache2.0 with php5.4.4.
+
+Any ideas?  I'd like to try it out.
+
+-Adrian

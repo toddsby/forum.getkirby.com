@@ -1,0 +1,5 @@
+User: tysongach
+----
+Date: 2013-02-28 14:55:53
+----
+Text: As Russ pointed out above, here’s how to use three back ticks (usually found on the same key as the tilde) and specify a language: <https://github.com/bastianallgeier/kirbycms-extensions/tree/master/plugins/highlight#how-to-use-it>

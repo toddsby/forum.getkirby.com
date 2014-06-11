@@ -1,0 +1,13 @@
+User: russbaldwin
+----
+Date: 2013-10-15 13:07:04
+----
+Text: Is the page still there is your contents/Panel?
+
+I think the default is 
+```php
+c::set('lang.support', false);
+c::set('lang.default', 'en');
+c::set('lang.available', array('en', 'de'));
+c::set('lang.detect', false);
+```

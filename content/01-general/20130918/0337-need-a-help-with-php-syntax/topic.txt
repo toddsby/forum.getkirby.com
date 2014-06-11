@@ -1,0 +1,20 @@
+Title: Need a help with PHP syntax
+----
+Date: 2013-09-18 03:37:24
+----
+Solved: 1
+----
+User: janstieler
+----
+Text: Hi,
+if I want to join the multiple calls of !r::is_ajax();
+how I have to write it?
+I have as sourcecode
+
+	<?php if(!r::is_ajax()) snippet('header') ?>
+	<?php if(!r::is_ajax()) snippet('menu') ?>
+	<?php if(!r::is_ajax()) echo '<h1>'.html($article->title()).'</h1>' ?>
+
+I have tried it to split it with commas but it doesn´t work.
+
+Greetings

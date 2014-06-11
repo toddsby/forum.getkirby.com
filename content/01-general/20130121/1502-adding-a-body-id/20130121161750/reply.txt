@@ -1,0 +1,11 @@
+User: ChrisjMartin87
+----
+Date: 2013-01-21 16:17:50
+----
+Text: A simple way of doing this is to use the below function to echo which template is being used for that page.
+
+     <body id="<php echo $page->template() ?>"></body>
+
+If its your contact page and that page has a template named "contact" this is what will be displayed. 
+
+     <body id="contact"></body>

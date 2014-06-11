@@ -1,0 +1,8 @@
+User: toonvdstruijk
+----
+Date: 2013-02-11 17:33:04
+----
+Text: @Russ Baldwin
+I ran into the same problem as Grimmweb, and solved it thanks to you.
+But, curious as I am, I don't understand why it has anything to do with Mac OS. My site is hosted by an ISP and I don't think they run their servers on a Mac, in fact I'm pretty sure they use a lot of Linux and Windows servers.
+So the permissions to be set are pretty general I think/thought. How come that 0755 has to be 777 when you configure them on a Mac.

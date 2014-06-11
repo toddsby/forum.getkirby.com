@@ -1,0 +1,13 @@
+Title: Sticky posts.
+----
+Date: 2013-05-30 13:27:04
+----
+Solved: 0
+----
+User: gielcobben
+----
+Text: Hi all,
+
+I'm making a blog with Kirby and wonder if it is possible to have sticky or featured posts. They just like normal posts only they stay at the top as long as they are "on". It has to be something the user can turn off or on again. When the post is "on" he will be displaying in another div than all the other posts. When the user turns the post "off" the post get back to normal and will be showed like the rest of the posts. I hope my sketch make it clear:
+
+(image: )

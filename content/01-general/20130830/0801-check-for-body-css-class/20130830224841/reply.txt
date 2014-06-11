@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-08-30 22:48:41
+----
+Text: If you're assigning the class via javascript, you're never going to be able to see it via PHP. You should just define your day/night values in PHP, and then use those in your conditional. If you also need the body class, you can apply that via PHP.

@@ -1,0 +1,57 @@
+Title: Overloadable snippets
+----
+Date: 2014-03-21 11:26:20
+----
+Solved: 0
+----
+User: _nilswerner
+----
+Text: Coming from more complex templating languages like XSLT and Blade I am really missing the possibility to overload snippets or parts of them. For example some exemplary Blade pseudo code would look like:
+
+A master layout in `layouts/master.php`:
+
+    <html>
+        <body>
+            <ul id="nav">
+                <li>Home</li>
+                @yield('submenu')
+            </ul>
+
+            <div class="container">
+                @yield('content')
+            </div>
+        </body>
+    </html>
+
+and using the layout while overloading/changing certain parts of it:
+
+    @extends('layouts.master')
+
+    @section('submenu')
+        <li>An additional menu item</li>
+    @stop
+
+    @section('content')
+        <p>This is my body content.</p>
+    @stop
+
+the result would then look like
+
+    <html>
+        <body>
+            <ul id="nav">
+                <li>Home</li>
+                <li>An additional menu item</li>
+            </ul>
+
+            <div class="container">
+                <p>This is my body content.</p>
+            </div>
+        </body>
+    </html>
+
+I find the templates/snippets solution too simplistic and also too procedural: The in case of the usual `header` and `footer` snippets the opening tags are in a different snippet than the closing tags and you have to call your snippets in the right order to create a working HTML markup.
+
+A more functional approach like XSLT or Blade are taking it allow the opening and closing tags to be in the same file and each layout does not need to cater for all its implementing templates (e.g. having an `if($page->uid() == 'home')` in your menu snippet).
+
+Don't get me wrong, I am fine with using plain PHP as the templating engine. I would only really like to have the possibility to inject/overload parts of snippets.

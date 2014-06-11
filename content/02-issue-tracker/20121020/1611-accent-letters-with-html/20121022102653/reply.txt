@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-10-22 10:26:53
+----
+Text: @ruknaree which text editor do you use? Please check if it has an option to save all content as UTF-8 and make sure it is enabled. This should hopefully fix the issue. Normally Kirby does support all kinds of special characters by default. Since I'm Germany we have loads of funny stuff like äöü or ß and I always had to make sure they are supported :)

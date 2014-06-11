@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2012-11-09 19:32:57
+----
+Text: @chrstphbach has a good idea. And you could also use that theme name as a class name on the body to give you styling flexibility.
+
+Another nice idea that can help with CSS is to pull the first and/or last URL path as body classes for styling flexibility.

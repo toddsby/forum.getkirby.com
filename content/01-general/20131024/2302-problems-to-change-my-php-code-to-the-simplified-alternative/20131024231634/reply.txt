@@ -1,0 +1,7 @@
+User: JanStieler
+----
+Date: 2013-10-24 23:16:34
+----
+Text: I take a look at the php.ini and than I will get back.
+But I'm talking about this: [Kirby Templates](http://getkirby.com/blog/php-templates)
+And ecco is right. It is a special Kirby function.

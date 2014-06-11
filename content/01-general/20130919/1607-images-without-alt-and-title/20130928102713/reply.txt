@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-09-28 10:27:13
+----
+Text: Odd, it doesn't on mine, you could try using the Markdown syntax instead?

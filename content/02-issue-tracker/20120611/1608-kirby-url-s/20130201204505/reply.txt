@@ -1,0 +1,19 @@
+User: Wordius
+----
+Date: 2013-02-01 20:45:05
+----
+Text: @me_arno I get the same issue.
+
+    example.com/blog/article-name
+
+is set to switch to 
+
+    example.com/article-name
+
+But `/blog/article-name` flashes up briefly when switching URLs and I get a lot of duplicates showing in Webmaster Tools.
+
+I’ve added
+
+    Disallow '/blog/'
+
+to my robots.txt, but I’m not sure if this is helping.

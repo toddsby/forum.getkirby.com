@@ -1,0 +1,15 @@
+Title: Ramnode
+----
+Date: 2013-12-29 08:57:08
+----
+Solved: 0
+----
+User: chrisburton
+----
+Text: I'm setup on a VPS (not managed) using Kirby. I have had zero issues regarding my VPS so far and the IRC channel has been a lot of help if you're new to the command line like myself.
+
+
+ My live Kirby setup is installed inside my Dropbox folder. Everything works flawlessly. I'm really enjoying editing all within a Dropbox environment using Markdown and not having to worry about my website since it syncs to my server and also works as a backup system.
+
+
+[Ramnode](http://ramnode.com)

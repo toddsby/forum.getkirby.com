@@ -1,0 +1,10 @@
+User: jens_tornell
+----
+Date: 2014-03-13 12:09:57
+----
+Text: It did not work for me. No errors but nothing happened.
+
+#### There can be reasons where to have trailing slash.
+
+ - For me I had it on my own site (WordPress) and want to keep the same structure.
+ - Let's say you have /products/tables and write about tables and then later you add /products/tables/black-table it's more natural to go to /products/tables/ to see all the tables because of the directory trailing slash. In this case we need to redirect /products/tables to /products/tables/. Therefor it can be good to add trailing slash from the start.

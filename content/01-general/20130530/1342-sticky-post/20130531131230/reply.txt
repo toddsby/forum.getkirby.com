@@ -1,0 +1,9 @@
+User: gielcobben
+----
+Date: 2013-05-31 13:12:30
+----
+Text: Hi, 
+
+Thanks for the replies. 
+
+Sorry for not making "user" clear. What I mean with user is the content editor. I have thought about custom field but is it possible to remove the sticky post from the rest of the posts when it is "on" and put it back when the post is "off" again ordered by time?

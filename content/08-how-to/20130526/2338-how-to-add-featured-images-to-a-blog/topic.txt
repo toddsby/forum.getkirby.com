@@ -1,0 +1,20 @@
+Title: How to add featured images to a blog
+----
+Date: 2013-05-26 23:38:30
+----
+Solved: 0
+----
+User: samnabi
+----
+Text: I'm migrating my blog over from WordPress to Kirby, and I have a lot of posts with featured images (images that are not part of the body text, but can be styled like post thumbnails). Here's how I dealt with them in Kirby:
+
+In each blog post, I added the following field:
+
+    FeaturedImg: image-filename.jpg
+    ----
+
+Then in the template, here's the code to show the image:
+
+    <img src="<?php echo $page->images()->find(html($page->featuredimg()))->url() ?>" />
+
+It took me a while to figure out how to implement this. I forgot about the `html()` function, which tripped me up. Hopefully this will be of some help to those looking to replicate WordPress's "featured image" functionality.

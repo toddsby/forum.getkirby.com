@@ -1,0 +1,7 @@
+User: lunelson
+----
+Date: 2013-01-07 21:10:17
+----
+Text: Would the answer be to use the header() function as explained here?
+
+<http://php.net/manual/en/function.header.php>

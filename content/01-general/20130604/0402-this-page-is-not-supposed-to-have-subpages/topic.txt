@@ -1,0 +1,15 @@
+Title: 'This page is not supposed to have subpages'
+----
+Date: 2013-06-04 04:02:33
+----
+Solved: 0
+----
+User: mattsoar
+----
+Text: Hi folks,
+I am just starting with Kirby; I'm using the Monochrome template, I've set up the panel, and I also imported about 100 entries from my old WordPress blog. They're at content/04-blog/ and are all txt files in numbered folders. I also have a basic txt file in the blog folder.
+That all said, the blog entries don't show up at all on my site, and the panel tells me my blog section, while visible, 'is not supposed to have subpages'. (I've set all the folders to 755 and the txt files to 644.)
+I imagine I'm doing something silly, but I can't for the life of me see what it is. Any ideas?
+Cheers,
+Matt
+ps the site (such as it is) is www.mattsoar.com

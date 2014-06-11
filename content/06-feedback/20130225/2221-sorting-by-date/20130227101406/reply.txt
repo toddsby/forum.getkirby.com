@@ -1,0 +1,10 @@
+User: plartz
+----
+Date: 2013-02-27 10:14:06
+----
+Text: I think this is more a general topic than a suggestion, but nevertheless, have a look at the `sortBy()` and the `limit()` methods: <http://getkirby.com/docs/variables/pages>
+
+Your code for catching the events could be:
+```php
+$pages->find("veranstaltungen")->children()->visible()->sortBy("date", "desc")->limit(3)
+```

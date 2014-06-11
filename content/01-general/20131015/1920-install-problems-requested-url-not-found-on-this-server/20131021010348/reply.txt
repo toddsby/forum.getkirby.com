@@ -1,0 +1,17 @@
+User: studioshitless
+----
+Date: 2013-10-21 01:03:48
+----
+Text: Ok. It works. I had the .htaccess in the root folder. As soon as I placed it in the kirby folder, it worked.
+
+Before that I had not seen the .htaccess file in the install (hidden on OS X) and so created my own, which was incomplete – as I followed the only lines I had found in the getting started doc.
+
+*Thank-you for all your patience and help.*
+
+I really like Kirby and hope to use it for a real project.
+
+I have also started loading content directly into Flash AS3. It was amazingly easy to create a gallery..
+
+Kirby is for me everything the big two CMS systems are not. Lean and simple. Clear to understand. Easy to create templates. Easy to edit content (especially good for clients, I suspect). Independence from the far too ubiquitous blog-style way of thinking. And elegant.  Just what I've been waiting for in a CMS. 
+
+Congratulations to the author!

@@ -1,0 +1,7 @@
+User: timgauthier
+----
+Date: 2013-09-11 17:47:16
+----
+Text: Is there a way to use Full names for languages instead of the short codes? Example : English : Français : Español : Pусский : Deutsch :
+
+thanks!

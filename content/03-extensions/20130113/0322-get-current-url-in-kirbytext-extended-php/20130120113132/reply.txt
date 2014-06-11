@@ -1,0 +1,32 @@
+User: russbaldwin
+----
+Date: 2013-01-20 11:31:32
+----
+Text: It seems to work for me, when I put this in my text:
+
+```html
+    <p class="classname">Some *text*</p>
+```
+
+It gives me:
+
+```html
+    <p class="classname" >Some *text*</p>
+```
+
+And indeed markdown within HTML as per [PHP Markdown Extra](http://michelf.ca/projects/php-markdown/extra/):
+
+```html
+    <p class="classname" markdown="1">Some *text*</p>
+```
+
+Gives me:
+```html
+    <p class="classname">Some <em>text</em></p>
+```
+
+Did you change your site config.php?
+
+```php
+    c::set('markdown.extra', true);
+```

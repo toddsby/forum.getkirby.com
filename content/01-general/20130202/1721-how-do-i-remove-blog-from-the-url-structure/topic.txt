@@ -1,0 +1,9 @@
+Title: How do i remove 'blog' from the url structure.
+----
+Date: 2013-02-02 17:21:44
+----
+Solved: 1
+----
+User: theoriginalivor
+----
+Text: So basically, i want to remove the blog folder from the url, i.e www.mydomain.com/blog/article-title/ should jut be www.mydomain.com/article-title/ How do i do so?

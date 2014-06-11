@@ -1,0 +1,43 @@
+User: russbaldwin
+----
+Date: 2013-12-18 08:51:28
+----
+Text: You could indeed replace 'articles' with 'blogs' and 'article' with 'blog' in your <!--Grid items--> loop, if nothing else it will make the code clearer.  e.g.
+
+```php
+<ul id="tiles">
+<!--Grid items-->
+
+<?php if(param('tag')) {
+
+$blogs = $pages->find('blog')
+->children()
+->visible()
+->filterBy('tags', param('tag'), ',')
+->flip();                            
+
+} else {
+
+$blogs = $pages->find('blog')
+->children()
+->visible()
+->flip();                            
+
+} ?>
+<?php foreach($blogs as $blog): ?>
+<li class="<?php foreach(str::split($blog->tags()) as $tag): ?>
+<?php echo $tag ?> <?php endforeach ?>">
+<a href="<?php echo $blog->url() ?>" title="<?php echo html($blog->title()) ?>">
+<?php foreach($blog->images() as $image): ?>
+<?php echo thumb($image, array('width' => 300, 'quality' => 70)) ?>
+<?php endforeach ?>
+<p><?php echo html($blog->title()) ?></p>
+</a>
+
+</li>             
+<?php endforeach ?>            
+<!-- End of grid blocks -->
+</ul>
+```
+
+Hope this helps.

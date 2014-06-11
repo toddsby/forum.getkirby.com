@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2014-03-28 00:06:17
+----
+Text: Because date is, by default, a special field that accepts an actual date value. Date range like you're entering doesn't work, but a variety of single date formats do.

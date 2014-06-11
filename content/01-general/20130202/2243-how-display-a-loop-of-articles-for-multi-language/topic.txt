@@ -1,0 +1,32 @@
+Title: How display a loop of articles for multi language
+----
+Date: 2013-02-02 22:43:41
+----
+Solved: 1
+----
+User: roman_oroco
+----
+Text: When I'm switching to another language the `articles.php` template doesn't work more and I got this result:
+
+```
+Fatal error: Call to a member function children() on a non-object in /public_html/site/templates/articles.php on line 9
+```
+
+This is my `templates/articles.php` file:
+```php
+<?php $articles = $pages->find('articles')
+                        ->children()
+                        ->visible()
+                        ->sortBy('date', 'desc')
+                        ->paginate(5); ?>
+<?php foreach($articles as $article): ?>
+<article>
+  <h1>
+    <a href="<?php echo $article->url() ?>"><?php echo $article->title() ?></a>
+  </h1>
+  <?php echo kirbytext($article->text()) ?>
+</article>
+<?php endforeach ?>
+```
+
+I read all docs and search @ forum but without any success…

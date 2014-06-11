@@ -1,0 +1,9 @@
+User: bastianallgeier
+----
+Date: 2012-08-24 17:04:31
+----
+Text: @ignaty thanks for already answering that :)
+
+@tues37 if you are just looking for the code to switch between two languages you can find an example here: 
+
+<http://getkirby.com/forum/code-snippets/topic:72>

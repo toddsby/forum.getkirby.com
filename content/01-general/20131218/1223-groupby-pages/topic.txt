@@ -1,0 +1,49 @@
+Title: GroupBy pages
+----
+Date: 2013-12-18 12:23:45
+----
+Solved: 0
+----
+User: pommealtshifts
+----
+Text: Hi everyone,
+
+I try to groupBy pages.
+
+For now, I get my page’s childrens then I sortBy them. In my loop that displays them, I watch the field value (that I used to sortBy), when it change, I add some HTML. But it’s a pretty ugly way. Plus, it doesn’t allow to sort groups by alphabetic title and the contents by date, for exemple…
+
+```php
+<? /* in the code bellow, $field is a param */ ?>
+<? $sortValue = -1 ?>
+<? $articles = $page->children()
+                    ->visible()
+                    ->sortBy($field)
+                    ->flip()
+                    ->paginate(15)
+?>
+
+<? foreach($articles as $article): ?>
+  
+  <? $currentSortValue = $article->$field() ?>
+
+  <? if ( $condition = (string)$sortValue!=(string)$currentSortValue ): ?>
+
+    <? $sortValue=$currentSortValue ?>
+
+    <h2><?= $sortValue ?></h2>
+
+  <? endif ?>
+
+  <? snippet('teaser', array('article'=>$article) ) ?>
+
+<? endforeach ?>
+```
+
+I found in the Kirby toolkit [collection::groupby](http://reference.new.getkirby.com/toolkit/classes/collection/methods/groupby) methode which seems to be perfect.
+But I didn’t find if it’s possible to use it with the object Page in Kirby CMS.
+
+Could anyone offer any advice? I would really appreciate it!
+
+j.
+
+*P.-S. Sorry for english…*

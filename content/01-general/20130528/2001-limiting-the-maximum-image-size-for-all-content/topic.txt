@@ -1,0 +1,15 @@
+Title: Limiting the maximum image size for all content
+----
+Date: 2013-05-28 20:01:52
+----
+Solved: 0
+----
+User: jancbeck
+----
+Text: This might not be specific to kirby but maybe someone can help me: for the lack of better alternatives I decided to upload every image in my content in the highest resolution possible to be prepared for the upcoming retina / HiDPI era. 
+
+I threw (link: http://adaptive-images.com/ text: adaptive-images.php) on it to spare mobile devices but people on desktop will still get the full 4000px wide photograph from my DSLR which is ridiculous. 
+
+Is there a way I can hook into kirbys content processing and size down any image to a reasonable size before it gets rendered as an HTML image link?
+
+Or are there even any other ideas on how to handle images for high resolution devices with kirby?

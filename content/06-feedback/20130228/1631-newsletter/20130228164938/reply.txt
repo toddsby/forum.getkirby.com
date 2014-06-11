@@ -1,0 +1,7 @@
+User: tysongach
+----
+Date: 2013-02-28 16:49:38
+----
+Text: I’ve been wanting to make a (link: http://getkirby.com/forum/extensions/topic:445 text: MailChimp extension), in which my rough idea is that it would add something along the lines of a ‘Send to MailChimp’ button to the Kirby Panel.
+
+There’s a lot of infrastructure behind the scenes of services like MailChimp & Campaign Monitor, particularly subscriber list management and dealing with spam filters. I feel like *integrating* with a service that does this stuff every day and does it really well would be a better route than hacking together an implementation within Kirby, no?

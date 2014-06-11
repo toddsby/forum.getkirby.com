@@ -1,0 +1,12 @@
+User: ilwcss
+----
+Date: 2013-06-25 14:58:19
+----
+Text: thanks for that.
+i also have the problem that urls without language are not redirecting to it's localized version correctly!?
+
+e.g. yoursite.com/about should redirect to yoursite.com/en/blog
+
+but instead it's goint to: yoursite.com/en
+
+do you have the same problem and may found a solution for it?

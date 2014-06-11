@@ -1,0 +1,18 @@
+Title: MP3 Upload Bug?
+----
+Date: 2012-10-22 08:41:36
+----
+Solved: 0
+----
+User: ttfan81
+----
+Text: I integrated a small MP3 Player into my Kirby Installation. In order to upload MP3 and Videofiles i already edited the site/panel/config/config.php and added this:
+
+  'audio/mp3',
+  'video/mp4',
+  'video/mpeg',
+  'video/avi',
+
+Afterwards the upload (via the panel) is working fine with Chrome! But Firefox shows the error Message: "Dieser Dateityp ist nicht erlaubt: audio/mpeg". (this filetype is not allowed: audio/mpeg)
+
+**How can this Problem be solved? I'd prefer using Firefox :)**

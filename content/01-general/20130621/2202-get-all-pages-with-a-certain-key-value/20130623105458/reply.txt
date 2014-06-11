@@ -1,0 +1,41 @@
+User: russbaldwin
+----
+Date: 2013-06-23 10:54:58
+----
+Text: @eytanbiala, not sure what you are after but the following works for me?
+I've added a visible because I have a lot of stuff in my test site. You might also want to use a boolean for the 'private' indication so you can use a check box in panel?
+
+```php
+
+<?php
+// Get the filterd array of pages
+// You probably wan to check to see if it is empty before doing anything with it
+$privatePage = $pages->visible()->filterBy('mykey', 'private');
+?>
+
+<!-- This echoes out the titles of the private pages -->
+<ul>
+<?php foreach($privatePage as $item): ?>         
+<li><?php echo $item->title() ?></li>      
+<?php endforeach ?>    
+</ul>
+```
+
+If this doesn't work, check for capitalised `Mykey` in you txt files and spacing and layout.
+
+```html
+Title: Page Title
+
+----
+
+Mykey: private
+
+----
+
+Text: Blah, Blah
+
+```
+
+---
+
+@dokdeleon, you can create extra fields in your [txt content files](http://getkirby.com/docs/content) and add them to your [Blueprints](http://getkirby.com/docs/panel/blueprints), it's all in the [docs](http://getkirby.com/docs) ;-)

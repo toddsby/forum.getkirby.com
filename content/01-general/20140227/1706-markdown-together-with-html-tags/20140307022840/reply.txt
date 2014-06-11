@@ -1,0 +1,5 @@
+User: LabofOz
+----
+Date: 2014-03-07 02:28:40
+----
+Text: Wow! If I had hair I would have pulled it all out by now. Just stepping in to say that adding `markdown=1` did the trick, at least on my end

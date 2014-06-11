@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2013-12-03 15:20:52
+----
+Text: If you add a date field, Kirby can sort by date. You can include time as well.
+
+Separating them by date would be more complicated. You might have to loop through and build an array of all the dates represented, then loop through those, display them, and display any matching posts under them. Kirby won't do that by default. You'll have to use PHP magic.

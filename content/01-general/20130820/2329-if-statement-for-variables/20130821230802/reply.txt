@@ -1,0 +1,9 @@
+User: fitzage
+----
+Date: 2013-08-21 23:08:02
+----
+Text: The `->visible()` statement you already have is what gets visible children.
+
+Your `if($prints)` or `if(!empty($prints))` would only check if the entire group of pages is empty or not.
+
+Why do you need that? I'd remove the if statement altogether. You're already checking for visible pages. Unless I misunderstand what you're trying to do.

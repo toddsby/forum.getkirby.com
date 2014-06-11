@@ -1,0 +1,23 @@
+User: lock_tony
+----
+Date: 2014-03-21 15:33:16
+----
+Text: As a Digital Pacific and Kirby user we ran into this problem too. With a little more help from the Digital Pacific team we were able to determine the issue and fix it.
+
+This first occurred when DP upgraded to their cloud servers. I suspect that they also upgraded to PHP 5.3 at the same time which probably caused the error to appear. Without being able to go back to a previous version of PHP on their servers it is difficult to be certain.
+
+In the lib/kirby.php file, at line 2337, the function "get" is redefined to be a shortcut to the get function in class r (defined immediately above). You need to comment out the new definition.
+
+\#function get($key=false, $default=null) {
+\#  return r::get($key, $default);
+\#}
+
+This will get Kirby working. However a couple of optional packages also make use of this get function. Panel and Auth both use it, and there may be others. You need to edit any occurrences of get(..) to use the class override r::get(..)
+
+I have found that you need to edit auth.php which uses get('password') and get('username'), panel/lib/form.php which uses it in lots of places, panel/lib/user.php, panel/lib/actions.php and panel/lib/data.php. You will find lots of calls to get, but most have their own class override in place already, such as c::get(..). Leave those ones alone.
+
+You will also find some in panel/snippets/pages.add.php panel/snippets/files.edit.php and so on.
+
+This is a bit clumsy, but it works.
+
+Hope this helps.

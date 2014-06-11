@@ -1,0 +1,7 @@
+User: tysongach
+----
+Date: 2013-01-08 02:25:24
+----
+Text: Is it just a visual thing you’re trying to do? Nothing that needs to be in the DOM?
+
+Maybe you could utilize (link: http://css-tricks.com/almanac/properties/c/counter-increment text: CSS Counter)?

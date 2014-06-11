@@ -1,0 +1,5 @@
+User: texnixe
+----
+Date: 2014-01-19 10:49:52
+----
+Text: This setting is a general one for all text files, so I'm afraid you have to change them all.

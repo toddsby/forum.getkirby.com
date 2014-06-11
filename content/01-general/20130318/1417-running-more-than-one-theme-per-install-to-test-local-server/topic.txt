@@ -1,0 +1,17 @@
+Title: Running more than one theme, per install to test, local server?
+----
+Date: 2013-03-18 14:17:23
+----
+Solved: 0
+----
+User: crssp
+----
+Text: Hi All, n00b here, with an easy question...
+Is there a way to run several themes to test, on a local installation?
+Just drop in more than one theme folder, for different sites?
+Multiple sites on one install I guess is the question.
+
+I can't wait to test the Styleguide, Knowledgebase, and Project Management themes!
+
+Thanks,
+-Crssp

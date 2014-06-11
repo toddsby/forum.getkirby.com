@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-04-10 08:32:02
+----
+Text: Are the 'detail' folder images part of you image array? e.g. did you get pages->children?

@@ -1,0 +1,38 @@
+Title: How to get the directory/folder containing a image/file
+----
+Date: 2013-03-19 05:09:01
+----
+Solved: 1
+----
+User: sventempo
+----
+Text: Hi all, I'm a little new to PHP so please forgive me if I'm not clear or if this is a really dumb question…
+
+I have a template set up that automatically adds all the images in a project folder to the page. My goal is to have it so that when the viewer clicks on an image, it will open a larger version (a different file). A friend helped me with a quick jquery script that seems to be working fine in my tests using the absolute links for the two images. I'm having trouble figuring out how to set up the PHP so it will work automatically. I have been combing through the Kirby cheat sheet trying to find a variable that could help me but so far all I've found is ways to call the image/file name with or without the extension. I was thinking maybe I could make a subfolder—let's say it's called "large"—containing all the popup images. Then if I could somehow use PHP to call the project folder, I could then follow that with 
+
+    [...] /large/<?php echo $image->name(); ?>-large.jpg">
+
+I hope that makes sense. If you could offer any assistance or suggestions I would greatly appreciate it. 
+
+I should also mention, I'd really rather have something simple and not use Fancybox or Lightbox or anything like that. I'd like to manually save the two versions of my images.
+
+I'll include the code I've been playing around with so far in case that helps:
+
+    <script type="text/javascript">
+    $(document).ready(function () {
+        $(".original-div").hide();
+        $(".thumb-div").click(function () {
+            $(this).next(".original-div").show();
+            $(this).hide();
+        });
+    $(".original-div").click(function () {
+        $(this).hide();
+        $(".thumb-div").show();
+        });
+    });
+    </script>
+
+    <img class="thumb-div" src="http://www.website.com/kirbydirectory/content/03-contact/01-image.jpg">
+    <img class="original-div" src="http://www.website.com/kirbydirectory/content/03-contact/large/01-image-large.jpg">
+
+THANK YOU!

@@ -1,0 +1,8 @@
+User: aqeelfikree
+----
+Date: 2013-07-10 21:43:54
+----
+Text: Well that obviously explains it, but I still get an error, a fatal one at that
+
+
+Fatal error: Call to a member function last() on a non-object in /Applications/MAMP/htdocs/blog/site/templates/blog.php on line 40

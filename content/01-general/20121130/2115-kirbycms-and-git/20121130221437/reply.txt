@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2012-11-30 22:14:37
+----
+Text: You could presumably include kirbycms as a submodule, but I haven't bothered. I have the whole thing in a git repository, and then when I want to update the system I create a new branch in git first, replace Kirby with the new version, make sure it works, then merge it back into my main branch and push.

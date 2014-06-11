@@ -1,0 +1,13 @@
+User: AlexK
+----
+Date: 2013-01-17 12:47:15
+----
+Text: I ended up with a dirty hack that works perfectly for my needs.
+
+I simply put the following into a shell script and just run that any time I want to sync changes:
+
+    expect -c 'spawn rsync -arvuz --progress --delete-delay --delay-updates /Users/alex/Sites/kirbycms/kirbycms-babylondreams/ -e ssh USER@SERVER:PATHTOKIRBY ; expect assword ; send "PASSWORD" ; interact'
+
+I am aware that this isn't the most *secure* way of doing things, but then again, I am the only one in my office and there is not really a security thread from having the password in plain text in a file. (That and trying to get the public key version to work gave me a headache.)
+
+Now I have to shell scripts. One that syncs to my remote test server and one for deployment.

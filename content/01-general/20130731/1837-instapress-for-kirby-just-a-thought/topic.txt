@@ -1,0 +1,9 @@
+Title: Instapress for kirby ... Just a thought
+----
+Date: 2013-07-31 18:37:15
+----
+Solved: 1
+----
+User: aqeelfikree
+----
+Text: I was browsing (link: http://shilo.tv text: Shilo) and noticed the Instagram widget they're using on their WP site. Turns out they're using (link: http://instapress.it text: Instapress), a WP plugin to fetch and style Instagram pictures without using API. It would be nice if someone could port it to a plugin/snippet. The existing Kirby Instagram plugin requires a bunch of steps (in Instagram for dev) to register and authenticate (OAuth and redirect_uri), things that not everyone knows how to do.

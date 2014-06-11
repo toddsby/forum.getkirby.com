@@ -1,0 +1,5 @@
+User: tues37
+----
+Date: 2012-09-03 17:43:11
+----
+Text: Another little problem according to the first one: the link-structure doesn’t work as well. It always directs me back to the first kirby installation.

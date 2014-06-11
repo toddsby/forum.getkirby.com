@@ -1,0 +1,5 @@
+User: jeredb
+----
+Date: 2013-10-21 17:17:49
+----
+Text: I created an extension to Kirbytext to allow me to use `(del: Whatever)` or `(strike: Whatever)` and it is replaced to `<del>Whatever</del>` when saved.

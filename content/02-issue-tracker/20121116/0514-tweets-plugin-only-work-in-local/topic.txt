@@ -1,0 +1,11 @@
+Title: [Tweets plugin] - Only work in local
+----
+Date: 2012-11-16 05:14:42
+----
+Solved: 0
+----
+User: jesuismaksim
+----
+Text: The plugin only work on local, if I try it online, I got this error :
+
+Warning: Invalid argument supplied for foreach() in...

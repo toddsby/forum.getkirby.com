@@ -1,0 +1,17 @@
+User: JenniferHail
+----
+Date: 2014-02-18 22:52:01
+----
+Text: Hey, @craig_lock. I encountered the same issue and used your simple solution to fix it, however, I have one more issue. On the front end, my "Mood+Board" tag displays fine, as "Mood Board" in the list of tags featured in my sidebar. I also list the tags under each blog post, on both the blog page and the pages for each blog post. My tag displays as "Mood+Board" there because it is being called differently. How can I make it display without the + there?
+
+Visit my website here to see what I mean. http://jenniferhail.com/blog/sister's-graduation-mood-board-01
+
+I am using the following code...
+
+<pre><code>< ?php foreach(str::split($article->tags()) as $tag): ? >
+< a href="< ?php echo url('blog/tag:' . urlencode($tag)) ? >" >
+< ?php echo html($tag) ? ></a>
+< ?php endforeach ? >
+</code></pre>
+
+One more question. Does anyone know how to list multiple tags with a comma separator, using the code above?

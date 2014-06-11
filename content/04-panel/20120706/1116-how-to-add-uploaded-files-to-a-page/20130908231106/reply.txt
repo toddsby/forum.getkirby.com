@@ -1,0 +1,11 @@
+User: pavelkozlov
+----
+Date: 2013-09-08 23:11:06
+----
+Text: I came across the same issue: unable to add images through panel blueprints. I've uploaded my image to a news page, located at: 03-news/myimage.jpg; I am adding a tag to my content area: (image: myimage.jpg); in the front-end I am getting the following url:  http://mysite.com/en/myimage.jpg , which is clearly wrong.   I tried adding (image: 03-news/myimage.jpg) but again I am getting: http://mysite.com/en/03-news/myimage.jpg.  I need multilingual install, so I can't go without 'en' in the url.  Also, unless I go into filesystem I don't know the exact page numbering. Am I doing something wrong here?
+
+I understand there is a straight forward way planned for Kirby 2.  Is there any easier way to handle media files through panel in current version?
+
+----- EDIT -----
+
+I figured the issue, it has nothing to do with the Kirby CMS. Adding a tag ( image: myimage.jpg ) works just as expected, picking up the right image in the right folder. This post can be deleted all together.

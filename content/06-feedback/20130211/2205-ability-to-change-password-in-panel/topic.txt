@@ -1,0 +1,11 @@
+Title: Ability to change password in Panel
+----
+Date: 2013-02-11 22:05:15
+----
+Solved: 0
+----
+User: scottswany
+----
+Text: I'd love the ability to be able to change a user account's password from within Panel. Some clients aren't comfortable with FTP and just want the security of being able to do this themselves.
+
+Thanks!

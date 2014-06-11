@@ -1,0 +1,7 @@
+User: danjessen
+----
+Date: 2013-02-20 07:27:22
+----
+Text: Okay thx, could you give a short explanation as to how it would work with tags or maybe a link to a tutorial ?
+
+This is my first kirby website, so I'm still trying to learn :)

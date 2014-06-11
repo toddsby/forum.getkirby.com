@@ -1,0 +1,17 @@
+Title: can i mix html and kirbytext?
+----
+Date: 2013-02-17 23:39:24
+----
+Solved: 1
+----
+User: richardhellyer
+----
+Text: I've been trying to mix kirbytext and html but without success. When I try something like this, for example, the markdown is not expanded:
+
+    Text:
+    <div class="foo">
+    
+    ##heading
+    content
+
+    </div>

@@ -1,0 +1,5 @@
+User: jesuismaksim
+----
+Date: 2012-06-17 22:50:54
+----
+Text: I'm currently workin on my own css responsive structure and I work with Kirby, probably make it public when it going to be tough enough.

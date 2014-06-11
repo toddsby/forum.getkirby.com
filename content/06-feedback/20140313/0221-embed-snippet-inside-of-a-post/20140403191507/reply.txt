@@ -1,0 +1,5 @@
+User: me_arno
+----
+Date: 2014-04-03 19:15:07
+----
+Text: I'm doing this http://getkirby.com/forum/code-snippets/topic:731 snippets in content.

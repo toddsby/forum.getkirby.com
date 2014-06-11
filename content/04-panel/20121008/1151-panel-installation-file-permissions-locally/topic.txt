@@ -1,0 +1,19 @@
+Title: Panel installation File permissions (locally)
+----
+Date: 2012-10-08 11:51:10
+----
+Solved: 0
+----
+User: 12hoog
+----
+Text: I have a problem running the panel locally on OSX 10.8 with default system apache and viritualhostX. 
+
+I have changed all rights of the folders to 755 and the rights for the files to 666. I can edit pages, upload and changer images and add new pages. So the panel is working perfectly, but i keep getting the error as seen below:
+
+"The permissions in your content directory are not set properly. Please change the permissions for all folders to 0755 and for all files to 0666"
+
+I think it has something to do with the group and owner rights, because the panel is hosted locally. Despite everything is working fine it would be nice if we could hide the error.
+
+What would be our best option. 
+
+Thanks for the great work!

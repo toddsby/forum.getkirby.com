@@ -1,0 +1,23 @@
+User: sashtown
+----
+Date: 2014-04-01 13:40:22
+----
+Text: Just saw your post here (kinda accidentally). I couldn't find any mails sent by you in our (new) support system. 
+
+But anyway... have you already considered a (link: http://getkirby.com/blog/multi-environment-setup text: multi-environment setup)? That could do the trick for you, although it's hard for me to solve your issue without having access to your code/setup. But you should definitely give it a try. 
+
+And please check the RewriteBase in your (live server's) `.htaccess` as well! 
+
+If you've set it locally to
+
+```
+RewriteBase /your-awesome-project
+```
+
+the live version has to be
+
+```
+RewriteBase /
+```
+
+(At least if your project folder isn't a subfolder of your domain's root.)

@@ -1,0 +1,155 @@
+User: milojennings
+----
+Date: 2013-09-25 07:53:51
+----
+Text: ## Plan Room Specs
+
+### File Structure 
+
+- **Web Root:** /var/www/kirby-farm/httpdocs/
+
+All top level folders in here will represent each client. Within the top level folder, will be symlinks to the core Kirby files, as well as the content folder linked from Dropbox.
+
+- **Template:** /var/www/kirby-farm/template/
+
+All common files will be located here, and symlinked to the web root.
+
+- **Scripts & Configuration:** /var/www/kirby-farm/conf/
+
+clients.yaml contains a list of clients along with the folder mappings for symlinking
+
+### Template Folder
+
+#### index.php
+
+Some minor modifications need to be made to the index.php to deal with the way paths are resolved when symlinks are involved.
+
+Change this line: 
+
+    $root = dirname(__FILE__);
+
+To this: 
+    
+    $root = dirname( $_SERVER['SCRIPT_FILENAME'] );
+
+### .htaccess
+
+You'll also need to change this:
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*) index.php [L]
+
+To this:
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond $1#%{REQUEST_URI} ([^#]*)#(.*)\1$
+    RewriteRule ^(.*)$ %2index.php [QSA,L]
+
+### Apache config:
+
+    DocumentRoot "/var/www/kirby-farm/httpdocs/"
+    <Directory "/var/www/kirby-farm/httpdocs/">
+        Options Indexes FollowSymLinks
+        php_flag short_open_tag on 
+
+        RewriteEngine On
+        AllowOverride All
+        
+        # Controls who can get stuff from this server.
+        Require all granted
+    </Directory>
+
+
+### Configuration & Scripts
+
+#### conf/parse_clients.sh
+
+> _You'll have to forgive my horrible shell scripting abilities. I can see several ways that this script could be improved, but for now, it gets the job done for me._
+
+To make adding new plan rooms super easy I chose to use a YAML file to store the pertinent paths fo each client. 
+
+In this script, I'm using [shyaml](https://github.com/0k/shyaml) to parse the data.
+
+    #!/bin/bash
+    yaml_file="clients.yaml"
+
+    cat $yaml_file | shyaml get-values-0 clients | \
+    while read -r -d $'\0' key value; do
+        
+        if [ "$linecount" = "" ]
+            then 
+            declare -i linecount
+            linecount=0
+        fi
+
+      echo "CLIENT"
+      echo `cat $yaml_file | shyaml get-value clients.$linecount.client_name`
+      plan_room_folder_url=`cat $yaml_file | shyaml get-value clients.$linecount.plan_room_folder_url`
+      dropbox_content_folder=`cat $yaml_file | shyaml get-value clients.$linecount.dropbox_content_folder`
+
+      ./symlink_client_folders.sh "$plan_room_folder_url" "$dropbox_content_folder"
+      echo "-------------"
+
+        linecount=$((linecount + 1))
+
+    done
+
+#### conf/symlink_client_folders.sh
+
+    #!/bin/bash
+
+    farm_pub=/var/www/kirby-farm
+    dropbox_dir=/home/bitnami/Dropbox
+
+    if [[ ! -d "$farm_pub/httpdocs/$1" ]]
+        then
+        mkdir $farm_pub/httpdocs/$1
+
+        # Link Kirby assets
+        ln -nsf $farm_pub/template/.htaccess $farm_pub/httpdocs/$1/.htaccess
+        ln -nsf $farm_pub/template/index.php $farm_pub/httpdocs/$1/index.php
+        ln -nsf $farm_pub/template/assets $farm_pub/httpdocs/$1/assets
+        ln -nsf $farm_pub/template/kirby $farm_pub/httpdocs/$1/kirby
+        ln -nsf $farm_pub/template/site $farm_pub/httpdocs/$1/site
+
+        # link up content folder
+        ln -nsf "$dropbox_dir/$2" "$farm_pub/httpdocs/$1/content"
+    fi
+
+#### conf/clients.yaml
+
+    ---
+    clients:
+        - client_name:            "Person, Example"
+          plan_room_folder_url:   "example_person"
+          dropbox_content_folder: "Clients/Person, Example/Projects/example.com/content"
+        - client_name:             "Person2, Example"
+          plan_room_folder_url:    "example_person2"
+          dropbox_content_folder:  "Clients/Person2, Example/Projects/example2.com/content"      
+
+### httpd.conf
+
+    <VirtualHost *:80>
+
+        DocumentRoot /var/www/kirby-farm/httpdocs/
+        ServerName example.com
+        ServerAlias www.example.com
+
+        Options +Indexes +FollowSymLinks +MultiViews
+
+        <Directory /var/www/kirby-farm/httpdocs>
+           Options +Indexes +FollowSymLinks +MultiViews
+           AllowOverride All
+           Order allow,deny
+           allow from all
+       </Directory>
+
+    </VirtualHost>
+
+### Cron / incrond
+
+I haven't started working on this yet, but the goal is to monitor the filesystem for changes to the clients.yaml file, executing conf/parse_clients.sh using [incrond inotify](http://inotify.aiken.cz/?section=incron&page=about&lang=en), then automatically generate a folder, populated with symlinks to the template and to the content.
+
+This looks like a good tutorial: http://www.garron.me/en/linux/use-incron-rsync-dropbox-backup.html

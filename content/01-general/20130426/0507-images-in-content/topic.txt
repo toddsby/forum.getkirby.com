@@ -1,0 +1,15 @@
+Title: Images in content
+----
+Date: 2013-04-26 05:07:58
+----
+Solved: 0
+----
+User: brandon_m_cook
+----
+Text: I was wondering if it were possible to embed an image within the content of one of my pages with a relative url. I've tried but it only seems to work with absolute url's. 
+
+I'm wondering if I need to make an adjustment to my config or htaccess file.
+
+Also, does Kirby not support png images? I can't seem to get any png images to display in templates or pages. 
+
+Thanks

@@ -1,0 +1,18 @@
+User: russbaldwin
+----
+Date: 2013-06-24 10:58:44
+----
+Text: For code Three (3) backticks - here is one ` 
+to end and finish a code block on this forum, you can add identifiers after the first three backticks e.g. php, js or html etc. for syntax highlighting. 
+Search this forum for more information.
+
+e.g.
+```php
+<?php echo "echo this" ?>
+```
+
+----
+
+The php loop in the example is for one image per `div`, but from the comments the Instagram object which is returned contains 10 shots. Is it not returning 10 shots? 
+
+It would produce a series of `<div class="instagram-photo">`'s which you could float with CSS and make into rows or alter the PHP to produce some other HTML layout.

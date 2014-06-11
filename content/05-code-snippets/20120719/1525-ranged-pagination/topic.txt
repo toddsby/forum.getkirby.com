@@ -1,0 +1,13 @@
+Title: Ranged Pagination
+----
+Date: 2012-07-19 15:25:20
+----
+Solved: 0
+----
+User: bastianallgeier
+----
+Text: If you want to build a pagination with a link for each page like: 
+
+<- 1 | 2 | 3 | 4 | 5 ->
+
+take a look at this example: <https://gist.github.com/3143887>

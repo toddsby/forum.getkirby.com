@@ -1,0 +1,13 @@
+Title: Use entered email address as from for contact form?
+----
+Date: 2013-03-01 01:26:36
+----
+Solved: 0
+----
+User: scottswany
+----
+Text: Is there an easy way to change the contact form plugin to use a user-entered email address in the form as the 'from' address when it sends?  
+
+This way you could set an auto-reply to mail that came from it (acknowledging that it doesn't necessarily mean that the email address is real).
+
+Thanks

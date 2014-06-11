@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2014-02-15 09:35:44
+----
+Text: I thought that pages that are in the normal Kirby file system should be able to use the classes as they are loaded by the index.php and subsequent includes?
+
+Are you trying to tie some external stuff into Kirby. It might be worth just writing some snippets to do the stuff you want and then including them on a normal Kirby page. If not just do the PHP separately.

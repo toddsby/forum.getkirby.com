@@ -1,0 +1,28 @@
+Title: Problem to show image with specified name
+----
+Date: 2013-09-23 16:04:51
+----
+Solved: 1
+----
+User: janstieler
+----
+Text: Hi,
+I want to show a specifiy image as thumb but if I wrote the name like at the Kirby docs it doesn't show anything.
+
+	<section id="isotope" class="">
+	<?php foreach($page->children()->visible() as $article): ?>
+	<figure class="tiles no-gutter-left gutter<?php echo html($article->tags()) ?>">
+	<a href="<?php echo $article->url() ?>">
+	<?php foreach($article->images()->find('thumb.gif') as $image): ?>
+	<img src="<?php echo $image->url() ?>" alt="Placeholdit Image" class="img-responsive">
+	<?php endforeach ?>
+	<figcaption class="caption">
+	<h1><?php echo html($article->title()) ?></h1>
+	<h2><?php echo html($article->subtitle()) ?></h2>
+	</figcaption>
+	</a>
+	</figure>
+	<?php endforeach ?>
+	</section>
+
+What am I doing wrong?

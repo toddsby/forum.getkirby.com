@@ -1,0 +1,12 @@
+User: russbaldwin
+----
+Date: 2013-07-11 10:23:35
+----
+Text: Actually using a simplified version, just using this this works for me.
+`$page->tags()` in this case is my array.
+
+```php
+foreach(str::split($page->tags(),'/') as $category):
+echo $category
+endforeach 
+```

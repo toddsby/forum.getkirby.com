@@ -1,0 +1,12 @@
+User: huhcorp
+----
+Date: 2014-02-21 04:54:54
+----
+Text: In this thread:
+http://getkirby.com/forum/panel/topic:689
+Panel installation - Stuck on accounts (step 2)
+
+Found this post, by @dokdeleon
+maybe try this: c::set('troubleshoot', true); on line 301 of your http://yoursite.com/site/config/config.php. Go to your home page and you should be able to see your setup and if there's an error, it should show up here.
+
+Great way to see what's wrong. I'd never seen this before. Great way to see what's incorrectly set up.

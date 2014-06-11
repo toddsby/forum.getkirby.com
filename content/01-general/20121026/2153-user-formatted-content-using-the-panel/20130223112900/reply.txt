@@ -1,0 +1,9 @@
+User: JanStieler
+----
+Date: 2013-02-23 11:29:00
+----
+Text: Hi,
+a really easy to integrate solution is (link: http://markitup.jaysalvat.com/home/ text:markitup-editor). It works directly with jQuery and it have setups also for markdown syntax.
+And it is really easy to add some new buttons with own syntax.
+
+I think this is a really good solution to have an Editor at the panel and not the trouble with an WYSIWYG-Editor.

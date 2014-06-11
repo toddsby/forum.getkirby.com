@@ -1,0 +1,50 @@
+Title: My approach to Categories Template
+----
+Date: 2013-02-07 18:29:51
+----
+Solved: 0
+----
+User: dokdeleon
+----
+Text: Made a reply on one of the topics in Forums > General. Seems off tangent from what was being discussed so I'm posting this here for those who may find this useful. This is my approach to **category template**:
+
+I just made a demo for a catalog type site using kirby. Products are grouped in categories. Each category has its own page. Here's the [working site](http://tertoncraft.com/products), the links for the categories are on the left.
+
+screenshot of panel:(image: http://i47.tinypic.com/2z66o2v.jpg width: 450)
+
+This is the folder structure:
+
+	01-products
+	-- 01-product1
+	---- product-detail.txt
+	-- 02-product2
+	---- product-detail.txt
+	-- 03-product3
+	---- product-detail.txt
+	[...]
+	-- category1
+	---- category.txt
+	-- category2
+	---- category.txt
+	-- category3
+	---- category.txt
+
+What I did was have `categories` as _invisible siblings_ of the products. So there's one **product** folder where all products are placed including the _invisible_ categories. A category folder has a text file named category.txt which only contains **title: _categoryname_**. The actual products have a text field on the **product-detail.txt** for _category_. Finally, the category.php template has this:
+
+    <?php $myValue = $page->title(); $myText = (string)$myValue; ?>
+    
+	<div class="prodBox">
+        <?php $allProds = $page->siblings()->visible()->filterBy('category',$myText); ?>
+        <?php foreach($allProds as $allProd): ?>   
+          <div class="imgbox">
+            <a href="<?php echo $allProd->url() ?>">
+              <img src="<?php echo thumb($allProd->images()->first(), array('width' => 340, 'crop' => true), false) ?>">
+              <span><?php echo $allProd->title() ?></span>
+            </a>
+          </div>
+		<?php endforeach ?>
+    </div>
+
+So when adding a new category, the user can just make a new category subpage and keep it invisible. 
+
+Note that I had to make `$myValue` to string to make it work. I'm sure there's a better way, I'm a newbie to php :D

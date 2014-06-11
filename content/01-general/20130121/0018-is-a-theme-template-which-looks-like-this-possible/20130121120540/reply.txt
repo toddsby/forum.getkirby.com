@@ -1,0 +1,6 @@
+User: russbaldwin
+----
+Date: 2013-01-21 12:05:40
+----
+Text: Not really so much todo with Kibry more todo with design and CSS?
+Check out Google for CSS positioning, like [CSS Fixed Positioning](http://davidwalsh.name/css-fixed-position) or [CSS position Property](http://www.w3schools.com/cssref/pr_class_position.asp).

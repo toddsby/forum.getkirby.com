@@ -1,0 +1,7 @@
+User: SimonStuecher
+----
+Date: 2012-10-02 15:35:53
+----
+Text: Many thanks!
+
+Now it works as expected and even better ;-)

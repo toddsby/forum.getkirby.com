@@ -1,0 +1,11 @@
+User: NeilsonCheng
+----
+Date: 2014-03-12 14:38:11
+----
+Text: Thank you for the quick reply!
+
+I went with a variant of solution #2, ran another foreach loop specifically to find About, while omitting About from the former loop.
+
+It probably isn't the best way to do it, running a loop for a specific UID seems... excessive? But it works for my extremely limited knowledge of php, maybe I can revisit this when I am a little better at this.
+
+Thanks again. (-:

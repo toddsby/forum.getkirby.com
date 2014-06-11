@@ -1,0 +1,7 @@
+User: ndrsn
+----
+Date: 2013-08-15 01:54:43
+----
+Text: I've updated the original post with a better Pastebin link.
+
+Okay, so that worked! However here's another problem. If for some reason the user forgets to upload an image, the post doesn't get displayed at all (no PHP errors). Is there a way around that?

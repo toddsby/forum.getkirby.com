@@ -1,0 +1,14 @@
+User: bastianallgeier
+----
+Date: 2012-10-10 10:38:03
+----
+Text: This should work: 
+
+```
+
+<?php $image = $article->images()->filterBy('name', 'thumb') ?>
+<?php if($image && $image->first()): ?>
+  <img src="<?php echo thumb($image->first(), array('width' => 300, 'height' => 200, 'crop' => true), false) ?>">
+<?php endif ?>
+
+```

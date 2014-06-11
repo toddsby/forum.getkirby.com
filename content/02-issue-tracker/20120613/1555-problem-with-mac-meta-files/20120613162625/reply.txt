@@ -1,0 +1,5 @@
+User: retiolum
+----
+Date: 2012-06-13 16:26:25
+----
+Text: Another addition: I guess the starting point for a fix should be in the dir::read() method where either files starting with a '._' should be globally excluded or the list of files has to be scanned for "doubles", i.e. files and their '._' counterpart.

@@ -1,0 +1,5 @@
+User: y00fie
+----
+Date: 2012-05-22 22:08:51
+----
+Text: Nope, does not return any errors. Same XML parsing errors are still there.

@@ -1,0 +1,14 @@
+Title: Get page name including the "01"
+----
+Date: 2013-02-10 01:38:32
+----
+Solved: 1
+----
+User: swenflea
+----
+Text: Hi all,
+
+How do I get the current page folder name including the 01, or 02 etra in the front?
+
+Thanks
+Ben

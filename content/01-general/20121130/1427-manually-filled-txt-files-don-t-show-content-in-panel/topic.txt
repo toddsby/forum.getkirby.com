@@ -1,0 +1,25 @@
+Title: Manually filled txt Files don't show Content in Panel
+----
+Date: 2012-11-30 14:27:42
+----
+Solved: 0
+----
+User: sirnovi
+----
+Text: Hello everybody. 
+
+So' I filled a few files with content - just the Title and Text, like in the default template. And it's all being output as it is supposed to be. 
+
+However, if I visit those pages in the Panel the Text-Area is empty. 
+
+If I go ahead and take the text part from the file and paste it in the text area field from the Panel and Save, then it's also shown in the Panel and the output stays all the same. 
+
+Now - I have a lot of pages that i want to convert from HTML to txt files for Kirby, which worked just fine with those few files I tested it with. But I want my client to be able to use the panel, which is of course not possible if the text doesn't show up there. 
+
+
+What could be the issue here?
+
+Thanks for any ideas!
+
+Cheers 
+novi

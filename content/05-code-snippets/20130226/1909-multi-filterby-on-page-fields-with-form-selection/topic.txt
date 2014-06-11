@@ -1,0 +1,109 @@
+Title: Multi-FilterBy on Page Fields with Form Selection
+----
+Date: 2013-02-26 19:09:03
+----
+Solved: 0
+----
+User: russbaldwin
+----
+Text: The idea was to be able to add fields to pages and be able to have a combined multi-filter to select pages which match *all* the filters.
+
+Select your filters and then hit the 'Filter' button: A list of selected filters will be displayed and if there are matches the pages names are displayed, sometimes you get no matches.
+
+**This is very basic and only put here as a starting point for others because I have been asked quite a lot!**
+Usual warnings... Code is messy but functional-ish and testing was non-existent. 
+
+Also this may not be the best way to do this! *Bastain may have an easier way*, over to you...
+
+
+```php
+<h3>Multi-FilterBy</h3>
+
+<?php   
+#Pages have these fields, the can have comma separated values for group, category and option. You can of course use your own and alter the code accordingly ;-}
+    
+#  Title: Event1
+#  ----
+#  Group: Group1
+#  ----
+#  Category: Cat2
+#  ----
+#  Option: Option1
+#  ----
+#  Text: Some text
+#  ----
+
+# Get the tagclouds, we are using three: groups, categories and options. You also of course need the tagcloud plugin, but just as it is no hacks or duplicates.
+
+$items = $pages->find('events');
+$groups = tagcloud($items, array('field' => 'group','sort' => 'name','sortdir' => 'asc'));
+$categories = tagcloud($items, array('field' => 'category','sort' => 'name','sortdir' => 'asc'));
+$options = tagcloud($items, array('field' => 'option','sort' => 'name','sortdir' => 'asc'));
+  
+# Next get the individual unique names from the tagclouds for the form select filter options
+?>
+ <form action="" method="post">
+    <h3>Select Group</h3>
+    <label for="groups">Select Group:</label>
+  	<select name="groups">
+    	<?php foreach($groups as $group): ?>
+    	  <option value="<?php echo $group->name()?>"
+          <?php if(($_POST) and (strval($group->name()) == $_POST['groups'])) echo ' selected ="selected" ';?>> 
+          <?php echo $group->name()?></option>
+    	<?php endforeach ?>
+  	</select>
+    <hr/>
+    <label for="categories">Select Category:</label>
+  	<select name="categories">
+    	<?php foreach($categories as $category): ?>
+    	  <option value="<?php echo $category->name()?>" 
+          <?php if(($_POST) and (strval($category->name()) == $_POST['categories'])) echo ' selected ="selected" ';?>>
+          <?php echo $category->name()?>
+        </option>
+    	<?php endforeach ?>
+  	</select>
+    <hr/>
+    <label for="options">Select Option:</label>
+  	<select name="options">
+    	<?php foreach($options as $option): ?>
+        <option value="<?php echo $option->name()?>"
+          <?php if(($_POST) and (strval($option->name()) == $_POST['options'])) echo ' selected ="selected" ';?>> 
+          <?php echo $option->name()?></option>
+    	<?php endforeach ?>
+  	</select>
+    <br/>
+    <button type="submit" id="submit" name="submit" value="Submit" class="btn">Filter</button>
+  </form>
+
+<hr/>
+
+<h3>Selected filters:</h3>
+<?php 
+# Check to see if anything has been selected, if so then show the filters selected
+if ($_POST){
+  echo '<ul><li>'.$_POST['groups'].'</li>';
+  echo '<li>'.$_POST['categories'].'</li>';
+  echo '<li>'.$_POST['options'].'</li></ul><hr/><br/>';
+      
+  $filtered = $pages->find('events')
+                    ->children()
+                    ->filterBy('group', '*=', $_POST['groups'])
+                    ->filterBy('category', '*=', $_POST['categories'])
+                    ->filterBy('option', '*=', $_POST['options']);
+                        
+# And then display pages that match the filter if any - you can use anything in the array
+  if ($filtered <>''){   
+    echo '<h3>Pages that match filters:</h3>';
+    echo '<ul>';
+      foreach($filtered as $page) echo '<li> <a href="'.$page->url().'">'.$page->title().'</a></li>';
+      echo '</ul>';
+    }
+    else 
+      {echo '<h3>No pages match filters</h3>';}
+}
+else 
+  {echo '<p>No filter selected</p>';}
+    
+?>
+
+```

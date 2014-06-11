@@ -1,0 +1,16 @@
+User: fitzage
+----
+Date: 2014-02-27 18:53:14
+----
+Text: 1. It looks to me like you're putting your markdown in the template instead of in the content file. But maybe that's just how you did your code block for this post.
+2. You can't generally use markdown inside an html div. However, if you enable markdown extra in your config file, you can use this method:
+
+```html
+<div markdown="1">
+
+### Headline
+
+Some Text
+
+</div>
+```

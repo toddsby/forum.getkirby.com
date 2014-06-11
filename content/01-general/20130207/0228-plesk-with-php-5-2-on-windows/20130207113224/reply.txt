@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-02-07 11:32:24
+----
+Text: Are you forcing HTTPS in your .htaccess file or elsewhere?

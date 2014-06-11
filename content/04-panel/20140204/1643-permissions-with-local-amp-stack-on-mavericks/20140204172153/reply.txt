@@ -1,0 +1,13 @@
+User: owzim
+----
+Date: 2014-02-04 17:21:53
+----
+Text: Since my AMP setup is quite fresh and I installed it on my own for the first time, I did not make my http root owned by the user:group _www:_www that apache is run as, so this fixed it:
+
+    sudo chown -R _www:_www /path/to/www/root/
+
+To make my own user be able to edit/create files I add myself to the _www group:
+
+    sudo dseditgroup -o edit -a myusername -t user _www
+
+I understand this might have better been posted on stackexchange's superuser site, but I keep it here, in case anyone else stumbles upon that =)

@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-02-28 18:25:20
+----
+Text: Glad it is working for you @baderkamal. I'm not sure what your experience is with PHP? so apologies of this is a bit basic:
+
+If logic code does not work, it is often because you are not matching like with like or that the code is wrong and the condition is always true/false. There is lots of good PHP help on Google ;-)

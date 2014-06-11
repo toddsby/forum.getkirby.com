@@ -1,0 +1,9 @@
+User: bl2nk
+----
+Date: 2013-02-28 11:58:05
+----
+Text: It seems the problem fixed itself, so I removed `'disqus_title' => '$page->title()'` from the template.
+
+But another problem appeared: For one of my articles the title shows as `$page->title()`. Might be a problem with disqus though, because my title had an apostrophe in it.
+
+In the snippet the title is set to `var disqus_title      = '<?php echo html($disqus_title) ?>';` which is `if(!isset($disqus_title))      $disqus_title = $page->title();`.

@@ -1,0 +1,42 @@
+User: bastianallgeier
+----
+Date: 2013-02-07 15:00:11
+----
+Text: I would use YAML content for that:
+
+    ----
+    courses: 
+      - photoshop
+      - illustrator
+    ----
+    lessons:
+      - photoshop: 5
+      - illustrator: 7
+    ----
+
+This can be parsed in your template like this
+
+```
+<?php
+
+$user    = auth::user();
+$courses = yaml($user->courses());
+$lessons = yaml($user->lessons());
+
+?>
+```
+
+both will produce a nice array. afterward simply check if the user is allowed to access the current course and the current lesson and if not send him to the home page or wherever: 
+
+```
+<?php
+
+// this can of course be dynamic
+$course = 'photoshop';
+$lesson = 5;
+
+if(!in_array($course, $courses)) go(url());
+if(!in_array($lesson, $lessons[$course])) go(url());
+
+?>
+```

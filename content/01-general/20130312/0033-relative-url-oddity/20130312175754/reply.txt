@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2013-03-12 17:57:54
+----
+Text: Oh, also you could just put an additional slash at the beginning of your image tag. That should work correctly, and be cross-domain compatible.
+
+    <li><img src="/assets/images/foo.png"> lorem ...</li>

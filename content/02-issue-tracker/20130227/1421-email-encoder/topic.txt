@@ -1,0 +1,14 @@
+Title: Email encoder
+----
+Date: 2013-02-27 14:21:08
+----
+Solved: 0
+----
+User: tbnv
+----
+Text: Hi,
+
+I just found out that the "mailto:" part of an email link is encoded only when using the `<email_address>` syntax. It's not encoded as soon as the `(emaiI: email_address)` syntax is used (I put a capital "i" on purpose, so it's not parsed). I guess that "mailto:" part is a pretty good indicator for bots looking for email addresses. Wouldn't it be better to always encode it?
+
+Cheers,
+Thibaut Ninove

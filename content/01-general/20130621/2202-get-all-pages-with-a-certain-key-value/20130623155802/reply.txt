@@ -1,0 +1,5 @@
+User: dokdeleon
+----
+Date: 2013-06-23 15:58:02
+----
+Text: @russbaldwin thanks.. was actually asking if he used select field or radio as fields to determine if the post/page is private or not.. If that's the case, there have been isues with using radio default and he may have been experiencing the same issue :D.. [reference here](http://getkirby.com/forum/issue-tracker/topic:451)

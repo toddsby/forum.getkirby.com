@@ -1,0 +1,15 @@
+User: ChrisjMartin87
+----
+Date: 2013-01-21 15:45:00
+----
+Text: What exactly do you mean? Do you want the body id to reflect the page type?
+
+ie a product page may be 
+
+     <body id="product"></body>
+
+and a contact page 
+
+     <body id="contact"></body>
+
+Something like this but for each page?

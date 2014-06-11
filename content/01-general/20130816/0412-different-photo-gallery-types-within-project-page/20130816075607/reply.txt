@@ -1,0 +1,29 @@
+User: azharc
+----
+Date: 2013-08-16 07:56:07
+----
+Text: There are multiple ways to approach it. 
+
+- Use a different template for each of the sub-pages (one for with slides, and one for without). Then when you pull them into the client page, run an if statement checking for the template you chose and act accordingly. 
+
+Example:
+
+	<?php if ($subpage->template() == "slides"): ?>
+		<!-- Make those slides happen -->
+	<?php else: ?>
+		<!-- Display them some other way -->
+	<?php endif ?>
+
+- Just add a variable to the subpage .txt, such as 'Type: slides', and then check for that. 
+
+Example:
+
+	<?php if ($subpage->type() == "slides"): ?>
+		<!-- Make those slides happen -->
+	<?php else: ?>
+		<!-- Display them some other way -->
+	<?php endif ?>
+
+The benefit of this one is that if you're using the panel, you can just plop in a checkbox to enable or disable the slides as needed. 
+
+The benefit of the first one is that you can pull in your sub-pages using AJAX on-demand if that's the way you're building things (since each of those pages, having a template, will generate HTML you can pull).

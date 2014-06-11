@@ -1,0 +1,13 @@
+Title: New to Kirby… should I try or stay with Wordpress?
+----
+Date: 2014-01-10 21:37:57
+----
+Solved: 0
+----
+User: rafaelmacho
+----
+Text: Hi, I am not a programmer. I am a designer/illustrator and I have been using Wordpress for my past two websites since 2009. I am looking to create a new website for my work. After some research I found Kirby. The examples of website that are showcased are really nice, fresh and responsive.
+I am not sure where to start! Should I hire and pay someone? Is Kirby so small that it's hard to find someone? About future maintenance?
+I am not understanding the process or Kirby.
+Could someone point at me some tutorial for dummies?!
+Thanks in advance!

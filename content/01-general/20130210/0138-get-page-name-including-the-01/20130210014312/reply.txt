@@ -1,0 +1,5 @@
+User: swenflea
+----
+Date: 2013-02-10 01:43:12
+----
+Text: Just found $page->dirname();

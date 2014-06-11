@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2012-05-30 17:51:03
+----
+Text: I was thinking, perhaps one good way to handle this would be a plugin that can parse an ics feed or something, and display that. This would allow management of group calendars via google calendar or something, and then it could be displayed on the website.
+
+Building that plugin is out of my league, though. You can add that to your ideas list. Or not. :-)

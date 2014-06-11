@@ -1,0 +1,13 @@
+User: j111k000
+----
+Date: 2013-12-29 14:40:27
+----
+Text: Hi, have you read this post? (link: http://getkirby.com/forum/general/topic:35) Got everything working by following Bastians instructions. Just remember if you are developing locally and the ajax call gets cut off, try hardcoding the path to your ajax folder in the ajax call. I spent a whole day trying to figure out why it didn't work. Until someone pointed out that 
+
+
+	<?php echo $_SERVER[HTTP_HOST]; ?>/ajax/
+
+
+Might not work locally depending on your apache settings. In this case just hardcode the path like so:
+
+	http://localhost:8888/kirby/ajax/

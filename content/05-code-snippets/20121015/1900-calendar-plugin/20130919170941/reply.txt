@@ -1,0 +1,5 @@
+User: jordanmerrick
+----
+Date: 2013-09-19 17:09:41
+----
+Text: This is great! One problem I am having though is that iCal feeds aren't working. I can see the event information within the file it generates but attempting to subscribe to the URL with a calendar app such as iCal doesn't display any events.

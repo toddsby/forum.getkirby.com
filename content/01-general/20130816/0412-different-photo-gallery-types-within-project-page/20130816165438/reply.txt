@@ -1,0 +1,5 @@
+User: craig_lock
+----
+Date: 2013-08-16 16:54:38
+----
+Text: That worked perfectly. Thanks a ton! I ended up going with the second solution in my case, as I like the idea of the client just being able to tick the checkbox if they want it to display as slides or not. Thanks again!

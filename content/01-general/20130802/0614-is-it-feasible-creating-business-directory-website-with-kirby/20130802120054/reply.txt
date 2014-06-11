@@ -1,0 +1,13 @@
+User: russbaldwin
+----
+Date: 2013-08-02 12:00:54
+----
+Text: 1. Mmm... maybe depends on server/disk speed (new SSD server could be just the trick), and you can of course cache further up stream, I think Bastian mentioned searching speed will be further improved in Kirby 2
+
+2. Up to you, flat seems to work OK for me.
+
+3. Another option
+
+4. It's PHP so you can do quite a bit ;-)
+
+Not sure if this answers your questions, search the forums check out the example sites, some are big and have good search.

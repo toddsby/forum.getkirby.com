@@ -1,0 +1,13 @@
+User: ChrisjMartin87
+----
+Date: 2013-08-15 14:46:24
+----
+Text: I posted this in response to another question but it should get around the problem you have....
+
+    <?php foreach($page->children() as $child): ?>
+        <?php if($child->hasImages()): ?>
+            <a href="<?php echo $child->url() ?>">
+                <img src="<?php echo $child->images()->first()->url() ?>"/>
+            </a>
+        <?php endforeach ?>
+    <?php endif ?>

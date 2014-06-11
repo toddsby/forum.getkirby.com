@@ -1,0 +1,5 @@
+User: chrstphbach
+----
+Date: 2012-10-22 00:38:15
+----
+Text: I'm happy to announce that there's finally iCal support. We changed the template system, so that it is now easier to create custom markup.

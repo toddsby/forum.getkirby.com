@@ -1,0 +1,5 @@
+User: scottswany
+----
+Date: 2012-10-31 01:34:00
+----
+Text: Nevermind.  Upgraded the server to PHP 5.3 and that solved it.

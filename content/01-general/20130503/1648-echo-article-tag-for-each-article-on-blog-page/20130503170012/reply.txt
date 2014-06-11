@@ -1,0 +1,18 @@
+User: chrisburton
+----
+Date: 2013-05-03 17:00:12
+----
+Text: This worked:
+
+
+    <div class="news">
+      <?php $articles = $page->children()->visible()->flip()->paginate(3) ?>
+      <?php foreach($articles as $article): ?>
+
+      <article class="article">
+        <span class="category"><?php echo $article->tags(); ?></span>
+        <span class="numeral"><?php echo ltrim($article->num(), '0'); ?></span>
+        <h1><a href="<?php echo html($article->url()) ?>"><?php echo html($article->title()) ?></a></h1>
+        <time pubdate="pubdate"><?php echo $article->date('n/j/Y') ?></time>
+      </article>
+    </div>

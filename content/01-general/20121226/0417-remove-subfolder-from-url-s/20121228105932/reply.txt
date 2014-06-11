@@ -1,0 +1,30 @@
+User: vis7mac
+----
+Date: 2012-12-28 10:59:32
+----
+Text: Create a .htaccess file in your web root so it looks like that:
+
+```
+.htaccess <<- This one!
+v3
+  .htaccess
+  assets
+  content
+  kirby
+  site
+```
+
+Add these lines to it:
+
+```
+RewriteEngine On
+RewriteRule ^(.*)$ /v3/$1
+```
+
+You also have to change a line (normally line 74) in your `site/config/config.php` file to override the subfolder setting:
+
+```
+c::set('subfolder', '/');
+```
+
+The question is: Do you really need the subfolder - you can also move your whole Kirby website to your site root, can't you?

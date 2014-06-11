@@ -1,0 +1,9 @@
+User: psztrnk
+----
+Date: 2013-10-16 09:39:02
+----
+Text: @fitzage: yes, it will work if only one tag is specified at the tag field. However, I give only one tag to each article, so it works. :) 
+
+But yes, it requires `explode()` if you have more than one tag assigned.
+
+Also, it can be combined with `shuffle()` instead of `flip()` after the `not($page->uid())`, so you can pull random related posts.

@@ -1,0 +1,7 @@
+User: bastianallgeier
+----
+Date: 2012-05-18 10:35:48
+----
+Text: Thanks @robrainfall for the links. That tutorial series is really, really good. 
+
+I've also posted a little tutorial, on how to add css stylesheets with media queries to your site: (link: http://getkirby.com/blog/quicktip-media-queries)

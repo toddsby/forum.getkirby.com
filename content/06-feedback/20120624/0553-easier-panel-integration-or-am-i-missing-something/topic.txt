@@ -1,0 +1,23 @@
+Title: Easier Panel integration or am I missing something?
+----
+Date: 2012-06-24 05:53:00
+----
+Solved: 0
+----
+User: nilshendriks
+----
+Text: I was wondering if I am the only one that finds adding the Panel to a site is tedious because of the folder and file permissions?
+
+Maybe I am missing an easy way to do this?
+
+- Terminal: I rather not use terminal but if that has a way to separately set permission on folders and files to their numbers, I'd love to know
+
+- Finder: as far as I know Finder does not work with numbers for permissions.
+
+- Panic's Transmit: I used this now. I thought if I first set permissions to the 'content' folder to 666 and apply to enclosed items it would take care of all files. Then I selected all folders and applied 755 to just the folders.
+
+Looks like this does not go in deeper than 1 level of folders.
+
+Also I am still not allowed to create a new page even with the content folder set to 755.
+
+And then there is the question about the 'Please fix first!' messages. Are these supposed to go away when all is well?

@@ -1,0 +1,9 @@
+User: fitzage
+----
+Date: 2013-06-25 19:33:48
+----
+Text: Should be something like:
+
+    <?php $catcloud = tagcloud($pages->find('blog'), array('field' => 'categories')) ?>
+
+Then proceed with your loop using $catcloud as your list of categories.

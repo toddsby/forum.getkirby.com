@@ -1,0 +1,8 @@
+User: aristotheme
+----
+Date: 2014-05-17 22:02:39
+----
+Text: I tested it..
+It is responsive with some devices.. but not at all
+
+(link:http://www.responsinator.com text:http://www.responsinator.com)

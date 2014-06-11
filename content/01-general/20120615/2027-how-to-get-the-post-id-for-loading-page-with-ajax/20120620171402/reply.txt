@@ -1,0 +1,24 @@
+User: brtdesign
+----
+Date: 2012-06-20 17:14:02
+----
+Text: Well... the way I did it was by removing the parts of the project template that I didn't needed, like the header, menu and footer. And then load the whole page based on the href of the link and it worked fine. The problem is that I would't have a fallback for noJs and later when I want to add my social links for people to share my individual projects I wouldn't have a full template for that. For this reason I am going to change my code for the one that the great Bastian provided. 
+
+Still, to serve as an example, here's my code :
+
+```
+$.ajaxSetup ({cache: false});  
+		        var ajax_load = "<img src='img/load.gif' alt='loading...' />";  
+
+	
+		        var loadUrl = "kirby/project.php";  
+			    //  $.get()  
+				$(".portfolioGridLink").click(function(e){  
+					e.preventDefault();
+					$this = $(this).attr("href");
+					$("h1.pageTitle").fadeOut();
+					console.log($this);
+			        $("#result").html(ajax_load);  
+					$("#result").load($this).slideDown();
+			    });
+```

@@ -1,0 +1,11 @@
+User: thatweb
+----
+Date: 2012-10-14 11:25:33
+----
+Text: Hello Bastian,
+
+I delete all files and replaced them with the newest version of kirby. After three attemps the error has gone. ;-)
+
+I will keep the solution you posted in mind and try it the next time it occurs,
+
+Thank you!

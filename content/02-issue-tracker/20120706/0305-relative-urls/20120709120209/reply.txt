@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-07-09 12:02:09
+----
+Text: That's weird! I will check why you need to remove the subfolder to make it work.

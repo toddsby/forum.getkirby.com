@@ -1,0 +1,5 @@
+User: lunelson
+----
+Date: 2013-01-07 21:04:56
+----
+Text: Ah. Thanks, I hadn't checked back on this topic in some time. What's the code to do a redirect?

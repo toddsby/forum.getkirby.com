@@ -1,0 +1,16 @@
+User: SimonStuecher
+----
+Date: 2012-10-04 09:52:37
+----
+Text: This doesn't work in combination with URL-Keys.
+
+Let's say we have a 'about-us' page in english and the URL-Key for the german version is 'ueber-uns'.
+
+$pages->find('about-us')->content('de')->title();
+doesn't work.
+
+I have to do something like
+$pages->find('ueber-uns')->content('de')->title();
+
+But I only know the UID, not the url of the page. So I tried this (which didn't work):
+$pages->findByUID('about-us')->content('de')->title();

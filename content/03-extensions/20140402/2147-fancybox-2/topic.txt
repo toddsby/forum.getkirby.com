@@ -1,0 +1,43 @@
+Title: Fancybox 2
+----
+Date: 2014-04-02 21:47:21
+----
+Solved: 0
+----
+User: t94xr
+----
+Text: Here is the updated instructions for a simple method of how I put the latest fancybox 2 into my Kirby.
+(which is still on my dev server)
+
+!-- Add jQuery library -->
+?php echo js('http://code.jquery.com/jquery-latest.min.js') ?>
+!-- Add mousewheel plugin (this is optional) -->
+?php echo js('assets/fancybox/lib/jquery.mousewheel-3.0.6.pack.js') ?>
+!-- Add fancyBox -->
+?php echo css('assets/fancybox/source/jquery.fancybox.css?v=2.1.5') ?>
+?php echo js('assets/fancybox/source/jquery.fancybox.pack.js?v=2.1.5') ?>
+!-- Optionally add helpers - button, thumbnail and/or media -->
+?php echo css('assets/source/helpers/jquery.fancybox-buttons.css?v=1.0.5') ?>
+?php echo js('assets/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5') ?>
+?php echo js('assets/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6') ?>
+?php echo css('assets/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7') ?>
+?php echo js('assets/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7') ?>
+
+script type="text/javascript">
+
+	$(document).ready(function() {
+		$("a.fancybox").fancybox();
+	});
+
+/script>
+
+I've removed the < from the code, just append < back in.
+
+That goes into my header.php, before the </head> tag.
+
+I extract my fancybox 3 directory into /assets/fancybox
+But the source folder appears to be the only folder called upon by the script.
+
+I just simply put 'class: fancybox' on the image markdown or you could go into the backend and append class='fancybox' to the actual html output within the php...
+
+Hope this helps!

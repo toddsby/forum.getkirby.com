@@ -1,0 +1,18 @@
+Title: Create a grid of projects (thumbnails)
+----
+Date: 2012-06-13 21:40:09
+----
+Solved: 0
+----
+User: brtdesign
+----
+Text: Hello guys. I am fairly new to developing php, especially with kirby.
+
+I've been trying to figure out how can I be able to have a projects that loops through all the existing projects and accesses to one of the thumbnails in order to display it as a link. 
+My problem is I am using the submenu code to get all the projects and I have the code for getting all the images or just a specific one, but I am not being able to combine. 
+
+It would be awesome if someone could give me an example of how to do this. 
+
+say something if you want me to post a sample of the code ( I doubt it will help)
+
+Thanks in advanced

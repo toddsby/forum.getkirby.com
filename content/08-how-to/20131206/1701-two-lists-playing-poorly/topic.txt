@@ -1,0 +1,79 @@
+Title: Two lists playing poorly
+----
+Date: 2013-12-06 17:01:19
+----
+Solved: 1
+----
+User: cadler
+----
+Text: Hi!
+
+I'm just getting into Kirby and back into some PHP, so excuse my ignorance here. I'm sure my flub is obvious to most.
+
+What I'm trying to do:
+I'm building a "one pager" of sorts. A homepage that will display my most recent blog post, with an index / list of other posts below. So that's the first list.
+
+Below that will be a list of talks I've given. 
+
+Both lists will link off to a corresponding detail page.
+
+What's occurring:
+The two lists seem to be intermingling. They're displaying as separate lists on the page, but the data from each list are essentially combining in the two instances they're rendered. 
+
+Here's a screenshot where you can see some of the duplication...
+(link: http://cl.ly/Spla)
+
+Here's the code from the blog.php snippet:
+
+    <section id="blogs">
+    	    <div class="section row">
+		    <div class="container">
+			    <div class="col twelve">
+			    <h3><?php echo html($data->title()) ?></h3>			
+			    <div class="article-listings">
+			     <ul>
+			     <?php foreach($pages->children()->visible()->flip() as $article): ?>
+			      <li>
+			        <a href="<?php echo $article->url() ?>"><?php echo html($article->title()) ?> <span class="article-date">&mdash; <?php echo html($article->date('m.d.Y')) ?></span></a> 
+			      </li>
+			      <?php endforeach ?>
+			     </ul>
+			    </div>
+			    </div>
+		    </div>
+	    </div>
+    </section>
+
+A pastie of the code – (link: http://pastie.org/8533555)
+
+
+
+This is the code for my talks.php snippet:
+
+    <section id="talks">
+ 	    <div class="section row">
+		    <div class="container">
+			    <div class="col twelve">
+			     <h3><?php echo html($data->title()) ?></h3>
+			     <?php echo kirbytext($data->text()) ?>
+			
+			    <div class="talk-listings">
+			     <ul>
+				    <?php foreach($pages->children()->visible()->flip() as $talk): ?>
+			      <li>
+			        <a href="<?php echo $talk->url() ?>"><?php echo html($talk->event()) ?></a> 
+			      </li>
+			      <?php endforeach ?>
+			     </ul>
+			    </div>
+			    </div>
+		    </div>
+	    </div>
+    </section>
+
+A pastie of the code – (link: http://pastie.org/8533551)
+
+What the heck am I doing wrong? :)
+
+Thanks!
+Charles

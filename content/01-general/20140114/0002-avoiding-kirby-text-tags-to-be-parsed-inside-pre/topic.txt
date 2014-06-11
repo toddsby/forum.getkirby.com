@@ -1,0 +1,19 @@
+Title: Avoiding kirby text tags to be parsed inside <pre>
+----
+Date: 2014-01-14 00:02:40
+----
+Solved: 0
+----
+User: francescoea
+----
+Text: I'd like to show on my blog a few KirbyText extensions I've developed, but I can't avoid the tags to be parsed. 
+
+I write inside the <pre> code block something like
+
+    ( image:http://.... )
+
+and I'm expecting exactly the same text to be rendered on the page; but the tag is parsed and between the <pre> tags I find 
+
+    <image source:http//..... >
+
+Where's the trick?

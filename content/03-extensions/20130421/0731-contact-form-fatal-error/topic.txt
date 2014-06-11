@@ -1,0 +1,14 @@
+Title: Contact form fatal error
+----
+Date: 2013-04-21 07:31:40
+----
+Solved: 1
+----
+User: zavadesign
+----
+Text: Okay, have tried to install the contact form plugin, followed the simple steps as outlined on the Git page, but am getting the following error message when viewing the page:
+
+Hey, your contact form has been submitted Name: {name} --------- Email: {email} --------- Text: {text}
+Fatal error: Class 'contactform' not found in /<path to site>/site/plugins/contactform/contactform.php on line 3
+
+Any ideas anyone?

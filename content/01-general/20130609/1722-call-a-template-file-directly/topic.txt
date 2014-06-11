@@ -1,0 +1,17 @@
+Title: Call a template file directly?
+----
+Date: 2013-06-09 17:22:55
+----
+Solved: 0
+----
+User: bobrockefeller
+----
+Text: Is there a way to call a template file directly without Kirby attempting to serve it as part of the web site?
+
+For example:
+
+www.site.com/site/templates/sometemplate.php
+
+When I try that, Kirby returns the error page.
+
+Bob

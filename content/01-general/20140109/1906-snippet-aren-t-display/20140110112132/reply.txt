@@ -1,0 +1,6 @@
+User: cgaraude
+----
+Date: 2014-01-10 11:21:32
+----
+Text: Solved !
+I had a text file name in my content folder that mismatched.

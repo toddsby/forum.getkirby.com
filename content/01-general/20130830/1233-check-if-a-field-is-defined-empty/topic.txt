@@ -1,0 +1,30 @@
+Title: Check if a field is defined / empty
+----
+Date: 2013-08-30 12:33:34
+----
+Solved: 1
+----
+User: sandervdvijver
+----
+Text: I might be missing something obvious here.
+
+I am displaying content like this:
+
+	<ul>
+		<li><?php echo html($person->twitter()) ?></li>
+		<li><?php echo html($person->website()) ?></li>
+	</ul>
+
+Problem is that not all fields are defined for every person (who are updating themselves using the panel). Not everybody has a twitter account for example, and they leave the Twitter box empty.
+
+This results in superfluous markup however, empty list elements and whatnot.
+
+I have tried with if-statements
+
+	<?php if($person->twitter()): ?>
+		<li><?php echo html($person->twitter()) ?></li>
+	<?php endif ?>
+
+but that isn't working.
+
+Thanks!

@@ -1,0 +1,27 @@
+Title: Specify RSS-Link per page
+----
+Date: 2013-04-13 15:50:22
+----
+Solved: 0
+----
+User: swissendo
+----
+Text: Hello again. I've had the idea to create an RSS-Button which only links to the feed of the current page. Right now, the code looks like this:
+
+    <li class="rss">
+    <?php if($page->isHomePage()): ?>
+	<a href="<?php echo url('feed') ?>">
+    <?php elseif($page->parent()->uid() ==  'blog'): ?>
+	<a href="<?php echo url('blog/feed') ?>">
+    <?php elseif($page->uid() ==  'blog'): ?>
+	<a href="<?php echo url('blog/feed') ?>">
+    <?php elseif($page->parent()->uid() ==  'photos'): ?>
+	<a href="<?php echo url('photos/feed') ?>">
+    <?php elseif($page->uid() ==  'photos'): ?>
+	<a href="<?php echo url('photos/feed') ?>">
+    <?php else: ?>
+	<a href="<?php echo url('feed') ?>">
+    <?php endif; ?>
+    <i class="icon-rss"></i></a></li>
+
+This works fine when I'm viewing an article, but as soon as I try to open a page, only the header snippet loads, without the RSS-Link. I can't seem to find the problem, and would love to hear what I'm doing wrong. Thanks in advance for any answers.

@@ -1,0 +1,9 @@
+User: theoriginalivor
+----
+Date: 2013-02-06 21:04:36
+----
+Text: @russbaldwin I was just curious really what people's thoughts are more then anything else. I'm not particularly fond of php's syntax and personally prefer a templating language. Thats not to say that I wont use it when its necessary.
+
+@Plartz I'd be interested in a link to the conversation you had with Bastian.
+
+I'd like to hear more people opinions on this..

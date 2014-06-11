@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2014-05-13 22:38:03
+----
+Text: Spaces are allowed. You'll likely need to deal with URL encoding and decoding when you use those categories for filtering, but it's probably best to do that anyway.

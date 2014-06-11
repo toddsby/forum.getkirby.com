@@ -1,0 +1,23 @@
+User: lukasbestle
+----
+Date: 2014-04-25 10:34:18
+----
+Text: You can easily get the passed variables in the snippets by using `$varName`.
+
+Example:
+
+In `templates/default.php`:
+
+```php
+<header>
+    <?php snippet('header', array('myVar' => 'myValue')); ?>
+</header>
+```
+
+In `snippets/header.php`:
+
+```php
+<?php echo $myVar; // 'myValue' ?>
+```
+
+Or do you mean the reverse way?

@@ -1,0 +1,12 @@
+Title: Only selected templates in template selection
+----
+Date: 2014-05-26 00:37:41
+----
+Solved: 0
+----
+User: aminalhazwani
+----
+Text: I would like to show just certain templates in the kirby panel templates selection. Or, even better, I would like to show just the template of the content folder you're in. For example, if you are inside project folder, you could select just Page(Project).
+Anyone who can help?
+
+![Kirby panel template selection](http://getkirby.com/content/06-blog/48-panel-alpha/kirby-panel-06.png)

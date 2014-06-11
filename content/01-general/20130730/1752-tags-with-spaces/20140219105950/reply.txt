@@ -1,0 +1,34 @@
+User: russbaldwin
+----
+Date: 2014-02-19 10:59:50
+----
+Text: This will give you a comma after the last one (not tested) - so maybe look out for that and check to see if an element is last in the array and not add the comma. 
+I just added the `.", "`
+
+```php
+<?php foreach(str::split($article->tags()) as $tag): ?>
+ <a href="< ?php echo url('blog/tag:' . urlencode($tag)) ?>">
+ <?php echo html($tag).", " ?>
+<?php endforeach ? >
+```
+
+I actually created mine as a list 
+```html
+<ul class="article-tags">
+<li>your tag</li>
+<li>your tag</li>
+</ul>
+```
+For you something like (not tested)
+```php
+<h2>Article Tags</h2>
+<ul class="article-tags">
+<?php foreach(str::split($article->tags()) as $tag): ?>
+  <li>
+    <a href="<?php echo url('blog/tag:' . urlencode($tag))?>">
+    <?php echo html($tag)."</a>, " ?>
+  </li>
+<?php endforeach ?>
+</ul>
+```
+I guess you could then add the commas (apart from the last `<li>`) with CSS?

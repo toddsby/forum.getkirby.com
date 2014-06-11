@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-09-05 17:50:31
+----
+Text: The problem with checkboxes is that they don't support labels at all :) because the labels are already set by the options which you define. I need to add multi-language support for the options though.

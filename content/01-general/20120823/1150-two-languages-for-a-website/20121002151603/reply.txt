@@ -1,0 +1,25 @@
+User: bastianallgeier
+----
+Date: 2012-10-02 15:16:03
+----
+Text: Hey guys, 
+
+I'm sorry that it took so long, but I finally fixed the problem – I hope :) Get the latest dev version: <http://github.com/bastianallgeier/kirbycms/tree/dev> to get rid of that nasty bug in site.php
+
+Now you can use the toggle as it is in the gist. 
+
+To find the right url of a page for any available language you can do: 
+
+```
+
+<?php echo $pages->find('about-us')->url('de') ?>
+
+<?php echo $pages->find('about-us')->url('en') ?>
+
+```
+
+Just use the folder name without number for the find method. It will automatically figure out, which the translated url should be if a url key is available. 
+
+I hope this helps. 
+
+Cheers

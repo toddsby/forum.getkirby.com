@@ -1,0 +1,20 @@
+User: bastianallgeier
+----
+Date: 2012-11-13 12:50:17
+----
+Text: The best way to do that is to use the following code inside a kirbytext method: 
+
+```php
+
+if(!$this->obj) {
+  global $site;      
+  $currentPage = $site->pages()->active();
+} else {
+  $currentPage = $this->obj;
+}
+
+```
+
+Normally the related page object is stored in `$this->obj` but in case it is missing you can still get the current active page instead. 
+
+I hope this helps.

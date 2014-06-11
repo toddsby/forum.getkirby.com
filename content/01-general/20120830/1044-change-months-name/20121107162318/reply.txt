@@ -1,0 +1,6 @@
+User: loasca
+----
+Date: 2012-11-07 16:23:18
+----
+Text: I couldn't find it in config.php
+Maybe Bastian can point me in the right direction?

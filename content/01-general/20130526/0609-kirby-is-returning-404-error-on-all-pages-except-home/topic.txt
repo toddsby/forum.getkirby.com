@@ -1,0 +1,166 @@
+Title: Kirby is returning 404 error on all pages **except** home
+----
+Date: 2013-05-26 06:09:32
+----
+Solved: 1
+----
+User: 5w
+----
+Text: Hi all,
+
+I'm currently having this rather annoying problem to get Kirby works on live VPS server.
+
+I do my dev locally using MAMP and everything works fine. So, today I've decided to roll it out to my staging server on a VPS.
+
+## The Problem 
+All pages **except** home returns me a 404. 
+
+### What I've done before I posted this question:
+1. checked if the right .htaccess was uploaded and it was
+1. checked if my config.php has `c::set('rewrite', true);` - and it has
+1. checked my apache virtualhost setup to see if there are conflicts
+
+Anyone has a suggestion on how to troubleshoot this?
+
+#### VPS configuration:
+- Ubuntu 12.04
+- Apache2
+- PHP 5.4.6-1ubuntu1.2
+
+Thanks
+-Shah
+
+----
+
+### UPDATES
+I think the culprit is the rewrite module. When I set `c::set('rewrite', false);` the site works
+
+I did a check on VPS to see if rewrite module was enabled. I think, it is based on the output below
+
+
+		~> apache2ctl -M
+		apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1 for ServerName
+		Loaded Modules:
+		 core_module (static)
+		 log_config_module (static)
+		 logio_module (static)
+		 version_module (static)
+		 mpm_prefork_module (static)
+		 http_module (static)
+		 so_module (static)
+		 alias_module (shared)
+		 auth_basic_module (shared)
+		 authn_file_module (shared)
+		 authz_default_module (shared)
+		 authz_groupfile_module (shared)
+		 authz_host_module (shared)
+		 authz_user_module (shared)
+		 autoindex_module (shared)
+		 cgi_module (shared)
+		 deflate_module (shared)
+		 dir_module (shared)
+		 env_module (shared)
+		 expires_module (shared)
+		 filter_module (shared)
+		 headers_module (shared)
+		 mime_module (shared)
+		 mime_magic_module (shared)
+		 negotiation_module (shared)
+		 php5_module (shared)
+		 reqtimeout_module (shared)
+		 rewrite_module (shared)
+		 setenvif_module (shared)
+		 status_module (shared)
+
+Checked my virtualhost settings on `etc/apache2/sites-available`
+
+
+		<VirtualHost *:80>
+			ServerAdmin	webmaster@localhost
+			ServerName	test.domain.com
+			ServerAlias 	www.test.domain.com
+		
+			DocumentRoot /var/www/test.domain.com
+			<Directory />
+				Options FollowSymLinks
+				AllowOverride None
+			</Directory>
+			<Directory /var/www/test.domain.com>
+				Options FollowSymLinks
+				AllowOverride None
+				Order allow,deny
+				allow from all
+			</Directory>
+		
+			# ScriptAlias /cgi-bin/ /usr/lib/cgi-bin/
+			# <Directory "/usr/lib/cgi-bin">
+			#	AllowOverride None
+			#	Options +ExecCGI -MultiViews +SymLinksIfOwnerMatch
+			#	Order allow,deny
+			#	Allow from all
+			# </Directory>
+		
+			ErrorLog ${APACHE_LOG_DIR}/error.log
+		
+			# Possible values include: debug, info, notice, warn, error, crit,
+			# alert, emerg.
+			LogLevel warn
+		
+			CustomLog ${APACHE_LOG_DIR}/access.log combined
+		</VirtualHost>
+
+
+### Kirby .htaccess file
+
+
+		# rewrite rules
+		
+		<IfModule mod_rewrite.c>
+			# Kirby .htaccess
+			# enable awesome urls. i.e.: 
+			# http://yourdomain.com/about-us/team
+			RewriteEngine on
+		
+			# RewriteBase /mysite
+			RewriteBase /
+		
+			# block text files in the content folder from being accessed directly
+			RewriteRule ^content/(.*).(txt|md|mdown)$ error [R=301,L]
+		
+			# block all files in the site folder from being accessed directly
+			RewriteRule ^site/(.*) error [R=301,L]
+		
+			# block all files in the kirby folder from being accessed directly
+			RewriteRule ^kirby/(.*) error [R=301,L]
+		
+			# make panel links work
+			RewriteCond %{REQUEST_FILENAME} !-f
+			RewriteCond %{REQUEST_FILENAME} !-d
+			RewriteRule ^panel/(.*) panel/index.php [L]
+		
+			# make site links work
+			RewriteCond %{REQUEST_FILENAME} !-f
+			RewriteCond %{REQUEST_FILENAME} !-d
+			RewriteRule ^(.*) index.php [L]
+			#  end of Kirby .htaccess
+		
+			RewriteCond %{HTTPS} !=on
+			RewriteCond %{HTTP_HOST} ^www.(.+)$ [NC]
+			RewriteRule ^ http://%1%{REQUEST_URI} [R=301,L]
+		</IfModule>
+		
+		
+		# Additional recommended values
+		# Remove comments for those you want to use.  
+		AddDefaultCharset UTF-8
+		#
+		php_flag short_open_tag on 
+
+
+### Things I've tried with the same configurations as above
+1. set `c::set('url', false)` **AND** `c::set('rewrite', true)` as per kirby default settings = 404 error
+2. set `c::set('url', '/')` **AND** `c::set('rewrite', true)` = 404 error
+3. set `c::set('url', 'http://www.doman.com')` **AND** `c::set('rewrite', true)` = 404 error
+4. any of the above 3 combi **AND** `c::set('rewrite', true)` = OK
+
+Obviously, all my site inner pages urls now has `http://domain.com/index.php/page-name` which is not as readable.

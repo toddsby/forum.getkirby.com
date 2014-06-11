@@ -1,0 +1,19 @@
+Title: Latest article styling on first page
+----
+Date: 2012-07-17 16:56:43
+----
+Solved: 0
+----
+User: ignaty
+----
+Text: Hi guys,
+
+Whiles I am trying to figure it out by my self I will give a try to find help here.
+
+I have a list of pages/articles with pagination starting from latest added.
+
+On first and only first page I need to add different ID for styling for the latest page/article.
+
+Any help is welcomed.
+
+Thank you!

@@ -1,0 +1,14 @@
+User: MartinHamant
+----
+Date: 2013-07-23 16:56:37
+----
+Text: OR... I could simply add a HTML5 audio with
+
+	<audio controls>
+	  <source src="$myfile" type="audio/mpeg">
+	  Your browser does not support this audio format.
+	</audio> 
+
+But... I if understand correctly, I would have to extend the Kirbytext class myself to get a new tag for it ?
+
+PS: no playlist possible with it

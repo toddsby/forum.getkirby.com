@@ -1,0 +1,9 @@
+Title: Adding Buttons to the Page Editor in the Panel
+----
+Date: 2013-11-25 20:40:01
+----
+Solved: 1
+----
+User: gorrillamcd
+----
+Text: I was reading [this forum post about adding buttons to the editor](http://getkirby.com/forum/panel/topic:80) so that, for example, there's a button for Bold, H1-6, etc. Unfortunately, the OP of that forum thread didn't say how he added the buttons. If you could just point me in the right direction, I can figure it out.

@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2013-01-04 14:03:28
+----
+Text: That's exactly how you do it. Editing user data is not possible yet, since you would need to edit the text file.

@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2014-02-11 17:26:33
+----
+Text: It might be worth installing the `Auth` plugin again. It does look like a config problem. I'd also remove any other plugins (including  `kirby.extended.php`) until you get `Auth` up and running.

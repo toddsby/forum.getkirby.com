@@ -1,0 +1,26 @@
+User: y00fie
+----
+Date: 2012-05-21 23:56:45
+----
+Text: Oops. Silly mistake on my part. 
+
+The feed.php provided in the tutorial should belong in the "kirbysitesnippetsfeed.php" and NOT "kirbysitesnippetsfeedfeed.php". I mirrored the directory structure on Github.
+
+But I still have a problem; I get a XML Parsing error...
+
+[IN GOOGLE CHROME]
+This page contains the following errors:
+error on line 1 at column 1: Document is empty
+Below is a rendering of the page up to the first error.
+
+[IN OPERA]
+
+XML parsing failed
+XML parsing failed: syntax error (Line: 1, Character: 0)
+
+Error: unexpected text (non-whitespace text outside root element) 
+Specification:
+http://www.w3.org/TR/REC-xml/ 
+  1: ﻿﻿<?xml version="1.0" encoding="utf-8"?><!-- generator="Kirby" -->
+
+Any thoughts?

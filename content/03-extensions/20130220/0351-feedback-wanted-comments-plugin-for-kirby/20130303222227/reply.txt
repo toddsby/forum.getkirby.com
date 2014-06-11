@@ -1,0 +1,5 @@
+User: _diondiondion
+----
+Date: 2013-03-03 22:22:27
+----
+Text: Looks like a nice plugin, only thing putting me off from trying it in my projects is the unusual and complicated way the required Smart submit plugin has to be added to a site. Using the classic "put it in the plugins folder" approach would make me more confident.

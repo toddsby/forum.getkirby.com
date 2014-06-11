@@ -1,0 +1,20 @@
+Title: Use thumb() to resize jpg in assets/images/ ??
+----
+Date: 2013-11-19 00:55:36
+----
+Solved: 0
+----
+User: i_cox
+----
+Text: I have a noimage.jpg file in my assets/images folder to be used as a thumbnail for pages that do not have an image.
+
+I'd like to be able to control the width/height of this thumbnail dynamically with the thumb() plugin so that it matches the thumbs generated for other pages.
+
+<strong>I want to put my noimage.jpg file inside of assets/images</strong> and I can't seem to access those images with the thumb() plugin. 
+
+<pre><code><?php thumb('assets/images/noimage.jpg', array('width' => 200, 'height' => 150)); ?></code></pre>
+
+Here's the error I'm getting:
+<pre><code>Fatal error: Call to a member function width() on a non-object in ...root/site/plugins/thumb.php on line 45</code></pre>
+
+Any ideas? Thanks!

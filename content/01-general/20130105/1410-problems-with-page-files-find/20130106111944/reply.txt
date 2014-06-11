@@ -1,0 +1,6 @@
+User: russbaldwin
+----
+Date: 2013-01-06 11:19:44
+----
+Text: Is this Kirby .htaccess stuff re-directing you? 
+I'm not quite sure what you are you trying to achieve, to establish if the file exists or read the files? If you can get the path you can do both?

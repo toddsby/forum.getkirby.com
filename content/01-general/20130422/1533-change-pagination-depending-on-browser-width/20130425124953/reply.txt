@@ -1,0 +1,9 @@
+User: russbaldwin
+----
+Date: 2013-04-25 12:49:53
+----
+Text: Not so easy... here are some ways of doing something similar.
+
++ Use Javascript media queries to write stuff maybe to page or to session or cookies to pick up?
++ No pagination but expanding list based on Ajax/JS
++ Use some sort of mobile / desktop PHP detection...

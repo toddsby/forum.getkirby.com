@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-02-05 12:22:57
+----
+Text: What is in the $results array?

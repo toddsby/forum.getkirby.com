@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-02-18 09:13:24
+----
+Text: I maybe missing something, but I'm not sure I see what what you are trying todo here? The thumbnail plugin automatically creates thumbs, you do not need to see if they are already created?

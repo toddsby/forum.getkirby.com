@@ -1,0 +1,7 @@
+User: syropian
+----
+Date: 2014-01-21 19:36:21
+----
+Text: The easiest way is to use actual html pre tags
+
+<pre>&#40;tag:some value someattr:another value&#41;</pre>

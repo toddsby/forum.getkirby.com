@@ -1,0 +1,15 @@
+Title: Global variables and functions
+----
+Date: 2014-04-24 17:48:52
+----
+Solved: 0
+----
+User: youremartinets
+----
+Text: Hey,
+
+what's the best way of achieving global variables and functions that you could use throughout templates and snippets? Something like functions.php in a Wordpress theme.
+
+Docs talk about passing variables to snippets, but I can't seem to find anything about getting variables from snippets...
+
+Thanks!

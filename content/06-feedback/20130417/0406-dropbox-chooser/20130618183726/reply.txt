@@ -1,0 +1,7 @@
+User: tillpro
+----
+Date: 2013-06-18 18:37:26
+----
+Text: +1
+
+// I’d really appreciate some kind of panel extensions/plugins in its upcoming version. This would make it possible to integrate fancy stuff (that is not a core feature) yourself without having to struggle with hardcoding…

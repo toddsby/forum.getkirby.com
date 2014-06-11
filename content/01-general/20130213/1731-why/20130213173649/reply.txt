@@ -1,0 +1,5 @@
+User: bytte
+----
+Date: 2013-02-13 17:36:49
+----
+Text: The html() function interpretes everything in-between the brackets as HTML. You can find that in the docs here: http://getkirby.com/docs/formatting-text

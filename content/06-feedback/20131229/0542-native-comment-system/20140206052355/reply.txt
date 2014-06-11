@@ -1,0 +1,5 @@
+User: chrisburton
+----
+Date: 2014-02-06 05:23:55
+----
+Text: @structor Hmm. @GrayGilmore also mentioned anonymous comments in a private chat. I would like to add some sort of feature settings where all you have to do is just set them to true or false. We will see.

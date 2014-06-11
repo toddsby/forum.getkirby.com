@@ -1,0 +1,9 @@
+User: tysongach
+----
+Date: 2012-12-14 03:40:19
+----
+Text: I'm bringing this thread back alive, as I'm looking for the same thing.
+
+A good example is this archive: <http://fadeyev.net/2012>
+
+Essentially, we're all looking for a repurposed version of the Tag plugin that handles dates intelligently. Something that can grab the years, months, maybe even days from a content file and filter them out. But also provide an easy way to return a list of all the years, months, for navigation purposes.

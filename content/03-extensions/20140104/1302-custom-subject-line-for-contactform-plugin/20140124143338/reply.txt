@@ -1,0 +1,14 @@
+User: lekkerduidelijk
+----
+Date: 2014-01-24 14:33:38
+----
+Text: You could try reading the $_POST global before creating the contactform object.
+
+Something like this (untested)
+
+```php
+
+if(isset($_POST['email']) && !empty($_POST['email']))
+  $emailentered = $_POST['email'];
+
+```

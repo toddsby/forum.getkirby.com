@@ -1,0 +1,9 @@
+User: UnknownGuest
+----
+Date: 2014-02-16 07:18:20
+----
+Text: Well with the setup I suggested, you can't hide the HTML if the field is empty. But I can't imagine why you'd want that column empty if that's how you're setting up the template. 
+
+In that instance you could set up an additional template with just one column, and the user can select whichever template they want to use when creating the page. 
+
+Hope that helps.

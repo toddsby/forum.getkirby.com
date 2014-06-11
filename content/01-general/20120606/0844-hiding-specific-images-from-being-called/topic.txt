@@ -1,0 +1,21 @@
+Title: Hiding specific images from being called?
+----
+Date: 2012-06-06 08:44:25
+----
+Solved: 0
+----
+User: brandonxoliver
+----
+Text: Good morning Kirby community. 
+
+I just purchased a license and I'm looking forward to finishing up my new site. 
+
+Just curious, is it possible to hide specific images from being called when using this?
+
+```
+<?php foreach($page->images() as $image): ?>
+<img src="<?php echo $image->url() ?>" />
+<?php endforeach ?>
+```
+
+To my understanding, this will call all images in the directory. Is it possible to amend the code so it ignores files labeled cover.jpg or preview.jpg?

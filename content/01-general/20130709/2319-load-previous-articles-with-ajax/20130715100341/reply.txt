@@ -1,0 +1,9 @@
+User: russbaldwin
+----
+Date: 2013-07-15 10:03:41
+----
+Text: Have a look at the jQuery site and plugins.
+Also more Kirby specific:
++ [http://getkirby.com/forum/general/topic:320](http://getkirby.com/forum/general/topic:320)
++ [http://getkirby.com/forum/general/topic:155](http://getkirby.com/forum/general/topic:155) 
+which should be enough to get you going?

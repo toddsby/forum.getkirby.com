@@ -1,0 +1,33 @@
+User: russbaldwin
+----
+Date: 2013-01-18 09:21:20
+----
+Text: I was thinking about something similar, I will have to create a site (or rather move a site) to Kirby this year. It is not a magazine site but an ebook site, with maybe 40+ ebooks to start. It will have all the text of the ebooks in Markdown/MultiMarkdown as pages of the site hence the idea of using Kirby for this plus the epub/mobi downloads, book covers, news and info.
+
+My only real worry for this was depth of folders and their number. I think you can do quite a lot to optimise this, but I guess we can only try it and see. 
+
+I think this would be the same for magazine publications and also Kirby does not seem to have built in 'blog-date' formatting for folders. It makes sense in my mind to have a special date related set of folders so you can have year and month. In your case perhaps Magazine, Year, Month. e.g.
+
+- Magazine 1
+--2012 
+---Jan
+---Feb...
+--2013 
+---Jan
+---Feb...
+- Magazine 2
+--2012 
+---Jan
+---Feb...
+--2013 
+---Jan
+---Feb...  
+
+
+Will you be having the full magazine text/images/video online as well or is it more a blog style? One problem might be you have to keep media in the same folder as the page, which may prove problematic, but you maybe able to use a CDN...with a bit of fiddling.
+
+As for plus sides, for me at least markdown, also easy and simple to create new books, I have all stuff required when I'm building the ebooks even if I do not use panel. It seems to work quite well and is very flexible, you could create a basic template/CSS for sections/parts of your magazines and then add flavour with individual CSS/templates as required. You could create a system of CSS and templates, small re-usable blocks.
+
+Will you have to have online discussions/login, then maybe use a third party one. How about subscriptions?
+
+Just some thoughts, hope it helps...

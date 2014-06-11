@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-10-01 18:32:51
+----
+Text: I'm not really sure about the thumb code, but your parameter code seems fine. That will apply if the parameter exists, no matter what the value is, though. So site.com/projects/project/mirror:no would have the same effect. Or site.com/projects/project/mirror:lol.

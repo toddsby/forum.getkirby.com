@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-02-15 15:45:15
+----
+Text: I don't think there are any Kirby plugins for code-completion or a snippet collection, but you mostly don't write code in Kirby itself, you may well write Markdown/KirbyText but that is pretty simple and you can get the Panel editor to have some buttons to help.
+
+If you mean can you get plugins for Sublime that are useful, you can of course for get Markdown, PHP, JavaScript and CSS plugins and [many more...](http://wbond.net/sublime_packages/community).

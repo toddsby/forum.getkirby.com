@@ -1,0 +1,11 @@
+User: Wordius
+----
+Date: 2013-01-07 21:36:34
+----
+Text: Many thanks.
+
+Works perfectly when combined with the tag filter code found in the [tagcloud tutorial](http://getkirby.com/blog/tagcloud), which should be added to blog.php.
+
+The only thing I need to figure out is how to output a title for tag pages, e.g. 
+
+    Posts tagged: tag-name

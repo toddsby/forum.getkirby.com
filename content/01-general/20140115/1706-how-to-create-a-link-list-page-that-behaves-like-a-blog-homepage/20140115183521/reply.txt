@@ -1,0 +1,8 @@
+User: _frankallen
+----
+Date: 2014-01-15 18:35:21
+----
+Text: could you please show us your code?
+I think you have to replace "<a href="<?php echo $page->url(); ?>" with "<a href="<?php echo $page->link(); ?>". but not sure.
+
+frank.

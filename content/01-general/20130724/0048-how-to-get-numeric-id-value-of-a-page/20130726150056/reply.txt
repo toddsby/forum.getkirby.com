@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2013-07-26 15:00:56
+----
+Text: You could also use $page->num() which will give you the prepended number. That would be more unique if you stick to them.

@@ -1,0 +1,12 @@
+Title: Endless scrolling (instead of previous/next)?
+----
+Date: 2014-04-04 10:14:03
+----
+Solved: 0
+----
+User: hausschuh
+----
+Text: I think those "Next page", "Previous Page" navigators at the bottom of each site are year 2000. I would like to disable this and somehow "activate" endless scrolling. So that the most recent x posts are shown and while scrolling down KirbyCMS will load another y posts.
+
+Any hints or even solutions?
+Thanks in advance.

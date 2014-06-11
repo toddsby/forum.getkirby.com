@@ -1,0 +1,6 @@
+User: vis7mac
+----
+Date: 2012-12-03 16:30:36
+----
+Text: You need to have the following folder structure: `/site/panel/accounts/USERNAME.PHP`
+to make this work. The folder `defaults` is actually the folder to be renamed panel :).

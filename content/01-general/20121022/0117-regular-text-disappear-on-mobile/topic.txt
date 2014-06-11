@@ -1,0 +1,23 @@
+Title: Regular text disappear on mobile
+----
+Date: 2012-10-22 01:17:39
+----
+Solved: 0
+----
+User: sdavismedia
+----
+Text: Hopefully this issue is specific to Kirby. Bastian, I've seen you an email that may be related to this issue but I'm not sure... so I'll post here just in case.
+
+I am building my second Kirby site right now... the one I'm having issues with is (link: http://demo.sdavismedia.com text: SDavis Media Demo). 
+
+This morning, I wrote some responsive CSS for it and everything seemed to be fine in regards to the content responding to the viewport. However, when a page loads on mobile browsers (default Android browser and Dolphin browser), paragraphs do not display... at all.
+
+I did find (link: http://aestheticallyloyal.com/public/optimize-legibility/ text: this information) (see 3rd caveat about disappearing text) and so I removed the following form the stylesheet:
+
+    text-rendering: optimizeLegibility;
+
+Which is in the stylesheet by default under the "html" selector.
+
+That doesn't seem to have changed anything so now I am at a total loss as to why my text is disappearing. On my other Kirby site, it is not responsive and the text displays as it should. But responsive CSS is just CSS... so I don't get it.
+
+Anyone willing to help me figure this one out?

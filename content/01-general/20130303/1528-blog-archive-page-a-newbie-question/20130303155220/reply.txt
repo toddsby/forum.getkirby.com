@@ -1,0 +1,12 @@
+User: JanStieler
+----
+Date: 2013-03-03 15:52:20
+----
+Text: Hi,
+have your read this (link:http://getkirby.com/blog/how-to-build-a-blog text:how to build a blog)?
+And now you need only the vars for date and title.
+
+	<?php echo html($page->title()) ?>
+	<?php echo $page->date('d.m.Y') ?>
+
+Greetz

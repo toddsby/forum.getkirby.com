@@ -1,0 +1,53 @@
+User: katrynvonfelsen
+----
+Date: 2012-11-24 12:18:59
+----
+Text: #### I personally use this
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	
+function _doClass_callback($m) {	
+		return "<".$m[1].$m[2]." class='".preg_replace("/./", "", $m[4])."'>".$m[3].$m[5]."</".$m[6].">";
+}
+
+function doClass($text) {
+	$text = preg_replace_callback('{<b([a-zA-Z0-9]*)b(.*?)>([sSrtn.]*?)[.(.*?)](.*?)</(1)>}m',
+	array(&$this, '_doClass_callback'), $text);
+	return $text;
+}
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+<hr />
+
+
+#### And it works well in that case
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+HEADER 2 [.h2_class1 .h2_class2] {#mightyHeader}
+====================
+
+Apple [.dtclass]
+:   Pomaceous fruit of plants of the genus Malus 
+    in the family Rosaceae. [.dd_class]
+
+Orange [.dt_class]
+:   The fruit of an evergreen tree of the genus Citrus.
+
+
+| First Header  | Second Header [.thead_class]   |
+| ------------- | ----------------------- |
+| Content Cell  | Content Cell   [.td_class]  |
+| Content Cell  | Content Cell            |
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+<hr />
+
+** The only limit is that you can't append it on the main html tag… like in the previews, exemple, there is no way to append a class to the table tag…  **
+
+
+Here is my modified markdown file with the modified lines ()432, 506, 1572, 1578, 1583, 2097-2106) : (file: http://cl.ly/code/3R0N3S353t35)
+
+
+Here's my little contribution for today! :-)

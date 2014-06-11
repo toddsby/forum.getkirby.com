@@ -1,0 +1,17 @@
+Title: links are dead (default instalation)
+----
+Date: 2013-02-12 14:07:24
+----
+Solved: 1
+----
+User: gournis
+----
+Text: Just install kirby in WAPMP.
+But the menu link is dead
+Message: Not Found. The requested URL /kirbycms-master/projects was not found on this server.
+
+Also i try to add some folders and replace the original but no change take places. 
+
+Did i did something wrong?
+
+thanks for your time.

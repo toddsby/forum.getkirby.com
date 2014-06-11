@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2012-10-20 01:38:07
+----
+Text: Another related thing would be the ability to say only pull things that are within the last few days, so old events will drop off, for example.

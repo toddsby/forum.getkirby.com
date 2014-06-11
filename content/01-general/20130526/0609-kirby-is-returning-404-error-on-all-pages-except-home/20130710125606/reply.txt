@@ -1,0 +1,15 @@
+User: russbaldwin
+----
+Date: 2013-07-10 12:56:06
+----
+Text: It turns off the nice URL re-writing. 
+
+1. Check your PHP has mod_rewrite enabled if not try and get it enabled with your ISP?
+
+2. Check your .htaccess has the correct stuff in the right place
+`RewriteEngine on`
+You might also need
+`RewriteBase /`
+You might want to list it here ;-)
+
+3. If you get all that OK then it should work if you set  `c::set('rewrite', true);`

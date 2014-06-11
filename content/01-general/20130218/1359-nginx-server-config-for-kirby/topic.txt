@@ -1,0 +1,35 @@
+Title: Nginx server config for Kirby
+----
+Date: 2013-02-18 13:59:16
+----
+Solved: 0
+----
+User: vladstudio
+----
+Text: There seems to be no sample configuration for Nginx + Kirby on the forum. So, just in case anyone else needs it: set 
+
+	c::set('rewrite', true);
+
+in your Kirby config. Then, below is the example of nginx server .conf file (adjust paths as you need):
+
+	## config for Kirby CMS
+	server {
+	    server_name test.dev;
+	    listen  80;
+	    root /Test;
+	    access_log off;
+	    index index.php index.html index.htm;
+
+		location ~ .php {
+		    fastcgi_pass  127.0.0.1:9000;
+		    fastcgi_index index.php;
+		    include fastcgi_params;
+		    fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+		    fastcgi_param PATH_INFO $fastcgi_script_name;
+		}
+		
+		location / {
+		    try_files $uri $uri/ /index.php?$query_string;
+		}
+
+	}

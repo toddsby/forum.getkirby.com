@@ -1,0 +1,5 @@
+User: aqeelfikree
+----
+Date: 2013-09-05 21:25:11
+----
+Text: What I ended up doing is, since every post on my blog starts with an image, I made an Image field in my .md file and linked that to the post page.

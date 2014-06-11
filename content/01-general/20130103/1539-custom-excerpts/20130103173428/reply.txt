@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-01-03 17:34:28
+----
+Text: Additionally, you can use that excerpt field for your description meta tag if it's short enough.

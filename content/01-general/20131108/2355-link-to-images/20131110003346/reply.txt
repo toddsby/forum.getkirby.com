@@ -1,0 +1,9 @@
+User: texnixe
+----
+Date: 2013-11-10 00:33:46
+----
+Text: You need to specify the complete path, e.g. if your installation is in root:
+
+    <img src="/content/01-parent_folder/article_folder/image.png" />
+
+otherwise if it is in a subfolder, prefix /subfolder

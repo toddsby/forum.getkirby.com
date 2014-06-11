@@ -1,0 +1,8 @@
+User: i_cox
+----
+Date: 2013-11-14 23:00:59
+----
+Text: Thanks, that is strange. I'm using Mamp with php5.4. I have not deployed to my served yet.
+
+This is working for me now:
+<code>echo $_SERVER['SERVER_NAME']. $page->tinyurl();</code>

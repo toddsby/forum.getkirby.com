@@ -1,0 +1,14 @@
+Title: Snippet aren't display
+----
+Date: 2014-01-09 19:06:32
+----
+Solved: 0
+----
+User: cgaraude
+----
+Text: Hello,
+i uploaded my website but the first three snippets of my single-page website, aren't display anymore.
+Only the last four snippet are display.
+But it worked perfectly on local server.
+Does anyone have an idea ? 
+Thx in advance.

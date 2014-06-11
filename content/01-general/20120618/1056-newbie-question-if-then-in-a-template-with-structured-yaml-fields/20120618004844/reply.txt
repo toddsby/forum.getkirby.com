@@ -1,0 +1,5 @@
+User: DanielGenser
+----
+Date: 2012-06-18 00:48:44
+----
+Text: OK, turns out what I had was completely fine! I was simply missing the trailing colon on <?php else ?>. Once I added it back in ( <?php else: ?> ) it worked perfectly!

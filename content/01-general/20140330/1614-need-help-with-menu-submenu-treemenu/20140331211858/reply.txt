@@ -1,0 +1,7 @@
+User: TimurChe
+----
+Date: 2014-03-31 21:18:58
+----
+Text: Ok, finally got it working. But I need the submenu links to be displayed only when the parent page is active. Any help?
+
+(link: http://pastebin.com/eHBMDevX text: Here how my submenu.php looks now popup: yes)

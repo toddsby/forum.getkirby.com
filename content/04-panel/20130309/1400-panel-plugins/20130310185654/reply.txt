@@ -1,0 +1,5 @@
+User: tillpro
+----
+Date: 2013-03-10 18:56:54
+----
+Text: I was trying to add a couple of additional features (like inserting image-tags by selecting an image from a list of thumbnails). Right now, I implemented it by adding code to the Panel’s files which actually is a bit dirty and a bit uncomfortable when updating the Panel.

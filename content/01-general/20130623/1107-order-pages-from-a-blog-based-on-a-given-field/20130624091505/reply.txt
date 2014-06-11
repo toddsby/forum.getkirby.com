@@ -1,0 +1,15 @@
+User: russbaldwin
+----
+Date: 2013-06-24 09:15:05
+----
+Text: 1. Do it in two stages? Sort and then limit? 
+
+2. You may be able to just to change the order of your statement? Don't know if that would work (Not Tested)?
+
+```php
+$articles = $pages
+->find('blog')
+->children()
+->sortBy($sort='author')
+->limit(10);
+```

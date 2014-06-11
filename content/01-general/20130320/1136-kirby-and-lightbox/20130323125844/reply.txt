@@ -1,0 +1,12 @@
+User: roman_oroco
+----
+Date: 2013-03-23 12:58:44
+----
+Text: You might rethink a bit your content architecture.
+I think (link:http://www.wookmark.com/ text:Wookmark popup:yes) is using Ajax for calling `$imagepage->url()`:
+
+```php
+<a href="<?php echo $imagepage->url() ?>">
+    <img src="<?php echo thumb($image, array('width' => 200), false) ?>" alt="">
+</a>
+```

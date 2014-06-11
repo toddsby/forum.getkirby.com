@@ -1,0 +1,11 @@
+Title: Login with Twitter - opauth
+----
+Date: 2012-12-13 22:38:26
+----
+Solved: 0
+----
+User: chrisburton
+----
+Text: Is there a plugin or tutorial on how to get blog users to login via Twitter to post comments?
+
+At this moment I'm trying out Opauth but it's a little complicated, at least for me. I'm not even sure I should be using that. Pretty lost right now.

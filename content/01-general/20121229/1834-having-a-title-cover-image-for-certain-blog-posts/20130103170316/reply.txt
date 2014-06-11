@@ -1,0 +1,10 @@
+User: tysongach
+----
+Date: 2013-01-03 17:03:16
+----
+Text: Ah, gotcha!
+
+I was basing my answer off the original issue which was for a blog post. 400 images in your photo gallery is different, and I bet your right that just naming the file would probably be your best bet.
+
+All the best,
+Tyson

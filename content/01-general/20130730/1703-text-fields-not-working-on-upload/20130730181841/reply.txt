@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-07-30 18:18:41
+----
+Text: Server differences? PHP differences?

@@ -1,0 +1,10 @@
+User: JanStieler
+----
+Date: 2013-10-24 23:33:21
+----
+Text: I think I have an mistake in this respectively it is line 12:
+
+    <a <? ecco($item->isOpen())? 'class="active"' ?> href="<?= ($items->uid('blog'))?  '#' : $item->url() ?>"><?= $item->title() ?></a>
+
+It is my first time on using simplified if-clauses :).
+But thanks for your time.

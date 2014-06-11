@@ -1,0 +1,9 @@
+User: kirbyuser
+----
+Date: 2013-02-07 02:53:33
+----
+Text: Hello,
+
+Thanks for the script. Is it possible to extend it with a lightbox functionality?
+
+Using jquery-1.7.2.min.js and CSS.

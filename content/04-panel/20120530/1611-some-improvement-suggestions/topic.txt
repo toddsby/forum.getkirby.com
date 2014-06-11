@@ -1,0 +1,14 @@
+Title: Some improvement suggestions
+----
+Date: 2012-05-30 16:11:05
+----
+Solved: 0
+----
+User: hnrch02
+----
+Text: First of all I have to say that I absolutely love Kirby and The Panel (and this forum)! But only because I love them doesn't mean that there are no improvements that could be made, so I have a few suggestion:
+1. It'd be nice if I could choose in the "new site" overlay if I want the page to be visible or invisible.
+2. I'd love to see a full translation of all labels especially the ones on the main page displaying general information about the site and the ones visible when editing a page.
+3. An option that allows me to change the template/blueprint of any page after the creation without manually doing it by renaming the file in the specific folder would be really handy.
+4. Seeing the full message displayed here would really help :) http://cdn.hnrch02.me/H0EY
+Those are just some little annoyances I wanted to mention. I hope this helps you in some way ;)

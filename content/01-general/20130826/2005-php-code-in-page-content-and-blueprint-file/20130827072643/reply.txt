@@ -1,0 +1,5 @@
+User: texnixe
+----
+Date: 2013-08-27 07:26:43
+----
+Text: Instead of putting php code in between the yaml-syntax, you could probably generate the complete YAML block in the blueprint using php (yaml_emit)

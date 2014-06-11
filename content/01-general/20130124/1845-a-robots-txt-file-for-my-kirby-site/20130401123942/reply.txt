@@ -1,0 +1,5 @@
+User: moonbeetle
+----
+Date: 2013-04-01 12:39:42
+----
+Text: @roman_oroco hm...looks like kirby's .htaccess redirect rules prevent  from accessing the robots.txt file. And probably this goes for any SEO tool as well that tells me I have no robots.txt file in the webroot.

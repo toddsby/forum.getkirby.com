@@ -1,0 +1,39 @@
+Title: Slightly smarter language toggle
+----
+Date: 2013-01-23 10:14:42
+----
+Solved: 0
+----
+User: asbiot
+----
+Text: I modified the (link: http://getkirby.com/docs/multi-language/switching-languages text:original kirby language switcher) slightly, so that it only shows the other language options when there is actually a translation of the content for that language available. This way parts of the homepage don't need to be translated. 
+
+See the code snippet below. Reading it, you may recognise two things. Firstly, I am making use of microdata, thus all the "itemscope" etc. tags (I left them in as a suggestion), and secondly, the snippet actually prints a text (namely "German only") instead of the link to the page in the other language when the content doesn't have a translation (German is the default language). If you would like to only show the language options that are available (with no notice text), then simply remove the lines with the l::get('GermanOnly') statement and the else: statement before it.
+
+	<body itemscope itemtype="http://schema.org/WebPage">
+	
+	<header id="top">
+	      <nav class="lang"><ul>
+	        <meta itemprop="inLanguage" content="<?php echo c::get('lang.current') ?>" />
+	        <?php foreach(c::get('lang.available') as $lang): ?>
+	        <li<?php if($lang == c::get('lang.current')) echo ' class="active"' ?>>
+	          <?php if ($page->content($lang) != false ): ?>
+	            <a href="<?php echo $page->url($lang) ?>"><?php echo l::get($lang) ?></a>
+	          <?php else: ?>
+	            <?php echo l::get('GermanOnly') ?>
+	          <?php endif ?>
+	        </li>
+	        <?php endforeach ?>
+	      </ul></nav>
+	  <h1 class="banner"><a href="<?php echo url() ?>"><img src="<?php echo url('assets/images/banner.png') ?>" alt="<?php echo html($site->title()) ?>" /></a></h1>
+	</header>
+
+Please note, however, that if a visitor jumps from a translated part of the website into a section that doesn't offer the content in that language, the URL will still show the "foreign" language (i.e. /en/, if the translated content is in English, and the default is German) even thought the content falls back onto the default language! Most of the time this is what you want, but if you make use of the language variable to only show translated content or files, then you would first have to switch the context to the default language. At this point, of course, you changed the user to the default language. If he were to jump back to the translated section of the website now, he would still be in the default language. I use a go() redirect on the appropriate templates in following way:
+
+	<?php 
+	# if language is not set to German when visiting this page, switch to German.
+	if (c::get('lang.current') !== 'de' ) {
+		go($page->url('de'));
+	} ?>
+
+I hope this serves someone as a solution or simply as an inspiration. If you spot and error or have a smarter or more general solution, then please let me know.

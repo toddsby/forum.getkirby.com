@@ -1,0 +1,20 @@
+Title: Embed Processing files
+----
+Date: 2013-11-21 13:03:32
+----
+Solved: 0
+----
+User: emmuel
+----
+Text: Hello
+
+I sent an email to Bastian but then I thought it would be less disturbing if i posted the question here.
+
+i'm quite new to Kirby and coding in general.
+i've done a few sketches with processing, but i can't seem to embed them in my webpage.
+My problem is that processing does not export just a .js file. It s a .pde and a .js file.
+
+I have tried with the tuto css/javascript found here but it isn't work. 
+
+Do anybody have an idea about how i could embed a sketch  ? (made with a .js export) 
+thanks !

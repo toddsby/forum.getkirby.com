@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-12-06 15:28:56
+----
+Text: Not that I know of, but that text file is where the description for your image can go, such as title or alt text.

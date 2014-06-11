@@ -1,0 +1,5 @@
+User: janlenaerts_be
+----
+Date: 2013-08-10 22:27:03
+----
+Text: You can setup Kirby Frontend Authentication with logins and hand the file from a non-accessible location. I can always have a look into this.

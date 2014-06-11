@@ -1,0 +1,9 @@
+Title: Trying Kirby, url not found.
+----
+Date: 2013-01-18 21:28:48
+----
+Solved: 1
+----
+User: arlamentis
+----
+Text: I put kirby on my server, to try it out, when I go to the kirby directory, the home page work properly but, the project and contact section just seems to not be able, it send me to a: Not Found The requested URL /kirby/projects was not found on this server. how can I get kirby to work ?

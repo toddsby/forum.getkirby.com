@@ -1,0 +1,9 @@
+Title: Multiple file uploads
+----
+Date: 2012-10-06 08:24:16
+----
+Solved: 0
+----
+User: eytanbiala
+----
+Text: It would be nice to be able to upload multiple files through the panel in one go.

@@ -1,0 +1,15 @@
+Title: Problem when saving the site information
+----
+Date: 2012-11-13 04:28:02
+----
+Solved: 0
+----
+User: jesuismaksim
+----
+Text: When I save it, I get this :
+
+You don't have permission to access /my-subfolder/my-site/panel/fr/show:info on this server.
+
+Anyone know ? All my folder and files are Kirby default permissions.. and all other pages save well.
+
+Lastest master branches of both systems (kirby and panel)

@@ -1,0 +1,7 @@
+User: walkerbox
+----
+Date: 2013-08-31 00:22:16
+----
+Text: The label relates to the panel only. The panel is a way to give authors an in-browser method of creating content text files. If the label is important to the content, then it should be incorporated some other way.
+
+Since the label will always be the same for that field in that template, why not just hardcode it into the template file?

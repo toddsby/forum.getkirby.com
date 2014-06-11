@@ -1,0 +1,9 @@
+Title: Has anyone created a comment system for Kirby?
+----
+Date: 2013-06-11 08:23:07
+----
+Solved: 1
+----
+User: chrisburton
+----
+Text: I'm trying to find out if anyone has built a comment system for Kirby (please don't suggest Disqus - such an ugly platform)?

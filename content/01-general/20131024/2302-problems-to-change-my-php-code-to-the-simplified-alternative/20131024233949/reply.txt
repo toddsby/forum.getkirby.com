@@ -1,0 +1,8 @@
+User: JanStieler
+----
+Date: 2013-10-24 23:39:49
+----
+Text: Thanks, but now the error message changed to:
+Parse error: syntax error, unexpected ',' in … line 12
+
+*?#*#+ Arrrgghh :)

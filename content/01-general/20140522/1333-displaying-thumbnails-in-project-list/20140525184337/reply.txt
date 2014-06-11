@@ -1,0 +1,11 @@
+User: JolinMasson
+----
+Date: 2014-05-25 18:43:37
+----
+Text: In the projects section, you can call specific images
+
+    <?php $vignette = $child->images()->find('thumb.jpg') ?>
+
+And then, for the individual project view, you just filter to exclude the thumbnail.
+
+    <?php foreach($page->images()->filterBy('title', '!=', 'thumb') as $image): ?>

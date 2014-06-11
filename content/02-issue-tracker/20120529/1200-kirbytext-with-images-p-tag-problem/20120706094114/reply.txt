@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-07-06 09:41:14
+----
+Text: The forum doesn't have notifications yet, but you can subscribe to the RSS-Feed: <http://getkirby.com/forum/feed>

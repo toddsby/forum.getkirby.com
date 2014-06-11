@@ -1,0 +1,14 @@
+Title: svg files and $image objects
+----
+Date: 2012-10-18 12:03:31
+----
+Solved: 0
+----
+User: fussandfeathers
+----
+Text: Hello, could svg files be recognized as $image objects (and not as $files) or is it more complicated ?
+
+I would be interested to see how you approach the "retina ready" workflow.
+
+Thanks,
+Sarah

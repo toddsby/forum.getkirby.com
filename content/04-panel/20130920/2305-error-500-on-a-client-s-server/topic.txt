@@ -1,0 +1,15 @@
+Title: Error 500 on a client's server
+----
+Date: 2013-09-20 23:05:03
+----
+Solved: 1
+----
+User: joachimesque
+----
+Text: I just transferred a working Kirby installation to a new client server. It's a shared hosting installation, with some rigid security rules (no php_flags declaration in the .htaccess, for example).
+
+The kirby-powered website works quite well, but the panel doesn't work, and I get a nice Error 500.
+
+I don't have access to an error log, so I don't know where it comes from. Does anyone know from what part of the code the error could come ? I suspect it might be because of the upload class (the host FAQ doesn't say anything of value on the limits on php functions and chmod).
+
+I'm at loss as to how to make it work…

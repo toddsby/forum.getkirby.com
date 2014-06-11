@@ -1,0 +1,11 @@
+User: structor
+----
+Date: 2013-04-24 09:41:32
+----
+Text: ( image: image.png class: float-right)
+    ( image: image.png class: float-left)
+
+you need to add those classes into style.css file:
+
+    .float-right {float:right; margin-left:10px;}
+    .float-left {float:left; margin-right:10px;}

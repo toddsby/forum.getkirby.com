@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-06-25 19:29:09
+----
+Text: Actually, I think you can pass a field name to the plugin if I remember correctly. If you can't figure that out, then yes you can duplicate it, rename the function, and rename "tag" to "category".

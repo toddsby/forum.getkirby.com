@@ -1,0 +1,17 @@
+Title: Kirbytext: Codepen Tag
+----
+Date: 2013-02-24 19:36:03
+----
+Solved: 0
+----
+User: clementroy
+----
+Text: Instead of Gist, you can use (link: http://codepen.io text: Codepen) to show off your code experiments, even the result, this is great service.
+
+With this new tag you can easily insert the embeded Codepen, quickly like this :
+
+```
+(codepen: http://codepen.io/CBeghin/pen/HeuiF height: 100 type: result)
+```
+
+Check out my gist here: (link: https://gist.github.com/ClementRoy/5024929) and read the readme!

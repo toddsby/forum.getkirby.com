@@ -1,0 +1,21 @@
+User: ChrisjMartin87
+----
+Date: 2013-08-11 01:16:04
+----
+Text: I'm no PHP expert but this should work...
+
+        <?php foreach($page->children() as $child): ?>
+            <a href="<?php echo $child->url() ?>">
+                <img src="<?php echo $child->images()->first()->url() ?>"/>
+            </a>
+        <?php endforeach ?>
+
+You could also add an IF statement if you like
+
+        <?php foreach($page->children() as $child): ?>
+            <?php if($child->hasImages()): ?>
+                <a href="<?php echo $child->url() ?>">
+                    <img src="<?php echo $child->images()->first()->url() ?>"/>
+                </a>
+            <?php endforeach ?>
+        <?php endif ?>

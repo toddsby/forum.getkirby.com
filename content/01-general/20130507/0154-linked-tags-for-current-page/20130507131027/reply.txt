@@ -1,0 +1,5 @@
+User: bobcorporaal
+----
+Date: 2013-05-07 13:10:27
+----
+Text: Thanks for your answer. The solution from gist is what I was looking for. It works fine although I had hoped I would not have to 'hardcode' the url base into it.

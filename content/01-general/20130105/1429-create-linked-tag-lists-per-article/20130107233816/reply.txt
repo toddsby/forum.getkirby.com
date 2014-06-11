@@ -1,0 +1,13 @@
+User: fitzage
+----
+Date: 2013-01-07 23:38:16
+----
+Text: I did this with categories. Didn't bother with tags, but it's the same thing.
+
+    <?php if (param('category')) { ?>
+        <h1>Blog <small>: <?php echo urldecode(param('category')) ?></small></h1>
+    <?php } ?>
+
+Now you may notice that this will just give you a lowercase version, but you can use this CSS to fix that:
+
+    text-transform: capitalize;

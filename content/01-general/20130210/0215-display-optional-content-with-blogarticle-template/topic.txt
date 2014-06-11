@@ -1,0 +1,24 @@
+Title: Display optional content with blogarticle template
+----
+Date: 2013-02-10 02:15:53
+----
+Solved: 1
+----
+User: huhcorp
+----
+Text: I'd like to optionally add a chunk of intro text at the top of a blog post. 
+
+<pre>
+&lt;section class="content"&gt;
+&lt;article class="blog"&gt;
+&lt;h1 class="article-title"&gt;&lt;?php echo html( $page-&gt;title() ) ?&gt;&lt;/h1&gt;
+&lt;h2&gt;&lt;?php echo html( $page-&gt;intro() ) ?&gt;&lt;/h2&gt;
+&lt;?php echo kirbytext( $page-&gt;text() ) ?&gt;
+&lt;p&gt;&lt;a href="&lt;?php echo url('blog') ?&gt;"&gt;&larr; Back&lt;/a&gt;&lt;/p&gt;
+&lt;/article&gt;
+&lt;/section&gt;
+</pre>
+
+When the blog post has NO intro, How do I make sure there's no extra space from the empty H2 tags?
+
+Thanks!

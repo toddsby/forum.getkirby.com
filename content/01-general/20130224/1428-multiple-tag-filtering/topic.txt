@@ -1,0 +1,23 @@
+Title: Multiple [tag] filtering
+----
+Date: 2013-02-24 14:28:48
+----
+Solved: 1
+----
+User: wieisdennis
+----
+Text: I have something similar as described here http://getkirby.com/forum/general/topic:99
+
+I make also use of the tag-cloud and also of a month and country cloud. See draft http://d.pr/i/7oh5
+
+I would to be able to filter on the same page on a certain month, then on a certain country or vice-versa, and if the visitor wants to filter more, also the visitor has to be able to filter on a certain tag.
+
+At this moment I got the results of a month, a country or tag, I would like to combine this.
+
+Something like as the menu on http://www.behance.net
+
+I read the answer from Bastian in reply to the question from Fitzage, but I don't understand it how to integrate this. Also read this topic http://getkirby.com/blog/the-mighty-mighty-uri-object but I don't understand where to adjust the URI or if this is necessary.
+
+Would someone have a same setup? or can someone get me in the right direction ?
+
+Thanks!

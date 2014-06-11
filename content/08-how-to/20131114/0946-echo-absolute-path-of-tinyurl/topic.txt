@@ -1,0 +1,27 @@
+Title: Echo absolute path of tinyurl()
+----
+Date: 2013-11-14 09:46:14
+----
+Solved: 1
+----
+User: i_cox
+----
+Text: **This:**
+	<code>echo $page->tinyurl()</code>
+
+**Returns:**
+	<code>/x/fcsf4d</code>
+
+---
+
+**This:**
+	<code>echo "http://mysite.com". $page->tinyurl();</code>
+
+**Returns:**
+	<code>http://mysite.com/x/fcsf4d</code>
+
+---
+
+How can I get this result without hard coding my site root?
+
+Thanks!

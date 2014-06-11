@@ -1,0 +1,48 @@
+User: nathaniel_h
+----
+Date: 2013-02-15 05:55:44
+----
+Text: It would be amazing if this code "just worked", but it doesn't. However I think it's very close to what we need, even if it was originally written for Wordpress. I could be wrong though.
+
+(link:http://octalforty.com/articles/creating-a-wordpress-tag-index-page/)
+
+	<?php
+        // Make an array from A to Z.
+        $characters = range('a','z');
+        // Check if $characters exists and ensure that it is an array.
+        if( $characters && is_array( $characters ) ) {
+            foreach( $characters as $index=>$character ) {
+                // Get the tag information for each characters in the array.
+                $tags = get_tags( array('name__like' => $character, 'order' => 'ASC') );
+                // Output a wrapper so that our arrays will be contained in 4 columns.
+                if ($index != 0 && $index % 4 == 0)  {
+                    $html = "<div class='post-tags clearfix' style='clear:left;'>";
+                } else {
+                    $html = "<div class='post-tags clearfix'>";
+                }
+                // Output the character and use it as the title.
+                $html .= "<h3 class='title'>{$character}</h3>";
+                // Output the markup for each tag found for each character.
+                if ($tags) {
+                    $html .= "<ul>";
+                    foreach ( (array) $tags as $tag ) {
+                        $tag_link = get_tag_link($tag->term_id);
+                        $html .= "<li class='tag-item'>";
+                        if ( $tag->count > 1 ) {
+                            $html .= "<p><a href='{$tag_link}' title='View all {$tag->count} articles with the tag of {$tag->name}' class='{$tag->slug}'>";
+                        } else {
+                            $html .= "<p><a href='{$tag_link}' title='View the article tagged {$tag->name}' class='{$tag->slug}'>";
+                        }
+                        $html .= "{$tag->name}</a><span>#{$tag->count}</span></p>";
+                        $html .= "</li>";
+                    }
+                    $html .= '</ul>';
+                }
+                $html .= '</div>';
+                // Output the markup for the current character.
+                echo $html;
+                // Increment the index by 1.
+                $index++;
+            }                    
+        }
+    ?>

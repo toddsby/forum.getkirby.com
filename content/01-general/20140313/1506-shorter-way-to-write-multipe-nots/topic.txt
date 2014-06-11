@@ -1,0 +1,19 @@
+Title: Shorter way to write multipe nots
+----
+Date: 2014-03-13 15:06:34
+----
+Solved: 0
+----
+User: jens_tornell
+----
+Text: My code
+
+    <?php $cats= $pages->find('cat1', 'cat1/subcat1')->children()->not('about')->not('contact')->not('cookies'); ?>
+
+I tried this with no luck
+
+    <?php $cats= $pages->find('cat1', 'cat1/subcat1')->children()->not(array('about', 'contact', 'cookies')); ?>
+
+Is there another way? It's ok for me this time but sometime I might have 20 pages to be excluded.
+
+Sure, I can make an own loop. It there a built in way? I could not find one.

@@ -1,0 +1,9 @@
+Title: Possible to use Twig as Template Language?
+----
+Date: 2013-03-12 13:18:22
+----
+Solved: 0
+----
+User: ijy
+----
+Text: Although I know the question of [why Kirby has no template language](http://getkirby.com/blog/php-templates) has been answered already, I was just wandering if it was in fact possible to hook up to Twig at all to make use of that in templates as an alternative?

@@ -1,0 +1,14 @@
+Title: Setting permissions and deleting page
+----
+Date: 2013-01-27 12:14:12
+----
+Solved: 0
+----
+User: grimmweb
+----
+Text: Hello, is there any quick way of setting folder and file permissions on a Mac? I thought I did it right, and I can make changes via the panel (add/edit), but i can not delete a page, and I still get "The permissions in your content directory are not set properly. Please change the permissions for all folders to 0755 and for all files to 0666" on the panel home page.
+
+Anyone know what I am doing wrong?
+I suspect it's the permissions, so can anyone give my a step by step instruction on setting the permissions? can not find it anywhere on the site. 
+
+Thanks!

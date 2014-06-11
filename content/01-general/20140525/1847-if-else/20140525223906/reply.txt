@@ -1,0 +1,12 @@
+User: bydsply
+----
+Date: 2014-05-25 22:39:06
+----
+Text: Just:
+
+	<?php if($page->hasNextVisible() != ''): ?>
+
+	<?php else: ?>
+
+	<?php endif ?>
+;)

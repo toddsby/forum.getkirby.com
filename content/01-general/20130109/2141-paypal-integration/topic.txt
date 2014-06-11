@@ -1,0 +1,19 @@
+Title: Paypal integration
+----
+Date: 2013-01-09 21:41:14
+----
+Solved: 0
+----
+User: chrisjmartin87
+----
+Text: Hey guys,
+
+I've been slowly learning PHP and trying to improve on my CSS and HTML skills whilst testing Kirby over the past month or two, on and off.
+
+I've been wondering if you use something like simplecart.js (http://simplecartjs.org) to add Paypal functionality to your website, with kirby using text files would this still be an issue security wise if you used a database instead or would it be possible to use text files.
+
+Its interesting to read on the documentation that you can use static html websites to display a product, would using Kirby with text files and this be a security issue?
+
+Thanks
+
+Chris

@@ -1,0 +1,9 @@
+User: russbaldwin
+----
+Date: 2013-03-06 08:42:39
+----
+Text: You could probably run with this
+```php
+c::set('url', '/');
+c::set('subfolder', 'false');
+```

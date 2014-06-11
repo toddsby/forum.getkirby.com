@@ -1,0 +1,11 @@
+User: tues37
+----
+Date: 2012-10-16 21:03:29
+----
+Text: Yes.
+
+I think it’s the rewrite thing. I turned it of and it runs, but http://www.biomagnetik.com/index.php/de/firma/management isn’t a smart url.
+
+I did’nt install the new panel, but there was another issue: the info (Copyright, etc.) doesn't show up anymore.
+
+Edit: Ok, the 404s…-guy brought me to an idea: I copied the invisible .htaccess-file in my root directory, now it work‘s fine! But the panel still doesn’t work well.

@@ -1,0 +1,5 @@
+User: roman_oroco
+----
+Date: 2013-03-29 14:10:24
+----
+Text: Here's a nice tutorial @ (link: /blog/bootstrap-carousel)

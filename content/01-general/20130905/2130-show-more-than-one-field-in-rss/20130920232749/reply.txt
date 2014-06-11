@@ -1,0 +1,13 @@
+User: phasenkasper
+----
+Date: 2013-09-20 23:27:49
+----
+Text: Hi,
+you must edit the file 'feed.php' in snippets.
+
+My file looks like this:
+
+	<description><![CDATA[
+	<p><img src="<?php echo $item->images()->find('headimage.jpg')->url() ?>"></p>
+	<?php echo kirbytext($item->{$descriptionField}) ?>
+	]]></description>

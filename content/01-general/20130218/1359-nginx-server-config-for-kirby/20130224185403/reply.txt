@@ -1,0 +1,29 @@
+User: thibaultmilan
+----
+Date: 2013-02-24 18:54:03
+----
+Text: wow ... I made this :
+
+    rewrite ^/content/(.*).(txt|md|mdown)$ /error permanent;
+    rewrite ^/site/(.*) /error permanent;
+    rewrite ^/kirby/(.*) /error permanent;
+    if (!-f $request_filename){
+        set $rule_3 1$rule_3;
+    }
+    if (!-d $request_filename){
+        set $rule_3 2$rule_3;
+    }
+    if ($rule_3 = "21"){
+        rewrite ^/panel/(.*) /panel/index.php last;
+    }
+    if (!-f $request_filename){
+        set $rule_4 1$rule_4;
+    }
+    if (!-d $request_filename){
+        set $rule_4 2$rule_4;
+    }
+    if ($rule_4 = "21"){
+        rewrite ^/(.*) /index.php last;
+    }
+
+And hell yes , yours is way betters :D

@@ -1,0 +1,17 @@
+Title: Grabbing images from a specific folder in a page?
+----
+Date: 2013-06-16 13:52:22
+----
+Solved: 1
+----
+User: sub_fauna
+----
+Text: Here's my folder structure:
+
+Projects
+- Project-1
+-- Photos
+-- Materials
+
+
+Basically there're 2 slideshows in one post, 1st one grabs images from 'Photos' and 2nd one from 'Materials'. What's the best way to go about this?

@@ -1,0 +1,16 @@
+Title: Can I make a complex website with Kirby
+----
+Date: 2013-12-28 07:27:26
+----
+Solved: 0
+----
+User: deshimerchant
+----
+Text: New here..
+
+I was wondering if i will be able to make a website like yellowpages.com using kirby??
+
+What i mean is directory base website with million post/page... can flat php/kirby handel that?
+
+
+Thank you guys in advance..

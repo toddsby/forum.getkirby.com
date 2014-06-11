@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2012-08-29 22:19:35
+----
+Text: You have to create a date field in your panel blueprint.
+
+(link: http://getkirby.com/docs/panel/blueprints)

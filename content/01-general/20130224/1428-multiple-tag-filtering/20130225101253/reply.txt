@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-02-25 10:12:53
+----
+Text: Not much time at present to look at the PHP, but if you have already got your combined array, I'd use something like [Isotope](http://isotope.metafizzy.co/)?

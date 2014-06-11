@@ -1,0 +1,9 @@
+User: tinuskoorn
+----
+Date: 2013-04-26 16:06:42
+----
+Text: I can add ._ to the content ignore list which is great but we also have problems when editing the plugins we are trying develop. Anytime a mac user edits the files the page shows:
+
+Mac OS X 	2��ATTR$o��#�#com.macromates.caret{ column = 33; line = 38; }This resource fork intentionally left blank ��
+
+Could you ignore the ._ files when reading the plugins too?

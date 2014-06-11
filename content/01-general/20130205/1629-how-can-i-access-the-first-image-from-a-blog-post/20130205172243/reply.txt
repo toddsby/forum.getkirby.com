@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-02-05 17:22:43
+----
+Text: Sometimes something that should return a single item returns an array. It's a pain, but you could try taking that $product->images()->first() and do another foreach and see what happens.

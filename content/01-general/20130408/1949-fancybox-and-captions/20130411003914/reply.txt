@@ -1,0 +1,15 @@
+User: iamirm
+----
+Date: 2013-04-11 00:39:14
+----
+Text: You can use a title field in your image .txt file and use that variable as your title.
+
+In your filename.txt
+      
+    Title: Your title here
+
+In your template
+      
+    <?php echo $image->title(); ?>
+
+More info here: (link: http://getkirby.com/docs/media)

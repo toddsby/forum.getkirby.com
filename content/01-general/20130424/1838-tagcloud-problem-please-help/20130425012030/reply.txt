@@ -1,0 +1,7 @@
+User: tysongach
+----
+Date: 2013-04-25 01:20:30
+----
+Text: Hm, not sure how to help without seeing more of the source code.
+
+You can mark inline code (like I’m doing with `ul`) in the Kirby forum by wrapping it with back–ticks ( ` ). It’s above the tilde key on a Mac keyboard.

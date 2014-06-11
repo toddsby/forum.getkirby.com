@@ -1,0 +1,9 @@
+User: nathaniel_h
+----
+Date: 2013-02-28 21:09:41
+----
+Text: After some Googling it appears that it's because Kirby automatically adds the class to BOTH the image AND the link. If you use Fancybox, it must only be on the 'a' tag.
+
+Is there any way to remove the double tagging just for any images with class: fancybox?
+
+edit: How exactly do you do an image link with Kirby text anyway?

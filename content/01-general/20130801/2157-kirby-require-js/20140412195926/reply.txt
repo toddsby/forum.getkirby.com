@@ -1,0 +1,7 @@
+User: digisocialnet
+----
+Date: 2014-04-12 19:59:26
+----
+Text: Check this post out. I used this snippet with Head.js
+
+http://getkirby.com/forum/code-snippets/topic:1180

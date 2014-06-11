@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2013-03-08 15:23:56
+----
+Text: @russbaldwin
+
+I guess I didn't make it clear that I did that. But when I said "No PHP errors are thrown or anything, the page just stops at whatever was before that," that's what I was referring to. There's also nothing in the error log.

@@ -1,0 +1,12 @@
+User: kevincgreene
+----
+Date: 2013-09-04 04:51:08
+----
+Text: Thanks everyone. Everything you mentioned makes sense. I ended up still assigning the time of day body class with javascript and keeping my overall css styles for day and night. Then I put both of the html img elements on the page and assigned them an ID so that I can hide the opposite one that I want to show depending on the time of day. Thanks again for getting me to think about this the right way.
+
+body.day #nighttime_img {display: none;}
+body.night #daytime_img {display: none;}
+
+FYI: the reason I am putting an html img on the page and not using a div with a background img, which would be much easier to control, is that I have to use an animated gif. Normally that wouldn't be an issue, but this gif is designed to pause on the last frame and there seems to be a bug with most browsers that once a non-looping animated gif gets cached it wont replay the animation the next time the user visits the page. The only way I could figure out how to trick the browser into replaying the gif each time the page loads was to append the following to the image path:
+
+< img id="daytime_img" src="daytime.gif?rand=<?=rand(1,1000);?>" / >

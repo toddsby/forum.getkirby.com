@@ -1,0 +1,5 @@
+User: roman_oroco
+----
+Date: 2013-02-07 15:50:41
+----
+Text: Looks like your search url is different `search/?q=test` instead of `search?q=test`

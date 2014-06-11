@@ -1,0 +1,5 @@
+User: Swissendo
+----
+Date: 2013-07-30 19:15:11
+----
+Text: @russbaldwin Thank you for the links. I've seen the first one some time ago, but the documentation didn't really answer my question. The second one was a great start (I should use Google to search through the forum next time, I swear it didn't show up when using the search), but I'm still unable to target a specific element. The example obviously just lists all my images from an article in a row, while I just want the featured one. What could I do to change this?

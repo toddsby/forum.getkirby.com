@@ -1,0 +1,28 @@
+Title: Repeatable fields
+----
+Date: 2013-02-19 00:05:44
+----
+Solved: 0
+----
+User: richgcook
+----
+Text: Hi all,
+
+I'm not sure if this has been suggested yet (can't find it!) but something that could be useful is the ability to have 'repeatable' fields via the Panel.
+
+I'm building a site for a client and one request was that they can add content to a template that would then be passed into Campaign Monitor and generated into an email campaign ready for send out. (Already building it here: http://goo.gl/vPqEB)
+
+This would allow them to house an archive of email campaigns on the site and create a pretty easy email template builder for them too.
+
+So, repeatable fields. It would be good if I could wrap a certain block of code in the blueprint in a 'repeatable element' which could then be repeated as often as they want.
+
+For example:
+
+Title field
+Text field
+
+This could be repeated, or removed per individual campaign they created. Each new campaign would default to the standard set of fields.
+
+Just an idea... could be useful outside of my specific email template needs to allow users to dynamically created new areas without the template defining it so strictly. Could work.
+
+Cheers!

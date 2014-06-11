@@ -1,0 +1,13 @@
+Title: BOM settings in txt files
+----
+Date: 2013-01-31 21:00:00
+----
+Solved: 0
+----
+User: richardhellyer
+----
+Text: I have been using Kirby for a wireframe for a client and am really liking it. 
+
+I noticed that the kirby-panel emits BOM markers at the beginning of the txt files and was wondering if there is a way to disable that? (while still keeping the UTF-8 encoding) 
+
+The reason I ask is that some of my editors and git (apparently) treat the BOM marker as a change in the file.

@@ -1,0 +1,9 @@
+User: roobottom
+----
+Date: 2013-02-21 17:56:17
+----
+Text: Hi,
+
+Thanks for this, but it doesn't quite cut the mustard I'm afraid. I'd end up with a gallery item url like so ``/gallery/attachment/?id=whatever``, rather I'd like to keep in the same directory so more like ``gallery/album-name/item``.
+
+So, each item should be a level under the album. I'm pretty sure that something clever could be done with ``.htaccess`` to enable a URL like ``gallery/album-name/item`` to point at ``gallery/album-name/?item=item`` then use the default album template to detect the ``GET`` variable and switch into "individual item" mode.

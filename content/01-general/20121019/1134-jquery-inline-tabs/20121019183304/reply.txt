@@ -1,0 +1,30 @@
+User: ben_roe
+----
+Date: 2012-10-19 18:33:04
+----
+Text: Similar like this (link: http://jqueryui.com/tabs/)
+
+It would be nice if i can type
+
+    (tabs:
+    
+    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod **tempor** invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. (image: http://placekitten.com/200/300)
+    ,
+    Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+    
+    titles: Tab 1, Tab 2
+    )
+
+or 
+```
+(tabs: start)
+(tab: start title: Tab 1)
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod **tempor** invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. (image: http://placekitten.com/200/300)
+(tab: end)
+
+(tab: start title: Tab 2)
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+(tab: end)
+
+(tabs: end)
+```

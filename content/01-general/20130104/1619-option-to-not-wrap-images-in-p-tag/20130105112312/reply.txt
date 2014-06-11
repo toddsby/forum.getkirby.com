@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2013-01-05 11:23:12
+----
+Text: You can try to swtich off markdown.breaks in your config file. That's a custom modification of the Markdown parser in Kirby, which might cause the issues.

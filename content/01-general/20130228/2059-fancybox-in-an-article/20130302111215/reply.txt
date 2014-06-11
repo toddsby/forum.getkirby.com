@@ -1,0 +1,42 @@
+User: russbaldwin
+----
+Date: 2013-03-02 11:12:15
+----
+Text: Sorry, I see what you mean. 
+
+I guess this maybe a bug unless someone else knows how to do it? 
+
+
+1. Change the calling [FancyBox JavaScript](http://fancyapps.com/fancybox/) to specify the link (rather than img element)?
+2. You could do it with extended markdown?
+
+---
+
+You should probably log it as a bug, however I can see why it is done like this as it is difficult to know which element to put the class on.
+
+In the best of both worlds KirbyText should allow for two classes, one for the image and one for the link. It currently only takes the last one you set if I do something like this:
+
+```
+( image: img.jpg  class: myImgClass  alt:AltText link: http://me.com  class: myLinkClass )
+```
+
+```html
+<p>
+<a href="http://me.com" class="myLinkClass">
+<img src="http://img.jpg" class="myLinkClass" 
+title="img"  alt="AltText" />
+</a>
+</p>
+
+```
+
+When what you would like would be something like:
+```html
+<p>
+<a href="http://me.com" class="myLinkClass">
+<img src="http://img.jpg" class="myImgClass" 
+title="img" alt="AltText" />
+</a>
+</p>
+
+```

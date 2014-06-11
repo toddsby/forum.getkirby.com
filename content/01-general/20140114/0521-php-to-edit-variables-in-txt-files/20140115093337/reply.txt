@@ -1,0 +1,10 @@
+User: _frankallen
+----
+Date: 2014-01-15 09:33:37
+----
+Text: found a file in my old blog for adding "likes" to articles.
+on click, it pushes a new value to a variable at the *.txt-files.
+
+http://pastie.org/private/w5farmrl9j5ee93u0xswq
+
+hope this could help you.

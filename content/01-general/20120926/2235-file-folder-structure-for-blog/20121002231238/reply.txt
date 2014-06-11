@@ -1,0 +1,39 @@
+User: hey_steffen
+----
+Date: 2012-10-02 23:12:38
+----
+Text: What about this folder and filename-structure/convention:
+
+```
+posts/
+    201209/
+        media/
+            2300.lolcats.jpg
+            2201.nice_writing.pdf
+            2201.show_me_twice.pdf
+        2300.posting_the_next.article.txt
+        2201.another_post_on_same_day.article.txt
+        2200.first_post_september.article.txt
+    201210/
+    201211/
+    ...
+```
+
+_OR_
+
+```
+posts/
+    2012/
+        09/
+          media/
+            2300.lolcats.jpg
+            2201.nice_writing.pdf
+            2201.show_me_twice.pdf
+          2300.posting_the_next.article.txt
+          2201.another_post_on_same_day.article.txt
+          2200.first_post_september.article.txt
+        08/
+        07/
+    2011/
+    ...
+```

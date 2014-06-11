@@ -1,0 +1,7 @@
+User: tues37
+----
+Date: 2012-12-25 11:50:51
+----
+Text: Hi,
+
+yes, that was what I meant. I looked it up before and the <code>site.txt</code> is in place. One german and one english version, but it doesn’t work.

@@ -1,0 +1,19 @@
+User: fitzage
+----
+Date: 2013-12-17 19:10:41
+----
+Text: So you'd name your image something like featured-blahblah.png and then…
+
+```php
+<?php $featured = $page->images()->filterBy('title', '*=', 'featured-'); ?>
+<img src="<?php echo $featured->url() ?>">
+```
+
+This method lets you include more words in the filename as long as it starts with `featured-`. This also means it works whether it's png or jpeg, or even gif I suppose.
+
+If you don't need that flexibility (you're going to use the same filename and format every time), you can do this (obviously replacing featured.jpg with whatever the correct filename is):
+
+```php
+<?php $featured = $page->images()->find('featured.jpg'); ?>
+<img src="<?php echo $featured->url() ?>">
+```

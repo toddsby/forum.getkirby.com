@@ -1,0 +1,11 @@
+User: positionrelativ
+----
+Date: 2013-06-14 17:59:36
+----
+Text: Hey thanks for the links Russ. I was able to sort out my issue of only loading the last project's images by changing the names of my project folders, but I'm still pretty lost on what to do about calling each project individually. 
+
+For starters how would I set it up so that the first project loads on the page by default but the other projects can then be pulled in through the sidebar links?
+
+Will I need to generate a new php template file for each separate project?
+
+Thanks for your help!

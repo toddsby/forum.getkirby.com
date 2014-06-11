@@ -1,0 +1,10 @@
+User: vis7mac
+----
+Date: 2014-03-31 15:03:07
+----
+Text: There's a setter as well as a getter.
+So you could just use the following:
+
+```php
+$url = c::get('url');
+```

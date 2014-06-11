@@ -1,0 +1,13 @@
+User: russbaldwin
+----
+Date: 2013-02-20 10:29:42
+----
+Text: I don't believe it is possible with just KirbyText.
+One way of doing this would be to enable MarkdownExtra in your config:
+
+```php
+c::set('markdown.extra', true);
+```
+and then [check out the docs...](http://michelf.ca/projects/php-markdown/extra/). 
+
+Please mark you query as solved if you are happy.

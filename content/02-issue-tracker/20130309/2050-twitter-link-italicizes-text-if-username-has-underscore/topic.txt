@@ -1,0 +1,12 @@
+Title: Twitter: Link italicizes text if username has underscore
+----
+Date: 2013-03-09 20:50:25
+----
+Solved: 0
+----
+User: nathaniel_h
+----
+Text: Using the Kirby text option for posting a link to a twitter profile, since my username has an underscore in it, it obviously automatically italicizes the text and removes the underscore.
+     (twitter: nathaniel_h)
+
+edit: It doesn't seem to be a problem on the forum, though...

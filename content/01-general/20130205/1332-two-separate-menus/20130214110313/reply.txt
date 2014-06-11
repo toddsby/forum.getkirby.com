@@ -1,0 +1,34 @@
+User: bastianallgeier
+----
+Date: 2013-02-14 11:03:13
+----
+Text: Another solution for the footer navigation is to use all invisible pages in the main level and exclude those you want to avoid: 
+
+Strucutre: 
+
+```
+- 01-about-us
+- 02-projects
+- 03-contact
+- home
+- error
+- faq
+- support
+- terms-of-service
+
+```
+
+Footer snippet
+
+```
+<?php 
+
+$items = $pages->invisible()->not('home')->not('error');
+
+if($items->count() > 0): 
+
+?>
+<!-- put your menu html code here -->
+<?php endif ?>
+
+```

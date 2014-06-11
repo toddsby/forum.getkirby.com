@@ -1,0 +1,11 @@
+Title: New Article always returns error
+----
+Date: 2013-04-27 23:41:13
+----
+Solved: 0
+----
+User: chrisburton
+----
+Text: Whenever I try to add a new article in the panel and select a template, it redirects to an error. Is anyone else receiving this?
+
+<img src="http://f.cl.ly/items/2z2z3h3j2B08352o2c0U/Image%202013-04-27%20at%205.34.29%20PM.png" />

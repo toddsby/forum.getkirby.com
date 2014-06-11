@@ -1,0 +1,27 @@
+User: roman_oroco
+----
+Date: 2012-08-29 13:28:40
+----
+Text: It's possible to display categories in standard view? Like on many magazine websites:
+
+
+Category 1
+```
+http://site.com/category/art
+```
+Category 2
+```
+http://site.com/category/beauty
+```
+
+Category navigation:
+```
+<ul class="categories-nav">
+  <li>
+    <a href="//site.com/category/art">Art</a>
+  </li>
+  <li>
+    <a href="//site.com/category/beauty">Beauty</a>
+  </li>
+</ul>
+```

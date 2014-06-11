@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-04-07 08:24:10
+----
+Text: Maybe just touching a file and changing it modification date  - it maybe enough for you? Or reading and writing your own file?
+
+[Kirby Toolkit has some file method stuff...](http://toolkit.getkirby.com/docs/classes/f)

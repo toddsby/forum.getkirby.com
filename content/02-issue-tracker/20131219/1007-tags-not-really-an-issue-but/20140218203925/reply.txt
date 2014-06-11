@@ -1,0 +1,19 @@
+User: tysongach
+----
+Date: 2014-02-18 20:39:25
+----
+Text: This is working for me. Thank you for tracking this down!
+
+Also, although the change suggested above makes everything work just fine, I found that the multi-word tag URL’s produced by the tagcloud plugin had spaces in them. So a normal tag might be `/blog/tag:testing`, but a multi-word tag would be `/blog/tag:test test`. Upon following that URL, the browser would encode the space to ‘%20’, which is different from Kirby’s built-in encoding (it replaces spaces with ‘+’). This means two separate URL’s could be linking to the same page, which could cause some analytics and SEO issues. But for me, I’m just OCD so I don’t want multiple URL’s everywhere.
+
+To fix this, also change line 48 in `tagcloud.php` from this:
+
+```php
+'url'      => $options['baseurl'] . '/' . $options['param'] . $ds . $t,
+```
+
+…to this:
+
+```php
+'url'      => $options['baseurl'] . '/' . $options['param'] . $ds . urlencode($t),
+```

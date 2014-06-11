@@ -1,0 +1,5 @@
+User: lulezi
+----
+Date: 2012-12-29 14:22:33
+----
+Text: I'm pretty sure this happens because of an incorrect formatted URL in the `link` field. Have a look at (link: http://jsfiddle.net/9FrUW/1/ text: this jsFiddle).

@@ -1,0 +1,24 @@
+User: MatteusZablocki
+----
+Date: 2012-11-11 14:29:27
+----
+Text: This is my simple workaround to create a gallery with thumbnails and captions:
+
+	<div id="thumbs">
+	<ul>
+  		<?php foreach($page->children()->children() as $project): ?> 
+  			<li id="thumbs-listing">      
+    			<a href="<?php echo $project->url() ?>"><img src="<?php echo $project->images()->find('thumb.jpg')->url() ?>" alt="<?php echo html($project->title()) ?>" /></a>
+    			<p class="thumb-caption"><?php echo $project->images()->find('thumb.jpg')->caption() ?></p>
+			</li>
+  		<?php endforeach ?>  
+	</ul>
+ 	</div>
+
+"children()->children()" think of it as levels in a dir. "children()->" means 1 level down in a dir.,"children()->children()" means 2 levels, etc.
+
+By creating a thumbnail and naming it 'thumb.jpg' in each page (folder) you pull all the thumbs (from each folder) to a given page.
+To give that 'thumb.jpg' a caption/descr. you simply drop a txt-file in the same folder as the thumbnail resides in. The txt-file needs to have the same name as the thumbnail: 'thumb.jpg' -> 'thumb.jpg.txt'. 
+I have only a "caption" in my txt-file, but I guess it is up to you and how you set up the txt-file with the data that you want to display.
+
+Hope this helps…

@@ -1,0 +1,5 @@
+User: lulezi
+----
+Date: 2012-12-22 15:28:26
+----
+Text: That's a great suggestion. Made a PR (link: https://github.com/bastianallgeier/kirbycms-panel/pull/27 text: over here).

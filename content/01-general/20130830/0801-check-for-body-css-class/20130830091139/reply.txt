@@ -1,0 +1,5 @@
+User: walkerbox
+----
+Date: 2013-08-30 09:11:39
+----
+Text: Why not use whatever logic you use in your header snippet to determine your class in your template? It'll come to the same answer.

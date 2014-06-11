@@ -1,0 +1,11 @@
+User: russbaldwin
+----
+Date: 2013-06-23 11:14:24
+----
+Text: Assuming you have an author field in your content file, you should be able to add a `->sortBy('author')` to your code.
+
+From the docs: 
+```php
+ Sorts pages in a set by field
+$pages->sortBy($sort=’title’, $dir=’asc’) 
+```

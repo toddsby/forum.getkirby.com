@@ -1,0 +1,30 @@
+User: bastianallgeier
+----
+Date: 2012-05-29 12:31:27
+----
+Text: I'm not here to say negative stuff about Wordpress. It's a fantastic system and definitely a good choice for many situations. 
+
+But here are some arguments for Kirby:
+
+Kirby is very flexible. You can actually build pretty much any site structure, your client is looking for very quickly. 
+
+That means that it is also future-proof. If your client comes up with a new idea and wants to restructure/redesign the entire site, it's possible without ditching the entire system and starting from scratch. 
+
+You can store any kind of data with Kirby. There's no limitation to the number or type of fields and content the clients can have on their site. 
+
+As you already said, the performance is great out of the box and can be even better with enabled caching. The new <http://smashingconf.com> website is the best example, how well Kirby handles high amounts of traffic. We have caching disabled for it!! 
+
+With the panel you get the best of both worlds. A flexible web interface, which your clients can use to edit and add content, plus a 100% synced version, which can be edited via FTP. This means that backups are super easy. You can make use of the advantages of FTP-programs to upload huge amounts of data instead of a slow web upload. The developer can stick to their favorite editor and FTP-programm to make changes more quickly. 
+
+The flexible core of Kirby + the included Kirby toolkit make it easy to extend Kirby, even if there's no plugin yet. I think that it's more important for a developer to feel comfortable with extending a system than knowing that there are gazillions of plugins. Most of the time existing plugins won't fit 100% anyway and you have to build customized solutions for your clients. 
+
+Even though Kirby is not free, the source is 100% available on Github and anyone can contribute and submit improvements. This also makes sure that you don't have to buy a system you can't really test and check if it's good or not. 
+
+Kirby is backed by personal support. If you got questions, I'm always there to help and the forum is another great place to find answers to common issues. 
+
+Even though Kirby is still a pretty young system, it has already been used for quite a lot of impressive, high-quality websites and has received fantastic feedback. 
+
+Kirby is constantly growing and improving and new updates and releases are being published regularly. 
+
+I hope this helps. 
+If I find more arguments, I'm going to post them here :)

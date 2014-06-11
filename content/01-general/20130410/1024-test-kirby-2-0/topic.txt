@@ -1,0 +1,16 @@
+Title: Test Kirby 2.0
+----
+Date: 2013-04-10 10:24:44
+----
+Solved: 0
+----
+User: katrynvonfelsen
+----
+Text: Hello there!
+
+I am trying to install the new panel for kirby 2 (<https://github.com/kirbycms/panel>)
+
+But it does not seem to work properly! IS it because I need the new core? If yes, I already added the latest core (<https://github.com/kirbycms/core>) on the default pack (<https://github.com/kirbycms/default-pack>)
+
+thank you,
+Catherine

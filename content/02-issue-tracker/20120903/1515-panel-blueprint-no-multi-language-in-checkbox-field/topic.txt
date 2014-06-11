@@ -1,0 +1,19 @@
+Title: Panel/blueprint: No multi language in checkbox field
+----
+Date: 2012-09-03 15:15:18
+----
+Solved: 0
+----
+User: netzintelligenz
+----
+Text: Hi,
+
+it seems multi language support for label is missing in the checkbox fieldtype. Custom fieldtypes don't support multi language labels as well.
+
+(gist: https://gist.github.com/3609240)
+
+Throws: 
+
+Warning: htmlentities() expects parameter 1 to be string, array given in .../kirby/lib/kirby.php on line 2580
+
+Cheers, Ralf

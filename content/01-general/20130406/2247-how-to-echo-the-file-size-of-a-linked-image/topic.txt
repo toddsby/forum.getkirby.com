@@ -1,0 +1,20 @@
+Title: How to echo the file size of a linked image
+----
+Date: 2013-04-06 22:47:34
+----
+Solved: 0
+----
+User: sventempo
+----
+Text: Hello, I'm trying to have a section below my thumbnails which links to higher resolution versions of the image. Next to each link, I would like to echo the targeted image's file size. For example:
+
+[thumbnail image here]
+**Detail**
+500 kb
+
+The way I have it set up is, the detail images are contained in subfolders, called "detail" and also have "-detail" appended to the file name. I have everything working (i.e. the popup images work, etc.) but I can't seem to figure out how to echo the file size for the targeted images (right now it is just echoing the file size of the thumbnails contained on the page). Here is the code I am using. 
+
+    <p><b>Detail </b><br />
+        <a href="<?php echo dirname($image->url()); ?>/detail/<?php    echo $image->name() ?>-detail.jpg" rel="lightbox"><?php echo $image->niceSize() ?></a></p>
+
+Thanks so much for any help you may be able to offer!

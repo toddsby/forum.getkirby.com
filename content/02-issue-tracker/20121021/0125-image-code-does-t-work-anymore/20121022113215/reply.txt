@@ -1,0 +1,11 @@
+User: cyclera
+----
+Date: 2012-10-22 11:32:15
+----
+Text: hey bastian 
+
+found it !!I called for images->url instead of image->url !!
+
+didn't know about source code and PHP errors my bad ! 
+
+kirby rocks !!! so much !! thanks

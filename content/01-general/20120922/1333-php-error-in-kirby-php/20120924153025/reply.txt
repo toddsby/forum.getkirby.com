@@ -1,0 +1,5 @@
+User: lulezi
+----
+Date: 2012-09-24 15:30:25
+----
+Text: Which version of PHP do you have installed? It's probably under 5.3 which is the first supporting anonymous functions: <http://php.net/manual/en/functions.anonymous.php>

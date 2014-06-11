@@ -1,0 +1,13 @@
+Title: Panel: Can't see part of .overlay.add-page outside the .menu
+----
+Date: 2014-01-26 00:26:14
+----
+Solved: 0
+----
+User: fahrio
+----
+Text: I have many clients using Kirby Panel without any problems but one client has this weird issue.
+
+When he clicks the + button to add a new page, only the left white bit of .overlay.add-page div is visible. The part outside the .menu div is not visible, although the overflow property for .menu is set to auto.
+
+Removing the overflow:auto property for .menu seems to fix the problem.

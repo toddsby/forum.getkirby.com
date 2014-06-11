@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2013-01-04 17:41:45
+----
+Text: Brilliant. Of course on my load-balanced setup, I'd have to hit both servers individually or it will only clear on one server.
+
+Is there any downside to my current method, which is having a script run after every git push that deletes the cache files on the server?

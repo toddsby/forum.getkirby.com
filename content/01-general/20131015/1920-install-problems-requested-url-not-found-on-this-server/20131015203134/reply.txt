@@ -1,0 +1,8 @@
+User: texnixe
+----
+Date: 2013-10-15 20:31:34
+----
+Text: Have you edited the config file as well?
+
+    c::set('url', 'http://studioshitless/kirby');
+    c::set('subfolder', 'kirby');

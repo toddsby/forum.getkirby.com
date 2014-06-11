@@ -1,0 +1,11 @@
+User: fitzage
+----
+Date: 2013-08-20 22:13:59
+----
+Text: So the easiest method is just to use urlencode and urldecode. That means your URL will be User%20Interface, but then you use urldecode to turn it into User Interface when actually filtering the tags so it matches up with what's in the field. So with Bastian's example you would then use the $tag variable when you're filtering, because his code there decodes the multi-word tag, replacing the %20 with a space.
+
+If you want user-interface as the URL, you'll have to do a number of things:
+
+1. Replace the space with the hyphen when creating the URL instead of using urlencode.
+2. Replace the hyphen with a space when getting the parameter from the URL before filtering by tag.
+3. Deal with the difference in capitalization. Probably easiest would be to lowercase everything before comparing strings when filtering by tag.

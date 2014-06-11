@@ -1,0 +1,7 @@
+User: Wordius
+----
+Date: 2013-02-14 10:12:45
+----
+Text: That sounds like a solution. First, Prev, Next, Last I’ve figured out (see gist: https://gist.github.com/Wordius/4951468). But I’m not able to figure out how you restrict the numbered pages to the five middle ones in any count.
+
+It seems every time I have to think in PHP something defeats me.

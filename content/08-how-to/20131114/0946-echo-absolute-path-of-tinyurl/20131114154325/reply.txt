@@ -1,0 +1,9 @@
+User: texnixe
+----
+Date: 2013-11-14 15:43:25
+----
+Text: This is strange, in my installation
+
+    <?php echo $page->tinyurl() ?>
+
+echoes the complete URL with root, locale and all ...

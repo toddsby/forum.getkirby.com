@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-11-25 17:05:45
+----
+Text: If you want to use Panel then probably not. It all works well with separate folders and Panel so I do it that way for Quotes and Press and stuff.
+
+Otherwise maybe use a YAML single file?

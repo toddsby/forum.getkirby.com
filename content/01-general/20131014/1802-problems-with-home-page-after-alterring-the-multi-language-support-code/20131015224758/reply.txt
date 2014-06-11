@@ -1,0 +1,8 @@
+User: i_am_niklas
+----
+Date: 2013-10-15 22:47:58
+----
+Text: THANK YOU! It had nothing to do with the config.php at all. I just renamed the picture that was named "cover". Not finding the header picture somehow caused kirby to not display the whole "home" page.
+After I renamed it to cover, all worked perctly fine again.
+Thanks for the hint! 
+Totally noob question but you guys helped me out anyway. Great comunity für a great system. Thanks again. Solved.

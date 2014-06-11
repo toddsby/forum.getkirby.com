@@ -1,0 +1,5 @@
+User: structor
+----
+Date: 2013-04-10 16:10:47
+----
+Text: Did you tried to use (link:https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/prevnext/prevnext.php text:this) prev/next snippet? Maybe it is what you need.

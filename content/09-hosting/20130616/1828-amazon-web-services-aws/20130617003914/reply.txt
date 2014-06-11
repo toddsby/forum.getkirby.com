@@ -1,0 +1,5 @@
+User: roman_oroco
+----
+Date: 2013-06-17 00:39:14
+----
+Text: @isemann Hello, (link: /forum/general/topic:162 text: this topic) might help you. Also <cite>Rob Brazier</cite> did (link: https://github.com/RobBrazier/kirby-getimage text: Kirby GetImage Plugin popup: yes).

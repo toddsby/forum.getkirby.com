@@ -1,0 +1,9 @@
+User: bastianallgeier
+----
+Date: 2012-07-06 09:36:32
+----
+Text: Hey, 
+
+did you get the latest version from Github? It normally should be able to fix that issue. 
+
+Please let me know if this does not solve it.

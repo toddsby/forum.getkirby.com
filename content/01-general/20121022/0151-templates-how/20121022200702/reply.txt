@@ -1,0 +1,18 @@
+User: h2only
+----
+Date: 2012-10-22 20:07:02
+----
+Text: OK... yes, that got it done.  The problem I was having was largely one of not being sufficiently particular in what I was doing.  Among other things, not updating the .htaccess file, or replacing every folder, when in the case of the site folder, I only needed to replace parts of it.  
+
+I have it working now, mostly.   I see on the demo that there is a vertical line between the tree menu and the content, and that there are arrows indicating further menu levels.  Neither of those is occurring on my current install.  So I did some digging, and found the reference for the arrow here:
+
+.menu li.hasChildren {
+background-image:url(/assets/images/arrow.png);
+background-position:250px 10px;
+background-repeat:no-repeat;
+background-size:6px 9px;
+} 
+
+assets/images/arrow.png exists in my install... so why is it not loading the image on the page?  I suspect a path issue in how I have things configured, tho I did follow the instructions closely regarding the config.php and .htaccess modifications for local serving on MAMP.
+
+I'm slowly getting a handle on this, and as I do so I am getting excited.  This has a lot of potential for me!

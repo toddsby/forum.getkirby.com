@@ -1,0 +1,21 @@
+Title: findByUID() usage & best practice
+----
+Date: 2012-11-25 12:09:32
+----
+Solved: 0
+----
+User: andi1984
+----
+Text: Hi,
+
+I've a short question concerning finding a (maybe hidden page) by UID deeper in the page tree.
+
+So I could use find and add the relative path to the page beginning with the root directory. But maybe I don't want to use this method, because project structure could change later on. So I think the best method is findByUID().
+
+No problem with that, but for me findByUID always returns an array (even if there is only one result) and not a single page object which I could use directly to access the page's content, whereas find() and findBy() (which is also used internally for findByUID) are working as intended.  (twitter:fitzage) seems to have the same problem, see (link:https://twitter.com/fitzage/statuses/252882932996382720 text:Tweet).
+
+Can somebody give me a hint about this behaviour of findByUID?
+
+Greets,
+
+Andreas

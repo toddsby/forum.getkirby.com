@@ -1,0 +1,10 @@
+User: JanStieler
+----
+Date: 2013-08-31 21:04:37
+----
+Text: Hi,
+thanks. But now i get the word "array" as the output an not all pages like
+
+    <?php 
+    echo $pages
+    ?>

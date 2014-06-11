@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-11-02 11:18:26
+----
+Text: @mattsandersuk I'm sorry that the plugin won't work on your client's server. When I wrote it I decided to go for a newer version of PHP since it allows to do stuff a bit differently and more elegantly than with older versions. It sucks, but maybe you need to look for a third-party solution then :/ Really sorry about that.

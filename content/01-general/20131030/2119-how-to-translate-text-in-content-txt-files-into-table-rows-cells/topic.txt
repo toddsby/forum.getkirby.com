@@ -1,0 +1,39 @@
+Title: How to translate text in content .txt files into table rows/cells
+----
+Date: 2013-10-30 21:19:26
+----
+Solved: 1
+----
+User: unexpectedsport
+----
+Text: Sorry if this question is not very specific, but I'm looking for some advice on the best way to do something. 
+
+I am working on a redesign for an artist and I was hoping to style the CV section as a table, organized by year. I imagine organizing everything by year: Solo exhibitions, Group exhibitions, Publications, Reviews, etc. I was thinking I could create a .txt file for each year which would have sections for each of the above categories. E.g. 2013.txt:
+
+    Solo-exhibitions:
+
+    <i>Exhibition Title 1</i>, Venue, Australia
+
+    <i>Exhibition Title 2</i>, Venue, Bristol, United Kingdom
+
+    Group-exhibitions: 
+    
+    <i>Exhibition Title 3</i>, Venue, Aspen, Colorado
+
+    <i>Exhibition Title 4</i>, Venue, San Francisco, California
+
+I guess my question is: if I were to go about it this way, how would I code it so that **each line would go in its own table row and cell?** E.g. 
+
+    <table>  
+        <tbody>  
+          <tr>  
+            <td><i>Exhibition Title 1</i>, Venue, Australia</td> 
+            <td><i>Exhibition Title 2</i>, Venue, Bristol, United Kingdom</td>
+            <td>. . .</td>
+          </tr>
+        </tbody>
+    </table>
+
+Is this possible? Practical? The CV is very, very long, so I'd like to create a system that's pretty simple and can be easily updated by the client…
+
+Any advice you could give would be greatly appreciated. Thank you!

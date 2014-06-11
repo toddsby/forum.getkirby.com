@@ -1,0 +1,9 @@
+User: roman_oroco
+----
+Date: 2013-04-26 16:19:20
+----
+Text: I agree with @russbaldwin that in most cases you need PHP skills and server side stuff. A web developer is definitely require to build a good products with magic of Kirby.
+
+Regarding security it’s also depends on server/hosting and server-side configs you are using. Checking (link:http://html5boilerplate.com text:H5BP popup: yes) & (link:https://github.com/h5bp/server-configs text:H5BP’s Server Configs popup: yes) awesomeness it’s definitely a good start.
+
+I think that forum it’s need more rules.

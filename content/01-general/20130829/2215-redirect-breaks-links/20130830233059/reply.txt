@@ -1,0 +1,15 @@
+User: ibuypink
+----
+Date: 2013-08-30 23:30:59
+----
+Text: So, with the default `.htaccess` and `config.php`, creating a folder `02-medlemmar` and inside that folder putting `01-member-name` doesn't work?
+
+	/01-home/
+		/01-post-1/
+		/02-post-2/
+	/02-medlemmar/
+		/01-member-name/
+		/02-member-name/
+		/03-member-name/
+		/04-member-name/
+		/…

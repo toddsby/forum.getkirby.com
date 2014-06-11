@@ -1,0 +1,34 @@
+Title: Add links to images that lead to other websites
+----
+Date: 2014-05-27 19:23:51
+----
+Solved: 0
+----
+User: katrinmatrin
+----
+Text: Is it possible to add links to images that will lead to other websites?
+
+I want to make it possible to add link to the images together with title and caption in text file:
+
+Title: Chatroulette – Connected, feel free to talk now
+Caption: Chatroulette – Connected, feel free to talk now                                           
+Link: www.chatroulette.com
+ 
+ 
+
+I have added this code to page template:
+
+ `<ul class="content">
+<?php foreach($page->images() as $img): ?>
+<li>
+<figure> 
+<a href="<?php echo $img->link() ?>"><img src="<?php echo $img->url() ?>" alt="<?php echo $img->title() ?>" /></a>
+<figcaption><?php echo $img->caption() ?></figcaption>
+</figure> 
+ </li>
+<?php endforeach ?> 
+</ul>`    
+
+But the link I get is http://mywebsite.com/www.chatroulette.com
+
+Can anyone help?

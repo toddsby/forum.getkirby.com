@@ -1,0 +1,15 @@
+Title: Tag thumbnails/icons
+----
+Date: 2013-08-24 17:02:11
+----
+Solved: 0
+----
+User: zinzygeene
+----
+Text: I'm currently developing a portfolio website for a writer. For each article, we want to add tags, and display the tags on the index page. Instead of using text we're looking to display tag icons.
+
+I know it's possible with Wordpress (http://wplift.com/how-to-show-different-icons-for-each-wordpress-category), but I don't know if I can make it happen with Kirby.
+
+I was wondering if anybody would want to help me with the code.
+
+Thanks in advance!

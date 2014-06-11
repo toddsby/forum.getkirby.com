@@ -1,0 +1,14 @@
+User: roman_oroco
+----
+Date: 2013-02-28 17:04:24
+----
+Text: You just need to create `~/site/templates/page.php` and use same template name "page.txt" for all subpages and parents as well.
+```
+content
+-parent-page
+-page.txt
+--sub-page
+--page.txt
+--another-subpage
+--page.txt
+```

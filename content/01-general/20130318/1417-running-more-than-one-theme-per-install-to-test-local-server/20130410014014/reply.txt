@@ -1,0 +1,9 @@
+User: TyKisha
+----
+Date: 2013-04-10 01:40:14
+----
+Text: Generally, when I do that, I just set up different installs as the folder structure for the content could get crazy. I think it'd also be relatively slow as it'd be pre-loading a lot of data.
+
+All that said, I actually have a site where I'm running two different themes right now, granted the themes are mostly style - no deep functionality. 
+
+In my case, it's just been a matter of organizing/separating the various assets, templates and snippets.

@@ -1,0 +1,13 @@
+Title: A small LessPHP Plugin for for KirbyCMS
+----
+Date: 2013-09-27 00:38:57
+----
+Solved: 0
+----
+User: janstieler
+----
+Text: Hi,
+i created a small plugin for using LessPHP with Kirby.
+[http://bueroexit.github.io/kirby-lessphp/](http://bueroexit.github.io/kirby-lessphp/)
+
+Greets

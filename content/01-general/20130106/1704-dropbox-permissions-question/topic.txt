@@ -1,0 +1,33 @@
+Title: Dropbox permissions question
+----
+Date: 2013-01-06 17:04:31
+----
+Solved: 1
+----
+User: adrianthomas
+----
+Text: EDIT:
+Never mind, I think I've fixed it!
+
+
+Hey guys, 
+
+I followed the steps in these tutorials to get a Dropbox-powered site running on Uberspace:
+
+http://maxhaesslein.de/blog/webentwicklung/1329055694
+http://getkirby.com/blog/kirby-meets-dropbox
+
+However I'm a bit uncertain as to the correct way to set permissions etc. so would appreciate feedback from anyone else with a similar setup. 
+
+I first created a regular Dropbox folder that I symlinked into my regular ~/html/content directory. This worked fine for everything except direct downloads etc, as Apache can't access files directly in my home folder.
+
+So I've changed the configuration that the whole content folder is now on Dropbox and symlinked into /var/www/myuser/html/content like this:
+
+    $ ln -s /var/www/mykirbysite.com/content ~/Dropbox/mykirbysite
+
+This works perfectly (including downloads), however when I create a new folder on Dropbox, it is created with 777 permissions in /www, making it fully writable for anyone - dangerous!
+
+So what is the correct way to set up Dropbox and Uberspace for Kirby? 
+
+Thanks!
+Adrian

@@ -1,0 +1,16 @@
+Title: Running PHP in a page
+----
+Date: 2013-08-15 23:34:26
+----
+Solved: 0
+----
+User: garyrozanc
+----
+Text: Hello Everyone,
+
+I want to switch from Wordpress to Kirby, but I need to be able to run bits of PHP from within a page from time to time. For example, as a professor, I'll give online quizzes that are written in php that are automatically graded and stored so students can login later and see the semester long results.
+
+In WordPress I have these quizzes in each post and have a plugin that allows the PHP to execute. Can I do this in Kirby without linking to an external page that has the quiz (I want one CMS)?
+
+Thanks,
+Gary

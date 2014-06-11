@@ -1,0 +1,51 @@
+Title: Custom subject line for contactform plugin
+----
+Date: 2014-01-04 13:02:00
+----
+Solved: 0
+----
+User: 5w
+----
+Text: Hi guys,
+
+I'm looking for two things:
+
+1. a way to customize the email subject line for the contact form plugin.
+2. To include a replyto, based on the email entered by user
+
+Currently, the subject line is set in advance within the initialization of the new contactform 
+
+```php
+$form = new contactform(array(
+	'to'       => 'Name <name@email.com>',
+	'from'     => 'Contact Form <contactform@email.com>',
+	'subject'  => 'New contact form request',
+	'goto'     => $page->url() . '/status:thank-you',
+	'honeypot' => 'email2'
+));
+```
+
+The ideal solution would be as follow
+
+```php
+$form = new contactform(array(
+	'to'       => 'Name <name@email.com>',
+	'from'     => 'Contact Form <contactform@email.com>',
+	'replyto'  => $emailentered,
+	'subject'  => $nameEntered . 'Sent a New message',
+	'goto'     => $page->url() . '/status:thank-you',
+	'honeypot' => 'email2'
+));
+```
+
+I added two extra variables (that should be captured when user submits the form): 
+```php
+
+$emailentered = $form->htmlValue('email');
+$nameEntered  = $form->htmlValue('name');
+
+```
+
+Any pointers would be greatly appreciated.
+
+Thank you

@@ -1,0 +1,16 @@
+Title: Error page not found: stupid mistakes #1
+----
+Date: 2013-01-06 10:32:03
+----
+Solved: 1
+----
+User: wordius
+----
+Text: Make sure you do not leave a **space at the end of a folder or file name** when adding content to your site.
+ 
+This morning I wasted an hour trying to figure out why a new blog post would not display. It showed on my archive page and was listed on my blog page, but clicking the title to go to the post page threw up ‘Error: Page not found’.
+
+After a frustrating hour, I discovered the problem was in the directory name for the blog post:
+
+    20130106-article-name[space]
+        blogarticle.txt

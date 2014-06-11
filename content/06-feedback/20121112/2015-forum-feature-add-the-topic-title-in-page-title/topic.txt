@@ -1,0 +1,9 @@
+Title: Forum feature : add the topic title in page title
+----
+Date: 2012-11-12 20:15:28
+----
+Solved: 0
+----
+User: joachimesque
+----
+Text: It's a small suggestion : how about adding the topic title in the page title for the forum? It'd be way easier to browse through the browser's history

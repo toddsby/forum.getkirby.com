@@ -1,0 +1,13 @@
+Title: Kirby and Picturefill
+----
+Date: 2013-07-04 17:48:44
+----
+Solved: 0
+----
+User: bytte
+----
+Text: As a semi-solution to responsive images I used [Adaptive Images](http://adaptive-images.com) before in a Kirby project, but for the next one I'd prefer to use [Picturefill](https://github.com/scottjehl/picturefill) by Scott Jehl. It's basically a polyfill for the proposed picture element.
+
+Anyone here with experience implementing this with Kirby? What's your preferred method of doing this?
+
+Thanks

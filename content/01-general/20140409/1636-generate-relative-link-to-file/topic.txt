@@ -1,0 +1,41 @@
+Title: Generate relative link to file
+----
+Date: 2014-04-09 16:36:16
+----
+Solved: 1
+----
+User: stibie
+----
+Text: Hi folks,
+
+I have the following structure
+
+    /content/company/persons/JohnAppleseed
+
+So John's website has a lot Links to PDFs in it.
+Those PDFs should be hosted in his folder.
+So I create a folder named:
+
+    /content/company/persons/JohnAppleseed/Pdfs
+
+In the
+
+    /content/company/persons/JohnAppleseed/site.txt
+
+I'd like to have something like
+
+    file:Pdfs/art1.pdf text:PDF
+
+Seems not to be possible. 
+
+Alternatively:
+
+    file:company/persons/JohnAppleseed/Pdfs/art1.pdf text:PDF
+
+doesn't work too.
+
+Any suggestions?
+
+Having all the files in John's folder is no option - those are like 100 files...
+
+Thanks!

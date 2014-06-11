@@ -1,0 +1,13 @@
+Title: Naming a page "files" causes a bug in the panel
+----
+Date: 2013-03-19 14:48:02
+----
+Solved: 0
+----
+User: rappold
+----
+Text: I just stumbled upon something that might be a bug within the panel:
+
+If you name a page "files" and create subfolders then if you hover the list of subfolders in the sidebar, the names disappear (see (link: http://cl.ly/image/470h0O3N1c2g)). Sorting doesn't work properly either (see (link: http://cl.ly/image/2d3k2U1H203w)) and the layout of the list breaks if you have more than one subfolder (see (link: http://cl.ly/image/030P3G183P2J)).
+
+Again, this only happens if the parent folder is called "files". I just renamed it and everything works as it should.

@@ -1,0 +1,16 @@
+Title: Can't login to panel
+----
+Date: 2014-01-13 14:06:02
+----
+Solved: 0
+----
+User: schmidfabs
+----
+Text: I've a strange problem accessing the kirby panel. 
+Every time I try to login the login page appears again. 
+If i enter my correct username/password the loginbutton is/stays blue.  If I enter false ones the button becomes red. 
+So the auth itself should work. 
+But i can't access the panel (index) page. I can only access the login page.  I also tried to reinstall it - same result. 
+I've the newest .htaccess file and the file permission of content folder is also correct. 
+
+Any others ideas what could be wrong?

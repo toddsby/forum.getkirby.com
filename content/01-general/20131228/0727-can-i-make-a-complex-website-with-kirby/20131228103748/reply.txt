@@ -1,0 +1,14 @@
+User: vis7mac
+----
+Date: 2013-12-28 10:37:48
+----
+Text: Hi and welcome to the Kirby forum! :)
+
+I don't think this will work very well, as opening and parsing millions of files to search something in the contents will take some time.
+
+But Kirby doesn't *limit* you to use the flat directory structure:
+This forum, for example, is built with Kirby but works with some kind of database server in the background (most likely MySQL).
+You can do the same thing: Use the Kirby directory structure for your "normal" pages like contact, about etc. and a database for the complex data.
+
+Cheers,
+Lukas

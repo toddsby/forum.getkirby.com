@@ -1,0 +1,9 @@
+User: texnixe
+----
+Date: 2013-10-01 11:10:56
+----
+Text: @russbaldwin
+
+Well, I guess the the advantage of this modification has less to do with the art of reducing the number of template files than rather giving semantically meaningful names to the content files to be able to tell one from another.
+
+At least, that is what is appealing to me and if this was to be included as a feature in a future release, that would be really great. What good is it to have hundreds of files called blog.txt using the blog.php template when I might just as well have ny.blog.txt and paris.blog.txt and london.blog.txt all using blog.php template?

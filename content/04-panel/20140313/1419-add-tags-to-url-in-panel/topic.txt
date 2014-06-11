@@ -1,0 +1,17 @@
+Title: Add tags to URL in panel
+----
+Date: 2014-03-13 14:19:21
+----
+Solved: 0
+----
+User: tpnx
+----
+Text: Hey there,
+
+I try to add the tags of a page/blogpost automaticly to the url after editing/creating a post.
+
+Is there anyone who knows how to do that?
+
+Cheers!
+
+EDIT: Same here, I wrote an eMail to Bastian. No response til today.

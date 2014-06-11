@@ -1,0 +1,30 @@
+User: roman_oroco
+----
+Date: 2013-05-14 12:57:12
+----
+Text: You can check for (link:/forum/code-snippets/topic:71 text:logged Panel user):
+```php
+<?php if($page->visible()): ?>
+<p>Visible page to all users!</p>
+<?php elseif($user = panelUser()): ?>
+<p>You viewing this invisible page because your are Panel user!</p>
+<?php else: ?>
+// Invisible page to all users with redirect to the homepage
+<?php go(url('/')) ?>
+<?php endif ?>
+```
+
+Here’s alternative way with (link:/blog/frontend-authentication text:Auth) plugin:
+```php
+<?php if($page->visible()): ?>
+<p>Visible page to all users!</p>
+<?php elseif($user = Auth::user()): ?>
+<p>You viewing this invisible page because your are Auth user!</p>
+<?php else: ?>
+// Invisible page to all users with redirect to the homepage
+// Your homepage must be a visible page
+<?php go(url('/')) ?>
+<?php endif ?>
+```
+
+Consider that when you login/logout with Auth plugin it also (link:/forum/issue-tracker/topic:651 text:clears Panel login cache).

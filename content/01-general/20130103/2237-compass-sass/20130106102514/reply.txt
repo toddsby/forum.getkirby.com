@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-01-06 10:25:14
+----
+Text: Yes that is right, I have a pile of Less files (in your case scss) files in a styles folder and Codekit compiles them to a single file in the same folder which I then link to in my Kirby template. Same goes for quite a few of Javscript files which can be combined.
+
+Make sure you have Codekit running and compiling and check where it is compiling to. I keep everthing Less and compiled CSS files in the 'styles' folder indicated above.

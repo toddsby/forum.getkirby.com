@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2014-04-02 22:24:34
+----
+Text: I'm getting the snippets rendered in the right place with this method. Also, it seems to be doing the HTML for me.
+
+Granted, it's inside a kirbytext rendered field (has to be, because the method itself is kirbytext), so it's likely that the kirbytext rendering cascades down to the snippet. Not sure what you could really do about that. Maybe wrap everything in the snippet in a div, because that's breaks the kirby markdown rendering inside the div if you're not using other methods to bring it back.

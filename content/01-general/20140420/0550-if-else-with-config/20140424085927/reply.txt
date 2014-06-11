@@ -1,0 +1,5 @@
+User: digisocialnet
+----
+Date: 2014-04-24 08:59:27
+----
+Text: @frankallen i wasn't sure if you could use config file variables in templates and how to call them. thank you for the help and i apologize for my naivety.

@@ -1,0 +1,7 @@
+User: tysongach
+----
+Date: 2013-02-20 19:22:11
+----
+Text: Per the (link: http://getkirby.com/docs/variables/site text: docs), you can use:
+
+    <?php echo $site->modified() ?>

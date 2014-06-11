@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2012-11-12 22:10:11
+----
+Text: Yeah, I just tested and that still gives me "Blog" when I'm on the blog archive page, because that's what's active.

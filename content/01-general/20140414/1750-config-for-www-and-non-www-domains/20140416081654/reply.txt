@@ -1,0 +1,5 @@
+User: corygibbons
+----
+Date: 2014-04-16 08:16:54
+----
+Text: In htaccess I just set it to redirect all www to non-www, works for me. I've never liked the look of the www anyways. Is that an option for you?

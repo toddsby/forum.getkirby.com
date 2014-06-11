@@ -1,0 +1,35 @@
+User: thisislawatts
+----
+Date: 2014-05-01 12:54:47
+----
+Text: Similar to this but slightly different use case, I like to add some classes to the html element for page specific tweaks.
+
+plugins/slugify.php
+```
+<?php
+
+// direct access protection
+if(!defined('KIRBY')) die('Direct access is not allowed');
+
+// create space trimmed lowercase html
+function slugify($text) {
+  global $site;
+
+  $text = str_replace( $site->url() . '/', '', $text );
+  $slug = preg_replace( "/[^a-zA-Z0-9.?!]/", '-', strtolower( html( $text ) ) );
+
+  return $slug === '' ? 'home' : $slug;
+}
+```
+
+Usage:
+```
+<!DOCTYPE html>
+<html lang="en" class="<?php echo slugify( $page->url() ); ?>">
+```
+
+Output:
+```
+<!DOCTYPE html>
+<html lang="en" class="home">
+```

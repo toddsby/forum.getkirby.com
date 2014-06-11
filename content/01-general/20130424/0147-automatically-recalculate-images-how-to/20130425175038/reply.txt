@@ -1,0 +1,9 @@
+User: tysongach
+----
+Date: 2013-04-25 17:50:38
+----
+Text: No, `max-width` has nothing to do with screen resolutions. It’s just simply saying that images can be a maximum of 100% its actual size, otherwise scale to fit its parent element.
+
+I should’ve noted that when you use that CSS I posted above (globally setting the `max-width` of all `img` elements to 100%), you should *not* put `height` and `width` attributes on `img` elements in your HTML. If you remove those, the CSS will scale images proportionally.
+
+I’m trying to help as much as I can, but most of this probably won’t make much sense if you’re not familiar with the basics of how HTML & CSS work...

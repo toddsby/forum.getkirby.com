@@ -1,0 +1,26 @@
+User: _nilswerner
+----
+Date: 2014-03-23 22:23:35
+----
+Text: A pretty good real-world example would be the following. Instead of `header` and `footer` snippet you would define your content as a `section` and inject it into a master layout: A template `templates/default.php`:
+
+    <?php section::start("content") ?>
+        <h2><?php echo html($page->title()) ?></h2>
+        <?php echo kirbytext($page->text()) ?>
+    <?php section::end() ?>
+
+    <?php snippet('layout') ?>
+
+and `snippet/layout.php`:
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title><?php echo html($site->title()) ?> - <?php echo html($page->title()) ?></title>
+    </head>
+        <body>
+            <?php section::get('content') ?>
+        </body>
+    </html>
+
+This makes the markup much more readable and reusable and most importantly makes the code more functional (as opposed to procedural): Instead of executing every single step on the way to your result you declare what you want your result to look like and do not do the execution yourself.

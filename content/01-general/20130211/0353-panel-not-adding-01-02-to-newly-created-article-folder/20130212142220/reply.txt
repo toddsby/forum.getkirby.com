@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2013-02-12 14:22:20
+----
+Text: There is a catch, though. If you have a folder with lots of items in it, the portal bogs down if you try to make a page visible and it doesn't end up dropping it in the place you tried to drop it.
+
+The best workaround if you run into that is to just make it visible via the filesystem by renaming the folder with a number.

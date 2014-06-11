@@ -1,0 +1,20 @@
+User: walkerbox
+----
+Date: 2013-07-26 18:15:45
+----
+Text: `$page->num()` would be my function of choice if I were never going to filter out projects (ie. construct my own `pages` object).
+
+OFF-TOPIC: Just out of curiosity, @bastianallgeier, why does the indexOf function use:
+
+    function indexOf($needle) {
+      foreach(array_values($this->_) as $key => $value) {
+        if($value === $needle) return $key;
+      }
+      return false;
+    }
+
+Rather than:
+
+    function indexOf($needle) {
+      return array_search($needle, array_values($this->_), true);
+    }

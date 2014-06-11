@@ -1,0 +1,9 @@
+User: tysongach
+----
+Date: 2012-12-07 04:58:14
+----
+Text: Yes, it would. Makes more sense if they are children to the portfolio page if they will be shown on the portfolio page...
+
+Curious why you really want those URL's? :-)
+
+I mean, it's totally possible. Just don't put lettering and type inside the portfolio and instead pull them out to the root of your site content.

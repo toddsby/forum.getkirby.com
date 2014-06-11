@@ -1,0 +1,9 @@
+User: russbaldwin
+----
+Date: 2013-01-18 09:14:08
+----
+Text: XAMPP is currently 1.7.3 I think and MAMP is v2.0.
+I've never used Kirby on anything less than PHP 5.3 and some plugins require it. So maybe this could be it? I have not tried Kirby on PHP 5.4+ yet.
+
+Are you getting this error using the default install/code? 
+If you have done something else can you post an example of the code.

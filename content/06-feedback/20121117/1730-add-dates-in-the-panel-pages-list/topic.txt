@@ -1,0 +1,17 @@
+Title: Add dates in the panel pages list
+----
+Date: 2012-11-17 17:30:27
+----
+Solved: 0
+----
+User: jesuismaksim
+----
+Text: I do it for myself, but it could be nice, adding the date - when a date field is available - on the list. 
+
+More easy to find a page when the date is important - like band shows or blog articles.
+
+	<a href="<?php echo $child->url() ?>" class="title">
+	<?php if ($child->date()) echo html($child->date('Y/m/d'))." - "; echo html($child->title()) ?>
+	</a>
+
+Maybe a new blueprint setting to handle it easily !

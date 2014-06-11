@@ -1,0 +1,29 @@
+User: russbaldwin
+----
+Date: 2013-02-26 11:04:24
+----
+Text: I though I had posted it, but I hadn't so here is a [multiselect field for Panel on GitHub...](https://github.com/shoesforindustry/kirbycms-panel-master/tree/master/fields) let me know how it works for you. 
+
+In my Panel blueprint I used something like:
+
+```php
+  multiselect: 
+    label: My multiselect 
+    type: multiselect
+    options:
+       1: Option 1
+       2: Option 2
+       3: Option 3
+    default: 2,3
+
+```
+
+In your content page file you might have something like this....
+
+```
+Title: Multiselect Field
+----
+Multiselect: 1,2
+
+```
+Sadly the formatting of the select boxes in Panel are not so good, but you can play with that ;-)

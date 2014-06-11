@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-03-26 18:36:11
+----
+Text: I don't know if this is specifically a Kirby problem, Bastian may be able to help, [it may well something todo with PHP changes in 5.4](http://www.teslina.com/en/tutorials/openx/fehlermeldungen-problemlosungen/) but I cannot help thinking that these are just very big images to be manipulating in memory ;-)

@@ -1,0 +1,16 @@
+User: dancounsell
+----
+Date: 2013-08-29 18:06:44
+----
+Text: I had the same issue, here's what fixed it for me…
+
+Leave the first variable as "home" then change the second variable to the page you want.
+
+Go into site/config/config.php file and change…
+
+`c::set('home', 'home');`
+
+To:
+`c::set('home', 'blog');`
+
+Hope that helps!

@@ -1,0 +1,14 @@
+User: StudioMoniker
+----
+Date: 2012-11-02 15:23:42
+----
+Text: I fixed this by editing the select.php file to use the option name ($text) instead of its index ($key) in the $options:
+
+
+	<select name="<?php echo $name ?>">
+	  <?php foreach($options AS $key => $text): ?>
+	  <option<?php if($text == $value) echo ' selected="selected"' ?> value="<?php echo html($text) ?>"><?php echo html($text) ?></option>
+	  <?php endforeach ?>
+	</select>
+
+Makes more sense to me...

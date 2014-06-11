@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-05-13 09:52:00
+----
+Text: Thanks for that, I of course tried `$page->uid()` first and it did not work... for some reason... perhaps too early for me ;-)

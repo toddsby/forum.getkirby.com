@@ -1,0 +1,7 @@
+User: baderkamal
+----
+Date: 2013-03-01 01:06:12
+----
+Text: @russbaldwin The "one-pager" tutorial was certainly a good starting point. I knew I was going to go back to it one day. The 'Smashing Conference' post was perfect! It lacked the technical assistance I need.
+
+@plartz Thank you for the code sample. I do have a slightly better understanding of how this might work, but still lost to be honest.

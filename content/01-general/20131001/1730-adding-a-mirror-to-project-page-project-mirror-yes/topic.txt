@@ -1,0 +1,31 @@
+Title: Adding a mirror to project page (/project/mirror:yes)
+----
+Date: 2013-10-01 17:30:00
+----
+Solved: 0
+----
+User: structor
+----
+Text: Hello!
+
+How could I do this?
+
+if page have a parameter "site.com/projects/project/mirror:yes" then load the thumbs from the gallery with the mirror .css
+
+
+    img-mirror {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+       }
+
+something like this:
+
+    <?php if(param('mirror')) {
+    <?php echo thumb($image, array('height' => 75, class => 'img-mirror')) ?>
+    } else {
+    <?php echo thumb($image, array('height' => 75)) ?>
+     } ?>

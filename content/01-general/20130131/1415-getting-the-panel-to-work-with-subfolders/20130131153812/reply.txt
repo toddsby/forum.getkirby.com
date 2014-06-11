@@ -1,0 +1,19 @@
+User: LewisJenkins
+----
+Date: 2013-01-31 15:38:12
+----
+Text: Thanks again for the help. I did already try your suggestion, and also several variations on it. No luck.
+
+However, further testing has shown that this doesn't appear to be a .htaccess problem.
+
+If I add the following code to the top of /subfolder/panel/index.php
+
+    echo "Hello"; exit;
+
+... this test works. No redirect problems. Of course this still doesn't make the Panel work but at least I know that the correct .php file is loading.
+
+It seems that the Panel is ignoring my config setting ...
+
+    c::set('subfolder', '/');
+
+I'll keep trying :(

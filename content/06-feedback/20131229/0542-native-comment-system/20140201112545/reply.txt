@@ -1,0 +1,5 @@
+User: structor
+----
+Date: 2014-02-01 11:25:45
+----
+Text: I've tested the code from github and it seems to be heading to the right way for the comments system. I'm looking forward too.

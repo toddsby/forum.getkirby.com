@@ -1,0 +1,17 @@
+Title: Create linked tag lists per article
+----
+Date: 2013-01-05 14:29:00
+----
+Solved: 1
+----
+User: wordius
+----
+Text: I’ve been reading through the tutorial about creating a [tag cloud](http://getkirby.com/blog/tagcloud), but can’t figure out how to apply this information to output a linked tagged list at the foot of each post/article. I can output the list from the YAML header, as in:
+
+    Tags: Widgets, Apples, Bananas
+
+but I can’t figure out how to turn individual tags into links that take you to a URL listing all articles for a given tag, e.g.:
+
+    http://domain.com/widgets
+
+If the tag cloud works, I’m sure there must be a way to do this.

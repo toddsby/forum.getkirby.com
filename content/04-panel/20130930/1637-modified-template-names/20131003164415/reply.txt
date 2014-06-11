@@ -1,0 +1,7 @@
+User: travVT
+----
+Date: 2013-10-03 16:44:15
+----
+Text: The Panel is now recognizing my content/template configuration and is pulling up the correct blueprints file. More information here:
+
+(link: http://getkirby.com/forum/general/topic:874/#post2906)

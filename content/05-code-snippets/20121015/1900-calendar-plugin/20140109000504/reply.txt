@@ -1,0 +1,9 @@
+User: j_mes
+----
+Date: 2014-01-09 00:05:04
+----
+Text: Not to resurrect a potentially dead thread, but I'm curious what happened to this plugin? It was looking to be quite an useful one to add to Kirby and one that I had in mind for doing a project with.
+
+Edit-- Github threw a curveball last night with this showing up as 404 then. All is good this morning. Phew.
+
+Looking forward to trying this on a client project with Kirby and Calendar for events for a little motorcycle club :)

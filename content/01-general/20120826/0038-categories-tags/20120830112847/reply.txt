@@ -1,0 +1,15 @@
+User: bastianallgeier
+----
+Date: 2012-08-30 11:28:47
+----
+Text: @horokho that's only possible, when you structure your content accordingly: 
+
+```
+
+- content
+-- category
+--- art
+--- beauty
+--- design
+
+```

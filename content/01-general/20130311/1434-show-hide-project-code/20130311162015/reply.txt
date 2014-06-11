@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-03-11 16:20:15
+----
+Text: It looks like he's using two lists. The first one seems to be displayed using CSS on Hover and the the other is displayed on click of the first using CSS classes & ID's, links and Javascript.

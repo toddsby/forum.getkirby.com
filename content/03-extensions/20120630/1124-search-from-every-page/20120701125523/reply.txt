@@ -1,0 +1,12 @@
+User: bastianallgeier
+----
+Date: 2012-07-01 12:55:23
+----
+Text: Yep, that's pretty easy to do. Just add your search form to the header snippet for example or to any other place in your templates and make sure the form action links to your search page. A simple global search form would look like this:
+
+```
+<form action="<?php echo url('search') ?>" method="get">
+  <input type="text" name="q" />
+  <input type="submit" value="Search" />
+</form>
+```

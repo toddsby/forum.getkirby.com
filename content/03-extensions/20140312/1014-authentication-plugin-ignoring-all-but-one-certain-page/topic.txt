@@ -1,0 +1,17 @@
+Title: Authentication plugin: Ignoring all but one certain page
+----
+Date: 2014-03-12 10:14:54
+----
+Solved: 1
+----
+User: hennirocks
+----
+Text: Hello folks
+
+I am currently testing the (link: http://getkirby.com/blog/frontend-authentication text: auth plugin popup: yes) and so far it's doing fine. However...
+
+When setting up the firewall, how can I allow all pages to be accessable but one? I. e. I have only one certain page with subpages that needs to be protected.
+
+It seems kinda silly to me to set up the firewall with 'ignore' X, Y, Z etc. when there is only one page that needs to be protected. Is there a better way, like using 'allow' instead 'ignore' for example? (Didn't work.)
+
+**Alternatively**: When using an 'ignore' array, is there a way to adress all subpages of an accessable folder dynamically instead of writing them all up? (Like not having to use _ignore folder, ignore folder/01-bla, ignore folder/02-bla_ etc. for example.)

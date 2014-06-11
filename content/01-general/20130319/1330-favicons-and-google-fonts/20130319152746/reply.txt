@@ -1,0 +1,13 @@
+User: Fhuery
+----
+Date: 2013-03-19 15:27:46
+----
+Text: Hi. No, I am not. It's my own website in development. I figured out the Google Fonts part:
+
+`<?php echo css('http://fonts.googleapis.com/css?family=Questrial') ?>`
+
+However, I don't know how to turn the favicon html:
+
+`<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />`
+
+to similar php code as the Google Fonts one

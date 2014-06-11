@@ -1,0 +1,9 @@
+User: travismaynard
+----
+Date: 2013-09-25 20:02:55
+----
+Text: I'm seeing a lot of solutions here but are any of these technically the best way of going about this? Is it safe? Could someone elaborate?
+
+Also, what are the downsides of adding "AddHandler php5-cgi .php" to your .htaccess file?
+
+I'd love to help get this resolved if I knew where to start!

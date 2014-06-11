@@ -1,0 +1,15 @@
+User: dandgough
+----
+Date: 2014-01-15 12:07:46
+----
+Text: Hey guys,
+
+It worked! The code we used was:
+
+`<?php 
+  foreach($page->children()->visible() as $object) {
+       	snippet($object->uid(), array('data' => $object));
+   } 
+   ?>`
+
+![Alt text](http://blogs.kqed.org/pop/files/2013/08/tumblr_ml252mhGRm1qedlsro1_250.gif)

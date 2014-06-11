@@ -1,0 +1,5 @@
+User: GorrillaMcD
+----
+Date: 2013-11-26 01:40:49
+----
+Text: So, I figured it out. There was a blog post that I have since lost the link to. For posterity, all you have to do is add `buttons: true` to the blueprint definition for a textarea type input. It only works on textareas. If you don't know what blueprints are, I suggest you check the [Kirby Panel Docs on Blueprints](http://getkirby.com/docs/panel/blueprints). They're super easy to understand.

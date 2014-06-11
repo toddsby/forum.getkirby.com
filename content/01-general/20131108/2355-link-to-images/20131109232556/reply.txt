@@ -1,0 +1,7 @@
+User: chrisgiggles1
+----
+Date: 2013-11-09 23:25:56
+----
+Text: Come on, can anyone help out? Is there any way to output images without using markdown? If I switch on markdown.extra the html doesn't get properly formatted.
+
+I don't know much php at all so I have no idea how to solve this. Maybe I'm approaching this the wrong way... some hints would be nice...

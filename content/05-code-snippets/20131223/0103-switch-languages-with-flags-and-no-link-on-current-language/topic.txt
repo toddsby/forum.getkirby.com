@@ -1,0 +1,95 @@
+Title: Switch languages with flags and no link on current language
+----
+Date: 2013-12-23 01:03:57
+----
+Solved: 0
+----
+User: 674morris
+----
+Text: Hi.
+I thought it was useful to have a selection of languages ​​with small flags and even eliminate the link on the language that the visitor is reading, to avoid unnecessary   reloads of the same page in the same language.
+With a css class we can also have an underscore that show the current language.
+
+Code Snippet (save in snippets folder with name like "flag-language-switch.php")
+
+    <?php 
+ 
+    $xxflag = "<img src=\"<-- your path to flag language 1 -->\" title=\"<-- name language 1 -->\" alt=\"<-- name image 1 -->\" />";
+    $yyflag = "<img src=\"<-- your path to flag language 2 -->\" title=\"<-- name language 2 -->\" alt=\"<-- name image 2 -->\" />";
+    $zzflag = "<img src=\"<-- your path to flag language 3 -->\" title=\"<-- name language 3 -->\" alt=\"<-- name image 3 -->\" />";
+  
+    // Other language can be add to meet your needs 
+  
+    foreach(c::get('lang.available') as $lang): 
+    if ($lang = "<-- code language 1 -->")
+    {
+    if($lang == c::get('lang.current')) echo '<span class="underscore" > '.$xxflag.' </span>';
+    else 
+      echo '<a href="'.$page->url($lang).'"> '.$xxflag.' </a>';
+    }
+    if ($lang = "<-- code language 2 -->") 
+    {
+    if($lang == c::get('lang.current')) echo '<span class="underscore" > '.$yyflag.'</span>';
+    else
+      echo '<a href="'.$page->url($lang).'"> '.$yyflag.'</a>';
+    }
+    if ($lang = "<-- code language 3 -->")
+    {
+    if($lang == c::get('lang.current')) echo '<span class="underscore" > '.$zzflag.'</span>';
+    else
+      echo '<a href="'.$page->url($lang).'"> '.$zzflag.'</a>';
+    }
+    break;
+    endforeach
+  
+    ?>
+  
+  
+ You have to call the above code inside a  div, I have called this "language-flags"
+
+
+ The CSS code:
+
+ 
+
+    #language-flags {
+    clear:both;
+    width:100%;  /* set fixed or in % to meet your needs */
+    height:auto;
+    padding:3px 0 1px 0;
+    background: #eee;
+
+    }
+    #language-flags .underscore{
+    padding:0;
+    border-bottom:4px solid green;
+    }
+
+    #language-flags img {
+    width:32px; /* change this to meet your needs */
+    height:22px; /* change this to meet your needs */
+    padding:0;
+    margin:0;
+    margin-left:6px;
+    margin-right:6px;
+    }
+
+    #language-flags a:link {
+    padding:0;
+    margin:0;
+    background: none;
+    }
+
+
+ You can call this Snippet in header.php
+
+    <?php
+
+     snippet('flag-language-switch'); 
+   
+    ?>
+
+This works fine in all major browsers like Firefox, Chrome, Opera, Safari and Explorer 7/8/9 (sorry, I don't have 10)
+
+I hope that this can be useful to someone.
+Morris

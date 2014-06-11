@@ -1,0 +1,5 @@
+User: roman_oroco
+----
+Date: 2013-03-23 12:21:39
+----
+Text: This topic is might be related to (link:http://getkirby.com/forum/general/topic:456), actually @russbaldwin was able to put some static folders above "webroot".

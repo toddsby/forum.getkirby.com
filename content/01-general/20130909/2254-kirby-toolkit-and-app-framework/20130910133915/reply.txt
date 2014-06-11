@@ -1,0 +1,9 @@
+User: vis7mac
+----
+Date: 2013-09-10 13:39:15
+----
+Text: Since Kirby v2 (together with the new Toolkit, App framework and Panel) is not released yet, there's no link to the reference platform.
+But you can take a look at it [over here](http://reference.new.getkirby.com).
+This platform is basically a GUI to the inline documentation you can find right in the code of all v2 stuff.
+
+Remember that this is beta stuff and should not be used in production yet - it might still change. ;)

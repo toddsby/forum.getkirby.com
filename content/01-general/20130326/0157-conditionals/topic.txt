@@ -1,0 +1,23 @@
+Title: Conditionals
+----
+Date: 2013-03-26 01:57:05
+----
+Solved: 1
+----
+User: p_mylecharane
+----
+Text: Hey folks—
+
+I'm needing to add a conditional statement into my template to check if the page is home and if not to load a different nav. 
+
+    <? if ($page->template('home')): ?>
+	<? snippet('nav') ?>
+    <? else: ?>
+	<? snippet('project-nav') ?> 
+    <? endif ?>
+
+It's not working. I am also using a body class so that this is useable. 
+
+    <body class="<?= $page->template() ?>">
+
+Any ideas?

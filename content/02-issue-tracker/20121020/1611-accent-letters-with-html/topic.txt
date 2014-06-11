@@ -1,0 +1,27 @@
+Title: accent letters with html()
+----
+Date: 2012-10-20 16:11:55
+----
+Solved: 0
+----
+User: ruknaree
+----
+Text: I have this in my txt:
+
+<pre>Cabecera:
+Biografía
+</pre>
+and i try to insert in the template with:
+
+<pre>?php echo html($page->cabecera()) ?
+</pre>
+i get an empty string, i think im having problem with the accented í.
+
+removing it solves the problem.
+
+is there some workaroung to fix this?
+
+thanks.
+
+PD: i tryed with <pre>+?php echo kirbytext($page->cabecera(), false) ?+</pre> 
+It works but i dont know if this is safe.

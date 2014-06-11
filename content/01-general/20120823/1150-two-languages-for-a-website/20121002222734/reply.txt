@@ -1,0 +1,13 @@
+User: bastianallgeier
+----
+Date: 2012-10-02 22:27:34
+----
+Text: you can do the following:
+
+```php
+
+$pages->find('about-us')->content('en')->title();
+
+```
+
+This works with all fields for found page.

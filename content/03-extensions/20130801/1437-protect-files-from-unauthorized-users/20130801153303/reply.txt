@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-08-01 15:33:03
+----
+Text: [Apache Password Protected Directories](http://httpd.apache.org/docs/2.2/howto/auth.html) with .htaccess has a simple method if your server allows it.

@@ -1,0 +1,21 @@
+Title: Contact Form Plugin & Postmark no working
+----
+Date: 2014-06-02 18:33:34
+----
+Solved: 0
+----
+User: gintwist
+----
+Text: Has anyone got the contact form plugin to work with Postmark?
+
+https://github.com/bastianallgeier/kirbycms-extensions/tree/master/plugins/contactform
+
+I know it's been in alpha for a long time and the documentation is somewhat lacking, hence I'm asking for help. My setup is correct as far as I can tell, but I'm still unable to send the form off. Always getting the same error message but no other useful info:
+
+`The email could not be sent. Please try again later. `
+
+I've looked through the code with my untrained eye but can't figure out where the problem is. I don't want to use PHP's mail function, my preference would be to use gmail's SMTP via phpmailer, but postmark looks reasonably attractive as well.
+
+So, my question is: Is there something in one of the files that I need to pay a particular attention to? 
+
+Thanks.

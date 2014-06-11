@@ -1,0 +1,17 @@
+Title: Show/hide project code
+----
+Date: 2013-03-11 14:34:37
+----
+Solved: 0
+----
+User: zinzygeene
+----
+Text: Hi everyone,
+
+I'm making a website with a projects thumbnail grid. When the user clicks on a thumbnail I want to show the project contents in a div above the grid using a show/hide plugin.
+
+It's almost working, but I can't seem to figure out what code to use for the div that will show up. I can't use $page, because that returns the content of the parent page. When I use $project, the content of all projects shows up. I'm not sure how to create this for the specific project that is clicked.
+
+Does anybody know how to fix that?
+
+Thanks in advance!

@@ -1,0 +1,20 @@
+User: lekkerduidelijk
+----
+Date: 2014-01-24 14:21:50
+----
+Text: I came across this topic as well when implementing a form the other day. I have a small addition to the code above.
+
+It's better to not change the plugin code, but set the 'required' and 'keep' fields when creating the contactform object.
+
+```php
+
+$form = new contactform(array(
+  'to'       => 'My Name <name@domain.tld>',
+  'from'     => 'My Website <name@domain.tld>',
+  'subject'  => 'New entry in contactform!',
+  'goto'     => $page->url() . '/status:sent',
+  'required' => array('name', 'email', 'project', 'description'),
+  'keep'     => array('name', 'email', 'phone', 'project', 'description')
+));
+
+```

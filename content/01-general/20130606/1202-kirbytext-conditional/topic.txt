@@ -1,0 +1,15 @@
+Title: kirbytext conditional
+----
+Date: 2013-06-06 12:02:13
+----
+Solved: 0
+----
+User: varometro
+----
+Text: I would like to create a conditional like this:
+
+if there is a kirbytext($post->headerimage()) then display it.
+
+Can you help?
+
+Thanks!

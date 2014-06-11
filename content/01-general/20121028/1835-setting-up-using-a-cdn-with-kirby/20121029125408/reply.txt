@@ -1,0 +1,9 @@
+User: coolrob335
+----
+Date: 2012-10-29 12:54:08
+----
+Text: Okay, thanks for all of the replies :)
+
+I think i'll just stick with no CDN, or use something like cloudflare, as that's understandable what you are saying, Bastian, that the performance would go down lots, as kirby doesn't have direct file access.
+
+I have a feeling that I am trying to "over-engineer", so I think i'll just wait it out for a bit, and see how everything turns out.

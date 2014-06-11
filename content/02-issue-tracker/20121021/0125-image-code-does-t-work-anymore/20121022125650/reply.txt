@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-10-22 12:56:50
+----
+Text: @cyclera awesome!! I'm glad you fixed it. Just make sure to switch off debugging again, when you launch the site. Otherwise your visitors will see those nasty errors :)

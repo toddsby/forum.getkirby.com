@@ -1,0 +1,15 @@
+User: SirNovi
+----
+Date: 2013-07-24 17:30:33
+----
+Text: E:// This comment was actually meant for the Smart Submit Plugin
+
+Thanks Vlad. 
+
+I just implemented a Subscribe Form with your little Plugin. It saved me some time and headache. Thank you very much
+
+
+The only thing that I'd like to see changed at the moment is the placement of the php files in the content folder - that's not very pretty. 
+This way my clients will see a page in the panel that they may not mess with. Couldn't that have been stored somewhere else? Also: I will have to create a blueprint for the panel to get rid of the error-message in the main panel page. (Or maybe there's another way to get rid of those?)
+
+Nevertheless: Nice and working Plugin. Thanks again

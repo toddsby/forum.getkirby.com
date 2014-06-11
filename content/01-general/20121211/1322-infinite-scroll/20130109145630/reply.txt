@@ -1,0 +1,5 @@
+User: simonscheiber
+----
+Date: 2013-01-09 14:56:30
+----
+Text: Looks like they require a 404 page instead of the first page… so the plugin understands that there's an end.

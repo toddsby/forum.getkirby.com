@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-06-13 16:54:32
+----
+Text: @FlaviusMihaiu which kind of local setup are you using? Are you on a Mac, Win or Linux? MAMP or XAMPP or something else?

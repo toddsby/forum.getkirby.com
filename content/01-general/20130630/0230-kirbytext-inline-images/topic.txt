@@ -1,0 +1,15 @@
+Title: kirbytext: inline images
+----
+Date: 2013-06-30 02:30:36
+----
+Solved: 0
+----
+User: iamadamjowett
+----
+Text: Hey guys,
+
+With kirbytext, if you add an image, it seems to wrap it in "p" tags. Is there any way to add inline image with kirbytext? Either by changing the display type of the p tags that were added, or some way of stopping kirbytext wrapping images in those tags on a per item basis?
+
+I could add the images through the snippet itself, but liked the idea of keeping things in the content file.
+
+.. what's the best approach?

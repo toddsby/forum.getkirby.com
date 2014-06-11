@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-01-04 22:52:24
+----
+Text: While I would still like an answer to this, I fixed this problem by creating a separate apache virtualhost to handle www.joyent.com, and then just redirecting it to joyent.com.

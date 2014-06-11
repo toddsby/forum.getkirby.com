@@ -1,0 +1,7 @@
+User: AlexK
+----
+Date: 2012-12-12 10:39:44
+----
+Text: I ended up with a separate hidden folder that contains all the projects. One page for each project. And a Blueprint that allows entry of certain mostly predefined values. It works well and I think it is the best way to make this as unbreakable as possible for the person maintaining it. Though I am sure he will find ways to break it. :)
+
+But in case of breakage, I can just go in and refine the system. That's what I love about Kirby. Endless flexibility, even after you have created the site.

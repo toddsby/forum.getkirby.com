@@ -1,0 +1,11 @@
+User: sashtown
+----
+Date: 2012-11-26 15:17:31
+----
+Text: You have to make sure to refer only to visible pages. Like this:
+
+```
+<?php if($page->hasNextVisible()): ?>
+<a href="<?php echo $page->nextVisible()->url() ?>">Next »</a>
+<?php endif ?>
+```

@@ -1,0 +1,24 @@
+User: andrewwalt
+----
+Date: 2014-01-12 13:50:50
+----
+Text: Nevermind. Got it to work as mentioned, as well as determining if the inputted url is youtube or vimeo (see below). If there is a better way out there, I'd be interested to hear it..
+
+
+     <div id="carousel<?php echo $x; ?>" class="carousel">
+     <div class="carousel-inner">
+     <?php $n=0; foreach($article->images() as $image): $n++; ?>
+     <div class="item<?php if($n==1) echo ' active' ?>">
+     <?php if ($image->caption() == ''): ?>
+     <img src="<?php echo $image->url() ?>" alt="<?php echo html($image->title()) ?>"/>
+     <?php elseif(strpos($image->caption(), 'vimeo') !==false): ?>
+     <?php echo vimeo($image->caption()) ?>
+     <?php elseif(strpos($image->caption(), 'youtube') !==false): ?>
+     <?php echo youtube($image->caption()) ?>
+     <?php endif ?>
+     </div>
+     <?php endforeach ?>
+     </div>
+     <a class="carousel-control left" href="#carousel<?php echo $x; ?>" data-slide="prev">&lsaquo;</a>
+     <a class="carousel-control right" href="#carousel<?php echo $x; ?>" data-slide="next">&rsaquo;</a>
+     </div>

@@ -1,0 +1,11 @@
+User: tysongach
+----
+Date: 2013-02-11 05:23:48
+----
+Text: That’s simply because the panel defaults to creating an invisible page (no number). The mindset is that invisible pages are treated like drafts, which won’t show on the front-end. Make them visible when you’re ready to publish.
+
+Read more about that here: <http://getkirby.com/docs/content>
+
+So in the panel, to make a page visible after creating it, just go one level up to its parent, click the ‘Sort’ button and move to the ‘Visible subpages’ section. This will add a prepending number.
+
+As far as I know, you cannot change the behavior of the panel to automatically make a page visible upon creation; it will always be created as an invisible page.

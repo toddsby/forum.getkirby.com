@@ -1,0 +1,13 @@
+Title: Errors on error and feed pages
+----
+Date: 2012-08-28 05:13:57
+----
+Solved: 0
+----
+User: fitzage
+----
+Text: It appears to be anything that isn't an HTML page, basically. I get something along these lines at the top:
+
+    Warning: Cannot modify header information - headers already sent by (output started at /Users/fitzage/Dropbox/Sites/joyent.com/site/plugins/truncate.php:35) in /Users/fitzage/Dropbox/Sites/joyent.com/kirby/lib/site.php on line 199
+
+Edit: And then I googled it. I have a whitespace problem somewhere, apparently.

@@ -1,0 +1,13 @@
+Title: Adding page with number in beginning of title
+----
+Date: 2012-11-01 18:38:40
+----
+Solved: 0
+----
+User: scottswany
+----
+Text: I've been using Kirby and Panel for an architecture site where a lot of projects (pages) need to have a number in the beginning (since they go by address).  When adding a title with a numeric beginning, after hitting 'Save' I get a 'The page has not been found' error.  If I refresh, the page is actually there, but automatically sorted into the visible section and if I look at the folder name in the file structure, the number beginnings are there, however if I re-sort them, it removes the intended number beginning and replaces it with a sequential one.
+
+Is there any way to indicate that the numeric beginning is intended when adding in panel, or is this something that has to be fixed via FTP?
+
+Thank you!

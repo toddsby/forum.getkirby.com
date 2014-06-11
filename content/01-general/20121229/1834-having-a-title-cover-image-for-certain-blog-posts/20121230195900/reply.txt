@@ -1,0 +1,25 @@
+User: tysongach
+----
+Date: 2012-12-30 19:59:00
+----
+Text: Strange. I just tested out the code on my end and it works.
+
+So let's double check everything:
+
+### Panel
+
+This is working fine? Showing the select box?
+
+### Content File
+
+Content file is showing either the file name of the image you select, nothing, or 0?
+
+### Finally...
+
+Is this not working for you on the home page or on the actual blog post page?
+
+Keep in mind the code I posted above uses the `$page` variable, which will work for doing all this on the actual page *of the blog post*.
+
+If you're trying to pull these into your home page you'll need to `find()` that page first.
+
+Make sense?

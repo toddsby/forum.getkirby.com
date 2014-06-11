@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2014-04-07 16:11:06
+----
+Text: When I used the actual snippet function, it didn't show up in the right place. But when I used my method of pulling in the snippet file as a variable, it displayed in the right place.
+
+I haven't had a chance to test any variations of that yet, though.

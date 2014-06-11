@@ -1,0 +1,12 @@
+User: russbaldwin
+----
+Date: 2013-05-10 16:01:59
+----
+Text: Not tested but this would probably do?
+```php
+<?php if ($page->translatedUID() === 'example')  : ?>
+   <p>True</p>
+<?php else: ?>
+    <p>False</p> 
+<?php endif ?>
+```

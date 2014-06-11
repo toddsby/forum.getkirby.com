@@ -1,0 +1,11 @@
+Title: How do i get all pages with template "X" of the site in one object?
+----
+Date: 2014-03-22 06:45:43
+----
+Solved: 0
+----
+User: mcbrwr
+----
+Text: $site->pages()->index() seems to be something but I can't filter that for templates?
+
+What does index() do? It looks like it should return a flat array of all pages of the site?

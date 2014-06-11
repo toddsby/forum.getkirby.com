@@ -1,0 +1,11 @@
+User: fitzage
+----
+Date: 2014-02-01 21:33:11
+----
+Text: Something like this:
+
+```php
+<?php echo $images->first()->url() ?>
+```
+
+Instead of the `echo ($images)`.

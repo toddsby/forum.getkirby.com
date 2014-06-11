@@ -1,0 +1,7 @@
+User: eytanbiala
+----
+Date: 2013-05-03 18:53:18
+----
+Text: There is no thumbs stuff in config, this is for generating thumbs in the panel, which is done by Kirby.
+
+See Bastian's tutorial - http://getkirby.com/blog/thumb-plugin

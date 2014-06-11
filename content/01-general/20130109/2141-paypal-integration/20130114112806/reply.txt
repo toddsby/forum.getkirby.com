@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-01-14 11:28:06
+----
+Text: I think the 'simplecart' website covers the security issues quite well when using a Javascript cart. I don't think that this solution requires a database? And indeed using one does not necessarily make it more secure ;-) You can of course use a database with Kirby it has the [Kirby Toolkit](http://toolkit.getkirby.com/) to help you. 
+
+There are of course PHP methods of adding PayPal to you site (check out the PayPal docs) and these could perhaps be made into a Kirby plugin, but I do not think anyone had done it yet.

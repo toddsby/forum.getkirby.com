@@ -1,0 +1,7 @@
+User: timgauthier
+----
+Date: 2013-10-09 15:24:32
+----
+Text: woohoo! found the answer by digging into other tutorials! and in typical kirby fashion, there is a REALLY easy way to do it.
+
+    <img src="<?php if(isset($logourl)) echo url($logourl); else echo url('assets/images/logo.png')?>" class="logo visible-md visible-lg visible-xs" height="22px" alt="<?php echo html($site->title()) ?>" />

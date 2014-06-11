@@ -1,0 +1,17 @@
+User: 5w
+----
+Date: 2013-11-24 08:18:43
+----
+Text: This is fantastic. I'm with you. I find Jade helps to keep everything DRY. 
+
+It would be awesome if you could provide a short tutorial on how to incorporate this workflow. 
+
+My current w/flow:
+1. Create html templates (and all includes/mixins) in jade
+2. Heavy use of css preprocessors: Less (now moving to sass)
+3. Use the exported html templates and incorporate kirby php codes to generate the site templates
+4. Break reusable html components into php includes
+
+As you can see there are many redundant steps just to get things created. 
+
+Please keep us upto date with your progress :)

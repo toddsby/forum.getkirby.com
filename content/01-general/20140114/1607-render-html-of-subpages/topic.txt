@@ -1,0 +1,39 @@
+Title: Render HTML of Subpages
+----
+Date: 2014-01-14 16:07:49
+----
+Solved: 0
+----
+User: dandgough
+----
+Text: I'm trying to find a way to solve the below problem, I've read through the docs and can't think of the best way to do this. The problem is as below:
+
+  - Use subpages to render content on a main page. 
+  - The content will be different per page.
+  - The content will be module based. 
+
+
+To explain this further, I will show an example structure. 
+
+    Content
+        01-projects (projects.txt)
+            01-example-project (project.txt)
+                01-content-row (row.txt)
+                    01-text-block (text-block.txt)
+                    02-quote-block (quote-block.txt)
+                02-content-row
+                    01-quote-block (quote-block.txt)
+            02-example-project
+                01-content-row (row.txt)
+                    01-text-block (text-block.txt)
+                    
+
+I want to render the HTML of each child txt, regardless of the fields. The HTML should output exactly as it would based on the template file it's related to. 
+
+This way, one long page would be made up of the HTML elements defined in the folder structure. 
+
+I've tried various solutions and I can only output specified fields, furthermore, they aren't output as HTML - they are output as plain text.
+
+Thanks for your help in advance.
+
+Dan.

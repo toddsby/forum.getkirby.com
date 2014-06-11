@@ -1,0 +1,7 @@
+User: rappold
+----
+Date: 2013-07-02 09:58:20
+----
+Text: Aren't you missing the actual _clause_ in your if-statement?
+
+	<?php if($website->builtwith() != ''): ?>

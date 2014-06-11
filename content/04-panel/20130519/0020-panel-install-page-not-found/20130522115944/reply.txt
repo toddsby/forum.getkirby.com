@@ -1,0 +1,9 @@
+User: roman_oroco
+----
+Date: 2013-05-22 11:59:44
+----
+Text: Your `.htaccess` file be more like (link:https://github.com/bastianallgeier/kirbycms/blob/master/.htaccess text:this popup:yes).
+
+If you install (link:https://github.com/bastianallgeier/kirbycms text:current version popup:yes), your issue might be an FTP permissions problem (link:/docs/panel/troubleshooting/permissions).
+
+If your Kirby installation is on primary domain you can’t install Panel in a subdomain.

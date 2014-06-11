@@ -1,0 +1,15 @@
+User: mattsandersuk
+----
+Date: 2012-10-27 02:46:13
+----
+Text: I'm having trouble running this on my site.
+
+When loaded i get the error message:
+
+`Parse error: syntax error, unexpected T_FUNCTION in .../site/plugins/contactform/contactform.php on line 23`
+
+I'm on a shared hosting package with 123reg which is running PHP Version 5.2.16. It works fine on my local mamp server.
+
+Any suggestions on how to fix this?
+
+Thanks

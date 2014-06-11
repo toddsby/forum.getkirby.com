@@ -1,0 +1,13 @@
+User: texnixe
+----
+Date: 2013-11-10 11:10:51
+----
+Text: @unexpectedsport
+
+Well, as it is, you cannot even put your templates in subfolders because Kirby wouldn't find them.
+
+An easy way to achieve this I can think of is 
+
+- create a basic "empty" template called projects.php
+- create several snippets that contain the content of the sub templates (01.php, 02.php etc.)
+- call the snippets within projects.php randomly

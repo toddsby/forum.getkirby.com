@@ -1,0 +1,19 @@
+Title: Auto-Generated Thumbnail File Names
+----
+Date: 2012-12-20 19:46:11
+----
+Solved: 0
+----
+User: tysongach
+----
+Text: I wish the file names of auto-generated thumbnails didn’t have such abstract file names, e.g. **0ef42bbcfa13a4e03a73dbd714c431fd.400.0.0.0.100.jpg**
+
+I think it’d be more helpful if they were just the original file name with specs at the end. Something along the lines of:
+
+- **photo.jpg**
+- photo-200x200.jpg
+- photo-400x300.jpg
+- photo-1000x600-q50.jpg
+
+
+I’d bet this would help a lot with, *gasp* ‘SEO’. I hate that term, but just think about Google Images and their crawler seeing that random string, versus something more meaningful and includes the intended file name.

@@ -1,0 +1,15 @@
+User: ignaty
+----
+Date: 2013-01-02 20:44:03
+----
+Text: Hi there,
+
+You could try to use filterBy().
+
+On page where you want to display your posts from one of the categories include ``<?php $posts = $pages->children()->visible()->filterBy('category', urldecode(param('tag')), ',') ?>`` somewhere before your foreach loop, where ``$posts`` should be changed to whatever name you use in your code. 
+
+And after just use url path as ``www.website.com/blog/tag:your_category_name``.
+
+I did the same in one of mine projects, you can take al look (link:http://share.ignaty.com/0Y2V2f1v3W0h text: here).
+
+Hope that help.

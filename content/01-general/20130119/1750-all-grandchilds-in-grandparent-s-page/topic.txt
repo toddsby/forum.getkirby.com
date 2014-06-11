@@ -1,0 +1,31 @@
+Title: All grandchilds in grandparent's page
+----
+Date: 2013-01-19 17:50:57
+----
+Solved: 1
+----
+User: structor
+----
+Text: Is it possible to call and show ALL the articles in ONE list (news page) ordered by date? I use the same template for all articles. This is my folder structure:
+
+    news/
+      press/
+        article1
+        article2
+        article3
+        etc...
+      bulletin/
+        article1
+        article2
+        article3
+        etc...
+      events/
+        article1
+        article2
+        article3
+        etc...
+      blog/
+        article1
+        article2
+        article3
+        etc...

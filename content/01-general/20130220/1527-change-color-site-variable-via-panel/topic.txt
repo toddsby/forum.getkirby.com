@@ -1,0 +1,33 @@
+Title: Change Color Site Variable via Panel
+----
+Date: 2013-02-20 15:27:25
+----
+Solved: 1
+----
+User: roman_oroco
+----
+Text: I have simple idea similar to (link:https://github.com/bastianallgeier/kirbycms-panel/blob/master/defaults/config/config.php#L11 text:Panel) `c::set('panel.color', 'red');`, that allows to change color, but in this case directly from Panel. Anyone can help me?
+
+snippets/header.php
+```php
+[…]
+<?php if($site->color() && $site->color() != 'white') snippet('colors') ?>
+[…]
+```
+snippets/colors.php
+```php
+<?php $color = ($site->color() != 'white') ?>
+<style>
+  body {
+    background-color: <?php echo $color ?>;
+  }
+</style>
+```
+content/site.txt
+```
+[…]
+----
+Color: Black
+----
+[…]
+```

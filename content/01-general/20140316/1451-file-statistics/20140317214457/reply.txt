@@ -1,0 +1,7 @@
+User: loliism
+----
+Date: 2014-03-17 21:44:57
+----
+Text: Thank you for the suggestion! I'm not sure how to trigger GA, but I will look into it.
+
+Another option would be to get the ip-number from PHP using $_SERVER['REMOTE_ADDR'] and then write this to the image metadata files, which would take some serious work...

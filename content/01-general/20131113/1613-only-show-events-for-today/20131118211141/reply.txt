@@ -1,0 +1,9 @@
+User: fossil12
+----
+Date: 2013-11-18 21:11:41
+----
+Text: I'm trying to build something like that right now.
+
+Because it'll be really custom and I'm not an experienced PHP-Developer I'll probably don't post it.
+
+But if someone finds or writes something general I'm interested, too. :)

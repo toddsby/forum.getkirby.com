@@ -1,0 +1,22 @@
+Title: How to flip the order of all posts except for the first
+----
+Date: 2014-03-11 17:58:18
+----
+Solved: 1
+----
+User: neilsoncheng
+----
+Text: Sorry if this seems like a really basic question, I am not familiar with PHP.
+
+I am currently working on my personal portfolio:
+
+**URL**
+(link: http://strato-sphere.com/neil/ text: Portfolio popup: yes)
+
+I would like the link orders to be flipped except for the first post (about). My current stopgap solution is to flip all posts, and give "about" an arbitrary large number (i.e. 99-about).
+
+This doesn't seem like an elegant way to solve this problem, really hoping someone can help me out.
+
+Thanks!
+
+p.s. I am completely clueless how to get a code block in.

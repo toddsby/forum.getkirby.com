@@ -1,0 +1,15 @@
+Title: Plugin to display geolocated photos
+----
+Date: 2014-02-02 18:01:28
+----
+Solved: 0
+----
+User: samnabi
+----
+Text: I made a plugin that makes it easy to include a Panoramio photo gallery in your templates.
+
+Panoramio is a photo-sharing site where you're encouraged to geolocate your photos. They end up on Google Earth and Google Maps. I use it for my travel photography, so this plugin helps pull that content back into my Kirby-powered site.
+
+Even if you don't use Panoramio yourself, you could use it to display, say, the 10 most popular photos taken in Paris, France.
+
+Check it out on GitHub: [https://github.com/samnabi/kirby-panoramio](https://github.com/samnabi/kirby-panoramio)

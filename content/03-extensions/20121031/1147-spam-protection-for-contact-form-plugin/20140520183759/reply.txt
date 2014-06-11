@@ -1,0 +1,5 @@
+User: DerZyklop
+----
+Date: 2014-05-20 18:37:59
+----
+Text: seems like something happened here: <https://github.com/bastianallgeier/kirbycms-extensions/commit/68ab6508dbb1221cf87cfd63dd25d65aa02f57fc>

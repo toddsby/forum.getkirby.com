@@ -1,0 +1,26 @@
+Title: Automatic img file size filterBy specific name
+----
+Date: 2012-09-29 14:17:44
+----
+Solved: 1
+----
+User: roman_oroco
+----
+Text: This code should display the file image by name "**thumb**" with any extension: thumb.png, thumb.jpg, thumb.gif. And determine the size of image.
+
+The size image it's doesn't work.
+Where am wrong?
+```php
+<?php $image = $project->images()->filterBy('name', 'thumb') ?>
+
+<?php if($image): ?>
+
+<img src="<?php echo $image->first()->url() ?>" alt="<?php echo $image->name() ?>" width="<?php echo $image->width() ?>" height="<?php echo $image->height() ?>" />
+
+<?php endif ?>
+```
+
+HTML Result:
+```
+<img src="project/project-1/thumb.png" alt="thumb" width height />
+```

@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-02-02 00:16:00
+----
+Text: Ah, yes. I learned about uid after my original code. That should work, and is a little more concise.

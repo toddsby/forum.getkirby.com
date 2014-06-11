@@ -1,0 +1,23 @@
+Title: Panel URL trailing slash
+----
+Date: 2013-03-02 21:23:27
+----
+Solved: 1
+----
+User: iamirm
+----
+Text: Hi forum,
+
+I don't know if this is a bug or not, but I noticed that when I don't end my panel URL with a trailing slash, I get a 310 error, too many redirects and the url in the browser changes.
+
+Let's say the url is:
+
+www.mysite.com/test/site/panel
+
+It changes to
+
+www.mysite.com/mysite.com/test/site/panel/
+
+Could this be related to an incorrect setting in htaccess or the config file, or is it a bug?
+
+Any help = greatly appreciated

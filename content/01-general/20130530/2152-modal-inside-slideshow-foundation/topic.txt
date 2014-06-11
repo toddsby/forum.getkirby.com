@@ -1,0 +1,27 @@
+Title: Modal inside slideshow (Foundation)
+----
+Date: 2013-05-30 21:52:01
+----
+Solved: 0
+----
+User: zinzygeene
+----
+Text: Hi everyone,
+
+I'm working with Foundation, and I've run into a problem. I've created an orbit (slideshow) of projects with 'Read More' buttons. Each project button should open a reveal (modal) as a project page:
+
+	<ul data-orbit>
+	<?php foreach($data->children()->visible() as $project): ?>
+	<li>	
+	<figure>
+	<img src="<?php echo $project->images()->first()->url() ?>" alt="<?php echo html($project->title()) ?>" />
+	</figure>
+	<h3><?php echo html($project->title()) ?></h3>
+	<a href="#" data-reveal-id="myModal">More</a>
+	</li>
+	<?php endforeach ?>
+	</ul>
+
+When the reveal opens, however, it shows the first project instead of the current visible project in the orbit. I can't seem to figure out where to put the reveal code (Foundation Docs tells me it should be right above </body>, but that doesn't change anything). I suppose I have to explain in PHP that the reveal should display the current project, but I can't figure out how to do it.
+
+Any help would be greatly appreciated!

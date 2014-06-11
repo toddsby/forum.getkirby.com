@@ -1,0 +1,16 @@
+User: tysongach
+----
+Date: 2012-12-07 02:34:24
+----
+Text: Are you planning to pull all this content into a grid on the home page or something? Or how will these pages' content be seen?
+
+Hiding pages is as simple as hiding the number in the front on your files. When you create a new page in the Panel, they are hidden by default. When you sort the pages in the Panel, and move a page up to the 'Visible' section, that's when a number is added to the front.
+
+So if the below items were folders for your content,
+
+01-page **is** visible
+page is **not** visible
+
+Make sense?
+
+I'm curious to know where the content will be seen, though, if not on the project pages themselves, and I can help you further will how to pull that content in, if you need it.

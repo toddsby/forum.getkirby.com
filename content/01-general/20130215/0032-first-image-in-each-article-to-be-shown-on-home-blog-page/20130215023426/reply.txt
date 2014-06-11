@@ -1,0 +1,5 @@
+User: nathaniel_h
+----
+Date: 2013-02-15 02:34:26
+----
+Text: Thanks again! I just switched $page to $article and it worked perfectly for my blog.

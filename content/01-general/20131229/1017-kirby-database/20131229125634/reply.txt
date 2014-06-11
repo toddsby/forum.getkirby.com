@@ -1,0 +1,22 @@
+User: chrisburton
+----
+Date: 2013-12-29 12:56:34
+----
+Text: So far I've tried this
+
+    require_once '../../kirby/lib/kirby.php';
+
+
+    // Custom Kirby Database
+    c::set('db.host', 'localhost');
+    c::set('db.user', '$user');
+    c::set('db.password', '$password');
+    c::set('db.name', '$database');
+
+    $connect = db::connect( 'localhost','$user','$password','$database' );
+    
+    $query = "SELECT `title`,`url` FROM `read` ORDER BY `order` DESC LIMIT 1";
+    $result = db::query($query);
+    $row = db::fetch($result);
+
+This results in a blank page.

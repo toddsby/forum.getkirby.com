@@ -1,0 +1,29 @@
+Title: Simple PHP problem
+----
+Date: 2013-05-09 02:07:28
+----
+Solved: 1
+----
+User: chrisjmartin87
+----
+Text: I'm wondering why this code would not work? I'm no php guru but this is pretty straight forward and it doesn't seem to be working. could someone shed any light on this?
+
+Thanks :)
+
+     <?php if($pages->findByUID('example')): ?>
+
+     <li><a href="#">link</a></li>
+     <li><a href="#">link</a></li>
+     <li><a href="#">link</a></li>
+     <li><a href="#">link</a></li>
+     <li><a href="#">link</a></li>
+
+     <?php else: ?>
+
+     <li><a href="#">Alternative link</a></li>
+     <li><a href="#">Alternative link</a></li>
+     <li><a href="#">Alternative link</a></li>
+     <li><a href="#">Alternative link</a></li>
+     <li><a href="#">Alternative link</a></li>
+
+     <?php endif ?>

@@ -1,0 +1,42 @@
+Title: optional values on a multilingual page
+----
+Date: 2014-05-11 10:12:04
+----
+Solved: 0
+----
+User: davyrego
+----
+Text: I'm using the multilingual feature of Kirby. On some pages I use a "subtitle", a synonym, to clarify the title itself, but this isn't applicable in every language.
+
+For example:
+in EN: 
+title: Breast enlargement
+subtitle: Breast augmentation
+in FR:
+title: Augmentation mammaire
+
+<?php if ($page->subtitle()): ?>
+   <span class="subtitle"> 
+      ( <?php echo html($page->subtitle())?> )
+   </span>
+<?php endif;?>
+
+Since I use English as default language, the subtitle (in English) is shown on the French pages, even with the following check, just because Kirby falls back to the default value of the field. Is there an option to prevent this?
+
+
+My workaround for now is to add the "field" also to the FR .txt file and to add an extra check to determine the subtitle-var isn't empty. (because I want to put some brackets around the subtitle. When only the field is added, without the check, the brackets are shown without content. Logical, but not desirable). 
+
+EN: 
+title: Breast enlargement
+subtitle: Breast augmentation
+FR:
+title: Augmentation mammaire
+subtitle:
+
+<?php if ($page->subtitle() && !empty($page->subtitle)): ?>
+   <span class="subtitle"> 
+      ( <?php echo html($page->subtitle())?> )
+   </span>
+<?php endif;?>
+
+Is my workaround the "best practice" or are there any other options? Thx in advance!

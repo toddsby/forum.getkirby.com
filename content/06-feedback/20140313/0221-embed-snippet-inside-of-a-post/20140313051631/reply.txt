@@ -1,0 +1,14 @@
+User: fitzage
+----
+Date: 2014-03-13 05:16:31
+----
+Text: A couple of options:
+
+1. Have two separate body text fields, and then have a third field that you use in your template to tell it which snippet to use. So you'd have fields for body1, body2, and snippet. Snippet would be a single word that you use to embed your snippet in your template between where you echo the two text fields.
+2. Create a custom kirbytext extension that does one of two things:
+    * Tells it where to embed the snippet, as you mention above (I'm not entirely sure how to do this).
+    * Tells it what content file to pull text from (I've actually done this).
+
+So depending on what needs to go in those custom snippets, you could just make them content fields either in your site.txt, or in some other directory. I don't have time to pass my kirbytext extension along, but for one section I have a folder called modules (that's invisible) with a number of pages that only have two fields each: title and text. Then I use my kirbtext extension to just pull the correct one based on the slug.
+
+If you're interested in that, I'll share it.

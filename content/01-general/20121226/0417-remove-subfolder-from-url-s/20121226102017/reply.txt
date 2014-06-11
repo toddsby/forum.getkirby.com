@@ -1,0 +1,8 @@
+User: vis7mac
+----
+Date: 2012-12-26 10:20:17
+----
+Text: There is one way that *could* work: Set the `subfolder` as your homepage in `site/config/config.php`. You can then access your pages like you want.
+
+But my question is: Why do you need that? You can also just put the articles folder in the root of the `content` folder.
+Or is there a specific reason why you need that structure?

@@ -1,0 +1,5 @@
+User: GoodAtSmudgin
+----
+Date: 2013-04-11 17:19:41
+----
+Text: If I'm not mistaken, I believe that the panel you're trying to use isn't meant for the upcoming Kirby 2 release. I'm fairly certain that it's meant for the 1.x.x releases. From the sounds of it, the Panel is getting a hefty overhaul (just like the core), but I don't think there's a public repo for it (yet, if ever - it will most likely be a premium addon).

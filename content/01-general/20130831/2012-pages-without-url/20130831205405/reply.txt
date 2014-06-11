@@ -1,0 +1,9 @@
+User: texnixe
+----
+Date: 2013-08-31 20:54:05
+----
+Text: $pages->index() returns an array of all pages
+
+<http://reference.new.getkirby.com/cms/classes/pages/methods/index>
+
+Hope thats what your are looking for.

@@ -1,0 +1,15 @@
+User: andi1492
+----
+Date: 2013-01-11 18:41:26
+----
+Text: I also had problems when I first installed the panel on my server (managed hosting package at http://all-inkl.com), so I wanted to share my solution for the problem.
+
+I wasn't able to edit or sort my pages in the panel and the file permissions were set correctly. I tried to change the owner of the files & folders in the backend of my hosting service. It was set to the ftp user so I changed it to the php-user. Boom, I was able to edit and sort my pages! Unfortunately I wasn't able to edit my files via ftp anymore so I asked the support to help me out.
+
+The solution to the problem was to add the following line to my .htaccess file:
+AddHandler php5-cgi .php
+
+This lets you edit your files with your ftp user. Done.
+
+I hope this is useful for some of you guys!
+Andy

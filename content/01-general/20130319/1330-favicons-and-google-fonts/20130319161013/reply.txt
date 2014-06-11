@@ -1,0 +1,5 @@
+User: Fhuery
+----
+Date: 2013-03-19 16:10:13
+----
+Text: Okay. Though, I would just have to alter the value of the 'href' attribute because of the location of the favicon i.e. within the 'img' folder within the Kirby 'assets' folder. Sorry, I just like being very detailed and sure of a solution so I will ask until the minutest detail. I appreciate your help

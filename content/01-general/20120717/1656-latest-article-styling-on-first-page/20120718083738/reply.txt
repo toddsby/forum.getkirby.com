@@ -1,0 +1,5 @@
+User: lulezi
+----
+Date: 2012-07-18 08:37:38
+----
+Text: I haven't tested it but have you already tried $page->hasNext() or $page->hasPrev()?

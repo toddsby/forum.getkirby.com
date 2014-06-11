@@ -1,0 +1,12 @@
+User: dokdeleon
+----
+Date: 2013-02-07 18:17:59
+----
+Text: @roman_oroco it seems i deleted my previous post when editing the reply.. anyway, instead of `$pages` use `$page`
+
+Since you are accessing the actual category page already (based on your folder structure above), all you have to do is show its children.
+
+	<?php $articles = $page->children()
+	                       ->visible()
+	                       ->sortBy('date', 'desc')
+	                       ->paginate(5); ?>

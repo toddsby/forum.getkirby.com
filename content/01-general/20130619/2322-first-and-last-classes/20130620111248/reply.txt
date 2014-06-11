@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-06-20 11:12:48
+----
+Text: Yes, it is pretty easy to slip some classes into your PHP that produces your article list. Check out [Fun with loops](http://getkirby.com/blog/fun-with-loops) for some ideas.

@@ -1,0 +1,9 @@
+User: fitzage
+----
+Date: 2013-10-13 20:21:51
+----
+Text: I think the first answer is a good answer.
+
+To clarify one point, Kirby can be used for very complex websites, and it's so much better than trying to build such things in something like WordPress. It's not going to be such a good solution for things like web apps, though.
+
+If you want an example of a complex website that's built in Kirby, you can look at (link: http://joyent.com). Not trying to be a spammer, but if you look through some of the pages you can see the complexity. It's easy to make a mixture of pages and repeating content (notice the blog section and the partners section if you want to see what some more complex sections).

@@ -1,0 +1,7 @@
+User: ChrisjMartin87
+----
+Date: 2013-05-09 11:38:18
+----
+Text: Hey, Ive tried your suggestion but it still doesn't work.
+
+The nav shows the first set of links on every page.

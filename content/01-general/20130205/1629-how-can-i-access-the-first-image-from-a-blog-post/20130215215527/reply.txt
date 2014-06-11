@@ -1,0 +1,9 @@
+User: Seitenwerk
+----
+Date: 2013-02-15 21:55:27
+----
+Text: Had the same problem recently until we came up with a solution:
+
+The code was correct, the error simply fired because there was no image in on of the sites, which of course led to the 'non-object' error when trying to output the url with '->url()'.
+
+So my advice is to check if there are any images in your php code and only execute when there is one.

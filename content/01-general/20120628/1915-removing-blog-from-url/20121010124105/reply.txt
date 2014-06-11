@@ -1,0 +1,11 @@
+User: bastianallgeier
+----
+Date: 2012-10-10 12:41:05
+----
+Text: @roman_oroco did you make sure to write 
+
+```php
+<?php echo url($page->uid()) ?>
+```
+
+That should always give you the full url without the tag: parameter.

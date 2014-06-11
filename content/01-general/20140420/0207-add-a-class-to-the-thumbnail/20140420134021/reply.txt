@@ -1,0 +1,9 @@
+User: sashtown
+----
+Date: 2014-04-20 13:40:21
+----
+Text: Try this:
+
+```
+<img class="your_class" src="<?php echo thumb($image, array('width' => 300, 'height' => 200), false) ?>">
+```

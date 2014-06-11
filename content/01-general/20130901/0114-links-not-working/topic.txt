@@ -1,0 +1,19 @@
+Title: Links not working
+----
+Date: 2013-09-01 01:14:01
+----
+Solved: 1
+----
+User: warrenbaskin
+----
+Text: My site and panel both load perfectly, but none of the links work. I get this sort of error whenever I click a link:
+
+"The requested URL /test/panel/show:content/do:add-page was not found on this server."
+
+- .htaccess is uploaded and my only modification was changing the RewriteBase to "/test"
+- 755 permissions didn't work for the content and thumbs directories, so I had to use 757
+- Running Ubuntu 12.04, Apache/2.2.22 and PHP 5.3.10 
+- I confirmed that mod_rewrite is enabled
+<br>
+Can someone please help me?
+<br>

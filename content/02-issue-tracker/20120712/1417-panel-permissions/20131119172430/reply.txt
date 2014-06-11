@@ -1,0 +1,11 @@
+User: travismaynard
+----
+Date: 2013-11-19 17:24:30
+----
+Text: I have solved this for my specific scenario. If your using a VPS to host your Kirby site you may have owners/groups setup improperly.
+
+Make sure that the owner that is set on your files is the same owner that is running your Apache process. Otherwise, the server will get confused and not recognize the permissions properly.
+
+For example, I had created a specific user and group as the owner of my Kirby files. I went through all the steps above, and the I finally checked the owner of the Apache process - and sure enough matching it up with those files properly solved my issue.
+
+I hope this helps if anyone else is still struggling with the same issue.

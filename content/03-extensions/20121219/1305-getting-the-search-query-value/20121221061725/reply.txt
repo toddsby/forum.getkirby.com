@@ -1,0 +1,19 @@
+User: nilshendriks
+----
+Date: 2012-12-21 06:17:25
+----
+Text: Yes it did, thanks a lot! :-)
+
+I do run into another issue now though as I am going for the way the kirby demo does the pagination.
+
+It used a snippet called pagination but for some reason the query value is not added to the prev and next links.
+
+```php
+<? if($pagination->hasNextPage()): ?>
+    <a class="next" href="<?= $pagination->nextPageURL() ?>">next &rsaquo;</a>
+<? endif ?>
+```
+
+I have set paginate to 8 and when there are more results it now shows the next page link but its URL only says "?page=2" so without the value for q
+
+Adding $search->query() to this didnt help.

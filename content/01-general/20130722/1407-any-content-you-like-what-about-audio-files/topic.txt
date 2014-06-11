@@ -1,0 +1,10 @@
+Title: Any content you like : what about audio files ?
+----
+Date: 2013-07-22 14:07:07
+----
+Solved: 0
+----
+User: martinhamant
+----
+Text: Hi ! Kirby would be perfect for my portfolio and maybe for my band website... But how I could add an audio player ? I've read the docs and forum but didn't find anything :(
+Thx !

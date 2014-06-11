@@ -1,0 +1,12 @@
+Title: StableHost Shared Hosting
+----
+Date: 2013-02-04 13:42:49
+----
+Solved: 0
+----
+User: grandebruno
+----
+Text: I've been with StableHost for more than a year, and I can vouch for them, at least in the case of shared hosting. They're pretty cheap (they almost always have an ongoing 30%-off coupon promotion). Moreover, their service is great: they respond to support tickets very quickly and their explanations are clear and helpful. Since they use cPanel, I manage my domain with them as well, including DNS management and email forwarders. 
+
+If you believe I deserve a referral, follow this link: [https://billing.stablehost.com/aff.php?aff=508](https://billing.stablehost.com/aff.php?aff=508). 
+Otherwise, here's the non-affiliate link: [http://www.stablehost.com/shared-hosting.php](http://www.stablehost.com/shared-hosting.php).

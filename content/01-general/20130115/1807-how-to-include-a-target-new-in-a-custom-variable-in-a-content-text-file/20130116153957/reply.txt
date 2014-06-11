@@ -1,0 +1,9 @@
+User: russbaldwin
+----
+Date: 2013-01-16 15:39:57
+----
+Text: No problem, have you solved this using the 'popup:yes', as this would seem to create the HTML link as described?
+
+`( link: http://www.website.com text: Name of the website popup: yes )`
+
+If so maybe put a 'Solved' in the title? Or were you trying todo something else?

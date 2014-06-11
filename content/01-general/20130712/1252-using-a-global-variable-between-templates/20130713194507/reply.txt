@@ -1,0 +1,11 @@
+User: FokusMan
+----
+Date: 2013-07-13 19:45:07
+----
+Text: thanks!
+
+I required one value which changes dynamically. With the Kirby Toolkit functions I was not able to "update" cookie values or config values. 
+
+After I checked all tutorials again, I find the article about the URI object which helped me.
+
+=> http://getkirby.com/blog/the-mighty-mighty-uri-object

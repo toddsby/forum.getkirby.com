@@ -1,0 +1,5 @@
+User: robrainfall
+----
+Date: 2012-06-14 19:33:55
+----
+Text: excluding with attaching "-exclude" is a good idea. i would like to see maybe a default way of doing this, like you would specify a prefix and suffix in the config and that automatically filters out those from the page or file object.

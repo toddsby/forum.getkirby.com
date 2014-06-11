@@ -1,0 +1,24 @@
+User: bastianallgeier
+----
+Date: 2012-06-13 16:58:19
+----
+Text: In your blogarticle template you can simply do something like: 
+
+```
+<?php if($page->images()->count() > 0): ?>
+<img src="<?php echo $page->images->first()->url() ?>" />
+<?php endif ?>
+```
+
+…or you could also create a loop to show all pictures…
+
+
+```
+<?php if($page->images()->count() > 0): ?>
+
+<?php foreach($page->images() as $image): ?>
+<img src="<?php echo $image->url() ?>" />
+<?php endforeach ?>
+
+<?php endif ?>
+```

@@ -1,0 +1,14 @@
+User: fitzage
+----
+Date: 2013-08-07 21:57:32
+----
+Text: Just take that a href and wrap it around an image tag. Are you getting the image from the articles themselves? If so, it will probably look something like this:
+
+    <?php foreach($articles as $article): ?>
+        <h2><a href="<?php echo $article->url() ?>"><?php echo html($article->title()) ?></a></h2>
+        <?php $image = $article->images()->first() ?>
+        <a href="<?php echo $article->url() ?>"><img src="<?php echo $image->url() ?>"></a>
+        <?php echo kirbytext($article->text()) ?>
+    <?php endforeach ?>
+
+Now if you're doing something other than using the first image from an article (like looking for one with a specific title) you'll have to use the Kirby methods for filtering the images.

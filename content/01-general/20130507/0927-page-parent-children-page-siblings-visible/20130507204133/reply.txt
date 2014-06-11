@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-05-07 20:41:33
+----
+Text: You could test it or examine the objects with something like
+`a::show($p1)
+`

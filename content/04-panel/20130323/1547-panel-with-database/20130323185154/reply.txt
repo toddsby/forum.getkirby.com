@@ -1,0 +1,9 @@
+User: russbaldwin
+----
+Date: 2013-03-23 18:51:54
+----
+Text: Kirby is Text file or Markdown file based CMS. If you want a database based CMS then you may not want Kirby?
+
+This is not to say you cannot use Kirby with a database, you can, but not really for page content storage with the Panel. 
+
+See ['Kirby loves MySQL'](http://getkirby.com/blog/database) and also the [Toolkit](http://toolkit.getkirby.com/).

@@ -1,0 +1,7 @@
+User: Aizlewood
+----
+Date: 2013-03-12 22:58:56
+----
+Text: Actually, I don't think this is solved as I'm having the same issue.  
+
+The <!--More --> tag inserted during the publishing phase in Wordpress seems to be truncating the blog post in the Kirby Wordpress Exporter.  Out of 117 blog posts, all of them are only 1 paragraph long. Obviously it would be great if I could avoid manually editing every single post.

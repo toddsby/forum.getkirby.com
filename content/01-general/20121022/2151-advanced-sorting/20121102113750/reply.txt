@@ -1,0 +1,32 @@
+User: bastianallgeier
+----
+Date: 2012-11-02 11:37:50
+----
+Text: Hey Tyson, 
+
+so sorry for my late reply. 
+
+As far as I understand it you need to filter your articles first and afterwards sort the result set. Did you try something like this: 
+
+```php
+
+$articles $pages->find('pressarticles')
+  ->children()
+  ->filterBy('featured', 'on')
+  ->sortBy('date', 'desc');
+
+```
+
+To filter for missing text should also be possible by adding an additional filterBy: 
+
+```php
+
+$articles $pages->find('pressarticles')
+  ->children()
+  ->filterBy('featured', 'on')
+  ->filterBy('text', '')
+  ->sortBy('date', 'desc');
+
+```
+
+I hope this helps.

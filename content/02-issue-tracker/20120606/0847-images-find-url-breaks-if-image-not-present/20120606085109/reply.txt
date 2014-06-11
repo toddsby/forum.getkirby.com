@@ -1,0 +1,20 @@
+User: bastianallgeier
+----
+Date: 2012-06-06 08:51:09
+----
+Text: Thanks for the nice words about Kirby. 
+
+The `->find('decoration.jpg')` returns false instead of an image object if the image could not be found. This means that all methods and getters are not available afterwards. So this is not a bug. 
+
+You should build in a check if the image has been found in such a case: 
+
+
+```
+<?php $image = $article->images()->find('decoration.png') ?>
+
+<?php if($image): ?>
+<img src="<?php echo $image->url() ?>" />
+<?php endif ?>
+```
+
+I hope this helps.

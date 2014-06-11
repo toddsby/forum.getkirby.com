@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-08-09 16:52:03
+----
+Text: That's not possible, unless you're also inserting the image in your article text using kirbytext.

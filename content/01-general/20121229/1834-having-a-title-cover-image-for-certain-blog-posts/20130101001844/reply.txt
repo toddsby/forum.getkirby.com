@@ -1,0 +1,20 @@
+User: fitzage
+----
+Date: 2013-01-01 00:18:44
+----
+Text: Unless I'm missing something (entirely possible), this seems needlessly complex. I would do something more like this:
+
+    <?php if ($article->files()->find('cover.jpg')) { ?>
+        <img src="<?php echo $article->files()->find('cover.jpg')->url() ?>">
+    <?php } ?>
+
+Then you don't have to have a field with a filename, you just put a cover.jpg in the folder with the particular page content. Requires you to always use the same name, but that's OK (judging by your original post).
+
+If you want to get really fancy and allow either a jpg or png to be allowed for a given page, you could do something using the newer filterBy options in (link: http://getkirby.com/blog/1-1-1 text: Kirby 1.1.1).
+
+    <?php $coverimage = $article->images()->filterBy('title', '*=', 'cover') ?>
+    <?php if ($coverimage)) { ?>
+        <img src="<?php echo $coverimage->url() ?>">
+    <?php } ?>
+
+Something like that, anyway.

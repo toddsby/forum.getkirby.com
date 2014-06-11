@@ -1,0 +1,11 @@
+User: fitzage
+----
+Date: 2013-07-09 23:04:30
+----
+Text: Just taking your code as the base, something like this should work.
+
+    <ul class="category">
+        <?php foreach(str::split($article->categories()) as $category): ?>
+            <li><a href="<?php echo url('category:' . urlencode($category)) ?>"><?php echo $category; ?></a><?php echo ($category === $str::split($article->categories())->last()) ? '': ',' ?></li>
+        <?php endforeach ?>
+    </ul>

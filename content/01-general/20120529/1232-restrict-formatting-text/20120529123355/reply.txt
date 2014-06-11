@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-05-29 12:33:55
+----
+Text: That's not possible yet. There's only the `excerpt()` function, which does remove the entire formats. But I agree that this is needed!! I'm looking into it.

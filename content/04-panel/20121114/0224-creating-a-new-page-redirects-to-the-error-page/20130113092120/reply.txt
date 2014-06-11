@@ -1,0 +1,5 @@
+User: dokdeleon
+----
+Date: 2013-01-13 09:21:20
+----
+Text: Thanks for the link. Was about to make a new post when I saw this. It's not yet resolved. The issue it seems is for WAMP users using Kirby 1.1.1. This was not an issue on my previous Kirby installs.

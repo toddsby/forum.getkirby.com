@@ -1,0 +1,8 @@
+User: nathaniel_h
+----
+Date: 2013-02-22 00:10:29
+----
+Text: Here's a link to the code I'm using on my blog page.
+http://snipt.org/zfLf0/Default
+
+I got it to present a list of categories, and even sort by catogories when you click on an item. But I think because of the overlap in params on my homepage, it messes up sorting by tag from my tag index page. Anyway do to both at once?

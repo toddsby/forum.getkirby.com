@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-01-03 17:27:49
+----
+Text: Yes, and then you just pull the excerpt field instead of the text field in your template. You can add whatever other fields you want in a similar manner.

@@ -1,0 +1,17 @@
+User: russbaldwin
+----
+Date: 2013-10-10 09:49:53
+----
+Text: I've not tested it, but perhaps a boolean rather than a 'null' would be required? e.g. TRUE or FALSE or maybe even 1 or 0 or even on or off?
+
+I note [the format given in the documents](http://getkirby.com/docs/panel/blueprints/field-types) is:
+
+```php
+fields: 
+  myfield: 
+    label:   My Checkbox
+    type:    checkbox
+    default: on
+```
+
+Look at the page array to see what is there...

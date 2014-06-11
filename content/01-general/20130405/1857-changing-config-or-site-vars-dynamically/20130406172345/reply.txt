@@ -1,0 +1,15 @@
+User: tillpro
+----
+Date: 2013-04-06 17:23:45
+----
+Text: Hi—
+
+Thanks for your quick response!
+
+Background:
+I want to update information (a simple JSON-API) stored on a different server (actually it’s my server) every two month. To avoid requesting these information every time the page is requested I’d like to fetch it only if the last request was done more than two month ago.
+It is not possible to store these informations on the sever the kirby powered site is running on for reasons…
+
+Therefore, I’ll not be able to use (session) cookies.
+
+Till

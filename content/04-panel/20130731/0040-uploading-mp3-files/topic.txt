@@ -1,0 +1,11 @@
+Title: Uploading .mp3 files
+----
+Date: 2013-07-31 00:40:03
+----
+Solved: 1
+----
+User: rappold
+----
+Text: I've added `audio/mpeg` as well as `audio/mp3` to the list of allowed MIME types in `site/panel/config` but still haven't been able to upload .mp3 files via the panel.
+
+Does anyone know how I can make this work?

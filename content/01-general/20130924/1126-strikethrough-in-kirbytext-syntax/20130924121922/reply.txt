@@ -1,0 +1,9 @@
+User: texnixe
+----
+Date: 2013-09-24 12:19:22
+----
+Text: As far as I know it's not supported in either Markdown or Markdown Extra. You can however wrap a 
+    
+    <del></del> 
+
+tag around the text to strike through.

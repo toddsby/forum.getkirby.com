@@ -1,0 +1,12 @@
+User: simoncvbohm
+----
+Date: 2013-11-26 13:51:06
+----
+Text: Wow, thanks for the help.
+
+The `without`-solution worked out just fine.
+
+I couldn't get the `->slice`- and the `->offset`-solutions to work.
+The function works, but since I also have a `->flip` it cuts from the bottom. And setting a negative number didn't seem to do the trick either. 
+
+Anyway, it works now. Thanks a lot!

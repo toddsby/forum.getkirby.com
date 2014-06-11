@@ -1,0 +1,21 @@
+User: theseason
+----
+Date: 2013-08-24 00:04:56
+----
+Text: Current setup using thumb snippet:
+
+
+    		<?php foreach($articles as $gallery): ?>
+          <div class="span3 work-item All <?php foreach(str::split($gallery->tags()) as $tag): ?><?php echo $tag ?> <?php endforeach ?>">
+            <div class="work-item-image-container">
+              <?php echo thumb($gallery->images()->filterBy('title', '!=', 'featured')->first(), array('height' => 220, 'crop' => true, 'upscale' => true)) ?>
+              <a href="<?php echo $gallery->url() ?>">
+              <div class="work-item-overlay">
+                  <h4>
+                   <?php echo html($gallery->title()) ?>
+                  </h4>
+              </div>
+              </a>
+            </div>
+          </div>
+        <?php endforeach ?>

@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2013-01-04 14:25:34
+----
+Text: That's a fantastic idea. Maybe an auto-create field could be added to the blueprint. I will definitely keep this in mind for a future version.

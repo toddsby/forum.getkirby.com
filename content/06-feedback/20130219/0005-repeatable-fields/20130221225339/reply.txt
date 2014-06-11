@@ -1,0 +1,7 @@
+User: richgcook
+----
+Date: 2013-02-21 22:53:39
+----
+Text: I'm miserable at explaining my thoughts sometimes.
+
+Something like this: http://www.advancedcustomfields.com/add-ons/repeater-field/ - a field that you can repeat infinitely.

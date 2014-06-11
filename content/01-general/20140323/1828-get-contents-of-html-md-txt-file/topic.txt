@@ -1,0 +1,21 @@
+Title: Get contents of .html/.md/.txt file
+----
+Date: 2014-03-23 18:28:34
+----
+Solved: 0
+----
+User: jheftmann
+----
+Text: I'm trying to figure out how to get the contents of a .html/.md/.txt file. For example:
+
+/content
+-->/project-a
+-->-->project.txt
+-->-->photo.jpg
+-->-->additional-text.md
+
+I would like to be able to do things like:
+– put the embed code of a video in a .html file
+– add individual blocks of text within a loop of all project images and order everything by date
+
+At best I can only get the URL of the file, and at worst it makes Kirby really unhappy. I can't find anything on how to accomplish this. Help is greatly appreciated!

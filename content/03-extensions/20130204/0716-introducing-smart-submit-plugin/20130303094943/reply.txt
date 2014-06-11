@@ -1,0 +1,13 @@
+User: russbaldwin
+----
+Date: 2013-03-03 09:49:43
+----
+Text: @danjessen I understand what you are saying, but until someone comes out with something better I think @vladstudio solution works pretty well. 
+
+For forms you are always going to have to have some sort of handler and this is usually going to be different for different forms. 
+
+@vladstudio approach means people could write handlers for specific tasks and post them here so others could use them?
+
+True, I guess you could write a sort of generic one and have some generic calling method, but this is going to get complex very quickly, especially when you add in multi-langauge?
+
+I've only had a quick play with this, but you should be sure to make your handlers work without Javascript ;-)

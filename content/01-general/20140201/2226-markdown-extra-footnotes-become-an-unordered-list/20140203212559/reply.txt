@@ -1,0 +1,39 @@
+User: gebloom
+----
+Date: 2014-02-03 21:25:59
+----
+Text: Thank you. It appears to have been fixed by changing
+
+<code>
+article .content ol,
+article .content ul {
+    list-style-type: disc;
+    margin: 0px 0 20px 20px;
+    line-height: 25px;
+}
+</code>
+to
+<code>
+article .content ul {
+    list-style-type: disc;
+    margin: 0px 0 20px 20px;
+    line-height: 25px;
+}
+
+article .content ol {
+    list-style-type: decimal;
+    margin: 0px 0 20px 20px;
+    line-height: 25px;
+</code>
+
+I did not change 
+
+<code>
+ol, ul {
+    list-style: none;
+}
+</code>
+
+I assume that it was superceded by the latter code. (I'm not a programmer.) 
+
+Thanks, again. Much appreciated.

@@ -1,0 +1,38 @@
+User: russbaldwin
+----
+Date: 2012-12-14 10:50:57
+----
+Text: Can't quite see what is wrong with your code? It could be server related, maybe .htaccess? Anyway try the code below as a test which I know works.
+
+I needed to have invisible and ignored stuff and so did this which works, [see the sitemap.php for this site](http://www.andreainsworth.com/sitemap.php)
+
+	<?php
+	$ignore = array('sitemap','error');
+	// send the right header
+	header('Content-type: text/xml; charset="utf-8"');
+	// echo the doctype
+	echo '<?xml version="1.0" encoding="utf-8"?>';
+	?>
+	<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	
+	  <?php foreach($pages->visible() AS $p): ?>
+	   <?php if(in_array(basename($p->uri()), $ignore)) continue ?>
+	    <url>
+	      <loc><?php echo html($p->url()) ?></loc>
+	      <lastmod><?php echo $p->modified('c') ?></lastmod>
+	      <priority><?php echo ($p->isHomePage()) ? 1 : number_format(0.9/$p->depth(), 1) ?></priority>
+	    </url>
+	    <?php if($p->children()->visible()->count()): ?>
+	      <?php foreach($p->children()->visible() AS $item): ?>
+	        <?php if(in_array(basename($item->uri()), $ignore)) continue ?>
+	          <url>
+	            <loc><?php echo html($item->url()) ?></loc>
+	            <lastmod><?php echo $item->modified('c') ?></lastmod>
+	            <priority><?php echo number_format(0.9/$item->depth(), 1) ?></priority>
+	          </url>
+	      <?php endforeach ?>
+	    <?php endif ?>
+	  <?php endforeach ?>
+	</urlset>
+
+Hope it helps you?

@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2013-01-04 14:26:56
+----
+Text: Opauth as a part of the Auth plugin would be fantastic. I'm not sure though I can add that soon. There's sooooo much stuff on my list :/

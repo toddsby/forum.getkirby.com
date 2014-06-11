@@ -1,0 +1,51 @@
+User: bastianallgeier
+----
+Date: 2012-05-24 18:03:43
+----
+Text: Yep, sure! That's no problem. You can access anything from anywhere. 
+
+The appliances page is easy. You can simply do something like: 
+
+```
+
+<?php foreach($page->children() as $appliance): ?>
+
+<img src="<?php echo $appliance->images()->first()->url() ?>" />
+<?php echo kirbytext($appliance->text()) ?>
+
+<?php endforeach ?>
+
+```
+
+To gather all grandchildren on the products page you could do a nested foreach loop.
+
+```
+
+<?php foreach($page->children() as $child) ?>
+<!-- maybe do something with the child data here -->
+
+<?php foreach($child->children() as $grandchild): ?>
+<!-- grandchildren html -->
+<?php endforeach ?>
+
+<?php endforeach ?>
+
+```
+
+Or you can access specific children and grandchildren like this: 
+
+```php
+
+<?php 
+
+// version A
+$grandchild = $page->children()->find('appliances')->children()->find('mongodb');
+
+// version B
+$grandchild = $page->children()->find('appliances/mongodb');
+
+?>
+
+```
+
+I hope this helps

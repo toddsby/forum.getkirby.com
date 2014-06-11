@@ -1,0 +1,19 @@
+User: Wordius
+----
+Date: 2013-02-01 17:33:47
+----
+Text: @fitzage Thanks for that. Works perfectly, so my code now looks like this:
+
+    <h2>You might also be interested in…</h2>
+    <ul>
+    <?php foreach($pages->find('blog')->children()->visible()->flip()->limit(5) as $article): ?>
+    <?php if ($page != $article) { ?>
+    <li><a href="<?= $article->url() ?>"><?= html($article->title()) ?></a></li>
+    <?php } ?>
+    <?php endforeach ?>
+
+Afraid my PHP prowess does not extend to always showing three articles in the event the current article has to be excluded. Instead, I upped it to `limit(5)`, meaning a minimum of four will be displayed.
+
+This is probably all rudimentary PHP if you know what you’re doing. I’ve yet to figure out the best way to learn more.
+
+Thanks again, @Wordius

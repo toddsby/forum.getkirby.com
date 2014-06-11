@@ -1,0 +1,13 @@
+User: bastianallgeier
+----
+Date: 2013-02-04 17:25:26
+----
+Text: There's actually a way easier Kirby-made solution: 
+
+```
+
+<?php echo $page->translatedUID() ?>
+
+```
+
+:)

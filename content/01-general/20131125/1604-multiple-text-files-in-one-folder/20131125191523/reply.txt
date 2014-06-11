@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2013-11-25 19:15:23
+----
+Text: I don't believe so. There are other flat-file based systems like Statamic that follow an approach that uses the filename as the slug and doesn't require each page to be in a subfolder. I prefer Kirby's approach, but if you want that system you could look at the other options.
+
+One reason I prefer Kirby's approach is that it's easier to add media because you can include it in the folder with the appropriate page and easily link to it and manage it.

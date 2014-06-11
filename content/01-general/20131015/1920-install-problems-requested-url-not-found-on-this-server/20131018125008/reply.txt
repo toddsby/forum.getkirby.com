@@ -1,0 +1,7 @@
+User: studioshitless
+----
+Date: 2013-10-18 12:50:08
+----
+Text: I used the kirby .htaccess as it is. It breaks the kirby install.
+
+'The webpage at http://studioshitless.com/kirby/error has resulted in too many redirects'

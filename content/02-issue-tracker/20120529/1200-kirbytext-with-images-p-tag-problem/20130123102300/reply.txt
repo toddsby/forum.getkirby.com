@@ -1,0 +1,9 @@
+User: ndrsn
+----
+Date: 2013-01-23 10:23:00
+----
+Text: I'm sorry if I bring this old one up again.
+
+I'm using the latest (as of January 21st) dev branches of Kirby and Panel and still have the problem of images being wrapped in paragraphs.
+
+I've tried the changes myself suggested by @jolantis but to no avail.

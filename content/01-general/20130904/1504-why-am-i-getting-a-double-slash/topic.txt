@@ -1,0 +1,11 @@
+Title: Why am I getting a double slash?
+----
+Date: 2013-09-04 15:04:48
+----
+Solved: 0
+----
+User: aqeelfikree
+----
+Text: I'm getting a double slash in the url when I choose any tag. The link works but why a double slash?
+
+Click any tag on (link: http://aqeelfikree.com text: my site) and see the url in the address bar.

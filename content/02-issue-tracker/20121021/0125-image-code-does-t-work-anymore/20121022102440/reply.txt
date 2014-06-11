@@ -1,0 +1,15 @@
+User: bastianallgeier
+----
+Date: 2012-10-22 10:24:40
+----
+Text: @cyclera could you try the following: 
+
+1. go to site/config/config.php and set:
+
+```php
+c::set('debug', true);
+```
+
+2. open the site again where the code disappears after that image stuff and check the source code of the site for php errors. 
+
+3. please paste that error here.

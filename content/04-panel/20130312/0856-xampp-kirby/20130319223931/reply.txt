@@ -1,0 +1,16 @@
+User: Crssp
+----
+Date: 2013-03-19 22:39:31
+----
+Text: For anyone else trying Xampp... Sascha Lack got it right here:
+http://sashtown.de/how-to-install-kirby-on-xampp/
+
+It's now much easier, just go to the .htaccess file right around line #19 and change your rewrite base, this is the only change required.
+
+Such as this one, mine is in a root folder called getkirby in my Xampp htdocs folder, giving me this: (hint the ### lines are commented out lines, so look for the line that does not have the #'s :)
+
+RewriteBase /getkirby 
+
+If the site were installed in the root of htdocs you would not need to make any changes as the root slash was already there on that line.
+
+Easy... peasy...

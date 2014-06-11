@@ -1,0 +1,15 @@
+Title: Thumb Allowed Memory Exhausted
+----
+Date: 2013-05-31 03:18:55
+----
+Solved: 1
+----
+User: swenflea
+----
+Text: Fatal error: Allowed memory size of 33554432 bytes exhausted (tried to allocate 9508401 bytes) in /Users/arger/Sites/projects/rwgerg/site/plugins/thumb.php on line 259
+
+I'm getting the error above when trying to use the thumb plugin... Anything I'm doing wrong?
+
+Note: The image I'm trying to thumbnail is only 213kb
+
+Thanks

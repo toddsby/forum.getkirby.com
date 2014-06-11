@@ -1,0 +1,8 @@
+User: hey_steffen
+----
+Date: 2012-09-03 15:15:16
+----
+Text: Edit 'Timezone setup'; you can find it at:
+```
+site/config/config.php
+```

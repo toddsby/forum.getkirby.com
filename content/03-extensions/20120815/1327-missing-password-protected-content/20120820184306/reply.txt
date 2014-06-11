@@ -1,0 +1,7 @@
+User: hnrch02
+----
+Date: 2012-08-20 18:43:06
+----
+Text: @bastianallgeier
+
+I tried this plugin today and everything seems to work except for one thing. When I use go(), if the access to one page is denied, it says that kirby cannot modify the header because kirbysec has already set them. I searched the kirbysec file for something that would modify the header but I didn't find anything. I know that this is an unofficial (and pretty old) plugin but could you still look into it? I'd love to use it.

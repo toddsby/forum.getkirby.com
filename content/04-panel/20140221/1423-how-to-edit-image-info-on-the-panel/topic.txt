@@ -1,0 +1,16 @@
+Title: How to edit image info on the panel
+----
+Date: 2014-02-21 14:23:31
+----
+Solved: 0
+----
+User: lucamattiuzzo
+----
+Text: Hi everybody!
+
+As here: (link: http://getkirby.com/docs/variables/media)
+I try to add image info to my images, it works, but I don't know how to edit image info in my Panel.
+
+Any ideas?
+Thanks,
+Luca

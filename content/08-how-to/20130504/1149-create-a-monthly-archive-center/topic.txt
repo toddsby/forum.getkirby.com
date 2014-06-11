@@ -1,0 +1,73 @@
+Title: Create a monthly archive center
+----
+Date: 2013-05-04 11:49:28
+----
+Solved: 0
+----
+User: jallart
+----
+Text: Being highly motivated in the beginning of May, I took out my little Textmate and I threw myself into the code of a page meets my needs: View all the articles of my blog as a monthly archive.
+
+Here is the source code for my archives.php
+
+    <?php snippet('header') ?>
+     
+    <?php echo html($page->title());  ?>
+     
+    <?php
+            $articles = $pages->find('articles')
+                              ->children()
+                              ->visible()
+                              ->flip();
+            $i=1;?>
+           
+     
+    <?php foreach ($articles as $article):
+            $month_next = ($article->date('m'));
+            $year_next = ($article->date('Y'));
+           
+            if($i == 1):
+                $month_base = ($article->date('m'));
+                $year_base = ($article->date('Y'));
+                echo $article->date('Y') ;
+                echo $article->date('F Y') ?>
+                <ul>
+                <li><?php echo $article->date('d/m/Y') ?> - <a href="<?php echo $article->url() ?>"><?php echo $article->title() ?></a> </li>
+                <?php $i++;
+                                   
+            elseif ($month_next == $month_base && $year_next == $year_base ): ?>
+                <li><?php echo $article->date('d/m/Y') ?> - <a href="<?php echo $article->url() ?>"><?php echo $article->title() ?></a> </li>      
+                    <?php $i++;
+     
+            elseif ($month_next != $month_base && $year_next == $year_base):  ?>
+                </ul>
+                <?php $month_base = $month_next;
+                      $year_base = $year_next;
+                echo $article->date('F Y'); ?>
+                <ul>
+                <li><?php echo $article->date('d/m/Y') ?> - <a href="<?php echo $article->url() ?>"><?php echo $article->title() ?></a> </li>      
+                <?php $i++;
+                           
+            elseif ($month_next != $month_base && $year_next != $year_base):  ?>
+                </ul>
+                <?php $month_base = $month_next;
+                      $year_base = $year_next;
+                echo $article->date('Y');
+                echo $article->date('F Y'); ?>
+                <ul>
+                <li><?php echo $article->date('d/m/Y') ?> - <a href="<?php echo $article->url() ?>"><?php echo $article->title() ?></a> </li>      
+                <?php $i++;                                
+            endif;         
+       endforeach ;                
+    ?>     
+    </ul>
+     
+    <?php snippet('footer') ?>
+
+Here is a commented version of this source code : [Click here to download the TXT](http://pastebin.com/download.php?i=tNM00iXp)
+
+And here is the result of this archives.php : [CLick here](http://www.julienallart.me/archives).
+
+Hope it will help some of us. ;-)
+
+Julien

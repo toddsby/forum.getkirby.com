@@ -1,0 +1,17 @@
+User: tysongach
+----
+Date: 2012-12-30 15:48:06
+----
+Text: Yep, `hasImages()` just *checks* for images. It doesn't output any data pertaining to the images it finds or doesn't find.
+
+A good example of this in use is an (link: https://github.com/bastianallgeier/kirbycms-extensions/tree/master/snippets/gallery text: image gallery). It checks if there *are* images and if so, loop through each of them to display:
+
+    <?php if($page->hasImages()): ?>
+    <ul class="gallery">
+      <?php foreach($page->images() as $image): ?>
+      <li>
+        <a href="<?php echo $image->url() ?>"><img src="<?php echo $image->url() ?>" width="<?php echo $image->width() ?>" height="<?php echo $image->height() ?>" alt="<?php echo $image->name() ?>" /></a>
+      </li>
+      <?php endforeach ?>
+    </ul>
+    <?php endif ?>

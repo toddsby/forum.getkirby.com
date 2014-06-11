@@ -1,0 +1,9 @@
+User: fitzage
+----
+Date: 2013-05-30 19:26:32
+----
+Text: By "user" do you mean website visitor, or do you mean content editor?
+
+If you mean content editor, then you can easily do this with a custom field. If you use the control panel, you can set it as a checkbox field which uses the values On and Off. Then you can pull items first that have a value of "on" and then other values otherwise. If you only want one sticky post, you could limit what you pull for that to a single item.
+
+If you're talking website visitor, it seems that would be more of a javascript issue. You could probably do something like that, but I'm not entirely sure how.

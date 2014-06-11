@@ -1,0 +1,14 @@
+User: markusgiesen
+----
+Date: 2013-05-16 03:16:22
+----
+Text: This seems to create a tagcloud with only the first page in my page tree found and all others are ignored. Example:
+- page 1 (no tags)
+-- page 1.1 (tags:test, hello, world)
+-- page 1.2 (tags:why, who, what)
+- page 2 (tags: bastian, all, cms)
+
+The result my cloud is showing is test, hello, world.
+I have tried removing the limit setting in the array and also tried seeting it to something like 300.
+
+The other issue that I have is that the URLs the tagcloud is producing doesn't seem to lead anywhere, when I click it, I can't see any filtered results.

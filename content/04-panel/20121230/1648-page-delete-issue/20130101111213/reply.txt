@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-01-01 11:12:13
+----
+Text: It initially looked liked rights (maybe .htaccess or server), but maybe it is a difference between PHP versions and the way they run e.g. CGI?

@@ -1,0 +1,9 @@
+Title: Popup Layer does not work any more
+----
+Date: 2013-11-05 10:04:37
+----
+Solved: 0
+----
+User: eduard_war
+----
+Text: Layer for create oder delete just pop up under the content area. (Safari 7 Maverick)

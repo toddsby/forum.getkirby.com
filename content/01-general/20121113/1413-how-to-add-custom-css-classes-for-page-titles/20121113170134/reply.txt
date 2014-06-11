@@ -1,0 +1,19 @@
+User: fitzage
+----
+Date: 2012-11-13 17:01:34
+----
+Text: I would do exactly what @russbaldwin says. Basically you create the class in the same way you create the text of the menu, you just probably want to pull uid instead of title so you get a lowercase, URL escaped version.
+
+If you want to retain the existing active class from the default menu snippet, you'll have to make this a little more complicated.
+
+Starting with Russ's code:
+
+    <nav id="menu" role="navigation">
+        <ul>
+        <?php foreach($pages->visible() AS $p): ?>
+        <li><a href="<?php echo $p->url() ?>" class="<?php echo $p->uid() ?><?php echo ($p->isOpen()) ? ' active' : '' ?>"><?php echo html($p->title()) ?></a></li>
+        <?php endforeach ?>
+        </ul>
+    </nav>
+
+I basically added `<?php echo ($p->isOpen()) ? ' active' : '' ?>` inside the class declaration from the code above. So what this will do is 1) add a class to each menu item equal to the uid for that item and 2) if that is the active page, add an additional class of "active".

@@ -1,0 +1,10 @@
+User: fitzage
+----
+Date: 2013-12-16 23:53:53
+----
+Text: Your header template could always look for a file in the content folder that ends in .css. Assuming Kirby doesn't somehow block css files, that should work just fine. No need to hack Kirby. If you can trust them to name the CSS file the same thing every time, even easier.
+
+    <?php $css = $page->files()->find('whatever.css') ?>
+    <?php if ($css): ?>
+        <?php echo css($css->url()) ?>
+    <?php endif ?>

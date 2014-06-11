@@ -1,0 +1,5 @@
+User: simonscheiber
+----
+Date: 2012-07-02 10:59:46
+----
+Text: Ha, that's indeed pretty easy. I also added the (link:https://gist.github.com/3047130 text:ignore sub-directories) code you mentioned on the search page. Thank you very much for your help!

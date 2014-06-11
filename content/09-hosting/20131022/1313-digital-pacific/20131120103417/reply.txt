@@ -1,0 +1,10 @@
+User: russbaldwin
+----
+Date: 2013-11-20 10:34:17
+----
+Text: I can't really see a reason why it should not run. You do have the stable version not the alpha/beta?
+
+Can you post .htaccess and config.php, removing any sensitive bits.
+Also some idea of your folder layout from root can help.
+
+I also can't see your PHP info, indeed you seem to have some sort of site running?

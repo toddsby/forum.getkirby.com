@@ -1,0 +1,64 @@
+Title: Markdown footnotes invalid in HTML5
+----
+Date: 2013-05-02 08:52:00
+----
+Solved: 0
+----
+User: russbaldwin
+----
+Text: Markdown footnotes invalid in HTML5
+
+Not sure whether this is todo with using an older markdown processor library? But Markdown footnotes produce invalid code in HTML5. anyone know of a fix?
+
+###Example code produced:
+
++ ***In your page***
+
+```html
+<p>sometext
+<sup id="fnref:1">
+<a href="#fn:1" rel="footnote">1</a>
+</sup>
+</p>
+```
+
++ ***In your footer***
+```html
+<li id="fn:1">
+  <p>
+    <a href="xxxx">Some Text</a>, Some more text &#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+  </p>
+</li>
+```
+
+###Validator Errors
+
++ *This one is not so much a problem…*
+
+**Bad value footnote for attribute rel on element a: The string footnote is not a registered keyword or absolute URL.**
+
+```html
+fnref:1">
+<a href="#fn:1" rel="footnote">1</a>
+</sup>, blah blah
+```	
+
++ *But this one is perhaps more serious…*
+
+**The rev attribute on the a element is obsolete. Use the rel attribute instead, with a term having the opposite meaning.**
+
+```html
+<a href="xxxx">Some Text</a>, 
+Some more text &#160;
+<a href="#fnref:1" rev="footnote">&#8617;</a>
+```
+
++ *And this one… more of the same*
+
+**RDFa Core attribute rev is not allowed in HTML5 + RDFa 1.1 Lite documents. Consider checking against the HTML5 + RDFa 1.1 schema instead.**
+
+```html
+<a href="xxxx">Some Text</a>, 
+Some more text &#160;
+<a href="#fnref:1" rev="footnote">&#8617;</a>
+```

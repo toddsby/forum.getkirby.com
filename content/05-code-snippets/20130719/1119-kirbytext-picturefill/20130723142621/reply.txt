@@ -1,0 +1,55 @@
+User: bytte
+----
+Date: 2013-07-23 14:26:21
+----
+Text: Updated the kirbytext extension to make it a bit more useful in situations where you don't want a class attribute. Or where you'd just want 1 or 2 versions of your image:
+
+    <?php 
+
+    class kirbytextExtended extends kirbytext {
+  
+      function __construct($text, $markdown=true) {
+    
+        parent::__construct($text, $markdown);
+
+        // define custom tags
+        $this->addTags('picturefill');
+    
+        // define custom attributes
+        $this->addAttributes('medium');    
+        $this->addAttributes('large');  
+        $this->addAttributes('extralarge');       
+      }  
+
+  
+  
+      // define a function for each new tag you specify  
+  
+      function picturefill($params) {
+        $urlMedium = "";
+        $urlLarge = "";
+        $urlExtralarge = "";
+        $class = "";
+        $alt = "";
+
+        $urlSmall = $this->url($params['picturefill'], $lang = false, $metadata = false);
+        if (!empty($params['medium'])) { $urlMedium = $this->url($params['medium'], $lang = false, $metadata = false); } 
+        if (!empty($params['large'])) { $urlLarge = $this->url($params['large'], $lang = false, $metadata = false); }
+        if (!empty($params['extralarge'])) { $urlExtralarge = $this->url($params['extralarge'], $lang = false, $metadata = false); }
+        if (!empty($params['class'])) { $class = $params['class']; }
+        if (!empty($params['alt'])) { $alt = $params['alt']; }
+
+        $return = '<span data-picture data-alt="' . $alt . '" class="' . $class . '"><span data-src="' . $urlSmall . '"></span>';
+        if ($urlMedium !== "") { $return .= '<span data-src="' . $urlMedium . '"     data-media="(min-width: 400px)"></span>'; }
+        if ($urlLarge !== "") { $return .= '<span data-src="' . $urlLarge . '"     data-media="(min-width: 800px)"></span>'; }
+        if ($urlExtralarge !== "") { $return .= '<span data-src="' . $urlExtralarge . '"     data-media="(min-width: 1000px)"></span>'; }
+        $return .= '<noscript><img src="' . $urlSmall . '" alt="' . $alt . '"></noscript></span>';
+
+        return $return;
+  
+      }
+    }
+
+    ?>
+
+Again, this can probably be written with much less code. Feel free to adapt and share!

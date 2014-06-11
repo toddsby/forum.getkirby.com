@@ -1,0 +1,7 @@
+User: AlexK
+----
+Date: 2012-12-06 10:24:30
+----
+Text: I have read it in the past, but have forgotten about it. Thanks for the reminder. I think that might have pointed me in the right direction. I still need to ponder this a bit since we are talking about someone with the genetic disposition to break things very quickly, so I need to make it as foolproof as possible. Editing text files by hand is not the way. Too many formatting mistakes that are waiting to happen. :)
+
+But I think I can make this work via the Panel.

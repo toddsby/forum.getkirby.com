@@ -1,0 +1,6 @@
+User: CinKon
+----
+Date: 2013-02-10 12:33:22
+----
+Text: I've got to say, that I'm not happy with these solutions at all :(
+Yeah, they work in pretty fixed or static projects, but not on more flexible ones, when there are 2 or more navigations, on which no one knows, how many items they might get. Mr. Allgeier has 2 separate Navigations as well on this page here, so he already has a solution; maybe a better one?! :)

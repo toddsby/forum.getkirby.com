@@ -1,0 +1,11 @@
+User: Lare2
+----
+Date: 2013-10-23 02:32:31
+----
+Text: That one produces the desired result. Is there a way to not have the **event-one** hard-coded in
+
+    $page = $pages->find('event-one');
+
+So I can make use of the same template for **event-two** and **event-three** which follows the same directory structure.
+
+The logic I imagine in my head is to tell the template to list all the visible children pages starting from two levels up. Don't know if that makes any sense at all, but if not possible, I can also create one template for event.

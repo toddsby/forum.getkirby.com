@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-04-26 09:15:11
+----
+Text: If it is only in one page not sure why it need to be relative, do you mean template? Anyway for page content you can use [KirbyText](http://getkirby.com/blog/text-formatting-101) for relative images, Markdown seems to need a full path, a Kirby CMS quick as Markdown can handle relative URL's.

@@ -1,0 +1,44 @@
+User: cedwardsmedia
+----
+Date: 2013-04-07 04:27:36
+----
+Text: Pardon the lousy indentation. Still working on getting everything working just right, which has meant copying and pasting and cutting and moving code like crazy. Once everything is working right, I'll re-indent all the files. :P
+
+    <?php 
+    $search = new search(array(
+    'searchfield' => 'q',
+    'ignore'      => array('search', 'error'),
+    'words'       => true,
+    'paginate'    => 10
+    ));
+    
+    $results = $search->results();
+    php snippet('header')
+    ?>
+    <!-- Begin page content -->
+    <form action="<?php echo thisURL() ?>">
+    <input type="text" placeholder="Type in your searchword…" name="q" value="<?php echo html($search->query()) ?>" />
+    <input type="submit" value="Search" />
+    </form>
+    
+    <?php if($results): ?>
+    
+    <?php snippet('pagination', array('pagination' => $results->pagination())) ?>
+    
+    <ul>
+    <?php foreach($results as $row): ?>
+    <li>
+    <strong><a href="<?php echo $row->url() ?>"><?php echo html($row->title()) ?></a></strong>
+    <a href="<?php echo $row->url() ?>"><?php echo html($row->url()) ?></a>
+    </li>
+    <?php endforeach ?>
+    </ul>
+    
+    <?php snippet('pagination', array('pagination' => $results->pagination())) ?>
+    
+    <?php elseif($search->query()): ?>
+    <div class="no-results">No results for <strong><?php echo html($search->query()) ?></strong></div>
+    <?php endif ?>
+    </div>
+    <?php snippet('sidebar') ?>
+    <?php snippet('footer') ?>

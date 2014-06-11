@@ -1,0 +1,10 @@
+Title: Implement MetaWeblog / RFC API Or Other To Allow Blogging With Marsedit
+----
+Date: 2012-09-06 11:14:30
+----
+Solved: 0
+----
+User: hellokahlil
+----
+Text: Wouldn't that be worth it looking into?
+An API like that would also mean that developers could implement own clients or webclients or Bookmarklets to talk to Kirby.

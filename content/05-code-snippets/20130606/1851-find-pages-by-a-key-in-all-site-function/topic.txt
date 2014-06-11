@@ -1,0 +1,76 @@
+Title: Find pages by a key in all site function
+----
+Date: 2013-06-06 18:51:39
+----
+Solved: 1
+----
+User: fenixkim
+----
+Text: Hello, 
+
+I had the need to recursively search a group of pages throughout the site and did not find an easy way to do it with the native API KirbyCMS, then, I made the following function `findPagesByKey` allowing me to do so.
+
+	/**
+	 * Returns set of pages by a key from a started point
+	 *
+	 * @param 	Pages	$set The started point. Use $pages->visible() to search in all site
+	 * @param 	string	$key The key
+	 * @param 	string 	$term The term of search
+	 * @param 	object	$result Where the results will be saved
+	 * @param 	bool	$createInstance Specifies if a new Pages instance must be returned
+	 * @returns Pages	A set of pages/object
+	 */
+	function findPagesByKey(Pages $set, $key, $term, &$result = null, $createInstance = true) {
+		
+		foreach($set as $p) {
+			
+			if ($p->visible() && call_user_func(array($p, $key)) == $term) {
+				
+				$result[$p->uri()] = $p;
+			}
+			
+			$children = $p->children()->visible();
+
+			if ($children->count() > 0) {
+				findPagesByKey($children, $key, $term, $result, false);
+			}
+		}
+		
+		if ($createInstance && !is_null($result)) {
+			return new Pages($result);
+		} else if (!is_null($result)) {
+			return $result;
+		}
+		
+		return null;
+	}
+
+**I.e**:
+
+Search all visible pages in the site which have a template called bundle
+
+	$thePages = findPagesByKey($pages->visible(), 'template',  'bundle', $thePages); 
+
+Search all visible pages in the site which have a template called bundle and apply a fiter by tags
+	
+	$thePages = findPagesByKey($pages->visible(), 'template',  'bundle', $thePages)->filterBy('tags', 'Mac', ',');
+
+Search all visible pages in products which are free
+
+	$thePages = findPagesByKey($pages->find('products')->visible(), 'free',  'true', $thePages);
+
+You need to validate if the result is null:
+
+	if (is_null($thePages)) {
+		exit('No pages found');
+	}
+	
+Print all titles of found pages
+
+	foreach ($thePages as $p) {
+		echo $p->title();
+	}
+
+This is just a starting point, I do not know if this is the best in terms of performance and memory. If anyone can provide an improvement will be welcome.
+
+Thanks

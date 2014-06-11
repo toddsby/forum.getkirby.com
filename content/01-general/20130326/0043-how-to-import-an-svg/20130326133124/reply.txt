@@ -1,0 +1,15 @@
+User: russbaldwin
+----
+Date: 2013-03-26 13:31:24
+----
+Text: Not sure what you want?
+
+1. Are you wanting to link to an svg image file in your Kirby text 
+
+2. You have an svg image in your folders and want to find the first or a specific svg image in that folder?
+
+3. You have a lot of folders, each with an svg image and you want to loop through then and find all or specific svg images?
+
+4. You are trying to link to and svg font in your template.
+
+5. None of these

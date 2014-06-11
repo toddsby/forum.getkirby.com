@@ -1,0 +1,16 @@
+Title: Sublime Text 2 Auto-completion
+----
+Date: 2013-03-02 12:44:14
+----
+Solved: 0
+----
+User: plartz
+----
+Text: Hey guys,
+
+I just upload a simple file which contains all the Kirby methods from the Cheat Sheet on Github. Maybe you're interested... there are some things missing to call it a real "package" or "plugin", but maybe you want to help me adding some of these? And there's one big issue, but just read the readme, and make sure to copy the file to your packages :')
+
+<https://github.com/jakobploens/Kirby-CMS-Auto-completion-for-Sublime-Text-2>
+
+Cheers,
+Jakob

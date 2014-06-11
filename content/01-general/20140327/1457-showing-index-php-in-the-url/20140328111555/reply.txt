@@ -1,0 +1,9 @@
+User: russbaldwin
+----
+Date: 2014-03-28 11:15:55
+----
+Text: Looks OK, some thoughts...
+
++ I usually have my install in a folder off the root and the .htaccess in that? Maybe worth a go.
++ It's a Mac, so mod_rewrite should be cool but maybe worth checking?
++ If not these, maybe worth just listing your folder structure?

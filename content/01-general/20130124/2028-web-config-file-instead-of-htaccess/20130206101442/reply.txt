@@ -1,0 +1,45 @@
+User: theoriginalivor
+----
+Date: 2013-02-06 10:14:42
+----
+Text: I think the it might be because its not recognising the fact that you are serving a php file.
+
+try the below...
+
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <system.webServer>
+        <directoryBrowse enabled="false" />
+        <defaultDocument>
+            <files>
+                <clear />
+                <add value="index.php" />
+                <add value="index.asp" />
+                <add value="index.html" />
+                <add value="Default.htm" />
+                <add value="Default.asp" />
+                <add value="index.htm" />
+                <add value="iisstart.htm" />
+            </files>
+        </defaultDocument>
+        <rewrite>
+            <rules>
+                <rule name="RuleRemoveIndex" stopProcessing="true">
+                    <match url="^(.*)$" ignoreCase="false" />
+                    <conditions>
+                        <add input="{REQUEST_FILENAME}" matchType="IsFile" ignoreCase="false" negate="true" />
+                        <add input="{REQUEST_FILENAME}" matchType="IsDirectory" ignoreCase="false" negate="true" />
+                    </conditions>
+                    <action type="Rewrite" url="index.php/{R:1}" appendQueryString="true"/>
+                </rule>
+            </rules>
+        </rewrite>
+    </system.webServer>
+</configuration>
+
+
+
+If the above doesn't work, I'd suggest trying to contact your host to make sure there isn't something else wrong. Other than the above I'm not sure what else to do. Sorry Dude.
+
+note: the editor seems to not like the the code so here is a link
+https://dl.dropbox.com/u/1285606/web.config

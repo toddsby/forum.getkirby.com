@@ -1,0 +1,15 @@
+User: russbaldwin
+----
+Date: 2013-02-23 09:15:45
+----
+Text: Thanks @StartidiMotori, I did forget to mention the other change was to the calling code for pages. So for pages we added a pre-sort by adding 
+```php 
+->sortby('title') 
+``` 
+to the array e.g.
+
+```php
+<?php $alphabetise = alphabetise($page->children()->visible()->sortby('title'), array('key' => 'title')); 
+```
+
+The tag example already has sorting in the calling so there was no need to change that.

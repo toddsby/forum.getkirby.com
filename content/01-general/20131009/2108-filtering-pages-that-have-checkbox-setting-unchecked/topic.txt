@@ -1,0 +1,67 @@
+Title: Filtering pages that have checkbox setting unchecked
+----
+Date: 2013-10-09 21:08:05
+----
+Solved: 0
+----
+User: meltajon
+----
+Text: I'm trying to do a slight tweak of Kirby's Sitemap script (http://getkirby.com/blog/xmlsitemap).
+
+I've created a checkbox setting called: "noindex" for Search Engines. This is what I have in my blueprint:
+
+    meta_robots_noindex: 
+       label: "noindex" on Search Engines
+       type: checkbox
+
+By default, it is unchecked, which means the page will be indexable by spiders.
+
+How do I get this sitemap script to ignore all pages have this checkbox checked? (Or, inversely, how do I get this sitemap to only output pages that do NOT have this checkbox checked?)
+
+My PHP experience with arrays is very low, and I've tried several different things. This is what I came up with on my last attempt:
+
+     <?php 
+     header('Content-type: text/xml; charset="utf-8"');
+     
+     echo '<?xml version="1.0" encoding="utf-8"?>';
+     
+     $ignore = array('sitemap', 'error', array($pages->filterBy('meta_robots_noindex','on')->uri() ));
+     ?>
+     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+     <?php foreach($pages->index() as $p): ?>
+     	<?php if(in_array($p->uri(), $ignore)) continue ?>
+     	<url>
+     		<loc><?php echo html($p->url()) ?></loc>
+     		<lastmod><?php echo $p->modified('c') ?></lastmod>
+     		<priority><?php echo ($p->isHomePage()) ? 1 : number_format(0.5/$p->depth(), 1) ?></priority>
+     		<debug><?php if($p->meta_robots_noindex() == '') { echo "public"; } else { echo "noindex"; } ?></debug>
+     	</url>
+     <?php endforeach ?>  
+     </urlset>
+
+Unfortunately, this script outputs ALL Kirby pages instead of just the ones that are supposed to be public.
+
+This is another attempt I tried:
+
+    <?php 
+    header('Content-type: text/xml; charset="utf-8"');
+    
+    echo '<?xml version="1.0" encoding="utf-8"?>';
+    
+    $ignore = array('sitemap', 'error');
+    ?>
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <?php foreach($pages->filterBy('meta_robots_noindex',null)->index() as $p): ?>
+    	<?php if(in_array($p->uri(), $ignore)) continue ?>
+    	<url>
+    		<loc><?php echo html($p->url()) ?></loc>
+    		<lastmod><?php echo $p->modified('c') ?></lastmod>
+    		<priority><?php echo ($p->isHomePage()) ? 1 : number_format(0.5/$p->depth(), 1) ?></priority>
+    		<debug><?php if($p->meta_robots_noindex() == '') { echo "public"; } else { echo "noindex"; } ?></debug>
+    	</url>
+    <?php endforeach ?>  
+    </urlset>
+
+This only outputs a single Kirby page. One that does not have the meta_robots_noindex field.
+
+Any ideas?

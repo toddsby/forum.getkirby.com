@@ -1,0 +1,11 @@
+User: GeoffForster
+----
+Date: 2013-02-16 13:30:45
+----
+Text: Thanks for the speedy reply.
+
+I have this working now.
+It seems I can't make these additions in the panel.
+I have to edit the actual .txt file.
+
+Not great for workflow.

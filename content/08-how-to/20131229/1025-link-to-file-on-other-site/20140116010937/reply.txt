@@ -1,0 +1,7 @@
+User: JerikoOne
+----
+Date: 2014-01-16 01:09:37
+----
+Text: $fileURL = $pages->find('pagename/subpage')->files()->find('companysecrets.pdf')->url();
+
+Should give you the URL in $fileURL, which you can echo in an a-tag then.

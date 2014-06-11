@@ -1,0 +1,5 @@
+User: walkerbox
+----
+Date: 2014-03-19 10:15:58
+----
+Text: Actually, logging that sort of information in a database wouldn't be particularly complicated. Google analytics will generally give you better quality information, though, as it will also tell you a rough idea of user behaviour - where they are, what systems / browsers they use, how long they spend on the site, how they got to you, etc. Definitely worth looking into.

@@ -1,0 +1,36 @@
+User: russbaldwin
+----
+Date: 2013-07-12 09:06:36
+----
+Text: Sorry I was giving a simplified example, `$page->tags()` in this case is my array. `myCategoryURL` is of course either category or tags maybe, depending what you are doing in the URL e.g
+`http://website.dev/myCategoryURL:category`
+
+```php
+<ul>
+<?php  foreach(str::split($page->tags(),',') as $category): ?>
+  <li>
+    <a href="<?php echo url('myCategoryURL:' . urlencode($category))?>">
+      <?php echo $category ?>
+    </a>
+  </li>
+<?php endforeach ?>
+</ul>
+```
+
+Which will give you a list
+```html
+<ul>
+  <li>
+    <a href="http://website.dev/myCategoryURL:category1">
+      category1
+    </a>
+  </li>
+  <li>
+    <a href="http://website.dev/myCategoryURL:category2">
+      category2
+    </a>
+  </li>
+</ul>
+```
+Hope this helps
+[Gist -- Comma separated linked tags list code](https://gist.github.com/shoesforindustry/5982545)

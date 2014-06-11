@@ -1,0 +1,16 @@
+User: _PMurphy
+----
+Date: 2013-06-24 18:53:22
+----
+Text: I'm sorry, I don't know how to be clearer than I have been.  I've followed Kirby's docs instructions and it all works, except for when I put a .jpg into a content folder.  
+
+Not sure what you mean by what code I'm using.  I'm using the free trial Kirby files that come from the Kirby downloads section. Where it says "free trial on Github".  Then I've done the instructions from the "Docs" section to run it from a subfolder on my ftp.
+
+Here are screenshots of the folder structure on my ftp and how my config.php file looks...
+
+http://pmurphy.org/other/ss1.png
+http://pmurphy.org/other/ss2.png
+
+I don't know what else I can show or tell you.
+
+Has anyone else had this problem?

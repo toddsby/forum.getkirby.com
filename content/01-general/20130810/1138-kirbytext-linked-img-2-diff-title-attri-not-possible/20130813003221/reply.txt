@@ -1,0 +1,7 @@
+User: azharc
+----
+Date: 2013-08-13 00:32:21
+----
+Text: This would be very easy if you were using Kirby's file handling to generate your HTML rather than using a field that's parsed with Kirbytext. 
+
+You would upload the images you need, and then add a (link: http://getkirby.com/docs/panel/blueprints/file-fields text: filefield) for each caption. Then in your image tag, call each filefield in the appropriate position.

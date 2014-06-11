@@ -1,0 +1,49 @@
+Title: Filter by tag creates error
+----
+Date: 2013-04-18 12:36:42
+----
+Solved: 1
+----
+User: tinybigstudio
+----
+Text: Hi, 
+I have searched the forum but can´t find a solution for my problem.
+
+I´m triying an easy tag filtering for a blog using this:
+
+
+	<?php if(param('topic')) {
+
+	$notes = $pages->find('notes')
+	                    ->children()
+	                    ->visible()
+	                    ->filterBy('topics', param('topic'), ',')
+	                    ->flip()
+	                    ->paginate(12);
+
+	} else {
+
+	$notes = $pages->find('notes')
+	                    ->children()
+	                    ->visible()
+	                    ->flip()
+	                    ->paginate(12);
+
+	}
+	?>
+
+
+
+In each post I created the "topics:" field.
+
+The URL is correct: http:.../notes/topic:fire
+
+And this is the error I get: 
+
+Fatal error: Call to a member function isErrorPage() on a non-object in C:xxxxkirbylibsite.php on line 97
+
+I´m developing locally using WAMP.
+
+Seems something URL related but I have no clue, any ideas?
+
+thanks

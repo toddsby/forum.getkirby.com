@@ -1,0 +1,9 @@
+User: russbaldwin
+----
+Date: 2012-10-29 09:05:36
+----
+Text: It is an interesting question, but it does seem to move away from the simplicity of Kirby unless it can be done with some sort of plugin, like the thumbs one. Maybe even just alter that?
+
+You can alter the path & URL for the thumbs in config, which would help and maybe set paths as a call or alter the paths for the actual images with some server re-writes? 
+
+My feeling is you are going to be getting some serious traffic to make this worthwhile? Otherwise nginx and some front end reverse proxy stuff is going to handle lots of traffic...

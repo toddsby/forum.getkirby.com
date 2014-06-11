@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2013-08-27 03:04:55
+----
+Text: Yes. Click the Sort button, then drag the page from visible to invisible. Works the other way too.

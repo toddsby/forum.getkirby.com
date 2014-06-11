@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-07-02 11:58:38
+----
+Text: The Advanced Custom Fields for WP's `get` I presume is syntactic sugar around some PHP. Problem is when you move to another platform the format is either not present or not the same. 
+
+PHP, on the other hand, is always PHP and anyway too much syntactic sugar can ruin your health ;-)

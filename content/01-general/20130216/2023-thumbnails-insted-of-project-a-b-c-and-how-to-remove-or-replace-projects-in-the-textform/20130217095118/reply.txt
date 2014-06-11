@@ -1,0 +1,6 @@
+User: russbaldwin
+----
+Date: 2013-02-17 09:51:18
+----
+Text: Yes, you seem to be extracting the project names rather than the images and labels from within the projects?
+[These links maybe of some help...](http://getkirby.com/blog/tag:images)

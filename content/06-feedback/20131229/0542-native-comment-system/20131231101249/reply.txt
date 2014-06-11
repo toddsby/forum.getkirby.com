@@ -1,0 +1,7 @@
+User: structor
+----
+Date: 2013-12-31 10:12:49
+----
+Text: Actually, the VladStudio script does have a clever antispam method, wich is an invisible checkbox (honey pot). 
+
+The downside of that script is that it is not a classic plugin.

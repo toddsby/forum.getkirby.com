@@ -1,0 +1,7 @@
+User: possible_books
+----
+Date: 2014-03-22 17:50:34
+----
+Text: Update:
+The site was running with php5.2 and safe mode, which caused the problem.
+i changed the setting to 5.4 and now it works.

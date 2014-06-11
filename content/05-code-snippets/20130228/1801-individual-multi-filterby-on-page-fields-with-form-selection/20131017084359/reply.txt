@@ -1,0 +1,7 @@
+User: russbaldwin
+----
+Date: 2013-10-17 08:43:59
+----
+Text: It really depends on how you have it set up. 
+I'd be tempted to keep an array in the customer record of the products ID's. That way you can just loop through your product pages looking for each ID from this array and list them? 
+You may have it setup some other way?

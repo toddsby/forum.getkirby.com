@@ -1,0 +1,13 @@
+User: bastianallgeier
+----
+Date: 2012-10-19 17:25:38
+----
+Text: @hey_steffen thanks for answering this! 
+
+There's also a built-in solution if you just need to fetch children of children: 
+
+```
+<?php foreach($page->children()->children() as $grandchild): ?>
+<!-- do something with the grandchildren -->
+<?php endforeach ?>
+```

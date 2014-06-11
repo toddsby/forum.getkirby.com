@@ -1,0 +1,11 @@
+Title: If someone else has done login to Panel
+----
+Date: 2013-02-05 17:23:48
+----
+Solved: 0
+----
+User: roman_oroco
+----
+Text: It's very useful to have a notice when you login to Panel that someone else has done login too. Maybe visualise user data from `site/panel/accounts/user.php` ex. name and email.
+
+Maybe some connection with (link: https://github.com/bastianallgeier/kirbycms-extensions/tree/master/fields/author text: Kirby Panel Author field).

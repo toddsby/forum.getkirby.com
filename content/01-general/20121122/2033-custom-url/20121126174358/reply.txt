@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-11-26 17:43:58
+----
+Text: The only way to achieve this is with URL rewriting since Kirby heavily relies on the folder structure.

@@ -1,0 +1,7 @@
+User: NathVallieres
+----
+Date: 2013-05-29 16:38:15
+----
+Text: That would not be programmer-friendly if you can't use place holders in language strings. I guess I'll have to use replace with place holders because printf doesn't work. A not-so-clean workaround.
+
+I hope the new version of Kirby's language localization will support printf!

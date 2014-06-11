@@ -1,0 +1,12 @@
+User: brtdesign
+----
+Date: 2012-06-25 12:52:26
+----
+Text: Thanks for the reply Bastian.
+I am sorry but, the code I put here on my last comment was retyped and I didn't pay enough atention to it.
+
+What I actually have is :
+
+$project = $pages->find('projects/'.get('id'));
+
+and it is getting all the info from the page. so this is actually working. its just not getting the images at all.

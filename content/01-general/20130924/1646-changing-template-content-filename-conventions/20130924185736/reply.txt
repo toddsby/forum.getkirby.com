@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2013-09-24 18:57:36
+----
+Text: The custom post types article mentioned above should help as long as you use snippets to minimize duplicate code. It doesn't fully solve your problem, but it's a similar idea. You'd end up with more templates required than with your idea, though.
+
+You could also just invest in a good text editor like Sublime Text 2 that has good fuzzy searching of folders within a project. Makes life easier.

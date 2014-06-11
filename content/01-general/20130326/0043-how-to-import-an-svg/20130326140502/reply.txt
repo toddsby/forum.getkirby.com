@@ -1,0 +1,5 @@
+User: bradwrage
+----
+Date: 2013-03-26 14:05:02
+----
+Text: Number 3, except each folder should only have one associated svg.  I want Kirby to find each svg for the folders and display it.

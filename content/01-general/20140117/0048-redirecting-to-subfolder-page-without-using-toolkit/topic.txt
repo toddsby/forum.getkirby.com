@@ -1,0 +1,13 @@
+Title: Redirecting to subfolder page without using toolkit?
+----
+Date: 2014-01-17 00:48:42
+----
+Solved: 0
+----
+User: mzhu11
+----
+Text: I have not figured out how to use kirby toolkit, so I would like to learn how to redirect from a page to a subfolder page without using "go();" helper but "header(location:)"
+
+Something like that, just go to internal subfolder pages.
+
+Any suggestions will be appreciated!

@@ -1,0 +1,13 @@
+User: DanielGenser
+----
+Date: 2012-06-20 18:27:24
+----
+Text: Thanks! I hadn't noticed the debugging tool. I found the problem – had an extra ')' on one of the PHP tags. Fixed now.
+
+Now that debugging is on, I noticed I'm getting this:
+
+    Warning: Invalid argument supplied for foreach() in /Users/daniel/Dropbox/www/linguistic_analysis/kirby/lib/variables.php on line 29
+
+I haven't modified this file at all. Is this a known inssue?
+
+Thanks!

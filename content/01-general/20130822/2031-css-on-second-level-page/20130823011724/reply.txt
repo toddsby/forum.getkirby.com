@@ -1,0 +1,11 @@
+User: fitzage
+----
+Date: 2013-08-23 01:17:24
+----
+Text: The other solution using your existing code without the Kirby helper method would be to just put a slash in front of the paths.
+
+So the lines you had before would be come this:
+
+    <link rel="stylesheet" href="/assets/styles/skel-noscript.css" />
+    <link rel="stylesheet" href="/assets/styles/style.css" />
+    <link rel="stylesheet" href="/assets/styles/style-desktop.css" />

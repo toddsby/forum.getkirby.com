@@ -1,0 +1,41 @@
+User: DevDataStream
+----
+Date: 2014-02-13 16:48:03
+----
+Text: My sidebar has content that's different for each product page.
+@fitzage... okay...... I found my stupidity in there thanks to you!!
+It's a little but important detail missing in the docs. kirbytext starts every accessor methos lowercase. But attributes in the text files in content/ can have lowercase or uppercase, it doesn't matter. There is no note of that anywhere.. 
+
+ 1. I wrongly used
+```php 
+    <?= kirbytext($page->Sidebar()) ?>
+``` instead of  
+```php 
+    <?= kirbytext($page->sidebar()) ?>
+```
+2. I have had
+```markdown 
+Text:
+----
+Column 1 text. Column 1 text. Column 1 text. Column 1 text. 
+Column 2 text. Column 2 text. Column 2 text. Column 2 text.
+
+Sidebar:
+----
+* News
+* Blog
+```
+but I should have used:
+```markdown 
+Text:
+Column 1 text. Column 1 text. Column 1 text. Column 1 text. 
+Column 2 text. Column 2 text. Column 2 text. Column 2 text.
+----
+
+Sidebar:
+* News
+* Blog
+----
+```
+
+Just changed that little and it worked.

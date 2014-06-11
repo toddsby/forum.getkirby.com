@@ -1,0 +1,12 @@
+Title: How to install? Kirby Troubleshooting: URL-Rewriting
+----
+Date: 2014-04-15 04:28:26
+----
+Solved: 1
+----
+User: lisaito1120
+----
+Text: I'm a very beginner. I just uploaded all files in kirbycms-master folder via FTP. The links from About, Project and Contact is not working. I saw Kirby Troubleshooting and seems I have to set up rewrite rules on my server? Please let me know how to do that. I'm using BlueHost. Should I add some code in .htaccess? 
+
+URL-Rewriting
+Can't detect url rewriting. You are probably not running Kirby on Apache. You might need to setup your own rewrite rules depending on your server setup.

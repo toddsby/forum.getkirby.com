@@ -1,0 +1,9 @@
+Title: Twitter plugin tweak
+----
+Date: 2012-05-30 21:01:33
+----
+Solved: 0
+----
+User: fitzage
+----
+Text: I'd like the option in the Tweets plugin to auto-link URLs in the tweets. Right now it's just displaying them on the page, which is kind of useless to me. I'd auto-link them myself, but I tried doing that in PHP using some instructions I found with no success, so I probably don't know what I'm doing.

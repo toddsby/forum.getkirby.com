@@ -1,0 +1,31 @@
+User: bastianallgeier
+----
+Date: 2012-07-13 11:51:28
+----
+Text: You could do two things: 
+
+### Plan A: 
+
+Don't put that in the title field, but add another field (headline or whatever) and put it there. Additionally add the title without the html tags. 
+
+You can then check in your templates if the headline field is there and if there's content in it and whenever you need you just take the content out of that instead of the title: 
+
+```php
+
+<?php if($page->headline() != ''): ?>
+<?php echo $page->headline() ?>
+<?php else: ?>
+<?php echo html($page->title()) ?>
+<?php endif ?>
+
+```
+
+### Plan B: 
+
+You could try to use strip_tags in your templates wherever you don't want to have those html tags: 
+
+```php
+<?php echo strip_tags($page->title()) ?>
+```
+
+But this does not necessarily deliver the best results.

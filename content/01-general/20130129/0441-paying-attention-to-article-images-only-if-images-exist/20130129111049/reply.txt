@@ -1,0 +1,17 @@
+User: russbaldwin
+----
+Date: 2013-01-29 11:10:49
+----
+Text: Something like...
+
+```php
+<?php if($page->hasImages()){
+    echo "Has Images";
+    //Your code
+  }else{
+    echo "No Images";
+   //Yourcode
+  }
+?>
+```
+PHP has pretty good help sites like [PHP If...Else Statements](http://www.w3schools.com/php/php_if_else.asp) and of course there is the [Kirby Docs and Cheat Sheet](http://getkirby.com/docs).

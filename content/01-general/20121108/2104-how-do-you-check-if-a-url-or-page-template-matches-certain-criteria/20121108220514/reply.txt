@@ -1,0 +1,13 @@
+User: fitzage
+----
+Date: 2012-11-08 22:05:14
+----
+Text: At a template level, you can just pull in the snippet normally in the individual templates. You don't need to check for anything, because it will only trigger when that template is used anyway.
+
+As far as page level, what you have there is probably sufficient, but you may be able to check against path segments if you don't want to be quite so restrictive. Like I have some things checking against the first or second URL segment so they apply to a certain subdirectory and any pages underneath. Or you could just check against the last segment if you're only likely to have a single page with that segment using that template.
+
+Actually, if you do want to use the whole path, you should probably compare the path instead of the url. That way you don't have to go change the domain name when you take it from dev to live.
+
+    <?php if ($site->uri()->path() == '/whatever/your/path/is') { echo snippet('snippet'); } ?>
+
+Not sure if it needs the leading / or not. You'll have to work that one out. You can also use $site->uri()->path()->first() or ->last(), or include an arbitrary number in the parentheses for path().

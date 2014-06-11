@@ -1,0 +1,24 @@
+Title: Filter parameters which contain spaces?
+----
+Date: 2013-02-13 20:24:41
+----
+Solved: 1
+----
+User: swissendo
+----
+Text: I'm trying to filter my articles by certain parameters/tags, using the following code:
+
+    <?php if(param('place')) {
+    $articles = $page->children()->visible()->filterBy('place', param('place'), ',')->flip()->paginate(12);
+    } else if(param('taken')) {
+    $articles = $page->children()->visible()->filterBy('taken', param('taken'), ',')->flip()->paginate(12);
+    } else if(param('iso')) {
+    $articles = $page->children()->visible()->filterBy('iso', param('iso'), ',')->flip()->paginate(12);
+    } else {
+    $articles = $page->children()->visible()->flip()->paginate(12);
+    }?>
+and:
+
+    <a href="<?php echo url() ?>photos/place;<?php echo $article->place(); ?>"><?php echo ($article->place()) ?></a>
+
+This works fine for parameters which don't have any spaces in them. Otherwise (ex. *Test Place*), no results are returned. Is there anything I can do to fix this? (I'm a total beginner with PHP, so I'm sorry if this is an obvious question.)

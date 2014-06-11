@@ -1,0 +1,19 @@
+Title: [Panel Field] Image Picker
+----
+Date: 2014-03-24 13:38:54
+----
+Solved: 0
+----
+User: wilhearts
+----
+Text: Hey everyone,
+
+Just released an Image Picker panel field on github.
+
+![screenshot](https://github.com/iandoe/kirbycms-panel-imagepicker-field/raw/master/screenshot.png)
+
+This is useful if you want your users to be able to pick a single image out to use for example as a "Featured Image"
+
+[Check it out here](https://github.com/iandoe/kirbycms-panel-imagepicker-field)
+
+Hope it will be of use to you.

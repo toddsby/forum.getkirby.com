@@ -1,0 +1,5 @@
+User: iamirm
+----
+Date: 2013-05-27 16:32:48
+----
+Text: @jonabaptistella Thanks for your suggestion. I agree that would be the best solution, but unfortunately I'm stuck to using 5.2 as the host doesn't yet support 5.3. I've asked them kindly to update the server but I'm afraid it will take a while...

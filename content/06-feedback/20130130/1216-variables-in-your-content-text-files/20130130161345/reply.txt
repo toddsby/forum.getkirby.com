@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-01-30 16:13:45
+----
+Text: As you say you can use templates, but you could maybe use a use plugin extending KirbyText?

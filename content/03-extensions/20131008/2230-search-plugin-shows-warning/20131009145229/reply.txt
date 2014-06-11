@@ -1,0 +1,9 @@
+User: texnixe
+----
+Date: 2013-10-09 14:52:29
+----
+Text: There's nothing wrong with your code, the problem seems to be with the fields-option in the search-array
+
+    fields=>array('title','text')
+
+that causes the error. I'd simply leave it out until a solution is found.

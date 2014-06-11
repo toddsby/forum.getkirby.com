@@ -1,0 +1,15 @@
+User: bastianallgeier
+----
+Date: 2012-06-02 16:11:40
+----
+Text: That's a problem with auto-line-breaks implemented in Kirbytext. In Markdown you normally have to add three spaces to the end of line to force a line-break. In Kirbytext this is been done automatically, but this also leads to those unwanted br tags in nested lists. 
+
+You can switch off the auto-line-break feature in your config: 
+
+```php
+<?php c::set('markdown.breaks', false); ?>
+```
+
+but this will also mean that you have to use the three spaces syntax afterwards. 
+
+I'm also trying to find a fix for this.

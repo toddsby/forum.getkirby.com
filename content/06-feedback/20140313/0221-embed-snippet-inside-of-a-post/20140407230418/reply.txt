@@ -1,0 +1,24 @@
+User: MelTajon
+----
+Date: 2014-04-07 23:04:18
+----
+Text: @fitzage Okay, you're right! When I added the wrapping div's, the snippet's HTML prints out perfectly, in the correct place and everything.
+
+So just to sum it up, here's what I have in my `kirbytext.extended.php`:
+
+	class kirbytextExtended extends kirbytext {
+		function __construct($text, $markdown=true) {
+			parent::__construct($text, $markdown);
+			$this->addTags('snippet');
+		}
+		function snippet($params) {
+		    $html = file_get_contents($_SERVER["DOCUMENT_ROOT"] . '/site/snippets/' . $params['snippet'] . '.php');
+		    return '<div>' . $html . '</div>';
+		}
+	}
+
+And then in the body textarea for my page, I use:
+
+`(snippet: my-snippet)`
+
+Thank you! This is a big big help for me.

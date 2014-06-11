@@ -1,0 +1,27 @@
+User: JanStieler
+----
+Date: 2013-08-31 21:46:40
+----
+Text: I don´t want to output all my articles. I want only an list with all the article documents.
+I´m actually to try to ajaxify my site :).
+And now I have an problem to got all pages for my jquery script.
+Another idea was to get the pagelinks througt anlyse the href attribute of the menu. But I don´t know if this is really clever.
+
+    $.ajaxSetup ({  
+	cache: false  
+	});
+	$('li.mainnav a').click(function(){
+		var ajaxContent = $('.ajaxContent'),
+		pageToLoad = $(this).attr('href'),
+		pageContent,
+		ajaxPlaceholder = '<i class="icon-refresh icon-spin icon-4x"></i>'; 
+				
+					
+		console.log(pageToLoad);
+					
+		$.get(pageToLoad, function(data){
+			pageContent=data;
+		ajaxContent.html(ajaxPlaceholder).load(pageContent, '.content');
+			}, 'html');		
+		return false;
+	});

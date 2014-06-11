@@ -1,0 +1,7 @@
+User: UnknownGuest
+----
+Date: 2014-02-14 03:20:36
+----
+Text: Oops, my code in the content file above didn't come out properly, but you get the idea. 
+
+Note: Fixed it now.

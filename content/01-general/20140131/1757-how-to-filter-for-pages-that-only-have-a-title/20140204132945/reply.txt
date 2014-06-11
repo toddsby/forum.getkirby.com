@@ -1,0 +1,30 @@
+User: asbiot
+----
+Date: 2014-02-04 13:29:45
+----
+Text: Indeed. That is why I thought I would put my question out there to see if someone had a really cool solution to this. I don't believe I am the only one who would like to filter a set of pages by searching for NOT existing keys, or for pages with keys that are just set i.e. `filterBy($key, <anyValue>)`.
+Anyway, I solved my specific issue the following way:
+
+    <?php
+        if ($page->hasChildren()) { 
+            # find visible folders/children
+            $visibleChildren = $page->children()->visible();
+            echo '<ul class="exhibitors">';
+
+            # Filter for visible children
+            foreach ($visibleChildren as $child) {
+
+                # Filter for pages that have a title. Since kirby uses the uid as a title automatically for active directories (format: Nr-Name) 
+                # even if they hold no content, check that the name is not equal to the uid (= folder name).
+                # For pages that hold more than just the title, create a link to the child.
+                # For visible children/folders with content that only holds a title, display just the unlinked title.
+                # Since there is no negative filter function, check for two exemplary keys to see if more than just title is set.
+                if (trim($child->title()) && (trim($child->title()) != $child->uid()) && ( !empty(trim($child->website())) or !empty(trim($child->text())) ) ) {
+                    echo '<li><a href="' . $child->url() . '" >' . $child->title() . '</a></li>';
+                }
+                elseif ( !empty(trim($child->title())) && trim($child->title()) != $child->uid() ) {
+                    echo '<li>' . $child->title() . '</li>';
+                } 
+            }
+            echo '</ul>';
+        } ?>

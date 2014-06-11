@@ -1,0 +1,7 @@
+User: fitzage
+----
+Date: 2014-04-08 18:36:27
+----
+Text: Yes, making Kirby domain agnostic as @vis7mac suggests is the best route as far as that goes. Then you can also use things like your link-local address (computername.local) which is usually easier to remember. As long as you have MAMP set up to recognize that.
+
+I have MAMP Pro set up to be localhost, then my link-local address as an alias so it recognizes that.

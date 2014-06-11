@@ -1,0 +1,17 @@
+Title: Certain blog posts not working
+----
+Date: 2013-11-04 14:57:37
+----
+Solved: 1
+----
+User: alexk
+----
+Text: Hi guys,
+
+I have a problem with my [Kirby blog](http://blog.alexanderkucera.com). I have been using it for a while and I am really happy with it overall. Last week I noticed that three blog posts throw an error 404 (for an example try to view [http://blog.alexanderkucera.com/blog/fmx_2013_–_opensubdiv](http://blog.alexanderkucera.com/blog/fmx_2013_–_opensubdiv)). I am pretty sure they worked before, because I usually check posts on the site when I publish them and I do not think that I published these unchecked.
+
+Anyway, the sitemap shows them (the entry named OpenSubdiv for example), the folders are there, the correctly named text file is in the folder and the text file has all the content that is supposed to be there. I checked and checked and checked, but I cannot think of anything that might be causing this. Even the Panel shows the pages, but when I want to edit then, I get redirected to edit my 404 page, which is really just weird.
+
+No idea how to debug this as no errors except the 404 are thrown.
+
+Any ideas?

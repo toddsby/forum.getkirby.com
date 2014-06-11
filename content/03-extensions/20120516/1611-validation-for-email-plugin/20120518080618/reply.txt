@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-05-18 08:06:18
+----
+Text: Yeah, it might seem a bit weird at first that `get()` can fetch stuff from `$_POST` and `$_GET` requests. But actually it's a shortcut for `r::get()` (link: http://toolkit.getkirby.com/docs/classes/r/get) so think about it more as getting stuff from requests in general.

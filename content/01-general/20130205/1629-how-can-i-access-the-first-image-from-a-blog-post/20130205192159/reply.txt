@@ -1,0 +1,18 @@
+User: tysongach
+----
+Date: 2013-02-05 19:21:59
+----
+Text: I am by no means a PHP expert, but you might have messed the tag up without the `<?php`?
+
+    <img src="<? echo $product->images()->first()->url() ?>" />
+
+Should be:
+
+    <img src="<?php echo $product->images()->first()->url() ?>" />
+
+
+Also, I used this (for a thumbnail) in a template and it works:
+
+    <img src="<?php echo thumb($product->images()->first(), array('width' => 200, 'height' => 200, 'crop' => true), false) ?>" />
+
+So maybe you don’t need `->url()`?

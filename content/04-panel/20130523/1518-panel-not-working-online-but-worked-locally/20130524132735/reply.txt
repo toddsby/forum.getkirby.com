@@ -1,0 +1,7 @@
+User: guillaumelobet
+----
+Date: 2013-05-24 13:27:35
+----
+Text: No the site is at the root of my domain. And the config.php seems correct to me, especially since everything else is working fine. The only thing I changed is that the homepage is set to my list of blog entries and not the regular home (but I doubt it would change anything...) .
+
+Is there anything in particular I need to double check?

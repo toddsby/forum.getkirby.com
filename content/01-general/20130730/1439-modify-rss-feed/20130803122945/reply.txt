@@ -1,0 +1,67 @@
+User: Swissendo
+----
+Date: 2013-08-03 12:29:45
+----
+Text: @russbaldwin I validated the feed with [http://feedvalidator.org/](http://feedvalidator.org/) and [http://validator.w3.org/](http://validator.w3.org/), both checks passed after changing one line back to the line from the snippet (the guid-line, no idea why I even modified it at all). I've also checked the feed with Feedly and Digg Reader, yet the problem still exists with both readers. 
+
+Here's the interesting part of my feed.php (it's really messy, I'm sorry for that):
+
+    <channel>
+      <title><?php echo (isset($title)) ? xml($title) : xml($page->title()) ?></title>
+      <link><?php echo (isset($link)) ? xml($link) : xml(url()) ?></link>
+      <generator><?php echo c::get('feed.generator', 'Kirby') ?></generator>
+      <lastBuildDate><?php echo (isset($modified)) ? date('r', $modified) : date('r', $site->modified()) ?></lastBuildDate>
+      <atom:link href="<?php echo xml(thisURL()) ?>" rel="self" type="application/rss+xml" />
+
+      <?php if($page->description() || isset($description)): ?>
+      <description><?php echo (isset($description)) ? xml($description) : xml($page->description()) ?></description>
+      <?php endif ?>
+    
+      <?php foreach($items as $item): ?>
+      <item>
+        <title><?php echo xml($item->title()) ?></title>  
+        <link><?php echo xml($item->url()) ?></link>
+        <guid><?php echo xml($item->url()) ?></guid>
+        <pubDate><?php echo ($item->date()) ? date('r', $item->date()) : date('r', $item->modified()) ?></pubDate>
+          
+        <?php if(isset($descriptionField)): ?>
+        <?php if(!$descriptionExcerpt): ?>
+        <description>
+          <?php if($item->quote() !=''): ?>
+            <?php foreach($item->quote() as $quote): ?>
+              <![CDATA[<blockquote><?php echo $quote ?></blockquote>]]>
+            <?php endforeach ?>
+          <?php elseif($item->video() !=''): ?>
+            <?php foreach($item->video() as $video): ?>
+              <![CDATA[<?php echo $video ?>]]>
+            <?php endforeach ?>
+          <?php elseif($item->fimage() !=''): ?>
+            <?php $image = $item->images()->find( html($item->fimage()) ) ?>
+              <![CDATA[<img src="<?php echo thumb($image, array('width' => 900, 'quality' => 70), false) ?>" />]]>
+          <?php elseif($item->template() == 'screenshot'): ?>
+            <?php foreach($item->images() as $image): ?>
+              <![CDATA[
+                <img src="<?php echo thumb($image, array('width' => 900, 'quality' => 70), false) ?>" />
+                <p><?php echo ($item->game()) ?> (<?php echo ($item->platform()) ?>, <?php echo ($item->year()) ?>)</p>
+              ]]>
+            <?php endforeach ?>
+          <?php elseif($item->links() !=''): ?>
+            <?php foreach($item->links() as $links): ?>
+              <![CDATA[<?php echo $links ?>]]>
+            <?php endforeach ?>
+          <?php endif ?>
+          <![CDATA[<?php echo kirbytext($item->{$descriptionField}) ?>]]>
+          <?php if($item->quote() !=''): ?>
+              <![CDATA[<a href="<?php echo xml($item->url()) ?>">✚</a>]]>
+          <?php endif ?>
+          <?php if($item->links() !=''): ?>
+              <![CDATA[<a href="<?php echo xml($item->url()) ?>">✚</a>]]>
+          <?php endif ?>
+        </description>      
+        <?php else: ?>
+        <description><![CDATA[<?php echo excerpt($item->{$descriptionField}, (isset($descriptionLength)) ? $descriptionLength : 140) ?>]]></description>
+        <?php endif ?>
+        <?php endif ?>
+      </item>
+      <?php endforeach ?>
+    </channel>

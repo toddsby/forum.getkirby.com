@@ -1,0 +1,13 @@
+Title: Access to page variables from the homepage
+----
+Date: 2013-08-07 14:23:53
+----
+Solved: 1
+----
+User: jean_francois
+----
+Text: Hi folks, I'm trying to build a snippet to feature a special page on the homepage.
+
+The user write the uid of the page in the textfield in the Panel, and I want Kirby to retrieve the image and the text from this page.
+
+I made [this](http://pastebin.com/s17vMQqP) but it's not working. I have no idea how to retrieve the page informations. The page set for featuring in the panel can be visible or invisible and anywhere in the content folder, including sub-folders.

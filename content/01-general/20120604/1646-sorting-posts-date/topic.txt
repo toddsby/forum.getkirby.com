@@ -1,0 +1,11 @@
+Title: Sorting Posts Date
+----
+Date: 2012-06-04 16:46:36
+----
+Solved: 0
+----
+User: anthonyterrell
+----
+Text: Looking for a way to sort a blog template by date. From what I can see it just orders them by creation date, based off the folder names. Any suggestions? Adding a parameter to the foreach loop?
+
+Thanks

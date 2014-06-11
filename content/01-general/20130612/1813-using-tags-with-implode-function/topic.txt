@@ -1,0 +1,29 @@
+Title: Using tags with implode function
+----
+Date: 2013-06-12 18:13:17
+----
+Solved: 1
+----
+User: roman_oroco
+----
+Text: I’m trying to use (link:http://php.net/manual/en/function.implode.php text: php implode function popup: yes) for nice comma separated tags.
+
+Invalid
+```html
+<p>Tag 1, Tag 2, Tag 3,</p>
+```
+Correct
+```html
+<p>Tag 1, Tag 2, Tag 3</p>
+```
+
+```php
+<?php
+$blog = $pages->find('blog');
+$tags = tagcloud($blog);
+?>
+
+<?php foreach($tags as $tag): ?>
+<p><?php echo implode(',', $tag->name()); ?></p>
+<?php endforeach ?>
+```

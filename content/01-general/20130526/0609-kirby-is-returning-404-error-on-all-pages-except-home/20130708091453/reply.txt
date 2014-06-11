@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-07-08 09:14:53
+----
+Text: @GeishaOnABike I presume tis is local and you might not need to alter you Virtual Hosts. Check your .htaccess first. What version of PHP are your running? Does it have mod_rewrite enabled. Have you changed anything in your Kirby config?

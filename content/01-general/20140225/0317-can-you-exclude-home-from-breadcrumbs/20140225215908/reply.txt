@@ -1,0 +1,21 @@
+User: Sciascia10
+----
+Date: 2014-02-25 21:59:08
+----
+Text: I can see there's a depth feature which the Tutorial used to output a class from the current page - but am not sure how to use it.
+
+Looking at the syntax here: http://reference.new.getkirby.com/cms/classes/site/methods/depth
+
+It should be something like:
+
+    $crumbs = $site::depth(1)->breadcrumb();
+
+But this results in 'Call to undefined method site::depth()'
+
+Have also tried:
+
+    $crumbs = $site->breadcrumb()->depth(1);
+
+Which results in a non-object error for count() when checking if there are menu items to output:
+
+    if($crumbs->count() > 0):

@@ -1,0 +1,5 @@
+User: bastianallgeier
+----
+Date: 2012-10-29 11:38:52
+----
+Text: I already have that feature request on my todo list. Still didn't find a good way to handle that in the code, but be sure that I'm working on it.

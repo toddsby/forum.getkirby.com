@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-08-04 09:31:26
+----
+Text: You could also maybe use tags and have a filter using them, I've seen quite a few directory sites that have linked dropdowns to filter results.

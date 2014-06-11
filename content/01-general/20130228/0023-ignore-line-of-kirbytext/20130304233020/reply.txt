@@ -1,0 +1,13 @@
+User: fitzage
+----
+Date: 2013-03-04 23:30:20
+----
+Text: The problem with the method @russbaldwin shows above (using spaces) is that when someone else follows your example they'll include spaces and it won't work.
+
+After working on this for a bit, I came up with this solution:
+
+    <pre>&#40;image: image.svg class: svg&#41;</pre>
+
+So basically, instead of indenting you use the standard html "pre" tags, and then you use the HTML entities for open and close parenthesis. That leaves you with this result:
+
+<pre>&#40;image: image.svg class: svg&#41;</pre>

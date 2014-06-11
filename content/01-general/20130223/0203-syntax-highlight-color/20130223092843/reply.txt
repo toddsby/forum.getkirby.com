@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-02-23 09:28:43
+----
+Text: You can use [those examples for syntax highlighting](https://github.com/bastianallgeier/kirbycms-extensions/tree/master/plugins/highlight) in this forum ;-)

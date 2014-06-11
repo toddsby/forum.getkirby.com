@@ -1,0 +1,46 @@
+User: tysongach
+----
+Date: 2012-12-30 16:11:54
+----
+Text: Are you using the Kirby Panel? If not, disregard the part about Blueprints below.
+
+Here's what I did for a client site:
+
+### Blueprint
+
+I'm using the (link: https://github.com/bastianallgeier/kirbycms-extensions/tree/master/fields/fileselect text: Fileselect extension) which puts a select field in the Panel to let you pick an uploaded file from the current page. Super easy, but not part of the standard Kirby install.
+
+    hero:
+      label: Hero Image
+      type: fileselect
+      filetype: 
+        - image
+      empty: Select a Photo
+
+
+### Content File
+
+The content file is super simple, it either has an image listed or not:
+
+    ----
+    Hero: awesome-photo.jpg
+    ----
+
+or
+
+    ----
+    Hero: 
+    ----
+
+
+### Template
+
+In the template, we first check if the Hero field in the content file is blank *or* has a zero (the fileselect field will output a zero if you unselect a file/image and return it to its 'zero' state). Then, if it isn't blank, it looks in the pages `images()` for that file name and sets it to a variable to use.
+
+    <?php if($page->hero() !='' && $page->hero() !='0'): ?>
+        <?php $image = $page->images()->find( html($page->hero()) ) ?>
+        <img src="<?php echo $image->url() ?>" alt="<?php echo $image->title() ?>" />
+    <?php endif ?>
+
+
+Hope this makes sense!

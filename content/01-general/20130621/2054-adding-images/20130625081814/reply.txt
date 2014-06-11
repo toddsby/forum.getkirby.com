@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-06-25 08:18:14
+----
+Text: So how are you expecting to load these images to see them, from your txt file - which you say works but defeats the point of Kirby? Or from your template code? Sorry still a bit confused about what you are after.

@@ -1,0 +1,11 @@
+User: tues37
+----
+Date: 2012-12-27 12:39:35
+----
+Text: The Panel has no problem accessing the other content.
+
+Screenshot:
+
+(image: https://dl.dropbox.com/u/6771576/Bildschirmfoto%202012-12-27%20um%2012.36.08.png width: 600)
+
+The file structure is very easy, each folder has subfolders, not more.

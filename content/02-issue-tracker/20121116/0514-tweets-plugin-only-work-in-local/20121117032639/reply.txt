@@ -1,0 +1,13 @@
+User: jesuismaksim
+----
+Date: 2012-11-17 03:26:39
+----
+Text: The rest of the error is where my loop begin in my code, nothing necessary..
+
+Warning: Invalid argument supplied for foreach() in /my-host/my-site/site/templates/home.php on line 62
+
+I restart from the beginning, copy/paste the code from extension repo, and it works !.. for an hour.
+
+I do it twice, and the same error appears each time. The array seems to not fill properly, sometimes.
+
+And as i wrote those lines, it works.. Its clearly on the side of Twitter auth.

@@ -1,0 +1,23 @@
+User: _nilswerner
+----
+Date: 2014-03-20 17:56:37
+----
+Text: You can add a field to your content like: 
+
+    Title: Article
+    -------
+    Widget: custom1
+    -------
+    Text:
+
+    Lorem ipsum
+
+and then do
+
+    <?php snippet('header') ?>
+    <h2><?php echo html($page->title()) ?></h2>
+    <?php snippet($page->widget()) ?>
+    <?php echo kirbytext($page->text()) ?>
+    <?php snippet('footer') ?>
+
+in your template

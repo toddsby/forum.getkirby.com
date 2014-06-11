@@ -1,0 +1,9 @@
+User: jesuismaksim
+----
+Date: 2013-02-21 19:54:52
+----
+Text: I use 
+
+	<?= str_replace('/grid:list','',thisURL()) ?>
+
+'til I found a cleaner way.

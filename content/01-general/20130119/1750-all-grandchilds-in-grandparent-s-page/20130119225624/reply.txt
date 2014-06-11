@@ -1,0 +1,13 @@
+User: ibuypink
+----
+Date: 2013-01-19 22:56:24
+----
+Text: Without testing, something like this should work:
+
+	$posts = $pages->find('news')
+		->children()
+		->children()
+		->visible()	
+		->sortBy($sort=’date’, $dir=’desc’);
+
+This will of course require a date-field in all your articles, used to show the most recent first no matter if it's a news article, event article or what it is.

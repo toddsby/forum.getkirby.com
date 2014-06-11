@@ -1,0 +1,13 @@
+Title: Get all pages with a certain key/value
+----
+Date: 2013-06-21 22:02:16
+----
+Solved: 0
+----
+User: eytanbiala
+----
+Text: I added a field to my pages to control whether it is public or private. I'm trying to get a list of all private pages using:
+
+     $pages->filterBy('mykey', 'private');
+
+but it seems to just return all pages. Any advice?

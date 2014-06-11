@@ -1,0 +1,7 @@
+User: bastianallgeier
+----
+Date: 2012-11-02 11:00:34
+----
+Text: It's good that you posted it here as well. I just fixed it on your server and it was due to a unusual setup where the root of your site is just /
+
+If anybody else should be running into similar issues, please give the latest version in the development branch a try: <http://github.com/bastianallgeier/kirbycms/tree/dev>

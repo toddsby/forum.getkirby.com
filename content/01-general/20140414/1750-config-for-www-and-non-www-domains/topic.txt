@@ -1,0 +1,13 @@
+Title: config for www and non-www domains
+----
+Date: 2014-04-14 17:50:09
+----
+Solved: 0
+----
+User: hamishtaplin
+----
+Text: So I have config for multiple hosts sets up as per http://getkirby.com/docs/advanced-stuff/custom-config-files — this allows separate configs between local/live which is awesome.
+
+However, it doesn't take into account the www prefix and will just load the default config. I totally didn't realise this and launched a site that broke when people used www and was pretty embarrassing!
+
+What's the best way to get around this? Redirect? Just include the other config in a www version?

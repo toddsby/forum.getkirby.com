@@ -1,0 +1,44 @@
+Title: Article-Image wird nicht ausgegeben
+----
+Date: 2014-04-01 17:59:43
+----
+Solved: 0
+----
+User: michelsacher
+----
+Text: Ich versuche auf meiner Blogseite das erste Bild von jedem Article auszugeben:
+
+```
+<?php echo $article->images()->first()->url() ?>
+```
+
+Allerdings wird nach dieser Zeil gar nichts mehr ausgegeben.
+
+```
+<?php var_dump("$article");?>
+```
+
+gibt mir folgendes aus:
+
+string(137) "http://lamplighter.de/lamplighter2014/blog/your-first-article"
+
+
+```
+<?php var_dump("$article->images()");?>
+``` 
+
+dann das:
+
+string(2) "()"
+
+Sprich: $article gibt mir das aus, was in $article->url() stehen sollte.
+
+So baue ich $article zusammen:
+
+```
+<?php $articles = $page->children()->visible()->flip()->paginate(5) ?>
+<?php foreach($articles as $article): ?>
+<?php endforeach ?>
+```
+
+Hat zufällig jemand eine Idee? Bis jetzt hat das immer funktioniert.

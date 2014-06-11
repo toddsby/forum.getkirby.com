@@ -1,0 +1,20 @@
+Title: Cannot sort, cannot get the file permission error messages to go away
+----
+Date: 2013-03-21 22:06:26
+----
+Solved: 0
+----
+User: evansykes
+----
+Text: I have been going in circles and trying to figure out what I have done wrong, but I cannot get my file permissions correctly. 
+
+I still get the error messages
+
+Please fix first!
+Permissions
+The permissions in your content directory are not set properly. Please change the permissions for all folders to 0755 and for all files to 0666
+Thumbnails
+Please add a thumbs directory to the main directory of your installation and change its permissions to 0755
+
+and I cannot sort my pages. 
+I went thru each and every file and folder in the content directory and set the file permissions to 0666 and the folders to 0755. Is it just the content directory or is it other folders and files that need permission changes?

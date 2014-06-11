@@ -1,0 +1,21 @@
+User: RachelTai_
+----
+Date: 2013-07-19 12:23:18
+----
+Text: FIXED.
+
+I changed a line in .htaccess from
+`RewriteRule ^panel/(.*) panel/index.php [L]`…
+to `RewriteRule ^kirbycms-panel/(.*) kirbycms-panel/index.php [L]`.
+
+Installation instructions of the Panel were slightly confusing – there's a step which said to copy and rename the `defaults` folder to `kirbycms-panel` (which I did), but a directory example given in the instructions stated `/site/panel`. Renaming `kirbycms-panel` to `panel` results in a PHP error:
+
+    PHP Warning: require_once(/Applications/MAMP/htdocs/rfd/kirby/lib/kirby.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/rfd/kirbycms-panel/index.php on line 64
+
+    PHP Fatal error:  require_once(): Failed opening required '/Applications/MAMP/htdocs/rfd/kirby/lib/kirby.php' (include_path='.:/Applications/MAMP/bin/php/php5.4.10/lib/php') in /Applications/MAMP/htdocs/rfd/kirbycms-panel/index.php on line 64
+
+(The errors were from when I was running Kirby from a rfd subfolder.)
+
+I will bring this up to Bastian.
+
+Thanks for your help, Russ!

@@ -1,0 +1,9 @@
+User: chrisburton
+----
+Date: 2012-12-12 04:38:46
+----
+Text: Could be that you need to set the time limit higher. Create a PHP file in the root of your site with the following code 
+
+    <?php phpinfo(); ?>
+
+and then link us or paste the output.

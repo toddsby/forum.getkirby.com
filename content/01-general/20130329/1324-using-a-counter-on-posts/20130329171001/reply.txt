@@ -1,0 +1,13 @@
+User: russbaldwin
+----
+Date: 2013-03-29 17:10:01
+----
+Text: Look at what's in your arrays - I think it will become clearer ;-)
+
+```php 
+<?php echo a::show($articles) ?>
+```
+
+or what ever else you are using on your other pages. 
+
+Basically I think you are filling the array with different things and hence the count will be different. If you limit to 1 - then your count will be 1...

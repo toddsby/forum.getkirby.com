@@ -1,0 +1,11 @@
+Title: Snippet dropdown to selectbox
+----
+Date: 2012-09-06 15:01:14
+----
+Solved: 0
+----
+User: tues37
+----
+Text: I’m searching for a snippet that creates a selectbox from a nested menu. Is there any solution for that?
+
+Thanks!

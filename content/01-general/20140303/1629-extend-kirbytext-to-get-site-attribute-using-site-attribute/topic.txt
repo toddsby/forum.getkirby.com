@@ -1,0 +1,38 @@
+Title: Extend kirbytext to get $site attribute using (site: attribute)
+----
+Date: 2014-03-03 16:29:25
+----
+Solved: 1
+----
+User: crisp_concepts
+----
+Text: Hi all, I'm not quite sure what I'm doing wrong here but it always returns Null() or nothing depending on which of the couple dozen variations I've tried.
+
+I've gotten an (icon: whichone howbig whatcolor) function to work without issue in the past, but that used HTML output.
+
+Is the issue that I'm trying to output PHP? Is there a workaround anyone can think of or is there already a way to retrieve variables from $site in kirbypanel editor?
+
+	class kirbytextExtended extends kirbytext {
+	
+		function __construct($text, $markdown=true) {
+			parent::__construct($text, $markdown);
+			$this->addTags('site');
+			$this->addAttributes('attribute');
+		}  
+	
+		function site($params) {
+			$search = $params['site'];
+			$defaults = array(
+				'attribute'	=> 'Null',
+				'text'		=> $search
+			);
+	
+			$options = array_merge($defaults, $params);
+	
+			$prop = '<? $site->'.$options["attribute"].'() ?>';
+			 
+			return $prop;
+	
+		}
+	
+	}

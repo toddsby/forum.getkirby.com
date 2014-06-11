@@ -1,0 +1,17 @@
+Title: Different pagination items / posts qty depending on the page?
+----
+Date: 2012-09-26 08:34:55
+----
+Solved: 0
+----
+User: ignaty
+----
+Text: Hi guys,
+
+I need different items / post qty for first and other pages.
+
+For first page (for example) I need to show 5 items / posts and for all other pages I need to show (for example) 6 of them.
+
+Any hints in what way to digg?
+
+Thank you!

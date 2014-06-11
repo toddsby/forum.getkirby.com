@@ -1,0 +1,13 @@
+User: diogochaves
+----
+Date: 2013-08-07 20:15:50
+----
+Text: To turn my tags "url-friendly", I created the following file in my plugins folder:
+(link: https://gist.github.com/diogochaves/6176801)
+
+To use it, simple call the method using the 'tag->name()' as a parameter:
+`<?php echo tagslug($tag->name()) ?>`
+
+It converts "Anual Repôrtsçãë" to "anual-reportscae" (regexp is really something).
+
+Hope it helps to solve your problem.

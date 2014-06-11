@@ -1,0 +1,10 @@
+User: bastianallgeier
+----
+Date: 2012-05-18 08:08:56
+----
+Text: @horokho yep, I'm planning to release a Kirby Theme Gallery soon, where you can download themes for all kinds of sites and also submit your own. 
+
+There are already two fantastic blog themes from Kirby users, which you might want to check out: 
+
+(link: http://kirbyblog.sashtown.de)
+(link: http://slacky.geek-rocket.de)

@@ -1,0 +1,21 @@
+User: russbaldwin
+----
+Date: 2013-01-17 13:51:11
+----
+Text: If you want to link as part of your text, add the KirbyText to your default.txt file, assuming you are using the default.php and default.txt and the picture is in your page content folder.
+
+(Replace the square brackets with rounded ones)
+
+	Title: Page Title
+	----
+	Text: Here is my picture [image: mypicture.jpg]
+	
+(the default default.php should have in it something like:
+
+      <?php echo kirbytext($page->text()) ?>
+
+Which will display the images and text
+
+There is more about this at ['Kirby Text 101'](http://getkirby.com/blog/text-formatting-101)
+
+If you want to add it from your code check out ['Adding media'](http://getkirby.com/docs/media)

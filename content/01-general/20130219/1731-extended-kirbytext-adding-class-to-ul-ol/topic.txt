@@ -1,0 +1,17 @@
+Title: Extended Kirbytext - Adding class to ul/ol
+----
+Date: 2013-02-19 17:31:25
+----
+Solved: 1
+----
+User: jesuismaksim
+----
+Text: Was wondering if somebody already did it (or if its already possible)..
+
+I need some custom classes on some ul/ol list on the site I'm workin on. This class will active (or not) a tab-styled list.
+
+	(list:tab)
+	- (img: image1.jpg) Text 1
+	- (img: image2.jpg) Text 2
+
+* replace img by image

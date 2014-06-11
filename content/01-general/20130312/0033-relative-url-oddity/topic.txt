@@ -1,0 +1,21 @@
+Title: Relative URL Oddity
+----
+Date: 2013-03-12 00:33:15
+----
+Solved: 1
+----
+User: richardhellyer
+----
+Text: For a variety of reasons I have to use html in my text file for a page and in that html I need to include an image from the 'assets/images/' folder. so, I have something like this:
+
+    <li><img src="assets/images/foo.png"> lorem ...</li>
+
+But that doesn't work because it resolves to a location something like:
+   http://localhost/kirbyness/index.php/foopage/assets/images/person-red.png
+
+I can fix this by making the src attribute absolute, but then I'd need to change it when I move the site to a different domain. Also, I can't use the ( image: ... ) kirby text because the image is inside another block level bit of html ... and , finally, I can't just create a template for this bit (for a variety of reasons)
+
+Any suggestions, or are there some things I've not considered that I am missing?
+
+Many many thnks
+Richard

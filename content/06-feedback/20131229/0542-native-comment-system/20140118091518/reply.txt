@@ -1,0 +1,9 @@
+User: bydsply
+----
+Date: 2014-01-18 09:15:18
+----
+Text: I just found this: 
+<http://tutorialzine.com/2010/06/simple-ajax-commenting-system/>
+
+This can help.
+Chris.

@@ -1,0 +1,24 @@
+Title: How do I add home.txt content at top of blog.php template?
+----
+Date: 2013-11-18 03:36:45
+----
+Solved: 1
+----
+User: artsydesigny
+----
+Text: Hi there,
+
+I hard coded the content from my home page right into the blog.php template.
+
+See my work here…
+www.artsydesigny.com  (The Blog is my homepage)
+
+www.artsydesigny.com/home (this is the hidden home page)
+
+I know I shouldn't have hard coded it right in. Is there PHP code I could put at the top instead that would grab the content from my home.txt Content file?
+
+My skills in PHP are very limited.
+
+Thanks for your help!
+
+Robert Scozzari

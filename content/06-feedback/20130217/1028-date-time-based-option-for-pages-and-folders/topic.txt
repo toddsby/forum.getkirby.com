@@ -1,0 +1,21 @@
+Title: Date/Time based option for pages and folders
+----
+Date: 2013-02-17 10:28:03
+----
+Solved: 0
+----
+User: russbaldwin
+----
+Text: Date/Time based order option as well as the current numerical order of pages and folders.
+Mainly for blogs or news type folders and pages. 
+e.g. ISO date 2013/12/31 (year/month/date)
+
+It would of course be nice if the URL controlled the display e.g.
+
++ blog/2013 - gives all the articles for 2013
++ blog/2013/02 - gives all the articles for Feb 2013
++ blog/2013/02/22 - gives all the articles for 22nd Feb 2013
+
+But I guess you can do this in code.
+
+Or something similar ;-)

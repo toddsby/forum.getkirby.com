@@ -1,0 +1,14 @@
+User: corvine74
+----
+Date: 2014-04-02 00:51:28
+----
+Text: I can get pages to show in the first level folders but nothing from deeper folders.
+
+Example:
+
+folder 1 > folder 2 > folder 2 page
+folder 1 > folder 2 > folder 3> folder 3 page
+
+I am trying to list pages no matter the folder depth that have the tag I define.
+
+I can't figure out how to go past the "folder 2" level.

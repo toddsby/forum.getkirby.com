@@ -1,0 +1,7 @@
+User: tysongach
+----
+Date: 2013-04-24 21:44:27
+----
+Text: Did you add a class of `tagcloud` to the `ul` element, as I mentioned?
+
+You need to have a class/id in your HTML so that your CSS knows what to style.

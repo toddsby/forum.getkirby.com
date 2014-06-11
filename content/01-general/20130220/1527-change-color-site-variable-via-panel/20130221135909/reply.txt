@@ -1,0 +1,21 @@
+User: lulezi
+----
+Date: 2013-02-21 13:59:09
+----
+Text: This should be possible. I guess the problem here is the following line:
+
+```php
+<?php $color = ($site->color() != 'white') ?>
+```
+
+After this line `$color` is always `true` (which is obviously not a color but a boolean value). I'd suggest you to delete that line and use the following code instead:
+
+```php
+<style>
+  body {
+    background-color: <?php echo $site->color() ?>;
+  }
+</style>
+```
+
+PS: I don't know anything about your content administrator but if it is anyone but you, I'd do a `<select>` instead of a plain ol' textfield as it ensures that there's a valid color value provided.

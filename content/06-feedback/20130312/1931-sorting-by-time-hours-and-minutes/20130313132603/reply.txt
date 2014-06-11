@@ -1,0 +1,13 @@
+User: russbaldwin
+----
+Date: 2013-03-13 13:26:03
+----
+Text: I think you would need to create a new or extra field for panel which is maybe based upon the current one but stored a time and date. 
+
+Although slightly against the Kirby text idea, perhaps a UNIX date/time stamp format? 
+
+Also if you format the date like:
+`yyyy-mm-dd hh:mm:ss 
+ 2013-03-13 12:25:00
+`
+It would aid sorting?

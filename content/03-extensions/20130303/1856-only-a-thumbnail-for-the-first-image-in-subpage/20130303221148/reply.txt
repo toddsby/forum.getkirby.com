@@ -1,0 +1,41 @@
+User: JanStieler
+----
+Date: 2013-03-03 22:11:48
+----
+Text: Ah okay, thank you very much!
+EDIT: Sorry but i does´nt get it work.
+
+	<ul id="tiles">
+	<? if(param('tag')) {	
+	$articles = $pages->find('wookmark')
+	->children()
+	->visible()
+	->filterBy('tags', param('tag'), ',')
+	->flip();
+	} else {		
+	$articles = $pages->find('wookmark')
+	->children()
+	->visible()
+	->flip();		
+	} ?>
+	<?php foreach($articles as $article): ?>
+	<?php $firstimage = $article->images()
+	->first(); ?>
+	<li class="<?php foreach(str::split($article->tags()) as $tag): ?><?php echo $tag ?> <?php endforeach ?>">
+	<a href="<?php echo $article->url() ?>" title="<?php echo html($article->title()) ?>">
+	<?php foreach($firstimage as $image): ?><?php echo thumb($image, array('width' => 150, 'quality' => 70)) ?><?php endforeach ?>
+	<span class="caption"><?php echo '<h2>', html($article->title()), '</h2>', kirbytext($image->caption()) ?></span>
+	</a>
+	</li>         
+	<?php endforeach ?>
+	</ul>
+I tryed to use ->first() inside the foreach
+		<?php foreach($article->images()->first() as $image): ?><?php echo thumb($image, array('width' => 150, 'quality' => 70)) ?><?php endforeach ?>
+
+I´m a neebie in php, and I don´t understand why it doesn´t work.
+I think the mainproblem is
+
+	<?php $firstimage = $article->images()
+	->first(); ?>
+
+Greetings

@@ -1,0 +1,15 @@
+User: russbaldwin
+----
+Date: 2013-02-08 09:12:45
+----
+Text: Something like this?
+
+1. For '.png' images
+```php
+    <?php foreach($page->images()->filterBy('extension', 'png') as $image): ?>
+```
+
+2. For '.jpg' images
+```php
+    <?php foreach($page->images()->filterBy('extension', 'jpg') as $image): ?>
+```

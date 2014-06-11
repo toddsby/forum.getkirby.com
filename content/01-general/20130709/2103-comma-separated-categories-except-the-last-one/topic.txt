@@ -1,0 +1,17 @@
+Title: Comma separated categories except the last one
+----
+Date: 2013-07-09 21:03:07
+----
+Solved: 1
+----
+User: aqeelfikree
+----
+Text: How do I separate categories by a comma except for the last category
+
+    <ul class="category">
+    <?php foreach(str::split($article->categories()) as $category): ?>
+    <li><a href="<?php echo url('category:' . urlencode($category)) ?>"><?php echo $category; ?></a></li>
+    <?php endforeach ?>
+    </ul>
+
+I tried some stuff from (link: http://getkirby.com/forum/general/topic:124) but couldn't get to what I want.

@@ -1,0 +1,5 @@
+User: russbaldwin
+----
+Date: 2013-03-27 08:46:46
+----
+Text: If you are local try 0777 on all 'content' and subs, required on my Mac.

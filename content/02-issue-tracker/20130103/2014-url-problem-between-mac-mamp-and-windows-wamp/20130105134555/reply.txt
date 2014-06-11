@@ -1,0 +1,5 @@
+User: me_arno
+----
+Date: 2013-01-05 13:45:55
+----
+Text: A I see, on win all : change to ; as in expected behavior :-)

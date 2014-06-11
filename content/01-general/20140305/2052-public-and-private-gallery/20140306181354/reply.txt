@@ -1,0 +1,5 @@
+User: fitzage
+----
+Date: 2014-03-06 18:13:54
+----
+Text: By default they shouldn't be indexed  because nothing is linking to them, so the search engines can't find them (as long as they're not in a sitemap.xml or something). You could also use your robots.txt to have them ignored.
