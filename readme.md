@@ -16,7 +16,8 @@ git clone --recursive https://github.com/getkirby/forum.getkirby.com.git
 ```
 
 1. Make sure to create a `site/accounts` folder which is writable
-2. Create a `site/config/config.php` and add the following config variables: 
+2. Make sure that all folders and files within `content` are writable
+3. Create a `site/config/config.php` and add the following config variables: 
 
 ```
 c::set('forum.token', 'random-secret-token');
