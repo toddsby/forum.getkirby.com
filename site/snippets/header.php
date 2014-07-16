@@ -12,36 +12,40 @@
   <?php echo css('assets/css/jquery.atwho.css') ?>
   <?php echo css('assets/css/site.css') ?>
   <?php echo css('assets/css/form.css') ?>
-  <?php echo css('assets/css/btn.css') ?>
 
 </head>
-  <body class="forum">
+<body>
+  <!--[if lte IE 9]>
+  <div class="browserupdate">
+    You are using an obsolete browser which can harm your experience and cause security trouble. Please <a href="http://browsehappy.com/" target="_blank">update your browser!</a>
+  </div>
+  <![endif]-->
 
-    <header class="header cf">
+  <header class="site-header cf" role="banner">
 
-      <h1 class="logo"><a href="<?php echo url() ?>">kirby <small>forum</small></a></h1>
+    <a class="logo" href="<?php echo url() ?>">kirby <span>forum</span></a>
 
-      <nav class="menu cf">
-        <ul>
-          <?php foreach($site->find('home', 'search') as $item): ?>
-          <li class="menu-item<?php e($item->isOpen(), ' menu-item-is-active') ?>"><a href="<?php echo $item->url() ?>"><?php echo html($item->title()) ?></a></li>
-          <?php endforeach ?>
-        </ul>
-      </nav>
+    <nav class="nav-main" role="navigation">
 
-      <nav class="menu user cf">
-        <ul>
-          <?php if($user = $site->user()): ?>
-          <li class="menu-item<?php e(url::current() == site()->user()->url(), ' menu-item-is-active') ?>"><a href="<?php echo $user->url() ?>">@<?php echo html($user->username()) ?></a></li>
-          <li class="menu-item"><a href="<?php echo url('logout') ?>">Sign out <small class="menu-item-arr">&rarr;</small></a></li>
-          <?php else: ?>
-          <li class="menu-item"><a href="<?php echo url('login') ?>">Sign in via Twitter <small class="menu-item-arr">&rarr;</small></a></li>
-          <?php endif ?>
-        </ul>
-      </nav>
+      <ul class="nav cf">
+        <?php foreach($site->find('home', 'search') as $item): ?>
+        <li class="menu-item<?php e($item->isOpen(), ' is-active') ?>"><a href="<?php echo $item->url() ?>"><?php echo html($item->title()) ?></a></li>
+        <?php endforeach ?>
+      </ul>
 
-    </header>
+      <ul class="nav nav-right cf user">
+        <?php if($user = $site->user()): ?>
+        <li class="menu-item<?php e(url::current() == site()->user()->url(), ' is-active') ?>"><a href="<?php echo $user->url() ?>">@<?php echo html($user->username()) ?></a></li>
+        <li class="menu-item"><a href="<?php echo url('logout') ?>">Sign out <small class="menu-item-arr">&rarr;</small></a></li>
+        <?php else: ?>
+        <li class="menu-item"><a href="<?php echo url('login') ?>">Sign in via Twitter <span class="arrow">&rarr;</span></a></li>
+        <?php endif ?>
+      </ul>
 
-    <?php snippet('notification') ?>
+    </nav>
 
-    <main class="page">
+  </header>
+
+  <?php snippet('notification') ?>
+
+  <main class="page" role="main">

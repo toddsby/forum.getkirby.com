@@ -5,7 +5,7 @@
     <input class="input" type="search" name="q" placeholder="Search…" value="<?php echo htmlspecialchars(get('q')) ?>" autofocus required>
   </div>
   <div class="buttons">
-    <input class="btn btn-rounded" type="submit" value="Search">
+    <input class="btn" type="submit" value="Search">
   </div>
 </form>
 

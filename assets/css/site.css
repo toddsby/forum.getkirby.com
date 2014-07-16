@@ -1,8 +1,17 @@
+/***************************************************
+
+****** forum.getkirby.com ******
+
+*** Author: Bastian Allgeier GmbH
+
+****************************************************/
+
 @import url(//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,400italic);
 
 *, *:before, *:after {
   margin: 0;
   padding: 0;
+  border: 0;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -11,9 +20,38 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, main, nav, section, summary {
   display: block;
 }
+ol, ul {
+  list-style: none;
+}
 
+
+
+/*
+ :::  Base
+-------------------------------------------------- */
+html {
+  font-size: 100%;
+  min-height: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+@media screen and (min-width: 47em) {
+  html {
+    border: .5em solid #eee;
+  }
+}
 body {
+  margin: 0 auto;
+  max-width: 1100px;
+  padding: 1em .7em;
   font-size: 1em;
+  background: #fff;
+  color: #222;
+  line-height: 1;
+}
+@media screen and (min-width: 47em) {
+  body {
+    padding: 2em;
+  }
 }
 body, input, button, textarea, select {
   font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
@@ -24,18 +62,31 @@ img {
   max-width: 100%;
 }
 
+
+
+/*
+ :::  Links
+-------------------------------------------------- */
 a {
-  color: red;
+  color: #222;
   text-decoration: none;
-  transition: border-color .3s, color .3s, background .3s, opacity .3s;
+  -webkit-transition: background .3s, color .3s, opacity .3s, border-color .3s;
+  transition: background .3s, color .3s, opacity .3s, border-color .3s;
 }
 a:hover {
-  color: #000;
+  color: red;
+}
+.text a {
+  font-weight: inherit;
+  font-style: italic;
+  border-bottom: 2px solid #ddd;
+}
+.text a:hover {
+  border-color: #222;
 }
 
-p {
-  margin-bottom: 1.5em;
-}
+
+
 
 h1 a,
 h2 a,
@@ -44,6 +95,15 @@ h4 a,
 h5 a,
 h6 a {
   color: inherit;
+}
+.alpha {
+  font-size: 36px;
+  font-size: 2.25rem;
+  font-weight: 400;
+  line-height: 1.25em;
+}
+.text h1 {
+  margin: 0 0 .5em 0;
 }
 
 hr {
@@ -77,27 +137,20 @@ blockquote {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.text h1,
-.text h2,
-.text h3,
-.text h4 {
+.topic-body .text h1,
+.topic-body .text h2,
+.topic-body .text h3,
+.topic-body .text h4 {
   font-size: 1em;
   font-weight: 600;
   margin-bottom: 1.5em;
 }
-
-.text a {
-  color: #000;
-  border-bottom: 2px solid #ddd;
-  font-style: italic;
-}
-.text a:hover {
-  color: red;
-  border-color: #000;
+.text p {
+  margin-bottom: 1.5em;
 }
 .text code {
   font-family: Menlo, "Courier New", monospace;
-  font-size: .86em;
+  font-size: .75em;
 }
 .text p > code {
   background: #ddd;
@@ -108,7 +161,7 @@ blockquote {
   display: block;
   margin-bottom: 1.5em;
   overflow: auto;
-  background: #000;
+  background: #222;
   color: #fff;
   padding: 1em;
 }
@@ -125,87 +178,151 @@ blockquote {
   margin-bottom: 0;
 }
 
-.forum {
-  margin: 0 auto;
-  padding: 1.5em 1.5em 9em;
-}
 
-.header {
+
+/*
+ :::  Header
+-------------------------------------------------- */
+.site-header {
+  position: relative;
+  margin-bottom: 3em;
   border-bottom: 2px solid red;
-  margin-bottom: 1.5em;
 }
-
+@media only screen and (max-width: 47em) {
+  .site-header {
+    overflow: hidden;
+  }
+}
 .logo {
-  margin-bottom: 1em;
-  font-size: 1em;
-}
-.logo a {
-  display: block;
-  font-size: 2em;
-  text-transform: lowercase;
-  font-weight: 400;
-  padding: .5em 0 .5em 2em;
-  background: url(../images/kirbyicon.png) no-repeat left center;
-  background-size: 1.45em 1.45em;
-}
-.logo small {
-  font-size: 1em;
-  font-weight: 300;
-  padding-left: .1em;
-}
-
-/* main menu */
-.menu li {
-  list-style: none;
-}
-.menu-item > a {
-  display: block;
-  font-weight: 600;
-  border-top: 1px solid #ddd;
-  padding: .75em 0;
-  color: #000;
-}
-.menu-item-arr {
-  font-size: 1em;
-  font-weight: 400;
   display: inline-block;
-  padding-left: .5em;
-  color: red;
+  position: relative;
+  padding: .5em 0 .5em 2em;
+  font-size: 2em;
+  z-index: 999;
+  text-transform: lowercase;
+  background: url(../images/kirbyicon.png) no-repeat left center;
 }
-.menu-item > a:hover,
-.menu-item-is-active > a {
-  color: red;
+.logo span {
+  font-weight: 300;
+  color: #999;
+}
+.logo:hover {
+  color: inherit;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  .logo {
+    background-image: url(../images/kirbyicon@2x.png);
+    background-size: 45px 51px;
+  }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 3) {
+  .logo {
+    background-image: url(../images/kirbyicon@3x.png);
+    background-size: 45px 51px;
+  }
 }
 
-@media screen and (min-width: 55em) {
 
-  .menu {
+
+/*
+ :::  Navigation base
+-------------------------------------------------- */
+.nav li a {
+  display: block;
+  padding: 1em 0;
+  border-top: 1px solid #ddd;
+}
+.nav > li > a:hover,
+.nav > li.is-active > a {
+  color: red;
+}
+@media screen and (min-width: 47em) {
+  .nav {
     float: left;
   }
-  .menu.user {
+  .nav li {
+    float: left;
+    position: relative;
+    display: inline-block;
+    margin-right: 2em;
+  }
+  .nav li:last-child {
+    margin-right: 0;
+  }
+  .nav li a {
+    border-top: none;
+  }
+  .nav-main .nav-right,
+  .nav-right {
     float: right;
   }
-  .menu.user ul {
-    margin-left: 0;
-    margin-right: -1em;
-  }
+}
 
-  .logo {
-    margin-bottom: 3em;
-  }
 
-  .menu ul {
-    margin-left: -1em;
-  }
-  .menu-item {
-    float: left;
-  }
-  .menu-item > a {
-    display: block;
-    padding: 1em;
-    border: 0;
+
+/*
+ :::  Main navigation
+-------------------------------------------------- */
+.nav-main {
+  padding-top: 2em;
+}
+.nav-main a {
+  font-weight: 600;
+}
+.arrow {
+  display: inline-block;
+  padding-left: .5em;
+  font-weight: 400;
+  color: red;
+}
+
+
+
+/*
+ :::  Buttons
+-------------------------------------------------- */
+[class*='btn'] {
+  display: inline-block;
+  padding: .5em 1.5em;
+  font-size: 1em;
+  font-weight: 600;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 5em;
+  border-color: #222;
+  color: #222;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color .3s, color .3s, border-color .3s;
+}
+[class*='btn']:hover,
+[class*='btn']:focus {
+  background-color: #222;
+  color: #fff;
+}
+
+.btn-negative {
+  border-color: #b3000a;
+  color: #b3000a;
+}
+.btn-negative:focus {
+  background: #b3000a;
+}
+
+.btn-nav .btn {
+  display: block;
+  text-align: center;
+  margin-bottom: 1em;
+}
+@media screen and (min-width: 30em) {
+  .btn-nav .btn {
+    display: inline-block;
+    text-align: center;
+    margin-right: .5em;
   }
 }
+
+
 
 
 .notification {
@@ -231,12 +348,12 @@ blockquote {
   color: inherit;
 }
 .date a:hover {
-  color: #000;
+  color: #222;
 }
 
 /* black pill counters */
 .counter {
-  background: #000;
+  background: #222;
   color: #fff;
   display: inline-block;
   padding: .3em .75em;
@@ -244,12 +361,13 @@ blockquote {
   border-radius: 10em;
   font-size: .9em;
   font-weight: 300;
+  transition: background-color .3s;
 }
 .counter a {
   color: inherit;
 }
-.counter a:hover {
-  color: #999;
+.counter:hover {
+  background-color: red;
 }
 
 /* Breadcrumb */
@@ -264,7 +382,7 @@ blockquote {
   display: inline-block;
 }
 .breadcrumb li:last-child a {
-  color: #000;
+  color: #222;
 }
 .breadcrumb li:last-child a:after {
   display: none;
@@ -327,6 +445,9 @@ blockquote {
   font-weight: 400;
   line-height: 1.25em;
 }
+.thread:last-of-type {
+  border-bottom: none;
+}
 .thread p {
   margin-bottom: .5em;
   line-height: 1.5em;
@@ -343,6 +464,9 @@ blockquote {
 .topic {
   border-bottom: 1px dashed #ddd;
 }
+.topic:last-of-type {
+  border-bottom: none;
+}
 .topics .topic:last-child {
   border-bottom: 0;
 }
@@ -358,6 +482,7 @@ blockquote {
   font-weight: 400;
   vertical-align: middle;
   padding: 1em 0;
+  line-height: 1.5em;
   margin-left: 3em;
 }
 .topic-is-solved .topic-headline {
@@ -379,10 +504,6 @@ blockquote {
 .topic-reply-counter {
   display: inline-block;
   vertical-align: middle;
-}
-
-.topic-details {
-  border-bottom: 2px solid #ddd;
 }
 .topic-details .topic-header {
   border-bottom: 1px dashed #ddd;
@@ -513,16 +634,11 @@ blockquote {
 
 
 
-
 @media screen and (min-width: 55em) {
 
   .notification {
     left: 3em;
     right: 3em;
-  }
-
-  .forum {
-    padding: 3em 3em 9em;
   }
 
   .thread p {
@@ -567,7 +683,7 @@ blockquote {
   }
 
   .text {
-    font-size: 1.5em;
+    font-size: 1.25em;
   }
 
   .reply-header {
@@ -592,4 +708,111 @@ blockquote {
     margin-right: 10em;
   }
 
+}
+
+
+
+/*
+ :::  Footer
+-------------------------------------------------- */
+.site-footer {
+  margin-top: 3rem;
+  padding: 0 0 3em 0;
+  font-size: 0.9em;
+  border-top: 2px solid red;
+}
+.site-footer p {
+  padding: 1em 0;
+  line-height: 1em;
+}
+@media screen and (min-width: 47em) {
+  .site-footer p {
+    float: left;
+  }
+}
+
+
+
+/*
+ :::  Kirby ♥
+-------------------------------------------------- */
+.red {
+  color: red;
+}
+
+
+
+/*
+ :::  Browserupdate
+-------------------------------------------------- */
+.browserupdate {
+  display: block;
+  margin-bottom: 3em;
+  padding: 2em;
+  color: #fff;
+  text-align: center;
+  background-color: red;
+}
+.browserupdate a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+
+
+/*
+ :::  Error page
+-------------------------------------------------- */
+.error .wrap {
+  position: absolute;
+  padding: 1.5em;
+  top: 50%;
+  left: 50%;
+  border: 2px dashed #ddd;
+  min-width: 16em;
+  text-align: center;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  background-image: -webkit-repeating-linear-gradient(135deg, transparent, transparent 10px, rgba(180,180,180,.1) 10px, rgba(180,180,180,.1) 30px);
+  background-image: repeating-linear-gradient(135deg, transparent, transparent 10px, rgba(180,180,180,.1) 10px, rgba(180,180,180,.1) 30px);
+}
+.error header {
+  margin-bottom: 1.5em;
+  padding-bottom: 1em;
+}
+.error .btn {
+  display: inline-block;
+  background-color: #fff;
+  margin-top: 1em;
+}
+.error .text p {
+  font-size: 18px;
+  line-height: 1.5em;
+}
+.error .btn:hover {
+  background-color: #222;
+}
+
+
+/* border-animation */
+.border-animation {
+  -webkit-animation: border-animation 1s 1s infinite ease-in-out normal both;
+  animation: border-animation 1s 1s infinite ease-in-out normal both;
+}
+@-webkit-keyframes border-animation {
+  0% {
+    border-color: #ddd;
+  }
+  50% {
+    border-color: #999;
+  }
+}
+@keyframes border-animation {
+  0% {
+    border-color: #ddd;
+  }
+  50% {
+    border-color: #999;
+  }
 }

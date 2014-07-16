@@ -1,5 +1,3 @@
 Title: Kirby Forum
 ----
-Description:
-----
-Keywords:
+Copyright: © 2009-(date: Year) (link: http://bastianallgeier.com text: Bastian Allgeier GmbH)
